@@ -1,0 +1,142 @@
+\section{Relativistic Spacetime, Matter \& Gravitation}
+
+\subsection{Lorentz Force Law}
+
+\mybox{
+\textbf{Question}: Recall from the lecture that for a particle coupling to the electromagnetic potential, we have 
+\bse 
+    m\big(\nabla_{v_{\gamma}}v_{\gamma}\big)^a = q{F^a}_b{v_{\gamma}}^b,
+\ese 
+where $v_{\gamma}$ is the velocity of a particle of mass $m$ and charge $q$.
+
+Now "$1+3$"-decompose this equation in components with respect to the frame of an observer.
+}
+
+\textbf{Solution}: The observer $(\del,e)$ has a frame such that 
+\bse 
+    g(e_a,e_b) = \eta_{ab}, \qand e_0(\lambda) = v_{\del,\del(\lambda)}.
+\ese 
+We thus have 
+\bse 
+    m\big(\nabla_{v_{\gamma}}v_{\gamma}\big)^a = qF^{ac}\eta_{cb}{v_{\gamma}}^b,
+\ese 
+and so 
+\bse 
+    \begin{split}
+        m\big(\nabla_{v_{\gamma}}v_{\gamma}\big)^0 & = qF^{00}{v_{\gamma}}^0 + \sum_{\beta=1}^3 qF^{0\beta}{v_{\gamma}}^{\beta} \\
+        m\big(\nabla_{v_{\gamma}}v_{\gamma}\big)^{\a} & = -qF^{\a0}{v_{\gamma}}^0 - \sum_{\beta=1}^3 qF^{\a\beta}{v_{\gamma}}^{\beta}.
+    \end{split}
+\ese 
+
+
+\mybox{
+\textbf{Question}: Using the definitions $E_{\a}$ := $F_{\a0}$ for the electric field and $B^{\a} := \frac{1}{2}\varepsilon^{\a\rho\sig}F_{\rho\sig}$ for the magnetic 2
+field seen by an observer, bring the right hand side of the above equation to the familiar form of the Lorentz force law for a particle of charge $q$ and spatial velocity
+\bse 
+    \mathbf{v} := \bigg(\frac{e^{\a}:v_{\del}}{e^0:v_{\del}}\bigg) e_{\a} \qquad (\a=1,2,3\text{ and careful: the denominator was forgotten in lectures})
+\ese 
+that the observer detects for the particle. 
+
+\textit{Hint: $(a\times b)^{\a} = g^{\a\mu}\varepsilon_{\mu\rho\sig}a^{\rho}b^{\sig}$, $\varepsilon_{123}=1$ and $\epsilon^{123}=1$.}
+}
+
+\textbf{Solution}: We set 
+\bse 
+    \cF^{\a} = m \big(\nabla_{v_{\del}}v_{\del}\big)^{\a} = q{F^{\a}}_b{v_{\del}}^b,
+\ese
+where $\cF$ is the Lorentz force, up to some factors. We can split the right-hand side into two terms, one for $b=0$ and the other for $b=\beta$. For the former we note that 
+\bse 
+    \eta^{\a\beta}E_{\beta} = \eta^{\a\beta}F_{\beta0} = {F^{\a}}_0,
+\ese 
+so, using $\epsilon^0:(v_{\del}) = {v_{\del}}^0$, the first term is simply 
+\bse 
+    q\eta^{\a\beta}E_{\beta}\big(\epsilon^0:v_{\del}\big).
+\ese 
+The second term need a little more work, but we start using the hint: using $g^{ab}=\eta^{ab}$ in the observers frame, we have
+\bse 
+    (v_{\del}\times B)^{\a} = \eta^{\a\mu}\varepsilon_{\mu\rho\sig} {v_{\del}}^{\rho}B^{\sig} := \frac{1}{2}\eta^{\a\mu}\varepsilon_{\mu\rho\sig}\varepsilon^{\sig\nu\tau} {v_{\del}}^{\rho}F_{\nu\tau}. 
+\ese 
+We see that the $\eta^{\a\mu}$ tells us that $\mu=\a$ in the Levi-Civita symbol. By definition, the only non-vanishing terms on the right, then, have $\rho\neq\sig\neq\a$. Let's consider the case for $\a=1$ (the other two follow analogously)
+\bse 
+    \begin{split}
+        \frac{1}{2}\eta^{1\mu}\varepsilon_{\mu\rho\sig}\varepsilon^{\sig\nu\tau}F_{\nu\tau}{v_{\del}}^{\rho} & = \frac{1}{2}\varepsilon_{123}\big(\varepsilon^{312}F_{12} + \varepsilon^{321}F_{21}\big){v_{\del}}^2 + \frac{1}{2}\varepsilon_{132}\big(\varepsilon^{213}F_{13} + \varepsilon^{231}F_{31}\big){v_{\del}}^3 \\
+        & = \frac{1}{2} \varepsilon_{123} \big( \varepsilon^{123}F_{12} + (-\varepsilon^{123})(-F_{12})\big) {v_{\del}}^2 + \frac{1}{2} (-\varepsilon_{123}) \big( (-\varepsilon^{123})F_{13} + \varepsilon^{123}(-F_{13})\big){v_{\del}}^3 \\
+        & = F_{12}{v_{\del}}^2 + F_{13}{v_{\del}}^3,
+    \end{split}
+\ese 
+where we have indicated where the antisymmetries of $\varepsilon$ and $F$ have been used, and we have also used $\varepsilon_{123}=1=\varepsilon^{123}$. This generalises to 
+\bse 
+    \frac{1}{2}\eta^{\a\mu}\varepsilon_{\mu\rho\sig}\varepsilon^{\sig\nu\tau}F_{\nu\tau}{v_{\del}}^{\rho} = \eta^{\a\sig}F_{\sig\beta}{v_{\del}}^{\beta} = {F^{\a}}_{\beta}{v_{\del}}^{\beta},
+\ese
+where we note the fact that $F_{\a\a}=0$ due to antisymmetry. 
+
+So the second term in our Lorentz force equation is simply 
+\bse 
+    q{F^{\a}}_{\beta}{v_{\del}}^{\beta} = q\big( v_{\del} \times B \big)^{\a},
+\ese 
+giving us 
+\bse 
+    \cF^{\a} = q\eta^{\a\beta} E_{\beta} \big( \epsilon^0:v_{\del}\big) + q\big(v_{\del}\times B\big)^{\a}.
+\ese 
+Finally, we note that  
+\bse 
+    \frac{1}{(\epsilon^0:v_{\del})} \big(v_{\del}\times B\big)^{\a} = \big(\mathbf{v}\times B\big)^{\a},
+\ese 
+as everywhere in the calculation above we'll get terms like 
+\bse 
+    \frac{v_{\del}^\rho}{(\epsilon^0:v_{\del})} = \frac{(\epsilon^\rho:v_{\del})}{(\epsilon^0:v_{\del})} =: \mathbf{v}^{\rho}.
+\ese 
+This gives us the form we want on the right-hand side, i.e.
+\bse 
+    \frac{1}{(\epsilon^0:v_{\del})}\cF^{\a} = q\eta^{\a\beta}E_{\beta} + q\big(\mathbf{v}\times B\big)^{\a}. 
+\ese 
+
+\subsection{Which Curvature Can Feature In Einstein’s Equations?}
+
+\mybox{
+This questions asks to show that the differential Bianchi identity holds for the Riemann tensor. This was given as an exercise in the lecture. 
+
+If the reader couldn't work it out there, \href{https://math.stackexchange.com/questions/1494262/direct-proof-of-the-second-bianchi-identity}{this link} should prove helpful. Note the notation is slightly different in the link, but of course the answer is the same.
+
+I didn't include this link in the notes to hopefully avoid temptation of just looking up the answer.
+}
+
+\mybox{
+\textbf{Question}: The above component-free version can equivalently be written as 
+\bse 
+    {R^w}_{zab;c} + {R^w}_{zbc;a} + {R^w}_{zca;b} = 0.
+\ese
+Using this result, show that by appropriate contractions one obtains
+\bse 
+    (\nabla_aG)^{ab}=0.
+\ese 
+}
+
+\textbf{Solution}: First use the antisymmetry to give 
+\bse 
+    {R^w}_{zab;c} + {R^w}_{zbc;a} + {R^w}_{zca;b} = {R^w}_{zab;c} + {R^w}_{zbc;a} - {R^w}_{zac;b}.
+\ese 
+Now, we can use the fact that $\nabla$ is metric-compatible and the result 
+\bse 
+    g^{av}g_{vw} = \del^a_w
+\ese
+to give
+\bse 
+    \begin{split}
+        g^{av}g_{vw}\big({R^w}_{zab;c} + {R^w}_{zbc;a} + {R^w}_{zca;b}\big) & = {R^a}_{zab;c} + {R^a}_{zbc;a} - {R^a}_{zac;b} \\
+        & = R_{zb;c} - R_{zc;b} + {R^a}_{zbc;a}.
+    \end{split}
+\ese 
+Then contract with $g^{bz}$ along with the results $R^{\,\,\,a}_{z\,\,\,bc} = -{R^a}_{zbc}$\footnote{We essentially showed this result in tutorial 9 (we showed $R_{abcd}=-R_{bacd}$).} and $R:= g^{ab}R_{ab}$ to give 
+\bse 
+    \begin{split}
+        g^{bz}\big(R_{zb;c} - R_{zc;b} + {R^a}_{zbc;a}\big) & = R_{;c} - {R^b}_{c;b} - {R^{ba}}_{bc;a} \\
+        & = R_{;c} - {R^b}_{c;b} - {R^a}_{c;a} \\
+        & = R_{;c} - 2{R^b}_{c;b}.
+    \end{split}
+\ese 
+Finally using the fact that the Ricci tensor is symmetric,\footnote{This result is obtained from $R_{abcd}=R_{cdab}$, then setting $a=c$ and raising the first index back up.} and contracting with $g^{ac}$, we have (after relabelling)
+\bse 
+    \big(\nabla_aG)^{ab} = {R^{ab}}_{;a} - \bigg(\frac{1}{2}g^{ab}R\bigg)_{;a} = 0.
+\ese 
+

@@ -1,0 +1,253 @@
+\section{Multilinear Algebra}
+
+\subsection{Vector Spaces}
+
+\mybox{
+Let $V:=\R^3$ be the set of all real triples. 
+
+\textbf{Question}: We equip $V$ with addition $\oplus : V \times V\to V$ and s-multiplication $\odot:\R\times V \to V$ defined by 
+\bse 
+    (a,b,c)\oplus(d,e,f) := (a+d,b+e,c+f)
+\ese 
+and 
+\bse 
+    \lambda \odot (a,b,c) := (\lambda \cdot a, \lambda \cdot b, \lambda \cdot c)
+\ese 
+where $+$ and $\cdot$ are the addition and multiplication on $\R$. Check that $(V,\oplus,\odot)$ is a vector space.
+}
+
+\textbf{Solution}: We need to check it meets the 8 axioms. 
+\benr 
+    \item Commutative w.r.t. $\oplus$:
+    \bse 
+        (a,b,c) \oplus (d,e,f) = (a+d,b+e,c+f) = (d+a,b+e,f+c) = (d,e,f) \oplus (a,b,c).
+    \ese 
+    \item Associative w.r.t. $\oplus$: 
+    \bse
+        \begin{split}
+            \big[ (a,b,c)\oplus(d,e,f) \big] \oplus (h,i,j) & = (a+d,b+e,c+f) \oplus (h,i,j) \\
+            & = (a+d+h,b+e+i,c+f+j) \\
+            & = (a,b,c) \oplus (d+h,e+i,f+j) \\
+            & = (a,b,c)\oplus \big[ (d,e,f)\oplus(h,i,j) \big].
+        \end{split}
+    \ese 
+    \item Neutral element w.r.t. $\oplus$: this is clearly just $(0,0,0)$. 
+    \item Inverse w.r.t. $\oplus$: this is clearly just $(-a,-b,-c)$. Note for this to be true it is important that we take the whole real line, not just the positive reals (otherwise $(-a,-b,-c)\notin V$.
+    \item Associative w.r.t. $\odot$: 
+    \bse 
+        \begin{split}
+            \lambda \odot \big[\mu\odot(a,b,c)\big] & = \lambda \odot (\mu\cdot a,\mu\cdot b, \mu\cdot c) \\
+            & = (\lambda \odot\mu\cdot a,\lambda \odot\mu\cdot b, \lambda \odot\mu\cdot c) \\
+            & = \big[\lambda \odot \mu] \odot (a,b,c).
+        \end{split}
+    \ese 
+    \item Distributive 1: 
+    \bse
+        \begin{split}
+            (\lambda + \mu)\odot (a,b,c) & = \big( (\lambda + \mu)\cdot a, (\lambda + \mu)\cdot b,(\lambda + \mu)\cdot c\big) \\
+            & = (\lambda \cdot a, \lambda \cdot b, \lambda \cdot c) \oplus (\mu\cdot a,\mu\cdot b, \mu \cdot c) \\
+            & = \lambda \odot (a,b,c) \oplus \mu \odot (a,b,c).
+        \end{split}
+    \ese
+    \item Distributive 2:
+    \bse 
+        \begin{split}
+            \lambda \odot \big[(a,b,c)\oplus(d,e,f)\big] & = \lambda \odot (a+d,b+e,c+f) \\
+            & = \big( \lambda\cdot(a+d),\lambda\cdot(b+e), \lambda\cdot(c+f)\big) \\
+            & = (\lambda\cdot a, \lambda\cdot b, \lambda\cdot c) + (\lambda\cdot d, \lambda\cdot e, \lambda\cdot f) \\
+            & = \lambda \odot (a,b,c) \oplus \lambda \odot (d,e,f).
+        \end{split}
+    \ese 
+    \item Unitary w.r.t. $\odot$: Clearly $1\odot(a,b,c)=(a,b,c)$.
+\een
+
+\mybox{
+\textbf{Question}: Consider the map $d:V\to V$; $(a,b,c)\mapsto d\big((a,b,c)\big) := (b,2c,0)$.
+
+Is $d$ linear?
+}
+
+\textbf{Solution}: Consider 
+\bse 
+    \begin{split}
+        d\big( \lambda\odot (a,b,c) \oplus (d,e,f)\big) & = d\big( ([\lambda \cdot a]+d, [\lambda \cdot b]+e,[\lambda \cdot c]+f)\big) \\
+        & = ([\lambda \cdot b]+e, 2[\lambda \cdot c]+2f, 0) \\
+        & = \lambda\odot(b, 2c,0) \oplus (e,2f) \\
+        & = \lambda\odot d\big((a,b,c)\big) \oplus d\big((d,e,f)\big),
+    \end{split}
+    so yes it's linear. 
+\ese 
+
+\mybox{
+\textbf{Question}: Show that the map $d\circ d$ is linear.
+}
+\textbf{Solution}: This follows immediately from \Cref{thrm:CompositionOfLinearMaps}, however if you want you can show it explicitly (we won't here to save me writing.)
+
+\mybox{
+\textbf{Question}: Consider the map 
+\bse 
+    i: V \to \R; \, (a,b,c) \mapsto i\big((a,b,c)\big) := a + \frac{1}{2}b + \frac{1}{3}c.
+\ese 
+Check linearity. Of what set is $i$ an element?
+}
+\textbf{Solution}: The linearity calculation is exactly the same method as above, so to save me typing I'm just going to say the answer: yes it is. Being a linear map from $V$ to $\R$ it is, by definition, an element of $V^*$.
+
+\mybox{
+\textbf{Question}: Another (multi)linear question. Again I don't want to keep typing out that check so see \href{https://www.youtube.com/watch?v=5oeWX3NUhMA&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL&index=3}{the video} for this one.
+}
+
+\mybox{
+\textbf{Question}: Compare the above map $d:V \to V$ with the map $\del : P \to P$ from the lecture and construct a bijective linear map $j:P_2\to \R^3$ such that 
+\bse 
+    d = j \circ \del \circ j^{-1}.
+\ese 
+}
+
+\textbf{Solution}: Recall that $\del:P\to P$ is defined as the derivative, i.e. $\del(p) = p'$. Clearly for this question we want to focus on the map $\del : P_2\to P_2$. Recall the definition
+\bse 
+    P_2 := \{ p :\R \to \R \, | \, p(x) = a + bx + cx^2\},
+\ese 
+and so we have 
+\bse 
+    p'(x) = b + 2cx + 0x^2.
+\ese 
+We instantly see this resembles the map $d: V \to V$ which acts as $d\big((a,b,c)\big) := (b,2c,0)$. We just need to construct the map $j:P_2\to \R^3$. With a bit of thought it is clear that the answer is simply 
+\bse 
+    j(p) := (a,b,c),
+\ese 
+where $p = a + bx +cx^2$. The inverse map $j^{-1}:\R^3\to P_2$ is then simply given by 
+\bse 
+    \big(j^{-1}(a,b,c)\big)(x) := a+bx+cx^2. 
+\ese
+Direct substitution then gives 
+\bse 
+    \big((j\circ \del \circ j^{-1}\big)(a,b,c) := (b,2c,0) =: d\big((a,b,c)\big). 
+\ese
+
+Similar exercises can be done to compare $i:V\to\R$ to $I:P\to\R$ given in the lecture (and also for the above exercise which I haven't typed here.) See \href{https://www.youtube.com/watch?v=5oeWX3NUhMA&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL&index=3}{the video} for more details.
+
+\subsection{Indices}
+
+\mybox{
+Let $V$ be a $d$-dimensional vector space. Consider two maps $A$ and $B$, where
+\bse 
+    \begin{split}
+        A : V^*\times V^* & \to \R \\
+        B : V \times V & \to \R.
+    \end{split}
+\ese 
+$V$ has a basis $e_1,...,e_d$ and $V^*$ has the basis $\epsilon^1,...,\epsilon^d$. 
+
+\textbf{Question}: Define the components $A^{ab}$ of $A$ and $B_{ab}$ of $B$ with respect to the given bases.
+}
+
+\textbf{Solution}: We simply uses the duality of the basis elements, namely $e_i(\epsilon^j) = \del^j_i = \epsilon^j(e_i)$. So we have 
+\bse 
+    A^{ab} = A(\epsilon^a,\epsilon^b), \qand B_{ab} = B(e_a,e_b).
+\ese 
+
+\mybox{
+\textbf{Question}: We define $A^{[ab]} := \frac{1}{2}\big(A^{ab}-A^{ba}\big)$. Show that 
+\bse 
+    A^{[ab]} = - A^{[ba]}
+\ese 
+and also 
+\bse 
+    A^{[ab]}B_{ab} = A^{ab}B_{[ab]}.
+\ese 
+}
+
+\textbf{Solution}: From direct calculation we have 
+\bse 
+    A^{[ab]} := \frac{1}{2}\big(A^{ab}-A^{ba}\big) = - \frac{1}{2} \big( A^{ba} - A^{ab}\big) =: - A^{[ba]}.
+\ese 
+We also have 
+\bse 
+    \begin{split}
+        A^{[ab]}B_{ab} & := \frac{1}{2}\big(A^{ab}-A^{ba}\big)B_{ab} \\
+        & = \frac{1}{2} \big( A^{ab}B_{ab} - A^{ba}B_{ab}\big) \\
+        & = \frac{1}{2} \big( A^{ab}B_{ab} - A^{ab}B_{ba}\big) \\
+        & = A^{ab}\frac{1}{2}\big(B_{ab}-B_{ba}\big) \\
+        & =: A^{ab}B_{[ab]},
+    \end{split}
+\ese 
+where we have used the Einstein summation convention to relabel the dummy indices of the second term to get to the third line.
+
+\mybox{
+\textbf{Question}: We additionally define $B_{(ab)}:= \frac{1}{2}\big(B_{ab}+B_{ba}\big)$. Now, show that 
+\bse 
+    B_{(ab)} = B_{(ba)}
+\ese
+and again 
+\bse 
+    A^{ab}B_{(ab)} = A^{(ab)}B_{ab}.
+\ese 
+}
+\textbf{Solution}: Follows exactly like the previous solution. 
+
+\mybox{
+\textbf{Question}: Using the results from the previous questions, we can easily show 
+\bse 
+    A^{[ab]}B_{(ab)} = 0,
+\ese 
+i.e., the summation (contraction) of symmetric and antisymmetric indices yields zero.
+}
+\textbf{Solution}: We have 
+\bse 
+    \begin{split}
+        A^{[ab]}B_{(ab)} & := \frac{1}{2}\big( A^{ab}B_{(ab)} - A^{ba}B_{(ab)} \big) \\
+        & = \frac{1}{2}\big( A^{(ab)}B_{ab} - A^{(ba)}B_{ab} \big) \\
+        & = \frac{1}{2}\big( A^{(ab)}B_{ab} - A^{(ab)}B_{ab}\big) \\
+        & = 0.
+    \end{split}
+\ese
+
+\subsection{Linear Maps As Tensors}
+
+\mybox{
+\textbf{Question}: Given a vector space $V$ and a linear map $\phi: V^* \lmap V^*$ construct a $(1,1)$-tensor $T_{\phi}$. 
+}
+\textbf{Solution}: We know a $(1,1)$-tensor is a linear map $T_{\phi}: V^*\times V \lmap \R$. We also know that $\psi\in V^*$ is a map $\psi: V\lmap \R$. So it's clear that we just define 
+\bse 
+    T_{\phi}(\sig, v) := \big(\phi(\sig)\big)(v),
+\ese 
+where $\sig\in V^*$ and $v\in V$. 
+
+\mybox{
+\textbf{Question}: Given a $(1,1)$-tensor $T : V^*\times V \lmap \R$, construct a linear map $\phi_T :V^*\lmap V^*$. 
+}
+\textbf{Solution}: This is just the previous exercise in reverse. That is we define 
+\bse 
+    \big(\phi_T(\sig)\big)(v) := T(\sig,v),
+\ese 
+which we write as 
+\bse 
+    \phi_T(\sig) := T(\sig, \cdot).
+\ese 
+
+\mybox{
+\textbf{Question}: Show that 
+\ben[label=(\alph*)]
+    \item $T_{\phi_T} = T$, and
+    \item $\phi_{T_{\phi}}=\phi$.
+\een 
+}
+\textbf{Solution}: 
+\ben[label=(\alph*)]
+    \item We have 
+    \bse 
+        T_{\phi_T}(\sig,v) := \big(\phi_T(\sig)\big)(v) =: T(\sig,v).
+    \ese 
+    \item We have 
+    \bse 
+        \big(\phi_{T_{\phi}}(\sig)\big)(v) := T_{\phi}(\sig,v) =: \big(\phi(\sig)\big(v),
+    \ese 
+    and so 
+    $\phi_{T_{\phi}} = \phi$.
+\een
+
+\mybox{
+\textbf{Question}: Conclude that we can consider a linear map $\phi : V^*\lmap V^*$ as a $(1,1)$-tensor.
+}
+\textbf{Solution}: The above exercises have just shown us that there is a unique link between $T$ and $\phi$ and so we can think of them as being isomorphic as maps and as such can be viewed as the same object.
+

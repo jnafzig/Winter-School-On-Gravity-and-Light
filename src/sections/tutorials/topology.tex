@@ -1,0 +1,61 @@
+\section{Topology}
+
+\subsection{Topologies On A Simple Set}
+
+\mybox{
+Let $\cM = \{ 1,2,3,4\}$ be a set. 
+
+\textbf{Question}: does $\cO_1 := \big\{ \emptyset, \{1\},\{1,2,3,4\}\big\}$ constitute a topology on $\cM$?
+}
+
+\textbf{Solution}: Check the conditions:
+\benr 
+    \item $\emptyset\in\cO_1$ and $\cM \in \cO_1$. 
+    \item $\emptyset\cap\{1\} = \emptyset\in\cO_1$, $\emptyset\cap\{1,2,3,4\}=\emptyset\in\cO_1$ and $\{1\}\cap\{1,2,3,4\}=\{1\}\in\cO_1$. 
+    \item $\emptyset\cup\{1\}=\{1\} \in\cO_1$, $\emptyset\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$, $\{1\}\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$ and $\emptyset\cup\{1\}\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$.
+\een 
+So the answer is yes. 
+
+\mybox{
+\textbf{Question}: What about $\cO_2 := \big\{ \emptyset, \{1\}, \{2\},\{1,2,3,4\}\big\}$.
+}
+\textbf{Solution}: The only new addition is $\{2\}$ so just need to check its involvement. We see straight away that $\{1\}\cup\{2\} = \{1,2\}\notin\cO_2$ and so we conclude that it is not a topology. 
+
+\subsection{Continuous Functions}
+
+\mybox{
+\textbf{Question}: Let $\cM = \{1,2,3,4\}$ and consider the identity map $\id_{\cM}:\cM\to\cM$ defined by 
+\bse 
+    \id_{\cM}(1) = 1, \quad \id_{\cM}(2) = 2, \quad \id_{\cM}(3) = 3, \quad \id_{\cM}(4) = 4. 
+\ese 
+Is the map $\id_{\cM}$ continuous if the domain is equipped with the chaotic topology and the target with the topology $\cO_{\text{target}} := \big\{ \emptyset,\{1\},\{1,2,3,4\}\big\}$?
+}
+\textbf{Solution}:
+The chaotic topology here is 
+\bse 
+    \cO_{\text{chaotic}} = \big\{\emptyset,\{1,2,3,4\}\big\}.
+\ese
+We see straight away that the preimage of $\{1\}\in\cO_{\text{target}}$ is $\{1\}$ which is not in $\cO_{\text{chaotic}}$, and so the map is not continuous w.r.t. these topologies. 
+
+\mybox{
+\textbf{Question}: Consider the inverse $\id^{-1}_{\cM}:\cM\to\cM$ of the identity map $\id_{\cM}$, such that now the target is equipped with the chaotic topology and the domain with the topology $\big\{\emptyset,\{1\},\{1,2,3,4\}\big\}$.
+
+Provide the values of the map $\id^{-1}_{\cM}$ and decide whether $\id^{-1}_{\cM}$ is continuous!
+}
+
+\textbf{Solution}:
+\bse 
+    \id^{-1}_{\cM}(1) = 1, \quad \id^{-1}_{\cM}(2) = 2, \quad \id^{-1}_{\cM}(3) = 3, \quad \id^{-1}_{\cM}(4) = 4
+\ese 
+Now consider the preimages. 
+\bse 
+    \preim_{\id^{-1}_{\cM}}(\emptyset) = \emptyset, \qquad \text{and} \qquad \preim_{\id^{-1}_{\cM}}(\{1,2,3,4\}) = \{1,2,3,4\} = \cM,
+\ese 
+both of which are in our domain's topology. Therefore the map is continuous w.r.t. to these topologies. 
+
+\subsection{The Standard Topology On $\R^d$}
+
+\mybox{
+I have not included question 4 here because it would be too much drawing on Tikz for me... however the questions are worth looking at, so if you haven't already go \href{https://www.youtube.com/watch?v=_XkhZQ-hNLs&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL}{watch the video}. 
+}
+

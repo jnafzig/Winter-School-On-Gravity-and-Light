@@ -1,0 +1,114 @@
+\section{Connections}
+
+\subsection{Practical Rules For How $\nabla$ Acts}
+
+\mybox{
+\textbf{Question:} What is the result of the following applications of a torsion free covariant derivative? 
+\begin{itemize}
+    \item There are some others in the video, but they are basically covered in the lectures so I won't repeat them here. 
+    \item $\big(\nabla_{[m} A\big)_{n]}$,
+    \item $\big(\nabla_{[m}\omega\big)_{nr]}$.
+\end{itemize}
+}
+
+\textbf{Solution:} We have 
+\bse 
+    \begin{split}
+        \big(\nabla_{[m} A\big)_{n]} & := \frac{1}{2}\Big[\big(\nabla_mA\big)_n - \big(\nabla_nA\big)_m\Big] \\
+        & = \frac{1}{2} \big( A_{n,m} - {\Gamma^r}_{nm}A_r - A_{m,n} + {\Gamma^r}_{mn}A_r\big) \\
+        & = A_{[n,m]} + {\Gamma^r}_{[mn]} \\
+        & = \frac{1}{2}F_{mn},
+    \end{split}
+\ese 
+where we have used the fact that $\nabla$ is torsion free and so ${\Gamma^a}_{[bc]}=0$.
+
+Next, we have
+\bse 
+    \big(\nabla_{[m}\omega\big)_{nr]} = \frac{1}{3!}\Big[ \big(\nabla_{m}\omega\big)_{nr} - \big(\nabla_{m}\omega\big)_{rn} + \big(\nabla_{r}\omega\big)_{mn} - \big(\nabla_{r}\omega\big)_{nm} + \big(\nabla_{n}\omega\big)_{rm} - \big(\nabla_{n}\omega\big)_{mr}\Big].
+\ese 
+If we expand this out we will see that the $\Gamma$s all cancel, e.g.
+\bse 
+    \begin{split}
+        \big(\nabla_{m}\omega\big)_{nr} - \big(\nabla_{n}\omega\big)_{mr} & = \omega_{nr,m} - {\Gamma^s}_{nm}\omega_{sr} - {\Gamma^s}_{rm}\omega_{ns} - \omega_{mr,n} + {\Gamma^s}_{mn}\omega_{sr} + {\Gamma^s}_{rn}\omega_{ms} \\
+        & = \omega_{nr,m} - \omega_{mr,n} + 2{\Gamma^s}_{[mn]}\omega_{sr} + 2{\Gamma^s}_{r[n}\omega_{m]s} \\
+        & = \omega_{nr,m} - \omega_{mr,n} + 2{\Gamma^s}_{r[n}\omega_{m]s},
+    \end{split}
+\ese 
+and the other $\Gamma$ will cancel with another term's expansion. We are therefore left with 
+\bse 
+    \big(\nabla_{[m}\omega\big)_{nr]} = \omega_{[nr,m]}.
+\ese 
+
+\subsection{Connection Coefficients}
+
+\mybox{
+There is a question about stating the chart transformation laws of the $\Gamma$s and stating which class of transformations make the $\Gamma$s look like tensors. We have discussed this in the notes already, but I have but this box here to remind readers to re-read \Cref{rem:GammasTensorTransformation} as it's an important point often missed.
+}
+
+\mybox{
+\textbf{Question:} Let $(\cM,\cO,\cA,\nabla)$ be the flat plane. Consider two charts that both cover the upper half plane, that is all the points $(a,b)\in\R^2$ with $b>0$, one representing the familiar Cartesian coordinates and the other the familiar polar coordinates on there.  
+
+We already know the chart transition map from Cartesian to polar coordinates is given by 
+\bse 
+    y\circ x^{-1}(a,b) = \bigg( \sqrt{a^2+b^2}, \arccos\bigg(\frac{a}{\sqrt{a^2+b^2}}\bigg)\bigg),
+\ese 
+while the inverse transition map from polar to Cartesian is given by 
+\bse 
+    x\circ y^{-1}(r,\varphi) = \big( r\cos\varphi, r\sin\varphi), \qquad \text{for } r\in\R^+ \text{ and } \varphi\in(0,\pi).
+\ese 
+Starting from the assumption of vanishing connection coefficient functions in the Cartesian chart, calculate the connection coefficient functions $\Gamma^a_{(y)bc}$ w.r.t. the polar chart!
+}
+
+\textbf{Solution}: Recall that the transformation law is 
+\bse 
+    \Gamma^a_{(y)bc} = \frac{\p y^a}{\p x^k} \frac{\p^2 x^k}{\p y^b\p y^c} + \frac{\p y^a}{\p x^k} \frac{\p x^n}{\p y^b}\frac{\p x^m}{\p y^c} \Gamma^{k}_{(x)mn}.
+\ese 
+The assumption is $\Gamma^q_{(x)sp}=0$, and so we just need to find the first term. We have 
+\bse 
+    \bigg(\frac{\p x^k}{\p y^c}\bigg)_{y^{-1}(r,\varphi)} := \p_c\big(x^k\circ y^{-1}\big)(r,\varphi) = \begin{pmatrix}
+        \cos\varphi & -r\sin\varphi \\
+        \sin\varphi & r\cos\varphi 
+    \end{pmatrix}^k_{\,\,\, c}.
+\ese 
+Now, using the first question in the tangent spaces tutorial above, we have 
+\bse 
+    \begin{split}
+        \bigg(\frac{\p y^a}{\p x^k}\bigg)_p & = \bigg(\frac{\p x^k}{\p y^a}\bigg)^{-1} \\
+        & = \frac{1}{r} \begin{pmatrix}
+            r\cos\varphi & r\sin\varphi \\
+            -\sin\varphi & \cos\varphi 
+        \end{pmatrix}^k_{\,\,\, a} \\
+        & = \begin{pmatrix}
+            \cos\varphi & \sin\varphi \\
+            -\frac{1}{r}\sin\varphi & \frac{1}{r}\cos\varphi 
+        \end{pmatrix}^k_{\,\,\, a},
+    \end{split}
+\ese
+where we have used the fact that the determinant of the first matrix is $r$.
+We can also calculate 
+\bse 
+    \begin{split}
+        \bigg(\frac{\p^2 x^1}{\p y^1 \p y^1}\bigg)_{y^{-1}(r,\varphi)} & = 0 \\
+        \bigg(\frac{\p^2 x^1}{\p y^2 \p y^1}\bigg)_{y^{-1}(r,\varphi)} & = -\sin\varphi \\
+        \bigg(\frac{\p^2 x^1}{\p y^1 \p y^2}\bigg)_{y^{-1}(r,\varphi)} & = -\sin\varphi \\
+        \bigg(\frac{\p^2 x^1}{\p y^2 \p y^2}\bigg)_{y^{-1}(r,\varphi)} & = -r\cos\varphi \\
+        \bigg(\frac{\p^2 x^2}{\p y^1 \p y^1}\bigg)_{y^{-1}(r,\varphi)} & = 0 \\
+        \bigg(\frac{\p^2 x^2}{\p y^2 \p y^1}\bigg)_{y^{-1}(r,\varphi)} & = \cos\varphi \\
+        \bigg(\frac{\p^2 x^2}{\p y^2 \p y^2}\bigg)_{y^{-1}(r,\varphi)} & = -r\sin\varphi.
+    \end{split}
+\ese 
+
+We then simply have to pick the relevant expressions to find the $\Gamma^a_{(y)bc}$s. For example 
+\bse 
+    \Gamma^1_{(y)11} = \frac{\p y^1}{\p x^1} \frac{\p^2 x^1}{\p y^1\p y^1} + \frac{\p y^1}{\p x^2} \frac{\p^2 x^2}{\p y^1\p y^1} = 0,
+\ese 
+and 
+\bse
+    \begin{split}
+        \Gamma^1_{(y)22} & = \frac{\p y^1}{\p x^1} \frac{\p^2 x^1}{\p y^2\p y^2} + \frac{\p y^1}{\p x^2} \frac{\p^2 x^2}{\p y^2\p y^2} \\
+        & = \cos\varphi (-r\cos\varphi) + \sin\varphi(-r\sin\varphi) \\
+        & = -r(\cos^2\varphi + \sin^2\varphi) \\
+        & = -r.
+    \end{split}
+\ese 
+

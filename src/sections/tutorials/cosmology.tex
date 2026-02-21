@@ -1,0 +1,147 @@
+% Set counter to match cosmology lecture number. The tutorials online are not numbered this way, but definitely makes sense to do it here.
+\setcounter{section}{19}
+
+\section{Cosmology}
+
+\subsection{Killing's Equation}
+
+\mybox{
+\textbf{Question}: Show that a vector field $K$ is Killing if, and only if, 
+\bse 
+    (\nabla_aK)_b + (\nabla_bK)_a = 0.
+\ese 
+}
+
+\textbf{Solution}: If you have done the exercise in the notes to show 
+\bse 
+    g\big(\nabla_XK,Y\big) + g\big(X,\nabla_YK\big)=0,
+\ese
+this question follows trivially by setting $X=\p_a$ and $Y=\p_b$:
+\bse 
+    0 = g_{cb}\big(\nabla_aK)^c + g_{ac}\big(\nabla_bK)^c =: (\nabla_aK)_b + (\nabla_bK)_a.
+\ese 
+
+If you didn't do that exercise, go back and do it, but also you can see \href{https://www.youtube.com/watch?v=HuQ79CWcDac&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL&index=10}{the video} for a method considering the components.
+
+This result is known as Killing's equation. 
+
+\subsection{Age Of The Universe...}
+
+\mybox{
+The energy-momentum tensor for a perfect fluid is 
+\bse 
+    T^{ab} := \big[\rho(t)+p(t)\big]u^au^b + g^{ab}p(t),
+\ese 
+where $u^a=(1,0,0,0)^a$ are the components functions of a smooth vector field and $g_{ab}$ are those of a FRW metric w.r.t. the coordinate chart $(t,r,\vartheta,\phi)$ employed in the lectures. 
+
+\textbf{Question}: Derive the conservation equation 
+\bse 
+    \dot{\rho}(t) = -3\frac{\dot{a}}{a}\big(\rho(t)+p(t)\big)
+\ese 
+by evaluating the condition 
+\bse 
+    \big(\nabla_aT\big)^{ab}u_b = 0,
+\ese
+which follows from the Einstein equations by virtue of the differential Bianchi identity.
+}
+
+\textbf{Solution}: We have 
+\bse 
+    \big(\nabla_aT\big)^{ab}u_b = \big(\nabla_aT\big)^{a0},
+\ese 
+as $u_b=(1,0,0,0)_b$. Then using $T^{a0}=0$ and $T^{00} = \rho(t)$ we have 
+\bse 
+    \begin{split}
+        \big(\nabla_aT\big)^{ab}u_b & = {T^{a0}}_{,a} + {\Gamma^a}_{na}T^{n0} + {\Gamma^0}_{na}T^{an} \\
+        & = \dot{\rho}(t) + {\Gamma^a}_{0a}\rho(t) + {\Gamma^0}_{na}T^{an}.
+    \end{split}
+\ese 
+We now use the results from the lecture, 
+\bse 
+    {\Gamma^{\a}}_{0\a} = \frac{\dot{a}}{a}\del^{\a}_{\a} = 3\frac{\dot{a}}{a}, \qquad {\Gamma^0}_{\a\beta} = a\dot{a}\gamma_{\a\beta},
+\ese 
+and the other $\Gamma$s vanishing. This gives 
+\bse 
+    \big(\nabla_aT\big)^{ab}u_b = \dot{\rho}(t) + 3\frac{\dot{a}}{a}\rho(t) + a\dot{a}\gamma_{\a\beta}T^{\a\beta}.
+\ese 
+Then using $T^{\a\beta}=p(t)$ and $g^{\a\beta}=\frac{1}{a^2}\gamma^{\a\beta}$ we get 
+\bse 
+    0 = \dot{\rho}(t) + 3\frac{\dot{a}}{a}\rho(t) + \frac{\dot{a}}{a}\gamma_{\a\beta}\gamma^{\a\beta}p(t),
+\ese 
+which gives the result. 
+
+\mybox{
+\textbf{Question}: For $p(t)=\omega\rho(t)$, solve the conservation equation above for $\rho$ and use the Friedmann equation with vanishing spatial curvature
+\bse 
+    \bigg(\frac{\dot{a}}{a}\bigg)^2 = \frac{8\pi G}{3}\rho,
+\ese 
+to derive an autonomous differential equation for $a$. 
+}
+
+\textbf{Solution}: We have 
+\bse 
+    \begin{split}
+        \dot{\rho}(t) & = - 3\frac{\dot{a}(t)}{a(t)} (1+\omega)\rho(t) \\
+        \frac{\dot{\rho}(t)}{\rho(t)} & = -3\frac{\dot{a}(t)}{a(t)}(1+\omega) \\
+        \frac{d}{dt}\ln\big(\rho(t)\big) & = -3(1+\omega)\frac{d}{dt}\ln\big(a(t)\big) \\
+        \rho(t) & = Ba^{-3(1+\omega)},
+    \end{split}
+\ese
+for some constant $B=e^{A}$, where $A$ is the constant of integration. If we plug this into the expression given in the question we have 
+\bse 
+    \bigg(\frac{\dot{a}}{a}\bigg)^2 = \frac{8\pi GB}{3}a^{-3(1+\omega)},
+\ese 
+which is an autonomous differential equation for $a$. 
+
+\mybox{
+\textbf{Question}: Show that 
+\bse 
+    a(t) = C\cdot t^{\a}, \qquad C=\text{const}
+\ese
+solves the autonomous differential equation equation for the scale factor $a$ if $\omega\neq 1$ and a suitably chosen $\a$.
+}
+
+\textbf{Solution}: By direct calculation, we have 
+\bse 
+    \a^2 t^{-2} = \frac{8\pi GBC}{3} t^{-3\a(1+\omega)},
+\ese 
+from which we see 
+\bse 
+    \a = \frac{2}{3(1+\omega)}.
+\ese 
+
+\mybox{
+\textbf{Question}: Use the result of the previous question to write down an equation for $H(t) := \frac{\dot{a}}{a}$ and estimate the age of the universe only filled with dust for today's value of the Hubble constant being given by $\frac{1}{H_0} \approx 13\times 10^9yrs$. Repeat the calculation for a universe containing only radiation. 
+}
+
+\textbf{Solution}: We have 
+\bse 
+    a(t) = C\cdot t^{\frac{2}{3(1+\omega)}}, \qquad \implies \qquad H(t) = \frac{2}{3(1+\omega)}t^{-1}.
+\ese
+So the age is given by
+\bse 
+    t_0 = \frac{2}{3(1+\omega)}\frac{1}{H_0}.
+\ese
+For dust $\omega=0$ and so we have
+\bse 
+    t^{\text{dust}}_0 \approx 8.6\times 10^9yrs.
+\ese 
+For radiation, $\omega=\frac{1}{3}$, giving 
+\bse 
+    t^{\text{radiation}}_0 \approx 6.5 \times 10^9 yrs.
+\ese 
+
+\mybox{
+\textbf{Question}: Consider a universe filled with only one type of matter characterised by a linear equation of state with constant $\omega$. For which values of the latter is the expansion of the universe accelerating?
+}
+
+\textbf{Solution}: We have 
+\bse 
+    \ddot{a}(t) = \bigg(\frac{2}{3(1+\omega)}\bigg)\bigg(\frac{2}{3(1+\omega)}-1\bigg) \cdot a\cdot t^{-2}. 
+\ese 
+An expanding universe means $a(t)>0$ (or, equivalently, $C>0$), and so the turning point for accelerated expansion is the condition 
+\bse 
+    \frac{2}{3(1+\omega)}-1 = 0 \qquad \implies \qquad \omega = -\frac{1}{3}.
+\ese
+We therefore get accelerated expansion for $\omega<-\frac{1}{3}$ and decelerated expansion for $\omega >-\frac{1}{3}$.
+

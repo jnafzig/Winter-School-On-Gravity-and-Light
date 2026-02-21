@@ -1,0 +1,250 @@
+\section{Symmetry}
+
+\subsection{Pull-Back \& Push-Forward}
+
+\mybox{
+\textbf{Question}: Consider a smooth map $\phi:\cM\to\cN$ between two differential manifolds. Show that a function $f\in C^{\infty}(\cN)$, the pull-back of the gradient of $f$ is the same as the gradient of the pull-back of $f$, i.e. 
+\bse 
+    \phi^*(df) = d(\phi^*f).
+\ese 
+}
+\textbf{Solution}: By definition, we have
+\bse 
+    (\phi_*X)\la f \ra = X \la f\circ \phi \ra,
+\ese 
+for $X\in T\cM$, giving
+\bse 
+    \begin{split}
+        \phi^*(df) : X & := df : \phi_*(X) \\
+        & = \phi_* X \la f \ra \\
+        & = X \la f\circ \phi \ra \\
+        & = d(f\circ \phi) : X \\
+        & =: d(\phi^*f) :X,
+    \end{split}
+\ese 
+which holds for arbitrary $X$ and therefore proves the result. 
+
+\mybox{
+\textbf{Question}: The push-forward $\phi_* : T\cM \to T\cN$ is a linear map between tangent bundles. Calculate its component functions 
+\bse 
+    \phi_{*\,\, b}^{\,\, a} := dy^a : \phi_*\bigg(\frac{\p}{\p x^b}\bigg)
+\ese 
+with respect to charts $(U\ss\cM, x)$ and $(V\ss \cN, y)$!
+}
+
+\textbf{Solution}: If we considered a general vector and gradient, we would have 
+\bse 
+    df : \phi_*X = \phi_*X\la f \ra = X\la f \circ \phi \ra = X^i \bigg(\frac{\p(f\circ\phi)}{\p x^i}\bigg).
+\ese 
+Now we have 
+\bse 
+    \begin{split}
+        \bigg(\frac{\p (f\circ\phi)}{\p x^i}\bigg)_p & := \p_i\big(f\circ\phi\circ x^{-1}\big)\big|_{x(p)} \\
+        & = \p_i\big(f\circ y^{-1}\circ y\circ \phi\circ x^{-1}\big)\big|_{x(p)} \\
+        & = \p_j\big(f\circ y^{-1}\big)\big|_{(y\circ\phi\circ x^{-1}\circ x)(p)} \cdot \p_i\big(y^i\circ \phi\circ x^{-1}\big)\big|_{x(p)} \\
+        & =: \bigg(\frac{\p f}{\p y^j}\bigg)_q \cdot \bigg(\frac{\p (y^j\circ\phi)}{\p x^i}\bigg)_p, 
+    \end{split}
+\ese
+where $q:=\phi(p)\in\cN$. Now put in $f=y^a$ and $X=\frac{\p}{\p x^b}$, giving 
+\bse 
+    \begin{split}
+        \phi_{*\,\, b}^{\,\, a}(p) & = \bigg(\frac{\p y^a}{\p y^j}\bigg)_q \cdot \bigg(\frac{\p (y^j\circ \phi)}{\p x^b}\bigg)_p \\
+        & = \del^a_j \cdot \bigg(\frac{\p (y^j\circ \phi)}{\p x^b}\bigg)_p \\
+        & = \bigg(\frac{\p (y\circ \phi)^a}{\p x^b}\bigg)_p.
+    \end{split}
+\ese 
+
+\mybox{
+\textbf{Question}: Show that the component functions of the pull back $\phi^*g$ of the metric tensor field are obtained from the component functions of $g$ by 
+\bse 
+    (\phi^*g)_{ab}(p) = \bigg(\frac{\p(y\circ\phi)^m}{\p x^a}\bigg)_p \bigg(\frac{\p(y\circ\phi)^n}{\p x^b}\bigg)_p g_{mn}\big(\phi(p)\big).
+\ese 
+}
+
+\textbf{Solution}: With the definition of the induced metric in mind, we have
+\bse 
+    \begin{split}
+        (\phi^*g)(X,Y) & = g\big(\phi_*X,\phi_*Y\big) \\ 
+        & = g_{ab}\big(\phi_*X\big)^a\big(\phi_*Y\big)^b \\
+        & = g_{ab} \big(dy^a:\phi_*X\big) \big(dy^b:\phi_*Y\big).
+    \end{split}
+\ese
+Then if we use $g_{ab}=g\big(\frac{\p}{\p x^a},\frac{\p}{\p x^b}\big)$ and the results of the previous exercise we get 
+\bse
+    \begin{split}
+        (\phi^*g)_{ab}(p) & = g_{mn}(q) \cdot \bigg[dy^m:\phi_*\bigg(\frac{\p}{\p x^a}\bigg)\bigg](p) \cdot \bigg[dy^n:\phi_*\bigg(\frac{\p}{\p x^b}\bigg)\bigg](p) \\
+        & = \bigg(\frac{\p(y\circ\phi)^m}{\p x^a}\bigg)_p \bigg(\frac{\p(y\circ\phi)^n}{\p x^b}\bigg)_p g_{mn}\big(\phi(p)\big).
+    \end{split}
+\ese 
+
+\subsection{Lie Derivative --- The Pedestrian Way}
+
+\mybox{
+\textbf{Question}: Consider the smooth embedding $\iota:S^2\to \R^3$ of $(S^2,\cO,\cA)$ into $(\R^3,\cO_{st},\cB)$, which for the familiar chart $(U,x)\in\cA$ and $(\R^3,y=\b1_{\R^3})\in\cB$ is given by 
+\bse 
+    y\circ\iota\circ x^{-1} : (\vartheta,\varphi) \mapsto (a\cos\varphi\sin\vartheta, b\sin\varphi\sin\vartheta,c\cos\vartheta),
+\ese 
+where $a,b$ and $c$ are positive real numbers. What can you say about the shape of $\iota(S^2)$?
+}
+
+\textbf{Solution}: Nothing as in order to talk about shape you need either a covariant derivative or a metric, neither of which we have. I guess you could say it is some closed and compact 2-dimensional shape, but you could not specify which one, i.e. if its a round sphere or an ellipsoid or a potato. 
+
+\mybox{
+\textbf{Question}: Now assume $(\R^3,\cO_{st},\cB)$ is additionally equipped with the Euclidean metric $g$, whose components with respect to the chart $(\R^3,y)$ are given by 
+\bse 
+    g_{ab}(p) = \begin{pmatrix}
+    1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & 1 
+    \end{pmatrix} \qquad \text{for any } p\in U.
+\ese
+Write down the component functions of $g^{\text{ellipsoid}}:=\iota^*g$ with respect to the chart $(U,x)$!
+}
+
+\textbf{Solution}: Using the result of the previous questions, we need to find
+\bse 
+    \bigg(\frac{\p (y\circ \iota)^m}{\p x^a}\bigg)_p := \p_a\big(y^m\circ \iota \circ x^{-1}\big)\big|_{x(p)}.
+\ese 
+Using the definition given, we have 
+\bse 
+    \begin{split}
+        \bigg(\frac{\p (y\circ \iota)^1}{\p x^1}\bigg)_p & = a\cos\varphi\cos\vartheta, \qquad \bigg(\frac{\p (y\circ \iota)^1}{\p x^2}\bigg)_p = -a\sin\varphi\sin\vartheta \\
+        \bigg(\frac{\p (y\circ \iota)^2}{\p x^1}\bigg)_p & = b\sin\varphi\cos\vartheta, \qquad \bigg(\frac{\p (y\circ \iota)^2}{\p x^2}\bigg)_p  = b\cos\varphi\sin\vartheta \\
+        \bigg(\frac{\p (y\circ \iota)^3}{\p x^1}\bigg)_p & = -c\sin\vartheta, \qquad \qquad \bigg(\frac{\p (y\circ \iota)^3}{\p x^2}\bigg)_p = 0.
+    \end{split}
+\ese 
+You then just plug in the relevant terms, giving 
+\bse 
+    \begin{split}
+        g^{\text{ellipsoid}}_{11} & = a^2 \cos^2\varphi\cos^2\vartheta + b^2\sin^2\varphi\cos^2\vartheta + c^2\sin^2\vartheta \\
+        g^{\text{ellipsoid}}_{22} & = a^2\sin^2\varphi\sin^2\vartheta + b^2\cos^2\varphi\sin^2\vartheta,
+    \end{split}
+\ese
+and $g^{\text{ellipsoid}}_{12}=0=g^{\text{ellipsoid}}_{21}$. 
+
+\mybox{
+\textbf{Question}: For convenience, denote by $(\vartheta,\varphi)$ the coordinate functions $(x^1,x^2)$. Check the vector fields 
+\bse 
+    \begin{split}
+        X_1(p) & = -\sin\varphi(p)\bigg(\frac{\p}{\p \vartheta}\bigg)_p - \cot\vartheta(p)\cos\varphi(p)\bigg(\frac{\p}{\p \varphi}\bigg)_p \\
+        X_2(p) & = \cos\varphi(p)\bigg(\frac{\p}{\p \vartheta}\bigg)_p - \cot\vartheta(p)\sin\varphi(p)\bigg(\frac{\p}{\p \varphi}\bigg)_p \\
+        X_3(p) & = \bigg(\frac{\p}{\p\varphi}\bigg)_p
+    \end{split}
+\ese 
+constitute a Lie subalgebra of $(\Gamma TS^2,[\cdot,\cdot])$ and determine the structure constants!
+}
+\textbf{Solution}: Let $f\in C^{\infty}(\cM)$ be an arbitrary smooth function. We need to consider the action of the Lie bracket expressions on $f$, e.g. $[X_1,X_2]\la f\ra$. We use the clever trick that in this expansion only the terms where a derivative acts on a term in the $X$s will remain. That is, any terms that are second order derivative of $f$ will vanish because it will appear in both $X_1\la X_2\la f\ra \ra$ and $X_2\la X_1\la f\ra \ra$ which the order switched, but partial derivative commute and so these terms cancel. 
+
+We then have (dropping the $p$s for notational reasons)
+\bse 
+    \begin{split}
+        [X_1,X_2]\la f \ra & := X_1\big\la X_2\la f\ra \big\ra - X_2\big\la X_1\la f\ra \big\ra \\
+        & = \bigg[\big(-\cosec^2\vartheta \sin^2\varphi + \cot^2\vartheta\cos^2\varphi\big) \bigg(\frac{\p f}{\p\varphi}\bigg) + \cot\vartheta\cos\varphi\sin\varphi \bigg(\frac{\p f}{\p \vartheta}\bigg)\bigg]  \\
+        & \qquad - \bigg[\big(\cosec^2\vartheta\cos^2\varphi - \cot^2\vartheta\sin^2\varphi\big) \bigg(\frac{\p f}{\p \varphi}\bigg) + \cot\vartheta\sin\varphi\cos\varphi \bigg(\frac{\p f}{\p \vartheta}\bigg)\bigg] \\
+        & = \big(\cot^2\vartheta-\cosec^2\vartheta\big)\bigg(\frac{\p f}{\p \varphi}\bigg) \\
+        & = -\bigg(\frac{\p }{\p \varphi}\bigg)\la f \ra \\
+        & = - X_3\la f \ra \\
+        \implies [X_2,X_1] & = X_3,
+    \end{split}
+\ese 
+where on the last line we have used the antisymmetry of the Lie bracket.
+
+Next we have
+\bse 
+    \begin{split}
+        [X_1,X_3]\la f \ra & = 0 - \bigg[-\cos\varphi \bigg(\frac{\p f}{\p \vartheta}\bigg) + \cot\vartheta\sin\varphi\bigg(\frac{\p f}{\p \varphi}\bigg)\bigg] \\
+        & = X_2\la f \ra \\
+        \implies [X_1,X_3] & = X_2,
+    \end{split}
+\ese 
+and 
+\bse 
+    \begin{split}
+        [X_3,X_2] & = \bigg[ -\sin\varphi\bigg(\frac{\p f}{\p \vartheta}\bigg) -\cot\vartheta\cos\varphi\bigg(\frac{\p f}{\p \varphi}\bigg) \bigg] - 0 \\
+        & = X_1\la f\ra \\
+        \implies [X_3,X_2] = X_1.
+    \end{split}
+\ese 
+So we see that $\{X_1,X_2,X_3\}$ is closed under the Lie bracket, and so forms a Lie subalgebra. The structure constants are 
+\bse 
+    {C^3}_{21} = {C^2}_{13} = {C^1}_{32} = 1,
+\ese 
+and all other non-related (i.e. not ${C^3}_{12} = - {C^3}_{21}$, etc.) structure constants vanish. 
+
+Note this result tells us that $\{X_1,X_2,X_3\}$ is a 3-dimensional rotation algebra, as defined in the lecture. We therefore expect it to be a symmtry of $S^2$, which we show explictly below for $X_3$.
+
+\mybox{
+\textbf{Question}: Calculate the integral curve of $X_3$ through the point $p=x^{-1}(\vartheta_0,\varphi_0)$, i.e. the curve $\gamma_p$ satisfying 
+\bse 
+    \gamma_p(0) = p, \qand v_{\gamma_p,\gamma_p(\lambda)} = (X_3)_{\gamma_p(\lambda)}
+\ese 
+in the chart $(U,x)$!
+}
+
+\textbf{Solution}: Using 
+\bse 
+    v_{\gamma_p,\gamma_p(\lambda)} = (X_3)_{\gamma_p(\lambda)} \qquad \iff \qquad \dot{\gamma}^i_{p(x)}\bigg(\frac{\p}{\p x^i}\bigg)_{\gamma_p(\lambda)} = \bigg(\frac{\p}{\p \varphi}\bigg)_{\gamma_p(\lambda)},
+\ese 
+we have 
+\bse 
+    \dot{\gamma}^1_{p(x)}(\lambda) := \big(x^1\circ \gamma_p\big)'(\lambda) = 0, \qand \dot{\gamma}^2_{p(x)}(\lambda) := \big(x^2\circ \gamma_p\big)'(\lambda) = 1,
+\ese 
+from which is follows that 
+\bse 
+    \vartheta(\gamma_p) = a, \qand \varphi(\gamma_p) = \lambda + b,
+\ese
+for constants $a$ and $b$. We see from the question that $a=\vartheta_0$ and $b=\varphi_0$. So we have 
+\bse 
+    \gamma_{p(x)}(\lambda) = \big(\vartheta_0, \lambda + \varphi_0\big),
+\ese 
+which satisfies 
+\bse 
+    \gamma_p(0) = x^{-1}\big(\gamma_{p(x)}(0)\big) = x^{-1}(\vartheta_0,\varphi_0) = p.
+\ese
+
+\mybox{
+\textbf{Question}: The integral curves $\gamma_p$ give rise to a one-parameter family of smooth maps $h^{X_3}_{\lambda}:S^2\to S^2$. Calculate the pull-back
+\bse 
+    \Big(h^{X_3}_{\lambda}\Big)^*g^{\text{ellipsoid}}
+\ese 
+of the metric on $S^2$. What can you conclude about the Lie derivative $\cL_{X_3}g^{\text{ellipsoid}}$?
+}
+
+\textbf{Solution}: The flow is 
+\bse 
+    h^{X_3}_{\lambda} : p \mapsto \gamma_p(\lambda),
+\ese 
+so we have 
+\bse 
+    \Big(x^m\circ h^{X_3}_{\lambda}\circ x^{-1}\Big) : (\vartheta,\varphi) \mapsto \gamma^m_p(\lambda), 
+\ese 
+and so 
+\bse 
+    \begin{split}
+        \bigg(\frac{\p (x\circ h^{X_3}_{\lambda})^1}{\p x^1}\bigg)_p & := \p_1\Big( x^1 \circ h^{X_3}_{\lambda}\circ x^{-1}\Big)\Big|_{x(p)} = \vartheta_0 \\ 
+        \bigg(\frac{\p (x\circ h^{X_3}_{\lambda})^1}{\p x^2}\bigg)_p & := \p_2\Big( x^1 \circ h^{X_3}_{\lambda}\circ x^{-1}\Big)\Big|_{x(p)} = 0 \\
+        \bigg(\frac{\p (x\circ h^{X_3}_{\lambda})^2}{\p x^1}\bigg)_p & := \p_1\Big( x^2 \circ h^{X_3}_{\lambda}\circ x^{-1}\Big)\Big|_{x(p)} = 0 \\
+        \bigg(\frac{\p (x\circ h^{X_3}_{\lambda})^2}{\p x^2}\bigg)_p & := \p_2\Big( x^2 \circ h^{X_3}_{\lambda}\circ x^{-1}\Big)\Big|_{x(p)} = \lambda + \varphi_0.
+    \end{split}
+\ese 
+This gives us 
+\bse 
+    \begin{split}
+        \Big[\Big(h^{X_3}_{\lambda}\Big)^*g^{\text{ellipsoid}}\Big]_{11}(p) & = \vartheta_0^2 g^{\text{ellipsoid}}_{11}\big(\gamma_p(\lambda)\big) \\
+        \Big[\Big(h^{X_3}_{\lambda}\Big)^*g^{\text{ellipsoid}}\Big]_{22}(p) & = (\lambda+\varphi_0)^2 g^{\text{ellipsoid}}_{22}\big(\gamma_p(\lambda)\big)
+    \end{split}
+\ese 
+and again the other two components vanish. If we then take the coordinate transformation
+\bse 
+    \vartheta \to \frac{1}{\vartheta_0}\vartheta, \qand \varphi \to \frac{1}{\lambda+\varphi_0}\varphi,
+\ese 
+which we can do as $\vartheta_0,\varphi_0 >0$ (as the ranges of $\vartheta$ and $\varphi$ are positive), we then get 
+\bse 
+    \Big[\Big(h^{X_3}_{\lambda}\Big)^*g^{\text{ellipsoid}}\Big]_{ab}(p) = g^{\text{ellipsoid}}_{ab}\big(\gamma_p(\lambda)\big),
+\ese 
+or more nicely
+\bse 
+    \Big(h^{X_3}_{\lambda}\Big)^*g^{\text{ellipsoid}} = g^{\text{ellipsoid}}.
+\ese 
+This tells us that $X_3$ is a symmetry of the metric, and so $\cL_{X_3}g^{\text{ellipsoid}} = 0$. 
+

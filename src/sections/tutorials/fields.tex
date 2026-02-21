@@ -1,0 +1,68 @@
+\section{Fields}
+
+\subsection{Vector Fields For Practitioners}
+
+\mybox{
+\textbf{Question}: Let $(U,x)$ be a chart of a smooth a smooth manifold $(\cM,\cO,\cA)$. Explain why the map 
+\bse 
+    \frac{\p}{\p x^i} : U\to TU; \quad p\mapsto \bigg(\frac{\p}{\p x^i}\bigg)_p
+\ese 
+is a vector field on $U$.
+}
+
+\textbf{Solution}: We need to check that it is a section. That is $\pi\circ \frac{\p}{\p x^i} = \b1_{\cM}$. This is clearly true as $\pi:T_p\cM \to \cM$ is defied as 
+\bse 
+    \pi : \bigg(\frac{\p}{\p x^i}\bigg)_p \mapsto p.
+\ese 
+We now need to check if this section is smooth. If we denote the chart map on $TU$ as $\xi_x$, that is we need to check that 
+\bse 
+    \xi_x \circ \frac{\p}{\p x^i} \circ x^{-1} : x(U) \to \xi(TU)
+\ese 
+is smooth. Recalling the definition of $\xi_x$, and using the fact that the only non-vanishing component of $\frac{\p}{\p x^i}$ is the $i^{\text{th}}$ entry, we have 
+\bse 
+    \bigg(\xi_x \circ \frac{\p}{\p x^i} \circ x^{-1}\bigg)(\a^1,...,\a^d) =  (\a^1,...,\a^d, 0,...,1,...,0),
+\ese 
+where the $1$ appears at the $(d+i)^{\text{th}}$ entry. This is clearly smooth (w.r.t. the standard topologies on $\R^d$ and $\R^{2d}$), and so $\frac{\p}{\p x^i}$ is a vector field on $U$.
+
+\subsection{The Cotangent Bundle $T^*\cM \xrightarrow{\pi} \cM$}
+
+\mybox{
+We consider the \textit{cotangent bundle} total space $T^*\cM$ as the disjoint union 
+\bse 
+    T^*\cM := \bigcup^{\bullet}_{p\in\cM} T^*_p\cM 
+\ese 
+of all cotangent spaces and define the bundle projection map 
+\bse 
+    \begin{split}
+        \pi : T^*\cM & \to \cM \\
+        \omega & \mapsto \text{the unique $p$ with } \omega\in T^*_p\cM.
+    \end{split}
+\ese 
+\textbf{Question}: Show that 
+\bse 
+    \cO_{T^*\cM} := \{\preim_{\pi}(U) \, | \, U\in\cO_{\cM}\} 
+\ese 
+defines a topology on $T^*\cM$.
+}
+
+\textbf{Solution}: We check the three conditions for a topology in the order given in the definition. 
+\benr 
+    \item We have 
+    \bse 
+        \preim_{\pi}(\emptyset) = \emptyset, \qand \preim_{\pi}(\cM) = T^*\cM,
+    \ese
+    and so $\emptyset,T^*\cM\in\cO_{T^*\cM}$. 
+    \item This just follows from properties of the preimage, namely 
+    \bse 
+        \preim_f(U\cap V) = \preim_f(U)\cap \preim_f(V). 
+    \ese
+    \item This just follows from another property of the preimage, namely
+    \bse 
+        \bigcup_i \preim_f(U_i) = \preim_f\Big(\bigcup_i U_i\Big).
+    \ese 
+\een 
+
+\mybox{
+The rest of this tutorial is basically the same calculations as the ones in the lecture. Specifically find the components of $\xi^*_x$, its inverse and showing that the chart transition maps are smooth. 
+}
+
