@@ -1,0 +1,107 @@
+\section{Topological Manifolds}
+
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-1}.}\label{sol:topologicalmfds-1}
+
+The M\"{o}bius strip can be represented by the following diagram
+\begin{center}
+    \btik
+        \draw[thick] (0,0) -- (5,0);
+        \draw[thick] (0,2) -- (5,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (0,0) -- (0,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (5,2) -- (5,0);
+        \draw[blue, ultra thick] (0,1.5) .. controls (2,0) and (4,1.5) ..(5,0.5);
+    \etik
+\end{center}
+where the arrows indicate how we identify the two edges together (i.e. the bottom right corner goes to the top left corner). The blue line is the river. It is clear that we will need at least two charts in order to map the whole strip. We could choose them as follows
+
+\begin{center}
+    \btik
+        \draw[dashed, fill=lightgray] (0,0) -- (0,2) -- (1.5,2) -- (1.5,0) -- (0,0);
+        \draw[dashed, fill=lightgray] (5,0) -- (5,2) -- (3.5,2) -- (3.5,0) -- (5,0);
+        \draw[thick] (0,0) -- (5,0);
+        \draw[thick] (0,2) -- (5,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (0,0) -- (0,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (5,2) -- (5,0);
+        \draw[blue, ultra thick] (0,1.5) .. controls (2,0) and (4,1.5) ..(5,0.5);
+        \node at (0.75,0.5) {\Large{$U_1$}};
+        \node at (4.25,1.5) {\Large{$U_1$}};
+        %
+        \draw[dashed, fill=lightgray] (7.5,0) -- (7.5,2) -- (11.5,2) -- (11.5,0) -- (7.5,0);
+        \draw[thick] (7,0) -- (12,0);
+        \draw[thick] (7,2) -- (12,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (7,0) -- (7,2);
+        \draw[thick, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (12,2) -- (12,0);
+        \draw[blue, ultra thick] (7,1.5) .. controls (9,0) and (11,1.5) ..(12,0.5);
+        \node at (9.5,1.5) {\Large{$U_2$}};
+        %
+    \etik
+\end{center}
+We then define maps from these shaded regions into $\R^2$. For example we can just map them so that they are the shaded regions on the page, taking care to region the two parts of $U_1$ properly. To save my writing more Tikz code, I'll leave this to your imagination.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-2}.}\label{sol:topologicalmfds-2}
+
+The map is $x: F^1 \to [-1,1]$ given by $x:(m,n)
+\mapsto m$. Clearly this map is not injective as $x\big((m,n)\big) = x\big((m,n')\big)$ where $n' = -n$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-3}.}\label{sol:topologicalmfds-3}
+
+The problem was that $n'=-n$ gave non-injectivity, so clearly we define
+\bse
+    \begin{split}
+        U_{\uparrow}  & := \{(m,n)\in\R^2 \, | \, m^4 + n^4 = 1, n>0\} \\
+        U_{\downarrow}  & := \{(m,n)\in\R^2 \, | \, m^4 + n^4 = 1, n<0\}
+    \end{split}
+\ese
+and so have the maps
+\bse
+    x_{\uparrow} : U_{\uparrow} \to (-1,1), \qquad \text{and} \qquad x_{\downarrow} : U_{\downarrow} \to (-1,1).
+\ese
+It is important that we take the inequalities for $n$ (i.e. $n\neq 0$) so that our sets are open, as required by the question.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-4}.}\label{sol:topologicalmfds-4}
+
+Same as above we simply define
+\bse
+    V_{\uparrow}  := \{(m,n)\in\R^2 \, | \, m^4 + n^4 = 1, m>0\},
+\ese
+and the map
+\bse
+    y_{\uparrow} : V_{\uparrow} \to (-1,1),
+\ese
+given by $y_{\uparrow}:(m,n)\mapsto n$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-5}.}\label{sol:topologicalmfds-5}
+
+Yes it is invertible as it is bijective. We construct the inverse as
+\bse
+    y_{\uparrow}^{-1} : (-1,1) \to V_{\uparrow},
+\ese
+where the action is given by
+\bse
+    y_{\uparrow}^{-1} : n \mapsto \big( \sqrt[4]{1-n^4}, n\big).
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-6}.}\label{sol:topologicalmfds-6}
+
+Yes their domains overlap as
+\bse
+    U_{\uparrow}\cap V_{\uparrow} = \{(m,n)\in\R^2 \, | \, m^4 + n^4 = 1, n,m>0\}
+\ese
+The transition map is
+\bse
+    \big(x_{\uparrow}\circ y_{\uparrow}^{-1}\big) : (0,1) \to (0,1)
+\ese
+with
+\bse
+    \big(x_{\uparrow}\circ y_{\uparrow}^{-1}\big)(a) = x_{\uparrow}\big(\sqrt[4]{1-a^4}, a\big) = \sqrt[4]{1-a^4} \in (0,1).
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topologicalmfds-7}.}\label{sol:topologicalmfds-7}
+
+The answer is obviously 4 maps, $x_{\uparrow},x_{\downarrow},y_{\uparrow}$ and $y_{\downarrow}$, and yes they form an atlas. From this we see that $F^1$ is a topological manifold of dimension $d=1$.

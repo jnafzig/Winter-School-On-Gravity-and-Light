@@ -1,237 +1,113 @@
-\section{Tutorial}
+\section{Additional Exercises}
 
 \subsection{Recognising \& Dealing With Different Signatures}
 
-\mybox{
-\textbf{Question}: (reworded) State the possible signatures of a metric $g$ for the following set of $g$-null vectors: 
+\begin{exercise}\label{ex:metricmfds-1}
+(reworded) State the possible signatures of a metric $g$ for the following set of $g$-null vectors:
 \benr
-    \item A cone through the origin, 
+    \item A cone through the origin,
     \item A point at the origin,
-    \item A straight line through the origin, and 
+    \item A straight line through the origin, and
     \item A plane through the origin,
-\een 
-where the origin is the origin of the vector space, namely the point $p\in\cM$ that we are tangent to. 
-}
-
-\textbf{Solution}: W.l.o.g. let's assume the vector space is 3-dimensional and introduce a basis $\{e_1,e_2,e_3\}$. The relevant equations giving the correct surfaces are
-\benr 
-    \item $g(X,X) = -(X^1)^2 + (X^2)^2 + (X^3)^2 = 0$, so we have $(-,+,+)$, or equivalently $(+,-,-)$.
-    \item $g(X,X)=0$ only for the zero vector, and so we need $(+,+,+)$ or $(-,-,-)$. 
-    \item From the above case, we just need to have one of the entries to be 0, i.e. $(0,+,+)$/$(0,-,-)$, as then all vectors with only an $e^1$ component are null. 
-    \item Extending the previous case, we have $(0,0,+)$/$(0,0-)$.
-\een 
+\een
+where the origin is the origin of the vector space, namely the point $p\in\cM$ that we are tangent to.
+\end{exercise}
+\hyperref[sol:metricmfds-1]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-1}}}
 
 \subsection{Levi-Civita Connection}
 
-\mybox{
-\textbf{Question}: Expand in terms of connection coefficient functions 
-\benr 
-    \item $\big(\nabla_ag\big)_{bc}$, 
+\begin{exercise}\label{ex:metricmfds-2}
+Expand in terms of connection coefficient functions
+\benr
+    \item $\big(\nabla_ag\big)_{bc}$,
     \item $\big(\nabla_bg\big)_{ca}$,
     \item $\big(\nabla_cg\big)_{ab}$.
 \een
-}
+\end{exercise}
+\hyperref[sol:metricmfds-2]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-2}}}
 
-\textbf{Solution}: We just do the first one, as the other two are obtained by simply relabeling the indices. We have 
-\bse 
-    \big(\nabla_ag\big)_{bc} = g_{bc,a} - {\Gamma^m}_{ba}g_{mc} - {\Gamma^m}_{ca}g_{bm}. 
-\ese
-
-\mybox{
-\textbf{Question}: By adding and/or subtracting (i), (ii) and (iii) above in a clever way, obtain 
-\bse 
+\begin{exercise}\label{ex:metricmfds-3}
+By adding and/or subtracting (i), (ii) and (iii) above in a clever way, obtain
+\bse
     {\Gamma^a}_{bc} = \frac{1}{2}\big(g^{-1}\big)^{am} \big( g_{mc,b} + g_{mb,c} - g_{bc,m}\big)
-\ese 
-and conclude that $\nabla g=0$ and $T=0$ (torsion) uniquely determine the connection coefficient functions in terms of the metric. 
-}
-
-\textbf{Solution}: Consider (i)+(ii)-(iii), 
-\bse 
-    g_{bc,a} - {\Gamma^m}_{ba}g_{mc} - {\Gamma^m}_{ca}g_{bm} + g_{ca,b} - {\Gamma^m}_{cb}g_{ma} - {\Gamma^m}_{ab}g_{cm} - g_{ab,c} + {\Gamma^m}_{ac}g_{mb} + {\Gamma^m}_{bc}g_{am}.
-\ese 
-Now if we consider a metric compatible connection and vanishing torsion, we have that the above vanishes (as each of (i), (ii) and (iii) vanish themselves) and that the $\Gamma$s are symmetric in the lower two indices. Also using the fact that the metric is symmetric, we have 
-\bse 
-    0 = g_{bc,a} + g_{ac,b} - g_{ab,c} - 2{\Gamma^m}_{ba}g_{mc},
-\ese 
-which after rearranging and using $g_{mc}g^{-1})^{cn} = \del^n_m$ we have 
-\bse 
-    {\Gamma^n}_{ba} = \frac{1}{2}\big(g^{-1}\big)^{cn}\big(g_{bc,a} + g_{ac,b} - g_{ab,c}\big),
-\ese 
-which, relabelling $n\to a \to c \to m$ gives
-\bse 
-    {\Gamma^a}_{bc} = \frac{1}{2}\big(g^{-1}\big)^{ma}\big(g_{bm,c} + g_{cm,b} - g_{cb,m}\big)
-\ese 
-which is the result (when you us the symmetries). So we see the connection coefficient functions are uniquely determined by the metric components given the above conditions. 
+\ese
+and conclude that $\nabla g=0$ and $T=0$ (torsion) uniquely determine the connection coefficient functions in terms of the metric.
+\end{exercise}
+\hyperref[sol:metricmfds-3]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-3}}}
 
 \subsection{Massaging The Length Functional}
 
-\mybox{
-\textbf{Question}: Let $\gamma :(0,1) \to \cM$ be a smooth curve on a smooth manifold $(\cM,\cO,\cA)$. Now consider a second curve $\widetilde{\gamma}:(0,1)\to\cM$ defined by 
-\bse 
+\begin{exercise}\label{ex:metricmfds-4}
+Let $\gamma :(0,1) \to \cM$ be a smooth curve on a smooth manifold $(\cM,\cO,\cA)$. Now consider a second curve $\widetilde{\gamma}:(0,1)\to\cM$ defined by
+\bse
     \widetilde{\gamma}(\lambda) = \gamma\big(\sig(\lambda)\big),
-\ese 
-where $\sig:(0,1)\to(0,1)$ is an increasing bijective smooth function. 
+\ese
+where $\sig:(0,1)\to(0,1)$ is an increasing bijective smooth function.
 
 Show that the length of both curves is the same:
-\bse 
+\bse
     L[\widetilde{\gamma}] = L[\gamma].
-\ese 
-}
+\ese
+\end{exercise}
+\hyperref[sol:metricmfds-4]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-4}}}
 
-\textbf{Solution}: Using 
-\bse 
-    \cL[\gamma] = \sqrt{g(v_{\gamma},v_{\gamma})}, \qand \dot{\widetilde{\gamma}}^a(\lambda) = (x^a\circ \gamma)'(\lambda),
-\ese 
-and introducing the notation 
-\bse 
-    \widetilde{\lambda} := \sig(\lambda), \qquad \implies \qquad \widetilde{\gamma}(\lambda) = \gamma(\widetilde{\lambda}),
-\ese 
-we have 
-\bse 
-    \begin{split}
-        L[\widetilde{\gamma}] & := \int_0^1 d\lambda \sqrt{g(v_{\widetilde{\gamma}},v_{\widetilde{\gamma}})} \\
-        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\widetilde{\gamma}(\lambda)\big)\cdot\dot{\widetilde{\gamma}}^a(\lambda) \cdot  \dot{\widetilde{\gamma}}^b}(\lambda) \\
-        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot (x^a\circ \gamma \circ \sig)'(\lambda) \cdot (x^b\circ \gamma \circ \sig)'(\lambda)} \\
-        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot (x^a\circ \gamma)'(\widetilde{\lambda})\cdot \dot{\sig}(\lambda) \cdot (x^b\circ \gamma)'(\widetilde{\lambda)}\cdot\dot{\sig}(\lambda)} \\
-        & = \int_0^1 d\lambda \dot{\sig}(\lambda)\sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot \dot{\gamma}^a(\widetilde{\lambda}) \cdot \dot{\gamma}^b(\widetilde{\lambda})} \\
-        & = \int_0^1 d\widetilde{\lambda} \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot \dot{\gamma}^a(\widetilde{\lambda}) \cdot \dot{\gamma}^b(\widetilde{\lambda})} \\
-        & = L[\gamma],
-    \end{split}
-\ese 
-where we have used the chain rule, and the result $d\widetilde{\lambda} = \dot{\sig}d\lambda$.
-
-\mybox{
-\textbf{Question}: Show that the Euler-Lagrange equations for a Lagrangian $\cT$ have precisely the same solutions as the Euler-Lagrange equations for the Lagrangian $\cL :=\sqrt{\cT}$, if of the latter one only selects those solutions that satisfy the condition $\cT=1$ on their parameterisation. 
-}
-\textbf{Solution}: Let's denote the canonical variables at $t$ and $q$, then the Euler-Lagrange equations for $\cL$ read 
-\bse 
-    \frac{d}{dt}\bigg(\frac{\p \cL}{\p \dot{q}^a}\bigg) - \frac{\p \cL}{\p q^a} = 0.
-\ese 
-Substituting in $\cL := \sqrt{\cT}$, and using the assumption that we only consider solutions were $\cT=1$, and so it is a constant w.r.t. $t$, we have 
-\bse 
-    \begin{split}
-        0 & = \frac{d}{dt}\bigg(\frac{\p \sqrt{\cT}}{\p \dot{q}^a}\bigg) - \frac{\p \sqrt{\cT}}{\p q^a} \\
-        & = \frac{d}{dt}\bigg(\frac{1}{2\sqrt{\cT}}\frac{\p \cT}{\p \dot{q}^a}\bigg) - \frac{1}{2\sqrt{\cT}} \frac{\p \cT}{\p q^a} \\
-        & = \frac{1}{2\sqrt{\cT}} \bigg[ \frac{d}{dt}\bigg(\frac{\p \cT}{\p \dot{q}^a}\bigg) - \dfrac{\p \cT}{\p q^a} \bigg],
-    \end{split}
-\ese 
-which multiplying out the $1/2\sqrt{\cT}$ gives the answer.
+\begin{exercise}\label{ex:metricmfds-5}
+Show that the Euler-Lagrange equations for a Lagrangian $\cT$ have precisely the same solutions as the Euler-Lagrange equations for the Lagrangian $\cL :=\sqrt{\cT}$, if of the latter one only selects those solutions that satisfy the condition $\cT=1$ on their parameterisation.
+\end{exercise}
+\hyperref[sol:metricmfds-5]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-5}}}
 
 \subsection{A Practical Way To Quickly Determine Christoffel Symbols}
 
-\mybox{
-\textbf{Question}: Derive the geodesic equation for the two-dimensional round sphere of radius $R$, whose metric in some chart $(U,x)$ is given by 
-\bse 
+\begin{exercise}\label{ex:metricmfds-6}
+Derive the geodesic equation for the two-dimensional round sphere of radius $R$, whose metric in some chart $(U,x)$ is given by
+\bse
     g_{ab}\big( x^{-1}(\vartheta,\phi)\big) = \begin{pmatrix}
         R^2 & 0 \\
         0 & R^2 \sin^2\vartheta
     \end{pmatrix}
-\ese 
-via a convenient Euler-Lagrange equation. In order to lighten notation, you may define 
-\bse 
+\ese
+via a convenient Euler-Lagrange equation. In order to lighten notation, you may define
+\bse
     \vartheta(\lambda) := (x^1\circ\gamma)(\lambda), \qand \phi(\lambda) := (x^2\circ\gamma)(\lambda).
-\ese 
-}
+\ese
+\end{exercise}
+\hyperref[sol:metricmfds-6]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-6}}}
 
-\textbf{Solution}: We have $\cL[\gamma] :=\sqrt{g(v_{\gamma},v_{\gamma})}$, but the previous question showed us we can instead consider $\cT:= g(v_{\gamma},v_{\gamma}) = g_{ab}\dot{\gamma}^a\dot{\gamma}^b$ if we restrict ourselves to $\cT=1$ on the parameterisation. For our metric components, we have 
-\bse 
-    \cT = R^2 \cdot \dot{\vartheta}(\lambda) \cdot \dot{\vartheta}(\lambda) + R^2\sin^2\vartheta  \cdot \dot{\phi}(\lambda) \cdot \dot{\phi}(\lambda).
-\ese 
-Plugging this into our Euler-Lagrange equations, we have 
-\bse 
-    \begin{split}
-        \frac{d}{d\lambda}\bigg(\frac{\p \cT}{\p \dot{\vartheta}}\bigg) - \frac{\p \cT}{\p \vartheta} & = 2R^2 \big(\ddot{\vartheta}(\lambda) - \sin\vartheta\cos\vartheta \cdot \dot{\phi}^2(\lambda)\big) \\
-        \frac{d}{d\lambda}\bigg(\frac{\p \cT}{\p \dot{\phi}}\bigg) - \frac{\p \cT}{\p \phi} & = 2R^2\sin\vartheta \big( \sin\vartheta\cdot \ddot{\phi}(\lambda) + 2\cos\vartheta \cdot \dot{\vartheta}\cdot \dot{\phi}\big)
-    \end{split}
-\ese 
-which simplify to 
-\bse 
-    \begin{split}
-        \ddot{\vartheta}(\lambda) - \sin\vartheta\cos\vartheta \cdot \dot{\phi}^2(\lambda) & = 0 \\
-        \ddot{\phi} + 2\cot\vartheta \cdot \dot{\vartheta}\cdot \dot{\phi} & = 0.
-    \end{split}
-\ese 
-These are the geodesic equations for our round sphere of radius $R$.
-
-\mybox{
-\textbf{Question}: Read off the metric-induced connection coefficient functions for the round sphere. 
-}
-\textbf{Solution}: Comparing the above result to the geodesic equation for the metric induced connection coefficients, 
-\bse 
-    \ddot{\gamma}^a + {\Gamma^a}_{bc}\dot{\gamma}^b\dot{\gamma}^c,
-\ese 
-we see straight away that 
-\bse 
-    {\Gamma^1}_{22} = -\sin\vartheta\cos\vartheta, \qand {\Gamma^2}_{12} = {\Gamma^2}_{21} = \cot\vartheta,
-\ese 
-with all other $\Gamma$s vanishing. Note in the second expression there is no $2$ as we distribute it across the ${\Gamma^2}_{12}$ and ${\Gamma^2}_{21}$.
+\begin{exercise}\label{ex:metricmfds-7}
+Read off the metric-induced connection coefficient functions for the round sphere.
+\end{exercise}
+\hyperref[sol:metricmfds-7]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-7}}}
 
 \subsection{Properties Of The Riemann-Christoffel Tensor}
 
-\mybox{
-\textbf{Question}: Show that the chart-induced basis fields act on the coefficient functions as 
-\bse 
+\begin{exercise}\label{ex:metricmfds-8}
+Show that the chart-induced basis fields act on the coefficient functions as
+\bse
     \frac{\p}{\p x^c}\big(g^{-1}\big)^{ab} = - \big(g^{-1}\big)^{ar} \big(g^{-1}\big)^{bs} \frac{\p}{\p x^c}g_{rs}.
-\ese 
-}
+\ese
+\end{exercise}
+\hyperref[sol:metricmfds-8]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-8}}}
 
-\textbf{Solution}: Using $(g^{-1})^{ab}g_{bs} = \del^a_s$, we have
-\bse 
-    \begin{split}
-        0 & = \frac{\p}{\p x^c} \del^a_s \\
-        & = \frac{\p}{\p x^c}\Big( \big(g^{-1}\big)^{ab}g_{bs}\Big) \\
-        & = \bigg(\frac{\p}{\p x^c}\big(g^{-1}\big)^{ab}\bigg)g_{bs} + \big(g^{-1}\big)^{ab}\bigg(\frac{\p}{\p x^c}g_{bs}\bigg) \\
-        & = \frac{\p}{\p x^c}\big(g^{-1}\big)^{ar} + \big(g^{-1}\big)^{sr}\big(g^{-1}\big)^{ab}\bigg(\frac{\p}{\p x^c}g_{bs}\bigg)
-    \end{split}
-\ese 
-which, after relabelling and rearranging gives the result.
-
-\mybox{
-\textbf{Question}: Use normal coordinates to find an expression for the Riemann-Christoffel tensor 
-\bse 
+\begin{exercise}\label{ex:metricmfds-9}
+Use normal coordinates to find an expression for the Riemann-Christoffel tensor
+\bse
     R_{abcd} = g_{ak}{R^k}_{bcd}
-\ese 
-at a given point $p$ in terms of $g_{ab}$ and its first and second order derivatives at that very point. 
-}
+\ese
+at a given point $p$ in terms of $g_{ab}$ and its first and second order derivatives at that very point.
+\end{exercise}
+\hyperref[sol:metricmfds-9]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-9}}}
 
-\textbf{Solution}: This is just a long calculation involving the product rule and using the fact that in normal coordinates all the $\Gamma$s vanish. The full calculation is given in the video. The result is 
-\bse 
-    R_{abcd} = \frac{1}{2}\big( g_{ad,bc} - g_{bd,ac} + g_{ac,bd} - g_{bc,ad} \big),
-\ese 
-where 
-\bse 
-    g_{ab,cd} := \frac{\p^2 g_{ab}}{\p x^c\p x^d}.
-\ese 
+\begin{exercise}\label{ex:metricmfds-10}
+Show --- in normal coordinates --- that $R_{abcd}=-R_{bacd}$.
+\end{exercise}
+\hyperref[sol:metricmfds-10]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-10}}}
 
-\mybox{
-\textbf{Question}: Show --- in normal coordinates --- that $R_{abcd}=-R_{bacd}$.
-}
-\textbf{Solution}: Switching the indices $a\leftrightarrow b$ in the result of the previous exercise we have 
-\bse 
-    R_{bacd} = \frac{1}{2}\big( g_{bd,ac} - g_{ad,bc} + g_{bc,ad} - g_{ac,bd}\big) = -\frac{1}{2}\big( g_{ad,bc} - g_{bd,ac} + g_{ac,bd} - g_{bc,ad} \big) = - R_{abcd}.
-\ese 
+\begin{exercise}\label{ex:metricmfds-11}
+Similarly, show that $R_{abcd}=R_{cdab}$.
+\end{exercise}
+\hyperref[sol:metricmfds-11]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-11}}}
 
-\mybox{
-\textbf{Question}: Similarly, show that $R_{abcd}=R_{cdab}$.
-}
-
-\textbf{Solution}: Again just switch the indices and get the result.
-
-\mybox{
-\textbf{Question}: Show that $R_{a[bcd]}=0$ for the Riemann-Christoffel tensor.
-}
-
-\textbf{Solution}: We have
-\bse 
-    R_{a[bcd]} := \frac{1}{3!}\big( R_{abcd} - R_{abdc} + R_{acdb} - R_{acbd} + R_{adbc} - R_{adcb}\big).
-\ese 
-Then using the previous two questions, we also have 
-\bse 
-    R_{abcd} = R_{cdab} = -R_{dcab} = -R_{abdc}.
-\ese 
-Following this with the other indice arrangments, we get 
-\bse 
-    R_{a[bcd]} = \frac{1}{3}\big( R_{abcd} + R_{acdb} + R_{adbc}\big).
-\ese 
-If you then plug in the expansion in terms of $g_{ab}$ and its derivatives, you can show everything cancels and you get the result. 
-
+\begin{exercise}\label{ex:metricmfds-12}
+Show that $R_{a[bcd]}=0$ for the Riemann-Christoffel tensor.
+\end{exercise}
+\hyperref[sol:metricmfds-12]{\small \textit{Solution on p.~\pageref*{sol:metricmfds-12}}}

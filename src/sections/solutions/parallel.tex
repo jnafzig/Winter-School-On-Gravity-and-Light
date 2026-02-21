@@ -1,0 +1,45 @@
+\section{Parallel Transport}
+
+\noindent\textbf{Exercise~\ref{ex:parallel-1}.}\label{sol:parallel-1}
+
+Recall the definition
+\bse
+    \Riem(\omega,Z,X,Y) := \omega : \Big( \nabla_X\nabla_YZ - \nabla_Y\nabla_XZ - \nabla_{[X,Y]}Z\Big).
+\ese
+We have already seen\footnote{Or more correctly, you have shown as an exercise in Lecture 8.} that Riem is $C^{\infty}$-linear in all its entries and so we can just consider basis elements. That is, we can set (using the notation $\p_j := \frac{\p}{\p x^j}$)
+\bse
+    \omega = dx^i, \qquad Z = \p_j, \qquad X = \p_k, \qand Y = \p_m.
+\ese
+So we have
+\bse
+    \begin{split}
+        \Riem(dx^i,\p_j,\p_k,\p_m) & := dx^i : \Big(\nabla_k\nabla_m\p_j - \nabla_m\nabla_k\p_j - \nabla_{[\p_k,\p_m]}\p_j\Big) \\
+        & = dx^i : \Big[ \nabla_k \big(\Gamma^r_{(x)jm}\p_r\big) - \nabla_m\big( \Gamma^r_{(x)jk}\p_r\big) \Big] \\
+        & = dx^i : \Big[ \Gamma^r_{(x)jm,k}\p_r + \Gamma^r_{(x)jm}\Gamma^s_{(x)rk}\p_s - \Gamma^r_{(x)jk,m}\p_r - \Gamma^r_{(x)jk}\Gamma^s_{(x)rm}\p_s \Big] \\
+        {\Riem^i}_{jkm} & = \Gamma^i_{(x)jm,k} - \Gamma^i_{(x)jk,m} + \Gamma^r_{(x)jm}\Gamma^i_{(x)rk}  - \Gamma^r_{(x)jk}\Gamma^i_{(x)rm}.
+    \end{split}
+\ese
+We can see the antisymmetry in the last two entries immediatley from the above. That is ${\Riem^i}_{jkm} = -{\Riem^i}_{jmk}$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:parallel-2}.}\label{sol:parallel-2}
+
+No, as if it is one-dimensional we only have one $\Gamma$, namely ${\Gamma^1}_{11}$, and if we put this into the above definition, all the only component ${\Riem^1}_{111}$ vanishes and so there is no curvature.
+
+Geometrically this makes sense if we think about embedding the one-dimensional manifold into a higher dimensional space. We can always `pull' the one-dimensional manifold straight and thus show that it has no intrinsic curvature.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:parallel-3}.}\label{sol:parallel-3}
+
+Consider the transformation to another chart with the same domain $(U,y)$,
+\bse
+    X^i_{(y)} = \bigg(\frac{\p y^i}{\p x^j}\bigg)_p X^j_{(x)} = \bigg(\frac{\p y^i}{\p x^j}\bigg)_p Y^j_{(x)} = \bigg(\frac{\p y^i}{\p x^j}\bigg)_p \bigg(\frac{\p x^j}{\p y^k}\bigg)_q Y^k_{(y)},
+\ese
+but because $p\neq q$ we cannot, in general, use
+\bse
+    \bigg(\frac{\p y^i}{\p x^j}\bigg)_p \bigg(\frac{\p x^j}{\p y^k}\bigg)_q = \del^i_k,
+\ese
+and so
+\bse
+    X^i_{(y)} \neq Y^i_{(y)}.
+\ese

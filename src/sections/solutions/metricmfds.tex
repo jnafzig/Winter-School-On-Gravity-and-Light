@@ -1,0 +1,174 @@
+\section{Metric Manifolds}
+
+\noindent\textbf{Exercise~\ref{ex:metricmfds-1}.}\label{sol:metricmfds-1}
+
+W.l.o.g. let's assume the vector space is 3-dimensional and introduce a basis $\{e_1,e_2,e_3\}$. The relevant equations giving the correct surfaces are
+\benr
+    \item $g(X,X) = -(X^1)^2 + (X^2)^2 + (X^3)^2 = 0$, so we have $(-,+,+)$, or equivalently $(+,-,-)$.
+    \item $g(X,X)=0$ only for the zero vector, and so we need $(+,+,+)$ or $(-,-,-)$.
+    \item From the above case, we just need to have one of the entries to be 0, i.e. $(0,+,+)$/$(0,-,-)$, as then all vectors with only an $e^1$ component are null.
+    \item Extending the previous case, we have $(0,0,+)$/$(0,0-)$.
+\een
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-2}.}\label{sol:metricmfds-2}
+
+We just do the first one, as the other two are obtained by simply relabeling the indices. We have
+\bse
+    \big(\nabla_ag\big)_{bc} = g_{bc,a} - {\Gamma^m}_{ba}g_{mc} - {\Gamma^m}_{ca}g_{bm}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-3}.}\label{sol:metricmfds-3}
+
+Consider (i)+(ii)-(iii),
+\bse
+    g_{bc,a} - {\Gamma^m}_{ba}g_{mc} - {\Gamma^m}_{ca}g_{bm} + g_{ca,b} - {\Gamma^m}_{cb}g_{ma} - {\Gamma^m}_{ab}g_{cm} - g_{ab,c} + {\Gamma^m}_{ac}g_{mb} + {\Gamma^m}_{bc}g_{am}.
+\ese
+Now if we consider a metric compatible connection and vanishing torsion, we have that the above vanishes (as each of (i), (ii) and (iii) vanish themselves) and that the $\Gamma$s are symmetric in the lower two indices. Also using the fact that the metric is symmetric, we have
+\bse
+    0 = g_{bc,a} + g_{ac,b} - g_{ab,c} - 2{\Gamma^m}_{ba}g_{mc},
+\ese
+which after rearranging and using $g_{mc}g^{-1})^{cn} = \del^n_m$ we have
+\bse
+    {\Gamma^n}_{ba} = \frac{1}{2}\big(g^{-1}\big)^{cn}\big(g_{bc,a} + g_{ac,b} - g_{ab,c}\big),
+\ese
+which, relabelling $n\to a \to c \to m$ gives
+\bse
+    {\Gamma^a}_{bc} = \frac{1}{2}\big(g^{-1}\big)^{ma}\big(g_{bm,c} + g_{cm,b} - g_{cb,m}\big)
+\ese
+which is the result (when you us the symmetries). So we see the connection coefficient functions are uniquely determined by the metric components given the above conditions.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-4}.}\label{sol:metricmfds-4}
+
+Using
+\bse
+    \cL[\gamma] = \sqrt{g(v_{\gamma},v_{\gamma})}, \qand \dot{\widetilde{\gamma}}^a(\lambda) = (x^a\circ \gamma)'(\lambda),
+\ese
+and introducing the notation
+\bse
+    \widetilde{\lambda} := \sig(\lambda), \qquad \implies \qquad \widetilde{\gamma}(\lambda) = \gamma(\widetilde{\lambda}),
+\ese
+we have
+\bse
+    \begin{split}
+        L[\widetilde{\gamma}] & := \int_0^1 d\lambda \sqrt{g(v_{\widetilde{\gamma}},v_{\widetilde{\gamma}})} \\
+        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\widetilde{\gamma}(\lambda)\big)\cdot\dot{\widetilde{\gamma}}^a(\lambda) \cdot  \dot{\widetilde{\gamma}}^b}(\lambda) \\
+        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot (x^a\circ \gamma \circ \sig)'(\lambda) \cdot (x^b\circ \gamma \circ \sig)'(\lambda)} \\
+        & = \int_0^1 d\lambda \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot (x^a\circ \gamma)'(\widetilde{\lambda})\cdot \dot{\sig}(\lambda) \cdot (x^b\circ \gamma)'(\widetilde{\lambda)}\cdot\dot{\sig}(\lambda)} \\
+        & = \int_0^1 d\lambda \dot{\sig}(\lambda)\sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot \dot{\gamma}^a(\widetilde{\lambda}) \cdot \dot{\gamma}^b(\widetilde{\lambda})} \\
+        & = \int_0^1 d\widetilde{\lambda} \sqrt{g_{ab}\big(\gamma(\widetilde{\lambda})\big) \cdot \dot{\gamma}^a(\widetilde{\lambda}) \cdot \dot{\gamma}^b(\widetilde{\lambda})} \\
+        & = L[\gamma],
+    \end{split}
+\ese
+where we have used the chain rule, and the result $d\widetilde{\lambda} = \dot{\sig}d\lambda$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-5}.}\label{sol:metricmfds-5}
+
+Let's denote the canonical variables at $t$ and $q$, then the Euler-Lagrange equations for $\cL$ read
+\bse
+    \frac{d}{dt}\bigg(\frac{\p \cL}{\p \dot{q}^a}\bigg) - \frac{\p \cL}{\p q^a} = 0.
+\ese
+Substituting in $\cL := \sqrt{\cT}$, and using the assumption that we only consider solutions were $\cT=1$, and so it is a constant w.r.t. $t$, we have
+\bse
+    \begin{split}
+        0 & = \frac{d}{dt}\bigg(\frac{\p \sqrt{\cT}}{\p \dot{q}^a}\bigg) - \frac{\p \sqrt{\cT}}{\p q^a} \\
+        & = \frac{d}{dt}\bigg(\frac{1}{2\sqrt{\cT}}\frac{\p \cT}{\p \dot{q}^a}\bigg) - \frac{1}{2\sqrt{\cT}} \frac{\p \cT}{\p q^a} \\
+        & = \frac{1}{2\sqrt{\cT}} \bigg[ \frac{d}{dt}\bigg(\frac{\p \cT}{\p \dot{q}^a}\bigg) - \dfrac{\p \cT}{\p q^a} \bigg],
+    \end{split}
+\ese
+which multiplying out the $1/2\sqrt{\cT}$ gives the answer.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-6}.}\label{sol:metricmfds-6}
+
+We have $\cL[\gamma] :=\sqrt{g(v_{\gamma},v_{\gamma})}$, but the previous question showed us we can instead consider $\cT:= g(v_{\gamma},v_{\gamma}) = g_{ab}\dot{\gamma}^a\dot{\gamma}^b$ if we restrict ourselves to $\cT=1$ on the parameterisation. For our metric components, we have
+\bse
+    \cT = R^2 \cdot \dot{\vartheta}(\lambda) \cdot \dot{\vartheta}(\lambda) + R^2\sin^2\vartheta  \cdot \dot{\phi}(\lambda) \cdot \dot{\phi}(\lambda).
+\ese
+Plugging this into our Euler-Lagrange equations, we have
+\bse
+    \begin{split}
+        \frac{d}{d\lambda}\bigg(\frac{\p \cT}{\p \dot{\vartheta}}\bigg) - \frac{\p \cT}{\p \vartheta} & = 2R^2 \big(\ddot{\vartheta}(\lambda) - \sin\vartheta\cos\vartheta \cdot \dot{\phi}^2(\lambda)\big) \\
+        \frac{d}{d\lambda}\bigg(\frac{\p \cT}{\p \dot{\phi}}\bigg) - \frac{\p \cT}{\p \phi} & = 2R^2\sin\vartheta \big( \sin\vartheta\cdot \ddot{\phi}(\lambda) + 2\cos\vartheta \cdot \dot{\vartheta}\cdot \dot{\phi}\big)
+    \end{split}
+\ese
+which simplify to
+\bse
+    \begin{split}
+        \ddot{\vartheta}(\lambda) - \sin\vartheta\cos\vartheta \cdot \dot{\phi}^2(\lambda) & = 0 \\
+        \ddot{\phi} + 2\cot\vartheta \cdot \dot{\vartheta}\cdot \dot{\phi} & = 0.
+    \end{split}
+\ese
+These are the geodesic equations for our round sphere of radius $R$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-7}.}\label{sol:metricmfds-7}
+
+Comparing the above result to the geodesic equation for the metric induced connection coefficients,
+\bse
+    \ddot{\gamma}^a + {\Gamma^a}_{bc}\dot{\gamma}^b\dot{\gamma}^c,
+\ese
+we see straight away that
+\bse
+    {\Gamma^1}_{22} = -\sin\vartheta\cos\vartheta, \qand {\Gamma^2}_{12} = {\Gamma^2}_{21} = \cot\vartheta,
+\ese
+with all other $\Gamma$s vanishing. Note in the second expression there is no $2$ as we distribute it across the ${\Gamma^2}_{12}$ and ${\Gamma^2}_{21}$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-8}.}\label{sol:metricmfds-8}
+
+Using $(g^{-1})^{ab}g_{bs} = \del^a_s$, we have
+\bse
+    \begin{split}
+        0 & = \frac{\p}{\p x^c} \del^a_s \\
+        & = \frac{\p}{\p x^c}\Big( \big(g^{-1}\big)^{ab}g_{bs}\Big) \\
+        & = \bigg(\frac{\p}{\p x^c}\big(g^{-1}\big)^{ab}\bigg)g_{bs} + \big(g^{-1}\big)^{ab}\bigg(\frac{\p}{\p x^c}g_{bs}\bigg) \\
+        & = \frac{\p}{\p x^c}\big(g^{-1}\big)^{ar} + \big(g^{-1}\big)^{sr}\big(g^{-1}\big)^{ab}\bigg(\frac{\p}{\p x^c}g_{bs}\bigg)
+    \end{split}
+\ese
+which, after relabelling and rearranging gives the result.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-9}.}\label{sol:metricmfds-9}
+
+This is just a long calculation involving the product rule and using the fact that in normal coordinates all the $\Gamma$s vanish. The full calculation is given in the video. The result is
+\bse
+    R_{abcd} = \frac{1}{2}\big( g_{ad,bc} - g_{bd,ac} + g_{ac,bd} - g_{bc,ad} \big),
+\ese
+where
+\bse
+    g_{ab,cd} := \frac{\p^2 g_{ab}}{\p x^c\p x^d}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-10}.}\label{sol:metricmfds-10}
+
+Switching the indices $a\leftrightarrow b$ in the result of the previous exercise we have
+\bse
+    R_{bacd} = \frac{1}{2}\big( g_{bd,ac} - g_{ad,bc} + g_{bc,ad} - g_{ac,bd}\big) = -\frac{1}{2}\big( g_{ad,bc} - g_{bd,ac} + g_{ac,bd} - g_{bc,ad} \big) = - R_{abcd}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-11}.}\label{sol:metricmfds-11}
+
+Again just switch the indices and get the result.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:metricmfds-12}.}\label{sol:metricmfds-12}
+
+We have
+\bse
+    R_{a[bcd]} := \frac{1}{3!}\big( R_{abcd} - R_{abdc} + R_{acdb} - R_{acbd} + R_{adbc} - R_{adcb}\big).
+\ese
+Then using the previous two questions, we also have
+\bse
+    R_{abcd} = R_{cdab} = -R_{dcab} = -R_{abdc}.
+\ese
+Following this with the other indice arrangments, we get
+\bse
+    R_{a[bcd]} = \frac{1}{3}\big( R_{abcd} + R_{acdb} + R_{adbc}\big).
+\ese
+If you then plug in the expansion in terms of $g_{ab}$ and its derivatives, you can show everything cancels and you get the result.

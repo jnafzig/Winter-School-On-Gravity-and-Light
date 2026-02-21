@@ -1,0 +1,157 @@
+\section{Schwarzschild Spacetime}
+
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-1}.}\label{sol:schwarzschild-1}
+
+Using the metric given in the question (see the video if you don't know it) we have
+\bse
+    \cL = \bigg(1-\frac{2GM}{r}\bigg) \dot{t}^2 - \bigg(1-\frac{2GM}{r}\bigg)^{-1} \dot{r}^2 - r^2\dot{\theta}^2 - r^2\sin^2\theta \dot{\varphi}^2.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-2}.}\label{sol:schwarzschild-2}
+
+We see straight away that
+\bse
+    \frac{\p \cL}{\p t} = 0.
+\ese
+We also have
+\bse
+    \frac{d}{d\lambda}\bigg(\frac{\p \cL}{\p \dot{t}}\bigg) = 2\bigg(1-\frac{2GM}{r}\bigg) \ddot{t} + \frac{4GM}{r^2}\dot{r}\dot{t},
+\ese
+which gives the Euler-Lagrange equation
+\bse
+    \ddot{t} + \frac{2GM}{r^2\Big(1-\frac{2GM}{r}\Big)}\dot{r}\dot{t} = 0
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-3}.}\label{sol:schwarzschild-3}
+
+We have
+\bse
+    (\cL_{K_t} g)_{ab} = K_t\la g_{ab}\ra + g_{mb}\frac{\p}{\p x^a}(K_t)^m + g_{ab}\frac{\p}{\p x^b}(K_t)^m = 0,
+\ese
+as all three terms vanish. This tells us that $K_t$ is a symmetry of the metric. Indeed the Schwarzschild spacetime is stationary (and even static), the definitions for which are given in lecture 16. We will see this symmetry is the conservation of energy.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-4}.}\label{sol:schwarzschild-4}
+
+Using $(K_t)_a := g_{ab}(K_t)^b$, we have
+\bse
+    g_{ab}(K_t)^b(x^a)'(\lambda) = g_{00}t'(\lambda) = \bigg(1-\frac{2GM}{r}\bigg) t'(\lambda) = \text{const.}
+\ese
+Letting $\sqrt{E}$ be the constant, we have
+\bse
+    t'(\lambda) = \frac{r\sqrt{E}}{r-2GM}
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-5}.}\label{sol:schwarzschild-5}
+
+Angular momentum.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-6}.}\label{sol:schwarzschild-6}
+
+From two questions above, we have
+\bse
+    \text{const.} = g_{ab}X_3^b(x^a)'(\lambda) = g_{33}\varphi'(\lambda) = -r^2\sin^2\theta\varphi'(\lambda),
+\ese
+so using $\theta=\frac{\pi}{2}$ and labelling the constant $J$, we have
+\bse
+    \varphi'(\lambda) = \frac{J}{r^2}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-7}.}\label{sol:schwarzschild-7}
+
+First note that we have replaced the dots with primes, and also note that $\theta'=0$ as $\theta$ is a constant. We therefore have
+\bse
+    1 = \bigg(1-\frac{2GM}{r}\bigg)\frac{E}{\Big(1-\frac{2GM}{r}\Big)^2} - \frac{1}{1-\frac{2GM}{r}}(r')^2 - r^2\frac{J^2}{r^4},
+\ese
+which can be rearranged to
+\bse
+    E = (r')^2 + 1 - \frac{2GM}{r} + \frac{J^2}{r^2} - \frac{2GMJ^2}{r^3}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-8}.}\label{sol:schwarzschild-8}
+
+If we then consider a particle of mass $m=1$, we see the above formula as representing
+\begin{itemize}
+    \item $E$ is total energy,
+    \item $(r')^2$ is the kinetic energy,
+    \item $1$ is the mass,
+    \item $-\frac{2GM}{r}$ is the Newtonian gravitational potential,
+    \item $\frac{J^2}{r^2}$ is some angular momentum contribution, and
+    \item $-\frac{2GMJ^2}{r^3}$ is some GR correction term.
+\end{itemize}
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-9}.}\label{sol:schwarzschild-9}
+
+Using $1=\cL =g_{ab}\dot{\gamma}^a\dot{\gamma}^b$, we get
+\bse
+    t'(\lambda) = \bigg(1-\frac{2GM}{r}\bigg)^{-1/2}.
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-10}.}\label{sol:schwarzschild-10}
+
+We have
+\bse
+    \begin{split}
+        \Delta t_1 & = \bigg(1-\frac{2GM}{r_1}\bigg)^{-1/2} \Delta \lambda_1 \\
+        \Delta t_2 & = \bigg(1-\frac{2GM}{r_2}\bigg)^{-1/2} \Delta \lambda_2.
+    \end{split}
+\ese
+Then, we use the fact that $K_t$ was a Killing vector field, and so the path taken by the two emitted photons is the same, apart from a constant time shift.
+\begin{center}
+    \btik
+        \draw[thick,->] (-0.2,0) -- (5,0);
+        \node at (4.8,-0.2) {$r$};
+        \draw[thick,->] (0,-0.2) -- (0,3);
+        \node at (-0.2,2.8) {$t$};
+        \draw[thick] (1,-0.2) -- (1,3);
+        \node at (0.8,-0.2) {$r_1$};
+        \draw[thick] (4,-0.2) -- (4,3);
+        \node at (3.8,-0.2) {$r_2$};
+        \draw[thick, blue, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (1,0.5) .. controls (2,0.6) and (3,0.6) .. (4,1);
+        \draw[thick, fill=black] (1,0.5) circle [radius=0.05cm];
+        \draw[thick, fill=black] (4,1) circle [radius=0.05cm];
+        \draw[thick, blue, decoration={markings, mark=at position 0.5 with {\arrow{>}}}, postaction={decorate}] (1,2) .. controls (2,2.1) and (3,2.1) .. (4,2.5);
+        \draw[thick, fill=black] (1,2) circle [radius=0.05cm];
+        \draw[thick, fill=black] (4,2.5) circle [radius=0.05cm];
+        \node at (0.6,1.25) {\large{$\Delta t_1$}};
+        \node at (4.5,1.75) {\large{$\Delta t_2$}};
+    \etik
+\end{center}
+
+As the above diagram shows, the Killing condition basically tells us that $\Delta t_1 = \Delta t_2$, and so we get
+\bse
+    \Delta \lambda_2 = \sqrt{\frac{1-\frac{2GM}{r_2}}{1-\frac{2GM}{r_1}}} \Delta \lambda_1
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:schwarzschild-11}.}\label{sol:schwarzschild-11}
+
+We can think of $\Delta \lambda$ being the time period (time between photons emitted) and so the frequency (which is the reciprocal of the time period) is
+\bse
+    \frac{\omega_1}{\omega_2} = \frac{\Delta \lambda_2}{\Delta \lambda_1} = \sqrt{\frac{1-\frac{2GM}{r_2}}{1-\frac{2GM}{r_1}}}.
+\ese
+As $r_1<r_2$, the above tells us that $\omega_2<\omega_1$. In terms of wavelength, this is $\mu_1<\mu_2$ (we have used $\mu$ for wavelength as $\lambda$ is already used above), which tells us that the light has been \textit{red-shifted}. This is seen also in the definition of redshift,
+\bse
+    1+z = \frac{\omega_1}{\omega_2},
+\ese
+where $z>0$ is redshift and $z<0$ is blueshift.
+
+For $r_2\to \infty$ we have
+\bse
+    \frac{\omega_1}{\omega_2} \to  \bigg(1-\frac{2GM}{r_1}\bigg)^{-1/2}.
+\ese
+For $r_1\to r_s$, we have
+\bse
+    \frac{\omega_1}{\omega_2} \to \infty,
+\ese
+which tells us $\omega_1\to \infty$. In terms of wavelengths, this says $\mu_2\to\infty$, and so the light is infinitely redshifted. This is a so-called \textit{infinite redshift surface}.
+
+This result is actually misleading as it really only holds because of the choice of reference frame. We took the coordinate time to be that of the black hole's rest frame. If we use an in-falling observer's clock to define the coordinate time, this infinite redshift behaviour disappears. I have discussed this in more detail in the notes I have put on my blog site.

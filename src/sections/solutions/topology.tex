@@ -1,0 +1,37 @@
+\section{Topology}
+
+\noindent\textbf{Exercise~\ref{ex:topology-1}.}\label{sol:topology-1}
+
+Check the conditions:
+\benr
+    \item $\emptyset\in\cO_1$ and $\cM \in \cO_1$.
+    \item $\emptyset\cap\{1\} = \emptyset\in\cO_1$, $\emptyset\cap\{1,2,3,4\}=\emptyset\in\cO_1$ and $\{1\}\cap\{1,2,3,4\}=\{1\}\in\cO_1$.
+    \item $\emptyset\cup\{1\}=\{1\} \in\cO_1$, $\emptyset\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$, $\{1\}\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$ and $\emptyset\cup\{1\}\cup\{1,2,3,4\}=\{1,2,3,4\}\in\cO_1$.
+\een
+So the answer is yes.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topology-2}.}\label{sol:topology-2}
+
+The only new addition is $\{2\}$ so just need to check its involvement. We see straight away that $\{1\}\cup\{2\} = \{1,2\}\notin\cO_2$ and so we conclude that it is not a topology.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topology-3}.}\label{sol:topology-3}
+
+The chaotic topology here is
+\bse
+    \cO_{\text{chaotic}} = \big\{\emptyset,\{1,2,3,4\}\big\}.
+\ese
+We see straight away that the preimage of $\{1\}\in\cO_{\text{target}}$ is $\{1\}$ which is not in $\cO_{\text{chaotic}}$, and so the map is not continuous w.r.t. these topologies.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:topology-4}.}\label{sol:topology-4}
+
+\bse
+    \id^{-1}_{\cM}(1) = 1, \quad \id^{-1}_{\cM}(2) = 2, \quad \id^{-1}_{\cM}(3) = 3, \quad \id^{-1}_{\cM}(4) = 4
+\ese
+Now consider the preimages.
+\bse
+    \preim_{\id^{-1}_{\cM}}(\emptyset) = \emptyset, \qquad \text{and} \qquad \preim_{\id^{-1}_{\cM}}(\{1,2,3,4\}) = \{1,2,3,4\} = \cM,
+\ese
+both of which are in our domain's topology. Therefore the map is continuous w.r.t. to these topologies.

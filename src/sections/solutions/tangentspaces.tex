@@ -1,0 +1,191 @@
+\section{Tangent Spaces}
+
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-1}.}\label{sol:tangentspaces-1}
+
+We have
+\bse
+    \begin{split}
+        \del^a_b & = \bigg(\frac{\p}{\p x^b}\bigg)_p(x^a) \\
+        & := \p_b\big(x^a\circ x^{-1}\big)\big(x(p)\big) \\
+        & = \p_b\big(x^a\circ (y^{-1}\circ y) \circ x^{-1}\big)\big(x(p)\big) \\
+        & = \p_b\big((x^a\circ y^{-1}) \circ (y \circ x^{-1})\big)\big(x(p)\big) \\
+        & = \p_b\big(y^m\circ x^{-1}\big)\big(x(p)\big) \cdot \p_m\big(x^a\circ y^{-1}\big) \big(y(p)\big) \\
+        & =:  \bigg(\frac{\p y^m}{\p x^b}\bigg)_p \bigg(\frac{\p x^a}{\p y^m}\bigg)_p,
+    \end{split}
+\ese
+where we have inserted the identity, used the associativity of the composition of maps, and the multidimensional chain rule along with $\big(y\circ x^{-1}\big)\big(x(p)\big) = y(p)$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-2}.}\label{sol:tangentspaces-2}
+
+This follows in a similar manner to the previous question and so I won't type it here.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-3}.}\label{sol:tangentspaces-3}
+
+The above expression is clearly of the form of
+\bse
+    T_{(x)i}(p) = \bigg(\frac{\p y^m}{\p x^i}\bigg)_p T_{(y)m}(p),
+\ese
+which is the transformation law for the components of a $(0,1)$-tensor. So the answer is "yes" and the valence is $(0,1)$ and the rank is $1$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-4}.}\label{sol:tangentspaces-4}
+
+We have $\big(x \circ y^{-1}\big)\big((u,v)\big) = (u, v-u^3)$, and so direct calculation gives
+\bse
+    \bigg(\frac{\p x^1}{\p y^1}\bigg)_p := \p_1 \big(x^1 \circ y^{-1}\big)\big(y(p)\big) = 1,
+\ese
+where we have used $\p_1\big(x^\circ y^{-1}\big)\big((u,v)\big) = 1$, irrespective of the value $u$ takes.
+
+Next we have,
+\bse
+    \bigg(\frac{\p x^2}{\p y^1}\bigg)_p := \p_1\big( x^2 \circ y^{-1}\big)\big(y(p)\big) = \p_1\big( x^2 \circ y^{-1}\big)\big((a,b+a^3)\big) = -3a^2,
+\ese
+where we have used $\p_2\big(x^1\circ y^{-1}\big)\big((u,v)\big) = -2u^2$ along with $p=(a,b)$.
+
+Similar calculations give
+\bse
+    \bigg(\frac{\p x^1}{\p y^2}\bigg)_p = 0, \qand \bigg(\frac{\p x^2}{\p y^2}\bigg)_p = 1
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-5}.}\label{sol:tangentspaces-5}
+
+We have $(x\circ\gamma)(\lambda) = (\lambda, -\lambda)$ and $(y\circ\gamma)(\lambda) = (\lambda, -\lambda+\lambda^3)$, so we have
+\bse
+    \begin{split}
+        \dot{\gamma}_x^1(\lambda_0) & := \big(x\circ \gamma)^{1\prime} (\lambda_0) = 1, \\
+        \dot{\gamma}_x^2(\lambda_0) & := \big(x\circ \gamma)^{2\prime} (\lambda_0) = -1, \\
+        \dot{\gamma}_y^1(\lambda_0) & := \big(y\circ \gamma)^{1\prime} (\lambda_0) = 1, \\
+        \dot{\gamma}_y^2(\lambda_0) & := \big(x\circ \gamma)^{2\prime} (\lambda_0) = -1+3\lambda_0^2.
+    \end{split}
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-6}.}\label{sol:tangentspaces-6}
+
+The answer is clearly to just use the transformation property
+\bse
+    \dot{\gamma}_x^i(\lambda_0) = \bigg(\frac{\p x^i}{\p y^m}\bigg)_p \dot{\gamma}_y^m(\lambda_0).
+\ese
+That is, we have
+\bse
+    \begin{split}
+        \dot{\gamma}_x^1(\lambda_0) & = \bigg(\frac{\p x^1}{\p y^1}\bigg)_p \dot{\gamma}_y^1(\lambda_0) + \bigg(\frac{\p x^1}{\p y^2}\bigg)_p \dot{\gamma}_y^2(\lambda_0) \\
+        & = 1\cdot 1 + 0\cdot(-1+3\lambda_0)^2 \\
+        & = 1,
+    \end{split}
+\ese
+and
+\bse
+    \begin{split}
+        \dot{\gamma}_x^2(\lambda_0) & = \bigg(\frac{\p x^2}{\p y^1}\bigg)_p \dot{\gamma}_y^1(\lambda_0) + \bigg(\frac{\p x^2}{\p y^2}\bigg)_p \dot{\gamma}_y^2(\lambda_0) \\
+        & = -3\lambda_0^2 \cdot 1 + 1\cdot (-1+3\lambda_0^2) \\
+        & = -1.
+    \end{split}
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-7}.}\label{sol:tangentspaces-7}
+
+Clearly we just want $(f\circ \gamma)(\lambda)=c$ for all $\lambda\in\R$. We can formulate this as $f\circ \gamma$ being equivalent to the constant function, which simply obeys the above property.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-8}.}\label{sol:tangentspaces-8}
+
+We have
+\bse
+    (df)_p (v_{\gamma,p}) := v_{\gamma,p}(f) := \big(f\circ \gamma)^{\prime}(\lambda_0) =0,
+\ese
+as the derivative of a constant vanishes.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-9}.}\label{sol:tangentspaces-9}
+
+We need to construct the chart transition maps
+\bse
+    \begin{split}
+        (x\circ y^{-1})(u,v) & = x\big((u, v \cdot e^{-u})\big) = (u,v\cdot e^{-u}) \\
+        (y\circ x^{-1})(u,v) & = y\big((u,v)\big) = (u, v\cdot e^u).
+    \end{split}
+\ese
+These are both infinitely times continuously differentiable and so the answer is "yes".
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-10}.}\label{sol:tangentspaces-10}
+
+The answer is "no" because our manifold is just the set $\R^2$ (with a topology) and so carries no vector space structure so we cannot talk about the addition on $\R^2$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-11}.}\label{sol:tangentspaces-11}
+
+First consider the $x$ chart. We have
+\bse
+    (x\circ \gamma) (\lambda) = (\lambda, 1), \qand (x\circ \del) (\lambda) = (1,\lambda).
+\ese
+
+In the $y$ chart we have
+\bse
+    (y\circ \gamma) (\lambda) = (\lambda, e^{\lambda}), \qand (y\circ \del) (\lambda) = (1,\lambda\cdot e)
+\ese
+The illustrations are as follows
+
+\begin{center}
+    \btik
+        \draw[thick,->] (-3,0) -- (3,0);
+        \draw[thick,->] (0,-2) -- (0,3);
+        \node at (2.8,-0.5) {\large{$x^1$}};
+        \node at (-0.5,1.8) {\large{$x^2$}};
+        \draw[ultra thick, blue] (-3,1) -- (3,1);
+        \draw[ultra thick, red] (1,-2) -- (1,3);
+        \node at (-2,1.2) {\large{\textcolor{blue}{$\gamma$}}};
+        \node at (1.2,2) {\large{\textcolor{red}{$\del$}}};
+        %
+        \draw[thick,->] (5,0) -- (11,0);
+        \draw[thick,->] (8,-2) -- (8,3);
+        \node at (10.8,-0.5) {\large{$y^1$}};
+        \node at (7.5,1.8) {\large{$y^2$}};
+        \draw[ultra thick, blue] (5,0.2) .. controls (8.5,0.5) .. (10,2.8);
+        \draw[ultra thick, red] (9,-2) -- (9,3);
+        \node at (10,2.4) {\large{\textcolor{blue}{$\gamma$}}};
+        \node at (8.8,2) {\large{\textcolor{red}{$\del$}}};
+    \etik
+\end{center}
+
+The intersection points are $(1,1)$ in the $x$ chart and $(1,e)$ in the $y$ chart. These both correspond to $\lambda=1$, which it must from the definition of the curves.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-12}.}\label{sol:tangentspaces-12}
+
+Using the previous question, direct calculation gives: for the $x$ chart
+\bse
+    \begin{split}
+        \sig_x(\lambda) & = x^{-1}\big( (\lambda+1,1) + (1,\lambda+1) - (1,1)\big) \\
+        & = x^{-1}(\lambda+1,\lambda+1) \\
+        & = (\lambda+1,\lambda+1).
+    \end{split}
+\ese
+The calculation i the $y$ chart gives
+\bse
+    \sig_y(\lambda) = (\lambda+1, 1+ \lambda \cdot e^{-\lambda}).
+\ese
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:tangentspaces-13}.}\label{sol:tangentspaces-13}
+
+The intersection point is $(1,1)$ in $x$ and so we require $\lambda=0$. Using this, we have
+\bse
+    \dot{\sig}_{(x)x}^1 = 1 \qand \dot{\sig}_{(x)x}^2 = 1,
+\ese
+as both are just the derivative w.r.t. $\lambda$ of $\lambda+1$.
+
+In the $y$ chart we have (note we use the $x$ chart in to find these components in order to compare it to the above ones)
+\bse
+    \dot{\sig}_{(x)y}^1 = 1 \qand \dot{\sig}_{(x)y}^2 = 1 \cdot e^0 - 0\cdot e^0 = 1.
+\ese
+
+So we have
+\bse
+    v_{\sig_x,(1,1)} = \dot{\sig}_{(x)x}^i \bigg(\frac{\p}{\p x^i}\bigg)_p = \dot{\sig}_{(x)y}^i\bigg(\frac{\p}{\p x^i}\bigg)_p = v_{\sig_y,(1,1)}.
+\ese

@@ -1,74 +1,49 @@
-\section{Tutorial}
+\section{Additional Exercises}
 
 \subsection{Restricting The Atlas}
 
-\mybox{
-Let $(\R,\cO_{\text{standard}})$ be a topological space. Let it be further equipped with an atlas $\cA = \{ (\R,x), (\R,y)\}$ where $x:\R\to\R$; $a\mapsto x(a) = a$ and $y:\R\to\R$; $a\mapsto y(a)= a^3$. 
+\begin{exercise}\label{ex:diffmfds-1}
+Let $(\R,\cO_{\text{standard}})$ be a topological space. Let it be further equipped with an atlas $\cA = \{ (\R,x), (\R,y)\}$ where $x:\R\to\R$; $a\mapsto x(a) = a$ and $y:\R\to\R$; $a\mapsto y(a)= a^3$.
 
-\textbf{Question}: Construct the chart transition map $y\circ x^{-1}:\R \to \R$ and give its differentiability class. 
-}
-\textbf{Solution}: We have $x^{-1}:\R \to \R$; $a\mapsto x^{-1}(a) = a$, and so $y\circ x^{-1}:\R\to\R$; $a\mapsto a^3$. This is $C^{\infty}(\R)$. 
+Construct the chart transition map $y\circ x^{-1}:\R \to \R$ and give its differentiability class.
+\end{exercise}
+\hyperref[sol:diffmfds-1]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-1}}}
 
-\mybox{
-\textbf{Question}: Also construct the chart transition map $x\circ y^{-1}:\R\to\R$. Is $(\R,\cO_{\text{standard}},\cA)$ a differentiable manifold?
-}
+\begin{exercise}\label{ex:diffmfds-2}
+Also construct the chart transition map $x\circ y^{-1}:\R\to\R$. Is $(\R,\cO_{\text{standard}},\cA)$ a differentiable manifold?
+\end{exercise}
+\hyperref[sol:diffmfds-2]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-2}}}
 
-\textbf{Solution}: We have $x\circ y^{-1}: \R\to\R$; $a\mapsto \sqrt[3]{a}$, but this function is not even $C^1(\R\to\R)$ as the first derivative is $\frac{1}{3}a^{-2/3}$, which blows up as $a\to 0$. So no it is not a differentiable manifold. 
-
-\mybox{
-\textbf{Question}: Restrict the atlas $\cA$ to an atlas $\widetilde{\cA}$ in order to make $(\R,\cO_{\text{standard}},\widetilde{\cA})$ a smooth manifold.
-}
-\textbf{Solution}: The problem above came from the chart transition maps. Both chart maps themselves are $C^{\infty}(\R\to\R)$ and their domain is the whole manifold (namley $\R$) and so if we just remove one of the two charts we get a smooth manifold. 
+\begin{exercise}\label{ex:diffmfds-3}
+Restrict the atlas $\cA$ to an atlas $\widetilde{\cA}$ in order to make $(\R,\cO_{\text{standard}},\widetilde{\cA})$ a smooth manifold.
+\end{exercise}
+\hyperref[sol:diffmfds-3]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-3}}}
 
 \subsection{Soft Squares on $\R\times\R$}
 
-\mybox{
-Let $\cM=\R\times\R$ equipped with the soft square topology $\cO_{ssq}$ and an atlas $\cA=\{(U_n,x_n)\}$, where $U_n = \{(x,y)\in\R\times\R \, | \, |x|<n, |y|<n, n\in \mathbb{N}^+\}$ and 
-\bse 
+\begin{exercise}\label{ex:diffmfds-4}
+Let $\cM=\R\times\R$ equipped with the soft square topology $\cO_{ssq}$ and an atlas $\cA=\{(U_n,x_n)\}$, where $U_n = \{(x,y)\in\R\times\R \, | \, |x|<n, |y|<n, n\in \mathbb{N}^+\}$ and
+\bse
     x_n : U_n \to x_n(U_n) \ss \R^2; \, (x,y) \mapsto x_n\big((x,y)\big) := \bigg(\frac{x+y}{2n}, \frac{x-y}{2n}\bigg).
 \ese
-\textbf{Question}: Recall the definition of a chart and show that the $(U_n,x_n)$ are indeed charts.
-}
+Recall the definition of a chart and show that the $(U_n,x_n)$ are indeed charts.
+\end{exercise}
+\hyperref[sol:diffmfds-4]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-4}}}
 
-\textbf{Solution}: For $(U_n,x_n)$ to be charts, we need to show that $U_n\in \cO_{ssq}$ and that the $x_n$s are homeomorphisms (i.e. inevitable and continuous). 
+\begin{exercise}\label{ex:diffmfds-5}
+Show that $\cA$ is a $C^k$-atlas by explicitly constructing the chart transition maps. What is $k$?
+\end{exercise}
+\hyperref[sol:diffmfds-5]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-5}}}
 
-The soft square topology is rather self explanatory, it is the set of squares around the origin without the boundary. This is exactly the definition of the $U_n$s where the sides of consecutive $U_n$ increase by $2n$. So we have $U_n\in\cO_{ssq}$.
-
-Next we need to show that the chart maps are homeomorphisms. It is clear that $x_n$ is continuous w.r.t. $\cO_{ssq}$ and $\cO_{\text{standard}}$. So we just need to check that $x_n^{-1}$ exists and is continuous. We have 
-\bse 
-    x_n^{-1}(a,b) = \big(n(a+b), n(a-b)\big),
-\ese 
-which is again clearly continuous. 
-
-Therefore we know that the $(U_n,x_n)$ are indeed charts. 
-
-\mybox{
-\textbf{Question}: Show that $\cA$ is a $C^k$-atlas by explicitly constructing the chart transition maps. What is $k$? 
-}
-\textbf{Solution}: The chart transition maps are given by 
-\bse 
-    \begin{split}
-        x_m \circ x_n^{-1} : x_n(U_n\cap U_m) & \to x_m(U_n\cap U_m) \\
-        (a,b) & \mapsto \bigg(\frac{na}{m}, \frac{nb}{m}\bigg) = \frac{n}{m}(a,b).
-    \end{split}
-\ese 
-This tells us that $x_m\circ x_n^{-1} = \frac{n}{m}\b1_{\R^2}$, which together with $m\neq 0$ tells us $k=\infty$. 
-
-\mybox{
-\textbf{Question}: Construct at least one other chart that would lie in the maximal extension of $\cA$ and prove that it does. 
-}
-
-\textbf{Solution}: There are many, but we could take the map $\widetilde{x}:U_5 \to \widetilde{U_5}\ss\R^2$; $(a,b) \mapsto (a,b)$, i.e. it is the identity map restricted to $U_5$. It is clear that this will be $C^{\infty}$ compatible with any overlapping charts and so it lies in the atlas. 
+\begin{exercise}\label{ex:diffmfds-6}
+Construct at least one other chart that would lie in the maximal extension of $\cA$ and prove that it does.
+\end{exercise}
+\hyperref[sol:diffmfds-6]{\small \textit{Solution on p.~\pageref*{sol:diffmfds-6}}}
 
 \subsection{Undergraduate Multi-Dimensional Analysis}
 
-\mybox{
-\textbf{Question}: There is a question about calculating partial derivatives. I am not including it here as its fairly straight forward.
-}
+\textit{There is a question about calculating partial derivatives. I am not including it here as its fairly straight forward.}
 
 \subsection{Differentiability On A Manifold}
 
-\mybox{
-\textbf{Question}: There is a question about drawing a diagram to show a bunch of different spaces and maps. It will take a while to draw in Tikz and there are plenty examples in the notes themselves, so I haven't included it here. This is followed by a calculation of a derivative of a map, it is worth seeing this exercise, so please \href{https://www.youtube.com/watch?v=FXPdKxOq1KA&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL&index=4}{the video}. 
-}
-
+\textit{There is a question about drawing a diagram to show a bunch of different spaces and maps. It will take a while to draw in Tikz and there are plenty examples in the notes themselves, so I haven't included it here. This is followed by a calculation of a derivative of a map, it is worth seeing this exercise, so please \href{https://www.youtube.com/watch?v=FXPdKxOq1KA&list=PLFeEvEPtX_0RQ1ys-7VIsKlBWz7RX-FaL&index=4}{the video}.}

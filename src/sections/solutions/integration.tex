@@ -1,0 +1,26 @@
+\section{Integration}
+
+\noindent\textbf{Exercise~\ref{ex:integration-1}.}\label{sol:integration-1}
+
+The first thing we have to not is that `volume' here does not mean what we intuitively think, i.e. the Euclidean 3-volume, but it means what we would normally call the `surface area'. This distinction comes from which metric we are using, the metric on $S^2$ itself or the Euclidean metric with a sphere of radius $R$ embedded into it. Once this distinction is made the calculation is trivial, consider the chart with $(x^1,x^2) = (\vartheta,\varphi)$, then
+\bse
+    g_{(x)ab}\big(x^{-1}(\vartheta,\varphi)\big) = \begin{pmatrix}
+        R^2 & 0 \\
+        0 & R^2\sin^2\vartheta
+    \end{pmatrix}, \qquad \implies \qquad  g := \det\big(g_{(x)ab}\big)\big(x^{-1}(\vartheta,\varphi)\big) = R^4\sin^2\vartheta
+\ese
+and so
+\bse
+    \begin{split}
+        \int_{S^2}1 & := \int_{x(S^2)} d^2x \, \sqrt{g} 1 \\
+        & = \int^{\pi}_0 d\varphi \int^{2\pi}_0 d\vartheta \, \big|R^2\sin^2\vartheta\big| \\
+        & = 4\pi R^2,
+    \end{split}
+\ese
+which is what we expect.
+
+Technically we need to include another chart, as $x(S^2)$ will miss two antipodal points and a geodesic connecting them, however this will contribute nothing to the volume as, we would only consider this line (the partition of unity removing the overlap region), which has no `thickness' and so no volume. For example if the line missing was the line of longitude connecting the North and South poles, we would have
+\bse
+    \int^{\varphi_0}_{\varphi_0}d\varphi \int^{\pi}_0 d\vartheta R^2\sin\vartheta = 0,
+\ese
+where $\varphi_0$ is the value of $\varphi$ along the line of longitude.

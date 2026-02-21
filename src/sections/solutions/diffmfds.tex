@@ -1,0 +1,47 @@
+\section{Differentiable Manifolds}
+
+\noindent\textbf{Exercise~\ref{ex:diffmfds-1}.}\label{sol:diffmfds-1}
+
+We have $x^{-1}:\R \to \R$; $a\mapsto x^{-1}(a) = a$, and so $y\circ x^{-1}:\R\to\R$; $a\mapsto a^3$. This is $C^{\infty}(\R)$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:diffmfds-2}.}\label{sol:diffmfds-2}
+
+We have $x\circ y^{-1}: \R\to\R$; $a\mapsto \sqrt[3]{a}$, but this function is not even $C^1(\R\to\R)$ as the first derivative is $\frac{1}{3}a^{-2/3}$, which blows up as $a\to 0$. So no it is not a differentiable manifold.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:diffmfds-3}.}\label{sol:diffmfds-3}
+
+The problem above came from the chart transition maps. Both chart maps themselves are $C^{\infty}(\R\to\R)$ and their domain is the whole manifold (namley $\R$) and so if we just remove one of the two charts we get a smooth manifold.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:diffmfds-4}.}\label{sol:diffmfds-4}
+
+For $(U_n,x_n)$ to be charts, we need to show that $U_n\in \cO_{ssq}$ and that the $x_n$s are homeomorphisms (i.e. inevitable and continuous).
+
+The soft square topology is rather self explanatory, it is the set of squares around the origin without the boundary. This is exactly the definition of the $U_n$s where the sides of consecutive $U_n$ increase by $2n$. So we have $U_n\in\cO_{ssq}$.
+
+Next we need to show that the chart maps are homeomorphisms. It is clear that $x_n$ is continuous w.r.t. $\cO_{ssq}$ and $\cO_{\text{standard}}$. So we just need to check that $x_n^{-1}$ exists and is continuous. We have
+\bse
+    x_n^{-1}(a,b) = \big(n(a+b), n(a-b)\big),
+\ese
+which is again clearly continuous.
+
+Therefore we know that the $(U_n,x_n)$ are indeed charts.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:diffmfds-5}.}\label{sol:diffmfds-5}
+
+The chart transition maps are given by
+\bse
+    \begin{split}
+        x_m \circ x_n^{-1} : x_n(U_n\cap U_m) & \to x_m(U_n\cap U_m) \\
+        (a,b) & \mapsto \bigg(\frac{na}{m}, \frac{nb}{m}\bigg) = \frac{n}{m}(a,b).
+    \end{split}
+\ese
+This tells us that $x_m\circ x_n^{-1} = \frac{n}{m}\b1_{\R^2}$, which together with $m\neq 0$ tells us $k=\infty$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:diffmfds-6}.}\label{sol:diffmfds-6}
+
+There are many, but we could take the map $\widetilde{x}:U_5 \to \widetilde{U_5}\ss\R^2$; $(a,b) \mapsto (a,b)$, i.e. it is the identity map restricted to $U_5$. It is clear that this will be $C^{\infty}$ compatible with any overlapping charts and so it lies in the atlas.
