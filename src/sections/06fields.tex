@@ -20,7 +20,7 @@ So far we have discussed a single tangent space and vectors lying in it. What we
     A \textbf{section}, $\sig$, of a bundle $(E,\pi,\cM)$ is a map $\sig:\cM\to E$ such that $(\pi\circ\sig)=\b1_{\cM}$, the identity on $\cM$.
 \ed 
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \begin{center}
         \btik
             \draw[thick] (0,0) ellipse (1.25 and 0.5);
@@ -184,7 +184,7 @@ We just put in a lot of work to check/prove that the set $T\cM$ can be made into
 
 The smooth part of the above definition is what all the work was for. Intuitively when we think of a vector field (a vector at each point) we see a smooth vector field, i.e. one where the vectors appear to naturally flow from one to another, rather then just pointing randomly at each point. Smooth vector fields will obviously play a vital rule in general relativity: the velocity of a particle is a smooth vector field over the manifold that is the worldline of the particle. If this vector field was not smooth, it would correspond to the particle's velocity all of a sudden changing, which we know is not physical.
 
-\section{The $C^{\infty}(\cM)$-Module}
+\section{\texorpdfstring{The $C^{\infty}(\cM)$-Module}{The C-infinity(M)-Module}}
 
 So far we have a definition for a smooth vector field, but we have no way of adding them together or scaling them in any way. This is something we clearly want to be able to do, and so we want to try and make it into a vector space over some field. The addition is straight forward, just add the vectors in the tangent spaces together and take the result to be the new vector at that point. What about scaling? We don't want to limit ourselves to only being able to scale the smooth vector field uniformly, i.e. by the same amount at all $p\in\cM$. So we need something that is defined all over $\cM$ but that can take different values at each point. This is just a scalar field. 
 
