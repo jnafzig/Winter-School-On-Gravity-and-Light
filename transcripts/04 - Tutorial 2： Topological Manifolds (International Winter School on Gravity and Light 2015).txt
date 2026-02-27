@@ -1,0 +1,343 @@
+[00:00] this program is being presented to you
+[00:02] by the Harris international winter
+[00:05] school on gravity and lights welcome
+[00:13] back to the second tutorial of their w/e
+[00:15] Korea's international winter school on
+[00:18] gravity and lunge now we will deal with
+[00:21] topological manifolds the first exercise
+[00:25] is again a multiple-choice exercise with
+[00:29] three questions again we shall take the
+[00:33] correct ones and but not the incorrect
+[00:35] ones so part a topological manifolds of
+[00:40] course have integer dimension this is
+[00:44] correct
+[00:45] topological manifolds are equipped with
+[00:48] a topology and exactly one shot no that
+[00:52] is not correct
+[00:53] topological manifolds are equipped with
+[00:56] a topology of course but they can be
+[00:59] equipped with more than one charge they
+[01:03] are a special case of topological spaces
+[01:05] yes they are topological manifolds or
+[01:11] are also every topological manifold is a
+[01:19] topological space but not every
+[01:21] topological space is a topological
+[01:23] manifold so yes a topological manifold
+[01:27] is a special case of a topological space
+[01:31] topological space are the minimal
+[01:33] structure required to define continuity
+[01:35] of maps no this is not correct
+[01:39] continuity of maps can already be
+[01:42] checked on topological spaces and the
+[01:46] last question of the last answer says
+[01:49] that topological manifolds are
+[01:51] homeomorphic to our Dean now we have
+[01:55] just to define what a homeomorphisms
+[02:03] a homeomorphism that's better same two
+[02:17] spaces m and n are called homeomorphic
+[02:35] if there is a protection X from M to n
+[02:51] where the map X as well as its inverse
+[02:56] are both continuous so in the case of a
+[03:04] topological manifold there are such
+[03:08] homomorphisms homeomorphisms sorry
+[03:11] between the topological space underlying
+[03:17] and Rd however the answer says that a
+[03:23] topological manifold is homeomorphic to
+[03:25] the whole of Rd well that is not correct
+[03:31] we have that that a the part of a
+[03:36] topological my thought namely an open
+[03:38] subset is homeomorphic to some part of
+[03:42] Rd so this is not correct as a
+[03:47] topological manifold is usually not
+[03:49] homeomorphic to hole of Rd however we
+[03:53] could say a topological manifold is
+[03:56] locally homeomorphic to Rd in Part B it
+[04:04] says which statements about topological
+[04:07] manifolds are correct any trouble
+[04:10] logical manifold has a maximal atlas yes
+[04:14] it does so a topological manifold comes
+[04:18] equipped with some atlas and there's a
+[04:22] unique and there's a theorem that says
+[04:24] you can uniquely build from any atlas in
+[04:28] maximal atlas so this answer is correct
+[04:32] a maximal atlas on a topological
+[04:36] manifold may contain infinitely many
+[04:39] charts yes of course it may contain
+[04:42] infinitely many continuity of a curve on
+[04:47] a topological manifold
+[04:49] we checked with respect to an atlas oh
+[04:52] yes it can be checked we saw this in the
+[04:56] lecture an atlas of a topological
+[05:01] manifold can never contain only one
+[05:03] chart but this statement is nonsense of
+[05:09] course it can contain only one shot and
+[05:12] we will see an example for that later on
+[05:16] and the last part in the last question
+[05:20] if a function is continuous in one shot
+[05:22] it is continuous in every chart of a
+[05:25] maximal atlas of a topological manifold
+[05:32] although this question is a little bit
+[05:35] ambiguous this is correct so we look at
+[05:42] a function that's continuous in one shot
+[05:46] and then we look at another chart that
+[05:50] has overlap with the original chart and
+[05:53] there we know that due to the
+[05:57] composition of continuous maps being
+[05:59] continuous the function is also
+[06:02] continuous in this other chart and then
+[06:07] we can look at even more overlaps with
+[06:11] more charts and we see that the function
+[06:14] is continuous and all charts of a
+[06:17] maximum atlas but we need to restrict
+[06:21] ourselves to charts and overlap each
+[06:26] other and the last question here see it
+[06:34] is correct that the real line are
+[06:36] equipped with a standard topology and an
+[06:39] atlas whose only chart is the identity
+[06:42] map over the topological space R is a
+[06:46] topological manifold of dimension 1 this
+[06:49] is correct so this is an example for a
+[06:55] for an atlas of a topological manifold
+[06:58] that contains exactly one chart
+[07:02] a topological manifold can have a finite
+[07:07] set underlying no this is wrong we saw
+[07:13] that the topological manifold is locally
+[07:20] homeomorphic to Rd so it looks like it
+[07:24] locally looks like some part of our D
+[07:28] however Rd and all its subsets are
+[07:35] uncountably however a finite set cannot
+[07:39] look like something uncountably so this
+[07:44] is wrong a topological manifold can
+[07:49] never have a topology that is a subset
+[07:51] apology well this is pure nonsense we
+[07:55] saw many examples in the lecture where
+[07:58] there was a subset apology and on a
+[08:00] topological manifold the topological
+[08:05] space s 42 which is the 42 42
+[08:09] dimensional sphere we cannot build an
+[08:13] atlas for it well of course we can so
+[08:18] there is no reason why we shouldn't be
+[08:21] able to do so so wrong and the last
+[08:26] answer a function from some m2r
+[08:32] can only be said to be continuous if M
+[08:35] is a topological manifold well that is
+[08:38] also not correct
+[08:39] since continuity or can already be
+[08:42] checked on a topological space we don't
+[08:45] need the notion of a topological
+[08:46] manifold therefore so this was the first
+[08:52] exercise some questions about
+[08:56] topological many faults and now we go to
+[09:01] the second exercise we look at the
+[09:07] Mobius River
+[09:11] and one we want look at the movie a
+[09:17] strip you can see it here which has a
+[09:26] river printed on
+[09:29] and from this mobius strip which is our
+[09:36] manifold we want to build an atlas so
+[09:46] let's look at the mobius strip so a
+[09:57] mobius strip can be decomposed on paper
+[10:03] in this way that means we identify this
+[10:10] edge running from top to bottom here
+[10:14] this way with the other edge but here
+[10:19] the other way around from bottom to the
+[10:21] top that's how we can construct a movie
+[10:25] a strip and now we have a river flowing
+[10:30] on it so imagine this is just some river
+[10:41] and now let's look at charts for this
+[10:48] mobius strip
+[10:54] so we need we cannot cover the Mobius
+[10:58] strip with one chart we need to so we
+[11:03] can choose this here which has this
+[11:20] domain we call this the domain u1 and we
+[11:33] have another chart here that has this
+[11:48] domain we call it YouTube and you can
+[11:57] see you have overlap here as well as
+[12:01] here and now how does this movie a strip
+[12:10] look like in the chart so for domain u 1
+[12:17] we find some chart X that maps u 1 to R
+[12:26] 2 or some part of our two actually so
+[12:34] this is some part of r2 and the Mobius
+[12:42] strip with the Mabius River printed on
+[12:46] it looks for example like this
+[12:54] and the other chart which has domain you
+[13:00] - we call it Y also maps to some part
+[13:05] are too so and in the chart the Mobius
+[13:16] River looks for example like this so we
+[13:27] constructed two charts for the Mobius
+[13:30] strip in the collection of this charge
+[13:34] together with this chart and forms and
+[13:36] atlas for the Mobius strip equipped with
+[13:39] the mughals River in the next exercise
+[13:45] exercise 3 we will consider the other
+[13:48] way round
+[13:50] we now are given an atlas and we want to
+[13:55] form the corresponding manifold so we
+[14:02] have four charts that I've also got here
+[14:26] now we need to find the overlaps in
+[14:31] these charts you can for example see see
+[14:36] that here we got overlap and also we can
+[14:43] add this chart here and the forth chart
+[14:55] can be put here so now we have found the
+[15:08] overlaps of these four charts and what
+[15:11] do we see
+[15:15] we can overlap down here and up here as
+[15:21] well as overlap here in the left but
+[15:27] here on the right so what we have
+[15:40] is a map that is identified here so this
+[15:51] edge identified with this edge in the
+[15:54] same orientation as well as here bottom
+[15:58] and top are identified in the same
+[16:01] direction and what we get is a Taurus
+[16:09] the g2 so what we got for our manifold
+[16:17] is a Taurus equipped with some charts we
+[16:22] have now build a manifold from an atlas
+[16:26] as well as an atlas from a manifold and
+[16:30] in the last exercise which is
+[16:42] you
+[16:48] called for the invention of the wheel we
+[16:53] look at an another example of a
+[16:55] topological manifold so let's consider
+[17:00] the set F 1 that is consists of the
+[17:07] pairs of real numbers m and n let
+[17:10] satisfy the condition M to the power 4
+[17:13] plus n to the power of 4 is equal to 1
+[17:17] it is equipped with a subset apology
+[17:21] inherited from the standard topology on
+[17:24] r2 so we look at a map F 1 to R that
+[17:30] Maps a pair in f1 to its first entry you
+[17:37] should write this down in formal
+[17:39] mathematical terms so we have the map X
+[17:46] that maps from f1 but not into the real
+[17:54] numbers as a whole but only in two
+[18:00] subsets minus 1 to 1 with minus 1 and 1
+[18:05] included and it takes such a pair M an N
+[18:10] and maps it to its first entry which is
+[18:14] M so is this map injective well it isn't
+[18:22] so let's look at the image of the pair 0
+[18:33] 1 under X well we map it to the first
+[18:38] entry that is 0 and if we now look at
+[18:42] the image of the pair 0 minus 1 it also
+[18:46] gets mapped to 0 so with this map we hit
+[18:52] the 0 in the target twice this violates
+[18:58] injectivity
+[19:00] first X is not injective
+[19:12] however this map X can be made injective
+[19:16] if we restrict its domain to either of
+[19:20] two maximal open subsets of f1 okay
+[19:25] let's do this so we called this
+[19:29] restricted map now X arrow up and the
+[19:36] restriction now is the set of all these
+[19:41] pairs m and n are to that of course
+[19:47] still fulfill the condition that m to
+[19:49] the power of 4 plus n to the power of 4
+[19:51] is equal to 1 but now restrict ourselves
+[19:56] to pairs whose second entry is larger
+[20:03] than 0 by excluding the equal sign we
+[20:08] ensure that this that the resulting
+[20:13] domain is such an open set as required
+[20:16] in the question and of course still we
+[20:21] map to the interval minus 1 to 1 however
+[20:24] this is now the open interval as the
+[20:28] borders are excluded and such pairs m
+[20:35] and n are still mapped to a first entry
+[20:38] M the second map X arrow down as we call
+[20:46] it is constructed accordingly we take
+[20:52] again pairs MN from our to fulfilling
+[20:57] our condition m to power 4 plus n to
+[21:00] power 4 is 1 and n is now smaller than 0
+[21:07] the targets again the open set from
+[21:10] minus 1 to 1 and the
+[21:13] here still gets mapped to the first
+[21:15] entry M and now we see this map here is
+[21:19] clearly injective now we can construct
+[21:27] an injective map Y arrow up from F 1 to
+[21:31] R that map's every pair in a maximal
+[21:35] open subset of F 1 to the second entry
+[21:37] of the pair
+[21:38] so let's construct it Y arrow up I have
+[21:44] to restrict our domain to a subset of F
+[21:50] 1 for y arrow up to be injective so we
+[21:56] can pick m and n the pair in R 2 with
+[22:01] our usual condition from F 1 and now we
+[22:05] say we have first entry M larger than 0
+[22:10] and we still map in the target minus 1
+[22:16] to 1 and now we take such a pair M and N
+[22:20] and map it to the first entry sorry of
+[22:26] course so the second entry n this map is
+[22:31] injective and now we can work with it is
+[22:39] it invertible well yes it is so we see
+[22:46] in the most injective as well as we can
+[22:51] easily check that is surjective which
+[22:54] means then y arrow up is by objective
+[23:01] and the inverse y arrow up inverse
+[23:07] exists
+[23:11] how can we construct this inverse that's
+[23:16] not particularly difficult so now the
+[23:21] domain of the inverse was is the target
+[23:25] of the map of the old map
+[23:31] so the real interval from minus 1 to 1
+[23:35] which is open gets mapped from the old
+[23:39] domain which is now the target yet mn in
+[23:43] our to fulfilling the usual condition
+[23:47] and we have that M is larger than 0 so
+[23:55] we take some real number a in the
+[23:59] interval minus 1 to 1 and it gets mapped
+[24:02] to a in the second entry and for the
+[24:13] condition M to the power 4 plus n to the
+[24:16] power of 4 is equal to 1 for this to
+[24:19] hold we need here the 4th root of 1
+[24:24] minus a to the power of 4 this is the
+[24:30] inverse map why arrow op inverse and now
+[24:35] we look at a possible overlap of the
+[24:39] domains of the map X arrow up and Y
+[24:43] arrow up
+[24:44] well there is overlap and it is the set
+[24:54] M n in r2 but of course fulfill our
+[25:01] usual condition and power 4 plus n to
+[25:05] the power 4 is 1 but now we have that M
+[25:09] is larger than 0 as well as n is larger
+[25:13] than 0
+[25:18] and now we are asked to construct the
+[25:21] transition map X arrow up after y arrow
+[25:26] up of course we can only construct this
+[25:33] transition map on the overlap of X arrow
+[25:37] up and Y arrow up and if we now remember
+[25:42] where X arrow up and white arrow up map
+[25:46] in this it's just the main we see that
+[25:53] the domain of the transition map is the
+[25:58] real interval from 0 to 1 and we map it
+[26:02] to the interval 0 to 1 all intervals are
+[26:08] open here and we take some number as
+[26:15] real number s from this interval and it
+[26:22] first gets mapped to X arrow up off
+[26:28] white arrow up inverse of s so this is X
+[26:35] arrow up of the pair the 4th root of 1
+[26:43] minus s to the power of 4 and s here we
+[26:51] constructed this explicitly in the in
+[26:54] the question before and X arrow up
+[26:58] projected out the first entry of this
+[27:01] pair and this is the 4th root 1 of 1
+[27:07] minus s to the power of 4 we see that
+[27:11] this is clearly a number in the interval
+[27:13] 0 to 1 and thus we have constructed the
+[27:18] transition map X Arad after wire-wrapped
+[27:21] inverse and the last question is how
+[27:26] many maps constructed this way do you
+[27:29] need for the domains to cover the whole
+[27:31] that f1 well we saw that the domain of
+[27:41] white arrow up of X arrow and X arrow
+[27:49] down they covered f1 without the pairs 1
+[28:04] 0 and minus 1 0 Y arrow up and we can
+[28:17] analogously construct white arrow down
+[28:20] they cover f1 without the points 0 1 and
+[28:27] 0 minus 1 so we need four Maps X arrow
+[28:40] up X arrow down white arrow up and y
+[28:46] arrow down to cover f1 and of course the
+[28:55] collection of the domains of these 4
+[28:58] maps and the Maps itself form an atlas
+[29:02] on f1 and
+[29:11] thus we have seen we have constructed an
+[29:14] atlas for our set f1 and we could and we
+[29:21] can see that f1 is a topological
+[29:25] manifold of dimension 1

@@ -1,0 +1,1526 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:07] [Music]
+[00:12] light so good morning and welcome
+[00:15] everybody to the central lecture of the
+[00:18] Heros International winter school on
+[00:20] gravity and light this is the winter
+[00:22] School uh uh we have here in Lin this
+[00:26] year and the topic of this winter school
+[00:31] is the structure of space and time and
+[00:34] more precisely from a physical point of
+[00:36] view the structure of gravity Theory
+[00:39] which if it's relativistic is general
+[00:42] relativity and the theory of
+[00:44] relativistic matter so um you probably
+[00:47] already met matter and gravity as well
+[00:51] now these are the relativistic versions
+[00:53] of those and the famous Einstein
+[00:55] equations that now celebrate their 100th
+[00:58] birthday this year
+[01:01] these Einstein equations connect the
+[01:03] matter contents of the universe with the
+[01:07] gravity in the universe of course matter
+[01:11] gravitates but what is new in general
+[01:14] relativity is that matter the
+[01:16] gravitational effect of matter is
+[01:19] actually encoded in a change of the
+[01:22] structure of space time itself namely in
+[01:25] the curvature of space time so one side
+[01:29] of the Ein equations talks about matter
+[01:31] the other side of the Einstein equations
+[01:33] talks about
+[01:35] gravity now there is an underlying
+[01:38] notion that one needs to understand in
+[01:41] order to even start talking about
+[01:44] gravity or in order to start talking
+[01:47] about matter and that is the notion of
+[01:50] space time now space time of course
+[01:54] everybody can have an intuitive notion
+[01:56] it's somehow space and time together as
+[01:58] one big space but that notion is not
+[02:01] good enough to talk precisely about it
+[02:04] now a notion that is good enough is the
+[02:06] one I wrote down here so this is the
+[02:09] physical key definition it's the
+[02:11] physical key object we need to talk
+[02:14] about and it lies all modern physics all
+[02:17] gravit all relativistic physics and it
+[02:19] is the following
+[02:22] SpaceTime this key notion is I read it
+[02:25] out a four dimensional manifold
+[02:30] well a topological
+[02:32] manifold that carries a smooth Atlas
+[02:35] whatever that is that carries a torsion
+[02:38] free whatever that is connection
+[02:40] whatever that is compatible with a lenan
+[02:43] metric well maybe you have a rough idea
+[02:47] and a Time orientation sounds clear
+[02:49] enough while it has a precise
+[02:51] mathematical formulation that satisfies
+[02:54] the Einstein
+[02:56] equations what does this mean well
+[03:00] that's the purpose of these lectures to
+[03:02] clarify this definition and so you see
+[03:05] all the colored terms here are terms
+[03:08] we're going to Define precisely and the
+[03:11] white words are just a manner of
+[03:13] speaking okay um and down here I wrote
+[03:18] down the 24 lectures of the central
+[03:21] lecture course up to number 12 is half
+[03:24] the month and then the full school
+[03:27] starts with external lectures even more
+[03:30] people 50 scholarship holders from all
+[03:32] over the world I think 23 countries and
+[03:34] so on come and that's the rest of the
+[03:36] school and uh those of you who are so
+[03:39] lucky to be here today don't have to
+[03:41] follow this first course online but the
+[03:43] others will but you see this color code
+[03:47] here all these unknown words um number
+[03:50] one and two topological will be
+[03:52] clarified in the first lecture this
+[03:54] morning what a manifold is and it
+[03:57] carries Dimension will be clarified in
+[03:58] the second lecture and all the other
+[04:00] terms will be clarified in the other
+[04:04] colorcoded lectures and of course in the
+[04:06] remaining lectures much more is going to
+[04:09] be said about how this game here works
+[04:12] with the Einstein equations but first we
+[04:14] need to understand the central notion of
+[04:18] SpaceTime so that's our plan and uh so
+[04:21] we have a tight schedule don't hesitate
+[04:24] to interrupt just ask into the classroom
+[04:28] and uh I will give you very brief
+[04:30] answers but there will be a tutorial
+[04:32] this afternoon actually every afternoon
+[04:35] after the lectures there is a tutorial
+[04:37] there will be tutorial sheets out there
+[04:39] they're very nice tutorial sheets okay
+[04:41] so the new thing is you don't have to
+[04:43] think about them beforehand you just go
+[04:46] there you can have a look at the Sheets
+[04:47] if you wish before you should pick up uh
+[04:50] one from each uh uh stack and um but
+[04:54] then actually we brought three
+[04:57] supervisors who will take you through
+[04:59] the sheet and a very simple exercises
+[05:02] that make you accustomed with all the
+[05:04] underlying Notions okay so you'll make
+[05:07] much more of the school if you go to
+[05:09] these
+[05:11] tutorials okay lecture
+[05:14] one inv us to interrupt let me simply
+[05:19] start this tradition yes all modern
+[05:21] physics is a rather yes of course I mean
+[05:25] this is whenever I speak about physics I
+[05:27] need to be a bit Grand so um all modern
+[05:31] fundamental relativistic physics I think
+[05:33] that's
+[05:34] true okay thank you very
+[05:38] much so lecture one is topological
+[05:45] spaces so we wish to talk about space
+[05:48] time and at the coarsest
+[05:51] level so if we don't look very closely
+[05:55] at the coarsest level space time is a
+[05:58] set
+[06:01] which means it just consists of points
+[06:04] which you may call the elements of the
+[06:06] set and that is it however this cses
+[06:11] level is not
+[06:13] enough to talk even about the simplest
+[06:17] Notions we would like to talk about in
+[06:19] classical physics namely continuity not
+[06:22] enough to
+[06:24] talk about
+[06:28] continuity of
+[06:30] maps so you say why do you do we want as
+[06:34] physicists to talk about continuity of
+[06:36] maps well in classical physics which
+[06:39] this is all about In classical physics
+[06:42] we have this idea that curves do not
+[06:45] jump no jumps so if you have a curve
+[06:50] some particle running somewhere later on
+[06:52] this will be in space time we do not
+[06:54] have the situation that all of a sudden
+[06:57] there is a jump and say the the
+[06:59] trajectory of a particle continues all
+[07:02] of a sudden in a totally different place
+[07:04] we do not want that so we need to
+[07:06] require for instance continuity of
+[07:10] Curves now a set is not enough structure
+[07:14] to be able to talk about curves being
+[07:17] continuous or not on that set and now
+[07:22] you could of course imagine all kinds of
+[07:24] structure on a set that allows you to
+[07:27] talk about continuity for instance you
+[07:29] could talk about a distance measure or
+[07:31] something but we need to be very minimal
+[07:35] and very economic in order not to
+[07:37] introduce undue assumptions and so we're
+[07:40] interested in the weakest structure we
+[07:43] can establish on a
+[07:46] set weakest
+[07:48] structure that can be established so we
+[07:53] need to do this by hand on a
+[07:56] set which allows
+[08:00] a good
+[08:03] definition of continuity of
+[08:07] maps a set is not
+[08:10] enough and mathematician know the
+[08:13] weakest such structure we can establish
+[08:17] is a so-called
+[08:19] topology this is the reason for the
+[08:22] physicist for the classical physicist to
+[08:25] look at
+[08:26] topologies so this is the motivation
+[08:29] this is the little Cloud so if you wish
+[08:32] uh all of
+[08:35] this you as a
+[08:37] mathematician all of this you allowed to
+[08:41] think you're thinking this okay this is
+[08:44] your motivation but now we are
+[08:47] precise
+[08:50] definition um let M be a
+[08:56] set a topology
+[09:00] a topology curly o the O will be
+[09:04] clarified later it stands for open the
+[09:07] topology with the name O is a subset of
+[09:13] what of the set M no O is a subset of
+[09:18] this monster P of M and this monster P
+[09:21] of M is a very simple thing it's called
+[09:24] the so-called power
+[09:26] set it's the power
+[09:30] set of M is the set containing all
+[09:38] subsets of
+[09:40] M so you make a
+[09:44] choice of certain subsets of M so O is a
+[09:49] set of sets a topology is a subset
+[09:53] satisfying not any such subset
+[09:56] satisfying three axioms
+[10:01] and these you always need to check the
+[10:04] first axim is very simple you require
+[10:07] that the empty set which is certainly a
+[10:10] subset of M the empty set you require
+[10:14] must always be part of your collection
+[10:18] that you call a topology if the empty
+[10:20] set is not in there the O does not
+[10:23] qualified as a so-called topology for M
+[10:27] there's another set that always must be
+[10:29] chosen to belong namely m is clearly a
+[10:32] subset of M an improper subset it also
+[10:36] needs to be in the
+[10:38] topology first axum very simple second a
+[10:42] well they're all very simple uh the
+[10:45] second aim is the following assume you
+[10:47] have a set u that is in the topology so
+[10:51] you made a collection of subsets and say
+[10:54] you've chosen one that's called
+[10:56] U and assume you have chosen a second
+[10:59] one that lies in there that's called
+[11:03] V then for any such u in v it must be
+[11:07] true already you need to check whether
+[11:11] their
+[11:12] intersection also has been chosen to
+[11:15] belong to the
+[11:16] topology if that is not the case the O
+[11:20] already
+[11:21] disqualified as a topology for the set M
+[11:25] it's very abstract at the moment but
+[11:27] it's also very simple so the more the
+[11:29] simpler it gets we'll have many examples
+[11:33] Okay the third axom is looks deceptively
+[11:37] similar to this one but with not with an
+[11:40] intersection but with a union but I say
+[11:44] deceptively similar because it's
+[11:46] somewhat different it says assume you
+[11:49] have sets U Alpha that are in O but not
+[11:55] just U1 and U2 which I call u and v but
+[11:59] this Alpha can come from an arbitrary
+[12:01] index set so here if you wish I chose
+[12:04] the index set one and two I have two
+[12:07] sets but this index set could be the
+[12:10] real line it could be more than
+[12:13] countably many elements this can be a
+[12:18] huge collection of elements in this o
+[12:22] however whatever amount of subsets in O
+[12:26] you look at the union the big Union over
+[12:31] all of the ones you already have in O
+[12:34] this big Union these brackets are not
+[12:36] necessary they make the thing clearer
+[12:38] this big Union also needs to be an O if
+[12:43] that is not the case then the whole
+[12:45] thing is not called a
+[12:49] topology that's it this is the key
+[12:54] definition of
+[12:55] topology and of course the question is
+[12:58] what is this all about and the other
+[13:00] question is can we have an
+[13:08] example examples let's start very simply
+[13:12] let's take a set M that just consists of
+[13:16] elements 1 2 3 we need to understand
+[13:19] this if we want to understand
+[13:21] anything now we could for instance make
+[13:24] a choice of
+[13:26] subsets so I make big brackets
+[13:30] okay big brackets and this o contains
+[13:34] subsets of M for instance it could
+[13:37] contain the empty
+[13:39] set and it could contain the set 1 2 3
+[13:44] itself and these are the only subsets of
+[13:47] M this o let's call it
+[13:50] o1 contains the question is is this a
+[13:55] topology yes it is is a topology let's
+[14:00] quickly go through it the empty set lies
+[14:03] in it the entire set which is 1 2 3 lies
+[14:07] in
+[14:08] it we take two arbitrary sets and check
+[14:11] whether the intersection lies in there I
+[14:14] choose this one as U and I choose the
+[14:17] same one as V why not empty intersected
+[14:20] empty is empty empty is already in there
+[14:24] I take this one empty intersect it with
+[14:26] this one empty intersected with anything
+[14:29] is empty empty is already in there I
+[14:32] take this one with that one well the
+[14:34] intersection is symmetric it's again
+[14:36] empty empty is already in there I take
+[14:38] this one intersected with itself it's 1
+[14:40] 2 three again it's already in
+[14:43] there second axim satisfied third axim
+[14:47] for the unions the same holds true here
+[14:50] only finite unions this is a topology
+[14:53] please topology to
+[14:56] be um No in fact it won't because for
+[15:00] instance if m is the integers n then the
+[15:04] power set of M is isomorphic to the
+[15:08] reals so and the topology you can choose
+[15:11] o as the entire power set that will be
+[15:14] the next is example so the answer to
+[15:16] your question does the topology have to
+[15:17] be countable the answer is no even if m
+[15:20] is
+[15:21] countable okay um next example B same
+[15:27] set up here so the a should go here O2
+[15:31] defined as the empty set the set one the
+[15:35] set 2 and the set 1 2
+[15:40] 3 is this a
+[15:43] topology the answer is no because one
+[15:47] Union 2 third axtion we need to check
+[15:50] one Union 2 is the set one two is not in
+[15:53] there is not a
+[15:56] topology okay
+[15:59] now um you see this is a very simple
+[16:02] game if you're able to write down the
+[16:05] topology
+[16:08] explicitly
+[16:09] now there are two topologies you can
+[16:12] establish on any set so let's do um
+[16:16] example one example two M be any set so
+[16:21] for instance the set of the integers all
+[16:24] the integers all the real numbers what
+[16:26] not we have the following example
+[16:29] you can choose the topology to be to
+[16:32] consist of only the empty set and the
+[16:35] entire set and this is a topology that
+[16:38] has a specific name it's called the
+[16:40] chaotic topology you can check this is a
+[16:45] topology for any set
+[16:47] M there's a second
+[16:50] topology that you can always write down
+[16:53] and that's the topology where you just
+[16:55] take any subset of the chosen set just
+[16:58] just anyone and because the intersection
+[17:01] of two subsets is always a subset and
+[17:03] the union of two subsets is always a
+[17:05] subset and all the subsets are in there
+[17:08] this also is a topology and this is
+[17:11] called the discrete
+[17:14] topology why should we worry about the
+[17:17] chaotic and the discrete topology the
+[17:20] answer is because they're both utterly
+[17:25] useless they're utterly useless but they
+[17:28] extreme cases the extreme cases because
+[17:31] this is the topology with the fewest
+[17:33] elements possible and this is the
+[17:36] topology with the maximum amount of
+[17:39] elements possible and they serve as test
+[17:42] cases in order to construct extreme
+[17:45] examples in topology in order to have an
+[17:48] understanding of what the Notions depend
+[17:56] on noty
+[17:59] it's not a topology since the union of
+[18:03] one and two is the ele is the set one
+[18:07] two and there's one two
+[18:10] 3 and the set one two is not an element
+[18:15] of the set because this is an element of
+[18:17] the set this is an element this is an
+[18:19] element and this is an element
+[18:22] okay of but not of okay yes yes exactly
+[18:29] okay so they're utterly useless but they
+[18:31] serve as good
+[18:34] examples now there is a very important
+[18:37] example that we're going to use
+[18:39] throughout and that will reconcile your
+[18:42] intuition that you of course have from
+[18:44] undergraduate analysis of continuity
+[18:48] which we're going to Define soon with
+[18:50] the notion of topology and that is the
+[18:53] so-called standard topology but whereas
+[18:57] the chaotic and discrete topology these
+[18:59] two utterly useless ones can be defined
+[19:02] on any set the ones I'm going to Define
+[19:05] now can only be defined on
+[19:08] RD what is Rd Rd is R cross R cross dot
+[19:15] dot dot cross R and what is that that's
+[19:18] the set of all
+[19:20] the D
+[19:23] tuples of real numbers so the pi are in
+[19:27] the real numbers so in Rd lie two bolts
+[19:31] of D
+[19:33] numbers okay that's Rd and that's a
+[19:36] set and now on this set we want to
+[19:39] establish a
+[19:41] topology we could establish the chaotic
+[19:44] topology we could EST establish the
+[19:47] discrete topology we could establish a
+[19:49] great number of different
+[19:53] topologies we are now going to establish
+[19:56] the topology that is us usually
+[19:59] chosen without saying it okay that's the
+[20:03] point and this is called the standard
+[20:06] topology so we want to Define o standard
+[20:11] so this needs to be a subset of all the
+[20:16] subsets of the power set of Rd of course
+[20:19] because that's a topology and you see
+[20:21] here I explicitly wrote down all the
+[20:25] elements that belong to the topology the
+[20:27] same here I explicitly wrote it down now
+[20:31] the standard topology will contain
+[20:34] noncount
+[20:37] many elements I can impossibly write
+[20:40] them down explicitly I have to Define
+[20:42] this implicitly and then to check
+[20:45] whether this nevertheless uniquely
+[20:47] defines a topology okay so the way of
+[20:49] definition is somewhat different but the
+[20:51] idea is of course the same and the
+[20:53] definition proceeds in two
+[20:56] steps the the first step is you define
+[21:00] the so-called soft
+[21:02] balls what is a soft ball a soft ball is
+[21:05] a set b r subr of a point P so the point
+[21:11] p is supposed to be in
+[21:13] Rd and R is supposed to be an element of
+[21:16] the positive reals well this is going to
+[21:19] be the radius of the ball and this is
+[21:21] going to be the center of the ball if
+[21:23] you like to think about it like this but
+[21:26] in fact it's just a set it's all the
+[21:30] q1 QD it's a d Tuple it's an element of
+[21:36] Rd um for which it is true now it comes
+[21:40] that if you take the I member of this
+[21:44] point in Rd you subtract from it the I
+[21:47] member of the central point so if this
+[21:50] is the point p in Rd then it has
+[21:52] components P1 to PD okay you square the
+[21:57] differences you go from I = 1 to D and
+[22:00] you require that the whole thing is less
+[22:02] than R
+[22:04] squar and of course you see oh what
+[22:07] you're writing down here is just the
+[22:09] ukian norm is what you say but I didn't
+[22:13] speak of a norm and I don't need to
+[22:14] speak of a norm and this is actually
+[22:16] just defined on tupal I do not need a
+[22:19] vector space structure on RD to write
+[22:22] this down to write down a norm you do
+[22:24] anyway this is the soft ball and there's
+[22:27] of course a soft ball for any R and any
+[22:30] P so that's step number Alpha now step
+[22:34] number beta is the
+[22:36] following we declare that a set u be in
+[22:42] the topology that we call the standard
+[22:46] topology by
+[22:48] definition by definition if and only if
+[22:51] so this the definition the implicit
+[22:53] definition if the following is true if
+[22:56] for every point
+[22:58] P of the set in
+[23:03] question there exists an r in
+[23:08] r+ such that the soft ball BR of P lies
+[23:15] entirely in the set
+[23:21] u this is the definition and of course
+[23:25] you can just think of this in a very
+[23:28] simple
+[23:33] way but this is thinking and the other
+[23:35] thing is mathematics you can think of it
+[23:38] in the following way assume you're
+[23:40] looking at R2 this special case and you
+[23:43] think this is part of R2 in your
+[23:45] intuition and now I'll take this set
+[23:49] here where the boundary does not belong
+[23:53] to the set roughly speaking and now the
+[23:56] question is it true true that this set u
+[24:00] is it an element of the standard
+[24:02] topology well yes it is because whatever
+[24:05] point in U you pick you find a intuition
+[24:09] radius small enough such that the soft
+[24:13] ball who because there is not an equal
+[24:17] sign right whose soft ball lies entirely
+[24:20] in there and that's true for every Point
+[24:22] whereas if you had taken only some part
+[24:26] of the boundary here to still belong to
+[24:29] the set you could have chosen a point on
+[24:32] there right for any point it must be
+[24:34] true but then however small but positive
+[24:38] you choose the radius you would always
+[24:41] have a problem here because the ball
+[24:43] wouldn't lie fully in it so this new set
+[24:47] u is not an element of the topology
+[24:50] whereas before the set was and now it's
+[24:53] a simple exercise but for reasons of
+[24:55] time I'm not going to give it it's a
+[24:58] simple exercise you might think about
+[25:01] why it is true that the thus implicitly
+[25:04] defined topology satisfies these three
+[25:09] axioms okay maybe you want to think
+[25:11] about this
+[25:13] tonight okay it's a very simp it's a few
+[25:16] line proof can I have the Blackboard
+[25:17] clean please it's a few lines proof
+[25:22] um but but we leave it out but of course
+[25:25] these pictures you saw before and you
+[25:28] would have probably said this is an open
+[25:30] set and this is a a non-open set and so
+[25:33] on and this is precisely the reason for
+[25:36] defining this special topology this way
+[25:40] to do on RD what you always
+[25:43] knew but it doesn't mean that there
+[25:46] wouldn't be
+[25:48] opportunities to maybe equip Rd with
+[25:52] different topology if you have other
+[25:54] than the standard purposes in mind
+[25:58] and later on what we're of course going
+[26:01] to do we're going to think of M the set
+[26:05] as the points of space time and one big
+[26:08] question will be what topology should
+[26:11] the physical space time or rather our
+[26:13] mathematical model it carry there is a
+[26:17] huge choice of topologies anything that
+[26:20] fits into this scheme is a topology
+[26:23] anything that fits into the scheme as we
+[26:25] will Define now suffice
+[26:28] to Define continuity of maps remember we
+[26:31] defined topologies in order to be able
+[26:34] to Define continuity of maps Okay um so
+[26:40] this will be the next step but before I
+[26:42] go there please do not be deterred if
+[26:46] this is abstract at first S I don't know
+[26:50] about your background if you're
+[26:51] mathematician you'll say well this is
+[26:53] just how things go if you're a physicist
+[26:56] you sometimes have to
+[26:59] um to think about in what places you
+[27:03] usually implicitly make these
+[27:06] assumptions and one of the tasks in
+[27:08] order to understand space time is to
+[27:11] make the implicit assumptions explicit
+[27:14] in fact when Einstein wrote down general
+[27:17] relativity uh he didn't understand many
+[27:20] of the implicit assumptions and it took
+[27:22] him many many years to
+[27:24] overcome intuitive Notions
+[27:28] some might say obvious Notions that
+[27:31] nevertheless do not apply so making
+[27:34] things explicit uh allows you to really
+[27:38] understand the concepts and you need to
+[27:40] trust me that none of the mathematical
+[27:43] Notions I
+[27:44] introduce is not necessary in order to
+[27:48] understand the physics so really every
+[27:50] single bit later on when we proceeded
+[27:52] further in the course I will be able to
+[27:55] point at the Notions and say this is the
+[27:59] physical effect of this and that choice
+[28:02] okay and it was actually I think in the
+[28:04] second half of the 20th century that uh
+[28:07] uh wal and Alas and so on they
+[28:09] recognized general relativity the theory
+[28:12] of SpaceTime gravity and matter must be
+[28:15] studied on the differential geometry
+[28:18] side at the level of rigor that
+[28:20] mathematicians study differential
+[28:22] geometry in order to really come to
+[28:25] terms with the subtle Notions of physics
+[28:27] there
+[28:28] okay so you need to trust us that this
+[28:30] is the cleanest way to introduce it and
+[28:33] everything is
+[28:35] self-contained okay so this is my uh
+[28:38] these are my words of motivation
+[28:41] here so uh now we Define the topology we
+[28:44] see we saw a topology is something you
+[28:47] need to choose it's not automatically
+[28:49] there it's a choice and whenever you
+[28:52] make a choice it's giving it's providing
+[28:55] structure so we have the following
+[28:58] important
+[28:59] terminology and this is now only
+[29:01] terminology it's not definition it's
+[29:05] terminology so we talked about M being a
+[29:09] set in fact you can make it a problem
+[29:12] what on Earth do we mean by a set a
+[29:13] collection of elements great but what's
+[29:15] an element and what's a collection it's
+[29:17] not so simple you need to actually write
+[29:19] down axioms for for set theory we're not
+[29:23] going to do this I leave you with the
+[29:25] intuitive notion uh if in doubt we do
+[29:28] Theo Frankle set theory with the axium
+[29:31] of choice don't worry um o we call this
+[29:36] a topology and this is a set of subsets
+[29:39] of M with certain
+[29:41] properties now if you think of a set
+[29:44] together with a choice of topology you
+[29:47] think of this pair I think them together
+[29:51] and then this pair is called a
+[29:54] topological space it's more than a set
+[29:58] it's a set with additional with
+[29:59] additional
+[30:01] information okay that's a topological
+[30:03] space now uh if U is an element of O If
+[30:09] U is a subset of M that lies in some
+[30:13] chosen topology which I called o uh then
+[30:16] we call
+[30:18] U an open
+[30:20] set this is just topology uh terminology
+[30:24] topology to uh it's a subset of M that
+[30:29] happens to lie in the chosen topology is
+[30:32] called an open set so the topology is
+[30:36] the set of open
+[30:39] sets but it's not like you would know
+[30:41] what open is and then you have the
+[30:42] topology it's rather that open is
+[30:45] defined by having chosen a
+[30:48] topology
+[30:50] okay that's an open set then there is
+[30:53] another type of set let's call them a
+[30:56] well it's just said call a set a which
+[30:59] is a subset of M which is a subset of M
+[31:02] call the set a closed call it a closed
+[31:07] set when do we call it a closed set we
+[31:10] call it a closed set by definition if
+[31:14] the
+[31:15] complement of a so if you take out a
+[31:18] from the total space if the complement
+[31:21] lies in the
+[31:23] topology and at this point you think I
+[31:25] yeah closed is the opposite of open in
+[31:28] some way no not in any way they're open
+[31:33] sets that are closed at the same time
+[31:36] for instance the empty set because the
+[31:39] empty set is in O but m without the
+[31:42] empty set is all of M is also in O ah so
+[31:46] the empty set is also closed so the
+[31:47] empty set is open and closed at the same
+[31:49] time for instance there are sets that
+[31:52] are open but not closed there are sets
+[31:55] that are not open but not closed and the
+[31:58] sets that are not open and not closed or
+[32:00] in plain English these two Notions in
+[32:03] principle a priority have nothing to do
+[32:06] with each other
+[32:07] whatsoever of course if you have chosen
+[32:09] a topology they're connected by this
+[32:12] definition okay so uh I put up a warning
+[32:15] sign I will do this several times during
+[32:17] these lectures and the warning sign is
+[32:19] that from open it just generally not
+[32:22] follow that a set is closed neither the
+[32:25] other way around despite the deceptive
+[32:30] terminology
+[32:32] inic EMP is not really one of our most
+[32:38] interesting
+[32:40] layers depends on what you look at for
+[32:42] instance if you're a vacuum
+[32:48] physicist in many cases you indeed find
+[32:51] examples where this where this is useful
+[32:53] okay and nevertheless it belongs to the
+[32:56] whole picture you cannot understand the
+[32:58] other bits if you don't understand the
+[32:59] extreme cases that's the point okay so
+[33:04] now we got ourselves a topology we got
+[33:07] ourselves number of Notions you usually
+[33:09] talk about but now why did we afford to
+[33:12] buy a topology in our favorite topology
+[33:15] shop okay the point is it does as a
+[33:18] service it yields a notion of continuous
+[33:22] Maps second
+[33:25] continuous
+[33:29] Maps
+[33:31] Okay now first of all we need to talk
+[33:35] about a
+[33:37] map and you all know what a map is a map
+[33:41] is something that we call F for instance
+[33:45] and it goes from one set into another
+[33:48] set so m is a set N is a set and this
+[33:52] set we of course call the
+[33:55] domain and this set we call the target
+[34:01] set and a map is of course nothing but
+[34:04] if I picture the set M by the collection
+[34:08] of its elements and I picture the Set n
+[34:11] by the collection of its
+[34:13] elements then a map you know it takes
+[34:18] every point from the domain to some
+[34:21] point over there for
+[34:23] instance these two points can be taken
+[34:27] to the same point not a problem um this
+[34:30] all the map F this point can be taken
+[34:34] here that point can be taken
+[34:37] there and but there is no need that
+[34:41] every point is hit for instance this
+[34:44] point is not
+[34:45] hit okay and this point
+[34:50] here is being hit twice we have Notions
+[34:54] for that if such Diamond point points
+[34:58] exist uh we say the map
+[35:01] F the map F uh is not
+[35:08] surjective because there certain not
+[35:11] surjective because certain points in the
+[35:13] Target are not hit if there exist points
+[35:17] like the flower
+[35:19] point then we say the map is not
+[35:25] injective because because some points in
+[35:28] the Target set are hit more than once
+[35:31] you know these Notions injective Maps
+[35:34] subjective maps and maps and a map is
+[35:38] only defined between two sets you need
+[35:43] no further structure on the set in order
+[35:46] to say what a map is right and not in
+[35:49] order to say what in injective or
+[35:51] surjective is if it is injective and
+[35:54] surjective it's called of course called
+[35:56] BC itive and so
+[35:58] on however I give you this map and I ask
+[36:02] you a simple question is this map
+[36:06] continuous does it make jumps now you
+[36:09] may have an intuition of whether it does
+[36:11] or not and the answer it depends and
+[36:14] what does it depend on whether this map
+[36:16] is continuous well in fact so the qu the
+[36:22] answer to the
+[36:25] question
+[36:27] of
+[36:29] whether a
+[36:31] map F from M to n is
+[36:39] continuous
+[36:41] depends and it does so by definition so
+[36:44] not by
+[36:45] some uh divine intervention but because
+[36:49] we're going to Define continuity like
+[36:51] this depends by definition
+[36:55] on what to topologies are
+[36:58] chosen what
+[37:01] topologies I think better English is
+[37:03] which topologies are
+[37:06] chosen on the domain M and the target
+[37:12] space n so in order to decide continuity
+[37:15] of a map you need to decide on some
+[37:19] topology here and you say that's the one
+[37:20] I want here and on a topology there and
+[37:24] only then can we write down meaningful
+[37:27] useful definition of
+[37:31] continuity so this is again
+[37:34] all the motivation around it let me be
+[37:39] precise let
+[37:41] M be a topological space with a topology
+[37:45] which gets the name om so remember it's
+[37:48] the topology we established or we chose
+[37:51] on M and let the Set n be equipped with
+[37:57] a of course may be totally different
+[38:00] topology because if this is a different
+[38:02] set than this one it can never be the
+[38:04] same topology
+[38:07] right let these two be topological
+[38:10] spaces so they're sets on which which
+[38:13] you Each of which you gave more
+[38:18] structure
+[38:20] then a
+[38:22] map F that takes you from one set in to
+[38:26] the other and maybe for future reference
+[38:29] you know this is this is the name of the
+[38:31] map this is the set it starts from this
+[38:33] is the set it goes to for future
+[38:35] reference I also say if you now pick a
+[38:37] specific element in M then this is being
+[38:41] mapped to so this arrow is a little bit
+[38:43] like these arrows
+[38:45] here okay um this takes the individual
+[38:49] element to what we call the image of
+[38:54] this value in m and this lies of course
+[38:58] in n and if these are say real numbers
+[39:01] then maybe you can give a definite
+[39:02] prescription this is M squ or something
+[39:04] like this F of M is M squ or something
+[39:07] so this is the notation we're going to
+[39:09] use this is the domain this is the
+[39:11] Target and this is an explicit
+[39:13] description of how it's being mapped and
+[39:16] depending on what the sets are uh you
+[39:19] need to prescribe how this goes in the
+[39:21] worst case you have to draw a
+[39:23] picture okay whatever it takes you do
+[39:26] this okay so but this is actually true
+[39:30] however it is described we always assume
+[39:32] if I say a map I assume there is some
+[39:34] definite prescription given okay some
+[39:38] definite prescription is given then a
+[39:41] map F from M to
+[39:42] n is
+[39:44] called
+[39:47] continuous and continuous is such a word
+[39:50] in fact the full family name of
+[39:52] continuous is continuous with respect to
+[39:56] the topology om on n and with respect to
+[40:00] the topology o n on N but we don't
+[40:05] always say that we just say it is
+[40:07] continuous but now you're educated you
+[40:09] know ah specific topologies have been
+[40:12] chosen it's with respect to those is
+[40:15] called continuous with respect to om and
+[40:17] o n if and this must be the simplest
+[40:20] definition
+[40:22] ever
+[40:23] if for every
+[40:26] set that is open in the Target so you
+[40:31] take any open subset here in the Target
+[40:34] space you must check for everyone if for
+[40:37] every V open in
+[40:40] here the soall pre-image It's a grand
+[40:45] name is a very simple concept the
+[40:46] so-called pre-image of f with respect to
+[40:50] F of this chosen set is in fact an open
+[40:55] set
+[40:57] in the
+[40:59] domain okay of course what you need to
+[41:06] remember is the definition of
+[41:08] pre-image so you have a map from M to n
+[41:13] now we take a subset V in N it may be
+[41:17] open and in fact the definition of
+[41:19] continuity requires you take an open
+[41:21] subset but the definition of pre-image
+[41:23] doesn't care whether it's open or not
+[41:26] could any then the
+[41:29] pre-image of this chosen subset in the
+[41:32] domain in the target with respect to the
+[41:35] map f is what it's a subset of the
+[41:40] domain hence we can ask is it open in
+[41:43] the domain which subset in the domain
+[41:45] it's so simple it's all those elements
+[41:48] in the
+[41:49] domain which if we map them using our F
+[41:55] come to last
+[41:57] in this
+[42:03] V this is very simple look at this look
+[42:06] at this image again what is the another
+[42:11] color what if I choose these two
+[42:16] here as the subset V in the Target these
+[42:20] two elements as the subset V in the
+[42:22] Target what's the pre-image of this
+[42:25] subset
+[42:26] with respect to F Well you follow the
+[42:29] arrows backwards this one lies in the
+[42:32] pre-image and this one lies in the
+[42:34] pre-image this one doesn't because it
+[42:37] doesn't come to lie in V so these two
+[42:41] are the
+[42:42] preimage with respect to F of the chosen
+[42:45] set
+[42:47] V so you say well it's kind of the
+[42:50] inverse yeah
+[42:52] careful because look at the flower set I
+[42:56] could take another set V
+[43:01] twiddle and with only this element the
+[43:03] flower
+[43:04] Point what's the pre-image of the V tdle
+[43:08] set with respect to F Well you follow
+[43:11] all the arrows
+[43:13] backwards it's this set this is the
+[43:16] pre-image of V twiddle with respect to F
+[43:20] because each of those F of each of those
+[43:23] comes to lie in v and now you see ah
+[43:27] even if the map is not invertible or
+[43:29] where the map is not invertible the
+[43:32] pre-image has a notion but the pre-image
+[43:35] of this single one would be the single
+[43:36] one the pre-image of the single one
+[43:38] would be this single one that's of
+[43:40] course a sign of an invertible part of a
+[43:42] map but here it isn't but still the
+[43:45] pre-image is the whole subset in the
+[43:48] domain so you check is every open set
+[43:51] here that depends on the chosen topology
+[43:54] is the pre-image of every open set open
+[43:56] in here depends on that topology it's a
+[43:59] very simple concept and it's extremely
+[44:02] powerful and that's it that's continuity
+[44:04] no epsilons no
+[44:06] Deltas very simple very simple Yes IM
+[44:13] say the guy uh the the the Diamond guy
+[44:18] di so you say if V is the diamond guy
+[44:20] well that's very simple what is it
+[44:22] what's the pre-image empty preim empty
+[44:25] set very good so the pre-image of V
+[44:28] twiddle twiddle so that's the the set
+[44:31] with only the diamond element uh this is
+[44:36] the empty
+[44:37] set and the empty set is open so if this
+[44:40] one happened to be an open set all
+[44:43] constitute an open set all by itself at
+[44:45] least under this map this wouldn't
+[44:47] destroy continuity this one wouldn't
+[44:50] okay very and therefore you see how
+[44:52] important it is to have uh the empty set
+[44:55] in the topology
+[44:56] because otherwise if you make this
+[44:57] definition only subjective Maps could be
+[45:00] continuous which is of course nonsense
+[45:02] yes in this picture do you see the
+[45:04] topology topology here you don't that's
+[45:08] the point so as I said um the pre-image
+[45:12] is defined at the map level the map
+[45:14] level only defines to the set structure
+[45:17] level this can all be written and of
+[45:20] course if I want to Define continuity in
+[45:22] terms of topologies I can only put
+[45:25] conditions here this is defined on the
+[45:27] set level but then here you choose one
+[45:29] in the topology in the Target and you
+[45:31] check whether it's in topology in the
+[45:33] domain for this definition you need the
+[45:36] topologies for the definition of the
+[45:38] pre-images you don't and in fact I
+[45:40] cannot I still cannot say even if I
+[45:43] understand all the pre-images of all the
+[45:45] subsets I still cannot say whether this
+[45:48] specific map is continuous unless I
+[45:51] decid it for a certain topology here and
+[45:54] there and that's given here so let's
+[45:56] let's make an example yes one question
+[45:58] can I have a map that makes a jum in the
+[46:01] topology in the topology so if I have
+[46:04] set n and n topological topology one and
+[46:08] two can I have a map that makes a
+[46:10] connection between two if I choose yes
+[46:13] in fact The Continuous Maps as it says
+[46:18] it's I mean if the map was let's say the
+[46:22] map was bjective it was a one to one map
+[46:25] then the pre-image could of course be
+[46:28] written as F inverse of the set V of the
+[46:32] set V and then if you have maps that are
+[46:35] continuous in both directions then not
+[46:38] only the pre-images of open sets are
+[46:40] open but also the images of open sets
+[46:43] are open because the inverse pulls it
+[46:45] back the image the pre-image of the
+[46:47] inverse is the image of the
+[46:49] map and so it's maps that are bjective
+[46:52] and in both directions continuous they
+[46:56] preserve the topological structure and
+[46:58] they have a specific name they're called
+[47:01] homeomorphisms in German
+[47:03] homeomorphisms in English homeo EO
+[47:07] homeomorphisms and there are the
+[47:09] structure preserving maps of topology
+[47:12] that's exactly it's a very very deep
+[47:14] question because mathematicians always
+[47:16] classify structures by identifying them
+[47:19] if certain structure preserving Maps
+[47:21] between them exist okay fine so let's um
+[47:25] further question at this
+[47:27] point good so um let's make an example
+[47:32] no I already had an example yes but I
+[47:34] would like to write down the
+[47:38] pneumonic phrase so if you want to
+[47:42] remember this definition it's very easy
+[47:44] to remember a
+[47:47] map is
+[47:51] continuous if and only if well it's the
+[47:53] if of a definition so exactly if is
+[47:56] continuous if the
+[48:01] pre-images of in Brackets all of course
+[48:04] we mean open
+[48:07] sets are open
+[48:11] sets the pre-images of open sets are
+[48:14] open sets the only point is that the
+[48:16] pre-image of open sets and here you
+[48:18] should
+[48:20] say in the Target space are open
+[48:24] sets
+[48:26] in the domain because the pre-image lies
+[48:28] in the domain and the pre-image of a map
+[48:32] uh of a of a subset needs to be the
+[48:34] subset a subset in the Target because
+[48:36] otherwise you can't take the pre-image
+[48:39] so this short formula pre-images of open
+[48:41] sets are open sets these open sets refer
+[48:44] to a topology on the target whereas
+[48:47] these of course must prer to a to a
+[48:50] topology on the domain as it's written
+[48:53] down precisely here okay so that
+[48:58] is yes
+[49:02] yes do we use topology from now only the
+[49:05] standard no no and I can't because I I
+[49:10] emphasize that the standard topology is
+[49:13] only defined on R to the D this here is
+[49:17] not an R to the D so on this one I can't
+[49:21] define the standard topology it's a very
+[49:24] important thing so and the standard
+[49:26] topology it has this deceptive name
+[49:29] standard topology as if there was
+[49:32] anything mathematically special about it
+[49:35] there's nothing special about the
+[49:37] standard topology other than that you
+[49:39] like it because it was the first
+[49:41] topology you implicitly met in the
+[49:44] beginning of your
+[49:45] studies okay but that's not a good
+[49:48] reason for SpaceTime to carry it right
+[49:52] so so this is a very important point
+[49:54] it's called standard and that reconcile
+[49:56] makes you I mean this is somehow to to
+[49:59] make you happy and other people do the
+[50:01] same trick um but it means nothing and
+[50:04] and it can only be established on some
+[50:06] Rd whereas on an arbitrary set it can't
+[50:08] even be talked
+[50:10] about okay very important point so we
+[50:14] take it always very general unless we
+[50:17] say which one which one we
+[50:19] chose
+[50:21] okay so
+[50:23] um aha
+[50:27] okay let's let's make an example let's
+[50:29] make an example and in fact I had one I
+[50:31] don't find it so I ah haha here it
+[50:40] is example so let's say m is the set 1 2
+[50:45] 3 we had it before and let's say n the
+[50:49] target is the same set why not I can go
+[50:52] from set 1 to 3 to the set 1 2 3 uh with
+[50:56] a map no we make it even simpler we only
+[50:58] take one and two and one and
+[51:00] two so let's invent a map one map is
+[51:05] there's the one there's the two there's
+[51:07] the set one two again and just for fun I
+[51:12] I map the one to the two and I map the
+[51:15] two to the one why would I not do that
+[51:19] uh that's the map F from M to N I want
+[51:22] to look at okay very simple one
+[51:26] and now I establish topologies on these
+[51:30] sets and I choose it's a definition I
+[51:33] choose to establish on M the topology
+[51:37] with the elements empty set set with
+[51:39] element one set with element
+[51:41] two and set one two this is a
+[51:45] topology and on n i establish a
+[51:49] different topology although it's the
+[51:50] same set I'm free to choose a different
+[51:53] topology I established the empty set1 2
+[51:57] that's a topology to so the question is
+[52:01] is f
+[52:03] continuous what do we have to do to
+[52:07] check
+[52:09] whether F
+[52:11] continuous again not by all by itself
+[52:14] but with respect to the chosen
+[52:16] topologies where f is continuous we need
+[52:19] to check what is the pre-image with
+[52:23] respect to F of just every open
+[52:27] subset this is this all for all for just
+[52:31] every open
+[52:33] subset in the Target we need to check
+[52:36] whether the
+[52:37] pre-image lies is an open subset in the
+[52:42] domain what are the open subsets of the
+[52:44] target well I can completely enumerate
+[52:47] that I need to study these two
+[52:49] pre-images because these are the only
+[52:52] open sets in the target what is the
+[52:56] pre-image of the empty set what are all
+[52:59] the elements in here that come to lie
+[53:03] nowhere none because it's a
+[53:07] map everything is mapped by the
+[53:10] definition of map what is the pre-image
+[53:13] of the set one two with respect to F
+[53:15] Well set one2 is the entire set the
+[53:18] pre-image is the entire set so this is
+[53:21] all of M correct but all of M by the
+[53:25] aims of a topology lies in om and the
+[53:29] empty set also lies in
+[53:31] om so in fact we checked
+[53:34] thus f is
+[53:38] continuous this map is
+[53:43] continuous now you will be very
+[53:46] surprised because this was only part A
+[53:49] of
+[53:50] it now I do Part
+[53:53] B and I do the following thing I now
+[53:57] look at the map that goes the opposite
+[53:59] way that starts in here and goes in here
+[54:03] which as a set is the same thing so I
+[54:06] call this the map G because it has a
+[54:08] different domain different Target and
+[54:10] again n is one two m is one two and the
+[54:15] g map be defined by this so you say it's
+[54:18] the same map has exactly the same
+[54:21] prescription yes explanation that you
+[54:29] the
+[54:31] topology this ISE to
+[54:34] the okay
+[54:36] so we're talking about this equal sign
+[54:39] is in question
+[54:43] or but okay so the point is the
+[54:46] pre-image of the empty set with respect
+[54:48] to F is let's see whether I was right is
+[54:51] the set of all m in M for Which F of M M
+[54:55] lies in the empty
+[54:58] set now if f is a
+[55:01] map then every element of M is mapped to
+[55:05] some element of the
+[55:08] target uh so it's an element of the
+[55:11] target but not of the empty set because
+[55:13] if F of M was in the empty set then this
+[55:15] m wouldn't have an
+[55:18] image but because f is a map every
+[55:21] element here must have an image if the
+[55:23] map would the node of a map would allow
+[55:27] for this little Christmas tree Point
+[55:31] here to not be mapped if this was still
+[55:34] a map if only these guys are mapped but
+[55:36] this one isn't then the image of this
+[55:39] under F would be nothing because there's
+[55:40] no
+[55:41] image
+[55:47] yes show okay no m in M satisfies this
+[55:52] so you take all the m in M that satisfy
+[55:55] this condition but any m in M is mapped
+[55:58] to a nonempty to Something in N hence
+[56:02] none of these satisfies this condition
+[56:05] so none no condition so that means it's
+[56:08] the empty
+[56:09] set I think it's clear it's ultimately
+[56:12] it's the definition of
+[56:15] map maybe we can discuss later if you if
+[56:18] you're not satisfied I think that's true
+[56:19] okay so now we go the opposite direction
+[56:22] I again give this prescription you say
+[56:24] oh it's the map F because well M
+[56:27] actually is n and okay you're right it's
+[56:30] actually the map
+[56:32] F but not if I keep with it that the m
+[56:37] is equipped with one topology and the N
+[56:41] is equipped with another topology
+[56:43] because I now have this other topology
+[56:46] on the domain and the other topology on
+[56:48] the target I could have also said I
+[56:51] swapped the topologies but you can also
+[56:54] think of this G as the inverse of f the
+[56:57] inverse map because that is what it is
+[56:59] right exchanges one two and it exchanges
+[57:02] it back you say well if the map is
+[57:05] continuous the bjective map the inverse
+[57:07] will be continuous
+[57:09] too
+[57:10] well check for every open set in here
+[57:15] for every open set in here check whether
+[57:17] the pre-image is open so we start
+[57:19] pre-image with respect to F
+[57:22] inverse of uh
+[57:24] [Music]
+[57:26] um of one so I take an open set in the
+[57:31] Target let's start with this one of
+[57:33] course I start with this one because
+[57:34] this already spells catastrophe so I
+[57:36] don't need to write too much so if it's
+[57:39] true I must check for every open set in
+[57:41] here so for instance for this one what's
+[57:44] the pre-image of the set with the
+[57:46] element one well it's the set with the
+[57:49] element two right but the set with the
+[57:52] element two unfort fortunately cannot be
+[57:56] found
+[57:57] anywhere in the topology of the now
+[58:01] domain not
+[58:04] continuous F inverse not
+[58:08] continuous and to make it even worse if
+[58:10] I hadn't exchanged one and two it would
+[58:12] be the identity map from one space with
+[58:16] one topology to another space to the
+[58:18] same space with another topology the
+[58:20] identity map could be continuous in One
+[58:22] Direction in the inverse of the identity
+[58:25] map which is of course the identity map
+[58:27] again could be not
+[58:30] continuous because you chose different
+[58:33] topologies do you see how dangerous it
+[58:35] is to not explicitly talk about the
+[58:41] topologies uh Blackboard please
+[58:45] uh you my memory of course I do
+[58:50] remember an open said the
+[58:55] that boundary what is the difference
+[58:58] between an open and closed set in the
+[59:00] examp in these examples okay so let's
+[59:02] for instance um focus on this
+[59:05] topology okay and let me write down an
+[59:10] um a closed set for you I claim that
+[59:16] two which is an open
+[59:19] set I claim that it's also closed I
+[59:23] claim to Clos since what do I need to
+[59:27] check I need to check whether the entire
+[59:29] set without that
+[59:31] set is in the topology but it is because
+[59:35] the entire set is one two one two
+[59:37] without two is one but one we see also
+[59:41] lies in there for instance okay it has
+[59:45] nothing to do whatsoever with the image
+[59:47] of the boundary being there or not
+[59:50] although boundary this notion we have in
+[59:52] the standard topology can be signed for
+[59:55] any topology so these Notions carry over
+[59:58] but our pictures of the Notions not
+[1:00:01] necessarily
+[1:00:03] do that that would be an example so this
+[1:00:06] has nothing to do with continuity but is
+[1:00:08] a remark on the previous
+[1:00:10] terminology on closed
+[1:00:19] sets
+[1:00:21] Okay so we introduced our little notion
+[1:00:23] of continu
+[1:00:25] for General Maps between any two
+[1:00:27] topological spaces now in the beginning
+[1:00:30] I drew this curve in a set that makes a
+[1:00:33] jump all of a
+[1:00:34] sudden what does it mean is it not
+[1:00:37] continuous well a curve would be
+[1:00:38] something that goes from the rear line
+[1:00:40] which is the curve parameter if you wish
+[1:00:43] into some other set but you need to
+[1:00:45] equip the real line the parameter space
+[1:00:47] where the curve takes it par its
+[1:00:49] parameters with a topology and you need
+[1:00:52] to equip the space in which the Curve
+[1:00:55] runs also with a topology in order to
+[1:00:58] start talking about the curve making
+[1:01:01] jumps or not where making jumps I
+[1:01:04] translate as is continuous or
+[1:01:08] not
+[1:01:09] and in the F in the following in the
+[1:01:12] whole lectures whenever we have the real
+[1:01:14] numbers or the real numbers cross the
+[1:01:17] real numbers cross to R to the D if
+[1:01:20] nothing else is said I will always
+[1:01:23] implicitly assume that we establish the
+[1:01:25] standard topology the standard topology
+[1:01:28] on the line the real line the standard
+[1:01:30] topology on the real plane so if nothing
+[1:01:32] is said then r or Rd carries the
+[1:01:35] standard topology so I don't need to
+[1:01:36] write so
+[1:01:37] much okay but the other spaces we will
+[1:01:41] have and SpaceTime will not be Rd or R4
+[1:01:45] or something SpaceTime will be a
+[1:01:46] topological space All In by itself okay
+[1:01:50] anyway so that was this remark now uh
+[1:01:53] there is a very
+[1:01:56] important notion of composition of maps
+[1:01:59] which is again defined at the set level
+[1:02:02] and the map and set level but you can
+[1:02:05] ask what is is the composition of two
+[1:02:09] continuous Maps is it again continuous
+[1:02:13] and that's a very important question so
+[1:02:15] that's section
+[1:02:17] number three
+[1:02:22] composition composition
+[1:02:25] of continuous
+[1:02:30] Maps the situation is very simple you
+[1:02:33] have a map F that goes from M to n and
+[1:02:36] sometimes I write the F on the arrow
+[1:02:38] that means the same as before it takes
+[1:02:40] you from the domain to the Target and
+[1:02:43] imagine there is another uh map G that
+[1:02:46] takes you from the Target to get another
+[1:02:49] Target and then you can define a new map
+[1:02:53] from the data given these two f and g
+[1:02:56] you may Define a map that's called G
+[1:02:59] after F well first F then G so G after F
+[1:03:04] which is a map as it's indicated here
+[1:03:07] from M to p and now I can tell you how
+[1:03:11] the composition is made an element in m
+[1:03:14] is being mapped to well that's the name
+[1:03:16] of the game G after F of M but this now
+[1:03:20] has a definition and the definition is
+[1:03:22] you first apply f and then you apply G
+[1:03:26] of course the composition of maps uh if
+[1:03:29] you can write it down so simply why do
+[1:03:31] you introduce this notation well this is
+[1:03:33] the map and this is already the image of
+[1:03:38] of a point under the map so I want to
+[1:03:41] like to be able to talk about the map
+[1:03:43] itself that's why I call this G after F
+[1:03:46] and we have a key theorem very simple to
+[1:03:51] prove maybe we'll do this key theorem it
+[1:03:55] says if f is
+[1:03:57] continuous and G is
+[1:04:00] continuous then it follows that g after
+[1:04:03] f is also
+[1:04:06] continuous let's prove this just for fun
+[1:04:10] what do we need to check we need to
+[1:04:13] check whether G after f is continuous
+[1:04:15] and we may assume this so G after F
+[1:04:17] continuous we need to check let V be any
+[1:04:22] open set in the topology on P I've of
+[1:04:26] course chosen topologies o m o n o p if
+[1:04:30] V is any open set in here I study the
+[1:04:35] preimage of G after F of this subset
+[1:04:40] what is the pre-image well by definition
+[1:04:42] it's all those m in the domain of the
+[1:04:46] map such that g after F of the M comes
+[1:04:50] to lie in the chosen open set
+[1:04:54] but what is this this is all the m in M
+[1:04:58] for Which F of M lies in the
+[1:05:02] preimage of G uh with respect to G of
+[1:05:06] this
+[1:05:09] V okay but that is of course nothing but
+[1:05:13] the pre-image with respect to F of the
+[1:05:17] pre-image with respect to G of v ah but
+[1:05:22] G is continuous and V is an open set in
+[1:05:25] the target of G as well so this must be
+[1:05:28] an element by this continuity must be an
+[1:05:32] element in o n ah but f is continuous so
+[1:05:36] and this is an open set here in the
+[1:05:39] Target so it must be an open set in the
+[1:05:43] domain of f ah but this is what we
+[1:05:45] wanted to show for any open set here the
+[1:05:48] pre-image with respect to this map is
+[1:05:51] open here which we just did so theorem
+[1:05:54] is
+[1:05:55] proven do this with epsilons and Deltas
+[1:05:58] in Rd okay but this is always true we
+[1:06:03] only use the definition of continuity
+[1:06:06] and the topological
+[1:06:10] space okay very important thing last
+[1:06:14] thing for today six
+[1:06:17] minutes
+[1:06:21] inheriting a
+[1:06:23] topology
+[1:06:28] if you're old enough you know that
+[1:06:29] inheritance is a good
+[1:06:31] thing and
+[1:06:33] um it's also good if you have some
+[1:06:36] topological space you have a topology
+[1:06:38] somewhere or you have one or two or
+[1:06:40] three topological spaces construct a new
+[1:06:43] one from what you already got and one
+[1:06:47] there are many ways to inherit
+[1:06:49] topologies from sets and every way to
+[1:06:51] inherit a topology in a certain
+[1:06:53] situation has a certain Advantage one we
+[1:06:56] need so I should say many useful ways
+[1:06:59] many
+[1:07:00] useful ways
+[1:07:03] to uh
+[1:07:05] inherit a
+[1:07:08] topology from some
+[1:07:13] given
+[1:07:15] topological space or depending on the
+[1:07:18] construction spaces maybe you have three
+[1:07:21] parents um important for us particularly
+[1:07:26] important for us for SpaceTime physics
+[1:07:30] so that the physicists keep motivated uh
+[1:07:33] SpaceTime
+[1:07:35] physics is the following assume you have
+[1:07:38] a set M on which you are happy enough to
+[1:07:43] already be given a topology you already
+[1:07:47] have a topological space and now you
+[1:07:50] consider a subset s of a topological
+[1:07:55] space some sub not an open subset any
+[1:07:57] subset could be any
+[1:08:00] subset question can you make S itself
+[1:08:03] into a
+[1:08:05] topology question can one
+[1:08:11] construct on S or for S A
+[1:08:17] topology from the topology om on M
+[1:08:24] of course I mean I can always invent a
+[1:08:26] topology on S but maybe I want a special
+[1:08:30] topology that in some way I get from M
+[1:08:33] and I'll tell you in a second why this
+[1:08:34] is interesting and the answer is
+[1:08:37] yes and an important way to do so is the
+[1:08:40] so-called subset topology you define a
+[1:08:44] topology on S this now not o s but o/ s
+[1:08:49] so the Restriction to S if you want but
+[1:08:51] this now needs to be a subset of the
+[1:08:55] power set of s supposed to be a topology
+[1:08:58] and S Define this OS as follows
+[1:09:02] explicitly you say it's all the sets
+[1:09:05] that have the shape U intersected s so
+[1:09:08] any element in the topology must be
+[1:09:11] writable as U intersection s where U is
+[1:09:16] any set in the given
+[1:09:19] topology you already have that's the
+[1:09:22] definition and there is a claim well you
+[1:09:25] can call this a topology and it's
+[1:09:27] actually called the subset
+[1:09:29] topology subset topology in Brackets
+[1:09:34] inherited from topology on the
+[1:09:39] superet well m is the
+[1:09:42] superet m is the superet of s but the
+[1:09:46] claim is it really is a topology I don't
+[1:09:48] only call it topology it is a topology
+[1:09:51] let's very quickly check that we need
+[1:09:53] need to check is the empty
+[1:09:56] set as a subset of s is it in there well
+[1:10:00] of course it is because I can write the
+[1:10:02] empty set as the empty set as a subset
+[1:10:05] of M intersected s this is clearly
+[1:10:09] true but because this here is in
+[1:10:13] om it follows that the empty set is in
+[1:10:16] OS as it is defined what about the whole
+[1:10:19] set s the whole set s needs to be in the
+[1:10:21] topology of s I write the whole set of s
+[1:10:24] I write it as M intersected s well M
+[1:10:27] intersected s is clearly s because this
+[1:10:29] is a subset but m is in O so the set s
+[1:10:34] is of the form some open set in M
+[1:10:37] intersected s so therefore the whole set
+[1:10:40] s is in the
+[1:10:41] topology second axum let's take a
+[1:10:46] u uh a u in s and a v in s now it's
+[1:10:52] getting confusing uh I should call this
+[1:10:55] um uh yeah A and S and B and S I need to
+[1:10:59] check whether the intersection is in s
+[1:11:02] well if a is in s then it means there
+[1:11:05] exists an a twiddle in om and the B
+[1:11:09] twiddle in om such that a is a twiddle
+[1:11:13] intersected S and B is B twiddle
+[1:11:16] intersected s because I say all open
+[1:11:18] sets in s oh sorry they should be in OS
+[1:11:22] right uh must have this form but if this
+[1:11:25] is true I can study the intersection a
+[1:11:28] intersected B is a tdd intersected s
+[1:11:32] brackets intersected B tdle intersected
+[1:11:35] s bracket but of course the bracket is a
+[1:11:38] so um the um intersection is associative
+[1:11:42] so an an S intersected s is s and so on
+[1:11:45] so I get a twiddle intersected B twiddle
+[1:11:48] intersected s but a twiddle B twiddle
+[1:11:51] lie in om but that's a topology so they
+[1:11:54] lie in here so again the intersection of
+[1:11:57] A and B is of this form so the whole
+[1:12:01] thing here lies in O subs and for the
+[1:12:06] union it's the same thing okay I'm not
+[1:12:08] going to write it down for time reasons
+[1:12:10] so in fact we Define something we call
+[1:12:13] it a topology but then of course we can
+[1:12:16] prove it's a
+[1:12:18] topology final
+[1:12:20] word
+[1:12:22] use of this
+[1:12:25] specific
+[1:12:27] way to
+[1:12:31] inherit to inherit a
+[1:12:36] topology uh from a
+[1:12:41] superet well the idea is the following
+[1:12:45] very often it's very easy for you to
+[1:12:49] judge whether a certain map from M to n
+[1:12:54] where you know the topology on here and
+[1:12:56] you know the topology on here is
+[1:12:59] continuous let's assume because of the
+[1:13:02] specific topologies chosen I'll give you
+[1:13:05] an an example in a second let's assume
+[1:13:07] it's very easy to decide whether this is
+[1:13:10] continuous continuous say that's easy
+[1:13:13] for some reason we
+[1:13:14] know now you want to know something
+[1:13:17] different you want to know if you only
+[1:13:20] consider a subset of the original
+[1:13:24] domain and you consider the map from the
+[1:13:27] subset into n which you usually call the
+[1:13:30] Restriction of f only to the subset you
+[1:13:35] want to do this very often for example
+[1:13:37] from R2 to R you write down some
+[1:13:41] prescription how this Maps um then you
+[1:13:44] know every point of
+[1:13:46] R2 how it goes to the real line somehow
+[1:13:49] for instance a temperature distribution
+[1:13:52] where these are the isotherms right this
+[1:13:54] is a temperature
+[1:13:56] distribution such a map right now
+[1:14:00] imagine for some reason you're not
+[1:14:02] interested in the temperature on this
+[1:14:05] hot plate but on this hot plate you have
+[1:14:08] a little wire that goes like this and
+[1:14:11] for some reason you have a mouse that
+[1:14:13] you mounted onto the wire with some
+[1:14:15] little wheels okay and the mouse is only
+[1:14:20] interested so if this is the subset s of
+[1:14:24] r2ol the mouse is of course only
+[1:14:26] interested in the temperature where it
+[1:14:29] can pass a very natural situation and
+[1:14:33] it's very natural to decide the
+[1:14:35] continuity of such a map you use your
+[1:14:37] underg gradate analysis notion but if
+[1:14:40] this is a complicated wire this map here
+[1:14:44] T Subs well that's quite a beast they
+[1:14:46] can look very complicated because this
+[1:14:49] here is given in a complicated way now
+[1:14:52] ass assume this is continuous with
+[1:14:54] respect to the standard topology on here
+[1:14:56] and here okay then if you decide to
+[1:15:02] equip s with just some topology you come
+[1:15:07] up with then you cannot conclude that if
+[1:15:10] this is continuous then this will be
+[1:15:13] continuous too because it depends on the
+[1:15:15] topology you choose on the subset s but
+[1:15:18] if you decide to choose on S the
+[1:15:22] topology you have on here by inheriting
+[1:15:25] it to here so constructing from this
+[1:15:28] topology this specific one I wrote down
+[1:15:31] here then you're guaranteed then it
+[1:15:35] follows that the Restriction of the map
+[1:15:38] which then goes from s to n is again
+[1:15:43] continuous okay there you see it's a
+[1:15:46] very natural thing to consider this
+[1:15:49] particular one this can also be proven
+[1:15:51] in a few lines again we already already
+[1:15:53] 3 minutes over time and not going to do
+[1:15:56] this so the wrap up is we defined we
+[1:15:59] took a set we established the topology
+[1:16:03] in order to talk about continuity if you
+[1:16:06] leave the room uh I hope there the
+[1:16:09] problem sheets not yet okay after the
+[1:16:12] coffee break after the coffee break
+[1:16:14] there are two tables and there a number
+[1:16:17] of problem sheets on from each stack you
+[1:16:20] take a sheet and those are the problem
+[1:16:22] sheets for the first first lecture this
+[1:16:23] morning and for the second lecture in
+[1:16:25] these problem sheets you just come to
+[1:16:27] the tutorial this afternoon where are
+[1:16:29] they in the bank Bank building lower
+[1:16:31] floor okay you come there we divide you
+[1:16:34] into groups you sit there and you go
+[1:16:36] through a worksheet under the competent
+[1:16:39] advice of our tutors and you practice
+[1:16:42] these Notions please come it will really
+[1:16:46] make everything very clear and you're
+[1:16:48] fully prepared for the next round of
+[1:16:50] lectures on Wednesday so we have now
+[1:16:53] half an hour coffee break is that
+[1:16:55] correct and then at a quarter 2 we start
+[1:16:58] again next lecture topological manifolds
+[1:17:02] thank
+[1:17:04] you

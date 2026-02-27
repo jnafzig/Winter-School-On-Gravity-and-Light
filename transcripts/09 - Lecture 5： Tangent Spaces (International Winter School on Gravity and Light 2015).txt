@@ -1,0 +1,1938 @@
+[00:00] this program is being presented to you
+[00:03] by the Heras International Winter School
+[00:05] on Gravity and
+[00:07] [Music]
+[00:11] Light good morning welcome to the fifth
+[00:14] lecture of the introduction to general
+[00:16] relativity today we talk about tangent
+[00:19] spaces now under this rather unassuming
+[00:23] name uh goes really a lot of the basic
+[00:26] concept uh mathematically uh that
+[00:28] underly general relativity so this is a
+[00:30] really important lecture and there is a
+[00:33] lead question the lead question is the
+[00:34] following on a manifold if you consider
+[00:37] a
+[00:38] curve what is the velocity of that curve
+[00:42] at the point P now this is velocity and
+[00:46] not speed uh and later on we will meet
+[00:50] speed but speed cannot be defined before
+[00:53] a so-called metric is defined on a
+[00:55] manifold that will come later will start
+[00:58] with velocity and it is tradition to
+[01:01] call the velocity a vector and in fact
+[01:03] it will be a vector in our formalism but
+[01:06] I ask you at first to completely erase
+[01:10] anything you ever learned about
+[01:11] velocities we're trying to rediscover it
+[01:15] so what is the velocity of a curve gamma
+[01:17] at a point P and rather than making many
+[01:20] motivating introductory remarks that are
+[01:22] going to confuse you further uh we
+[01:25] immediately start uh with the definition
+[01:27] and then we discuss the definition so
+[01:30] first is
+[01:35] velocities the definition is as follows
+[01:38] we consider a smooth
+[01:40] manifold
+[01:43] MOA that's a topological manifold with a
+[01:46] smooth atlas and we consider a curve on
+[01:50] that manifold a curve gamma from R into
+[01:54] the manifold that is at least
+[01:59] C1 so it can be once continuously
+[02:04] differentiated with respect to the
+[02:06] charts of this smooth
+[02:08] atlas and um we
+[02:12] suppose that the curve gamma at some
+[02:16] parameter value lambda 0 hits this point
+[02:21] P because otherwise it's meaningless to
+[02:24] ask what the velocity of the curve at
+[02:27] the point P is now there's the following
+[02:30] definition the
+[02:34] velocity the velocity of gamma at P is
+[02:41] and now it comes the linear map so this
+[02:45] is something you need to get used to
+[02:48] that velocities in vectors in general
+[02:51] but we start with velocities are linear
+[02:55] maps is the linear map that we call
+[02:58] curly V like velocity of the curve gamma
+[03:03] in the point P the velocity of the curve
+[03:07] gamma in the point P what mathematical
+[03:09] object is it it's a linear map a linear
+[03:12] map needs to go from one vector space to
+[03:15] another vector space the vector space we
+[03:18] start from and which I will explain in a
+[03:20] second is the vector space C infinity M
+[03:24] or inspiring name very simple object
+[03:27] linear mapped into the real
+[03:29] numbers which are an R vector space if
+[03:32] you equip them with their own addition
+[03:34] and
+[03:35] multiplication now this guy what is it
+[03:38] this is the guy very simply of all
+[03:41] smooth functions on the manifold so if f
+[03:45] is a smooth
+[03:51] function then c infinity m as a set is
+[03:54] the collection of these smooth functions
+[03:56] equipped with we need addition and s
+[04:01] multiplication and that is just
+[04:04] pointwise so two of those are added
+[04:08] point so I declare the addition to be a
+[04:11] smooth map again defined at a point P of
+[04:14] the manifold as f of p plus g of p where
+[04:19] this plus is now the plus in the real
+[04:21] numbers where these functions take their
+[04:24] values and similarly lambda g of p
+[04:28] defined as lambda times in the real
+[04:31] numbers g of p and the set with these
+[04:35] two operations is a vector space it's
+[04:39] the vector space of smooth functions so
+[04:42] it makes sense to talk about a linear
+[04:44] map from here to here and the velocity
+[04:47] is a linear map that eats arbitrary
+[04:51] function any function and spits out a
+[04:54] real number according to the following
+[04:56] rule it takes this function and it maps
+[05:00] it to v gamma p of f now I need to tell
+[05:06] you how this is defined this is f after
+[05:11] gamma you take the derivative of that
+[05:14] and you evaluate at the parameter value
+[05:17] lambda
+[05:20] 0 that's it that is the velocity of
+[05:23] gamma at a point p
+[05:25] now an intuition for this is very
+[05:29] helpful and in fact if you find this uh
+[05:33] surprising as a definition for velocity
+[05:36] this is exactly what children
+[05:39] uncorrupted by high school
+[05:41] physics capture as the concept of
+[05:44] velocity because it's the following you
+[05:47] run around through the world as a child
+[05:50] and you observe the world around you so
+[05:53] say that in the world around you there
+[05:55] is some temperature function f but you
+[06:00] must be able to do it for any f right
+[06:02] but if you see some temperature function
+[06:05] whose level lines I drew here you run
+[06:08] through the world and you see as you run
+[06:11] around as a child you look at the
+[06:14] temperature wherever you are so you have
+[06:18] the situation that you run
+[06:20] around which is this and there is a
+[06:24] temperature around and you feel the
+[06:28] temperature wherever you are so the temp
+[06:31] this is just a function from R to R time
+[06:34] time temperature okay and you observe
+[06:37] how the temperature changes the rate of
+[06:40] change of temperature as you run along
+[06:43] okay so what this is this gives you the
+[06:47] directional derivative of F as you run
+[06:51] along the curve gamma if you're at the
+[06:53] point P you feel how that changes so the
+[06:57] velocity of a curve at the point P is
+[07:00] the directional derivative and in the
+[07:03] past so this is really just in order to
+[07:06] make contact in the past you might have
+[07:09] talked uh about the velocity and now I'm
+[07:13] talking in charts i'm going to make this
+[07:14] precise i I I should only write this
+[07:16] like this you might have thought about
+[07:19] the directional derivative more like
+[07:21] this you take the gradient of f you dot
+[07:24] it into
+[07:26] the what you would say yes that's a
+[07:28] vector right you would have dotted it
+[07:31] into there and that's the directional
+[07:32] derivative now of course you can
+[07:35] consider this but this is only really
+[07:37] very roughly you could of course say no
+[07:41] vi del i is the differential operator
+[07:44] that acts on f and the only shift in
+[07:47] philosophy is that rather than saying
+[07:49] the this is the vector or the components
+[07:51] of the vector in differential geometry
+[07:54] you say this is the vector it's a linear
+[07:57] map that takes an f and maps it to a
+[08:00] number because you evaluate at a point
+[08:02] so you rather pull this derivative to
+[08:05] there right so um one could say in
+[08:10] programmatic gravity we want to
+[08:13] understand vectors or vectors in
+[08:15] differential geometry survive as the
+[08:18] directional derivatives they induce but
+[08:21] if you know how this acts on any
+[08:23] function you can make it act on the
+[08:25] coordinate functions and then you get
+[08:26] deltas and then you can recover all the
+[08:29] components so really if you know the
+[08:32] directional derivative how it acts on
+[08:34] just any function you can fully recover
+[08:37] the components okay this very sim is a
+[08:41] very simple shift of of now you can say
+[08:43] this is the basis for for these
+[08:45] components okay so now delete everything
+[08:48] I said because everything I said will
+[08:50] now be made precise where exactly it
+[08:51] takes place okay but so there is nothing
+[08:54] fantastic happening it's just a very
+[08:57] slight shift of perspective which is
+[08:59] extremely powerful uh and leads to the
+[09:02] whole idea of tangent spaces in
+[09:04] differential geometry okay so this is
+[09:07] actually a very intuitive concept we're
+[09:09] coming back to
+[09:11] that now immediately we come to tangent
+[09:14] spaces or the tangent vector
+[09:18] space because that is what's going what
+[09:20] is it go what it's going to be uh the
+[09:23] definition is as follow
+[09:27] definition for each
+[09:30] point P of the
+[09:34] manifold we define the
+[09:37] set so first of all a set t
+[09:42] subpm called the tangent
+[09:47] space 2
+[09:49] m at the point
+[09:52] p tpm and this is simply the collection
+[09:57] of all
+[09:58] possible tangent vectors to all possible
+[10:02] smooth curves through the point
+[10:09] okay so
+[10:11] um the picture for this
+[10:16] set is you have a point and you look at
+[10:19] all the curves through that point and
+[10:22] that curve will have a tangent vector
+[10:23] here you could say a directional
+[10:25] derivative associated with it uh and
+[10:27] this curve has one and that curve has
+[10:29] one well there will be a curve exactly
+[10:32] like the other one going through the
+[10:33] same point but at double parameter speed
+[10:36] that will give you a different
+[10:38] directional derivative because it scales
+[10:40] we'll see all this uh there could be
+[10:42] through a point one curve that's
+[10:44] different from another one but
+[10:46] nevertheless they give the same tangent
+[10:48] vector and so on it's very intuitive so
+[10:51] um this is almost the picture you just
+[10:54] have to think at the uh tangent vectors
+[10:57] or the velocities at this point as being
+[11:00] associated to this curve now do you see
+[11:04] we defined the tangent space as these
+[11:07] velocities as these maps none of this
+[11:10] constructions made any um reference to
+[11:14] an ambient space around it so although
+[11:19] for intuitive purposes you might think
+[11:22] of the TPM in a fashion I uh alluded to
+[11:27] last time a little like this this would
+[11:30] make reference to an ambient space but
+[11:33] this is actually the cleverer notion now
+[11:36] in the beginning of differential
+[11:38] geometry there was a debate for many
+[11:41] years is it better to define objects
+[11:43] intrinsically only lying within the
+[11:46] manifold or is it better to take the
+[11:48] manifold embedded in a bigger space and
+[11:51] then take this exttrinsic point of view
+[11:53] and does it lead to the same results and
+[11:56] famous embedding theorems at all
+[11:58] structural levels say it doesn't matter
+[12:00] you always find a big enough ambient
+[12:03] space to embed it into understand it in
+[12:05] this way okay so this debate is settled
+[12:08] now the question is why do we take this
+[12:10] perspective rather than this one well if
+[12:12] this is finally going to be the universe
+[12:15] all of the universe spacetime it would
+[12:18] be a little bit uneconomical to refer to
+[12:20] something around the universe right so
+[12:23] it's better to talk from within the
+[12:25] universe to define all the concepts
+[12:28] that's somehow a clever choice so we
+[12:30] prefer this and also technically it
+[12:32] points to the right ideas okay so um
+[12:36] rather this than
+[12:38] this rather this than this as a picture
+[12:42] although really everybody thinks of it
+[12:44] like this as well okay but technically
+[12:47] you must not so that's the definition of
+[12:50] the tangent space and um well that is
+[12:54] just a set now the question is do the
+[12:57] velocities at a
+[12:59] point form a vector space uh well that
+[13:03] is true they do so observation and it's
+[13:06] a key observation
+[13:10] um
+[13:12] TPM can be
+[13:15] made into a vector space and because
+[13:18] this is so important and this is a
+[13:20] technical key point that you're going to
+[13:22] use all the time I'll show this in
+[13:24] detail and already in this calculation
+[13:28] you learn all the techniques that you
+[13:29] need in the future for your own
+[13:30] calculations so it's not just a proof
+[13:33] that you then never look at again it's
+[13:35] an important construction so what do we
+[13:38] need to do we define an addition and an
+[13:42] S
+[13:43] multiplication and that's very
+[13:45] easy because the elements of here are
+[13:50] linear maps with values in R well so you
+[13:55] can immediately add them so you can
+[13:58] immediately take an element of TPM and
+[14:02] an element of the same TPM so you cannot
+[14:05] take a vector here and a vector here and
+[14:08] add them that's not possible but you can
+[14:10] two ve take two vectors at the same
+[14:12] point and you can immediately add them
+[14:16] so you get um v um gamma p plus v
+[14:23] um delta p it's the vector because all
+[14:27] the elements are velocities to some
+[14:30] curve two different elements will be
+[14:33] defined with respect to different
+[14:35] underlying curves
+[14:37] right you can immediately define this um
+[14:41] because you know this is such a linear
+[14:43] map you can apply it to an arbitrary
+[14:45] smooth function and you define the sum
+[14:49] as gamma p acting on f plus gamma v
+[14:54] delta p acting on the same f and this is
+[14:58] just the addition in the real numbers
+[15:00] whereas this defines the addition in tpm
+[15:03] okay you can immediately add because of
+[15:06] the structure of these objects and then
+[15:09] you have an S multiplication R cross TP
+[15:14] uh and that works like lambda S
+[15:16] multiplication V of some gamma P defined
+[15:20] by action on F exactly the same with the
+[15:23] real numbers V gamma P acting on F
+[15:29] now I can add them all right but there's
+[15:32] one problem if I add two maps what I get
+[15:36] out is a map map of that type and a map
+[15:39] of that type is a map from C infinity M
+[15:43] to R a real map so it's a map from C
+[15:47] infinity M to R i could have also
+[15:51] written C infinity M star and here the
+[15:54] same home a map from C infinite temp R
+[16:00] because well that's just what you get if
+[16:03] you add two such maps however in order
+[16:06] for these to be a vector space addition
+[16:10] and s multiplic multiplication it is
+[16:13] necessary that they the these two
+[16:17] operations close within TPM so that you
+[16:20] don't just get a map of this type but
+[16:23] you get a map of this type that lies in
+[16:28] C infinity M R that lies in this
+[16:32] specific subset it needs to be a map
+[16:35] that can be generated of this type that
+[16:37] can be generated from a
+[16:39] curve that is not clear you can add and
+[16:42] you have a map but is it generated from
+[16:44] this curve so it remains to be shown so
+[16:47] we're always almost there it remains to
+[16:50] be
+[16:51] shown that
+[16:54] um first there exists a curve
+[17:00] sigma sigma curve such that the sum
+[17:06] uh of the velocity of gamma at p plus
+[17:09] the velocity of delta at p that there
+[17:12] exists a curve sigma such that the sum
+[17:15] is not only a map of the type but is
+[17:17] actually the velocity ity of a third
+[17:20] curve at the point arises in the way in
+[17:23] which the elements of this space must
+[17:25] arise
+[17:27] okay it's important and similarly uh uh
+[17:31] it must be shown that there exists a
+[17:33] curve I don't know how to call it like a
+[17:35] sigma towel curve such that lambda * v
+[17:39] gamma p is v to comma p okay so this we
+[17:46] need to do so the remaining
+[17:49] proof focuses or can focus on this let's
+[17:53] start with this first case right we have
+[17:56] this V gamma P and we do the S
+[17:59] multiplication we defined right here
+[18:02] okay i need to find a curve towel such
+[18:06] that the result is the velocity of this
+[18:09] curve toao okay um I construct this
+[18:14] curve you can say how do you construct
+[18:16] this well by looking at it it's easiest
+[18:18] to just construct
+[18:20] this so um we define the curve
+[18:25] toao as a curve r to
+[18:31] m
+[18:33] by ascending
+[18:36] lambda to tow of lambda but tow of
+[18:40] lambda iso ah lambda is a is a bad
+[18:43] choice because I chose lambda here i
+[18:44] need to choose a different parameter
+[18:48] um well because I'm so used to to we are
+[18:51] also used to using lambda as the
+[18:53] parameter let's take here an alpha as
+[18:55] the multiplication right so alpha is the
+[18:59] real number by which I
+[19:02] multiply okay so um I set this to sigma
+[19:07] and I run through the old curve at alpha
+[19:11] times the parameter speed if you wish
+[19:14] okay I just do this and It's clever to
+[19:17] write this as sigma after mu down alpha
+[19:21] of lambda where the mu down alpha is a
+[19:25] very simple thing it takes a real number
+[19:27] to a real number r to alpha times this
+[19:31] number well this is of course what's
+[19:33] written here you take the mu of lambda
+[19:35] this is alpha* lambda that's this we
+[19:38] write it like this because we need to do
+[19:39] the chain rule in a second okay so I
+[19:42] just claim this curve does the
+[19:47] trick this curve is the one that
+[19:50] reproduces alpha times this well let's
+[19:54] calculate
+[19:56] um
+[19:57] since we look at what's the tangent
+[20:00] vector to the new curve towel in the
+[20:03] point P ah and um we also if we first
+[20:08] check that t at the same parameter value
+[20:13] lambda 0 is sigma of
+[20:17] alpha lambda
+[20:19] 0 ah I should have aha it needs to go
+[20:25] through the same
+[20:28] point well it will for some lambda zero
+[20:31] it will hit the point but I need to
+[20:34] um hang on a second i need
+[20:38] to take So the curve sigma not sigma I'm
+[20:45] sorry the curve gamma went through the
+[20:47] point P oh now you deleted it okay uh
+[20:52] through the point P at parameter value
+[20:54] lambda 0 so I take lambda minus lambda 0
+[20:59] at this point why not and then t of 0
+[21:04] will be gamma
+[21:16] of gamma of lambda 0 now we got it it do
+[21:21] I do it like this then the t of 0 will
+[21:23] be gamma of lambda 0 and then I can
+[21:25] calculate the velocity to toao at the
+[21:29] point p as now by definition it's f
+[21:33] after
+[21:35] toao I take this like this and I take
+[21:38] the derivative at the point where we run
+[21:41] through p but this is here the parameter
+[21:44] value zero okay this is one way to do it
+[21:47] equals and now I need to take this
+[21:49] derivative and for that it's clever to
+[21:52] write down what I wrote down here this
+[21:54] this um so I take this mu alpha I have
+[21:58] here plus lambda 0 for simplicity is
+[22:01] gamma after mu alpha of
+[22:05] lambda okay uh this is an r this is an r
+[22:09] that's fine so I now have this uh chain
+[22:12] rule is f after gamma after mu
+[22:16] alpha derivative at the point zero and
+[22:20] now of course you know how to do this
+[22:23] this is f after
+[22:25] gamma derivative at the point mu alpha
+[22:30] of 0 but mu alpha of 0 is just lambda
+[22:34] 0 times the inner derivative is the
+[22:37] derivative of this guy with respect to r
+[22:40] so this is just an alpha time alpha oh
+[22:43] that's excellent because this is alpha
+[22:45] times the velocity to gamma in the point
+[22:49] p because gamma of lambda 0 is the point
+[22:51] p
+[22:53] okay so sorry for the intermediate
+[22:55] confusion but here so there exists a
+[22:57] curve indeed this curve towa reproduces
+[23:01] this here okay so that was the easy part
+[23:06] uh now comes the almost as easy part um
+[23:11] so that's
+[23:13] number please leave this for a second
+[23:15] for one second please okay
+[23:18] um so now for the sum
+[23:22] H it works as follows well we'll leave
+[23:25] it for for a moment it works as follows
+[23:28] so we want to look at the velocity to
+[23:30] gamma at a point P plus the velocity to
+[23:34] delta at a point P and we need to
+[23:38] construct we need to find a curve
+[23:41] sigma that at the point P has the
+[23:44] velocity that corresponds to what I
+[23:46] defined here so construct in order to
+[23:50] construct this curve we need to do
+[23:52] something extremely ugly we make a
+[23:55] choice of
+[23:56] chart make a
+[23:59] choice of chart
+[24:02] ux that contains the point in question
+[24:06] we're looking at now the moment I say
+[24:09] make a choice of chart immediately your
+[24:13] illdefinition alarm
+[24:16] bells need to
+[24:18] ring say okay I bear with you but please
+[24:23] if in the end anything depends on this
+[24:25] chart I'm not going to buy it okay it's
+[24:28] very important so again I'm not against
+[24:31] choosing charts I'm just against
+[24:33] choosing charts and not knowing what a
+[24:36] great uh assumption ass you're making
+[24:38] here okay but it turns out it's no
+[24:40] assumption at all make a choice of chart
+[24:42] and
+[24:44] define we define the curve sigma in the
+[24:47] real world R to M as
+[24:51] follows sigma of
+[24:54] lambda
+[24:56] is I define now a curve in the chart and
+[25:01] once I have it I take it back into the
+[25:03] real world by X to the minus one okay
+[25:07] and in the chart I take the chart
+[25:10] representative of the curve
+[25:13] gamma and I take it at the point lambda
+[25:17] 0 plus lambda lambda 0 is the point
+[25:19] where gamma hits p plus I take the chart
+[25:23] representative of the curve delta at the
+[25:26] point lambda 1 plus lambda lambda 1 is
+[25:28] the point where delta hits p and I
+[25:31] subtract a constant r d element namely x
+[25:36] after gamma at the point lambda zero
+[25:39] that doesn't depend on lambda at all
+[25:41] nevertheless I need it and this is in
+[25:44] the chart and of course in the chart
+[25:45] this is an element for specific lambda
+[25:48] this is an element in RD and uh with the
+[25:51] lambda free it's a map from here to here
+[25:55] I can add this in RD I can add this in
+[25:58] RD in the
+[26:00] chart terribly illdefined from a general
+[26:02] point of view if you didn't have a chart
+[26:04] wouldn't make any sense but you do this
+[26:06] in the chart and you go back from the
+[26:08] chart to the real world which doesn't
+[26:10] make it better because you need the x
+[26:11] and the x inverse right nevertheless
+[26:14] bear with me I claim this sum this sigma
+[26:18] does the
+[26:21] trick this sigma in the real world
+[26:24] satisfies this up here now this we need
+[26:27] to
+[26:29] calculate since so the first thing we
+[26:32] need to do we need to see whether sigma
+[26:34] at all hits this point P and at what
+[26:37] parameter value um we need to look at
+[26:41] sigma of
+[26:42] zero and maybe in order to uh remind
+[26:46] ourselves of the terrible sin we
+[26:49] committed we indicate the sigma subx so
+[26:53] we have a constant reminder this
+[26:55] construction depends on the chart map X
+[26:58] okay so what is sigma X of 0 equals X
+[27:02] after gamma of lambda 0 plus I write it
+[27:06] down is X after gamma of lambda 0 X
+[27:11] inverse plus X after delta of lambda 1
+[27:15] minus X after gamma of lambda 0 i need
+[27:19] this one to kill this one and then I
+[27:22] have just X inverse X delta this is
+[27:24] delta of lambda 1 is the point p okay so
+[27:27] the parameter z value is zero it runs
+[27:30] through p otherwise this makes no sense
+[27:32] in the first place and now the actual
+[27:35] calculation is as follows v of this
+[27:38] curve sigma x that I claim to do the
+[27:41] trick sigma x in the point p equals well
+[27:46] let's use the definition acting on a
+[27:49] function i need to have it act on a
+[27:50] function to calculate is f after this
+[27:53] sigma
+[27:55] x prime at the parameter value where it
+[27:58] hits p that's zero at zero that's this
+[28:02] thing we need to calculate and we need
+[28:04] to end up here if we did we found if we
+[28:07] do we found the
+[28:08] curve equals now um
+[28:12] aha um I plug it in or I choose another
+[28:16] intermediate chart I use an intermediate
+[28:18] chart So f after x inverse after x after
+[28:22] sigma
+[28:23] x I I'm allowed to do this right I
+[28:26] insert the identity that's the standard
+[28:28] trick derivative at zero and then I use
+[28:31] the associativity of the composition to
+[28:34] rebracket like this now this is the
+[28:37] derivative and now let's see what kind
+[28:39] of objects we have this is a function
+[28:42] from rd to r right maybe it helps to uh
+[28:47] to write down What happens here the
+[28:49] curve gam sigma lands here the arbitrary
+[28:53] function f is defined there we have a
+[28:55] chart here we have f after x inverse and
+[28:58] here we have x after sigma so we know
+[29:01] that f after x inverse goes from a part
+[29:04] of rd to r and x after sigma x so guys
+[29:09] sigma x sigma x after sigma x is this
+[29:12] one goes from R to
+[29:14] RD to RD and between them there's a
+[29:17] composition there's a derivative
+[29:18] fantastic is undergraduate analysis
+[29:21] right so we do the multi-dimensional
+[29:24] chain rule of undergraduate analysis and
+[29:27] that works as follows we take the inner
+[29:29] derivative first well doesn't don't you
+[29:32] don't need to take it first but we need
+[29:33] to take it so you take the derivative at
+[29:36] the point zero but because here this is
+[29:40] multialued you take the i component of
+[29:43] it or you can also put the i component
+[29:46] here and take it here it's the Same
+[29:47] thing and here you take the partial
+[29:50] derivative in the i direction okay of
+[29:54] the i entry here this is this f after x
+[29:58] inverse and after you did the derivation
+[30:02] you evaluate at the point x after sigma
+[30:05] x of 0 x of sigma x of zero sigma x of
+[30:11] zero is p so that's at the point x of p
+[30:16] okay so now we're left with the task of
+[30:19] calculating this beast where sigma x is
+[30:22] given like this let's do this first
+[30:25] that's not so difficult because x or
+[30:29] maybe I put the i here it's really the
+[30:31] same thing because that's the final
+[30:33] function that a map that acts it's the
+[30:36] no I put it here it's x after sigma x
+[30:39] that means that kills this bit
+[30:42] and so we have here a function from R to
+[30:44] RD and its E component oh we know how to
+[30:48] derive this we derive this and this and
+[30:50] this what's the result the derivative of
+[30:53] the first one with respect to lambda is
+[30:57] X after
+[31:00] gamma prime evaluated at aha at zero is
+[31:05] evaluated at lambda 0
+[31:08] okay um plus then this part because the
+[31:12] x inverse has been killed right uh that
+[31:14] freezes here this is x after delta prime
+[31:19] at lambda 0 evaluated is at lambda 1 and
+[31:23] this is constant this doesn't contain
+[31:25] lambda at all so there is nothing else
+[31:28] to it so this part here is this and now
+[31:31] you see the magic although we had this
+[31:34] terrible construction where we go down
+[31:36] to the chart add there terribly
+[31:38] illdefined illdefined it's well defined
+[31:40] here but it's illdefined under a change
+[31:42] of chart the derivative here at the end
+[31:46] of the day leads you a product a sum
+[31:49] rule okay and so what you get here you
+[31:52] now see it it's this factor here in
+[31:54] front is this guy and that's of course
+[31:57] distributive over this number which is
+[31:59] in R this multiplication which is in R
+[32:02] but what Is this well I write it down
+[32:04] it's um x after gamma prime at lambda 0
+[32:09] time del i f after x
+[32:12] inverse at p at x of p plus the same
+[32:17] expression with x after delta prime at
+[32:20] lambda 1 time del i f after x inverse at
+[32:25] x of p but now we do this backwards with
+[32:30] the chain rule multi-dimension i'm sorry
+[32:32] I took the i here so I should should
+[32:35] have had an i here and here so I have an
+[32:37] i here and an i here which is contracted
+[32:40] like this and now I do the
+[32:42] multi-dimensional undergraduate chain
+[32:43] rule backwards and what I get is
+[32:47] um uh is uh f after
+[32:51] um
+[32:52] gamma hang on a second um f
+[32:59] after I get f aha so I get first this
+[33:04] thing here and then I can remove the
+[33:07] others this is f after gamma prime at
+[33:10] zero plus f after delta prime at zero no
+[33:16] at lambda 0 and at lambda 1 right these
+[33:19] are the evaluation points here and
+[33:22] that's of course nothing but the
+[33:24] velocity to gamma at p plus the
+[33:28] velocity after I acted on f plus the
+[33:30] velocity of delta at p after acting on f
+[33:35] aha so we compared the left hand side
+[33:38] with the right hand side we didn't make
+[33:40] any assumption on f other than that it
+[33:42] comes from this set that is we have
+[33:45] exactly v gamma p with this addition
+[33:49] which is defined like this delta p is v
+[33:53] sigma
+[33:55] p and although we intermediately chose
+[33:59] this chart neither the left hand side
+[34:02] nor the right hand side depends on that
+[34:05] so in fact uh this is the curve that
+[34:09] does the trick yes i don't see where so
+[34:12] I didn't really get the exact point we
+[34:15] have to do the proof that there exists a
+[34:18] curve C such that the result we already
+[34:21] defined is a well
+[34:23] defined C infinity such that the result
+[34:27] arises as the tangent to a curve yes
+[34:30] and then you made use in your so I can
+[34:35] prove the existence by just constructing
+[34:38] one yes and there you pointed out uh
+[34:42] that it might not might not
+[34:46] exist such a chart no no no no i I No no
+[34:51] i constructed a candidate for a curve
+[34:54] that does the trick by using a chart by
+[34:57] using a chart
+[34:58] somewhere at this point that my
+[35:00] colleague pointed out there might not
+[35:02] even
+[35:04] no no the chart if if I I choose some
+[35:06] chart the point is no no I don't need to
+[35:07] assume the existence of a special chart
+[35:10] make a choice of any chart that covers
+[35:14] the point and that that is possible is
+[35:16] the definition of a topological manifold
+[35:19] it must be chart independent it must
+[35:21] only be chart independent so if I had
+[35:23] chosen another chart would the result
+[35:25] change the quick answer is no because
+[35:28] you would have a y everywhere but the
+[35:30] result would work out the same precisely
+[35:33] we couldn't because I couldn't I didn't
+[35:35] make any further assumptions on the
+[35:36] chart thank you for the question yes yes
+[35:40] you told us that it is better to think
+[35:42] in this completely intrinsic picture yes
+[35:45] but here we see
+[35:48] without seeing that we have a
+[35:51] manifold which can be which can be
+[35:54] mapped to the real space we cannot
+[35:58] perform this nevertheless it is
+[36:00] necessary that locally we can describe
+[36:04] whatever is by a linear ukidic
+[36:08] okay I wouldn't agree with the ukidian
+[36:10] but the idea is right the only thing I
+[36:13] meant is in with the picture with the
+[36:15] tangent space so it's the idea of a
+[36:18] topological manifold that locally its
+[36:21] point can be mapped in a continuous way
+[36:23] one to one uh uh to some RD but what I
+[36:28] meant by this embedding picture is that
+[36:29] you choose an R to the
+[36:32] 1,000 to look at a fivedimensional
+[36:35] manifold well you don't need to go that
+[36:37] high but say in order to look at an a
+[36:40] three-dimension manifold you might have
+[36:41] to go to R seven to embed it such that
+[36:44] what you get by the intrinsic
+[36:46] construction which only works with R3s
+[36:48] that you get it as the tangent spaces as
+[36:51] you would define them if you were in an
+[36:54] R seven so so that even that's even
+[36:57] worse that really goes to an ambient
+[36:58] space that lies around it whereas the
+[37:01] manifold definition just requires that
+[37:03] pieces of the manifold can go to an R to
+[37:06] the dimension of the manifold okay so so
+[37:08] that that that's the difference but it's
+[37:10] exactly the point of not looking at an
+[37:12] arbitrary topological space then for an
+[37:15] arbitrary topological space you don't
+[37:17] have charts in the first place so we
+[37:19] make a huge assumption we make we say
+[37:22] the whole universe or whatever you look
+[37:24] at the whole manifold locally it looks
+[37:27] like RD that's a massive assumption uh
+[37:30] and that's the assumption that spacetime
+[37:33] or space is a topological manifold yes
+[37:36] on the first line there the x
+[37:38] disappeared and I must admit that I I do
+[37:42] not see uh if we did the chain chain
+[37:45] rule
+[37:46] forward then x would Okay so you want me
+[37:49] to in insert one more line uh the chain
+[37:53] rule of just this bit backwards the
+[37:55] other bit works the same the chain of
+[37:57] just this bit backwards is f after x
+[38:01] inverse after x after gamma derivative
+[38:04] at um the point uh lambda
+[38:10] zero plus and then the same thing over
+[38:12] here and here okay it vanishes again and
+[38:17] then you get this and the same here it
+[38:20] does vanish it goes away very
+[38:22] importantly yes i was confused by the
+[38:25] proof of the first yes can you explain
+[38:29] in words why we didn't use over there
+[38:32] oh because Yeah okay so so so okay
+[38:35] picture picture for the proofs okay so
+[38:38] the first one went like this you have
+[38:39] the real world m and you have a curve in
+[38:43] there and um I indicate equal intervals
+[38:48] of the parameter until I arrive at this
+[38:51] point by well by equal by by by by these
+[38:54] lengths so every time this curve is
+[38:56] interrupted the parameter has increased
+[38:59] by
+[39:00] one now
+[39:02] um very
+[39:05] intuitively intuitively really
+[39:07] intuitively you may think of the
+[39:09] velocity as this little arrow in fact it
+[39:12] turns out in the real world you must not
+[39:15] think of an arrow but in the chart you
+[39:17] can nevertheless I now do this because
+[39:20] but I want you to think of this arrow as
+[39:23] the directional derivative in the
+[39:25] direction of this arrow okay because we
+[39:28] know that is what a vector is so this is
+[39:31] a bad bad picture but it's not so bad to
+[39:33] understanding the proof so this is what
+[39:35] we would draw normally now the idea was
+[39:38] if you want to draw
+[39:40] double if you want to produce double
+[39:44] this velocity you run just run through
+[39:48] the curve at double parameter velocity
+[39:53] like this and this is what the map
+[39:57] mu2 did well it was a mu alpha but what
+[40:01] the map mu2 did and the statement was
+[40:04] that the tangent to this first curve is
+[40:08] two times the tangent to the second
+[40:10] curve if I compose the first curve gamma
+[40:14] if I compose it after mu2 before it eats
+[40:18] the parameter it's doubled and then you
+[40:22] get a curve and for that you don't need
+[40:24] a chart to define it i could have pushed
+[40:26] it down in a chart too but that wouldn't
+[40:28] be economical because here so the the
+[40:30] multiples you get by just running
+[40:32] through the same curve faster but the
+[40:34] sum is a real beast because the sum up
+[40:37] here so you have two curves right in the
+[40:40] real world you first need to go down to
+[40:42] a chart so where the two curves look
+[40:45] like this and now you use the chart to
+[40:48] define the sum of the curves which might
+[40:50] look like this that's our sigma but the
+[40:53] bad thing is if I pull the sigma back
+[40:56] this is what we did well this is the
+[40:57] sigma down this is x of sigma x after
+[41:01] sigma right if you pull the curve sigma
+[41:04] up you might get say this in the real
+[41:07] world the problem is if you had taken
+[41:10] the same two initial curves gamma and
+[41:12] delta and you had pushed them into
+[41:15] another chart there they may have looked
+[41:17] like this you would have gotten the
+[41:20] sigma with respect to the other chart
+[41:22] the sigma y you would pull this sigma y
+[41:25] back to the real world and you would get
+[41:28] a curve through the same point or right
+[41:30] and would be a curve that looks maybe
+[41:32] like this it turns out that the tangent
+[41:36] is independent of the choice of chart at
+[41:38] this point but the curves are different
+[41:41] so the curve the sum of curves defined
+[41:44] via a chart is chart dependent but it's
+[41:47] chart dependent in just such a way that
+[41:49] the tangents at the point with this
+[41:52] subtracted in this way and blah blah
+[41:54] blah so that everything fits oh that
+[41:56] reproduces the same tangent vector so
+[41:58] it's independent of the choice of chart
+[42:01] the sum of curves is bad but its
+[42:03] derivative at the point of intersection
+[42:05] is good but in fact we only use it at
+[42:07] this point yes exactly and therefore
+[42:09] it's fine that's that's the idea but it
+[42:12] shouldn't mean that you can add these
+[42:14] curves because otherwise you could add
+[42:16] the trajectories of particles
+[42:18] represented in a chart and that would
+[42:20] amount to adding position vectors which
+[42:23] don't exist so this is yet another point
+[42:25] where if you think of position vectors
+[42:27] and then pointing at paths and so on you
+[42:30] could add them the addition is
+[42:31] meaningless yet another proof that
+[42:33] position where is the problem in
+[42:35] thinking of the sun in the same way as
+[42:38] we did here
+[42:40] you can't because um here you can
+[42:43] provide this by scaling the parameter
+[42:46] but the curves gamma and delta they land
+[42:50] here and if you want to define an uh a
+[42:54] hypothetical uh
+[42:58] addition you can't simply add the maps
+[43:02] because on the target you you couldn't
+[43:05] say you do this at lambda by taking
+[43:07] gamma at lambda and delta at
+[43:11] lambda because you would have to somehow
+[43:14] have an operation here that you want to
+[43:16] put but for instance a plus doesn't
+[43:19] exist because you don't have that
+[43:23] so at least in this way you can't do it
+[43:25] the point is you can't do it in any way
+[43:27] okay
+[43:29] so um so that's why you can't add them
+[43:31] again positions do not constitute a
+[43:33] vector space it's always the same thing
+[43:36] um this is yet another another example
+[43:38] of that all right good are there
+[43:41] questions so far
+[43:46] yes one more question about the first
+[43:48] sigma x you chose here yes so the smart
+[43:51] move is to choose it in a way that we
+[43:52] have different arguments lambda zero and
+[43:54] lambda and lambda one and so on that at
+[43:56] the end of the day we have again our two
+[43:58] derivatives with the two different
+[44:00] arguments which are not dependent on
+[44:01] lambda yes to say okay yes but since we
+[44:04] have x inverse applied to the whole
+[44:06] thing on the right hand side aren't we
+[44:08] charting dependent from the start no
+[44:11] because in this for in this definition
+[44:13] you can't take out the x you can take
+[44:16] out the x here x inverse after x is the
+[44:18] identity but x if the definition only
+[44:22] went up to this point of course you
+[44:24] could write gamma of lambda 0 plus
+[44:25] lambda but then you add in the chart and
+[44:29] this is not a linear map right and so
+[44:33] you cannot pull it
+[44:35] apart you can't okay that's the point
+[44:39] context sensitive plus that's the point
+[44:42] right a context yeah well it's it's a
+[44:45] plus on this RD I know you would have
+[44:48] just cut it oh yeah that then then it
+[44:51] would go out in the beginning in in but
+[44:53] then you wouldn't have p uh constructed
+[44:55] a sum
+[44:56] yet right that's right okay
+[45:01] good perfect excellent in
+[45:05] time okay please the blackboard yes
+[45:12] view yes repeat the question to repeat
+[45:14] the question yes thank you thank you so
+[45:16] here the question was um whether the x
+[45:19] doesn't go out already in the definition
+[45:21] the answer is no because the x inverse
+[45:23] is not a linear map thank you all
+[45:52] Yes you need to check all the other all
+[45:55] the actions for the vector space uh yes
+[45:58] in principle you do but it's always the
+[46:01] same construction of course you do and
+[46:03] you can do yourself but it's always the
+[46:05] same construction because we added maps
+[46:08] that whose target is R we inherit the
+[46:11] addition from R over there and almost
+[46:14] everything immediately comes from the
+[46:16] axums of the field R
+[46:20] um so that's K plus K times for R
+[46:23] without zero and the distributive law
+[46:25] and with them you inherit all the vector
+[46:27] space aums in a few steps so it's it's a
+[46:30] standard standard con construction but
+[46:32] you're right I have to to show that in
+[46:35] principle okay but so anything I do not
+[46:38] show you have my uh quality guarantee
+[46:40] it's
+[46:45] true okay so we have a notion of
+[46:48] velocities we have maybe this intuition
+[46:50] oh they survive as directional
+[46:52] derivatives and because I know how they
+[46:53] act on anything they could act on the
+[46:55] coordinate functions that would give
+[46:56] deltas and I could extract the
+[46:57] components again so so maybe you're
+[47:00] happy with this um but the point is it's
+[47:02] very useful to now go to a chart to take
+[47:05] the abstract notion of velocity which
+[47:08] will later on in physics correspond to
+[47:10] the velocity of a particle in the real
+[47:13] world so that's the physical the im our
+[47:16] picture mathematical object representing
+[47:19] the physical velocity of a thing fully
+[47:22] independent of any coordinate choice
+[47:26] okay fully independent of coordinate
+[47:28] choice and fully independent of a choice
+[47:30] of length so in order to con to to to
+[47:34] provoke uh contradiction but I I won't
+[47:37] defend it at the moment i will defend it
+[47:40] later the physical dimension of speed is
+[47:44] meters/s say okay we all agree and
+[47:47] that's right what is the physical
+[47:49] dimension of the components of a
+[47:52] velocity vector say well it's also
+[47:54] meters per second it isn't it's hertz
+[47:58] it's one over
+[48:01] second okay so this is just to provoke
+[48:03] you um you will learn and you'll in the
+[48:06] end say "Oh dear it's really true." But
+[48:08] that we'll only do after the lecture
+[48:10] next Wednesday and then you'll realize
+[48:13] where the missing meter is coming from
+[48:16] okay but it's an important point it's
+[48:18] important point and it also stalled
+[48:19] Einstein for many years not having
+[48:21] understood this first
+[48:23] okay so now let's do what you're all
+[48:27] longing for you want to reconcile this
+[48:30] abstract notion of velocity in the real
+[48:32] world with components so
+[48:36] components of a
+[48:39] vector with respect to a
+[48:43] chart and we learn much more than about
+[48:46] the components because if you have
+[48:47] components of a vector you need to know
+[48:50] about the basis so what is the basis of
+[48:53] the tangent spaces or of a tangent space
+[48:56] because in this lecture we pick a point
+[48:59] P and we'll stay
+[49:01] solidly within one tangent space and
+[49:04] only the lecture after this one will
+[49:06] then look at all the tangent spaces
+[49:08] together and consider vector fields and
+[49:09] so on so anyway components of a vector
+[49:12] with respect to a chart
+[49:16] definition let
+[49:19] ux be a chart in the smooth manifold of
+[49:22] the smooth underlying manifold we have
+[49:27] here and let gamma be a curve from r
+[49:33] well from r into u into m but it should
+[49:36] hit
+[49:37] uh if this is the u uh the curve should
+[49:40] hit the point p and it better lie in the
+[49:42] chart we're looking at okay let be gamma
+[49:45] thus be the portion of a curve that lies
+[49:48] in U and then we can and let's also
+[49:51] assume gamma of zero for simplicity hits
+[49:54] the point P can all assume all of that
+[49:58] now we
+[50:00] calculate we calculate we start with
+[50:02] just the
+[50:03] vector tangent to the velocity of the
+[50:06] curve gamma in the point P we just start
+[50:09] with that what is that well in order to
+[50:11] really understand it we need to let it
+[50:13] act on an arbitrary
+[50:14] function it is f after gamma derivative
+[50:19] at the point zero that's what it is
+[50:21] directional derivative now we insert our
+[50:24] chart just for fun in order to get it
+[50:26] into the game we have this at zero we
+[50:30] rebracket like this you see it's always
+[50:32] the same calculation that's why one can
+[50:33] do them and here you have from RD to R a
+[50:37] map and here you have a map from R to RD
+[50:41] or always portions of RD now we do the
+[50:44] chain rule as before but now let's look
+[50:46] at another aspect i take X after gamma
+[50:50] the I component then I take the
+[50:53] derivative at position zero that's the
+[50:56] inner derivative now I take the outer
+[50:58] derivative that's the derivative with
+[51:01] respect to the i direction there's the
+[51:03] summation of f after x inverse and
+[51:07] that's evaluated at x of gamma of zero
+[51:10] that's evaluated at x of
+[51:13] p now this expression and this
+[51:16] expression will appear again and again
+[51:19] and again and remember this is a
+[51:23] function here is a function from RD to R
+[51:26] and in the tutorials learned that the
+[51:28] partial derivative we will not write d
+[51:31] by dx or something like this because all
+[51:33] you need to know to take the partial
+[51:35] derivative is you need to know with
+[51:37] respect to which entry do you derive it
+[51:40] has nothing to do with how you will
+[51:42] after you derived name the
+[51:46] entries it's enough it's it's the um
+[51:50] equivalent of in
+[51:52] uh analysis you have a function from R
+[51:54] to R so this is analysis undergraded
+[51:58] analysis the derivative of F is denoted
+[52:01] FP prime and it's again a function and
+[52:04] you may evaluate frime of X or you may
+[52:06] evaluate frime of Y that doesn't make a
+[52:09] difference the derivative is called FP
+[52:11] prime it would be very silly to say oh
+[52:14] only because I give a certain
+[52:16] prescription like this therefore I
+[52:18] should write the derivative as df by dx
+[52:21] because the abstract notion of
+[52:22] derivative has nothing to do whether I
+[52:24] defined this by x or defined this by
+[52:26] alpha right so this bad notation we're
+[52:29] not going to use we say with respect to
+[52:31] the
+[52:32] derivative now however here in this
+[52:36] expression and now you okay I need many
+[52:39] colors now in this expression uh let's
+[52:43] first take the expression over here so
+[52:45] after the multiplication sign this
+[52:47] expression here has many elements in it
+[52:51] and it's very cumbersome to
+[52:53] write and we write it
+[52:56] differently we write it dell because
+[52:59] there's a dell in
+[53:02] it we write by dell well there's still a
+[53:06] dell in it this x here now you need to
+[53:09] be very observant there's an X here and
+[53:12] there's an X here and in order to
+[53:15] remember that it's an X and not a Y we
+[53:17] put a X
+[53:19] here now there is an I down
+[53:23] here this I has nothing to do with the X
+[53:27] nothing nevertheless we put it up here x
+[53:30] I okay this is just notation that's the
+[53:33] point and there is an F here that's the
+[53:36] blue F great it's the blue F we put the
+[53:39] blue F here we still haven't taken care
+[53:42] of the P well we put brackets around it
+[53:46] and we put the little P running out of
+[53:49] colors uh we're putting the little P
+[53:52] down
+[53:53] here that's our notation for this and
+[53:56] you say "Oh partial
+[53:58] derivative." No no because of course
+[54:03] it's designed to make you look to look
+[54:05] like this because later on you can prove
+[54:07] that this object satisfies all the rules
+[54:09] you would like this guy to have if you
+[54:11] don't know anything about the background
+[54:13] right so this makes the R accessible to
+[54:15] the masses uh but but
+[54:19] the but but the point is it's very
+[54:21] important to to realize this point the
+[54:24] function
+[54:25] f here is a function from m to the real
+[54:30] numbers or rather from u to the real
+[54:32] numbers because we're depending on this
+[54:35] chart um so whenever you see this symbol
+[54:40] don't be deceived by its simplicity you
+[54:42] immediately need to translate it into
+[54:45] this no alternative to that okay now
+[54:48] here we do something similar uh but this
+[54:51] is just for fun to make it look even
+[54:53] more normal um this is the chart
+[54:56] representative of the curve gamma with
+[54:58] respect to x and the i component of it
+[55:03] which after I took the i component I
+[55:06] derive and I evaluate at the point zero
+[55:10] and because we already used here some
+[55:12] funny notation I take the freedom to put
+[55:15] it here as a dot with respect to the
+[55:18] parameter it's just for fun uh so I can
+[55:21] define this here as well okay so what do
+[55:24] We have we have that the velocity to a
+[55:27] curve gamma in the point P as it acts on
+[55:30] F equals the chart representative of the
+[55:34] curve with respect to the chart X that I
+[55:36] chose the I component of it so this is
+[55:40] what the undergraduate idea of a
+[55:42] position of a curve is and you take the
+[55:45] derivative at the point you're
+[55:47] interested in a parameter value zero
+[55:49] because you're interested in the point P
+[55:52] times the well you may be tempted to say
+[55:55] this is the directional derivative
+[55:58] operator and you let the whole thing act
+[56:00] on the f and that's what I wrote down
+[56:03] very much in the beginning you have a
+[56:05] notion of components of vector you dot
+[56:08] them into partial derivatives and that
+[56:10] acts on the function only that the
+[56:13] function we are dealing with is not a
+[56:14] function on the chart the function here
+[56:17] is a smooth function
+[56:18] on the
+[56:19] manifold okay so however we have this uh
+[56:24] we and it's tradition to delete these
+[56:27] brackets to say a vector acts on
+[56:29] whatever is behind it it's tradition uh
+[56:33] because then it's even simpler to look
+[56:35] at just this bit of the equation and
+[56:38] this
+[56:40] bit because this is true for all f in C
+[56:44] infinity m so as
+[56:47] maps as a map which is which this object
+[56:52] is it's equal to if you use a chart
+[56:56] under use of chart you can understand
+[56:59] the vector as what you would normally
+[57:02] say are its components and how you
+[57:04] calculate this you derive the components
+[57:07] but because it's a vector it doesn't
+[57:09] only have components it also has a
+[57:13] basis and obviously Quite obviously if
+[57:16] these are called the components of the
+[57:18] vector which we will say these are the
+[57:21] components of the
+[57:24] velocity V gamma P then this guy here
+[57:29] these must be the basis
+[57:31] elements basis elements of well of the
+[57:35] space in which this guy lives where does
+[57:38] it live it live in the tang lives in the
+[57:40] tangent space these must be the basis
+[57:43] elements of the
+[57:45] TPM with respect to
+[57:49] which the
+[57:53] components need to be
+[57:59] understood right if I talk about
+[58:01] components of a vector I need a basis
+[58:02] for the vector now here what we have is
+[58:06] the so-called chart
+[58:09] induced
+[58:12] basis
+[58:14] of
+[58:15] TPM choice of a chart
+[58:19] X gives you a choice of bases in the
+[58:24] tangent space but of course it's fully
+[58:26] irrelevant what chart you choose you
+[58:28] could have chosen a different chart
+[58:30] would give you a different basis in the
+[58:33] tangent space okay so um now for
+[58:43] pictures in the real
+[58:46] world which might just look like this
+[58:50] you may have a vector here that looks
+[58:52] like this you may in another tangent
+[58:54] space have a vector like this another
+[58:56] like this and another like this and so
+[58:58] on okay a feel like that
+[59:04] um it's good I didn't do it rotating to
+[59:06] the right maybe uh well so the point is
+[59:11] you can map this down to a chart well
+[59:14] first of all what you map to the chart
+[59:16] to the
+[59:19] R2 is the points you know you have a a U
+[59:24] here and each point goes to a point here
+[59:27] via a chart map X
+[59:31] right but now imagine that the way I do
+[59:35] this is that if I pull this coordinate
+[59:38] net backwards by X
+[59:40] inverse I would get
+[59:45] this okay this is now going bad okay I
+[59:48] need to first draw the the net and
+[59:54] then I could have chosen polar
+[59:57] coordinates which means this net is
+[59:59] mapped to this apart from some slits and
+[1:00:02] so on and uh you have your your vectors
+[1:00:05] here attached like
+[1:00:08] this now what you can do you can of
+[1:00:12] course the circle up here the points
+[1:00:18] These points here are of course simply
+[1:00:20] this in a polar coordinate system right
+[1:00:23] if you think of this x2 as the phi and
+[1:00:27] of this x1 as the r it's the generalized
+[1:00:29] coordinates of classical mechanics it
+[1:00:31] looks like this so what do you guess are
+[1:00:34] the components of these vectors at the
+[1:00:38] various points well there will be
+[1:00:41] something like
+[1:00:44] this drawn into if you now take the idea
+[1:00:47] okay you have these components one uh uh
+[1:00:50] 0 1 0 1 0 1 all the time and then you
+[1:00:54] draw them at the respective base point
+[1:00:56] this one here and this one here and so
+[1:00:59] on and then you see yes your vectors are
+[1:01:03] associated with components but in the
+[1:01:06] chart it can look dramatically different
+[1:01:09] from the world if you wish and depends
+[1:01:11] on the chart clearly if you now make a
+[1:01:14] so-called cartisian coordinate system of
+[1:01:16] the same situation in the real world so
+[1:01:18] this is a bird flying in a circle that's
+[1:01:20] an objective reality but in a polar
+[1:01:23] coordinate chart it runs like this would
+[1:01:25] you say it runs along a straight line in
+[1:01:27] reality no it doesn't right but in this
+[1:01:29] chart it looks like that so you see the
+[1:01:32] components of vectors heavily depend on
+[1:01:34] the chart and in principle drawing them
+[1:01:37] up here is a bad idea you should only
+[1:01:39] always draw them down
+[1:01:41] here okay but nevertheless there is a
+[1:01:44] velocity that the bird has here and
+[1:01:45] there's a velocity but in this chart it
+[1:01:47] looks like this okay so uh that is this
+[1:01:53] um number
+[1:01:57] four is uh the chart induced
+[1:02:03] basis and I already mentioned it so you
+[1:02:06] have the
+[1:02:07] definition if
+[1:02:09] ux is a chart in the smooth atlas
+[1:02:15] uh
+[1:02:15] then d by
+[1:02:18] dx1 at the point p dot dot dot dot d to
+[1:02:23] dxd at the point p these are all
+[1:02:27] elements of tpm because they're the
+[1:02:30] corresponding maps right and they
+[1:02:35] constitute a
+[1:02:38] basis of
+[1:02:41] TPM okay so we already saw they generate
+[1:02:44] TPM because I can represent every vector
+[1:02:48] in that basis uh it remains to show
+[1:02:52] proof so it's not a definition it's a
+[1:02:54] theorem well of the easy type uh prove
+[1:02:57] it remains to be shown that they're
+[1:03:00] linearly
+[1:03:02] independent how do we do this well we
+[1:03:05] need to take the
+[1:03:06] vectors and I may call them vectors
+[1:03:09] because they lie in the tangent vector
+[1:03:10] space we take these guys and we multiply
+[1:03:14] them with lambdas and take the sum and
+[1:03:16] require this be zero and we need to be
+[1:03:20] able to show that therefore all the
+[1:03:21] lambdas are zero that's linear
+[1:03:23] independence but that's simple because I
+[1:03:25] simply apply the whole
+[1:03:28] thing to the J coordinate
+[1:03:33] function and in the tutorials you
+[1:03:36] learned that the J coordinate function
+[1:03:40] okay I'm sorry I said constitutes a
+[1:03:42] basis of TPM it only constitutes a basis
+[1:03:46] of the TPS that attached to the chart
+[1:03:49] domain right only in this area
+[1:03:53] um and uh we learned in the tutorials
+[1:03:56] that the chart maps that go from the
+[1:03:58] coordinate maps that go from U to R that
+[1:04:01] they're differentiable with respect to
+[1:04:04] the maps in this atlas to the charts in
+[1:04:07] this atlas right so we are allowed to
+[1:04:10] apply it here because it's a function
+[1:04:12] from U to R and now comes we would say
+[1:04:15] oh dxj by dxi that must be a delta j
+[1:04:21] well I told you whenever you see the
+[1:04:23] symbol you need to reconstruct what it
+[1:04:26] really means so let's do that so let's
+[1:04:29] do it up here it's better can see this
+[1:04:31] better so this means Yep i did not get
+[1:04:35] why TPM and TPU are different
+[1:04:39] tpu is just an area so you have the uh
+[1:04:42] the whole world you have the domain U in
+[1:04:45] the domain u
+[1:04:49] uh your chart is
+[1:04:51] valid and um all we use the chart map
+[1:04:55] and so you can only uh intuitively
+[1:04:59] speaking this is the basis you have in
+[1:05:01] the real world but I shouldn't draw it
+[1:05:02] as arrows but this only works in the
+[1:05:05] domain u and generally we'll come to
+[1:05:07] that you can next lecture you cannot ex
+[1:05:10] you cannot generally for any manifold
+[1:05:13] you cannot for every manifold
+[1:05:15] find a global chart in the first place
+[1:05:17] but even if you can cover it by global
+[1:05:19] charts you might not be able to find a
+[1:05:21] global coordinate induced um uh a basis
+[1:05:25] of the basis field
+[1:05:28] you're doing you're varying the P within
+[1:05:32] the No no no no i I said so the
+[1:05:34] statement is for any point in P okay for
+[1:05:39] any point in U
+[1:05:41] right so so this is always the
+[1:05:43] assumption that the chart contains the
+[1:05:46] point P i I should always emphasize this
+[1:05:49] so the point P must always lie in the
+[1:05:50] chart or rather the chart must be a
+[1:05:53] neighborhood for the point okay so I
+[1:05:56] apply this here so what is the
+[1:05:58] definition of this symbol it means take
+[1:06:02] the dell i compare i think it's still
+[1:06:04] down there take the the i and put it
+[1:06:06] down in the dell then take the function
+[1:06:09] you're acting on that's XJ do it after X
+[1:06:13] inverse after X inverse and evaluate at
+[1:06:16] X of the point P that's down here i just
+[1:06:20] did this blindly this is just
+[1:06:24] this by
+[1:06:26] definition
+[1:06:28] okay right but now you see ah that's
+[1:06:31] very simple this is XJ after X inverse
+[1:06:36] what does that do that goes from RD to R
+[1:06:39] and takes the
+[1:06:40] pupil alpha 1 to alpha D which is an
+[1:06:43] element of R it takes it to the alpha J
+[1:06:47] to the J
+[1:06:49] component right but doing that and
+[1:06:52] deriving it with respect to the I
+[1:06:54] component gives a one if I equals
+[1:06:57] J and so there's the sum here and this
+[1:07:00] is the delta symbol I introduced and
+[1:07:03] this is lambda J ah
+[1:07:06] um but we start with the assumption that
+[1:07:08] this object is already zero so applying
+[1:07:11] this to this yields you that all the
+[1:07:14] j are zero that means these guys are
+[1:07:17] really linearly independent
+[1:07:21] so indeed uh this constitutes a
+[1:07:26] basis and the corollary of
+[1:07:33] that is that the dimension of
+[1:07:37] TPM is of course D because you have D
+[1:07:41] basis
+[1:07:42] vectors but D ultimately came from the
+[1:07:46] fact that you have D coordinate maps so
+[1:07:49] the dimension the vector space dimension
+[1:07:52] is d and the manifold dimension which is
+[1:07:56] a very different concept is also d so
+[1:07:59] the vector the tangent space at each
+[1:08:01] point has the dimension of the manifold
+[1:08:03] well that's quite intuitive but one is a
+[1:08:05] vector space dimension and the other one
+[1:08:07] is a topological manifold dimension
+[1:08:12] yes but shouldn't it be TPU all over the
+[1:08:14] place in the right box uh well
+[1:08:18] uh this is right but it remains right if
+[1:08:23] I do this okay but you're right
+[1:08:25] constitute a basis of um of TPU is
+[1:08:29] certainly right tpm would be wrong
+[1:08:31] because not for every point p and m okay
+[1:08:34] um that's it yeah
+[1:08:37] um yes but here you I would argue I did
+[1:08:40] this now for one point but there I have
+[1:08:43] a neighborhood I can do it for another
+[1:08:45] point because it covers I know
+[1:08:46] everywhere thank you that completes the
+[1:08:48] proof
+[1:08:51] yes
+[1:08:53] okay so um time is almost up five more
+[1:08:57] minutes i ask to bear with me for maybe
+[1:09:00] 15 minutes and then I don't need to rush
+[1:09:02] through it is that all right and then
+[1:09:03] maybe we we shift again because then we
+[1:09:05] get this important topic covered yes
+[1:09:12] okay
+[1:09:19] so next topic is change of vector
+[1:09:22] components under a change of chart
+[1:09:44] now in the older literature on
+[1:09:47] differential geometry statements of the
+[1:09:49] following type are to be found tensors
+[1:09:53] transform under a change of coordinate
+[1:09:55] systems as follows a vector transforms
+[1:09:58] as follows well most precisely it must
+[1:10:01] say vector components transform as
+[1:10:04] follows because the vector is an
+[1:10:06] abstract object it's the velocity of the
+[1:10:09] bird at that point of time no change in
+[1:10:12] your thinking about the coordinate
+[1:10:13] system will change the velocity the
+[1:10:16] velocity is the velocity in the real
+[1:10:18] world but if you think of the components
+[1:10:21] of the velocity in a particular chart
+[1:10:23] and you change to another chart for the
+[1:10:25] same velocity of course the components
+[1:10:28] will change there's something different
+[1:10:30] so therefore it is to be said change of
+[1:10:33] vector
+[1:10:34] components under a change of chart not
+[1:10:37] change of vector so I
+[1:10:40] emphasize
+[1:10:42] vector or tangent vector does not change
+[1:10:49] under change of
+[1:10:53] chart simply because it's defined
+[1:10:55] independently of chart how would it
+[1:10:57] change under a change of chart so uh
+[1:11:00] let's see how that works
+[1:11:04] let aha um I should have maybe added uh
+[1:11:09] some terminology here i'm sorry
+[1:11:17] terminology if X is an element of
+[1:11:21] TPM then you know two things the first
+[1:11:25] thing you know is that there always
+[1:11:28] exists a curve gamma such that so gamma
+[1:11:33] curve such that X is the velocity of
+[1:11:37] some curve to that point through that
+[1:11:40] point P if X lies in TPM so I pick an
+[1:11:44] arbitrary element of X from TPM and I
+[1:11:46] will in the future not always make
+[1:11:48] explicit the curve it comes from in fact
+[1:11:51] it doesn't come from the curve
+[1:11:53] because these two curves give the same
+[1:11:57] vector right um so therefore we'll talk
+[1:12:00] about this abstractly and um that's the
+[1:12:02] first thing we sometimes need and it
+[1:12:05] always arises like that by definition of
+[1:12:07] TPM and the second thing you know is
+[1:12:10] because it's a vector space you can
+[1:12:12] always find so they
+[1:12:15] exist x1 to x d which are all numbers in
+[1:12:22] the real real numbers such that x can be
+[1:12:25] written as a linear combination x
+[1:12:28] I D by D X I P if you have a chart but
+[1:12:36] you can also quite independently of
+[1:12:38] chart induced coordinates you could
+[1:12:40] choose because it's a vector space just
+[1:12:42] any basis in it wouldn't then come from
+[1:12:44] a chart but it would nevertheless be a
+[1:12:46] basis and you expand in components and
+[1:12:48] the X I are called the components of
+[1:12:50] this with respect to the chosen basis
+[1:12:53] and the basis may come or you may induce
+[1:12:56] it from a chart or use it at a point you
+[1:12:59] define just like this because you say I
+[1:13:00] like these three vectors to be the basis
+[1:13:02] you can do this okay you don't need to
+[1:13:05] come from a chart but if you have chosen
+[1:13:08] a chart
+[1:13:10] anyway why not because you already
+[1:13:13] committed the sin right so then you
+[1:13:17] better enjoy
+[1:13:20] it
+[1:13:21] good so change of vector components so
+[1:13:25] now in order to consider the change of
+[1:13:27] chart let's do this following let
+[1:13:31] um um u
+[1:13:34] x and y v y be charts but let them be
+[1:13:41] overlapping
+[1:13:46] charts and take a point p from their
+[1:13:52] intersection okay
+[1:13:54] now um
+[1:13:57] let x be an element in the tangent space
+[1:14:01] of this if this
+[1:14:05] intersection then we know that we can
+[1:14:08] write with respect to the chart
+[1:14:12] ux using that we can write this as x i
+[1:14:18] components d by
+[1:14:21] dxi p because that's the basis is and in
+[1:14:25] order to indicate that these are the
+[1:14:26] components with respect to the basis
+[1:14:28] from this chart we mark the components
+[1:14:31] by a little x down here but now of
+[1:14:34] course fully independently you can
+[1:14:36] choose the chart VY because the point P
+[1:14:40] is in both is in the overlap region and
+[1:14:43] you can choose different or you must
+[1:14:45] generically use
+[1:14:48] different
+[1:14:50] components with respect to the different
+[1:14:54] bases all right and the question is how
+[1:14:58] are these components related to those
+[1:15:01] components and you know there is a
+[1:15:04] relation because the abstract object in
+[1:15:07] the middle is invariant under this um
+[1:15:10] and and now we we look how this goes um
+[1:15:13] well let's simply start with this object
+[1:15:15] so in order to study
+[1:15:19] uh change of
+[1:15:20] components change of components formula
+[1:15:24] or to derive it um consider the
+[1:15:27] following we take d by
+[1:15:31] dxi at the point p and we try to
+[1:15:34] reformulate it as this
+[1:15:36] guy we know it's a map so we best
+[1:15:39] understand it if we apply it to what it
+[1:15:41] acts on namely a function and what now
+[1:15:44] well you see this symbol you know it
+[1:15:46] looks very deceptively simple but you
+[1:15:49] have to translate it you let the i jump
+[1:15:52] here you take the f here you take after
+[1:15:54] the x that's here as the full map
+[1:15:56] inverse and you evaluate at the point x
+[1:15:58] of p you need to be able to do this back
+[1:16:00] and forth in your
+[1:16:02] sleep that's what the wicket is good for
+[1:16:05] so you you have this and now of course
+[1:16:07] we want to consider a change of chart so
+[1:16:10] if you want to relate this x to this y
+[1:16:13] we better have it somewhere so we insert
+[1:16:16] it as an identity at this
+[1:16:20] point right nothing happened right we
+[1:16:24] just inserted the identity we use the
+[1:16:26] associativity of the composition and we
+[1:16:29] rebracket now things are simpler again
+[1:16:31] because this is from RD to R some
+[1:16:34] portion of RD to R and this is from RD
+[1:16:37] to RD and by the way it's an old
+[1:16:39] acquaintance is a chart transition map
+[1:16:42] however it comes here
+[1:16:44] derived so we execute the
+[1:16:48] multi-dimensional chain rule the inner
+[1:16:50] derivative is del i acting on y after x
+[1:16:56] inverse but this lands in RD so it has a
+[1:16:59] j component and it's evaluated at x of p
+[1:17:04] times now comes the outer derivative
+[1:17:07] it's this guy which is derived according
+[1:17:10] to the multi-dimensional chain rule like
+[1:17:12] this and summed over these results of f
+[1:17:16] after y inverse and after you calculate
+[1:17:19] this you evaluate at this at y after x
+[1:17:22] inverse of x of p is y of p you evaluate
+[1:17:25] at y of p okay and now you stare at this
+[1:17:29] for a little moment and you say "Oh
+[1:17:32] that's nice because
+[1:17:35] um the i derivative of the j component
+[1:17:38] of this this j comes because the y lands
+[1:17:43] in RD so you could have also taken the
+[1:17:46] coordinate function instead of the full
+[1:17:48] coordinate the full chart map and then
+[1:17:50] the J component is of course the J comp
+[1:17:53] coordinate function so but this is a
+[1:17:56] coordinate function so you have del I of
+[1:17:58] a function after X inverse X of P oh we
+[1:18:00] know this guy this is del Y is it a J
+[1:18:04] it's a J component with respect to the
+[1:18:07] DXI down P for this object we can also
+[1:18:10] use our
+[1:18:11] symbol and now you look at this you say
+[1:18:14] "Oh F after Y inverse J D." Ah this is
+[1:18:18] also our symbol this is DF but now with
+[1:18:20] a Y instead of an
+[1:18:22] X J so this is a J and this is an I at
+[1:18:27] the point P because that's what the
+[1:18:30] symbol is ah and where is this guy here
+[1:18:34] well that's a real number
+[1:18:37] and so you have here a
+[1:18:40] sum that goes like this over that and
+[1:18:46] um so here you had this symbol here you
+[1:18:49] have the f you can consider the hole as
+[1:18:52] an operator that acts on this okay and
+[1:18:56] so what did we find we found that this
+[1:18:59] guy
+[1:19:00] here because this is true for all f
+[1:19:04] didn't make any assumptions on the f is
+[1:19:06] the
+[1:19:08] same as this
+[1:19:10] guy
+[1:19:12] here
+[1:19:13] okay so uh let's insert this into
+[1:19:20] here therefore insertion into that
+[1:19:22] yields you
+[1:19:25] um how do we do that
+[1:19:27] okay uh x x x i component and for future
+[1:19:33] use let's make this a j component from
+[1:19:35] the beginning i just renamed the summing
+[1:19:38] index x i with respect to x of the d by
+[1:19:43] dxi but the d by dxi I reformulated like
+[1:19:46] this dy J by
+[1:19:50] DXI at the point P times D by
+[1:19:55] DY J at the point P equals and then I
+[1:20:00] just copy the left hand side is
+[1:20:03] XJ with respect to the Y system D by D
+[1:20:08] YJ at the point P aha but because these
+[1:20:13] are a basis I can be diff um take this
+[1:20:17] to the other side i factor out the basis
+[1:20:21] i have numbers times the basis is zero i
+[1:20:24] know the numbers are zero or
+[1:20:27] uh written like this is the J component
+[1:20:30] in the Y system is
+[1:20:34] the constructed from the I component in
+[1:20:38] the X system by multiplying with YJ by
+[1:20:43] DXi at the point P and the construct
+[1:20:46] contractions over this and this is
+[1:20:49] called this is the formula you find in
+[1:20:51] books
+[1:20:55] it says if the x i are the components of
+[1:20:58] the vector in the x indices in the basis
+[1:21:01] with respect to the x chart then the
+[1:21:04] very same vector the same abstract
+[1:21:07] object the same physical vector if you
+[1:21:10] wish as
+[1:21:11] physicists has in the y chart components
+[1:21:14] that you get by calculating these
+[1:21:18] numbers at the point
+[1:21:20] P now your change of coordinates can be
+[1:21:25] wildly nonlinear on your manifold wildly
+[1:21:28] nonlinear but now you go to one point
+[1:21:31] and you look at the components of a
+[1:21:33] vector with respect to the original
+[1:21:35] chart and because you evaluate this
+[1:21:39] widely nonlinear dependence of y and x
+[1:21:41] and stuff like this uh you evaluate this
+[1:21:44] at this one point you just get a scheme
+[1:21:46] of numbers one might say a matrix which
+[1:21:50] you one might say matrix multiply into
+[1:21:52] this column vector right but we don't
+[1:21:55] want to use the terminology you you cons
+[1:21:57] you construct the sum this is at a point
+[1:22:00] for a given change of chart from one
+[1:22:02] chart to the other chart at that point
+[1:22:04] it uses a constant matrix which is the
+[1:22:07] matrix that takes the components of the
+[1:22:10] vector in one system to the components
+[1:22:12] of them in another system so we have a
+[1:22:14] vector space and it's acted on at each
+[1:22:17] point by linear by a linear map by a
+[1:22:20] constant linear map which only acts
+[1:22:22] depends on the change of of uh of chart
+[1:22:26] although the global chart transformation
+[1:22:28] is wildly
+[1:22:29] nonlinear now what you do in special
+[1:22:32] relativity let me tell you you talk
+[1:22:34] about Minkovski vector space so doesn't
+[1:22:38] that fly in the face of everything I
+[1:22:40] said because Minkovski vector space as
+[1:22:42] the points in spacetime is a vector
+[1:22:45] space right the x mus and stuff like
+[1:22:47] this yes it flies in the face of
+[1:22:49] everything and you shouldn't say that
+[1:22:52] minkovski space the position the
+[1:22:54] space-time points in special relativity
+[1:22:57] everything is flat is not a vector space
+[1:22:59] either now you say well but the formulas
+[1:23:03] work yes they work because you
+[1:23:05] artificially restrict self to changing
+[1:23:08] from one coordinate system to another
+[1:23:09] one by linear transformations which you
+[1:23:12] further restrict to be Laurens
+[1:23:13] transformations and this sounds like a
+[1:23:16] good idea well it's a good idea for the
+[1:23:18] individual velocity vectors velocities
+[1:23:22] transform under Laurens transformations
+[1:23:24] in each point of the flat tangent space
+[1:23:27] by a linear
+[1:23:28] map now but that doesn't mean that I mix
+[1:23:32] the points on the space only by linear
+[1:23:35] maps I want to be able to do special
+[1:23:38] relativity in polar coordinates if I
+[1:23:41] wish so you can still do it you can
+[1:23:44] change from cartisian coordinates to
+[1:23:46] polar coordinates and in the velocity
+[1:23:49] tangent spaces it will induce indeed
+[1:23:52] linear maps and if you say observer
+[1:23:54] velocities should stay observer
+[1:23:56] velocities you can think about what you
+[1:23:58] have to
+[1:24:00] require but not in position space it's
+[1:24:04] an over
+[1:24:05] structuralization to equip the position
+[1:24:08] space of special relativity with a
+[1:24:10] vector space structure because you then
+[1:24:13] transform also position vectors with
+[1:24:15] Lawrence transformations which is why do
+[1:24:18] you restrict yourself like this in the
+[1:24:20] tangent spaces it makes a lot of sense
+[1:24:23] okay so that's the that's the statement
+[1:24:25] here okay so um we have this so there is
+[1:24:29] one more thing I would like to mention
+[1:24:32] and that's um co-angent
+[1:24:41] spaces and now it pays off what we did
+[1:24:44] yesterday so at a point you have a
+[1:24:46] tangent space TPM but this tangent space
+[1:24:50] is just a vector space with the
+[1:24:52] operations we defined so of course it's
+[1:24:55] quite trivial to consider the tangent
+[1:24:59] space which is a vector space and to
+[1:25:02] consider its dual so you consider all
+[1:25:06] the linear maps from TPM into the real
+[1:25:10] numbers so we're still at this point but
+[1:25:12] now we look at the dual space so very
+[1:25:15] simple and straightforward construction
+[1:25:18] now the point is simple and
+[1:25:19] straightforward but are there any
+[1:25:21] objects we're interested in that lie in
+[1:25:23] it yes there are imagine you have on
+[1:25:26] your manifold a smooth function say a
+[1:25:29] temperature
+[1:25:30] distribution then you can define the
+[1:25:33] following object D
+[1:25:37] um DF at a point P so we take a point P
+[1:25:42] uh and you define this uh as the map
+[1:25:45] that takes a tangent vector at P and
+[1:25:49] maps it linearly to the real numbers by
+[1:25:52] virtue of sending the vector to DF at
+[1:25:56] the point P of the vector and this is
+[1:25:59] defined as simply the action of the
+[1:26:02] tangent vector at that point to the
+[1:26:04] function
+[1:26:06] so you say okay this we knew how to
+[1:26:08] write down before this this directional
+[1:26:11] derivative why on earth do you want to
+[1:26:14] introduce this complicated notation well
+[1:26:17] we wrote this action x on f this way as
+[1:26:21] a map from the x space the space where
+[1:26:24] the x's are linear map to r that means
+[1:26:28] that this df at p is an element of the
+[1:26:32] co-angent space
+[1:26:36] and what is this well this is the
+[1:26:39] gradient of f so df subp is called the
+[1:26:48] gradient of f at the point p and you do
+[1:26:54] not need any charts to define the
+[1:26:57] gradient
+[1:27:01] now we can calculate the components of
+[1:27:03] the
+[1:27:09] gradient and you remember how you get
+[1:27:12] the components of a tensor it's a it's a
+[1:27:15] 01 tensor right it's a 01 tensor over
+[1:27:20] TPM right in our terminology from last
+[1:27:23] time 01 tensor over the underlying
+[1:27:27] vector space which happens to be TPM in
+[1:27:30] this
+[1:27:31] construction so the gradient is a 01
+[1:27:34] tensor or a co- vector and calculate the
+[1:27:37] components how do you get the components
+[1:27:39] of a 01 tensor well you write down the
+[1:27:42] tensor
+[1:27:44] abstractly and if it's a 01 tensor it
+[1:27:47] has one index down
+[1:27:50] how are the components defined well you
+[1:27:53] take the abstract tensor and you plug in
+[1:27:56] the
+[1:27:57] basis with respect to which you wish to
+[1:28:00] get the components well a 01 tensor eats
+[1:28:04] one copy of the vector space an element
+[1:28:07] of a copy of the vector space and say we
+[1:28:09] want to do this components of the
+[1:28:11] gradient with respect to the chart
+[1:28:14] induced
+[1:28:16] basis for the chart ux why not so we
+[1:28:20] plug this in so what is this this is the
+[1:28:23] J basis vector and that was this
+[1:28:28] object let's calculate this well this
+[1:28:31] applied to this vector is actually the
+[1:28:33] vector applied to the f d by d
+[1:28:37] xj of the fp ah there we got it now it
+[1:28:42] looks deceptively like what you would do
+[1:28:44] you say you take the partial derivative
+[1:28:46] in the j direction you know that you
+[1:28:49] need to translate the symbol into del J
+[1:28:53] f after x inverse and evaluate at the
+[1:28:56] point x of p and this you can calculate
+[1:28:58] by undergraduate analysis and because
+[1:29:00] you evaluate at the point you get a
+[1:29:02] number for each j these are the
+[1:29:05] components of the gradient and the
+[1:29:07] gradient components are co-
+[1:29:10] vectors the gradient of a field of a
+[1:29:14] function is not a vector the gradient of
+[1:29:17] a function is a co- vector there's
+[1:29:19] nothing to be done about it it's a co-
+[1:29:22] vector it for instance under a change of
+[1:29:25] chart these components transform
+[1:29:28] differently than the components that
+[1:29:30] have an index up so the final thing I
+[1:29:34] write down is
+[1:29:37] the change of components i won't prove
+[1:29:39] it because you believe it works exactly
+[1:29:42] like for the vectors change of
+[1:29:46] components of a co-
+[1:29:50] vector under a change of
+[1:29:59] chart and again the same applies it's a
+[1:30:02] change of components the co- vector
+[1:30:04] remains the co- vector maybe I emphasize
+[1:30:06] this so if this is an element of TP M
+[1:30:10] star
+[1:30:12] um And you see the star is here and it's
+[1:30:16] tradition to write it there so don't be
+[1:30:18] confused it means nothing different so
+[1:30:20] if this omega is in TPM star it can be
+[1:30:24] written ah I forgot something important
+[1:30:27] i'm sorry i'm
+[1:30:28] sorry uh let me put this here
+[1:30:32] um
+[1:30:34] theorem theorem I want to give you a
+[1:30:37] coordinate a chart induced basis for the
+[1:30:40] cotangent space theorem
+[1:30:43] uh
+[1:30:45] consider a chart
+[1:30:48] ux that means you have chart maps x i
+[1:30:53] from the chart domain to the real
+[1:30:55] numbers right you have these ch
+[1:30:56] coordinate maps the claim
+[1:31:00] is well first of All they're all smooth
+[1:31:03] functions with respect to the chart
+[1:31:05] that's under the atas that's underlying
+[1:31:08] the claim is that if you take the first
+[1:31:12] such function you of course
+[1:31:16] can calculate the d of the function so
+[1:31:20] you take the function and then you apply
+[1:31:23] the d and you evaluate at p according to
+[1:31:27] this
+[1:31:28] definition and then you take the next
+[1:31:31] coordinate function this is the function
+[1:31:34] then you apply the D you evaluate at the
+[1:31:37] point P and so on up to the D coordinate
+[1:31:40] function we evaluate at the point P and
+[1:31:43] the claim is this is a basis of TP star
+[1:31:48] M and in fact it's the dual basis
+[1:31:55] in
+[1:31:56] fact this is the dual basis
+[1:32:02] uh of the dual space what do we mean by
+[1:32:06] the dual base in the dual space in the
+[1:32:08] dual space we could choose a to a basis
+[1:32:10] that's totally independent of uh this
+[1:32:15] basis we chose in the tangent space but
+[1:32:19] it turns out if we construct it as the
+[1:32:21] gradients of the coordinate
+[1:32:23] maps you can calculate you take the
+[1:32:26] gradient of the A coordinate map at the
+[1:32:29] point P and you apply it to the
+[1:32:34] B basis element of the tangent space and
+[1:32:40] you calc one second and you calculate
+[1:32:41] this you get dxa by
+[1:32:44] DXB P and by writing it in undergraduate
+[1:32:48] analysis notions you get indeed delta AB
+[1:32:51] so in fact this is not just a basis of
+[1:32:54] the dual space it's the dual basis of
+[1:32:56] the dual
+[1:32:58] space if in the original space you chose
+[1:33:01] the chart
+[1:33:02] induced basis somebody had a
+[1:33:08] question okay sorry I wanted to say this
+[1:33:11] first so we have a chart in use spaces
+[1:33:14] there too and it's given as the gradient
+[1:33:15] of the coordinate
+[1:33:18] maps now how do the components of a co-
+[1:33:22] vector which is an abstract object with
+[1:33:24] physical reality we would say as a
+[1:33:26] physicist you can expand in terms of the
+[1:33:29] dxis at a point p if this is an element
+[1:33:32] in the cotangent space and we label the
+[1:33:37] components like this of course it's a
+[1:33:38] co- vector and with respect to the x
+[1:33:41] chart and here with respect to the y
+[1:33:44] chart or y chart uh we may label them
+[1:33:48] like this and expand in the y dual basis
+[1:33:53] now you go through the same motions as
+[1:33:55] we did before for the vector you express
+[1:33:58] this in terms of the other you use again
+[1:34:00] the multi-dimensional chain rule and
+[1:34:02] what you arrive at is the fact that in
+[1:34:05] the y system the i component is given as
+[1:34:11] the i component in the x system
+[1:34:16] d and now we need to see where the y and
+[1:34:19] the x is and the rule to remember is
+[1:34:21] this index is down but I need an x and a
+[1:34:24] y they have both an index up so this
+[1:34:27] index down comes from an index up if the
+[1:34:29] object is under the line so the i must
+[1:34:31] come from here no yes the i must come
+[1:34:34] from here and this j must relate to this
+[1:34:37] one because up down right um and then
+[1:34:41] the j is an xj has an x with a j with
+[1:34:44] respect to an x i mean this is a
+[1:34:46] pneummonic rule right uh and here you
+[1:34:49] have a y so you need to find some way to
+[1:34:52] remember where which object goes and if
+[1:34:55] you compare this to the transformation
+[1:34:57] of vector components you will see this
+[1:35:00] is the matrix with x up and y down
+[1:35:02] whereas the vector components go with y
+[1:35:04] up and x down
+[1:35:07] okay if the result is the y result and
+[1:35:10] then you can show and that will be on
+[1:35:12] the problem sheet today that these two
+[1:35:14] matrices are inverses of each other so
+[1:35:17] really the components of a co- vector
+[1:35:20] under a change of chart are transformed
+[1:35:23] the other way linearly than the
+[1:35:26] components of a vector under the same
+[1:35:28] change of chart and now imagine what
+[1:35:31] happens if you call the gradient the
+[1:35:35] gradient vector and you believe your
+[1:35:38] terminology you're in direct
+[1:35:40] contradiction to the chain rule right
+[1:35:43] you don't need to know anything about
+[1:35:45] differential geometry you write down the
+[1:35:48] gradient like this you define the comp
+[1:35:49] components like this you do the chain
+[1:35:52] rule which is undergrad analysis and you
+[1:35:55] will find the wrong transformation
+[1:35:57] behavior or at least wrong compared to
+[1:35:59] the assumption that it transforms like a
+[1:36:01] vector right it's not deep it's not a
+[1:36:04] special new mathematics that makes the
+[1:36:06] gradient a co- vector it's the chain
+[1:36:09] rule of standard analysis that makes the
+[1:36:12] gradient a co- vector and not a vector
+[1:36:14] it's a very important point to keep in
+[1:36:17] mind in the tutorials in the first half
+[1:36:19] of tutorials this afternoon this has
+[1:36:21] been uh further investigated
+[1:36:28] questions okay then uh we reconvene I
+[1:36:31] suggest at 10 past thank you

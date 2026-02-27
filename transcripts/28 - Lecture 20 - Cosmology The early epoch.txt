@@ -1,0 +1,1493 @@
+[00:00] This program is being presented to you by the Haraeus International Winter School on Gravity and Light.
+[00:15] So good morning and welcome to the 20th lecture of this winter school.
+[00:20] The last four lectures were by Markus Werner on optical geometry
+[00:24] and by Nico Giullini on the canonical formulation of gravity.
+[00:29] And today we turn to cosmology and actually we'll only give an introduction to cosmology
+[00:35] because this is a vast subject with many successes in recent years.
+[00:40] So a long time ago, well not so long a time ago actually, cosmology people said it was more of an art
+[00:47] or some philosophy than science although you had the Einstein equations for 100 years
+[00:54] but only in the last 20 years or so, 25 years precision measurements of cosmology were possible
+[01:03] and that gave the field actually now some real experiments to compare the theory to.
+[01:11] And it's rather unique actually that in Einstein's theory because it talks about the geometry of space-time
+[01:18] you can apply it to the entire universe, right?
+[01:21] So the scope of the theory by construction is the space-time of the entire universe.
+[01:27] The problem is that Einstein's equations are highly non-linear as you saw
+[01:36] and therefore hard to solve
+[01:38] and thus hard to solve.
+[01:51] Well hard to solve is euphemism, nobody knows how to write down a general solution for Einstein's equations.
+[01:59] There are very many volumes on exact solutions of Einstein's equations
+[02:06] but they're all solutions in special cases with certain accidents happening
+[02:10] and mostly with certain symmetry assumptions prevailing.
+[02:15] Nevertheless, if we get this problem in certain physical situations of interest under control
+[02:23] nevertheless they allow to ask the scientific question of biggest possible scope
+[02:48] how did the entire universe evolve?
+[02:59] So before Einstein's theory that was the realm really of philosophy
+[03:06] you could speculate about this, you could speculate whether the universe is cyclic
+[03:11] whether everything repeats after long periods of time or whether it doesn't
+[03:16] and you could ask what's the meaning for that anyway
+[03:19] and what about the beginning of time, is there a beginning of time, is there not a beginning of time and so on
+[03:26] and all these questions now become a matter of theoretical debate where you can actually check your equations
+[03:34] provided of course that the Einstein equations do not only work for the solar system
+[03:41] where you already calculated light deflection and the precession of mercury
+[03:45] provided they extend all out to all over space-time
+[03:50] but that is inherently the problem of any scientific law that a priori you never know whether it extends that far.
+[03:59] The point here is that there is nothing in the conceptual idea that would prevent such an application to just all of space-time
+[04:10] in fact it's the theory for all of space-time. So let's be courageous and apply this.
+[04:16] So now how do we get this problem under control that they're highly non-linear and not solvable?
+[04:23] So certainly if you look at the entire universe this should be the most complicated case of solving Einstein's equations
+[04:30] because you have to take into account not only the matter right here and maybe another planet over here
+[04:36] but you have to take into account on the right hand side of the Einstein equations all the matter that's in the universe, right?
+[04:44] That's the most complicated and the most complete energy momentum tensor you would ever consider
+[04:50] because you have to include it all. Now it seems a little bit ambitious to solve these equations
+[04:57] if they're not solvable in general and we have a really hard time solving them in special cases
+[05:02] it seems particularly ambitious to solve them for the entire universe.
+[05:08] So well that won't be possible in the way just laid out.
+[05:12] But there is actually if you insert one or two ideas and then you use them recklessly.
+[05:20] I mean recklessly because it's not clear whether that's a valid procedure.
+[05:25] This is sometimes a little glossed over but I'll comment on that
+[05:28] but the basic idea is actually something rather reasonable.
+[05:32] So that's the first section, that's the assumption of spatial homogeneity and isotropy at large scale.
+[05:56] So you say okay actually I have to introduce everybody like you into the energy momentum tensor
+[06:04] but really at very very large scale.
+[06:08] So here there's the sun and the earth and the galaxy and then there's a lot of nothing
+[06:13] and then comes the next galaxy and then there are galaxy clusters
+[06:17] and in between there's a lot of nothing and so on
+[06:21] but if you zoom out more and more and more and more
+[06:26] we kind of come to the idea that maybe if you zoom out enough after all it looks rather homogeneous.
+[06:37] It's like a swarm of I don't know bees or something like flying around, there are many individual bees
+[06:43] but if you look from far away it looks like like a big dark cloud.
+[06:48] So the idea is if we forsake the detail at close resolution, at high resolution
+[06:57] but we zoom out, zoom out, zoom out
+[07:00] the universe may be considered as homogeneous, spatially, not in time, that would be ridiculous.
+[07:07] Now you say space and time, wasn't there space and time no longer present?
+[07:11] We'll talk about this but roughly speaking spatially if I make a snapshot at a certain time
+[07:17] whatever that means it should look everywhere the same.
+[07:21] Now this is really an assumption because it could simply not be true.
+[07:27] But it's a philosophical assumption and actually it's the assumption that is least supported,
+[07:34] this homogeneity is the assumption least supported by experiment
+[07:40] but philosophically it seems reasonable.
+[07:44] If we don't make it the lecture is over and that would be a shame.
+[07:48] So spatial homogeneity, well having said that that's not true,
+[07:55] I'll talk about this in a second.
+[07:57] So spatial homogeneity is the idea that the universe spatially looks the same everywhere.
+[08:13] Spatial isotropy means it looks the same in any direction.
+[08:29] That's a little better supported although locally it's obviously untrue,
+[08:33] the moon is there and it's not over there so what do you mean the universe looks the same in all directions.
+[08:37] But again a very large scale that's the idea and that's the assumption.
+[08:43] So now I said we use these ideas recklessly so you can say this is already reckless to assume this
+[08:50] but what choice do we have?
+[08:53] I mean there are people who actually look at nonisotropic universes
+[08:59] and actually you can make a lot of progress there.
+[09:01] I don't know really how far you can go with nonhomogeneity,
+[09:04] this is what you need to ask the cosmologist who's coming the beginning of next week on Sunday evening,
+[09:10] Valeria Petorino, she'll probably have a lot of answers to all these things,
+[09:14] but from a theorist's point of view let's make these simplest possible assumptions
+[09:19] and as always you can relax them and see how far you get,
+[09:22] you get to the so-called Bayanke universes and so on.
+[09:25] Anyway, so you have these assumptions and if that isn't reckless enough
+[09:31] now the really reckless point comes and therefore,
+[09:39] and this therefore comes with terms and conditions.
+[09:45] The problem is we don't really know what the terms and conditions are
+[09:48] but let me talk about this in a second and therefore we may,
+[09:54] so it's also questionable whether that is, that therefore is true
+[09:58] and therefore we may take the metric to be,
+[10:07] or therefore we may make, maybe it was okay,
+[10:11] we may make a symmetric ansatz,
+[10:21] I'll talk about in a second how the symmetry is exactly implemented
+[10:25] and hence we may make a symmetric ansatz for the metric of the universe,
+[10:31] for the metric of the universe, or the universe of space-time.
+[10:42] So the idea is Einstein's equations are simplified,
+[10:50] Einstein's equations are simplified and we'll see how.
+[10:54] So this is just the advertisement.
+[10:56] Einstein's equations are simplified drastically by making this a priori,
+[11:09] a priori in this sense here, in this case meaning before you solve the equations,
+[11:14] by making this an a priori, by making this a priori symmetry assumption.
+[11:24] You know this from say Maxwell theory.
+[11:27] If in Maxwell theory you say I want a solution that is static,
+[11:34] so it has a timeline killing vector field that's hypersurface orthogonal
+[11:39] and spherical symmetric, you get the Coulomb potential as a solution.
+[11:46] Also in Maxwell theory you do that, you don't solve the equations in general,
+[11:51] at least not for the simplest problems,
+[11:56] but you look at symmetry assumptions and then you solve,
+[12:00] and you say because I believe that the physical situation,
+[12:04] I'm considering features that in that symmetry,
+[12:06] why make life difficult, let's make the symmetry assumption from start,
+[12:11] in that case for the a mu potential and then you solve.
+[12:15] It's the same here.
+[12:17] Now I want to talk about this therefore and my remark is this is questionable.
+[12:26] And some people make a very, very strong point that this is questionable.
+[12:33] For instance Bouchard, C.E.G. Bouchard, he said Ernest Lyon,
+[12:44] on the topic of cosmic variance.
+[12:52] So you could try to solve the Einstein's equations more generally
+[12:57] and only at the end, very roughly speaking, by averaging and so on, specialize.
+[13:02] So you get your symmetry by averaging what is not so symmetric, very roughly speaking,
+[13:09] and that does not necessarily commute.
+[13:11] You cannot necessarily make an ansatz first and then calculate because it's a very complicated system.
+[13:17] However, so this is questionable, however, it is the, well, how do you call this?
+[13:28] It is what mainstream cosmology does, which for some people is a strong argument.
+[13:46] Of course, zero convincing.
+[13:48] Okay, so the Einstein's equations are simplified greatly if you make such a symmetry ansatz.
+[13:55] Okay, so we will follow this route nevertheless, right, because we're a conservative bunch here.
+[14:01] And so what do we exactly mean by the symmetry?
+[14:05] So more precisely, the symmetry assumptions, or assumptions above are,
+[14:23] we invested, I think, an entire lecture in discussing symmetry,
+[14:27] and what it actually means for a spacetime metric to be symmetric.
+[14:31] And it's not such a straightforward discussion at first sight as it seems in standard physics
+[14:39] where the background metric is fixed because we're talking about the metric itself.
+[14:43] And we know there must be killing vector fields.
+[14:46] And this symmetry up there means there are, the requirement, there are six killing vector fields.
+[14:53] Think about, always remember that we're actually talking here about spatial symmetry.
+[14:59] So we're only talking about the universe in a three-dimensional spatial snapshot.
+[15:03] It doesn't really matter which snapshot you make, but you need to pick one.
+[15:07] There are six killing vector fields, and they have the illustrious names J1, J2, J3, and P1, P2, P3.
+[15:21] And the Js, I write this in a quick form, JI or JA, JB is epsilon ABCJC.
+[15:32] And there's no summation convention here because it's just in this algebra.
+[15:36] They commute like this.
+[15:38] And so like J1, J2 is J3.
+[15:41] J2, J3 is J1.
+[15:42] You saw this before.
+[15:44] This is supposed to be a rotation algebra.
+[15:46] Yes?
+[15:47] So does that mean that we assume such a foliation we're in space and in time?
+[15:54] We don't have a foliation yet, but because you, you said there are six killing vector fields.
+[15:59] But the point is, the moment you imagine they are there, like these three Js, let's say, well, let's take this one dimension down.
+[16:07] Then there's only one rotational killing vector field because in two dimensions there's only one rotation.
+[16:12] If you say there is one, okay, so there's space time.
+[16:15] And now you say there is one.
+[16:16] Check, check, check, check, check.
+[16:17] It looks like this.
+[16:18] And you, roughly speaking, the plane, but it's not a plane, but the two-dimensional space, it sweeps out here.
+[16:26] And then the next one sweeps out here.
+[16:28] So if you look at all the orbits of that vector field, it will actually define a two-dimensional surface.
+[16:34] And three dimensions is the same.
+[16:36] The orbits of those guys will sweep out three-dimensional subspaces of the four-dimensional space time manifold.
+[16:42] And now you could say, okay, which ones are there?
+[16:46] And the point is, it doesn't matter.
+[16:48] There are some.
+[16:49] If we believe that the universe looks the same in all directions, I need to say what they mean by directions.
+[16:55] I mean spatial directions.
+[16:57] So I need to say which spatial directions, right?
+[16:59] And another observer could well be moving with respect to that choice.
+[17:04] Okay.
+[17:05] So here you have the rotation algebra.
+[17:07] That's the first bit.
+[17:08] Then you have the translation algebra.
+[17:12] The idea is that these are killing vector fields that run like this and this and that here in space, right?
+[17:18] They're not rotations.
+[17:20] They're translations.
+[17:21] They all commute.
+[17:23] Looks a little bit funny because we get zero information from the connection, from the structure constants.
+[17:29] But they have mutual commutation relations.
+[17:33] J A, J P B.
+[17:37] And they have non-trivial commutation.
+[17:39] That's epsilon A B C P C.
+[17:43] Some C equals one, two, three.
+[17:46] So you have these six killing vector fields and these are their mutual commutation relations that you can write down.
+[17:53] And this you call, what is this?
+[17:56] This is something like, yeah, kind of a Euclidean group in three dimensions.
+[18:02] Be careful because it needn't be flat.
+[18:04] So this is the homogeneous, the symmetry algebra encoding isotropy and homogeneity.
+[18:22] Okay.
+[18:23] And the point is there are six such killing vector fields.
+[18:27] Now you may fear that you need to write them down explicitly.
+[18:31] But there are such that, okay, there are killing vector fields that is equivalent to the statement that they're killing.
+[18:39] That they are killing is equivalent to the statement that L of any J A on the metric is zero.
+[18:50] And the same is true for L of any P A on the metric is zero.
+[18:56] That is what it was.
+[18:58] You can look at the flows of these vector fields and you pull back the metric along the flow and you can compare.
+[19:08] Does the metric change if I, well, intuitively I follow the flow but technically I follow against the flow because of the pullback.
+[19:16] Does the metric change or does it stay the same everywhere against the flow?
+[19:21] And if the answer is yes, then that's this condition.
+[19:24] That means there's a symmetry.
+[19:25] If something doesn't change, if I do something like rotate and translate, then there's a symmetry.
+[19:31] In this case, with rotation and translation, not making any difference to the metric in these special directions, there is a symmetry.
+[19:40] Now you might fear that we will need to represent them in some coordinate chart that's suitable and calculate what exactly the conditions on the metric are.
+[19:51] And in principle, yes, that's true. You've got to do this.
+[19:54] However, there is a shortcut in this case.
+[19:59] Fortunately, for six killing vector fields, which are r linearly independent, which these are, which are r linearly independent,
+[20:21] there is a shortcut to understand how a metric with these symmetries with such symmetry looks like.
+[20:45] And we'll employ the shortcut because it will save us a lot of time.
+[20:48] And that comes in the form of a little theorem.
+[20:50] Well, it's a little lemma, really.
+[20:53] I'll only quote it, but it's not so difficult to prove, is on a d-dimensional manifold.
+[21:03] But here you have to think three-dimensional because we're talking only about spatial.
+[21:09] There are six, I should say, spatial killing vector fields.
+[21:13] What does that mean?
+[21:15] Spatial killing vector fields?
+[21:17] Well, it means that the vectors, I mean, there are vectors on the spacetime, right, that each vector is space-like.
+[21:28] Okay, spatial, space-like.
+[21:31] Space-like in the vector fields.
+[21:33] So on a d-dimensional manifold, there are the maximum number of independent killing vector fields.
+[21:41] The maximum number of r linearly independent killing vector fields is d times d plus one-half.
+[22:03] It's easy to remember because it's exactly the number of independent component functions of a metric tensor field in the dimensions.
+[22:23] Because the metric is a zero true tensor field and it's a metric that gives it d times d plus one-half many independent entries.
+[22:32] And there are as many linearly independent killing vector fields.
+[22:36] However, the proof, this is not the proof.
+[22:39] This equal sign, this is just a mnemonic.
+[22:41] The proof goes via killings equation and the geodesic deviation equation.
+[22:48] Now, what do you mean by a maximal number?
+[22:51] Well, that's the maximal symmetry you can ask of a d-dimensional manifold.
+[22:56] You could say, well, maybe they're even more symmetric manifolds than a sphere.
+[23:01] Okay, the point is there aren't.
+[23:04] You can take the three-sphere and the n-sphere and so on.
+[23:08] There's always, this is the maximum number of killing vector fields.
+[23:12] Now, we're in the three-dimensional space and we have six killing vector fields.
+[23:17] Three times four by two is three times two is six.
+[23:24] So if these killing vector fields exist, if there are killing vector fields,
+[23:29] they're the maximal number of killing vector fields in three dimensions.
+[23:34] Hence, the spatial metric induced by the spacetime metric
+[24:00] on the spatial section distinguished by the killing vector fields
+[24:05] on the spatial slices, if you want, induced or almost a span in a loose sense,
+[24:19] and by the killing vector fields is the metric of a maximally symmetric,
+[24:38] well, three space because spacetime has four dimensions.
+[24:42] The spatial slices have three dimensions.
+[24:48] That is, hence, what could there be the case?
+[24:52] It could be that space, hence, the spatial geometry is of either of three types.
+[25:09] The first possibility is it's flat.
+[25:14] It's a flat three-manifold.
+[25:23] It could be a flat three-manifold.
+[25:25] It could be a spherical three-manifold.
+[25:29] It means the round sphere or it could be a hyperbolic three-manifold.
+[25:37] It has also constant curvature, but the curvature is negative.
+[25:41] If you want me to draw pictures, I don't draw them in three dimensions.
+[25:45] I draw the pictures as always in two dimensions.
+[25:48] That's flat three space in a two-dimensional artist's impression.
+[25:55] This is the S3 in a two-dimensional artist's impression.
+[26:00] I draw the S2, the round S2.
+[26:03] The hyperbolic three-manifold drawn in two dimensions is a saddle.
+[26:08] It's notoriously difficult to draw saddles.
+[26:15] You know what I mean? A saddle.
+[26:18] But everywhere the same curvature, but it's negative curvature.
+[26:25] So think of what Julini told you about Gauss's Theorema e Grigium.
+[26:29] You go here to the oscillating, as Marcus would say, to the kissing circle.
+[26:40] At this point, in this direction, there's a certain radius of a circle.
+[26:45] There is this other circle, but they're in opposite directions.
+[26:49] One is a positive curvature.
+[26:51] The other one is a negative curvature, one dimensionally speaking.
+[26:55] The product is the curvature scalar.
+[26:59] This is a saddle of constant curvature.
+[27:01] That means in this direction it doesn't bend more than in this one,
+[27:05] but it's a saddle nevertheless.
+[27:07] It could have saddles that are deformed, but it's of constant curvature.
+[27:15] The constant curvature we call kappa.
+[27:20] So kappa is zero here, kappa is greater than zero there,
+[27:24] and kappa is less than zero there,
+[27:26] and later on we can also normalize the kappa to plus minus one and zero,
+[27:30] if we can absorb that.
+[27:33] Okay, so yes?
+[27:42] Yesterday in canonical formulation,
+[27:44] it probably indicated the gravitational constant up to a factor.
+[27:48] Yes, it's different.
+[27:49] It's supposed to be the scalar curvature of these constant curvature spaces.
+[27:58] Such that, and that's such that the Riemann tensor,
+[28:03] no, the Riemann Christoffel tensor where all the indices are down.
+[28:06] I'm only talking spatially, so that was Marcus and Nico
+[28:11] both used Greek indices as spacetime indices,
+[28:15] whereas I used Greek indices as spatial indices.
+[28:18] And they used Latin indices as spatial indices,
+[28:24] while I used them throughout the lectures as spacetime indices.
+[28:29] Okay, so it depends on whether you work more often in spacetime
+[28:33] or more often in space,
+[28:35] and then you prefer usually the Latin letters where you work more often.
+[28:40] Yes?
+[28:42] That's correct.
+[28:59] In a 20-dimensional one?
+[29:02] Well, 20 is, 20 by 2 is 10 times 21 is 210.
+[29:10] Yes, 210 independent killing vector fields.
+[29:14] I'm talking about the spatial part, about the line which is 3,
+[29:20] you know, the spatial flight span for the killing vector p.
+[29:26] Ah, so of a maximal symmetric d-space.
+[29:31] But this is abstract, and then hence the spatial metric induced by a spacetime metric.
+[29:38] So the theorem ends here, and now I apply this to spacetime,
+[29:43] and spacetime is four-dimensional, so d plus 1 is 4,
+[29:47] but the d I'm talking here is the dimension of the spatial slice,
+[29:52] so that's the idea, okay?
+[29:55] Good, so if you have such a maximally symmetric space,
+[29:58] you already saw that you can always write it as the scalar curvature,
+[30:02] and the remainder of the index structure, gamma, alpha, gamma, okay?
+[30:07] Alpha, gamma, gamma, alpha, delta, minus gamma, alpha, delta, gamma,
+[30:13] you know, beta, delta, beta, gamma.
+[30:18] The rest of the index structure is carried by a metric where,
+[30:22] and this is now a coordinate choice,
+[30:24] but it's a coordinate choice which is very useful,
+[30:29] where gamma, alpha, beta equals this guy here.
+[30:36] It equals 1 over 1 minus k r squared.
+[30:46] Okay, so it's the coordinate choice in three-space gamma, alpha, beta, r theta, phi,
+[30:55] r squared, r squared, sine squared, theta.
+[31:02] Chuck, chuck, chuck, chuck, chuck, chuck, where this is alpha, beta,
+[31:07] but the alpha, beta, alpha is on runs over r theta, phi in this order,
+[31:13] and you're already used from the tutorials
+[31:15] that sometimes we use the chart maps to label the number of the component.
+[31:20] You see this is a double working of the symbol, but it's very useful.
+[31:25] So this is the r r component, this is the theta, theta component,
+[31:29] and this is the phi-phi component of the metric.
+[31:33] So where the spatial metric looks like this, there's the kappa here.
+[31:37] And this is just a result that the metric of a constant curvature space
+[31:42] of constant curvature kappa looks like this.
+[31:46] Yes?
+[31:47] Is that for the three-dimensional?
+[31:51] It's for the three-dimensional, yes.
+[31:54] Not for the full manifold, because the full manifold for the space-time manifold,
+[32:07] we then have GAB equals r.
+[32:16] And now, in accordance with what people did the other days,
+[32:22] I changed my favorite signature to minus plus plus plus
+[32:26] because we're going to talk a lot about the spatial section
+[32:29] and it's more convenient to have a positive signature on the spatial slices.
+[32:33] So we'll do that, but anyway, you can change back and forth between them.
+[32:38] And so here you have a minus one in those coordinates.
+[32:41] You can find coordinates such that this is the case.
+[32:44] And here you have a squared, so this is this,
+[32:48] this is this, and down here you have a squared of t.
+[32:52] That's the extra coordinate we don't have yet.
+[32:54] Gamma, alpha, beta, r, theta, phi.
+[32:58] Okay?
+[32:59] This is this.
+[33:00] And this GAB here, well, it actually depends on the point of the manifold,
+[33:04] but then you go back and blah, blah, blah, so roughly speaking,
+[33:07] this depends on r, theta, phi.
+[33:12] Strictly speaking, I have to write point q of the manifold,
+[33:15] and wherever I write here t, I should write t of q and r of q,
+[33:19] theta of q, phi of q.
+[33:21] But if I write like this, you know what I mean.
+[33:23] So let's drop notation.
+[33:27] But if you really want to work with this formally,
+[33:30] you sometimes have to reinstate this.
+[33:35] For the spatial, for the spacetime manifold,
+[33:39] we may therefore have this metric for suitable coordinates,
+[33:43] which is now a coordinate chart on a chart,
+[33:49] t, r, theta, phi.
+[33:53] Okay.
+[33:54] What is this guy here?
+[33:56] This guy a, where a is obviously a function from r to r,
+[34:02] is called scale factor.
+[34:07] The scale factor.
+[34:10] Why does it come in?
+[34:12] Because all we learn from the symmetry is that if you make a picture now,
+[34:17] you have a constant curvature space.
+[34:19] So say a sphere of certain radius.
+[34:23] But at the next moment, having a constant curvature space
+[34:26] could be a sphere of another radius.
+[34:29] Right?
+[34:30] So the radius of these constant curvature spatial slices
+[34:33] could change in time.
+[34:36] That's actually all the freedom that's left after the symmetry reduction.
+[34:42] Which is all the freedom left after the symmetry reduction.
+[34:56] Yes.
+[34:57] So you're saying that a affects the curvature in some sense?
+[35:01] Yes.
+[35:02] Because the half of the flat frame is with a changing a,
+[35:05] and it would still be flat?
+[35:07] It would still be flat.
+[35:08] It affects the curvature if there is any.
+[35:10] It will increase it by that factor.
+[35:13] But if it's flat, it will still affect the space
+[35:16] in the sense that the space is still blown up.
+[35:19] Right?
+[35:20] I mean, at least in this coordinate system, it's blown up.
+[35:23] Whatever that means.
+[35:24] Well, but the metric is the translation between coordinate.
+[35:28] Very roughly speaking, the metric translates the totally fantastic
+[35:34] imagined coordinate distances into real life lengths.
+[35:39] Well, through the tangent vectors, that is.
+[35:42] So whatever you write here in the metric will have an effect
+[35:45] on how you interpret the spaces.
+[35:48] Yes?
+[35:49] It was said that we can encode mass in the curvature.
+[35:52] Mass in the curvature.
+[35:55] Sorry?
+[35:56] You said it was said that we can encode mass in the curvature.
+[36:00] Yes.
+[36:01] So I want to ask if we could use a for the same purpose.
+[36:07] OK.
+[36:08] So you're referring to Jolini's ADM mass of a spacetime and so
+[36:12] on.
+[36:13] We're not looking at this here.
+[36:14] This is not necessarily asymptotically flat, for instance.
+[36:17] And that came with a lot of assumptions.
+[36:19] If you can then assign as a mass and so on.
+[36:23] So this is not of immediate relevance here.
+[36:26] OK.
+[36:27] Which doesn't mean one cannot look at it and has a point somewhere.
+[36:29] But at this point, we don't look at that.
+[36:31] OK.
+[36:32] So this is all the freedom that's left.
+[36:34] And I mean, that's a drastic reduction.
+[36:36] Because in principle, we have to solve Einstein's equation
+[36:39] without the symmetry answers for 10 independent metric components
+[36:44] that depend on all four coordinates, if we look at the chart.
+[36:50] But by these maximal symmetry on the spatial slices, which
+[36:54] corresponds to spatial homogeneity to the assumption of spatial
+[36:58] homogeneity of the universe and spatial isotropy,
+[37:01] we reduced the undetermined objects in the metric
+[37:07] to just one function of one remaining variable.
+[37:12] That's a massive reduction.
+[37:15] So what do we expect if we go with this answer
+[37:18] into the Einstein equations?
+[37:20] The metrics in gamma, I think it only refers to the spherical
+[37:25] spatial homogeneity, is that true?
+[37:27] No.
+[37:28] The kappa, the kappa controls.
+[37:31] The kappa controls what you have.
+[37:33] For instance, if kappa is 0, you have one r squared sine
+[37:37] squared theta, which is the flat r3 in polar coordinates.
+[37:44] OK.
+[37:45] So then how do we see the form of gamma?
+[37:47] Why do we know that gamma is polar?
+[37:49] Oh, no, no.
+[37:50] That you have to calculate.
+[37:51] So I should set hence such that where it can be shown that.
+[37:59] There are many different ways to represent these spaces
+[38:04] of constant curvature.
+[38:05] This is one of them, which uses these polar coordinates,
+[38:09] which I like here.
+[38:10] Did you remember assumptions about time as well?
+[38:14] Well, time is the remaining coordinates.
+[38:16] So you have these.
+[38:17] Remember, we talked about, we were perfectly happy to say
+[38:21] the universe looks the same at every place,
+[38:24] three-dimensionally speaking, and in any direction.
+[38:27] We're perfectly happy with that.
+[38:29] But now if you're happy with that statement,
+[38:31] you need to write down what you really mean by that.
+[38:34] What you mean by that is you have six killing vector fields.
+[38:37] All are spatial.
+[38:40] And if you take them and you follow their orbits,
+[38:42] they trace out, say, it's three-dimensional instead of four,
+[38:45] so I can hand-wave, right?
+[38:47] Say you have a killing vector field that goes around like this.
+[38:50] It's like one of the j's.
+[38:51] And then you have two of the p's.
+[38:53] In three dimensions, you have only three.
+[38:56] Because three times four, half.
+[38:59] No.
+[39:02] Yes, yes.
+[39:04] Three plus four, half is six.
+[39:06] No.
+[39:07] Two plus four, aha.
+[39:08] Two plus three, half is three, exactly.
+[39:10] So in three dimensions totally,
+[39:12] space-time means you have two dimensions spatially.
+[39:15] You have only one rotation generator
+[39:17] and two translation generators.
+[39:19] So if they're all spatial and they're over all of space-time,
+[39:22] then they sweep out one hypersurface here,
+[39:27] but then the vector fields are everywhere.
+[39:29] They sweep out another one over there.
+[39:31] So if you say this, you immediately buy these killing vector fields,
+[39:35] select surfaces on which it looks like this.
+[39:38] So for instance, from my point of view,
+[39:40] the CMB looks, say, isotropic.
+[39:44] It looks the same in all directions,
+[39:45] apart from little variances in it.
+[39:49] But now somebody moves by very fast.
+[39:52] He will not see that look the same in all directions.
+[39:55] He will see the spectrum shifted in certain directions
+[39:59] because he moves relative to it.
+[40:02] So there's only certain spatial slices
+[40:05] from where the universe looks isotropic and homogeneous.
+[40:09] We buy this the moment we make these two assumptions.
+[40:13] And then with respect to that,
+[40:16] and then you have these hypersurfaces.
+[40:18] And as you saw from Jolini, you can think of this as
+[40:21] embeddings, continual embeddings,
+[40:23] and that induces a time coordinate,
+[40:26] which you call cosmic time.
+[40:28] Okay, yes.
+[40:31] As now the method depends on time.
+[40:35] And then the killing vector with respect to t by dt
+[40:39] does not matter.
+[40:40] That's right.
+[40:41] It's not static and it's not stationary.
+[40:43] The energy is not configured.
+[40:45] Yeah, if you want.
+[40:46] Well, the statement is right.
+[40:49] So observation, that's absolutely correct.
+[40:51] Observation,
+[40:53] the derivative in the direction d by dt,
+[40:57] which is that of g,
+[41:00] is of course non-zero unless the a is constant.
+[41:05] That's absolutely right.
+[41:07] Well, who said that the universe is stationary?
+[41:09] It evolves, something happens.
+[41:11] It's not the same yesterday as it is today.
+[41:14] That's right.
+[41:15] So if you require this as well,
+[41:17] if you say you want the homogenous isotropic
+[41:19] and stationary universe,
+[41:21] well, then it's essentially static.
+[41:25] Well, then you can still have a flat or spherical
+[41:28] or hyperbolic three spaces,
+[41:30] but nothing changes.
+[41:31] There's no evolution.
+[41:33] Right?
+[41:34] There's now such an object like constant,
+[41:36] like we like to call it energy somehow.
+[41:43] Energy depends of what?
+[41:45] I mean, energy is a notoriously difficult concept here
+[41:48] and especially of the geometry.
+[41:50] So the energy of the geometry, very careful.
+[41:53] So the energy momentum tensor of the geometry,
+[41:55] if you want to go so far,
+[41:57] just ask what is the energy momentum tensor of the geometry?
+[42:00] What do you have to do?
+[42:01] You have to take the action,
+[42:02] say, Einstein action.
+[42:03] You vary it with respect to the metric.
+[42:05] Ah, but that's the Einstein tensor.
+[42:07] So if you want, you can say the Einstein tensor
+[42:10] is the energy momentum tensor of the spacetime.
+[42:12] But then the question is, what do you do with that?
+[42:14] You could try to integrate that and so on,
+[42:17] and that goes wrong.
+[42:19] So there's no localized energy in the gravitational field.
+[42:23] This is a long discussion in the field.
+[42:25] So let's not go there,
+[42:27] but that doesn't work simple-mindedly
+[42:29] by just plugging in the definitions for matter
+[42:32] and proceeding as usual.
+[42:33] That goes wrong.
+[42:35] Okay, so we have this.
+[42:37] So this is non-zero unless,
+[42:41] unless A equals the constant function,
+[42:46] but that's boring, then we have no more evolution.
+[42:49] And the symmetry assumptions don't demand that.
+[42:58] If this is positive, yes, well, you need that
+[43:01] because your coordinates need to stop somewhere.
+[43:07] So you mean for the sphere.
+[43:09] It must be there.
+[43:10] You can think about that.
+[43:11] So anyway, this is the round sphere in that case.
+[43:15] And what we can do, we can normalize,
+[43:18] once we're here, we can normalize,
+[43:21] may normalize kappa to be plus, plus one,
+[43:28] zero or minus one.
+[43:29] You say, okay, this is much more than plus one.
+[43:32] This much more than minus one.
+[43:33] There are many possibilities.
+[43:34] But at the end of the day, you can absorb it into here.
+[43:37] Okay, so if we parameterize the three different,
+[43:41] the three different types,
+[43:43] we rather have it in the scale factor
+[43:46] and we choose these three distinct types,
+[43:49] kappa is zero, plus one, or minus one.
+[43:53] Okay, so this is just the symmetry,
+[43:55] and this is a quick discussion.
+[43:57] If you want to calculate this,
+[43:59] you need to go through the motions
+[44:01] of taking a general metric,
+[44:02] applying the killing condition,
+[44:05] L down, killing vector field on G,
+[44:07] simultaneously for all six killing vector fields,
+[44:10] in a chosen coordinate system,
+[44:12] you have to model the killing vector fields
+[44:15] in that coordinate system,
+[44:17] such that they satisfy the commutation relations,
+[44:19] and you evaluate all these tensor-valued conditions
+[44:22] simultaneously.
+[44:24] And what you arrive at is that.
+[44:27] Okay, but I said the discussion can be a bit quicker
+[44:30] because we have here the maximal number
+[44:32] of killing vector fields.
+[44:34] Okay, you can also come arrive here
+[44:37] by hand-waving argumentation,
+[44:40] but that is very dangerous.
+[44:42] I mean, totally hand-waving.
+[44:43] This was hand-waving, and it can be totally hand-waving.
+[44:45] If I say, oh, come on, that's obvious.
+[44:47] The metric of the homogeneous and isotropic universe
+[44:49] can only look like that.
+[44:51] It's not that obvious because probably you're using
+[44:54] the notion of symmetry that you have intuitively,
+[44:57] which usually refers already to a background structure,
+[45:00] but here it's the symmetry of that structure itself,
+[45:03] so you actually have to go through the motions.
+[45:05] Okay, so there's lots to be said about this,
+[45:08] but time doesn't permit.
+[45:10] Anyway, we take this as the answers.
+[45:13] Now, once we have that,
+[45:15] what we have to look at is the Einstein tensor
+[45:19] for such metrics.
+[45:23] And how do we calculate this?
+[45:25] Well, one calculates.
+[45:29] One calculates, and one gets gamma, alpha, beta, gamma,
+[45:33] the spatial gamma components,
+[45:36] so it's a Christoffel connection,
+[45:38] that of course depends on the little gamma that I have.
+[45:41] For a sphere that's different from hyperbolic space,
+[45:44] different from flat space,
+[45:46] but these can just be calculated.
+[45:48] They are what they are for these three spaces.
+[45:51] Now, you have the gamma, t, beta, gammas,
+[45:59] and those are a, a dot, gamma, alpha, beta.
+[46:05] I don't write a of t, but you know it's a function of t,
+[46:08] and the dot means the derivative
+[46:10] with respect to the object it depends on, so the t.
+[46:14] And you have gamma, alpha, t, gamma,
+[46:18] and that is a dot by a delta, alpha, gamma.
+[46:25] How do we know you calculate?
+[46:29] Okay, yes?
+[46:31] About the gamma t, beta, gamma, that's right.
+[46:38] Thank you very much.
+[46:39] Yes, of course.
+[46:41] And here I should have written gamma, alpha, beta, gamma.
+[46:43] What you calculate is the ones you get
+[46:46] if you just calculate them for the three metric.
+[46:48] That's the meaning here.
+[46:49] So you calculate this and all unrelated,
+[46:53] that's a good thing to note for the exam,
+[46:56] all unrelated gammas vanish.
+[47:00] Unrelated meaning, well, the gamma, alpha, gamma, t,
+[47:06] I didn't write down,
+[47:07] but because the Christoffel connection is symmetric,
+[47:10] so this one is a related one to that one,
+[47:12] that of course doesn't vanish.
+[47:14] Okay, so you don't write all the other gammas vanish,
+[47:17] you write all the unrelated gammas vanish,
+[47:20] and you collected yet another point in the exam.
+[47:26] It's boring to do that,
+[47:28] and in the tutorials you did this for several space times,
+[47:31] let's not repeat it, that's that.
+[47:34] From this you can then calculate the Ricci tensor components,
+[47:41] and it turns out that the RTT component
+[47:45] is minus 3A double dot over A,
+[47:50] and the R-alpha-beta components,
+[47:54] you can write them down all at once,
+[47:56] they are AA double dot plus A dot squared times 3,
+[48:04] so I need to pick, 2.
+[48:12] Plus 2 kappa,
+[48:14] and the indices are again carried by the gamma-alpha-beta.
+[48:18] It's just a result, okay?
+[48:21] That's just what you get.
+[48:23] That's the Einstein tensor,
+[48:25] that's the left-hand side using the symmetry ansatz, okay?
+[48:30] So you see, this only depends on the one free function
+[48:35] that is undetermined, of course,
+[48:37] on what else would it depend?
+[48:38] Everything else is constant,
+[48:39] it makes the constants in there, okay?
+[48:42] It's a great reduction.
+[48:45] So now, we have the left-hand side of the Einstein equations.
+[48:49] It's here, well, you could write down the Einstein tensor components,
+[48:54] but you know you can also write Einstein's equations
+[48:56] as Ricci tensor equals a modified energy momentum tensor, right?
+[49:00] I think we had this on the blackboard twice already.
+[49:03] Anyway, this takes care of the left-hand side
+[49:06] of the Einstein equations.
+[49:08] Now, we've talked about the universe,
+[49:10] it looks the same in all directions,
+[49:12] but I used this homogeneity and isotropy
+[49:14] now only for the geometry looks the same in all directions,
+[49:18] and it's the same everywhere, spatially.
+[49:21] But what about the matter?
+[49:23] Well, probably when I first said the universe looks the same everywhere,
+[49:26] you thought about the meta-distribution,
+[49:28] but I already applied it to the geometry.
+[49:30] Now, on the right-hand side of the Einstein equations,
+[49:33] we have to ask what matter can you possibly put
+[49:36] that has these symmetry properties?
+[49:39] Let's think, let's take Maxwell theory.
+[49:42] You all know the Maxwell equations.
+[49:44] Do the Maxwell equations have solutions that are isotropic
+[49:47] that look the same in all directions?
+[49:49] Yes, for instance, the Coulomb solution.
+[49:51] Well, that's also static, but why not?
+[49:53] That's the Coulomb solution.
+[49:55] But do the Maxwell equations have an exact solution
+[49:57] that looks the same in every direction
+[50:00] and looks the same at every point?
+[50:03] Of course it does, it's zero.
+[50:05] Yes, okay, so there is only one solution,
+[50:07] but there's only a trivial solution.
+[50:10] That means if you insist that the universe,
+[50:13] that there is kind of one exact solution,
+[50:17] you have to say it's nothing.
+[50:20] So there's no homogeneous and isotropic solution
+[50:23] of Maxwell's equations.
+[50:25] However, if you now think of many, many say photons,
+[50:29] right, okay, I'm talking already almost quantum,
+[50:31] but you look at many photons going around like this,
+[50:36] they can go around in a photon gas or something, okay?
+[50:40] And that gas, if you look very closely,
+[50:43] that photon goes like this and that goes like that.
+[50:46] So no talk about homogeneity,
+[50:48] because of course the sum of all the photons,
+[50:50] because the linear theory will be, again, an exact solution,
+[50:53] but we just said there is no exact solution.
+[50:56] But if one photon goes like this and one goes like that,
+[50:59] then hardly the solution looks the same at this point
+[51:03] and at that point, right?
+[51:05] But again, if you zoom out and you zoom out and you zoom out,
+[51:09] you only see the gas.
+[51:13] And the gas, after suitable averaging,
+[51:17] may look homogeneous and isotropic, okay?
+[51:22] So what we want to do,
+[51:24] we want to write down on the right-hand side
+[51:27] of the Einstein equation.
+[51:29] So when we talk about the matter in the universe,
+[51:32] well, matter in the, in A, isotropic and homogeneous universe,
+[51:44] we only look at it again from far away.
+[51:48] We only look at matter at very large scale.
+[52:02] And the model one employs here,
+[52:05] and one can make a good case for that from the symmetry,
+[52:08] is consider not the fundamental theory,
+[52:14] not the action,
+[52:15] but consider directly the energy momentum tensor of the matter.
+[52:20] And there you say, well, from far away,
+[52:24] the matter flows through the universe like this.
+[52:28] And whatever its constituents are,
+[52:31] this is a space-time picture,
+[52:33] whatever its constituents are,
+[52:35] if we're in a spatial slice,
+[52:37] that should be kind of homogeneous and isotropic, okay,
+[52:41] in a spatial slice.
+[52:43] But in space-time, there is all these constituents
+[52:47] flow along a flow of a time-like vector field U, okay?
+[52:54] And that is what happens in the universe.
+[52:56] So if you can think of a river,
+[52:58] but here you should think of all the galaxies,
+[53:01] the world lines of all the galaxies,
+[53:03] or even galaxy clusters,
+[53:05] which may provide the individual points in here
+[53:09] that flow through space-time.
+[53:11] That's the picture.
+[53:12] They have a four-velocity U,
+[53:14] and we model,
+[53:16] we have two numbers, row and P,
+[53:18] which mean nothing to U.
+[53:20] That's good.
+[53:21] U-A, U-B, plus, with our signature convention, P, G, up A, up B.
+[53:28] And we model this energy momentum tensor,
+[53:32] and where the U,
+[53:35] well, we want to be homogeneous and isotropic,
+[53:38] so in our coordinates.
+[53:41] So these components in our coordinates
+[53:44] must be 1, 0, 0, 0,
+[53:47] because otherwise it would flow inside a spatial slice,
+[53:51] and then you would have a velocity there
+[53:53] and it wouldn't be isotropic,
+[53:55] because there would be a motion within the slice.
+[53:57] It's on, okay?
+[53:58] So when our coordinates, the U looks like this.
+[54:01] And one has a name for matter that takes this form.
+[54:06] But remember, this is matter from far away.
+[54:08] It's like talking about gases
+[54:10] rather than about the constituents of a gas, right?
+[54:14] So you don't know anything about the atoms of a gas.
+[54:17] You just know the gas as a continuum.
+[54:19] You see, it's that approximation, that averaging.
+[54:24] And so this is called a perfect fluid,
+[54:27] perfect fluid energy momentum tensor,
+[54:35] where the perfect fluid has of density rho and pressure p.
+[54:44] And of course, the rho and the p,
+[54:47] they can still depend on the time t,
+[54:52] because that will not destroy anything in one spatial slice.
+[54:57] In the next spatial slice,
+[54:59] the same fluid may have a different density
+[55:01] and a different pressure.
+[55:03] But within the slice,
+[55:05] pressure and density don't vary,
+[55:08] because if they did, it wasn't homogeneous, okay?
+[55:13] So the point is, the modeling assumption is,
+[55:17] the modeling assumption in accordance with our idea
+[55:20] of homogeneity and isotropy is
+[55:22] that the matter we put in the spacetime
+[55:25] have an energy momentum tensor of this form.
+[55:29] Why the rho may be interpreted as a density
+[55:32] may be interpreted as a pressure one can investigate
+[55:36] and has these properties, okay?
+[55:39] That's just the form it has.
+[55:41] So that's our ansatz for the right-hand side
+[55:44] for the very same averaging, large-scale reasons
+[55:49] as we argued for our ansatz on the left-hand side.
+[55:52] Yes?
+[55:54] No, the density, no, no, no, no, no, no.
+[55:57] If I tell all of you, meet in the telephone booth over there,
+[56:02] then I didn't create any matter,
+[56:04] but your density will be highly increased.
+[56:06] Yeah, yeah.
+[56:08] Because you have to flow lines of a vector field,
+[56:12] it's clear even if they do something like this,
+[56:16] then here the density will be higher than down here.
+[56:21] Okay, yes?
+[56:23] I think it's like homogenous, so...
+[56:26] Yes?
+[56:27] So I don't know how the density...
+[56:30] It's spatially homogenous.
+[56:33] And spatially isotropic.
+[56:37] So that's why emphasis...
+[56:39] Sometimes you have to think about
+[56:41] spatially isotropic.
+[56:44] So that's why emphasis...
+[56:46] Sometimes people say isotropic and homogenous,
+[56:48] like I did here at the beginning of the lecture,
+[56:50] I was still more disciplined,
+[56:52] and I said spatially homogenous and spatially isotropic.
+[56:56] I mean, if you assume that the whole space time is homogenous
+[56:59] and isotropic in all the directions,
+[57:01] well, then you...
+[57:02] Okay, we're done, right?
+[57:03] That's the easier problem.
+[57:05] That's for the exam,
+[57:07] for the ones who failed the main exam, right?
+[57:10] Okay.
+[57:11] So it means that at one point,
+[57:13] the whole universe has lower density
+[57:15] and at another, it's higher.
+[57:17] Higher what?
+[57:18] The density.
+[57:19] The matter in it?
+[57:20] Yes.
+[57:21] Yeah.
+[57:22] Yeah.
+[57:23] Well, for instance, if the universe expands
+[57:25] and you keep the same matter,
+[57:27] what is likely to happen?
+[57:30] Okay, good.
+[57:32] Okay.
+[57:33] So that's our ansatz for the right-hand side.
+[57:36] And, well, now we are...
+[57:38] Let me continue because otherwise we're running out of time.
+[57:41] So now let's do the final reduction of the Einstein equations
+[57:46] that follows.
+[57:48] Reduction of the Einstein equations.
+[57:58] Okay.
+[58:00] So, well, how does that go?
+[58:03] Recall that we can write the...
+[58:06] It's not essential, but it's just the way we do it,
+[58:09] that you can rewrite the Einstein equations
+[58:11] as just the Ricci tensor on the left-hand side,
+[58:14] 8 pi G Newton times,
+[58:17] but then you have to modify the T on the right-hand side
+[58:21] by this trace term of the T, right?
+[58:26] It's just this follows from the Einstein equation
+[58:28] by contracting on both sides with G
+[58:31] and what you learn you plug in again.
+[58:34] Then inserting our ansatz for GAB and TAB,
+[58:46] we obtain after a few lines of...
+[58:55] Well, what is it?
+[58:57] A few lines of algebra, whatever it is.
+[58:59] After a few lines,
+[59:01] we obtain the following two equations
+[59:03] from the 00 component.
+[59:06] So if you look at the 00 or the TT component
+[59:09] of the equations up there,
+[59:12] we obtain the so-called acceleration equation,
+[59:15] and that is A double dot.
+[59:18] This is this unknown function A.
+[59:21] A double dot equals minus 4 pi G Newton by 3.
+[59:30] This just comes up times rho plus 3P.
+[59:36] This comes from various contractions there
+[59:39] times the scale factor.
+[59:42] So if you knew rho and P, which you don't,
+[59:45] this would give you A double dot is a factor times A.
+[59:48] But A, rho, P, they all depend on A.
+[59:53] And from the alpha-beta components,
+[59:55] you may hope to get more equations,
+[59:58] but in fact, you get only one independent equation,
+[1:00:01] and that's the so-called Friedmann equation.
+[1:00:04] So this was the acceleration equation,
+[1:00:11] because once you see a double derivative,
+[1:00:13] your instinct is to say acceleration.
+[1:00:16] And here, this one is A dot divided by A squared equals,
+[1:00:23] that's the Friedmann equation,
+[1:00:25] that's 8 pi G Newton,
+[1:00:28] third times rho minus,
+[1:00:33] and now this spatial curvature,
+[1:00:36] which we couldn't decide upon.
+[1:00:38] It could be 0, 1, or minus 1.
+[1:00:40] These are three different possibilities.
+[1:00:42] We have to take them all into account,
+[1:00:44] divided by A squared.
+[1:00:47] This is the so-called Friedmann equation.
+[1:00:50] Now, today we know that it's probably wise
+[1:00:59] to carry with you all along
+[1:01:01] that you don't start from the Einstein equations,
+[1:01:04] but that you add a cosmological constant to it,
+[1:01:07] and adding a cosmological constant adds a term
+[1:01:11] plus lambda third here and here.
+[1:01:18] So if you want a cosmological constant lambda,
+[1:01:21] you have to add this term in both equations
+[1:01:24] on the right-hand side.
+[1:01:32] So the upshot up to this point is
+[1:01:35] for homogeneous and isotropic cosmology
+[1:01:47] with our mainstream cosmology
+[1:01:55] witchcraft super assumption
+[1:01:57] that we do all of this in the right order,
+[1:02:00] we have two equations
+[1:02:06] for three unknowns,
+[1:02:11] A, rho, P.
+[1:02:16] Unowns in the sense of functions of one variable,
+[1:02:19] we don't know,
+[1:02:21] and we have two ordinary equations
+[1:02:23] for three ordinary functions.
+[1:02:28] Problem? It's too little.
+[1:02:33] Yes?
+[1:02:39] In the Einstein action,
+[1:02:42] so S Einstein Hilbert of G
+[1:02:47] is integral over all of M squared minus G R
+[1:02:51] plus two lambda.
+[1:02:55] You put it there because you can.
+[1:02:59] It's not okay.
+[1:03:03] And S, I discussed in my lectures
+[1:03:06] when we derived, when we varied the action,
+[1:03:08] I said they are surface terms
+[1:03:09] and they don't matter for the equation of motion,
+[1:03:11] but they matter for the action and blah, blah, blah.
+[1:03:13] Let's not talk about it.
+[1:03:14] Yesterday Niko Jolini said,
+[1:03:16] well, let's not talk about it.
+[1:03:18] It means that you have to add boundary terms
+[1:03:20] to the action already at that level
+[1:03:22] in order to later on get rid of them.
+[1:03:24] Okay? So that's this.
+[1:03:26] And I discussed this like let's discuss it away
+[1:03:28] because I knew it would come.
+[1:03:29] That's this.
+[1:03:30] But here you put the cosmological constant.
+[1:03:33] Okay.
+[1:03:34] And then you carry this through
+[1:03:36] and then it appears in both of these equations.
+[1:03:38] Not very surprisingly
+[1:03:39] because to every component it contributes the same.
+[1:03:44] Okay, so great.
+[1:03:46] We have the famous Friedman equation.
+[1:03:49] We have the according acceleration equation.
+[1:03:52] Very good, very important,
+[1:03:54] but it's too little.
+[1:03:56] What's missing?
+[1:03:57] That's number five.
+[1:04:00] Models of fluid matter.
+[1:04:05] Perfect fluid matter.
+[1:04:08] Haven't I said already everything about fluid matter?
+[1:04:12] Yes.
+[1:04:13] Any energy momentum tensor
+[1:04:16] with three functions rho and p
+[1:04:18] yields a perfect fluid.
+[1:04:21] However, you might say,
+[1:04:23] hang on, can't you learn more?
+[1:04:25] For instance, if this is a fluid that's dust,
+[1:04:28] what's dust?
+[1:04:29] Dust is the cosmologist's jargon
+[1:04:33] for matter that doesn't interact,
+[1:04:35] that's pressure free.
+[1:04:36] If it doesn't interact the particles,
+[1:04:38] they can't have pressure, right?
+[1:04:40] So if it's pressure free, it's called dust.
+[1:04:43] But pressure free means p is zero.
+[1:04:46] That's certainly constrained on the rho and p.
+[1:04:49] And you could also say
+[1:04:50] what if this is a fluid of photons?
+[1:04:53] If this is a photon fluid.
+[1:04:55] Okay, so question is,
+[1:04:59] can we get a relation
+[1:05:04] between rho and p
+[1:05:10] because such a relation
+[1:05:13] would close the system.
+[1:05:15] We already have two equations.
+[1:05:17] If we had a third for rho and p,
+[1:05:19] it would suffice to solve the system.
+[1:05:22] So can we get a relation
+[1:05:23] between rho and p
+[1:05:25] from more detailed knowledge
+[1:05:33] of what the nature of the fluid is?
+[1:05:45] And that again,
+[1:05:46] so now that seems to entail,
+[1:05:47] in fact it does,
+[1:05:49] exactly this task of saying,
+[1:05:51] I have a solution of Maxwell's equation
+[1:05:53] with many photons going around,
+[1:05:55] and now I need to average
+[1:05:56] in order to talk about pressure,
+[1:05:58] in order to talk about density.
+[1:06:03] But in fact there is a quick route
+[1:06:05] because anything that's true
+[1:06:07] can be used to extract information, right?
+[1:06:10] So if we know that the exact energy momentum tensor,
+[1:06:14] exact for electromagnetism,
+[1:06:20] so I take the energy momentum tensor for Maxwell
+[1:06:23] and it contains the A mu field, right,
+[1:06:25] and the metric and so on,
+[1:06:27] and I use an exact solution,
+[1:06:29] so I need to plug in some solution.
+[1:06:31] Let's say that's an exact solution I put in,
+[1:06:34] then I know that if I contract,
+[1:06:39] it's trace-free.
+[1:06:41] That's just a property.
+[1:06:42] You can look at the,
+[1:06:43] well you don't even need to put in an exact solution anyway,
+[1:06:46] it's trace-free, okay?
+[1:06:49] Now if you average and it's a linear theory,
+[1:06:52] well that's a very rough argument,
+[1:06:54] this will not change.
+[1:06:56] So if, hence,
+[1:07:00] if TAB, the fluid tensor,
+[1:07:05] for our perfect fluid,
+[1:07:07] is supposed to describe
+[1:07:14] a photon fluid, say.
+[1:07:19] So I'm very lax here with writing photon,
+[1:07:22] although we're talking about classical theory,
+[1:07:24] then it better had,
+[1:07:28] it better had vanishing trace.
+[1:07:34] But what is the trace of the fluid tensor?
+[1:07:37] You can calculate it.
+[1:07:38] It's rho plus 3p.
+[1:07:40] Just go into its definition,
+[1:07:42] you contract, you use what you know about your,
+[1:07:45] no, rho minus 3p it has.
+[1:07:49] Okay, let's calculate it.
+[1:07:50] So it has rho plus p, ua, ub,
+[1:07:55] plus pgab, right?
+[1:07:58] That's what we said was the energy momentum tensor,
+[1:08:00] and now we contract it.
+[1:08:02] So the u in our signature,
+[1:08:04] minus plus plus plus,
+[1:08:06] the u is a normalized vector field up there.
+[1:08:08] I should have written that there.
+[1:08:10] Thank you for not deleting this yet.
+[1:08:12] Well, no, but with our metric in this choice,
+[1:08:14] it is, has length minus one.
+[1:08:16] So you get minus rho minus p
+[1:08:22] plus 4p, right?
+[1:08:26] So this is minus rho plus 3p is zero.
+[1:08:32] That is, p equals a third rho.
+[1:08:38] Agree?
+[1:08:42] So by making additional,
+[1:08:45] by putting in additional information
+[1:08:47] about where this fluid comes from,
+[1:08:49] and I mean this is nice that in this case
+[1:08:52] it works so easily, right?
+[1:08:54] You can make this.
+[1:08:56] So this is the so-called equation of states,
+[1:08:59] so definition.
+[1:09:01] A relation where the little p is given as a function,
+[1:09:06] capital P of the rho is called an equation of state
+[1:09:17] for the perfect fluid, okay?
+[1:09:22] And, well, then you can, of course, start modeling.
+[1:09:26] So this is calculated in a sense,
+[1:09:28] but needs to be careful, one can do this.
+[1:09:30] And you may know this for photon gas
+[1:09:33] from statistical physics, right?
+[1:09:35] It's consistent.
+[1:09:38] And often, whatever that means,
+[1:09:43] one often looks at merely linear equations of state.
+[1:09:54] Why?
+[1:09:55] Well, because they're particularly simple to analyze,
+[1:09:58] and then one has a little omega here,
+[1:10:01] P equals omega rho for omega being a constant.
+[1:10:05] You can say, okay, for this case of the photon fluid,
+[1:10:09] that's a good generalization.
+[1:10:13] But anyway, what kind of matter can I get with this?
+[1:10:18] So the matter fluid I get for omega equals one-third
+[1:10:24] is a radiation fluid.
+[1:10:26] Okay, that's nice because radiation may play a role.
+[1:10:29] It's also omega equals one-three for relativistic,
+[1:10:34] relativistically fast, relativistically momentous particles.
+[1:10:44] So if you say, well, they're not photons, they're massive,
+[1:10:47] but they're so fast, I mean the situation where they're so fast,
+[1:10:51] so momentous that I need relativity to describe them properly,
+[1:10:57] then the omega equals one-third is a good approximation
+[1:11:01] if they constitute a fluid of the desired properties.
+[1:11:04] Then omega equals zero, I already mentioned,
+[1:11:07] is what people call dust because it just means
+[1:11:10] you set the pressure to zero.
+[1:11:12] There's no more interaction.
+[1:11:14] That's dust.
+[1:11:15] And you can formally, you can take the cosmological constant
+[1:11:19] where you say, hang on, the cosmological constant
+[1:11:22] is no matter in the first place.
+[1:11:24] Yes, but you can treat it as if it arose from there
+[1:11:28] and you formally give it an omega of minus one
+[1:11:32] and then you don't need to think of the cosmological constant
+[1:11:35] as being of a special type because it is contained,
+[1:11:39] it can be absorbed into the energy momentum tensor of a fluid
+[1:11:43] where the constitutive relation is P is minus rho.
+[1:11:48] So the pressure is negative.
+[1:11:50] Cosmological constant, the assumption of a cosmological constant
+[1:11:54] is equivalent to saying you have a fluid of everywhere
+[1:11:58] negative pressure, namely minus rho.
+[1:12:03] Yes?
+[1:12:04] What again is the physical meaning of the one-third place of the energy momentum tensor?
+[1:12:09] The physical meaning is that I want,
+[1:12:13] there's no physical meaning to the trace.
+[1:12:15] Well, there is, but for the purpose of this argument,
+[1:12:18] there is no physical meaning to the trace.
+[1:12:20] I nevertheless look at the trace because I know
+[1:12:23] that for the Maxwell energy momentum tensor, the trace vanishes.
+[1:12:27] If I now think of a fluid that consists at a fast scale,
+[1:12:31] there's lots of little photons whirling around.
+[1:12:34] I also impose this condition here with the hand-waving argument I made
+[1:12:39] in order to find this relation here,
+[1:12:42] which you however find from statistical physics as well.
+[1:12:45] If you look at the photon gas, you will find this relation
+[1:12:49] and that's probably a calculation that doesn't require so much hand-waving as this.
+[1:12:54] Okay?
+[1:12:55] Nevertheless, it's true.
+[1:12:56] It's a quick way to see this and it's in the spirit of making models.
+[1:13:08] Yeah, that's true.
+[1:13:10] So there are certainly some constants in between,
+[1:13:13] which I set all to the appropriate value for them to vanish.
+[1:13:20] Yeah, yeah, yeah.
+[1:13:21] There may be some c-squares around here, here, maybe or something, right?
+[1:13:24] Okay.
+[1:13:25] You can reinsert, right?
+[1:13:27] I mean, that's, won't look at that.
+[1:13:29] Okay.
+[1:13:30] So you can reinsert all the missing constants.
+[1:13:34] Okay.
+[1:13:35] But the factors are right, right?
+[1:13:37] Okay, that's important.
+[1:13:38] And all that's missing to match the dimension.
+[1:13:40] So I don't say it's correct up to factors of 2 pi, 1 over pi, and so that's not it.
+[1:13:44] So the factors are all right.
+[1:13:46] It's just the dimensions.
+[1:13:48] You have to reinstate by reinstating the right combination of the fundamental constants.
+[1:13:54] Okay.
+[1:13:55] So we have this model and so we have this little table here.
+[1:14:00] You can even capture the effect of spatial curvature.
+[1:14:04] You know, we had to carry with us the cosmological constant
+[1:14:08] and we had to carry with us the spatial curvature, kappa, remember?
+[1:14:12] And the point is you can even capture the spatial curvature
+[1:14:16] by putting here minus one-third, probably kappa-third or something, right?
+[1:14:22] You can put this here and so you capture the spatial curvature.
+[1:14:29] What does that mean?
+[1:14:30] Well, you can treat the cosmological constant as spatial curvature,
+[1:14:34] which came in as funny parameters in the derivation.
+[1:14:37] In the end, you say, forget about them and treat them as if they were matter
+[1:14:41] and you can because if you, the terms you produce
+[1:14:45] by using matter following such a linear equation of state,
+[1:14:49] putting these omegas mimics these objects, okay?
+[1:14:56] So then you can forget about them and take them in the list of possible matter types,
+[1:15:00] possible matter contributions.
+[1:15:02] Okay.
+[1:15:03] So that you can easily check.
+[1:15:05] We'll do that.
+[1:15:16] I'll show you how to do that in the next lecture.
+[1:15:19] Okay.
+[1:15:23] Okay.
+[1:15:24] So those were the models of fluid matter.
+[1:15:27] Now, let me now show you the following.
+[1:15:31] That's section, yeah, that's still section models of fluid matter.
+[1:15:35] Let's make it a section six.
+[1:15:39] Solutions.
+[1:15:42] So if you take the acceleration equation plus the Friedmann equation,
+[1:15:48] well, it's not plus, it's an and.
+[1:15:50] And the Friedmann equation and the equation of state
+[1:15:56] or an equation of state.
+[1:15:58] So let's do this for one type of matter first.
+[1:16:02] Next lecture we'll do several types at the same time.
+[1:16:05] It's very beautiful.
+[1:16:06] So if you take these three for the time being with one such matter type,
+[1:16:21] with such I mean P is omega row for some row constant.
+[1:16:29] Okay.
+[1:16:32] If you take these two together, you can solve the system
+[1:16:38] because now you have three equations for three unknown functions,
+[1:16:45] three ordinary differential equations where one is already solved in that sense.
+[1:16:49] And in the tutorials you will show.
+[1:16:55] In the tutorials you will show the following.
+[1:16:58] For omega equals constant.
+[1:17:01] Well, I overemphasize this a little.
+[1:17:04] Omega is always constant in our case.
+[1:17:06] And vanishing spatial curvature and vanishing cosmological constant.
+[1:17:12] We'll let them all vanish.
+[1:17:14] Okay.
+[1:17:15] And then we take one matter type.
+[1:17:17] Let's reinstate now the curvature by putting the omega to minus kappa third or something.
+[1:17:23] Okay.
+[1:17:24] So first delete this in the original approach.
+[1:17:26] And now you may choose any one component.
+[1:17:28] Or you take pressureless dust or you take the radiation fluid, whatever.
+[1:17:36] One can show the following things.
+[1:17:42] It's always true that the so-called Hubble function,
+[1:17:47] which I will only introduce later again,
+[1:17:50] but the Hubble function just is the short form for writing a dot over a.
+[1:17:55] That's it.
+[1:17:56] People call it the Hubble constant, but it may not be so constant.
+[1:18:00] Hence we call it the Hubble function.
+[1:18:02] The Hubble function squared is always proportional to the density of the matter.
+[1:18:09] Remember, the solution you get is you get the rho of t, the p of t and the a of t all together.
+[1:18:16] But whatever the matter type, this matter type of this linear form of state equation,
+[1:18:21] you always have this and you always have that the rho is a to the minus n of omega.
+[1:18:29] What is n of omega?
+[1:18:31] Where, and you will see in the tutorials why this is what comes out of the solution,
+[1:18:37] the n of omega is the following expression is three times one plus omega.
+[1:18:44] That number plays a big role.
+[1:18:46] So the density always goes in time as the scale factor to the minus three one plus omega goes in time.
+[1:18:56] So this is the first thing.
+[1:18:58] The second thing is, concretely, how does the scale factor a of t evolve?
+[1:19:11] Well, it goes like some a zeros at some constant you start with times and then there are two possibilities.
+[1:19:19] One possibility, only two possibilities.
+[1:19:22] One possibility, it goes like t to the two by n omega.
+[1:19:32] Sorry, minus two, right?
+[1:19:40] Okay, let me, let me think it's, for instance, it must work for the, that's right,
+[1:19:44] without the minus and it must work for the meta type say for dust two thirds.
+[1:19:52] Yes, that's right.
+[1:19:53] Yeah, yeah, yeah, yeah, that's right.
+[1:19:55] Square root, third root and so on.
+[1:19:57] Yeah, that's right.
+[1:19:58] It goes like this, but only if omega is not equal to one.
+[1:20:02] You will find from the solution of the equations that for omega equals minus one, this is not the solution,
+[1:20:08] but for all other omegas, this is the solution.
+[1:20:10] Omega determines what meta type you have.
+[1:20:13] And otherwise, you have e to the h t for omega equals minus one.
+[1:20:19] You remember that was the cosmological constant.
+[1:20:23] That is, if the meta is given by a cosmological constant.
+[1:20:26] And in that case, it also follows that this h is constant as you can easily see because it's h e h t by e h t is h.
+[1:20:38] H is a constant that's consistent, right?
+[1:20:40] Okay, so you have these two possibilities.
+[1:20:42] So apart from the fact of a cosmological constant, if you say your meta is a cosmological constant,
+[1:20:49] which is an extension of this concept, all the solutions to the Friedman equation for an equation of state that's linear is a power law solution.
+[1:21:00] That's not an approximation.
+[1:21:02] This is not an ansatz.
+[1:21:03] This is an exact result in homogeneous and isotropic universe.
+[1:21:08] Now, this has the most remarkable implications and deserves an extra half blackboard,
+[1:21:15] but then we're done observation for all meta types.
+[1:21:27] Unless it's a cosmological constant, it's true that the row of t, that was the a of t,
+[1:21:34] that the row of t goes like t to the minus two because you see for all meta types,
+[1:21:42] unless it's a cosmological constant, it goes like t to the two by n,
+[1:21:46] by the row goes like the a to the minus n of omega that gives you a t to the minus two.
+[1:21:54] So for all meta types, other than a cosmological constant, the density goes in time like one over t squared for all meta types.
+[1:22:03] That's a certain stability result.
+[1:22:06] It doesn't matter precisely what the omega is.
+[1:22:10] You might worry, oh, if the omega is a third, then I have radiation.
+[1:22:14] But what if it is a third plus a hundredth?
+[1:22:17] What crazy stuff is happening?
+[1:22:19] Well, other solution, you get other evolution of the universe,
+[1:22:22] but the evolution of the density of the fluid always goes like this.
+[1:22:28] It goes like that.
+[1:22:30] What does that mean?
+[1:22:32] It means that at t equals zero, the density of matter explodes.
+[1:22:45] Boom.
+[1:22:50] This is the boom.
+[1:22:56] This is the big bang.
+[1:22:59] We just calculated that in a homogeneous and isotropic universe,
+[1:23:03] for whatever matter fluid you fill it with, if the equation of state is linear,
+[1:23:10] at some point in time, which turns out to be t equals zero in our choices here,
+[1:23:17] you could have always introduced an offset and of course it doesn't matter how you label it,
+[1:23:21] but there is a certain time where the density explodes
+[1:23:26] because the density explodes, the right-hand side of the Einstein equation explodes,
+[1:23:30] because the right-hand side explodes, the left-hand side explodes.
+[1:23:33] The left-hand side is a curvature.
+[1:23:35] If the curvature explodes, I mean it's a very quick argument,
+[1:23:37] but it's finally correct if you fill in all the mistakes.
+[1:23:41] If the curvature explodes, the curvature is a tensor.
+[1:23:45] Well, actually I'm talking about...
+[1:23:47] Anyway, so the curvature is a tensor, the curvature explodes.
+[1:23:50] The Ricci curvature will explode,
+[1:23:53] but if a tensor explodes in one coordinate system, it explodes in any coordinate system,
+[1:23:59] and that means that point cannot be a point of space-time.
+[1:24:04] So we have chosen this t-coordinate,
+[1:24:07] we had these nice pictures with all these spatial sections,
+[1:24:11] and then the coordinates here.
+[1:24:13] It turns out, down here, there is a hard wall, we can't go down here in time.
+[1:24:21] I mean, very roughly speaking.
+[1:24:23] But then you look at what that means, what a t equals zero, what is the A?
+[1:24:28] Oh, the A is zero, so the metric becomes also non-invertible.
+[1:24:33] Okay, and you have to check exactly what happens there.
+[1:24:36] It turns out this is really the beginning of space and time.
+[1:24:42] If you ask what was before t equals zero,
+[1:24:47] I ask you, what are you talking about?
+[1:24:50] Because before is a question you can ask if you have a world line of an observer,
+[1:24:55] and he is here, and you can only ask what was before that point for that observer,
+[1:25:02] then you refer to maybe the point here, or the point here, right?
+[1:25:06] But if that point doesn't belong to the space-time,
+[1:25:11] and you have an observer that nevertheless comes from there,
+[1:25:14] talking very metaphorically, but it's not so wrong,
+[1:25:17] comes from there, you can ask here what was the second before, and then you're here.
+[1:25:23] But once you're here, you can no longer ask what was an hour before,
+[1:25:29] because there was no before, there was no observer who could talk about his clock
+[1:25:37] having shown an earlier time, you know, his clock having shown earlier time.
+[1:25:43] It's the Big Bang.
+[1:25:45] So we find from Einstein's equations and these innocent assumptions,
+[1:25:49] apparently innocent assumptions of homogeneity and isotropy,
+[1:25:52] that for metamodels, if they have a linear equation of state at least,
+[1:25:59] that there's this singularity, which we call the Big Bang.
+[1:26:03] Yes?
+[1:26:04] It's a singularity within this theory.
+[1:26:07] Yes.
+[1:26:08] I mean, if all the Einstein theory breaks down, so then...
+[1:26:13] Obviously.
+[1:26:14] Yeah, maybe there is another theory which can describe it.
+[1:26:18] That's absolutely right.
+[1:26:19] And at the same time, please, mercury procession.
+[1:26:22] Yeah, that's exactly right.
+[1:26:24] Of course, that's the name of the game.
+[1:26:26] It's within the theory, post-dicts, the Big Bang.
+[1:26:32] Yes?
+[1:26:33] Yes.
+[1:26:34] Yes.
+[1:26:35] Right.
+[1:26:36] So there's the very natural questions, a very natural question.
+[1:26:51] What if you go beyond these very special equations of state laws?
+[1:26:55] And one could also...
+[1:26:57] So that's the first question.
+[1:26:59] The second question is, okay, even for this linear equation of state laws,
+[1:27:03] we made symmetry assumptions that are very special, isotropy.
+[1:27:09] Isotropy, in a sense, already seems to point at a central point,
+[1:27:13] but at every point somehow.
+[1:27:15] And the question that was very justified was,
+[1:27:20] is the symmetry assumption, is the singularity and artifact
+[1:27:25] of the assumption of perfect symmetry?
+[1:27:28] You could ask the same question in the Schwarzschild solution.
+[1:27:31] You do spherically symmetric.
+[1:27:33] You assume spherical symmetry and statisticity or stationarity.
+[1:27:37] Right?
+[1:27:38] Then you get the Schwarzschild solution.
+[1:27:40] Is the Schwarzschild singularity at r equals 0, roughly speaking?
+[1:27:46] That's not the r of the Schwarzschild coin.
+[1:27:48] Anyway, so there's a singularity in Schwarzschild.
+[1:27:50] Is that singularity an artifact of the assumption of exact symmetry?
+[1:27:56] Now, some people might say, okay, who cares, but nevertheless it's there.
+[1:28:01] Yes, but if we make an assumption of symmetry,
+[1:28:04] it's always ignoring the fact that the world isn't really symmetric.
+[1:28:08] Even if you calculate a star and there is an electron flying past 10 light years away,
+[1:28:16] then the symmetry is broken.
+[1:28:19] Right?
+[1:28:20] Do you really want your physical predictions to depend on whether 10 million light years away
+[1:28:26] an electron is flying by?
+[1:28:28] No.
+[1:28:29] Predictions of that sort that rely on a precise symmetry, for instance, to obtain,
+[1:28:36] that rely on that are usually physically worthless.
+[1:28:41] They look good mathematically and they're physically totally meaningless.
+[1:28:45] So it's an extremely important question to see whether features as important,
+[1:28:51] may say philosophically important as singularities, big bang and so on,
+[1:28:56] whether they're real physical features or they're artifacts of our simplification.
+[1:29:01] And that was exactly the task that Hawking, Penrose and others post themselves
+[1:29:06] in studying singularity theorems.
+[1:29:09] They asked, under what general assumptions, without assumptions you can't do it,
+[1:29:14] but under what general assumptions on the energy momentum tensor,
+[1:29:19] can I conclude that there are symmetries?
+[1:29:24] And so they did not impose very special state laws for energy momentum tensors of perfect fluids.
+[1:29:32] They said, for any energy momentum tensor that has the following properties.
+[1:29:37] Okay, now it depends on what you call a good energy momentum tensor.
+[1:29:41] Dominant energy condition, strong energy condition, your favorite energy condition.
+[1:29:46] Okay, you need to impose conditions, otherwise you can't prove theorems.
+[1:29:50] And then you may argue physically whether these are good conditions that should apply to all matter.
+[1:29:54] But assume you've done that, you say the dominant energy condition is good for me.
+[1:29:59] And then they showed that with a suitable definition of singularity,
+[1:30:03] namely roughly the one I drew here, that world lines end there at finite proper time going backwards,
+[1:30:10] very roughly speaking, also subtle different definitions you can make.
+[1:30:16] They show generically, in Einstein's equations, under certain energy assumptions,
+[1:30:20] under this definition of singularity, there are always singularities.
+[1:30:25] And this is a very rough statement of what they showed.
+[1:30:28] But so your question, what happens actually away from a special model,
+[1:30:33] are singularities still there or are they an artifact?
+[1:30:36] The deep answer to this and the celebrated answer to this is given in the singularity theorems.
+[1:30:42] For precisely the motivation you asked for.
+[1:30:46] Yeah.
+[1:30:47] Are there also state equations that have the effect that this function a becomes zero
+[1:30:52] in a time that is maybe later than zero?
+[1:30:55] Yeah, the zero doesn't mean much because actually, I mean, okay, so extend.
+[1:31:00] I mean, then it was zero and then it goes up and then it gets zero.
+[1:31:04] Oh, yeah, yeah, yeah.
+[1:31:05] So you can look at the late universe.
+[1:31:07] I look here at the early universe, right?
+[1:31:09] But depending on what you do and how you fill the universe with several types of matter,
+[1:31:14] I mean, here it will always go like this.
+[1:31:18] It depends on what you, well, it depends on the omega, what this does later on.
+[1:31:22] But if you put several types of matter, some types, if you put them at the same time,
+[1:31:27] some we will find out in the next lecture, will dominate at early time and not dominate at later time.
+[1:31:32] But you don't need to postulate this.
+[1:31:34] The theory tells you which matter type dominates in which epoch of the universe.
+[1:31:40] So epoch is just a rough idea early, middle, late or something.
+[1:31:44] And the equations tell you, you don't need to model that.
+[1:31:47] We'll do that in the next lecture.
+[1:31:48] Yes.
+[1:31:49] I mean, already if you assume a certain size for the universe, you would not have the homogeneity condition anymore.
+[1:32:02] If you would assume a certain, no, what do you mean, a certain spatial extension?
+[1:32:07] Spatial extension.
+[1:32:08] On a sphere, I can perfectly be homogeneous, right?
+[1:32:12] The spatial slice could be flat through space, a sphere or a saddle.
+[1:32:18] The sphere is compact.
+[1:32:20] But if you assume a certain size, spatial extension of the universe, so it only...
+[1:32:27] At one time?
+[1:32:28] Yeah, at one time.
+[1:32:29] And at another time?
+[1:32:30] Yeah, but at one time, so then it's not homogeneous anymore, is it?
+[1:32:34] No, of course.
+[1:32:35] Well, the geometry is homogeneous because I can go...
+[1:32:39] I mean, you tell me which point of the sphere is which, right?
+[1:32:43] It's homogeneous.
+[1:32:44] It's the same on the saddle.
+[1:32:45] You might think, oh, you know where the...
+[1:32:47] But a real saddle, you go to any other point, and it also looks like the saddle.
+[1:32:52] If it's a saddle of this type.
+[1:32:54] Not a saddle of that one.
+[1:32:56] It's mass creates curvature.
+[1:32:58] Mass creates curvature.
+[1:32:59] Well, but that's taken care of...
+[1:33:01] No, yes, of course it is because we put it by force from outside that we only look at homogeneous spacetimes in that sense.
+[1:33:09] But it's not in agreement with an inhomogeneous mass distribution.
+[1:33:13] But it isn't.
+[1:33:14] The mass distribution isn't inhomogeneous.
+[1:33:16] The mass distribution is homogeneous, too, because the rho and the p only depend on the time, but not on the position.
+[1:33:21] It's homogeneous and isotropic spatially, not spacetime.
+[1:33:26] Yes, spatially, but if we assume a certain extent for a universe and that the matter is limited in some region, then it's not...
+[1:33:34] It's not limited in some region.
+[1:33:36] The whole universe is filled homogenically...
+[1:33:39] So it is so nice when you assume a size that the mass ends somewhere...
+[1:33:46] No, no, no, no.
+[1:33:48] Okay, now I know what I mean.
+[1:33:50] So you say if you have kappa equals zero, so you have that or the saddle, and then the mass would only fill part of the space at any time.
+[1:34:00] Then you're right.
+[1:34:01] But that is not in accordance with our assumption of a perfect fluid, which is homogeneous and isotropic.
+[1:34:08] Yes, that's right.
+[1:34:09] So what you're saying is if we violate the assumption that the matter distribution is also homogeneous, then our whole ansatz doesn't work.
+[1:34:17] Yes, of course.
+[1:34:18] It's such an oscillating universe also if you assume...
+[1:34:21] No, oscillating is in time.
+[1:34:22] It can be at any time homogeneous.
+[1:34:24] But then it doesn't mean... it doesn't come to that key dependence because it's only for a homogeneous universe.
+[1:34:32] So if you have an inner homogeneous mass distribution, maybe you have a completely...
+[1:34:38] I think you're not taking care of what homogeneous really means in our context.
+[1:34:43] I think if I may answer, if I get you right, I think you say we have a universe of a certain size, but still in this universe everything is homogeneous.
+[1:34:53] You don't look outside.
+[1:34:55] You don't look from outside onto the universe and say outside there's nothing in there, something.
+[1:35:00] That's why it's not homogeneous, but inside this universe of whatever size it's homogeneous.
+[1:35:05] So of the three types of universes, kappa equals zero, kappa equals positive, is positive or kappa is negative, okay?
+[1:35:12] Of the three types, only one type, namely the kappa positive where it's a sphere spatially, only there you can say the universe has a finite volume.
+[1:35:22] Spatial volume, because it's the surface of the three sphere which has a volume.
+[1:35:29] But the surface of the plane or the surface of the saddle is infinity.
+[1:35:36] So if you say if the universe has a finite size, you mean the spatial slices have a finite size.
+[1:35:44] A finite size that can change with time, but at any time is a finite size, you're in the kappa equals one cosmology.
+[1:35:52] Yes?
+[1:35:55] Pardon me?
+[1:35:57] A torus.
+[1:35:59] An apple.
+[1:36:01] Sorry, so you say a torus, maybe.
+[1:36:09] Is a torus a possible solution?
+[1:36:12] Is a torus six keeling back to fields?
+[1:36:17] No.
+[1:36:20] The three torus, I don't think so.
+[1:36:22] What?
+[1:36:31] And you equip this with a flat metric and you rotate.
+[1:36:45] Yes, that's right.
+[1:36:48] I mean, I don't think the torus has these six keeling vector fields, I wrote down.
+[1:37:01] Well, it needs six keeling.
+[1:37:03] So the two torus, the two torus, if they're embedded, say equip with embedded one, then you have here, you have a negative curvature inside.
+[1:37:18] No.
+[1:37:28] It doesn't have the six keeling vector fields.
+[1:37:31] I don't think it does.
+[1:37:33] So you're talking about the three torus as one cross as one cross as one with a metric of your choice.
+[1:37:39] Well, let's think about it.
+[1:37:40] It shouldn't have the six keeling vector fields.
+[1:37:43] Yes?
+[1:37:48] A little louder, please.
+[1:38:02] If you were able to walk purely spatially, which you're not because you're in the cone, right?
+[1:38:09] I mean, if this is your spatial slice and the next spatial slice looks like that and so on,
+[1:38:15] you know the cone will stand here like this on it.
+[1:38:18] It's difficult to picture.
+[1:38:20] You cannot move purely spatially.
+[1:38:23] But if you could, at infinite speed or whatever, then yes, you would return to where you were.
+[1:38:31] That's right.
+[1:38:32] But because you have to stay within the cones, that's not so trivial.
+[1:38:37] Yes?
+[1:38:46] For instance.
+[1:38:53] That would be one.
+[1:38:54] Yeah.
+[1:38:55] So I think it's not over.
+[1:38:57] I mean, let's check it in detail.
+[1:38:59] I think these six keeling vector fields could never be one of the torus.
+[1:39:06] Are there any further questions?
+[1:39:09] That's not the case.
+[1:39:10] Let's reconvene at a quarter past and that will be a much shorter lecture.
+[1:39:15] Thank you.

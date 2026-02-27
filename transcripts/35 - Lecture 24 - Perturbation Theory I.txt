@@ -1,0 +1,776 @@
+[00:00] This program is being presented to you by the Haraeus International Winter School on Gravity and Light.
+[00:13] So good morning and welcome to lecture number 24. Today we turn to perturbation theory.
+[00:19] So far we solved or we aspire to solve Einstein's equations exactly,
+[00:24] but indeed in situations of too little symmetry.
+[00:37] On the one hand, and you know that so far we use symmetry as a key ingredient in obtaining solutions to Einstein's equations.
+[00:44] So in situations of too little symmetry or too complicated energy momentum tensors,
+[00:54] which in some sense is the same thing, we cannot solve exactly.
+[01:09] And it doesn't matter really why we can't solve because our theory of partial differential equations is not good enough
+[01:16] because we don't have enough tools or because we personally are not able to do it.
+[01:21] It doesn't matter. We cannot solve the equations.
+[01:28] GAB, which depend on the metric on the left hand side functionally equals TAB,
+[01:37] which also depends on the metric and on some matter on the right hand side exactly.
+[01:43] And I do not want to carry with me all these constants all the time.
+[01:48] I anyway always wrote them down incompletely.
+[01:51] So all constants reinstated. I have this factor here on the right hand side.
+[01:57] And by appropriate choice of units, I set this to 1, but you can always reinstate it.
+[02:03] So we look just at the structure of the equations.
+[02:07] So we cannot solve this exactly.
+[02:09] And that's quite a shame because there are many interesting situations in general relativity that we would like to calculate.
+[02:17] So for instance, so that's a shame.
+[02:24] For instance, we would like to understand the gravitational field.
+[02:38] Well, if in general relativity one says the gravitational field, one always means the metric.
+[02:44] Although strictly speaking, the metric is the gravitational potential of the theory
+[02:49] and the gravitational field strength is the Riemann tensor.
+[02:54] But anyway, we'd like to understand the gravitational, well, let me write potential.
+[03:01] That's essentially the metric G within a rotating sphere.
+[03:10] And this is just one example, but it's a particular important one within a rotating sphere.
+[03:18] So what's the idea?
+[03:23] Imagine I have empty space otherwise, but then I put here a sphere of matter.
+[03:32] So this is some matter of homogeneous density here.
+[03:38] It's the total mass m.
+[03:43] And it just sits there.
+[03:47] Well, you say this highly symmetric, if it's a sphere, well, maybe we can solve this.
+[03:52] By the way, if we solve this in Newtonian gravity theory, what is the gravitational potential inside?
+[04:00] Zero.
+[04:01] Zero or constant?
+[04:02] Yeah, it doesn't make a difference.
+[04:03] It's zero.
+[04:04] Okay.
+[04:05] And outside, if you go away, it's 1 over R, the potential, right?
+[04:10] 1 minus 1 over R.
+[04:12] That's right.
+[04:13] So that works by the Poisson equation.
+[04:17] Laplace phi equals rho.
+[04:19] And rho is this distribution, right?
+[04:21] Now, however, let this sphere start to rotate with a constant angular velocity.
+[04:34] Let it rotate.
+[04:37] What does Newtonian theory predict for the potential inside?
+[04:42] No change.
+[04:43] No change.
+[04:44] Well, the Poisson equation doesn't even feel the thing is rotating.
+[04:50] Because if this is a homogeneous mass distribution, all the Poisson equation knows that there's still this distribution rho, and that's not changing.
+[05:00] Well, general relativity does feel that the right-hand side is rotating because here the zero-zero component of the energy momentum tensor, roughly speaking, contains the rho.
+[05:12] And then these vector components in the mixed components here in the zero-beta and the alpha-zero, but also the alpha-beta, they feel this energy momentum tensor feels this current, this mass current running.
+[05:27] The current is stationary, but there is a current, right?
+[05:31] So we might expect that general relativity feels the sphere rotating.
+[05:38] And in fact, it does.
+[05:41] But if you think of this as the fixed stars far away from you, okay, and assume the fixed stars, which Mach is talking about, is rotating like this, right?
+[05:55] What would that mean for my inertial system?
+[05:58] Well, general relativity predicts it would here mean to be inertial if my spatial frame would rotate with them.
+[06:07] Newtonian theory can't do that.
+[06:10] In general relativity, it happens, okay?
+[06:13] And we would like, and there was one of the motivations of Einstein in thinking about Mach's principles and so on, and that's a very complicated discussion.
+[06:22] But so if you want to see what Mach really said and whether it's really implemented in GR, but this goes very close to what we're talking about, it would like to understand what's going on.
+[06:33] The point is as soon as I let this thing rotate, or the latest when I let the thing rotate, I do not immediately know how to solve this exactly, okay?
+[06:44] Situations like this, or even more complicated situations, we would love to extract the physics from that, okay?
+[06:51] So that is something we would like to do.
+[06:55] So the theory we are going to develop is the perturbation theory.
+[07:02] Perturbation of exact solutions.
+[07:15] Assume that an exact solution G is known.
+[07:20] Assume that an exact solution G to some equations, or some Einstein equations.
+[07:38] GAB, depending on G equals TAB of G is known.
+[07:50] That means I put an energy momentum tensor and I know a metric that solves this exactly.
+[07:59] Well, right, where the components in terms of component functions.
+[08:17] GAB of G with respect to some coordinate charts.
+[08:27] So I would be happy if I had the solution in some chart, because if I have it in some chart, I have it abstractly.
+[08:37] Now comes the idea, or now comes the wish, then it would be nice to be able to find the, or to extract the gravitational field, or the gravitational potential.
+[09:07] Which I call GAB plus delta GAB, that solves, so again this G is given, right, that solves the equation GAB.
+[09:35] Now the Einstein tensor is built of this new gravitational potential.
+[09:44] G plus delta G equals TAB G, that's the one we had before.
+[09:52] But now I can provide a perturbation of the right hand side.
+[10:00] That solves the equation, where delta TAB is a small perturbation of the right hand side of the equation.
+[10:19] So what's the idea?
+[10:20] Well, let's go back to our example of this shell.
+[10:23] If I remove the shell, I have just empty space, I can solve the vacuum equation.
+[10:31] So that would be the equation where the right hand side, as a special case, is given as zero.
+[10:39] I immediately know a solution of this, I can choose G to be the flat metric.
+[10:45] Because this is all proportional to the first and second derivatives of G, that solves this.
+[10:55] So G equals eta, which in some charts takes the form one minus one minus one minus one, is an exact solution.
+[11:08] And now I can ask a more modest question, namely what if I add a shell, which has a rather small total mass, and which rotates rather slowly.
+[11:24] If I do that, and I add this shell, I get a small perturbation of the energy momentum, putting a not so massive shell that's not rotating so fast.
+[11:39] Because then the energy density in here, and the current density in here, will be small.
+[11:46] So that would qualify as a small change on the right hand side.
+[11:51] I already have an exact solution, and what I'm now looking for is for a slight deviation from this exact solution.
+[12:01] Such that this equation is then satisfied once I write here G, or in this case eta, plus delta G.
+[12:11] Okay, that's the idea.
+[12:13] We want to look at more complicated situations, and we want to see whether we can start from an exact solution without perturbation to get a solution of the perturbed system.
+[12:26] It's a very straightforward question to ask.
+[12:31] Yes?
+[12:32] No, no, because the point is the delta G appears also in the energy momentum tensor, there's also the matter fields in here.
+[12:43] And the perturbative idea is that here you do not need to know the plus delta G yet.
+[12:50] So it's a small, so that's the whole idea.
+[12:55] Okay, we'll see this in practice, and then you'll see.
+[13:00] Okay, so if the right hand side perturbation delta TAB of G is sufficiently small,
+[13:16] then the perturbation delta G one requires can be made or can is arbitrarily, arbitrarily small.
+[13:39] If I only deviate very little, because of continuity, I'm allowed to expect that the delta G would only need to be changed very little.
+[13:50] If that was not the case, then the whole equations wouldn't make sense physically anyway.
+[13:54] If the slightest perturbation on the right hand side would let our exact solution be in runaway.
+[14:05] How can you know that the equation is nonlinear?
+[14:10] Yes, you have to check for every exact solution that you get, you have to check stability.
+[14:16] And you may use this perturbation theory for that as well.
+[14:19] So if you calculate the Schwarzschild solution, and well it's proven that the Schwarzschild solution is stable.
+[14:27] But for instance in linear perturbation theory, it could already be that you perturb a little bit, and boom, the solution runs away.
+[14:35] Well then the exact solution is an exact solution, but it's of no physical value, because you never have the exact symmetry, for instance, in nature.
+[14:45] So your idealizations, so the theory must be stable under slight perturbations compared to your idealizations.
+[14:55] That's clear, right?
+[14:56] And so that's also a technique to check that.
+[14:59] Okay, so it's arbitrarily small, and then one may expand the left hand side of this equation as GAB.
+[15:17] Now I take again the exact metric here, and then I have a delta of the Einstein tens on the left hand side that depends on G and delta G.
+[15:28] But it depends on delta G linearly, linear dependence.
+[15:37] And then of course there will be terms, which I just call order of delta G squared.
+[15:46] So whatever coordinate system you're in, you look at these delta G squared of all the individual components, and then you get TAB of G plus delta TAB of G.
+[16:00] Okay, so if the perturbations delta G are very small, I can linearize, I can expand this in the perturbation.
+[16:08] Of course I always have terms higher than delta G in there, but this term collects all the linear dependence.
+[16:17] Okay, and for big delta G, that wouldn't make much sense, but for really small delta G, you can of course, and that's the idea,
+[16:27] to the in-linear perturbation theory, in-linear perturbation theory, these are ignored.
+[16:46] And that's the definition of linear perturbation theory, that you do this expansion, and then you throw away the higher order terms.
+[16:54] Is that exact? No, it isn't, and you're not looking for an exact solution, you're looking for an approximate solution,
+[17:00] but the point is you can make this arbitrarily small, and that's the idea.
+[17:05] So you throw this away, but then you see, aha, but I had an exact solution, I know that this guy, this G, isn't a known exact solution to this situation,
+[17:16] so you can use that, so these two terms, you can also drop out, you can let them fall, right, because this one already equals this.
+[17:25] That is, we got an expression delta GAB, depending on the exact solution and the perturbation linearly, equals delta TAB of G.
+[17:43] And the remaining task is then to find delta GAB, so far, so good.
+[18:03] I already tell you now there will be a complication, but let's not worry about it, at the moment the complication isn't there yet.
+[18:13] Okay, so that's the idea of linear perturbation theory.
+[18:32] And there's a remark, this is a perfect motivation for it, but we will see that it will also make sense to perturb, although we didn't change anything on the right-hand side.
+[18:52] That way, for instance, you will get gravitational waves.
+[18:56] If you have an exact vacuum solution, say Minkowski, flat space, and then you perturb, there are perturbations that don't need an extra source,
+[19:07] that just, if they're there, they just travel through space-time, or through the background space-time, or on the background given by the exact solution, or however you want to express this.
+[19:19] Okay, so while I motivated perturbation theory by slight modifications of the right-hand side, the remark says it will turn out to be interesting to also consider perturbations
+[19:48] where the right-hand side, the energy momentum tensor side of the Einstein equation, or Einstein equations, is not perturbed.
+[20:08] For instance, this will lead to gravitational waves.
+[20:14] Okay, so this just as a warning, but let's think in this way, we slightly change the situation for which we have an exact solution, and then we continue.
+[20:29] Now, let's look at the perturbed metric.
+[20:34] Any questions so far?
+[20:43] Yes?
+[20:45] Louder, please.
+[20:51] Because on the right-hand side, in this approach, the perturbation doesn't come from perturbing the delta G, it comes from putting extra matter on the same exact background.
+[21:10] For instance, putting the shell on the Minkowski background, you just add terms to the energy momentum tensor, but as far as you need a metric, you still use the exact one.
+[21:23] So it is the delta of the T comes by adding matter, by adding components to the T. The T usually needs a metric as a background, but you can perfectly add further matter on a given background.
+[21:41] Pardon me?
+[21:44] Well, as I said, I mean that's the whole idea in perturbation theory.
+[21:48] So here the right-hand side depends on the matter fields and on the metric.
+[21:53] Now, if you add a little bit of matter, it's the idea to add it to the already existing exact background, which to first approximation is always okay.
+[22:03] If I have a spacetime metric here, and now I say put a little piece of chalk here as well, then you don't assume that you cannot no longer say I moved this piece of chalk in the background spacetime.
+[22:16] If I now, of course, take a neutron star and put it here, it's ridiculous to say I moved the neutron star in the spacetime as it was here.
+[22:23] It would not perturb, it would greatly deform.
+[22:28] So whenever you talk about perturbation, slight introduction of new matter, slight perturbation of the energy momentum, you still think of introducing the matter in the exact background.
+[22:40] If you don't do that, you can't solve the problem.
+[22:44] But this always belongs to approximations that in some places you add the little perturbation, in other places you do not.
+[22:53] Any approximation works like that, because otherwise I just produce another exact equation that I want to solve, and that I cannot do.
+[23:03] Okay, so now let's look at the perturbed metric, and the idea is the following.
+[23:11] The idea is we are calculating or solving the equations in some chart, u, x, anyway.
+[23:34] What do I mean?
+[23:35] Well, we talk so much about using frame-independent constructions and so on, and that's all right if you want to figure out what your concepts are.
+[23:46] But if you start solving the equations, you go to particular coordinates, and we saw that a number of times, and you try to solve the differential equations for all the coefficients that are there in those coordinates.
+[23:58] And then you know once you have that, you can still change coordinates and whatnot, but you solve in some frame.
+[24:04] We're solving in some chart anyway, so we can equally well, if we use coordinates anyway, we can equally well arrange for the known exact solution.
+[24:23] So perturbation theory always happens around an exact solution.
+[24:28] We can arrange for the known exact solution to take a particular form for a static metric g, for instance.
+[24:52] The Schwarzschild metric would be static.
+[24:55] For a static metric g, for instance, we can always find a chart, let's call it u, x, such that our exact solution in this chart has components g, a, b.
+[25:17] Yeah, okay, I can write it like this, g, a, b, that looks like these.
+[25:26] I have a 1 up here, I have 0, 0, 0, 0, 0, 0, and of course I could maybe find a very special metric here, but I would like to not fix the spatial coordinates.
+[25:41] So say in this chart, I still allow some Riemannian metric, so minus gamma, a, b, where gamma is a Riemannian metric, Riemannian 3 metric.
+[25:55] It could be 1, 1, 1, but maybe I like to choose polar coordinates in the spatial part, so then you know it's r squared, r squared sine theta and so on.
+[26:08] So I can always arrange for this and this does not depend on time, okay?
+[26:13] So this would be, for instance, for a static metric if I want to perturb around Schwarzschild, or for instance Minkowski's also would.
+[26:21] And let's do the calculations for this special case that the exact solution takes this form because that simplifies things in order to convey the idea.
+[26:33] If you need to go to other forms, you need to think again, but along the lines we are going to point out here.
+[26:44] Now it is clever.
+[26:51] Now it is clever to describe the ten small fields encoded in a metric perturbation delta G expressed in the same chart, delta G, a, b.
+[27:21] As delta G, a, b equals, now maybe I should use a more less space consuming notation.
+[27:40] This I would write as dx0, tensor dx0, that's this component times 1, minus gamma, alpha, beta, dx, alpha, tensor, dx, beta.
+[27:53] But if you don't like this notation of the abstract object on the left and here the choice of the chart induced covector fields, then you can always translate it into this, okay?
+[28:06] This means the same.
+[28:09] But I do not want to write this all the time in this huge manner, so I would like to express this guy here as, now I perturb.
+[28:19] And where can I perturb?
+[28:21] Well, I can perturb just any entry of this guy.
+[28:25] I can make this deviate from 1.
+[28:28] I can make each of these zeros deviate from 0, and I can each of the six components down here deviate from the value they do have.
+[28:37] A fully general perturbation, the only condition is that it be small, and I call the deviation from the 1.
+[28:47] This is not 1 plus the deviation, this is only the deviation, this is only the delta G.
+[28:52] I call this a field little a, dx0, tensor dx0, so I should already write for small, and that's the key point for small.
+[29:04] So maybe one should write delta a because there's a delta G, but then we have so many deltas around, so we keep in mind this guy for small spatial scalar field.
+[29:21] It's a spatial scalar field, spatial, meaning it depends on the spatial coordinates, x1, x2, x3, but it also depends on time.
+[29:32] For a small spatial scalar field, a, which may, however, also depend on time.
+[29:39] So if you move in time, it can change.
+[29:42] Okay, so it's this guy, minus, now we look at the perturbation of these off-diagonal elements, I introduce a small spatial vector field.
+[29:55] Beat b, alpha, I say vector field, but I write the index down, whenever I have a Greek index, which only runs from 1 to 3, I raise or lower with the metric.
+[30:09] Where b up alpha would then be gamma alpha beta, b beta, the metric being this spatial metric down here.
+[30:18] So I have this times dx0, tensor dx alpha that makes the perturbation up there, but it also, the same, in order to preserve symmetry, the same perturbation happens in this column, in the zero column on the left.
+[30:36] So you do this, you subtract this, but now we still have to perturb the 3 by 3 block down there that goes with a minus, and I do this in the following fashion.
+[30:48] I first open a bracket, this 00 block has this gamma, and I deviate from the gamma by a factor 2c.
+[31:00] And I'm sorry, I should also write a 2a here, so this is just convention that I don't, the perturbation is not called a, but 2a, that's convenient later on.
+[31:09] And I perturb what is there by c, so if c is zero, it's zero perturbation, should always think this is only the perturbation, plus 2, and now I have a field e alpha beta here.
+[31:25] This e alpha beta is a spatial tensor field with two indices e alpha beta, which again can also depend on time.
+[31:35] So they can always depend on all the coordinates, that's what I want to say.
+[31:40] dx alpha, tensor dx beta.
+[31:45] Let's count, and I want this guy to be a tensor field that is trace free.
+[31:52] So I should say a trace free.
+[31:56] What do I mean by trace free?
+[31:58] Well, in this case, I mean that if it's contracted with the metric, you get zero.
+[32:06] So let's count how many degrees of freedom we have.
+[32:09] We have one from here, and I forgot, you have another scalar field c here, and it should be a small c, and this scalar field c.
+[32:18] You have one plus one here, then you have three here, spatial, right?
+[32:24] Then you have three by three symmetric, so this is a symmetric field, I should have said that too.
+[32:31] It's a symmetric field, that's six, but you have a trace condition, that's one less, that's five.
+[32:39] Five plus three is eight, plus two is ten, thank God.
+[32:43] This parameterizes the ten degrees of freedom I have in wiggling around with these entries, okay?
+[32:54] Now, why on earth do we write it down so complicatedly if we could write down delta GAB, that's also ten.
+[33:01] Well, it's just very convenient for what follows, that's the point.
+[33:04] And so this construction, so this is all clear, now I add a little bit on this component, I add a little bit in each of those symmetrically.
+[33:13] Why do I write it like this, why do I insist on this being trace free, and then I perturb the trace separately?
+[33:20] Well, because it turns out to be useful, okay?
+[33:23] So, see we parameterize the deviation like that.
+[33:28] Question?
+[33:30] Okay.
+[33:32] So, so again, in the C's remark, it is simply convenient to think of a general perturbation.
+[33:57] You see, there is no further assumption here of a general perturbation of the metric in terms of these ten degrees of freedom.
+[34:15] However, it will turn out we will need to decompose them more, yes?
+[34:24] No, no, no, I did not.
+[34:29] Okay, let me explain it with the B, okay?
+[34:34] So, this has three indices that all relate to the spatial components here, right?
+[34:41] And spatial means here with respect to the chosen chart, okay?
+[34:46] And that these are spatial, and these here are not, you only see in the sign here, there's a plus here and there's a minus there, so the X0 is a timeline coordinate, the others are spatial coordinates, there you can see it.
+[34:57] Only refers to this, it can't be a spacetime tensor, because then vector or covector field, it would need an A index down, it would need all the four.
+[35:08] It is only there, but it can change, it's spatial, it's a spatial covector field or vector field here.
+[35:16] And on a later surface, X0 equals 2, here was X0 equals 1, here X0 equals 2, it's a totally different vector field.
+[35:28] That is what I mean is, it depends, I mean, in principle, I should write, they depend on all the coordinates, that's what they really do.
+[35:37] All of them, also the E, depends on all the coordinates, but in its index structure, you can see, you should think of it as a time-dependent spatial field.
+[35:49] In this sense, you put a semicolon here in your thinking, it's a time, coordinate time-dependent spatial field, that's the idea.
+[36:00] Yes?
+[36:01] I have to guarantee that the perturbed...
+[36:06] Perturbed?
+[36:07] Perturbed, magic and G plus delta G is still a magic, because the perturbation looks just like the magic G, then it could be degenerated.
+[36:17] No, it's still...
+[36:18] Ah, no, it's small, it's small.
+[36:21] And...
+[36:23] Exactly, because if it was before, the determinant was non-zero, and I make of the G, it's non-degenerate, and I make them small enough, then I will never go away to zero, right?
+[36:36] And so they're small, so this here, I underline, and as I said, maybe I should write delta A and delta B and delta C and delta E, but that gets a little bit boring.
+[36:45] So we keep in mind they're small.
+[36:48] Okay, yes?
+[36:50] The small part of it has five components, because if you say it's just symmetric, it will consist.
+[36:55] Yes.
+[36:56] When we introduce this trace-premise, we can create one element in trace.
+[37:00] That's right.
+[37:01] That's right.
+[37:03] So you count whether with your rather arbitrary way of parameterizing, whether you've got all the components.
+[37:13] Okay, fine.
+[37:14] So, yes?
+[37:16] Regarding this, how can I know that I can't arbitrarily...
+[37:22] Well, that's the assumption.
+[37:23] You want to allow for that.
+[37:25] So you did do something to the right-hand side.
+[37:27] You start from maybe something static as an exact solution for simplicity, okay?
+[37:32] In this case.
+[37:33] But now you perturb the right-hand side.
+[37:35] It may be necessary that you now have a non-static space time, right?
+[37:40] So we're only providing for the possibility, and then solving will tell you what they really are.
+[37:47] That's the idea, okay?
+[37:49] But we don't want to go from static to static.
+[37:52] We want to go from static to arbitrary perturbation of static.
+[37:57] Hence, we're so general.
+[37:59] And now we need to see where this leads, okay?
+[38:02] Yeah, but that is natural because the metric...
+[38:15] Because we like to think...
+[38:17] Because we chose a chart anyway, I can think of perturbing this one, and this one, and this one, and this one.
+[38:23] And this one, and this one, and this one must be perturbed the same as this in order to preserve the symmetry.
+[38:28] So we can perturb each of these entries as long as it's symmetric differently.
+[38:33] And this is just saying, look at the metric in this way.
+[38:37] I could have called this b, while a small b0.
+[38:41] I could have done that.
+[38:42] I could have called this small b0 and this b alpha, and it would look less arbitrary, but that's just a name, right?
+[38:50] It's just if I start thinking about it this way, I can call it that way.
+[38:54] These perturbations are there anyways.
+[38:57] So as soon as I write delta g, and I do this in some chart, right?
+[39:02] At that moment, I have these perturbations.
+[39:04] There's nothing happening here, okay?
+[39:06] So you shouldn't think that we did anything here.
+[39:09] The only thing I did, I defined the objects on the right-hand side because I can take an arbitrary perturbation.
+[39:16] And because I have a chart, I can read off what the perturbations are in terms of this chart.
+[39:23] Nothing happened.
+[39:24] I didn't introduce an assumption.
+[39:26] I didn't do any physics.
+[39:28] I just write, I just give names to individual components.
+[39:34] That is allowed.
+[39:35] There's nothing happening, okay?
+[39:37] It's like saying you have a matrix.
+[39:39] You call the elements a, i, g.
+[39:41] When you say, why do you do that?
+[39:43] Well, because I can.
+[39:49] No, no, no, no, no, no.
+[39:51] There's just a number two.
+[39:52] Two times one degree of freedom.
+[39:59] No, no, no.
+[40:00] The other one is the C field.
+[40:03] The other one is the C here.
+[40:06] And this one is the A there.
+[40:09] Okay?
+[40:10] This was just for my count.
+[40:12] I said the A and the C are scalar.
+[40:14] Oh, I'm sorry.
+[40:15] I'm sorry.
+[40:16] Okay, yes.
+[40:17] That's the idea.
+[40:20] Okay.
+[40:21] Five.
+[40:22] So ten degrees of freedom.
+[40:24] And our agreement is Greek indices if not in their natural position.
+[40:41] And you can decide whether, well, let's say the natural positions are these.
+[40:47] If not in a natural position, have been raised or lowered.
+[40:55] Well, in this case, only raised using the gamma.
+[41:01] Right?
+[41:02] Raised or lowered using the gamma or the gamma.
+[41:05] Okay?
+[41:06] So that means this is what it is.
+[41:08] But as soon, if I, at some point, will write B alpha, what I mean by this is this.
+[41:16] So if it's not a natural position, I mean by it this.
+[41:20] Okay?
+[41:21] Very simple.
+[41:22] It's just in order to save writing effort.
+[41:25] Okay.
+[41:26] So we have a nice decomposition of our perturbation.
+[41:30] So the total metric would be G plus delta G would be one plus two A times this minus,
+[41:38] this stays like this because there was a zero minus one plus two C times this plus this
+[41:45] times this, right?
+[41:46] If I write G plus delta G, this is only the perturbation.
+[41:49] Okay.
+[41:50] Now, it turns out we have made this split, but these are fields.
+[41:55] So now I emphasize these are fields.
+[41:57] Why?
+[41:58] Because this guy can change from point to point.
+[42:02] Now, there is a clever way, and it will be crucial for perturbation theory here, that
+[42:09] we further decompose these fields because a vector field has always a scalar contribution
+[42:18] to it, which I can express by the gradient of a scalar, and it has a divergence-free
+[42:24] contribution to it.
+[42:25] You probably know this theorem.
+[42:26] It's called the Helmholtz theorem.
+[42:28] The same goes for tensor fields like this E alpha beta, and so we further, we do not
+[42:35] work with this.
+[42:36] Because we further decompose, and this is called Helmholtz-Hodges, we further decompose.
+[42:48] So it is immensely useful, and we will see that actually practical application of perturbation
+[42:59] theory relies on it.
+[43:01] It's immensely useful to further decompose A, this vector field B, the vector field,
+[43:15] the spatial vector field, the vector field B alpha, as B alpha, that it has a contribution
+[43:25] of a gradient of some scalar field, which I call capital B, plus a vector field or covector
+[43:38] field.
+[43:39] It doesn't matter because I can raise or lower the index B alpha.
+[43:43] So this is a scalar field.
+[43:47] As much as this little A is a scalar field, this is a scalar field, and this B alpha is
+[43:54] a vector field.
+[43:55] So don't worry, the index is down, but I can raise it.
+[43:58] It's a vector field that is divergence free.
+[44:04] Divergence free, that means that D alpha, B alpha, there you see, I pulled the index
+[44:12] up, equals zero.
+[44:14] And the only remaining question is, what is my capital D?
+[44:20] Well, I'm dealing in the space section where capital D is the covariant derivative with
+[44:35] respect to gamma.
+[44:37] So I should say the torsion free gamma compatible covariant derivative.
+[44:41] It's the Levy-Schwitter connection.
+[44:43] It's the Levy-Schwitter covariant derivative of gamma.
+[44:57] You see, I couldn't have written a partial here, partial alpha, but then I would have
+[45:02] need to have chosen the delta 1 1 1 in the spatial part, but I want to be able to choose
+[45:11] whatever suits me, then I have to replace the partial by a covariant derivative.
+[45:17] Now acting on this B, because this is a scalar field, you say the covariant derivative acts
+[45:22] like the partial, that's right, but let's write the covariant derivative always because
+[45:26] for instance here, the partial wouldn't be any good.
+[45:29] I need the covariant derivative in order to write down the divergence, right?
+[45:33] Okay, so this is this, and this is of course known as the Helmholtz theorem.
+[45:40] Helmholtz theorem, and the important thing is that this is unique.
+[45:47] The vector field, the decomposes uniquely into this.
+[45:57] Why not use nublar?
+[46:00] Because nublar is a connection on the entire space time, and this is a connection on the surface
+[46:08] at coordinate time x0.
+[46:12] We're using a chart anyway in order to crunch the numbers, so why not decompose further with
+[46:19] respect to this chart?
+[46:20] It's terribly non-physical.
+[46:22] It means, I shouldn't say non-physical, it sounds like it's going to be bad.
+[46:26] It's meaningless to decompose with respect to this chart rather than to another chart.
+[46:31] But because I'm anyway crunching the numbers, let's then relate everything to this chart in
+[46:36] order to get the numbers under control.
+[46:38] But I didn't tell you which chart I choose.
+[46:40] I start with some coordinate system where the initial exact solution takes a rather simple form,
+[46:45] and I will always arrange for that in order not to have too many arbitrary stuff around.
+[46:51] Okay, so this is Helmholtz theorem, and so I see a vector field has a contribution from a scalar field
+[47:00] and a contribution that's a purely vector field but a divergence free one.
+[47:05] So this would be like only a rotation vector field, for instance.
+[47:10] So this one you probably already know, so my aim is to further decompose this into a scalar field contribution,
+[47:19] which then is the gradient of the scalar field, and a pure vector contribution.
+[47:22] And exactly the same thing you can do for the e alpha beta.
+[47:28] Similarly, one obtains a unique decomposition of the e alpha beta into d alpha d beta
+[47:48] minus a third gamma alpha beta times the Laplacian.
+[47:54] So this guy here is the Laplacian in space.
+[47:59] So it's gamma mu nu d mu d nu.
+[48:03] So this is an operator.
+[48:06] It acts on a scalar field.
+[48:10] So there is a scalar field contribution to such a trace free tensor field.
+[48:19] Plus, there's also a vector field contribution, del d alpha e beta symmetrized.
+[48:29] So this is a vector field.
+[48:31] This is scalar field e.
+[48:33] This is a vector field e beta by convention I put it to here.
+[48:38] Plus, and there is finally a contribution e alpha beta.
+[48:45] And as I said here, this is a scalar field.
+[48:48] The same way this guy is a scalar field.
+[48:53] It's a scalar field contribution to this tensor field.
+[48:58] This guy here is a vector field or co-vector field.
+[49:03] It doesn't matter because I can raise or lower indices.
+[49:06] That is divergence free.
+[49:10] Divergence free.
+[49:14] Similarly to here, I require that this be diversion free so that there's a unique decomposition.
+[49:21] And this guy here, this is a tensor field.
+[49:25] Well, but not an arbitrary one because I already started with an arbitrary one.
+[49:29] I couldn't decompose uniquely in this one, this one and another arbitrary one.
+[49:33] So tensor field, that's trace free.
+[49:37] Well, I need that because this one was trace free and divergence free.
+[49:45] Now the question is what is the divergence of such a tensor field?
+[49:49] Well, that means the trace free is gamma alpha beta e alpha beta is zero and divergence free means over one of the indices.
+[49:57] It's symmetric anyway.
+[49:59] It's symmetric.
+[50:01] Trace free and divergence free tensor field.
+[50:06] If you pose these conditions, then for any tensor field e alpha beta, there's a unique scalar field, a unique divergence free vector field,
+[50:17] and a unique symmetric trace free and divergence free tensor field contribution.
+[50:22] It's just one rank higher the Helmholtz theorem.
+[50:26] And in general, this is Hodge theory.
+[50:28] Yes, please.
+[50:45] Yes.
+[50:47] As we say, yeah, but then I say then it's not the same b alpha.
+[50:52] Okay, hang on.
+[50:53] So do we want, you don't want to diverge between us there.
+[50:57] Okay, I see what you mean.
+[51:02] That's it.
+[51:06] Yeah, thank you.
+[51:07] Yeah, yeah.
+[51:08] So you have to put boundary conditions.
+[51:10] If you look at this field at infinity and then you get your boundary.
+[51:14] No, that's not true.
+[51:15] No, you can impose, you know, you have to impose the boundary conditions on these guys.
+[51:19] That's true.
+[51:20] That's true.
+[51:21] Yes.
+[51:22] Very good remark.
+[51:23] Very good remark.
+[51:24] That's right.
+[51:25] Okay, so you make these decompositions and so that means all of these guys, this b alpha
+[51:32] will have a scalar field contribution and a vector field contribution.
+[51:36] And this year we'll have a scalar field contribution, a vector field contribution and a pure tensor
+[51:41] field contribution.
+[51:42] Right.
+[51:43] And we want to decompose it like that.
+[51:49] We choose to look, no, otherwise, thus a general perturbation delta G uniquely decomposes into
+[52:15] three independent types of perturbation.
+[52:30] So the full delta G, the general perturbation can always be written as the sum of a so-called
+[52:38] scalar perturbation plus a vector perturbation plus a tensor perturbation.
+[52:49] And so you see if I use these two decomposition theorems and I plug them in for the b alpha
+[52:57] and the e alpha beta here, then I get a big sum because this is linear in b and in e and
+[53:05] in e I get a big sum and in this big sum I collect all the terms that contain the field
+[53:12] capital A and capital A will be simply the trivial decomposition of a scalar into a scalar.
+[53:19] So I call this one capital A. We'll contain the scalar field capital A, but the scalar
+[53:26] field contribution will also contain the term that comes from this gradient of the scalar
+[53:33] field that appears here.
+[53:38] Right.
+[53:39] So I call everything that comes from a scalar field I collect in this term.
+[53:45] So I need to define the right hand side according to this prescription.
+[53:49] Then there is the c, the small c.
+[53:51] I also identify with the big c.
+[53:56] It's just renaming.
+[53:58] But the b is really the scalar contribution to the b alpha, small b alpha.
+[54:03] And finally this e here, the scalar field contribution to the e alpha beta that appears here
+[54:13] and it will contribute a term.
+[54:15] And all these terms where these guys are in of this delta g, I call delta g scalar by definition.
+[54:23] And then obviously this delta g vector, I want all the terms that contain a, no, that contain a b alpha.
+[54:33] But the b alpha is now not the full small b alpha, it's also this contribution to the small b alpha.
+[54:41] And similarly I only collect the term here, the vector field contribution to this e alpha beta here.
+[54:49] And here these perturbations, these are purely made in terms of the symmetric trace free,
+[54:56] divergence free tensor field e alpha beta.
+[55:00] Now these two guys here, they're always divergence free.
+[55:08] That's what we require, had to require here and we had to require here.
+[55:13] And these guys here, they're always symmetric anyway.
+[55:20] It's only this one instance.
+[55:23] Trace free and divergence free.
+[55:30] So this is when people say scalar perturbations come from scalars.
+[55:38] Vector perturbations come from divergence free vectors or vector fields.
+[55:44] And tensor perturbations come from symmetric trace free, divergence free tensor fields.
+[55:51] But there is some terminology here that is so heavily used that I would like to introduce it.
+[56:00] A divergence free vector field is also called a solenoidal vector field.
+[56:08] But solenoidal just means divergence free, okay?
+[56:12] And a trace free divergence free tensor field is called a TT tensor.
+[56:24] Because one calls this trace free transverse.
+[56:29] It's divergence free for a tensor where it's just over this one index, one calls a transverse tensor.
+[56:36] So one calls these two conditions together.
+[56:39] One says it's a TT tensor and this one one says it's a solenoidal vector field.
+[56:46] But please translate, divergence free, trace free and divergence free and you got it, okay?
+[56:52] So this terminology is historical, okay?
+[56:56] So people say scalar perturbations come from scalar fields, vector perturbations from solenoidal vector fields
+[57:03] and tensor perturbations from TT tensor fields.
+[57:07] Well, it's nothing, it's just this decomposition theorem, okay?
+[57:11] And we like to look at them separately.
+[57:17] What do we mean we like to look at them separately?
+[57:20] Well, we like to look at them separately because we may.
+[57:23] That's the point.
+[57:25] So remark.
+[57:33] The rationale behind this distinction which at first sight may appear rather arbitrary behind this distinction is that
+[57:53] we have a perturbation delta TAB on the right hand side.
+[58:03] So remember we want to wiggle on the right hand side of the Einstein equation.
+[58:08] We want to perturb there that the perturbation delta TAB on the right hand side which originates or which is affected
+[58:21] by a scalar or several scalar fields.
+[58:30] For instance, in our motivating example,
+[58:40] the introduction of a metadensity
+[58:54] row for this sphere, for this sphere spherical shell.
+[59:02] Before I didn't have a shell, now I put one.
+[59:05] What do I have to do?
+[59:06] I have in the 00 component of the energy momentum tensor, I have to write a little row, right?
+[59:14] The little row will depend from point to point.
+[59:18] So it's a scalar field, right?
+[59:21] The introduction on the right hand side is a scalar field.
+[59:24] So this one on the right hand side will only, and that's the point, will at most therefore only switch on the scalar fields
+[59:43] A, B, C, E in the metric G plus delta G on the left hand side.
+[59:56] On the left hand side of the Einstein equations you have the Einstein tensor, but the perturbed one.
+[1:00:02] In there are little delta G's.
+[1:00:05] I linearly expanded the Einstein tensor in the exact one plus the delta G one.
+[1:00:11] And if on the right hand side you only fiddle around with scalar perturbations, then on the left hand side you will never need to,
+[1:00:20] and you can think about this because of linear perturbation theory, you will never need, or you will never see a reaction of these two fields
+[1:00:29] or of this field on the left hand side.
+[1:00:31] That's the point.
+[1:00:34] Because the delta G appears linearly on the left hand side, right?
+[1:00:39] Because we do linear perturbation theory, these can never be switched on.
+[1:00:43] So introducing the little row for our shells, we just put a shell, not a rotating shell, just a shell, introducing a little row will at most switch on these guys.
+[1:00:55] Similarly, so that's this, similarly for vector or for solenoidal vector slash tt tensor perturbations
+[1:01:19] of the energy momentum tensor on the right hand side, meaning think of the rotating shell, the rotating shell you switch on a current, right?
+[1:01:32] And how does the current field look like, the mass current field, it looks like a rotational field, right?
+[1:01:38] Well, a rotational field is divergence free.
+[1:01:42] So meaning you put this shell, it will switch on on the left hand side at most these fields.
+[1:01:50] Totally separately from that, you can put the current there, and it will switch on at most these fields, but it will not contribute to those fields.
+[1:02:01] And similarly, if you would contribute a stress energy on the right hand side, for instance, if the sphere wasn't empty, it was a shell, but it was filled,
+[1:02:11] and it would exert pressures, then this pressure would store energy in the sphere, right?
+[1:02:18] In a solid sphere, and this energy will be felt by gravity, by the Einstein equation, because it's energy and energy curves space-time, right?
+[1:02:28] Anyway, so then you would only disturb this, but I get a contribution from here.
+[1:02:34] That means if you're clever enough, and you can always do that, to decompose the perturbations on the right hand side into scalar,
+[1:02:42] solenoidal vector and TT tensor perturbations, you can solve these equations separately.
+[1:02:48] You can solve the scalar equations separately, you ignore the other ones, or these two, or these two, and you always solve separately.
+[1:02:56] That's of course clever.
+[1:02:58] Why would I solve something that's independent of each other?
+[1:03:02] Why would I solve this all at once?
+[1:03:05] Okay, that's the point.
+[1:03:07] So therefore people, and I think that was also in the cosmology lectures where you say, we look at scalar perturbations, we look at vector perturbations,
+[1:03:14] we look at TT tensor perturbations, because you can in linear perturbation theory.
+[1:03:20] If you went to the next order perturbation theory, that decomposition would break down, you could no longer solve separately.
+[1:03:28] Okay?
+[1:03:29] That's the whole magic to it.
+[1:03:31] And that is why we further decompose, and we didn't just say we have a scalar vector and a tensor.
+[1:03:36] No, we needed scalars and solenoidal vectors and TT tensors to decompose.
+[1:03:43] Right?
+[1:03:44] And that is this decomposition.
+[1:03:47] Questions?
+[1:03:48] Yes?
+[1:03:49] Yes.
+[1:03:50] So already when I want to have vector fields of some material that are not divergence, we have changed somehow.
+[1:04:01] Yes.
+[1:04:02] Then I can also do linear composition, but with non-divergence vectors, that doesn't work.
+[1:04:08] Yes, no, it works.
+[1:04:09] If on the right-hand side you have, for instance, you could take a shell that oscillates like this, like this,
+[1:04:19] that would correspond to a current, because there is another, the materials going out and the current inverts, not so clear?
+[1:04:27] This current would contribute, you would have it in the vector field, in the vector field part here,
+[1:04:34] but it's a totally rotation-free current.
+[1:04:38] In fact, it can be made by the gradient of a scalar function that changes with time, right?
+[1:04:44] So that would switch on this one here, because it's a scalar perturbation, although it looks like a vector perturbation,
+[1:04:51] but it's a scalar contribution on the right-hand side to a vector perturbation.
+[1:04:58] Just the case of the shell that does this is particularly pure,
+[1:05:02] because putting the shell means making a scalar perturbation on the right-hand side.
+[1:05:07] Now, letting it rotate gives a vector perturbation that is already solenoidal,
+[1:05:12] but letting it do this would be a vector perturbation on the right-hand side,
+[1:05:16] but really it's deep down, it's a scalar perturbation, because it's the, you understand?
+[1:05:22] So you can always, again, the two theorems allow you everything on the right-hand side to decompose it into scalar perturbations,
+[1:05:31] but there may be four different types, they may be guised as currents, but they only come from scalars.
+[1:05:39] Once you did this decomposition on the right-hand side, you know that a decomposition,
+[1:05:44] but the point is one scalar on the right-hand side could in principle switch on all these scalars.
+[1:05:50] So you cannot say that scalar switches on this one, that scalar switches on that one,
+[1:05:54] so the scalars don't, these don't mix with those, and those don't mix with these,
+[1:05:59] but these may mix amongst each other, okay?
+[1:06:03] But so therefore you cannot further, you could say I have A scalar perturbations,
+[1:06:07] B scalar, C scalar, and E scalar perturbations, but those you can no longer separate,
+[1:06:12] those you have to treat together, okay?
+[1:06:17] Good, okay.
+[1:06:23] Okay, so the upshot is,
+[1:06:32] in linear perturbation theory,
+[1:06:42] one can study scalar perturbations,
+[1:06:52] vector perturbations,
+[1:06:58] and tensor perturbations,
+[1:07:04] and actually one should say solenoidal, but just nobody says that,
+[1:07:08] solenoidal vector perturbations and TT tensor perturbations separately,
+[1:07:19] because they do not mix.
+[1:07:27] What one says is vector perturbations come from solenoidal vectors,
+[1:07:31] vector fields, tensor perturbations come from TT tensor fields, yes?
+[1:07:36] Yes, you are wrong, because it's not a tensor, it's not six, it's trace-free and divergence-free.
+[1:07:49] Trace-free reduces the degrees of freedom.
+[1:07:52] Divergence-free is for the uniqueness of the decomposition, trace-free reduces this,
+[1:07:56] and so you have one, two, three, four.
+[1:08:02] From here you have, from trace-free you have five, that would already be nine,
+[1:08:07] but you also have to take into account these divergence-free.
+[1:08:12] Well, we counted them before.
+[1:08:15] They didn't multiply, so the point is we calculated in the beginning the small a,
+[1:08:20] small c, small b-alpha, and small e-alpha-beta were ten,
+[1:08:25] and these were uniquely decomposed.
+[1:08:28] There is no increase of degrees of freedom.
+[1:08:32] Okay, so that's the upshot, and maybe for completeness we should,
+[1:08:39] I wrote down we can decompose like this and you collect these terms,
+[1:08:43] maybe it's good to collect these terms once for completeness.
+[1:08:49] So let me write them down.
+[1:08:51] So delta G scalar, I said collect all the terms, but here they are.
+[1:08:58] This is 2 capital I dx0 tensor dx0 minus capital D alpha on the b scalar,
+[1:09:10] dx0 tensor dx alpha plus dx alpha tensor dx0,
+[1:09:18] just makes this symmetric, minus 2 open bracket c times gamma alpha-beta,
+[1:09:28] c scalar field, plus the alpha d-beta minus one-third gamma alpha-beta
+[1:09:36] times the Laplacian, you find that before, acting on the e-field.
+[1:09:43] Well, this, hang on a second.
+[1:09:46] Yes, this acts on the e-field and the bracket closes, dx alpha tensor dx beta.
+[1:09:56] That's the scalar perturbation if you collect all the terms.
+[1:10:00] The vector perturbation is minus b alpha dx alpha tensor dx0 plus dx0 tensor dx alpha minus 4 d alpha e-beta
+[1:10:19] symmetrized, must not forget this, dx alpha tensor dx beta.
+[1:10:25] And finally, the G tensor is very simple.
+[1:10:29] Delta G tensor is minus 2 e alpha beta dx alpha tensor dx beta.
+[1:10:38] So in fact, the tensor perturbations are the simplest.
+[1:10:42] Okay?
+[1:10:45] Okay.
+[1:10:47] So all of this looks great.
+[1:10:51] We can decompose, we can solve separately, but there is a problem.
+[1:10:58] And we work in a chart.
+[1:11:00] We work in a chart to crunch the numbers, but there's a serious problem.
+[1:11:04] We pay a price for working in a chart.
+[1:11:09] Section four, the price paid for working for the luxury of working in a chart.
+[1:11:26] What is that price paid?
+[1:11:30] We know from our general mathematical developments in the first two weeks.
+[1:11:38] We know that, well, I emphasize one and the same objective.
+[1:11:50] You see, these are all non-mathematical terms.
+[1:11:52] They're just to put emphasis and emotion.
+[1:11:54] We know that one and the same objective metric G, so the tensor in the real world.
+[1:12:07] I talked a lot about this.
+[1:12:09] So metric G is an abstract object on the manifold.
+[1:12:15] Features, vastly different component functions.
+[1:12:31] GAB, depending on the chart, UX, with respect to which these component functions are taken or determined.
+[1:12:58] That's the reason for us to usually then write G down X AB to emphasize these are the components of the objective object with respect to that chart.
+[1:13:09] We talked about this very often.
+[1:13:11] In another chart, the components, the entries of the matrix look totally different, but it corresponds to the same metric.
+[1:13:21] This is what we know about charts.
+[1:13:25] But now suppose, now comes the problem, but now suppose that there exists another chart.
+[1:13:43] So let's assume so far we worked in the X chart, but now suppose there exists another chart with the same domain, but different chart maps Y.
+[1:13:54] Such that our nice perturbation, GAB plus delta GAB, which is the perturbed metric, which if we're precise, we say, well, these are the components with respect to the X chart.
+[1:14:12] And we calculated these guys from the left-hand side of the perturbed equations on, but imagine there is another chart such that our nice perturbation, G plus the perturbation, can just be written as the components of precisely the same metric G we had before.
+[1:14:33] So not the perturbed metric, but of the metric G we had before, only if these are the components in the other chart.
+[1:14:42] I mean, if I can find other, if in other charts you get vastly different components, you could have the case that you calculated a nice perturbation in one chart.
+[1:14:52] Everything was one chart, and you do this consistently, everything we did, but the result, the total, when you think it's a new metric, this was the old solution, and this is the new solution to the perturbed problem.
+[1:15:08] But you find, oh, these are just the components of the same old metric in another chart, you must conclude, then you must.
+[1:15:23] So if it exists, now suppose that such a chart exists, you must conclude that your abstractly speaking, your nice abstract new perturbed metric is actually the old metric.
+[1:15:41] Yes?
+[1:15:49] That is right, I'm sorry, I'm sorry, it should say, no, it's, yeah, absolutely right, this is the G, thank you very much, it's the G, the old G just expressed a new coordinate system.
+[1:16:02] Then you must conclude that although the delta G, which we only defined in coordinates, do you remember?
+[1:16:09] The delta G was never defined abstractly, we defined in coordinates, you must conclude, actually this equation is problematic, you must conclude that the metric with components,
+[1:16:25] GAB plus delta GAB, all expressed in the X system, is precisely the same as the one we had before, nothing happened.
+[1:16:47] Now you say, how could this be? Let me give you an example.
+[1:16:52] You know that in Newtonian mechanics, if you have an infinitely extended plane of masses, that the gravitational field in Newtonian mechanics produced by this is a homogeneous gravitational field.
+[1:17:05] It doesn't decrease when you go far away because there's more and more matter there, right, you can calculate this.
+[1:17:13] Now a homogeneous gravitational field in the sense of general relativity isn't one, because you can always find a coordinate system in which you're in free fall and the effect is gone.
+[1:17:30] So there would be something of this type, right, you have an effect, you start from something in a coordinate system, you add matter,
+[1:17:39] and it appears like it changes your potential, the metric.
+[1:17:43] But if you find a coordinate transformation that makes this entire change gone, then you have a fake solution.
+[1:17:52] This comes from coordinate invariance, okay?
+[1:17:57] So how do we ensure that solving our equations in a chart, this comes from the luxury of solving, so far before we came to section four,
+[1:18:08] we always were in one chart, we decomposed, we linearized, we reduced the equations, and we seem to have ten nice equations where we can separate in these different types that we can solve.
+[1:18:22] But what comes out, the result delta G, AB, or the AB seems on, it may be fake, it may be removable by a coordinate transformation,
+[1:18:35] but if it's removable by a coordinate transformation, it means nothing.
+[1:18:40] Now the point is, some such perturbations will be removable by coordinate transformations and others won't.
+[1:18:50] The fact the inside is, for scalar perturbations, only two specific combinations.
+[1:19:20] Only two specific combinations of fields, what were they, are A, B, C, E, will be unaffected and thus not removable,
+[1:19:42] thus be not removable, and that's a good thing, not removable by general coordinate transformations.
+[1:19:59] These two combinations, which we are going to derive, but I tell you now that you know where we're going, these two combinations are called gauge invariance, gauge invariance.
+[1:20:19] Only they can be taken seriously.
+[1:20:29] So you have these four fields, and there will be only certain combinations of these four fields and derivatives thereof, only two combinations that have meaning.
+[1:20:43] The other combinations, and we'll find out which these are, of course very important, the others can always be removed by coordinate transformations.
+[1:20:51] It's important to know this, because there, the others you're not interested in, right?
+[1:20:56] You're only interested in what cannot be changed under coordinate transformations, and that is then your result of your perturbation theory.
+[1:21:04] It's very important to realize that.
+[1:21:07] You notice a little from electrodynamics, actually exactly the same principle, in electrodynamics the A field can always be changed by the gradient of a scalar field.
+[1:21:18] So none of the A field components has physical meaning, none of them.
+[1:21:25] Only certain combinations, and you know the combinations, del mu A mu minus del mu A mu, right?
+[1:21:36] Which we call the F-menu.
+[1:21:38] That is gauge invariant.
+[1:21:41] So not A0, A1, A2, or A3 have meaning, or separately, not A1 plus A0, none of them.
+[1:21:49] But only these special combinations of derivatives, so it's the rotation of the A vector if you do the 3 plus 1 composition, decomposition and so on, right?
+[1:21:57] Only they have physical meaning, only they are measurable.
+[1:22:01] It's exactly the same here, only here the gauge group is much bigger, it's the whole diffeomorphism group, and you need to take care of this.
+[1:22:10] And we will, okay?
+[1:22:12] So if you follow the arguments so far, we will continue, and I'll show you how to do this, yes?
+[1:22:16] So there are 10 components to the perturbation, how many are there for the, can we count the real physical ones, how many?
+[1:22:25] Yes, that's what this does.
+[1:22:26] You need to look at the gauge invariant.
+[1:22:28] For scalar perturbations, there are only two specific combinations.
+[1:22:33] For vector perturbations, you will show this, right?
+[1:22:36] I just tell you already now.
+[1:22:38] For vector perturbations, there is only one combination of B alpha and E alpha
+[1:22:56] that is gauge invariant, but that's just lingo, right?
+[1:23:01] It's just jargon.
+[1:23:03] It means there only, there's only one combination, maybe I should write down the combinations, so if you, and then we derive them in the next lecture.
+[1:23:13] So you know what I'm talking about.
+[1:23:15] So this, in the scalar perturbation theory, the gauge invariant combinations are the first one I call psi,
+[1:23:24] and the second one I call capital Phi.
+[1:23:27] Why not?
+[1:23:28] They need to have some names.
+[1:23:29] The first combination is A plus B dot minus E double dot.
+[1:23:38] So of these four fields, only if you take the A, you add the time derivative of B and you subtract the second time derivative of E.
+[1:23:47] That is the only combination that is gauge invariant that has physical meaning.
+[1:23:54] And the second one is C minus a third Laplace E.
+[1:24:03] That's the second one that has physical meaning.
+[1:24:06] Any other combination, any other individual scalar field or derivative thereof or combination thereof can be removed by a coordinate transformation.
+[1:24:16] Hence, it's not interesting because it doesn't change anything in the real world.
+[1:24:20] It just perturbs me in the, in the chart.
+[1:24:24] Yes?
+[1:24:27] With respect to X0.
+[1:24:30] X0.
+[1:24:32] And in the vector, for vector perturbations, the gauge invariant quantity is theta alpha is B alpha.
+[1:24:45] Look, B alpha minus E alpha dot.
+[1:24:54] So not the B squared, so not the B alpha, B alpha, not the B alpha, B alpha minus E alpha, E alpha, whatever you might come up with.
+[1:25:01] None of those has meaning, only this one.
+[1:25:05] This has meaning.
+[1:25:08] And finally, for tensor perturbations.
+[1:25:13] And you know, we can consider them all separately.
+[1:25:17] All the E alpha beta are gauge invariant.
+[1:25:26] So for the tensor perturbations, if you only look at tensor perturbations, if you do gravitational waves, those will turn out to be tensor perturbations.
+[1:25:36] For them, you don't have a problem.
+[1:25:39] So you can very easily do perturbation theory for, for, for these waves.
+[1:25:43] And, and, and so that's these guys.
+[1:25:45] Yes?
+[1:25:46] What would if we turn on the perturbations that are normally, for instance, if we turn on the tensor perturbations that are gauge, gauge, symmetric.
+[1:25:58] And, and at the same moment, we turn on the scalar perturbations.
+[1:26:04] Well, at the same moment, it doesn't matter.
+[1:26:06] They're separate problems.
+[1:26:07] So I can give you the one problem.
+[1:26:09] I give your colleague the other problem.
+[1:26:10] You go to separate rooms.
+[1:26:12] You deal with that separately.
+[1:26:13] You come back, we put the result together.
+[1:26:15] You don't need to talk to each other.
+[1:26:17] So if you say what, if it does at the same moment, it's not a new question.
+[1:26:22] It's reduced to the question, what happens if you only switch on scalar or only switch, switch on tensor perturbations?
+[1:26:28] That we have only one, that transition, which can eliminate one of these.
+[1:26:33] No, no, no.
+[1:26:34] You could, there would be independent.
+[1:26:37] You have one big chart transition, but you could, if you take another combination, you could remove it.
+[1:26:44] Well, that's independently independent of this one.
+[1:26:47] You could remove it with a chart transformation that can be kept and be made into a more special one that also removes anything else but this.
+[1:27:00] So we don't need the full chart freedom to reduce anything else to zero.
+[1:27:07] It's also in the chart transition space, so to speak.
+[1:27:11] They are separate, separate parts.
+[1:27:13] And you can put this together to a big chart transition.
+[1:27:18] Yes.
+[1:27:20] I, in fact, wrote before fake solutions, and then I thought the price we paid is more poetic.
+[1:27:29] But you're absolutely right, fake solutions.
+[1:27:32] And how do we separate fake solutions from non-fake solutions where such combinations are not fake solutions?
+[1:27:40] Okay.
+[1:27:41] And here all the ones are gauge invariance.
+[1:27:44] And so let me see whether there's something more I want to say.
+[1:27:53] Okay.
+[1:27:57] No, let me do this then in the next lecture.
+[1:27:59] I would say we stop here and we reconvene at 11.
+[1:28:04] And then we continue.
+[1:28:05] Thank you.

@@ -1,0 +1,2500 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:12] light okay so today is is uh to try to
+[00:15] put the the physics and the astronomy um
+[00:19] uh and the science goals uh onto the
+[00:22] picture that I I uh talked about last
+[00:25] night in my public lecture and I think
+[00:27] most of you were at the public lecture
+[00:29] and uh now we're going to try to really
+[00:32] understand much more about what what's
+[00:34] going on with gravitational wave
+[00:35] detection and why we're doing it now the
+[00:39] there are two two lectures the first one
+[00:42] I'm calling sources of gravitational
+[00:43] waves I think I gave a slightly
+[00:44] different title about compact objects
+[00:46] and their gravitational waves but it's
+[00:47] the same subject a little bit broader
+[00:50] than uh just the compact objects but I
+[00:53] want to talk about gravitational waves
+[00:56] um uh generated in astronomy the gra the
+[01:00] waves that we want to uh
+[01:02] detect um from the point of view of
+[01:05] understanding how uh strong those waves
+[01:07] can be what are the what are the goals
+[01:09] what are the sensitivity goals for for
+[01:11] detectors why do we have to build
+[01:13] detectors that are uh as sensitive as
+[01:16] the ones that we're building um and also
+[01:19] then what kinds of information would we
+[01:21] get from observing gravitational waves
+[01:23] so I won't say in this first lecture
+[01:24] very much about the detectors themselves
+[01:27] I'll ask you to just accept that we will
+[01:28] have detectors that do certain kinds of
+[01:31] things but then in the second lecture uh
+[01:34] I'll go into um the techniques of of
+[01:36] detection the principles underlying uh
+[01:39] detection and uh some of the physics
+[01:42] challenges of building uh gravitational
+[01:45] wave detectors so that's the
+[01:48] introduction um the uh I'll start with
+[01:52] this quote from a book by Harry
+[01:55] Collins Harry um and and what what he
+[01:58] says is gravitational wave detection is
+[02:00] about seeing the biggest things that
+[02:02] ever
+[02:03] happen collisions explosions and quaking
+[02:06] of stars and black holes by measuring
+[02:09] the smallest changes that ever ever been
+[02:11] measured and I think that puts it in a
+[02:14] nutshell uh that um uh uh that contrast
+[02:21] uh of of looking for something that's
+[02:23] really important because they're big and
+[02:25] uh having to having to look for the for
+[02:29] it with something extremely difficult to
+[02:31] build a very sensitive um apparatus
+[02:33] because the changes that you're
+[02:34] measuring are very small now Harry
+[02:37] Collins is a sociologist he's not a
+[02:41] physicist he he gained um uh notoriety
+[02:45] actually in the physics Community uh at
+[02:47] one time by getting into a de a debate
+[02:49] in the pages of physics today uh with
+[02:52] some physicists
+[02:53] about is the world real are we are what
+[02:56] we doing as physicists real uh are we
+[02:58] describing the real world or is it just
+[03:00] something in our so so um uh for a while
+[03:04] he he was a person who was kind of
+[03:06] anathema in the physics Community um but
+[03:10] then he got interested in gravitational
+[03:12] wave from the sociology point of view we
+[03:14] have a big collaboration we've been
+[03:16] building it up from a small beginnings
+[03:18] of about 20 or 30 people and now we have
+[03:21] something like a thousand people working
+[03:23] worldwide on this um and he wanted to
+[03:27] understand as a sociologist how how it
+[03:28] works and so he came to us and we
+[03:32] concluded an agreement that he has
+[03:34] access to the collaboration and to all
+[03:36] the internal documents and he can come
+[03:38] to all our meetings and listen to
+[03:40] everything we say and then he can write
+[03:42] his books about how we work and he's not
+[03:45] supposed to dulge things that we think
+[03:46] are confidential um but he does uh talk
+[03:50] honestly about how big collaborations uh
+[03:53] work in physics um and um uh it's very
+[03:58] interesting this is first book he's got
+[04:00] three or four books and some some
+[04:01] articles so in a sense you know we're
+[04:03] his lab rats he comes and we're just
+[04:07] doing what we think is important and
+[04:08] he's watching what he thinks is
+[04:10] important um but um he's been converted
+[04:15] to physics he now thinks that physics is
+[04:16] real this is really
+[04:18] interesting uh the the last big
+[04:21] collaboration meeting um he was invited
+[04:23] to say say something and he said he got
+[04:25] up and he said I you know those
+[04:28] gravitational ways are out there and you
+[04:29] guys are going to see
+[04:31] them and he's such a fan uh of of of
+[04:36] this big collaboration and I think one
+[04:38] of the things that it brought home to me
+[04:41] about uh organizations and this is a
+[04:43] serious Point set aside from the rest of
+[04:45] my talk but but a physics collaboration
+[04:49] and and gravitational waves is is
+[04:52] one we have uh we have a a thing called
+[04:55] uh the LI Lio scientific collaboration
+[04:58] which is a voluntary
+[05:00] um organization of six or 700 scientists
+[05:03] and then there's other collaborations
+[05:04] that we have agreements with these are
+[05:07] self-governing in a way that is very
+[05:10] different from our political
+[05:12] institutions uh um the way we govern our
+[05:15] countries and our cities and so on is
+[05:17] kind of hierarchical and and um uh uh
+[05:21] there's a lot of competition to get up
+[05:22] to the top and then there's a lot of
+[05:23] reward and so on the the um
+[05:27] uh uh and there's a lot of discipline on
+[05:30] the in the um uh gravitational wave
+[05:33] collaboration like in other big physics
+[05:35] collaborations like particle physics is
+[05:37] another example we we kind of model
+[05:39] ourselves on particle physics
+[05:41] collaborations um they're very very um
+[05:45] they're entirely voluntary and
+[05:48] consensual um and so we have a
+[05:51] spokesperson who's elected uh
+[05:53] periodically and who has almost no power
+[05:56] who has lots of work does lots of work
+[05:58] to keep everything going um people come
+[06:01] and participate and we make we make
+[06:02] decisions kind kind of democratically uh
+[06:05] based of course on the physics not just
+[06:09] on Prejudice or political um uh
+[06:13] orientation or something like that we're
+[06:15] we're we we we have very clear guiding
+[06:17] principles but we make these decisions
+[06:20] collectively and and then they're
+[06:22] implemented by a bunch of people who do
+[06:23] a lot of work without any uh extra
+[06:26] reward and um and uh uh with and
+[06:31] carrying very little power it's a very
+[06:33] very different kind of social structure
+[06:35] and it's kind of amazing that it that it
+[06:36] holds together um uh the way it does but
+[06:40] I think for Harry that kind of thing is
+[06:42] very interesting because he he he wanted
+[06:44] to figure out how do we make
+[06:46] decisions who are the really important
+[06:48] people because it turns out that there
+[06:50] are you know there are uh there is a
+[06:53] hierarchy of scientific respect and so
+[06:55] on and if the top people say they think
+[06:58] this is what should happen then
+[06:59] generally the collaboration will do that
+[07:01] but it's done in a consensual way rather
+[07:04] than in a way that uh is enforced in
+[07:06] that hierarchy but anyway so the
+[07:08] sociology of of these big collaborations
+[07:10] is something that's um uh of interest to
+[07:13] people outside the collaborations and
+[07:16] Harry is a a kind of translator who's
+[07:18] written several books now on the history
+[07:20] of gravitational
+[07:23] waves now let's go into gravitational
+[07:25] waves and um the uh um
+[07:30] I want to go through and
+[07:32] highlight the most important points
+[07:34] about the physics of gravitation W
+[07:36] you've had detailed lectures about
+[07:37] gravitational waves and and perturbation
+[07:40] theory in general relativity I I want to
+[07:43] just highlight the things that are the
+[07:45] most important things for the
+[07:46] observational point of view the first
+[07:48] point of view first point to make is
+[07:50] that general relativity might not be
+[07:52] correct and therefore um well as I said
+[07:56] last night it's certainly not a quantum
+[07:57] theory so that there going to be
+[07:58] Corrections to it at some level and uh
+[08:02] it could be that those Corrections
+[08:03] affect gravitational waves in terms of
+[08:05] the speed or the polarization so those
+[08:07] are things you want to be alert to when
+[08:10] you're um making gravitational wave
+[08:13] observations the
+[08:15] information that it carries is probably
+[08:18] obtainable in no other way uh so we want
+[08:20] to we want to be able to read it um the
+[08:24] equivalence principle is a fundamental
+[08:25] principle and is is embodied in is is
+[08:29] Incorporated in many alternative
+[08:31] theories of gravity as well uh to to
+[08:34] general relativity and because because
+[08:37] the equivalence principle it it means
+[08:39] that gravitational waves operate by
+[08:40] tidal forces so if you're in free fall
+[08:43] there's no gravity that's what the
+[08:45] equivalence principle says so if a
+[08:47] gravitational wave comes by and you're
+[08:49] sitting here in free foil you don't feel
+[08:51] it no matter how strong the
+[08:52] gravitational wave is except if you're
+[08:55] big enough that the differential action
+[08:57] of the gravitational wave across your
+[08:59] body or across your apparatus uh is
+[09:02] measurable that's the tital part of the
+[09:04] gravitational wave so the overall sort
+[09:06] of local acceleration not something that
+[09:09] you can feel um so if you want to build
+[09:11] a gravitational wave detector it has to
+[09:13] be uh that you're looking for the
+[09:15] differential part of the acceleration
+[09:17] you're looking for uh differences in
+[09:19] acceleration at different
+[09:23] places um that means that detectors have
+[09:26] to be that they gain an
+[09:28] advantage uh by being bigger um uh
+[09:32] because the because you're looking for
+[09:34] something which to first order anyway uh
+[09:36] increases linearly with uh with
+[09:39] length
+[09:41] um in general relativity the speed of
+[09:44] gravitation waves is the speed of light
+[09:46] the metric uh can be described as a
+[09:48] perturbation on some background um and
+[09:52] uh that perturbation conventionally is
+[09:54] called H and uh it's also usually a very
+[09:58] small perturbation on
+[09:59] whatever is the effect of Newtonian uh
+[10:02] gravitational
+[10:04] potential in general relativity only two
+[10:07] transvers polarization modes uh and the
+[10:09] stretching is uh uh conventionally a
+[10:13] what we call H turns out to be um twice
+[10:17] the uh uh the title Distortion Delta L
+[10:21] overl um and the title Distortion is
+[10:24] gradient to the acceleration as as I've
+[10:27] just been explaining which means that in
+[10:29] nutonian terms it's the second gradient
+[10:31] the second derivative of the Newtonian
+[10:33] potential and that is represented in
+[10:36] general relativity uh by the curvature
+[10:38] tensor and so what we're really
+[10:40] measuring with gravitational waves
+[10:42] directly is the curvature
+[10:45] tensor
+[10:47] um the most sensitive detectors we can
+[10:50] we can build at the moment are
+[10:51] interferometers and they're linearly
+[10:53] polarized detectors and some all the
+[10:55] detectors we we build are polarized
+[10:57] detectors so um we talked a bit last
+[11:00] night in the question session about
+[11:02] polarization it's important to have
+[11:04] detectors with different orientations so
+[11:06] you're actually picking up different
+[11:07] polarization
+[11:08] modes now uh very simple you um I I
+[11:13] think these equations must be familiar
+[11:15] to uh there's a gauge Choice which uh we
+[11:18] call the transverse traceless gauge for
+[11:21] um uh linear perturbations of a mosy
+[11:25] background and uh if you go into that
+[11:27] gauge uh then
+[11:29] the uh equations without a source the
+[11:33] propagation equations for the
+[11:34] gravitational waves are very very simple
+[11:37] it's just the wave equation it looks
+[11:38] just like um uh the equations for
+[11:42] electromagnetic
+[11:44] waves um you've probably seen some some
+[11:48] uh picture like this this is the polariz
+[11:50] this is the polarization diagram this is
+[11:52] the action of gravitational waves if you
+[11:54] imagine that you have a ring of
+[11:56] particles that are out in outer space
+[11:59] they're free to move there's no uh
+[12:02] connections between them and then um a
+[12:05] gravit and a gravitational wave comes
+[12:07] comes in from the direction onto the
+[12:11] onto the plane of this picture then uh
+[12:14] one of the polarization act uh States
+[12:17] would be to distort that uh circle into
+[12:20] an ellipse and then because it's a wave
+[12:22] and it's oscillating you get an ellipse
+[12:24] with the same uh uh uh axes but uh with
+[12:29] this major and minor axes reversed and
+[12:31] then it goes back to being a circle so
+[12:33] the full one cycle of the wave takes you
+[12:36] that way the orthogonal polarization
+[12:38] because its title is actually just a 45
+[12:41] degree
+[12:42] rotation and so your your um axes go
+[12:45] that way and then and then it it's on
+[12:49] that SL with these two polarizations you
+[12:52] can describe any gravitational wave with
+[12:54] linear combination of those two
+[12:55] polarizations
+[12:59] and so now if you uh our our detector of
+[13:02] choice and I'm going to be talking about
+[13:03] detectors uh in the second lecture but
+[13:06] but our detector of choice today is the
+[13:08] interferometer and this is a simple
+[13:10] sketch of an interferometer where you
+[13:12] have light coming in from this side
+[13:14] through a beam s splitter uh out uh
+[13:16] along two different arms and if you
+[13:19] imagine placing the mirrors of those two
+[13:22] uh AR at the end points of those two
+[13:23] arms on this circle this is the ellipse
+[13:26] this is the polarization uh Circle that
+[13:28] I had drawn before or um if you just put
+[13:30] those as two two particles on that
+[13:33] Circle and if you put the beam splitter
+[13:35] right in the middle of the circle then
+[13:37] when the gravitational wave with the
+[13:38] with the top line of polarization
+[13:40] distorts that circle into an ellipse
+[13:42] what it does is it moves this mirror
+[13:44] further away brings this mirror in
+[13:46] closer and that uh automatically then
+[13:49] creates um a change in the interference
+[13:51] pattern uh at the beam splitter and the
+[13:54] beam splitter um uh the way that works
+[13:58] is is if you normalized if you've
+[14:00] arranged in such a way that when there's
+[14:02] no gravitational wave there's no light
+[14:04] coming out here you have complete
+[14:05] destructive interference then when
+[14:07] there's a gravitational wave you'll
+[14:09] you'll have light coming out here and
+[14:10] that'll be your signal and so you're
+[14:12] just reading off the intensity of the
+[14:14] interference coming out um and that's
+[14:17] proportional to the gravitational wave
+[14:19] signal so it's that's a simple way of
+[14:22] describing it and it shows that that U
+[14:24] interferometers are are essentially
+[14:26] ideal for uh detecting gravitational
+[14:30] waves it's exactly the kind of thing
+[14:31] that you want to be uh to be doing and
+[14:34] the history of interferometers as
+[14:36] gravitational wave detectors goes back
+[14:38] quite a long
+[14:41] way
+[14:43] um the other thing I I want to mention
+[14:46] and I used this term last night standard
+[14:49] sirens for certain kinds of
+[14:51] gravitational wave sources including the
+[14:53] most common that we expect which are
+[14:55] binary systems in orbit around each
+[14:57] other if the binary is um is shrinking
+[15:02] as as the hul Taylor binary Pulsar is
+[15:05] and as all the all the almost all the
+[15:07] binaries are that we're going to be
+[15:09] detecting certainly in the near future
+[15:11] um if there's a rate of change that you
+[15:13] can measure of the of the orbit then
+[15:16] that of course translates into a rate of
+[15:17] change of the frequency of the emitted
+[15:20] gravitational waves if you have that
+[15:22] information in the signal then you can
+[15:25] cons you can there's a combination of of
+[15:27] the things you can measure that gives
+[15:28] you the the distance to the uh to the
+[15:31] source so it's just uh a number out in
+[15:33] front which I won't talk about uh very
+[15:36] much one over the frequency squared of
+[15:38] the gravitational waves the chirp
+[15:41] time um uh uh which is the uh time scale
+[15:45] associated with the change rate of
+[15:47] change of the frequency so if you can
+[15:48] measure that and uh the amplitude H
+[15:51] which you're
+[15:52] measuring
+[15:54] um uh this uh combination has the um
+[15:58] remember a is a dimensionless number so
+[16:00] this combination has the dimensions of
+[16:02] distance and it's it if you're on a
+[16:04] cosmological scale it's the Luminosity
+[16:06] distance uh of uh out to the um
+[16:10] gravitational wave Source um there are
+[16:13] uh factors there are numerical factors
+[16:15] out here which have to do with
+[16:16] orientation so the gravitational waves
+[16:19] that you're measuring you have to make
+[16:21] sure you can measure their polarization
+[16:22] you you have to understand the
+[16:24] orientation of the source and everything
+[16:25] the number of angular things that you
+[16:26] have to work out before you can get the
+[16:28] distance since down um uh and so I've
+[16:32] left those out because they tend to be a
+[16:33] little bit complicated to look at but
+[16:35] this is an extremely unusual situation
+[16:38] in in astronomy that you can make a
+[16:40] measurement and and know how far away
+[16:42] your Source was intrinsic from intrinsic
+[16:44] information in the signal and that's a
+[16:46] calibration then of of distance ladders
+[16:49] we hope to tie that to the distance
+[16:50] ladders that are used in astronomy um uh
+[16:54] and uh as I said every neutron star
+[16:57] binary system every black hole system
+[16:59] that will be detected by ligo will be
+[17:02] coalescing and so we'll have all of
+[17:03] these numbers and we will be making um
+[17:06] distance estimates for each
+[17:10] Source now
+[17:12] um
+[17:14] uh I want to talk about the generation
+[17:16] of gravitational waves and again I'm
+[17:18] building on things that I'm sure that
+[17:19] you've seen um uh the
+[17:25] um excuse me the coupling of
+[17:26] gravitational waves to uh to distort to
+[17:30] to the distance changes is given by that
+[17:33] proportionality I left out the factor of
+[17:34] a half I should have put that in there
+[17:36] um everything on here is is actually uh
+[17:40] uh I'm not worrying about factors of two
+[17:41] I'm trying to get you to uh order of
+[17:44] magnitude estimates for the strengths of
+[17:45] gravitational waves um and H is the
+[17:48] amplitude now there's a thing called the
+[17:50] quadriple formula and I guess you've had
+[17:52] the quadriple formula um uh which is the
+[17:56] fundamental uh formula for the
+[17:58] generation of of amplitude of
+[17:59] gravitational waves in the slow motion
+[18:02] limit uh just as for electromagnetism
+[18:05] the dipole formula is is uh for charged
+[18:09] particles um it turns out that if you
+[18:12] look at the at the quadpot formula and
+[18:15] manipulate it a little bit um and just
+[18:18] try to get scalings out of it try to get
+[18:21] um order of magnitude estimates it turns
+[18:23] out to be very uh very simple the the
+[18:26] the quadriple formula has things in like
+[18:29] the density the mass density there's an
+[18:31] integral over the volume of the system
+[18:33] if I just replace the integral over the
+[18:35] volume time of the density if I replace
+[18:38] that with the mass of the system then
+[18:40] then uh I get some scaling some order of
+[18:43] magnitude estimate inside the integral
+[18:46] there are uh coordinates there's uh X's
+[18:50] uh with different indices on them um if
+[18:53] I just replace each one with the size R
+[18:55] of of the system um
+[18:59] excuse me the uh and I'm using capital
+[19:02] r as the uh dimension of the of the
+[19:05] radiating system then um I I can
+[19:09] simplify my formula and there's time
+[19:10] derivatives in the qu in the quadruple
+[19:12] formula and uh there's there um I can
+[19:16] replace for a self-gravitating system I
+[19:18] can replace time derivatives which are
+[19:20] basically velocities I can replace those
+[19:23] with uh the gravitational potential
+[19:25] because I have the varial theorem for
+[19:27] for a self-gravitating system when I do
+[19:29] all of those things and it's all just
+[19:31] order of magnitude stuff I get a very
+[19:33] simple formula which is that the there's
+[19:35] an upper limit on H which is the uh
+[19:39] product of just two Newtonian potentials
+[19:42] uh made dimensionless by scaling with
+[19:44] one over c squared um one is the
+[19:46] internal potential the mass of the
+[19:48] system over its own radius and the other
+[19:50] is the the Newtonian potential of the
+[19:52] system at where we are um because little
+[19:56] r is the distance uh from the system to
+[19:58] us so this is a very tiny number the
+[20:00] gravitational potential of the system
+[20:03] which is very far away at our location
+[20:05] and this is the internal syst number and
+[20:07] it's just the product of those two
+[20:08] Newtonian potentials is an upper limit
+[20:11] on age uh it's an upper limit because of
+[20:15] uh of considerations of symmetry you you
+[20:18] uh I'm sure also realize that if I had a
+[20:20] body that's perfectly spherical and it's
+[20:23] pulsating in a spherical way or
+[20:25] collapsing in a spherical way it doesn't
+[20:27] give off any gravitational waves at all
+[20:29] so I would still get the same scaling
+[20:31] for that body but I'd have zero H would
+[20:33] be zero so this is an upper limit which
+[20:36] can go all the way down to zero if I
+[20:38] have perfect symmetry but it's also an
+[20:41] upper limit that's attainable so if I if
+[20:43] I take a maximally asymmetric system
+[20:45] which is two equal mass stars in an
+[20:48] orbit around each other there's that's
+[20:51] that's a perfect quadripole
+[20:53] system turns out that that n that that
+[20:55] formula works very well that's um uh an
+[20:59] attainable Bound for um the uh um uh
+[21:04] amplitude of gravitational waves from
+[21:06] from a self-gravitating system so it
+[21:08] works only for self-gravity because I
+[21:10] use the varo theorem it's not working
+[21:12] for for Springs with masses on
+[21:16] them um
+[21:18] so but that's a very useful formula
+[21:21] because you can immediately plug some
+[21:22] numbers into it and ask yourself what
+[21:25] are the numbers that are appropriate for
+[21:27] uh targets for building gravitational
+[21:29] wave detectors how sensitive do I have
+[21:31] to be we'll do that in a minute but also
+[21:34] I want to point out that there's an that
+[21:36] gravitational waves fit in with
+[21:37] classical physics and if for other other
+[21:41] wave Fields I always talk about the
+[21:43] energy that's carried by waves and so on
+[21:46] and if you look for electromagnetism and
+[21:49] you write down the Energy Formula excuse
+[21:51] me in terms of the vector
+[21:54] potential or if you look for a scalar
+[21:56] wave and you look at the energy Flux Of
+[21:58] formula for in terms of the amplitude of
+[22:00] the scalar wave you you find that
+[22:02] there's always um uh it's always
+[22:05] proportional to the square of the time
+[22:07] Dera of of the amplitude of that of that
+[22:11] field and that's also true in general
+[22:13] relativity the the energy flux is
+[22:15] proportional to the square of the time
+[22:17] Dera of H um and then of course if I
+[22:20] know I I need that then I can then all I
+[22:23] have to do is put in some look at what
+[22:25] is the what are the fundamental
+[22:26] constants I need to get the dimensions
+[22:28] right for energy flux energy flux is is
+[22:31] energy per unit time per unit area so if
+[22:34] I put in C cubed over G you can trust me
+[22:38] um uh that comes out to be uh something
+[22:40] with those dimensions and then um I'm
+[22:43] almost done but then I need to know what
+[22:44] the factor is in front of it and that's
+[22:46] where all the work is that I have to
+[22:48] spend three days calculating on on on a
+[22:50] piece of paper to get the one over 32 Pi
+[22:53] but if I didn't care about the 1 over 32
+[22:55] Pi um all the rest of it is something I
+[22:57] can just write down
+[22:58] without even thinking if I believe that
+[23:00] general relativity fits in with all the
+[23:01] other classical uh field theories okay
+[23:04] so um I'm I'm not trying to trivialize
+[23:07] the 1 over 32 Pi I'm trying to point out
+[23:09] to you that we fit here this is a
+[23:11] Formula you would see in any classical
+[23:13] field Theory with appropriate
+[23:15] dimensional constants and then some
+[23:17] factor out in front so that's the energy
+[23:18] flux um the energy flux carried by a
+[23:21] gravitational wave and from that we can
+[23:23] calculate luminosities and I'm about to
+[23:25] do that too and and come back to this
+[23:27] question of how how incredibly luminous
+[23:30] gravitational wave sources can be in
+[23:32] terms of energy so let's do some simple
+[23:35] estimates let's talk about the amplitude
+[23:38] formula here if I take a mass of one and
+[23:41] a half solar masses that's a a typical
+[23:45] mass for a neutron star 1.4 or something
+[23:47] like that I'm not going to worry about
+[23:48] small differences between numbers but
+[23:50] I'll take a number about 1.5 solar
+[23:52] masses if I say oh I've reversed these
+[23:55] sorry if I say the the size of the
+[23:57] object is is 10 kilm that should be Big
+[23:59] R is 10 kilm um um that's a typical
+[24:03] radius for a neutron star um and if I
+[24:07] place the object far away at 100 megap
+[24:10] parex I mentioned that number last night
+[24:12] as a as a as a distance we think that
+[24:14] our nearest uh neutron star binary uh
+[24:18] coalescing during a one-year observation
+[24:21] might be 100 megap parex that comes from
+[24:23] our understanding of astronomy that uh
+[24:26] uh distance scale if I put all those
+[24:28] numbers together I get H around 10us
+[24:32] 21 immediately tells me that's just this
+[24:35] formula here that immediately tells me
+[24:37] um where I have to go with my uh
+[24:40] detector sensitivity um no good having H
+[24:44] uh a a detector that detects h of 10us
+[24:47] 12 which would still be a wonderful
+[24:49] thing to build uh this tital effects of
+[24:52] 10 of -12 but it's not going to detect
+[24:54] uh interesting gravitational waves I
+[24:56] could do this amplitude thing for many
+[24:59] different kinds of sources I could uh
+[25:01] work it out for other other things but
+[25:04] typically I always wind up saying that
+[25:07] um I need to be around that um Supernova
+[25:11] used to be very important uh to the
+[25:13] discussion of and motivation of
+[25:15] gravitational wave detection and the
+[25:17] nearest Supernova a supernova also might
+[25:19] involve forming a neutron star about
+[25:21] that radius but the nearest Supernova is
+[25:24] going to be closer than this the nearest
+[25:25] Supernova could be a factor of a
+[25:26] thousand closer than this it could be
+[25:29] 100 kilop parex which is roughly the
+[25:32] distance to the large maganic cloud and
+[25:34] the most recent Supernova nearby was in
+[25:36] the large M Cloud which is 50 kilop Parx
+[25:39] away so if I take that a factor of a
+[25:42] thousand away from that then I would
+[25:43] boost this number to 10- 18 and 10- 18
+[25:46] was talked about for a long time as as a
+[25:49] goal for gravitational wave detectors
+[25:51] but what it leaves out
+[25:54] is this upper bound it is an upper bound
+[25:57] but there's this geometrical Factor here
+[25:58] which can go right down to zero and what
+[26:01] we understand about Supernova explosions
+[26:03] now from from detailed numerical
+[26:05] simulations of the process is that
+[26:08] they're nearly spherical is that they're
+[26:10] they're not they're not highly
+[26:13] asymmetrical and so they're not coming
+[26:15] anywhere close to that 10us 18 and so
+[26:18] again we're being pushed down to 10us 21
+[26:20] or smaller for for nearby supern noi and
+[26:23] and that's the picture across the whole
+[26:25] spectrum of different gravitational wave
+[26:27] sources
+[26:30] okay the flux um uh the energy flux
+[26:33] leaving a black hole black hole merger
+[26:35] let's take the strongest uh
+[26:37] intrinsically strongest gravitational
+[26:38] wave thing we can uh imagine you have
+[26:41] two black holes they're in orbit around
+[26:42] each other they're about to emerge
+[26:44] because they're in orbit around each
+[26:45] other their velocities are typically the
+[26:47] velocities close to the speed of light
+[26:49] the gravitational wave Distortion is
+[26:51] immense the perturbation of the metric
+[26:53] is of order one uh um uh nearby so I'm
+[26:57] looking at the energy flux just outside
+[26:59] the system so I'm going to take H to be
+[27:01] of order one the time derivative um uh
+[27:04] will be set by the fact that the
+[27:05] velocities are of order the speed of
+[27:07] light um so that means the time
+[27:10] derivative is is C over the size of the
+[27:13] system the size is determined by the
+[27:14] mass uh to you know factors of two and
+[27:16] so I'm not going to worry about uh so um
+[27:20] that's the time derivative if I put
+[27:22] those things in in a hand waving way
+[27:24] again I get a number which is C 5 over
+[27:26] 32 pi G m^2 the C 5th over
+[27:31] G the C the this is C cubed over G but
+[27:35] when you talk about the uh um uh the
+[27:38] flux then you you're adding in this C so
+[27:40] you want up C the 5th over G um is an
+[27:43] important number and I'll come back to
+[27:44] that and it's one it scales is 1 over M
+[27:46] squ that's the that's the energy flux um
+[27:50] uh that's energy per unit time per unit
+[27:53] area on a little sphere just surrounding
+[27:56] the black hole system so that's
+[27:58] interesting but we're not near there but
+[28:01] why don't we just integrate that over
+[28:02] the sphere and get the total Luminosity
+[28:05] um and uh if I do that I'm just going to
+[28:09] uh integrate by taking that flux number
+[28:11] and multiplying by the area of a sphere
+[28:13] of radius m of 4 Pi m^ 2 and then I get
+[28:17] the total energy leaving that sphere I
+[28:19] get the luminosity and and that gets rid
+[28:21] of the M squared and I get C 5th over G
+[28:23] with a factor of 1/8 in front of it as
+[28:26] well C 5th over G interesting inly is a
+[28:29] pure number is a pure combination of
+[28:31] fundamental constants it has the
+[28:32] dimensions of Luminosity it is energy
+[28:35] per unit time and um and it's a huge
+[28:38] number because G is Tiny and C to the
+[28:40] 5ifth is large and so it turns out to be
+[28:42] 10 the 52 Watts this number with the one
+[28:45] over8 10 of 52
+[28:47] Watts where does that fit on the scale
+[28:50] of things you know 100 watt light bulbs
+[28:53] or something where does that fit in
+[28:55] astronomy um well the Luminosity of the
+[28:58] sun is 4 * 10 26
+[29:01] Watts so this is 10 26
+[29:06] Suns how many stars are there in the
+[29:09] known universe let's do a little
+[29:11] calculation our galaxy contains 10 of
+[29:13] the 11 Stars within range of our
+[29:16] telescopes what we can see in observable
+[29:18] universe turns out there's about 10 of
+[29:20] the 11 galaxies so there's about 10 of
+[29:23] the 22 suns in the entire observable
+[29:25] universe and this thing is is 10 26
+[29:29] times the Luminosity of any one of those
+[29:32] Stars okay so
+[29:35] already this thing is is this number is
+[29:39] brighter than all the light being
+[29:41] emitted uh I mean this is in
+[29:42] gravitational waves this Luminosity of
+[29:44] the sun is in is in light but
+[29:46] nevertheless when you compare them just
+[29:48] in energy terms the energy coming out of
+[29:50] this thing is is far higher than the
+[29:53] energy coming out of all the stars in
+[29:55] the entire universe at that particular
+[29:57] time of the merger that's a pretty
+[29:59] astounding thing
+[30:02] um uh
+[30:04] so um the uh uh I don't know have I got
+[30:09] another line here
+[30:11] um uh another thing you might know
+[30:14] another thing you might compare it with
+[30:15] is a quazar um the most luminous um uh
+[30:21] objects individual objects in in the
+[30:23] universe are quazars there are not many
+[30:26] of them but there but they're but
+[30:28] they're as luminous as individual
+[30:29] galaxies so they are actually uh around
+[30:33] um 10 to the
+[30:36] um uh 37 10 of the 38 watts and um uh uh
+[30:44] and and all astronomers very excited by
+[30:47] how do you get that much luminosity and
+[30:48] so on but you know 10 to the 37 or 10 38
+[30:51] watts compared to 10 of 52 watts is
+[30:53] piddling it's very small so again a
+[30:57] gravitational W merger at the end of the
+[30:59] merger is is giving off an energy more
+[31:02] energy than anything else uh uh go than
+[31:05] the entire rest of the universe together
+[31:07] it only lasts for a tiny uh length of
+[31:10] time it's only during the merger which
+[31:11] is basically the light Crossing time
+[31:13] over the system so it's not uh so the
+[31:16] Luminosity is very high the total energy
+[31:18] that's given off is is is a more
+[31:20] reasonable amount um but anyway that's
+[31:23] that's those are the numbers that lead
+[31:25] to these astounding estimates okay so
+[31:28] this is what we have now in terms of
+[31:31] detectors that are that are operating or
+[31:33] or are being upgraded there are two
+[31:35] detectors the United States that are
+[31:36] called the Lio detectors they're four
+[31:38] kilometer interferometers one in the
+[31:40] state of Washington one in Louisiana
+[31:43] there's the Virgo detector which is uh a
+[31:45] 3 km interferometer in uh just outside
+[31:48] Pisa in Italy and there's a geod
+[31:50] detector which is a smaller one 600
+[31:52] meter detector in Germany the the uh
+[31:55] Arrow somehow got shifted it's should be
+[31:57] pointing to Hanover in Germany and not
+[31:59] down in Switzerland somewhere so um
+[32:03] these three ligo the two ligo and the
+[32:05] Gio are for form the LSC the Lio
+[32:08] scientific collaboration that I
+[32:09] mentioned and we have uh an agreement
+[32:12] with Virgo which is outside the LSC but
+[32:14] a data sharing and Joint data analysis
+[32:17] agreement those are the detectors that
+[32:19] are uh are
+[32:22] operating now why are there so many
+[32:24] detectors and why are we cooperating in
+[32:27] pH physics cooperation is not the rule
+[32:30] at CERN if you want to detect the higs
+[32:32] ban you have two different detector
+[32:34] groups and they don't cooperate they're
+[32:36] you they're Rivals they they try to get
+[32:38] after the the higs bosan and of course
+[32:40] they publish their independent papers
+[32:41] and we as a scientific Community only
+[32:44] believe it if both of them get uh
+[32:46] consistent results on the higs boson but
+[32:48] they're but they're in competition with
+[32:50] each other um here we're not in
+[32:53] competition we're we we're uh jointly
+[32:56] analyzing our data we're pooling our
+[32:57] data
+[32:58] and uh it turns out that Lio is
+[33:00] upgrading now and ligo will come online
+[33:01] about a year before Virgo and if we get
+[33:04] a the gravitational way detection in
+[33:06] that first year the Virgo people will
+[33:09] still be on the paper even though their
+[33:10] detector isn't even operating that's
+[33:12] what that's the form of cooperation that
+[33:14] we have um uh um one of the reasons is
+[33:20] confidence we we have to be seeing not
+[33:23] just random gravitational wave signals
+[33:25] like the the two groups at CERN will be
+[33:28] seeing their own higs bosons not they're
+[33:30] not looking at the same higs boson
+[33:32] they're just making higs bosons and
+[33:34] seeing lots of them um uh but here we're
+[33:37] looking at the same gravitational wave
+[33:39] sources that is that arriving here and
+[33:40] then there and then there and so we want
+[33:42] to pull all that data we can't just say
+[33:45] oh they saw one we saw one we have to
+[33:47] make sure we saw the same one and that
+[33:49] we extract information from it we one of
+[33:52] that forms of information is the
+[33:53] polarization as I described yesterday
+[33:56] and Sky location um another thing is
+[33:59] duty cycle these detectors when we ran
+[34:01] them for three years a few years ago had
+[34:03] a duty cycle of about 80% um that means
+[34:06] about 20% of the time they were not in
+[34:08] data taking mode for uh reasons that
+[34:10] they're very very hard to operate
+[34:12] they're very it's hard to keep them
+[34:14] stable and so um it's very important to
+[34:17] have
+[34:18] redundancy another um another thing is
+[34:20] that if you get all the information you
+[34:22] can actually try to reduce the amount of
+[34:25] uh noise average over the noise of the D
+[34:27] detectors and try to extract a waveform
+[34:30] and also discrimination against glitches
+[34:32] this is a very important thing glitch is
+[34:34] a scientific term if you didn't know
+[34:36] that um it's a uh it's a term that means
+[34:40] something has gone wrong that you don't
+[34:42] understand uh and uh lots of things goes
+[34:45] wrong in these detectors that are just
+[34:47] suddenly something appears in the data
+[34:49] some pop and it can look remarkably like
+[34:51] a gravitational wave signal um but it's
+[34:54] only in one of those detectors and it's
+[34:55] not happening in the others and it's
+[34:56] very big and you know that therefore
+[34:58] it's come from the detector but if you
+[35:00] only had one detector how would you know
+[35:01] it was from the detector instead of from
+[35:03] astronomy so you have to compare the the
+[35:06] detectors um in what we call coincidence
+[35:08] mode to make sure that you're not being
+[35:10] fooled by
+[35:13] glitches um we're in uh we're in an
+[35:16] upgrade uh to Advanced ligo ADL is
+[35:19] Advanced ligo right now there's an
+[35:22] advanced Virgo as well but this is the
+[35:24] slide for advanced ligo this is a
+[35:26] sensitivity diagram I I we'll talk more
+[35:28] about diagrams like this in my second
+[35:29] lecture but you see numbers here of
+[35:32] strain um uh 10us 23 10- 22 these are
+[35:36] measures of H um and um here are the
+[35:40] frequency band from 10 Herz to 100 Herz
+[35:43] to 1,00 this is the main frequency
+[35:46] observing band for for loo and so these
+[35:48] are basically plots of the noise um the
+[35:51] the lower down these curves get the more
+[35:53] sensitive the detector because the lower
+[35:55] the noise and um uh what we expect uh
+[35:59] maybe 2015 this slide is a couple years
+[36:02] old but we're on schedule so we we're
+[36:04] hoping to turn on the first detectors uh
+[36:06] perhaps by the by the end of this year
+[36:09] um we might have a sensitivity uh that's
+[36:12] a bit like this it'll be factors of
+[36:14] maybe three or four better than uh we we
+[36:17] operated with before and it might be
+[36:19] enough to make a first detection we
+[36:21] don't know we be able to see binary
+[36:23] neutron stars two neutron stars
+[36:25] spiraling together 60 megap parex away
+[36:30] the Virgo cluster galaxies to just
+[36:32] normalize things is 20 megap parex away
+[36:35] and contains a couple of thousand
+[36:37] galaxies out to 60 megap parex you're a
+[36:40] factor of three further out and
+[36:42] therefore a factor of about 30 more in
+[36:44] volume so instead of a couple of
+[36:46] thousand uh galaxies you have uh maybe
+[36:49] 60,000 maybe 100,000 galaxies we think
+[36:52] that there's one binary neutron star
+[36:54] spiral uh per year per
+[36:58] Galaxy uh sorry one binary neutron star
+[37:01] in spiral per Galaxy every 10 of the
+[37:03] five years we think it happens in our
+[37:05] galaxy every time five years in a
+[37:06] typical Galaxy so if you get out to
+[37:09] 100,000 galaxies you have a chance that
+[37:12] you're going to see one a year and and
+[37:14] so there is a chance that at at 60 megap
+[37:18] Parx we might be able to detect one um
+[37:22] but that's just an intermediate step uh
+[37:24] um and uh by let that that blue curve
+[37:28] then
+[37:29] becomes um this is extended by this
+[37:32] brown
+[37:33] curve excuse me maybe in a couple of
+[37:38] years uh the laser light is the same but
+[37:41] we're we're improving the the low
+[37:43] frequency performance and we've
+[37:44] increased our binary neutron star range
+[37:46] to 140 megap Parx and at that
+[37:49] point those of us who study the
+[37:51] astrophysics are are convinced that that
+[37:53] we have enough range to be detecting a
+[37:55] few of these events per year
+[37:58] so um sometime between the end of this
+[38:01] year and 2017 we should be expecting the
+[38:03] first detections then later on this this
+[38:06] we can modify the shape and we can do
+[38:08] lots of Tricks but that's the upgrade
+[38:10] path that we're on right
+[38:12] now uh we're also doing um uh a lot of
+[38:15] work on on the detection uh algorithms
+[38:19] the the data analysis and I do want to
+[38:20] emphasize this even though I'm not going
+[38:23] to put too much time into it
+[38:25] gravitational wave detection
+[38:28] uh the data analysis is crucial
+[38:30] component of course any experiment you
+[38:32] have to analyze your data but um all the
+[38:36] signals that we're seeing all the
+[38:37] signals we expect to receive these
+[38:39] binary neutrons star signals if you look
+[38:41] at the raw data coming off the detector
+[38:44] you won't see them they're down below
+[38:46] the Noise by factors of five or 10 they
+[38:49] have to be pulled out by um uh
+[38:52] intelligent uh filtering based upon a
+[38:55] prior knowledge of what that signal is
+[38:57] going going to look like without doing
+[39:00] um filtering you're not going to be able
+[39:01] to detect a gravitational wave at all
+[39:03] and so the data analysis is a crucial
+[39:06] step and and when the data analysis
+[39:08] people the computer geeks and the SC
+[39:11] theoretical physicists when they improve
+[39:13] their their ability to pull signals out
+[39:15] of Noise by a factor of two let's say
+[39:18] that improves the range of the Detector
+[39:19] by a factor of two that improves the
+[39:22] volume of detection by a factor of eight
+[39:24] that's like putting in a couple of
+[39:26] million
+[39:28] to to to uh upgrade the sensitivity of
+[39:31] the detector so the the the effort that
+[39:35] goes into Data analysis is probably
+[39:37] involves more than half of the people in
+[39:38] this collaboration and it's a crucial
+[39:41] part of understanding um of of of the
+[39:45] detection so we've done a lot uh we
+[39:48] we've written lots of papers on our
+[39:50] methods and our methods are generally
+[39:53] applicable that we've developed for
+[39:55] digging deep in the noise they generally
+[39:56] applicable other areas of astronomy and
+[39:59] so other astronomers have been giving us
+[40:01] data uh and we for instance have
+[40:04] discovered in gamar data we've
+[40:06] discovered Gamay pulsars um and uh uh
+[40:10] another Gamay Pulsar here uh that's uh
+[40:14] the person leading this activity is is
+[40:16] uh uh Bruce Allen he's one of the
+[40:19] directors of the Albert Einstein
+[40:21] Institute in in Hanover um and uh uh so
+[40:26] and we're also finding and Radio Data
+[40:28] we've we've uh identified a number of
+[40:30] new radio
+[40:31] pulsars just because we have techniques
+[40:33] that can get into the noise in anybody's
+[40:36] data better than uh what people have
+[40:38] done
+[40:39] before our searches have been very slow
+[40:42] it's taken us a long time to validate
+[40:45] everything the the code is validated
+[40:47] line by line with internal reviews you
+[40:49] write a code you you say you detected
+[40:52] something another committee is formed
+[40:54] within the collaboration they go through
+[40:55] your code line by line you have tojust
+[40:57] ify everything and then you have to
+[40:59] prove that you tested it with fake
+[41:02] injections into Data unrealistic data
+[41:04] and so on there's a huge amount of
+[41:05] approval process validation before
+[41:07] anything gets released and that is a
+[41:09] slow process so one of the things we're
+[41:11] doing right now is to make it faster and
+[41:14] um uh we want to be able to give out
+[41:17] alerts that are within a minute let's
+[41:19] say uh um that maybe don't have all
+[41:21] those checks in them but but but
+[41:23] everything's been validated ahead of
+[41:24] time so that when when we get an alert
+[41:26] we're reasonably sure it'll be right um
+[41:30] and and we give those alerts out to
+[41:31] astronomers and then they can uh see if
+[41:33] they can find something else in the sky
+[41:35] that might validate um uh the existence
+[41:38] of a real
+[41:40] event so we we are going to be we're uh
+[41:43] initially the data is private but after
+[41:45] the first detection we're going to have
+[41:46] public releases our earlier data is now
+[41:49] public uh you can go and uh see if we
+[41:52] missed any gravitational waves in in the
+[41:54] data we had uh back in 2005 to 2010 10
+[41:58] um and uh so there's there's uh a lot of
+[42:02] stuff here but um we uh uh plan
+[42:06] eventually to to just putting all the
+[42:08] data out
+[42:10] immediately um and we have
+[42:13] collaborations with uh a number of of uh
+[42:16] uh collaborations you might uh you might
+[42:19] have heard about all of which are are
+[42:21] able to detect transient events and
+[42:23] therefore uh might might be able to say
+[42:26] see things that are are are happening in
+[42:28] coincidence with our gravitational wave
+[42:29] signals and um uh we now have about 40
+[42:34] uh collaborations withus for um sharing
+[42:38] data and and looking at these um uh
+[42:41] collaborate looking at these things and
+[42:45] so uh this say a lot of activity in
+[42:47] building up multimessenger
+[42:49] astronomy uh now I talked about locating
+[42:52] the sources um I I don't want to uh
+[42:55] spend too much um we talked about that
+[42:58] with the demonstration and so on last
+[43:00] night um it depends the short birst was
+[43:03] what our demonstration was talking about
+[43:05] you know the clapping and so on um loc
+[43:08] those you localize that with time delays
+[43:10] among detectors and basically with two
+[43:13] detectors you can't you can't do and it
+[43:17] what you get is a circle on the sky with
+[43:18] just two detectors with three detectors
+[43:20] you can get a good position but even so
+[43:24] um the positions are um
+[43:27] uh are are rather large uh the aab box
+[43:30] is rather large 10 square degrees uh
+[43:32] might be a good Arab box so uh there's a
+[43:36] premium Now astronomers like building
+[43:38] telescopes that Focus down to you know a
+[43:40] few arc minutes or something like that
+[43:42] and and that they're not happy if you
+[43:45] tell them look for something in 10
+[43:47] square degrees um but there are now
+[43:50] they're building Widefield telescopes
+[43:52] and uh survey telescopes and they're
+[43:54] covering the whole Sky every every few
+[43:56] nights and so on so so uh there are a
+[43:59] lot of astronomers who can actually look
+[44:00] in a ton Square degree uh field of view
+[44:03] and um uh and hope to find something um
+[44:08] another thing is the pulsars I didn't
+[44:10] talk about localizing GW pulsars
+[44:12] gravitational way pulsars but that's a
+[44:14] different story that's something where
+[44:16] you use the Doppler effect that I talked
+[44:18] about with Lisa last night as the Earth
+[44:20] is RO going around the Sun the the the
+[44:24] uh you get an imposed uh phase modul on
+[44:27] on a continuous signal from uh a pulsar
+[44:31] and that really can give you a good
+[44:33] location in fact it's exactly how radio
+[44:35] astronomers get locations of pulsars and
+[44:37] we have the same sort of Errors so down
+[44:39] to an arc second you can loc localize
+[44:42] pulsars with gravitational waves so it's
+[44:44] very different depending on the source
+[44:45] of gravitational waves what the
+[44:47] localization is going to
+[44:48] be now this year uh later on we're going
+[44:52] to come in with um these uh uh big
+[44:56] interferometers uh the two Hanford and
+[44:59] uh the Hanford the Livingston the
+[45:01] Hanford Livingston and the Virgo
+[45:03] detectors Gio is not going to be part of
+[45:05] this observing Network because it's it's
+[45:07] um uh on too short of
+[45:10] Baseline GI was able to participate
+[45:12] earlier because it had more
+[45:13] sophisticated Technologies but those
+[45:15] Technologies were developed with the aim
+[45:17] of putting them into these detectors in
+[45:19] the upgrade so now when these detectors
+[45:21] have the have those sophisticated
+[45:22] Technologies Geo is Left Behind because
+[45:24] of its shorter Baseline uh so basically
+[45:27] we'll have three detectors which is the
+[45:29] minimum that we're that we need for
+[45:31] direction finding
+[45:33] um uh the baselines um oops I'm sorry
+[45:37] the baselines are um 27 milliseconds
+[45:42] largest Baseline resolving power of a
+[45:44] telescope depends upon the ratio of the
+[45:47] wavelength to the size of the of the
+[45:48] telescope this is this this is the size
+[45:51] of the telescope basically and the
+[45:53] wavelength is actually um uh uh
+[45:56] comparable or even larger and so the
+[45:58] resolving power is is uh uh is weak and
+[46:02] that's why we're not getting very good
+[46:04] positions on the
+[46:05] sky um what are we going so I what we
+[46:08] did with the first uh inter perometer
+[46:11] observations was set upper limits we we
+[46:14] didn't find any big surprises we've been
+[46:17] able to set uh upper limits on the on
+[46:19] the rates of things and predict what the
+[46:22] what the uh rates might be in in uh the
+[46:26] next generation of detectors um I just
+[46:29] put up this diagram you'll see some more
+[46:32] of these later on this is a antenna
+[46:35] diagram uh of a of a detector so a
+[46:38] detector that's flat here in the XY
+[46:40] plane of this diagram um this is the
+[46:42] sensitivity of the detector the
+[46:44] interferometer to gravitational waves
+[46:46] averaged over polarization um in
+[46:48] different directions and you see it's
+[46:50] most sensitive up up the Axis so if you
+[46:52] have a detector that's on the ground
+[46:54] here a gravitational wave Source
+[46:56] directly above
+[46:57] that's or below that's the most
+[46:59] sensitive
+[47:00] directions and there are some directions
+[47:02] where the sensitivity goes to zero
+[47:04] that's where your uh wave is coming in
+[47:07] at 45 degrees to your two two arms
+[47:09] because because that's the PO that's uh
+[47:13] um a wave that will influence both arms
+[47:16] essentially the same way that's just the
+[47:18] wrong polarization State and so uh
+[47:21] you'll get zero sensitivity so that's
+[47:22] where these holes are in this in this
+[47:24] what we call a peanut diagram um
+[47:27] uh but but uh the sensitivity is apart
+[47:30] from those holes the sensitivity varies
+[47:32] by factors of two or three over the
+[47:35] sky um
+[47:38] oops this is the sensitivity of uh the
+[47:42] henford and Livingstone the two Lio
+[47:43] detectors together when you put them
+[47:45] together um and imagine now they're
+[47:49] locate this there's an orientation here
+[47:50] they're located in the United States
+[47:52] imagine you're you're somewhere over the
+[47:53] North Atlantic Ocean okay and you're
+[47:55] looking down this is the the sensitivity
+[47:57] diagram so there so there's a clear axis
+[48:00] where there's the most sensitive uh
+[48:03] detections and this is um with um Virgo
+[48:08] added in and it becomes a bit more
+[48:09] symmetrical uh so we're getting better
+[48:12] Sky coverage that's the sensitivity of
+[48:14] those uh of that
+[48:17] Network now I would mainly want to talk
+[48:20] about um uh the gravitational wave
+[48:23] sources and so neutron star emerges I
+[48:26] mention many times um there what what
+[48:29] are we going to learn when we have
+[48:31] neutron star merges first of all um uh
+[48:34] we know that there are a number of
+[48:35] systems uh in our own Galaxy we we know
+[48:38] seven systems in our own Galaxy that are
+[48:41] already on the way to merger and have
+[48:43] merger times in the range merger
+[48:46] remaining lifetimes in the range up to
+[48:48] about 10 of the eight years um we can
+[48:51] only see a small fraction of our own
+[48:53] Galaxy these are discovered by radio uh
+[48:55] observations and you may or may not
+[48:57] realize that radio telescopes
+[48:59] particularly looking for
+[49:00] pulsars they only see the near part of
+[49:02] our galaxy they don't even see as far as
+[49:04] the gala galactic center and they don't
+[49:06] see the other side of the Galaxy at all
+[49:07] so we only have a small sample of the
+[49:09] number that are in our galaxy um and but
+[49:13] it's on the basis of that sample that
+[49:15] and the selection effects in radio
+[49:16] observations that the radio astronomers
+[49:18] calculate that they're probably enough
+[49:20] systems in our galaxy that the one
+[49:22] that's closest to merger is about 10 of
+[49:24] the five years away that's that number
+[49:26] of 10 of the five years once every 10 of
+[49:28] five years per
+[49:29] Galaxy um so so there are a lot of these
+[49:33] systems around and if if you can uh have
+[49:36] enough sensitivity to measure one one or
+[49:38] two uh per year what are you going to
+[49:40] learn well you're going to learn a lot
+[49:42] about the equation of state of neutron
+[49:45] stars uh hot neutron stars particularly
+[49:47] as they merge together they get very hot
+[49:50] and it's a new form of nuclear matter
+[49:52] that you cannot duplicate in the um in
+[49:54] the lab so uh there are lots of
+[49:57] different calculations of what that
+[49:58] might be like we want to actually
+[50:00] understand the Nuclear Physics um so
+[50:03] we'll be observing that and and that'll
+[50:05] affect the gravitational waves that they
+[50:07] emit um you will uh understand also um
+[50:11] the mass distribution of neutron stars
+[50:13] and binaries there's a very mysterious
+[50:15] thing which is that most binaries that
+[50:17] we know with a with a pulsar in them the
+[50:20] Pulsar is around uh 1.4 solar masses and
+[50:25] that's uh a mysterious thing because we
+[50:28] believe that you can make pulsars up to
+[50:30] two in fact we there are some pulsars
+[50:32] that are there are some pulsars that are
+[50:33] known with with masses up to about two
+[50:36] Cellar masses but somehow in these
+[50:37] binary systems they tend to be smaller
+[50:40] and so we would like to understand that
+[50:42] um uh and uh um binary black and we
+[50:48] might also have have merges of black
+[50:51] holes instead of binary neutron stars
+[50:54] and then that's a very good test of
+[50:55] strong field generation relativity and
+[50:57] we would For the First Time begin to
+[50:59] understand what the distribution of
+[51:01] masses and so on is for real black holes
+[51:03] we don't have any observations
+[51:06] that um there's a good reason to believe
+[51:09] that neutron star merges produce a short
+[51:12] Gamay burst and um that's something that
+[51:15] the uh Gamay astronomers are are uh
+[51:20] believe and so they're very interested
+[51:22] in the gravitational wave observations
+[51:23] that could be in coincidence with their
+[51:25] bursts but G bursts are beamed Gamay
+[51:28] come out in a beam and the fraction of
+[51:30] the sky covered by that beam is probably
+[51:32] only 1% maybe 3% but that means that
+[51:35] something like one out of 30 or one out
+[51:37] of a 100 gravitational wave events will
+[51:39] be accompanied by a Gamay burst that
+[51:41] will be visible to the Gamay detectors
+[51:44] and so it's not going to be an easy
+[51:45] thing to make this
+[51:48] correlation uh so we the the first
+[51:51] Network when we get under with with with
+[51:53] our full event rate we might be getting
+[51:56] a one per year uh in coincidence with
+[51:59] Gamay bursts um but we also are going to
+[52:03] have some very strong signals our our
+[52:05] threshold for signal to noise is going
+[52:07] to be around 12 signal noise is
+[52:09] amplitude signal noise and and so uh an
+[52:13] amplitude signal noise of
+[52:15] 12 uh if you compare that with a with an
+[52:18] optical observation of a signal noise
+[52:21] that's an energy based uh Photon
+[52:23] counting observation you square it so 12
+[52:25] a signal is 12 for us is is about 150 um
+[52:30] uh um uh C noise for optical astronomers
+[52:33] which isn't a bad signal noise they're
+[52:35] often dealing with much worse signal
+[52:37] noise than that um so it's a respectable
+[52:39] signal noise but if you're getting a
+[52:41] let's say 30 events per year when we
+[52:43] finally develop our detector Network
+[52:45] fully um then some of those are going to
+[52:48] be
+[52:49] stronger and uh the strongest ones are
+[52:52] are going to produce uh um uh even more
+[52:55] science the uh strongest event might
+[52:57] have a signal no of 27 let's say
+[53:00] 30 have a smaller error box we'll be
+[53:02] able to pin it down
+[53:04] better and um uh uh and and we'll get a
+[53:09] a better detector a better distance and
+[53:11] so on we'll be able to identify uh the
+[53:15] counterpart uh we'll get a red shift and
+[53:19] uh and so on so that'll that'll help
+[53:21] with our calibration that'll help with
+[53:22] the uh um the cosmology that we want to
+[53:25] do and so on so there's a lot of there's
+[53:28] a lot of stuff coming out of neutron
+[53:29] stars this is a picture uh of from the
+[53:32] endpoint of a numerical simulation done
+[53:34] by luchiano Rola at the Albert Einstein
+[53:36] Institute Rola is now at the University
+[53:38] of Frankfurt um uh and still doing very
+[53:43] interesting simulations of of neutron
+[53:45] star merges with in full general
+[53:46] relativity with um full hydrodynamics
+[53:49] Magneto hydrodynamics and this is the
+[53:51] magnetic field structure at the end of
+[53:53] that simulation it was a chaotic
+[53:55] magnetic field carried in by two neutron
+[53:57] stars with their own magnetic fields it
+[53:59] was stirred up but when those two mag
+[54:02] when those two neutron stars merged they
+[54:03] eventually formed a black hole once that
+[54:05] black hole formed this magnetic field
+[54:08] became very ordered and and you have
+[54:10] this polar magnetic field remarkably
+[54:13] coming out like this it wasn't put in by
+[54:14] hand and that's where we think the Jets
+[54:17] the Gamay Jets come from we think the
+[54:20] Gamay are channeled by these magnetic
+[54:21] field lines into this sort of 1% or 3%
+[54:25] of the sky
+[54:28] this network is going to be expanded um
+[54:32] and we will be uh bringing in um uh
+[54:38] um uh two more detectors uh so here the
+[54:42] original uh uh four but we're going to
+[54:45] be so already in Japan they're building
+[54:48] kagra kagra is short is a clever name
+[54:53] kagra is has has a meaning in Japanese
+[54:56] itself but it also short for Coca Ka
+[55:00] gravitational wave detector gr um camea
+[55:03] if you remember is where the the
+[55:05] Japanese have this wonderful nutrino uh
+[55:07] detector it's in a mountain um uh inside
+[55:11] some tunnels in a mountain well in that
+[55:13] same Mountain they've dug two 3
+[55:15] kilometer tunnels and they're putting in
+[55:17] the gravitational wave detector and
+[55:19] that's very quiet seismically quiet to
+[55:22] be underground in a mountain it's a a
+[55:24] good location they have uh a very
+[55:27] ambitious detector they're also going to
+[55:29] be uh cry cooling it cryogenically which
+[55:32] we don't do with the other ones to
+[55:33] reduce the thermal noise effects so
+[55:35] that's a that's an interesting uh
+[55:37] project and it's already started they've
+[55:39] got their tunnels and they've got their
+[55:40] vacuum system um ligo India is is still
+[55:45] waiting final
+[55:46] approval but we expect it to be approved
+[55:49] India had an election and then they were
+[55:51] looked up their science budget again but
+[55:53] it's a cooperation with a close
+[55:55] cooperation with ligo ligo originally
+[55:57] planned to put two detectors in the
+[56:00] Washington Hanford Washington vacuum
+[56:03] system two independent detectors but
+[56:05] then it was realized that if you could
+[56:06] put the that one of those detectors
+[56:07] somewhere else in the world you get the
+[56:09] benefits of Baseline Direction finding
+[56:12] coincidence there all of those things
+[56:13] are improved and so originally it was
+[56:15] offered to Australia and they said no
+[56:18] they would rather build the ska this
+[56:20] square kilometer array and they um uh
+[56:23] didn't allocate enough money to build
+[56:25] the gravitational wave detector but then
+[56:27] India uh came in and said uh we would
+[56:30] like to host uh that Lio detector so the
+[56:32] deal is that India builds the vacuum
+[56:34] system and all the civil engineering and
+[56:37] ligo takes all the components that are
+[56:40] identical to the components that are in
+[56:41] these two Lio detectors and installs it
+[56:43] in that vacuum system in India and we
+[56:45] have a Lio detector in India so that's
+[56:47] what's the plan is we're waiting for
+[56:49] final approval for that but when we have
+[56:51] these five uh um uh full detectors we
+[56:54] have a lot more information about
+[56:56] uh gravitational waves um we expect that
+[57:01] um uh that that the rest of this decade
+[57:05] will be just the three big detectors um
+[57:09] we're hoping Liu window will this is a
+[57:11] little optimistic now I think the delays
+[57:12] in funding will will push it back past
+[57:15] 2020 kagra has a has a Target around
+[57:18] 2020 and it's going to be difficult to
+[57:20] meet that but it it may it may get there
+[57:23] um but by 2025 we will have um uh five
+[57:27] full sensitivity detectors and that's uh
+[57:30] that's going to be um much better for
+[57:32] things like Direction finding here's the
+[57:34] same map but it turns out the best
+[57:36] Baseline is is this one between
+[57:39] Louisiana and India you would you don't
+[57:42] see it when you draw a map flat like
+[57:43] that you might think Japan is further
+[57:45] away but actually going through the
+[57:46] Earth as these baselines do because
+[57:48] gravitational waves go through the Earth
+[57:50] um this is the longest Baseline in in
+[57:53] that
+[57:54] Network and so that that's already an
+[57:57] improvement of of 30 or 40% in Direction
+[58:00] finding and uh the the fact that you
+[58:03] have several detectors and so on gives
+[58:04] you even better uh information about
+[58:07] polarization and
+[58:09] directions uh so when when India and
+[58:11] Japan come in we're going to have much
+[58:14] uh uh better volume that that antenna
+[58:17] pattern that I showed you will get more
+[58:18] and more spherical so we'll we'll be
+[58:20] covering the whole sky with rough
+[58:22] roughly roughly the same sensitivity and
+[58:24] reach uh we'll have have uh duty cycle
+[58:27] will be much improved because if a
+[58:29] detector goes down there'll still be
+[58:30] four detectors operating um so we won't
+[58:33] be missing events uh we'll get better
+[58:36] pointing we'll have um better
+[58:38] discrimination against these glitches so
+[58:40] we would expect two or three times as
+[58:42] many uh events um uh maybe four as we
+[58:46] approve our data analysis improv in more
+[58:48] more more uh putting more um
+[58:52] sophisticated data analysis techniques
+[58:53] that are that are possible with with
+[58:56] when you have more detectors uh this is
+[58:58] that diagram I showed you before with
+[58:59] the present
+[59:01] system but when we have the mo it's much
+[59:04] more
+[59:06] symmetrical uh so we might get 100 to
+[59:09] 200 events uh per year and uh with um uh
+[59:13] neutron
+[59:14] stars uh um what that means is that the
+[59:18] strongest event now is going to have a
+[59:19] signal to noise of 60 and so the the the
+[59:22] information you get from really about
+[59:25] the neutron star equation of state and
+[59:27] so on from these very strong events will
+[59:29] be um uh uh will be much improved and we
+[59:33] would have a number of gamma rayst
+[59:37] coincidences and then we'll be able to
+[59:38] start testing the cosmology we'll be
+[59:41] able to measure the Hubble constant to
+[59:43] uh accuracies of a percent or so um and
+[59:48] uh all that's as accurate as the uh
+[59:51] astronomers are able to do it right now
+[59:53] and so uh it's going to be very
+[59:55] interesting interesting to see if we can
+[59:56] get a Hubble constant value which is the
+[59:58] same as the uh Optical astronomy ladder
+[1:00:04] um gamr bursts uh uh uh has a lot of um
+[1:00:10] uh interest and and so we'll be we'll be
+[1:00:13] filling in a lot of details on that
+[1:00:16] black holes are to me the most
+[1:00:17] interesting things because we don't see
+[1:00:19] them in any other way particularly black
+[1:00:21] hole mergers and we we we don't even
+[1:00:24] know how to estimate the numbers um that
+[1:00:27] we we've tried to be rather
+[1:00:29] conservative um uh our range for black
+[1:00:32] holes is bigger much we see them much
+[1:00:34] further away because they're much more
+[1:00:35] massive but we um uh but but the volume
+[1:00:39] rate is probably lower we're kind of
+[1:00:41] expecting that the rate in our detectors
+[1:00:43] for detecting them is going to be
+[1:00:45] comparable to the neutron star rate
+[1:00:47] maybe a half of the neutron star rate
+[1:00:49] but there are astronomers saying no that
+[1:00:51] there are a lot more black hole binaries
+[1:00:52] out there than than the more
+[1:00:54] conservative estimates we've used so it
+[1:00:56] could be that our data will be will be
+[1:00:59] dominated by black hole mergers it just
+[1:01:01] depends upon what's happening in nature
+[1:01:03] and we really don't understand the black
+[1:01:05] hole binary formation well at
+[1:01:08] all but on the basis of these rather
+[1:01:10] conservative estimates we expect to see
+[1:01:12] them out to fairly large red shifts May
+[1:01:14] almost red shifts of order one and um uh
+[1:01:19] uh for the first time got a census of um
+[1:01:21] of black holes and binary black holes
+[1:01:23] and their spins and so on we have very
+[1:01:26] accurate numerical simulations now at
+[1:01:28] black hole merges we can really uh
+[1:01:30] compare uh them with general relativity
+[1:01:33] and um uh test uh uh test the model of
+[1:01:37] general relativity test things like
+[1:01:38] Cosmic censorship in general relativity
+[1:01:40] have you mentioned Cosmic sensorship
+[1:01:42] yeah it's a it's a conjecture it's uh we
+[1:01:46] believe that general relativity leads to
+[1:01:48] no netive singularities but we don't
+[1:01:50] know that that's not a theorem in
+[1:01:51] general relativity um so uh when you're
+[1:01:55] how you know when you're forming merges
+[1:01:56] of black holes do you get uh a black
+[1:02:00] hole with a nice horizon or do you get
+[1:02:01] something weird that's something you can
+[1:02:03] test with gravitational wave of
+[1:02:04] observations and again Hubble constant
+[1:02:07] so um there's a lot more that'll come
+[1:02:10] out I haven't said much about
+[1:02:11] gravitation wave pulsars very difficult
+[1:02:14] to to detect because they're very weak
+[1:02:17] they're not they're not whole Stars
+[1:02:19] they're little lumps on stars that are
+[1:02:21] that are
+[1:02:22] radiating so we only expect them from
+[1:02:25] rather near bu systems probably in our
+[1:02:27] own Galaxy
+[1:02:29] um uh but also uh to build up signal you
+[1:02:33] have to you have to coherently integrate
+[1:02:36] for for months during which time there's
+[1:02:38] a huge phase modulation imprinted on the
+[1:02:40] signal so it's not simple to just
+[1:02:42] coherently integrate over months and so
+[1:02:44] there's so the the search for
+[1:02:46] gravitational wave pulsars dominates our
+[1:02:48] Computing
+[1:02:49] requirements um and uh in fact um uh uh
+[1:02:55] uh we we we don't do it optimally even
+[1:02:58] though we know how to do it optimally
+[1:02:59] because we can't put together enough
+[1:03:00] computer power um so we have upper
+[1:03:04] limits now from um
+[1:03:07] uh uh earlier observations that are that
+[1:03:10] are interesting um uh from an
+[1:03:12] astronomical point of view but we have
+[1:03:14] no detections yet uh there as a one of
+[1:03:18] the one of one way of saying how how
+[1:03:20] difficult it is you have to do your uh
+[1:03:22] full uh search over all frequencies for
+[1:03:25] each one different of 10 of the 10
+[1:03:27] different Sky locations um and that's an
+[1:03:30] indication of the Computing requirement
+[1:03:32] um we do suboptimal searches and much of
+[1:03:35] this is done in Einstein at home do you
+[1:03:37] know about Einstein at
+[1:03:38] home ah well copy this down and and put
+[1:03:41] it into Google and go and help us
+[1:03:44] Einstein at home is a screen saver you
+[1:03:47] there are times I know when you're not
+[1:03:49] looking at your computer screens right
+[1:03:51] not all you know you're asleep sometimes
+[1:03:54] um uh and so let your computer run with
+[1:03:58] a screen saver that we give you and
+[1:04:00] behind the screen saver we're doing our
+[1:04:03] data analysis on your computer we
+[1:04:05] download some data onto your computer uh
+[1:04:07] we we look for pulsars it's part of the
+[1:04:09] Pulsar search uh thing is the main thing
+[1:04:12] and then if it finds some candidates it
+[1:04:14] sends um the data back to to our big
+[1:04:18] computers and we assemble this from from
+[1:04:20] lots of different uh people around the
+[1:04:22] world who are doing this and um uh it
+[1:04:25] gives a lot of computing
+[1:04:27] power um right now we have uh uh tens of
+[1:04:33] thousands of participants uh tens of
+[1:04:35] thousands of computers and we're uh
+[1:04:38] we're getting more than
+[1:04:42] um
+[1:04:44] uh we're getting close to a petaflop of
+[1:04:47] computing donated to us by all these
+[1:04:50] people hundreds of hundreds of teraflops
+[1:04:53] um uh that's an astounding amount of
+[1:04:55] computing which we could never buy uh
+[1:04:58] and so when I ask you to do it I'm I'm
+[1:05:00] asking you to join a big project it's
+[1:05:01] not some trivial sort of sideline this
+[1:05:03] is how we we look for post arts and um
+[1:05:07] um
+[1:05:09] the uh main benefit to us is not just
+[1:05:12] that we couldn't buy that many
+[1:05:13] processors is that we couldn't pay for
+[1:05:15] the
+[1:05:17] electricity so so when I when I say
+[1:05:20] leave your computer on overnight you're
+[1:05:22] paying for the
+[1:05:24] electricity uh uh okay so but uh that's
+[1:05:28] that's the economics of computing these
+[1:05:30] days and and again that's run by Bruce
+[1:05:32] Allen at the Albert Einstein Institute
+[1:05:34] in Hanover
+[1:05:36] um uh so please go to look at Einstein
+[1:05:39] at home and download it and uh
+[1:05:41] contribute and and it's a community we
+[1:05:43] have we put out I told you about the
+[1:05:45] Gamay pulsars and the radio pulsars that
+[1:05:47] we discovered we put those out on
+[1:05:48] Einstein at home that's how we found
+[1:05:50] them and so there are people in Germany
+[1:05:52] there are ordinary people who you know
+[1:05:54] accountants who join this thing and they
+[1:05:56] let the thing run on their computers and
+[1:05:59] they get a they get an email that says
+[1:06:01] you have found you participated in the
+[1:06:03] discovery of this Gamay PSAR and we want
+[1:06:06] redundancy so we don't trust any one
+[1:06:08] person's computer maybe they've you know
+[1:06:10] done something to it um so we get
+[1:06:13] redundancy so maybe we have three people
+[1:06:15] participating in this and they get their
+[1:06:16] names on the website and sometimes the
+[1:06:18] newspapers pick it up it's really
+[1:06:19] actually very interesting uh citizen
+[1:06:22] science um so that's Einstein at home
+[1:06:26] uh the the um I I haven't I want to
+[1:06:30] round up uh lots of uh other sources I
+[1:06:33] don't I
+[1:06:34] um uh have a few more slides to get
+[1:06:37] through uh Supernova as I said earlier
+[1:06:40] was once the primary motivation for
+[1:06:43] early detect early attempts to detect
+[1:06:44] gravitational waves based upon this
+[1:06:46] number of 10 of minus 18 we saw how we
+[1:06:48] got the number of 10 of - 18 but now we
+[1:06:51] believe it's much much uh the goal
+[1:06:53] should be uh uh 10us 1 or 10us 22 and uh
+[1:06:58] so it may be that if we when we when our
+[1:07:00] detector is running if there's a
+[1:07:01] supernova in our galaxy that we will
+[1:07:04] actually detect the gravitational waves
+[1:07:05] from it but not from distant galaxies um
+[1:07:10] but if we do it'll be in coincidence
+[1:07:12] with the nutrino detectors that that are
+[1:07:14] running now uh and and so we'll have a
+[1:07:17] very clear coincidence signal be very
+[1:07:19] interesting for for all the physics um
+[1:07:22] it's hard to predict the waveforms it's
+[1:07:24] a very chaotic event and so we're going
+[1:07:26] to learn a lot if we can do it uh but
+[1:07:29] it's it's a difficult observation to
+[1:07:30] make
+[1:07:32] uh now the we talked a bit about last
+[1:07:36] night the stochastic background the the
+[1:07:38] primordial background of gravitational
+[1:07:39] waves from The Big Bang and I mentioned
+[1:07:41] cosmic strings there's there's ample
+[1:07:44] opportunity in these places if we can
+[1:07:46] observe these uh kinds of events to to
+[1:07:49] pull out some new physics um two ligo
+[1:07:51] detectors the way you detect a CO a
+[1:07:54] background a CO
+[1:07:56] a random background of gravitational
+[1:07:57] waves from The Big Bang that hiss that I
+[1:07:59] played um if you have only one detector
+[1:08:02] then then it has to be a louder hiss
+[1:08:05] than the hiss of noise from your
+[1:08:07] detector and you have to have a lot of
+[1:08:08] confidence in this and if you know the
+[1:08:10] story about the discovery of the cosmic
+[1:08:12] microwave background that's exactly how
+[1:08:13] the cosmic microwave background was
+[1:08:15] discovered by penus and Wilson they had
+[1:08:16] a radio telescope and they had a hiss
+[1:08:19] and and and no matter where they put
+[1:08:22] pointed the telescope they kept getting
+[1:08:23] the same hiss and uh
+[1:08:26] and they believed their telescope was
+[1:08:27] better than that they believed their
+[1:08:29] radio receiver was quieter than that so
+[1:08:31] um uh eventually you know they they
+[1:08:35] realized that they were seeing a cosmic
+[1:08:37] uh microwave background um we would
+[1:08:40] rather be in a position where we can go
+[1:08:42] deeper than the noise of our detectors
+[1:08:44] and the way you do that is to
+[1:08:45] cross-correlate so if you have two
+[1:08:47] detectors that are getting the same his
+[1:08:49] from cosmology but they have
+[1:08:52] uncorrelated noise then you then you
+[1:08:55] multiply those two data streams and
+[1:08:57] integrate and the uncorrelated noise is
+[1:08:59] suppressed uh relative to the correlated
+[1:09:02] uh signal and so we think we can get
+[1:09:05] down to around 10us 9 of closure density
+[1:09:08] if the gravitational wave background has
+[1:09:11] an energy density that's 10us 9 of the
+[1:09:14] uh uh average energy density of the
+[1:09:17] universe then uh we think we could
+[1:09:19] detect it how do what does that number
+[1:09:21] mean the cosmic microwave background is
+[1:09:24] around 10us 5
+[1:09:26] okay so we're talking about an energy
+[1:09:27] density that's 10us four of the cosmic
+[1:09:29] micro background but that's quite a
+[1:09:31] large density compared to the
+[1:09:33] predictions the predictions are that it
+[1:09:34] should be around 10us 15 okay so uh so
+[1:09:39] we don't have a lot of optimism that
+[1:09:41] we're going to detect something if we
+[1:09:42] detect something then that's great
+[1:09:44] that's new
+[1:09:46] physics
+[1:09:48] um uh yeah so
+[1:09:53] um now we're going to be building third
+[1:09:55] generation detectors and uh um uh those
+[1:09:59] are uh we we hope anyway after our first
+[1:10:02] detections we're going to go into go
+[1:10:04] back to the funding agencies that have
+[1:10:05] been so generous with their money and
+[1:10:07] say um well we've proved that we can do
+[1:10:09] this but we can only see a small
+[1:10:11] fraction of the universe out to 100
+[1:10:12] megap parex or 200 megap parex 300 megap
+[1:10:14] parex but that's only uh uh a red shifts
+[1:10:18] of less than 0.1 we want to see the
+[1:10:20] whole universe so we want a 10 times
+[1:10:21] better
+[1:10:22] sensitivity um and that's uh uh um uh we
+[1:10:26] have a detailed study already in Europe
+[1:10:28] that was funded by the European Union
+[1:10:31] for the Einstein
+[1:10:33] telescope and um that will go
+[1:10:36] underground like they're doing in Japan
+[1:10:38] that will be cryogenic like they're
+[1:10:40] doing in Japan uh it'll have much higher
+[1:10:42] laser power than they're using in
+[1:10:44] Japan it'll cancel out local Newtonian
+[1:10:47] noise I do you remember in the film
+[1:10:49] yesterday I showed this weather pattern
+[1:10:50] and I said this remarkable thing that at
+[1:10:54] on time scales of about an hour
+[1:10:55] the the disturbances in gravity of
+[1:10:58] weather are larger than the
+[1:11:00] gravitational wave disturbances we
+[1:11:01] expect from astronomy well even at let's
+[1:11:05] say on at one Hertz let's say time
+[1:11:07] scales of a second if you're uh if you
+[1:11:10] got a detector on the ground you begin
+[1:11:13] to have problems with Newtonian noise
+[1:11:16] that is if there's a seismic wave that
+[1:11:18] runs underneath runs through the Rocks
+[1:11:22] um it's a compression Wave It's a
+[1:11:23] density wave in the rocks it changes
+[1:11:26] gravity locally and that gravity CH
+[1:11:28] those gravity changes on on the right
+[1:11:31] time scales time scales of a second or
+[1:11:33] so are larger than we would expect and
+[1:11:35] so we'd have to measure them and remove
+[1:11:38] them we'd have to have seismic
+[1:11:39] monitoring and and all sorts of things
+[1:11:41] and actually remove those neonian noise
+[1:11:44] that Newtonian noise from the data and
+[1:11:46] and or cancel it out in some other way
+[1:11:48] and that's Again part of this Einstein
+[1:11:50] project it's a very sophisticated uh way
+[1:11:53] of extending the frequency range to
+[1:11:55] lower lower frequencies um and squeezed
+[1:11:57] light which I'll talk about this
+[1:11:58] afternoon I mean in in the next lecture
+[1:12:01] um it's included uh in an U EU priority
+[1:12:05] list called The Magnificent 7 of astrop
+[1:12:07] particle physics projects but
+[1:12:10] um uh you can make all the lists you
+[1:12:13] want but at the end you still have to
+[1:12:14] get the money and uh we will we're not
+[1:12:17] going to seriously try to do that until
+[1:12:19] after our first detections with with
+[1:12:21] detectors but this is a picture that I
+[1:12:23] briefly showed last night
+[1:12:25] of of of down here a couple hundred
+[1:12:28] meters deep 10 km long tunnels with
+[1:12:32] three observing uh stations here and you
+[1:12:35] can get into them with um uh elevators
+[1:12:38] and it's very very uh elaborate
+[1:12:41] engineering it's an expensive it's a 1
+[1:12:43] billion Euro
+[1:12:47] project uh so the third so that would
+[1:12:50] only be justified if you uh had um uh
+[1:12:53] good science the that and so if you're
+[1:12:56] going to spend that much money you might
+[1:12:57] as well get everything you that's out
+[1:12:59] there and that this that system would
+[1:13:01] detect every neutron star binary
+[1:13:03] coalesence that happens anywhere in the
+[1:13:05] universe during the time of observation
+[1:13:07] uh and that's a huge population of
+[1:13:09] neutron star mergers and there's a very
+[1:13:11] rich um uh set of information we would
+[1:13:14] also monitor all the black holes out to
+[1:13:16] Regus of 15 now Regus of 15 are very
+[1:13:20] early in the universe we don't know when
+[1:13:21] the first black hole mergers were were
+[1:13:23] began to happen but basically what we're
+[1:13:25] saying is we would we would start we
+[1:13:28] would see the onset of ordinary black
+[1:13:30] hole mergers and stuff like that
+[1:13:34] um so uh uh well I want to skip I want
+[1:13:39] to say a few more things so let's skip
+[1:13:41] over that because I do want uh how I
+[1:13:44] should be stopping about now is that
+[1:13:46] right 15 more minutes 15 oh yeah oh then
+[1:13:50] that that'll be enough uh this I only
+[1:13:52] have a couple more slides uh I want to I
+[1:13:54] want talk about the sources for Lisa the
+[1:13:57] space-based um uh uh things and a little
+[1:14:01] bit about what's happening uh for Lisa
+[1:14:03] un Leisa Pathfinder um if you remember
+[1:14:06] from what I said last night we're we're
+[1:14:08] we're the from space we're looking at
+[1:14:10] the lower frequency range that's totally
+[1:14:12] masked by gravity disturbances on Earth
+[1:14:14] so we have to get away so we're talking
+[1:14:16] about
+[1:14:17] millerz time scales of an
+[1:14:19] hour um and um uh
+[1:14:25] uh again uh black holes figure black
+[1:14:27] hole binaries figures uh uh a lot in
+[1:14:30] that but if you look at what the what
+[1:14:31] the time scale is what the the one hour
+[1:14:35] time scale is basically a black hole
+[1:14:37] with a light Crossing time of an hour
+[1:14:39] means a radius of one light hour and a
+[1:14:42] mass turns out around 10 of the five 10
+[1:14:44] of the six solar masses so so the
+[1:14:47] natural radiators for black hole
+[1:14:49] binaries in the Lisa band are massive
+[1:14:52] black holes of a million solar masses it
+[1:14:55] just
+[1:14:56] happens that our
+[1:14:59] galaxy has at the center of it a black
+[1:15:02] hole of around four million solar masses
+[1:15:07] it happens that all galaxies seem to
+[1:15:09] have massive black holes in in their
+[1:15:12] centers and there's a spectrum masses
+[1:15:14] but the typical masses of the galaxies
+[1:15:17] we've been able to to to determine
+[1:15:19] masses for are of the order of a million
+[1:15:21] Cellar masses so it happens that the
+[1:15:23] Lisa band is perfect for exploring the
+[1:15:26] Dynamics of the black holes that that
+[1:15:28] are crucial part of the formation of
+[1:15:31] galaxies that reside at Center of every
+[1:15:34] um every ordinary Galaxy and galaxies
+[1:15:37] merge uh together uh and um the the
+[1:15:41] black holes are then brought into merger
+[1:15:42] and you get these binaries so we think
+[1:15:44] there's a reasonable population that we
+[1:15:46] should be going for going after and and
+[1:15:49] Lisa would be seeing
+[1:15:51] these Lisa would also be sensitive to
+[1:15:53] white dwarf binaries in our own galaxies
+[1:15:55] binaries of white dwarfs white dwarfs
+[1:15:57] are smaller masses than neutron stars
+[1:15:59] and they the binaries we're talking
+[1:16:01] about have 1 hour periods rather than
+[1:16:03] the one minute periods or or less of the
+[1:16:05] cesing neutron stars that we talked
+[1:16:07] about so there's lots and lots of system
+[1:16:09] we don't have to go to 100 megap parex
+[1:16:11] they're all our galaxy is full of
+[1:16:13] systems with Neutron with with white
+[1:16:15] dwarfs that have one hour periods and uh
+[1:16:19] there's so many that there would be a
+[1:16:20] confusion noise in the Lea Lea data
+[1:16:23] there'd be uh at at the longer per
+[1:16:24] periods there'd be so many would it
+[1:16:26] actually would limit the sensitivity of
+[1:16:28] the mission but um at higher frequencies
+[1:16:31] you could see them individually you
+[1:16:32] could separate them out individually all
+[1:16:34] over the sky from the modulation effects
+[1:16:37] that that you get and um uh and and so
+[1:16:41] the astronomer is very very interested
+[1:16:43] in the in the formation of white dwarf
+[1:16:45] binaries it's a pathway of Stellar
+[1:16:47] Evolution to try to understand how Stars
+[1:16:50] evolve and die um and so we'll be giving
+[1:16:53] them a huge amount a huge data base of
+[1:16:55] those um and then there's a capture of
+[1:16:57] small black holes by Massive ones I
+[1:16:59] played you the the uh very dissonant
+[1:17:02] kind of music that comes from such a a
+[1:17:05] capture um the technology for detecting
+[1:17:09] gravitational waves in space is
+[1:17:10] different from on the ground um uh we'll
+[1:17:14] talk about the the Technologies later on
+[1:17:16] but um but uh it involves creating um uh
+[1:17:23] regions in space where where you exclude
+[1:17:27] all disturbances you want something that
+[1:17:29] is pure equivalence principle you want
+[1:17:31] to have locations in space where it's
+[1:17:34] just the equos principle and nothing
+[1:17:35] else no forces from outside and we do
+[1:17:38] that by by flying inside our
+[1:17:42] spacecraft a cube of metal uh gold
+[1:17:46] Platinum uh and it's free inside it's in
+[1:17:50] a housing but it's but it's not in
+[1:17:52] contact with anything else and it's the
+[1:17:53] reference point for o an trometry then
+[1:17:56] that we build a spacecraft around this
+[1:17:57] Cube and the job the of the spacecraft
+[1:18:00] is not to bump into the cube okay so
+[1:18:03] there's a force on the spacecraft all
+[1:18:05] the time there's pressure from the Sun
+[1:18:07] there's all sorts of things happening um
+[1:18:10] uh but um the the the the spacecraft is
+[1:18:14] constantly looking at where the cube is
+[1:18:16] and has little micro thrusters that it
+[1:18:18] it fires when it's being pushed toward
+[1:18:20] the cube and and and comes away again
+[1:18:22] okay so that's the that's the idea of of
+[1:18:25] of our interferometry every one of these
+[1:18:27] spacecrafts has uh well every and every
+[1:18:31] arm of the ineter is terminated by two
+[1:18:33] Cube Cube at each
+[1:18:35] end and um uh you have to uh put these
+[1:18:39] things in space well you you have to
+[1:18:41] clamp the cube down to get it into
+[1:18:44] through the rocket ride to get it up
+[1:18:45] there and then you have to release it
+[1:18:46] and all sorts of Technologies there's
+[1:18:48] things you cannot test on the ground and
+[1:18:51] so Issa decided it would build at least
+[1:18:53] a Pathfinder spacecraft and put up um
+[1:18:56] one arm of an inter prometer but only
+[1:18:59] with a with an arm length of half a
+[1:19:01] meter so there's a cube here there's a
+[1:19:02] cube here all both within the same
+[1:19:03] spacecraft and we do the interferometry
+[1:19:05] between them there's not a the arm
+[1:19:07] length isn't big enough to detect
+[1:19:09] gravitational waves it's just a test of
+[1:19:10] the technology um and this has been this
+[1:19:14] has been a very instructive thing we've
+[1:19:16] had we've been let down by European
+[1:19:18] industry so often because they've never
+[1:19:21] built anything like this and they would
+[1:19:22] bid for a contract to build it and oh
+[1:19:24] yeah we'll build it and then they don't
+[1:19:25] build it um so it's been an incredibly
+[1:19:29] uh rough ride to get this thing working
+[1:19:33] but it has been built it's now a in the
+[1:19:36] final stages of assembly and late this
+[1:19:38] year it'll be launched by Issa from its
+[1:19:41] PL its Spaceport in Kuru in South
+[1:19:44] America by a Vega launcher and it'll go
+[1:19:47] out to the L1 lrange point to the Earth
+[1:19:49] Moon system and sit there for about 6
+[1:19:52] months and just do lots and lots of
+[1:19:53] experiments to about to validate all the
+[1:19:56] Technologies um so we're very excited by
+[1:19:59] that that'll be the gatekeeper for uh
+[1:20:01] the rest of uh uh the Lisa project and I
+[1:20:04] said right now we're number three on the
+[1:20:05] on the list we're hoping that if Lisa
+[1:20:08] Pathfinder performs the way we expect it
+[1:20:09] to perform that we have a very strong
+[1:20:12] argument for coming earlier and getting
+[1:20:14] an earlier launch but we'll see um uh
+[1:20:19] basically um I I I'm gonna forget that
+[1:20:22] Lisa Pathfinder has lots of um uh uh
+[1:20:26] very sophisticated
+[1:20:28] equipment um uh this is the test MK that
+[1:20:32] gold Platinum Cube you can see the
+[1:20:34] corners here which which are where the
+[1:20:35] clamps hold it and have to have to
+[1:20:37] release it then little uh indentations
+[1:20:41] and it's inside an El it sits inside
+[1:20:43] this electrod housing which capacitively
+[1:20:45] senses the position you're not never
+[1:20:47] supposed to come in contact with the
+[1:20:49] sides of the electrode housing um and
+[1:20:53] then the whole thing is is in inside
+[1:20:54] vacuum chamber inside uh all of this and
+[1:20:57] so there's a lot of very sophisticated
+[1:21:00] things that are being built in Italy at
+[1:21:03] uh trento University in uh at the AI in
+[1:21:06] Hanover at astrium uh in um uh uh
+[1:21:11] Frick's hoffen so there's lots of um uh
+[1:21:15] contributors to this
+[1:21:19] project
+[1:21:21] um you you will see the acronym Lisa and
+[1:21:24] the Elisa they're they're we're using
+[1:21:26] them almost interchangeably Lisa was was
+[1:21:29] the original uh project which was this
+[1:21:33] triangle thing that I that I showed you
+[1:21:34] in the film last night the European
+[1:21:37] Space Agency decided it couldn't afford
+[1:21:39] to do that on its own it wanted a
+[1:21:41] descoped project and so we gave them a
+[1:21:43] project with just two of those three
+[1:21:45] arms uh still has three spacecraft you
+[1:21:48] have to have three spacecraft um and
+[1:21:51] we've called that Elisa and so that's a
+[1:21:53] kind of Base minimum Baseline but uh
+[1:21:56] that East is going forward with now but
+[1:21:58] but the idea is we will bring in other
+[1:21:59] partners uh China perhaps uh the USA
+[1:22:02] almost certainly and get back enough
+[1:22:04] money to get that third arm um so
+[1:22:07] there's a lot of politics and a lot of
+[1:22:09] strategy here but I will be talking
+[1:22:11] mostly about Lisa because the goal is uh
+[1:22:13] of of the community is to get a three
+[1:22:15] armed uh detector into space like
+[1:22:18] Lisa uh if you want to know more there's
+[1:22:20] a lot of stuff on the web we even have
+[1:22:22] our own uh website Elisa science.org um
+[1:22:27] where you can keep up with the latest
+[1:22:30] developments including L Lisa
+[1:22:33] Pathfinder um now black holes are the
+[1:22:35] main targets uh of Lisa and Elisa and so
+[1:22:38] this is a sensitivity diagram for the
+[1:22:40] only the two Arm System and I want to
+[1:22:42] show you something remarkable about the
+[1:22:43] sensitivity to black holes and this is
+[1:22:45] what sells the project most to the
+[1:22:47] astronomers um what I've got here is uh
+[1:22:50] a diagram of massive black hole system
+[1:22:52] I'm assuming we're going to have we're
+[1:22:53] going to have a with two equal Mass
+[1:22:55] black holes and um merging together and
+[1:22:59] here's a red shift at which you might
+[1:23:00] see them red shifts up to
+[1:23:03] 20 put things into perspective around
+[1:23:05] here the universe was reionized so this
+[1:23:08] is very early times and then there was a
+[1:23:11] burst of UV radiation from early star
+[1:23:13] formation and around here the universe
+[1:23:14] was reionized it's very hard for
+[1:23:16] astronomers to see through that ion uh
+[1:23:19] screen and get Optical or radio
+[1:23:23] observations back to the
+[1:23:25] uh very early epics but at it's at these
+[1:23:27] very early epics that all the really
+[1:23:30] interesting stuff about structure
+[1:23:31] formation was happening the little
+[1:23:32] clumps of gas coming together form
+[1:23:34] little fragments that then merge
+[1:23:36] together form bigger fragments and merge
+[1:23:38] together ultimately to form galaxies all
+[1:23:40] of that was going on through this whole
+[1:23:42] period of time all right so um and and
+[1:23:45] along with the structure formation were
+[1:23:47] black holes that were being formed
+[1:23:48] because that's how the black hole in the
+[1:23:50] center of our galaxy got there it was
+[1:23:53] mer if formed by a merger among uh
+[1:23:55] smaller black holes that were formed in
+[1:23:56] the centers of smaller fragments and so
+[1:23:59] on uh whoops
+[1:24:03] oh I press the
+[1:24:06] wrong I have pressed the wrong button
+[1:24:08] and
+[1:24:10] now I don't know how to get
+[1:24:15] back uh let's try this
+[1:24:18] again oh okay
+[1:24:21] um all
+[1:24:23] right the advanced ligo uh and and
+[1:24:26] groundbased detectors they'll they'll
+[1:24:28] explore this corner of the diagram out
+[1:24:31] to Red shifts not quite equal to one and
+[1:24:34] with masses maybe 10 of the two 10 of
+[1:24:36] the
+[1:24:37] 2.5 um that's those are the first black
+[1:24:40] holes we'll see with gravitational wave
+[1:24:42] detectors um uh the Einstein telescope
+[1:24:45] that I talked about the Next Generation
+[1:24:47] that'll fill in um a bigger range it'll
+[1:24:49] go out to R just around two for black
+[1:24:51] holes and up to almost 10 the four solar
+[1:24:53] masses
+[1:24:55] um astronomers Optical astronomers uh
+[1:24:59] and so on will uh also very interested
+[1:25:01] in black holes they go for the other end
+[1:25:02] it's much easier for them to see the 10
+[1:25:04] of the 10 solar mass black holes in
+[1:25:06] quazars um and then
+[1:25:09] um uh that uh uh uh it becomes harder
+[1:25:13] and harder as the mass goes down so they
+[1:25:15] can see those out to high red shifts but
+[1:25:18] then but then um as for lower masses
+[1:25:20] they can see only to the near nearest
+[1:25:23] part of the universe
+[1:25:25] um we're going to be uh uh doing Pulsar
+[1:25:28] timing and uh for gravitational waves um
+[1:25:31] which is uh a way of detecting
+[1:25:34] gravitational waves with pulsars and
+[1:25:36] that only is the most massive black
+[1:25:38] holes up here 10 of the 8 to 10 of the
+[1:25:40] 10 solar masses and that goes out to Red
+[1:25:41] shifts of two so that's sort of
+[1:25:43] comparable to ET that's where those
+[1:25:46] are this is
+[1:25:49] Elisa and it's a contour diagram with
+[1:25:51] signal to noise so so here's 200
+[1:25:54] This Is 50 uh this is 20 and this is
+[1:25:59] this is 10 the outer limit is 10 sign of
+[1:26:02] 10 is is a pretty good is almost around
+[1:26:04] the threshold for for detection with our
+[1:26:07] groundbased detectors but you know
+[1:26:09] different sort of systems but that's the
+[1:26:10] sensitivity level well you can go out to
+[1:26:13] in in in the 10 of the five 10 of the
+[1:26:15] six solar mass range which is where are
+[1:26:18] the center of our galaxy black hole is
+[1:26:20] is sitting um you can go out to Red
+[1:26:23] shifts of 20 with s noise of 5050 or
+[1:26:25] more with Elisa and and detect
+[1:26:28] gravitational waves so Elisa will
+[1:26:30] actually be able to describe and Lisa is
+[1:26:34] even better Lisa uh these numbers these
+[1:26:36] sensitivity numbers get bigger and the
+[1:26:38] and the curve is is broader it goes out
+[1:26:40] down to here but with these with these
+[1:26:43] space Bas detectors we will actually be
+[1:26:45] able to monitor what actually happened
+[1:26:46] in the early universe as these fragments
+[1:26:49] are forming and they form their black
+[1:26:50] holes the black holes merge together and
+[1:26:52] gradually built up into Central black
+[1:26:53] holes that we see in the in the galaxies
+[1:26:55] today that whole story which we only
+[1:26:58] describe today with computer simulations
+[1:27:01] um uh Lisa will make visible um and uh
+[1:27:06] So Lisa is the black hole detection
+[1:27:08] machine for
+[1:27:12] astronomy um and of course there's a
+[1:27:14] region in which we'll have
+[1:27:15] multimessenger we'll be able to do joint
+[1:27:17] Lisa Elisa uh joint observations with uh
+[1:27:20] Optical and other kinds of telescopes
+[1:27:25] uh all right so I so uh the other thing
+[1:27:28] was in the center of that region for
+[1:27:29] local black hole mergers that the signal
+[1:27:32] noise ratios go over a thousand and so
+[1:27:34] with that immense noise you can make uh
+[1:27:38] uh you can investigate black holes in
+[1:27:40] great detail we can measure the spins
+[1:27:42] and their directions the masses to
+[1:27:44] incredible Precision um we can uh
+[1:27:47] measure the distances we can do the
+[1:27:50] Hubble constant and so on there there's
+[1:27:51] a huge amount of work um test her theem
+[1:27:54] test the cosmic sensorship uh all of uh
+[1:27:58] all of those things I do want to just
+[1:28:00] quickly measure the Pulsar timing as as
+[1:28:03] I said be
+[1:28:04] before uh uh groups of radio astronomers
+[1:28:07] they're making progress they pull their
+[1:28:09] data what ha the idea of Pulsar timing
+[1:28:11] is that is that neutron stars the
+[1:28:13] pulsars they're good clocks and so if
+[1:28:16] you're monitoring six or eight pulsars
+[1:28:19] around the sky and you're correlating
+[1:28:21] the arrival times of the pulses all the
+[1:28:23] time You can predict let's say from five
+[1:28:26] of them and and study over a period of
+[1:28:28] time you can predict when the next one
+[1:28:29] is going to be for the others they their
+[1:28:31] clocks monitoring each other but a
+[1:28:33] gravitational wave comes in and distorts
+[1:28:35] the travel distance of some of those
+[1:28:37] signals in different ways and so
+[1:28:39] suddenly it throws all those
+[1:28:41] correlations out the some of them are
+[1:28:43] delayed some of them are coming in too
+[1:28:45] soon and um by by averaging over a long
+[1:28:49] time over about a year or more you can
+[1:28:52] get rid of all sorts of noise and and
+[1:28:54] get down to the level where you can see
+[1:28:56] these correlations and this is a
+[1:28:57] gravitational wave passing the Earth
+[1:28:59] therefore with periods of an order of a
+[1:29:01] year and that's why it's very large
+[1:29:03] black holes 10 of the 10 10 of the nine
+[1:29:05] Sol Mass black holes and um these people
+[1:29:08] are really really going at it very
+[1:29:10] intensively now and they're building up
+[1:29:12] sensitivity and they're not far away
+[1:29:14] from the first predictions Alberto sazan
+[1:29:17] at uh the Albert Einstein Institute in
+[1:29:20] G made a detailed study through the
+[1:29:23] through the simul ation of G of of
+[1:29:25] structure formation in the early
+[1:29:26] universe made a detailed study of what
+[1:29:29] uh the Pulsar timing people should be
+[1:29:32] expecting and where they are and this is
+[1:29:34] a this is an amplitude scale of of
+[1:29:37] random gravitational waves the
+[1:29:38] amplitudes is quite large for these
+[1:29:40] backgrounds as I was saying to you 10us
+[1:29:42] 15 and so on for the cosmological
+[1:29:44] background this is also for the
+[1:29:46] astrophysical backgrounds um this is a a
+[1:29:50] probability distribution and and we he
+[1:29:52] he he's taken many many different
+[1:29:54] scenarios uh for for structure formation
+[1:29:57] and uh with random number generators and
+[1:29:59] just run them so he's got he's got you
+[1:30:01] know thousands of model universes and
+[1:30:04] and he so he can predict in each of the
+[1:30:05] from from this an ensemble of
+[1:30:07] predictions of the gravitational wave
+[1:30:10] intensities and they're all sort of
+[1:30:11] clustered around here this is where they
+[1:30:13] are today this is where the observers
+[1:30:15] are today they're encroaching on the
+[1:30:18] beginning of
+[1:30:19] this in about 3 four years they should
+[1:30:22] be around here and so so we should be
+[1:30:25] expecting by the end of this decade that
+[1:30:27] Pulsar timing will produce uh its own
+[1:30:30] detection of gravitational waves and a
+[1:30:32] random background of gravitational waves
+[1:30:33] from these most massive black holes that
+[1:30:36] have been formed uh and there's now a
+[1:30:38] race I mean really ligo doesn't want to
+[1:30:40] be the second in this race ligo is
+[1:30:43] turning on but it doesn't know if it's
+[1:30:45] going to be detecting for another two
+[1:30:47] years depends on the source rates and so
+[1:30:49] it's very possible that uh the first
+[1:30:51] detections will be done by the Pulsar
+[1:30:53] timing people
+[1:30:57] um okay this is my last slide
+[1:31:01] uh um what is it uh let me go back sorry
+[1:31:06] um what is it that um
+[1:31:10] uh uh motivates uh us a lot besides all
+[1:31:14] the things that you can predict is the
+[1:31:16] things you can't so every time a new
+[1:31:17] windows opened in
+[1:31:19] astronomy unexpected things happen we
+[1:31:21] didn't know about x-ray binary systems
+[1:31:23] until we put x-ray telescopes up and
+[1:31:25] started looking um uh radio astronomers
+[1:31:28] were
+[1:31:29] radio uh telescope Builders were were
+[1:31:32] astounded at how much was out there in
+[1:31:33] the radio Universe um so we I would
+[1:31:37] think that that would happen with
+[1:31:38] gravitational waves but when is it going
+[1:31:39] to happen I don't think it typically
+[1:31:41] should we should expect it to happen
+[1:31:43] with the first systems which are just
+[1:31:44] barely sensitive to detect the things we
+[1:31:48] expect and where we have to do this
+[1:31:49] matched filtering this we have to know
+[1:31:52] what the signal is ahead of time before
+[1:31:53] we can even detected um but by the time
+[1:31:56] we get to uh High signal noise platforms
+[1:31:58] like Lisa and and like ET then we should
+[1:32:02] expect I think uh not just the things we
+[1:32:05] know about but the things we don't know
+[1:32:07] about and I just wanted to compare that
+[1:32:10] um when did a window open these are the
+[1:32:12] different windows in astronomy when was
+[1:32:14] it opened galileia opened the optical
+[1:32:16] astronomy window with the first um
+[1:32:18] telescopes the first surprise was right
+[1:32:21] away Jupiter's moons Okay so so he
+[1:32:24] violated my Criterion that it doesn't
+[1:32:26] happen the First with the first
+[1:32:27] instruments uh Galileo uh found
+[1:32:30] Jupiter's moons and so so the discovery
+[1:32:32] was was exactly the same time as um uh
+[1:32:36] the first the window was open cosmic
+[1:32:38] rays were opened in
+[1:32:40] 192 they finally found something really
+[1:32:43] surprising which was the detection of
+[1:32:44] the muon in the 1930s radio telescopes
+[1:32:48] began to be built in the
+[1:32:49] 1930s they uh uh began the big surprises
+[1:32:53] were giant radio radio galaxies the
+[1:32:54] cosmic microwave background and pulsars
+[1:32:56] and they came in the 50s and 60s not in
+[1:32:58] the 1930s x-ray observation of the sky
+[1:33:02] began in
+[1:33:03] 1948 um the big surprises were the first
+[1:33:06] x-ray binary uh that was 1962 and then
+[1:33:10] understanding X-Ray binaries when the
+[1:33:11] first satellite was launched in 1969
+[1:33:14] again a gap uh gamma rays were first uh
+[1:33:18] detected in 1961 from space uh Gamay
+[1:33:22] bursts were actually first detected only
+[1:33:24] a few years later in in uh uh in the
+[1:33:28] 1960s they weren't actually published
+[1:33:30] you may know the story that it was
+[1:33:32] classified information from from US
+[1:33:35] military they were looking for Gamay
+[1:33:36] bursts from the Russians for uh from uh
+[1:33:41] uh uh um nuclear tests and so on um and
+[1:33:47] uh they had this network of satellites
+[1:33:49] around around the earth that were
+[1:33:50] looking down but occasionally they
+[1:33:52] picked up bursts and when they Tri
+[1:33:53] angulated with several satellites they
+[1:33:55] were not coming from the ground they
+[1:33:56] were coming from somewhere out there and
+[1:33:58] they thought oh that's throw that away
+[1:34:00] we're not interested in that but they
+[1:34:02] did have a few people in the in the
+[1:34:04] military who said you know that could be
+[1:34:06] important stuff for other people we
+[1:34:08] should release this data and the general
+[1:34:11] said release the data tell the Russians
+[1:34:14] what we can sense you know what the
+[1:34:16] sensitivity of our detectives is no
+[1:34:17] we're not going to do that so it took 10
+[1:34:19] years or 15 years after the uh first
+[1:34:24] after the US military knew there were
+[1:34:25] Gamay bursts coming from outer space
+[1:34:27] before the rest of us were informed uh
+[1:34:31] so uh so is that a you know that's the
+[1:34:33] surprise uh event I hope we don't have
+[1:34:35] that with gravitational waves I could
+[1:34:37] tell you I could tell you that some
+[1:34:39] people have obtained funding from the
+[1:34:41] military on the grounds of uh using
+[1:34:44] gravitational waves to detect I don't
+[1:34:46] know uh submarines and things like that
+[1:34:49] uh there are some unscrupulous people
+[1:34:51] who will get money from uh Na generals
+[1:34:54] um but um
+[1:34:57] um I I don't think we have any uh any of
+[1:35:00] that going on now okay so that's time to
+[1:35:03] I'm sorry I've taken almost two hour and
+[1:35:05] a half more than an hour and a half but
+[1:35:15] okay so I think we should invest at
+[1:35:18] least five minutes of questions yeah
+[1:35:20] yeah I have a question to the
+[1:35:24] you show that this interferometry like
+[1:35:28] as if there were different PA length but
+[1:35:31] the
+[1:35:32] micer in in special relativity didn't
+[1:35:35] show it up this way can one understand
+[1:35:37] it in terms of
+[1:35:40] ofed can I answer that question in my
+[1:35:42] second lecture because the second
+[1:35:44] lecture is about detection principles
+[1:35:45] and I address that point
+[1:35:48] yeah Yes actually my question is about
+[1:35:51] one of the earliest slide where you
+[1:35:53] talked about black hole energy flux you
+[1:35:55] made you made an estimate where like it
+[1:35:57] was C 5 over G but that's actually the
+[1:36:00] or that's the order of the plank
+[1:36:02] Luminosity right yes so I mean how can
+[1:36:06] we be sure I mean that these are regime
+[1:36:08] that where we aren't even sure if if our
+[1:36:11] models should work so well remember just
+[1:36:16] because it's called plank doesn't mean
+[1:36:18] it's Quantum there's no h bar in that
+[1:36:21] formula so all that means is that any
+[1:36:24] black hole and and there's no m in that
+[1:36:26] formula so that that formula applies to
+[1:36:28] any mass of black hole it applies to the
+[1:36:31] 10 the 10 Cellar Mass black holes as
+[1:36:32] they merge together it applies to a 10
+[1:36:35] Cellar Mass black hole binary as they
+[1:36:37] merge together exactly the same
+[1:36:39] Luminosity Peak Luminosity the
+[1:36:42] difference in energy that they radiate
+[1:36:43] is the time scale so 10 to the 10 Cellar
+[1:36:46] Mass black holes take 10 of the 10 times
+[1:36:48] longer than a one Cellar M black hole
+[1:36:50] and so they're radiating that Peak
+[1:36:52] Luminosity 10 of the times long 10 to 10
+[1:36:54] times longer and they radiate 10 to the
+[1:36:56] 10 times more energy um but it's
+[1:36:58] independent of the scale the peak
+[1:37:00] Luminosity is independent of the scale
+[1:37:01] and doesn't have an H bar in it so it
+[1:37:03] goes all the way down to the plunk Mass
+[1:37:05] black holes but has nothing to do with
+[1:37:07] quantum
+[1:37:16] gravity that's true but we now have
+[1:37:18] numerical simulations that verify it it
+[1:37:21] it comes out yeah
+[1:37:24] um you were showing us simulation of the
+[1:37:28] theer with magnetic fields and I was
+[1:37:31] wondering in well in this picture we saw
+[1:37:34] the magnetic fields but they were not
+[1:37:37] closed yeah so the magnetic fields were
+[1:37:41] not yeah um yeah it's very it was it was
+[1:37:45] not a quazer it's a Gamay burst although
+[1:37:47] the same the same phenomenon May well it
+[1:37:50] may be similar to what's happening in
+[1:37:51] quazar but that simulation was PR two
+[1:37:53] neutron stars the Gamay burst
+[1:37:56] um uh there are it that's true you you
+[1:38:01] saw these white magnetic lines going out
+[1:38:04] that way and you didn't see the ones
+[1:38:05] looping around it's not a perfect dipole
+[1:38:07] field it is they are carried away but
+[1:38:10] what you have to understand also is it's
+[1:38:12] mhd there is matter in the background
+[1:38:13] that isn't being shown I just showed you
+[1:38:15] the gr the magnetic field lines but
+[1:38:17] there's a lot of matter that's streaming
+[1:38:19] out and so on so it's not a simple
+[1:38:21] vacuum magnetic field um and uh the
+[1:38:25] other thing is that you saw also there
+[1:38:27] was a there was a a sort of U um stuff
+[1:38:31] in the in the plane in a different color
+[1:38:34] that is a that is a toroidal magnetic
+[1:38:36] field so there's a lot of magnetic field
+[1:38:38] that's circling around that way that's
+[1:38:40] also associated with the currents the
+[1:38:41] mass currents in the um uh the the the
+[1:38:45] currents carried by the MH masses in the
+[1:38:47] mhd and that's still circling around the
+[1:38:50] outside of the black hole so it's a very
+[1:38:51] complicated situation
+[1:39:12] uh yeah so let me explain to people who
+[1:39:14] don't know about dry and wet merges
+[1:39:15] that's the reason I didn't talk about it
+[1:39:17] but um um the question is when two two
+[1:39:21] galaxies merge as often happens and
+[1:39:24] their black holes are there their black
+[1:39:26] holes are brought together and there's
+[1:39:28] kind of friction uh um with the with the
+[1:39:31] Stellar population as the Stellar
+[1:39:33] population becomes less distorted and
+[1:39:36] forms for perhaps an elliptical uh
+[1:39:38] Galaxy or or something like that the um
+[1:39:42] uh uh this energy transfer between the
+[1:39:45] black holes and for and and the black
+[1:39:47] holes are are gradually brought closer
+[1:39:49] and closer together um but then what
+[1:39:52] happens then the question is can they uh
+[1:39:55] do they get uh very close together and
+[1:39:58] close enough together to to to merge
+[1:40:01] together or they just stay as a binary
+[1:40:03] pair orbiting for forever um and people
+[1:40:07] have investigated this in two different
+[1:40:09] scenarios there's the dry scenario which
+[1:40:11] is just a stellar population just the
+[1:40:14] interaction with a stellar population
+[1:40:15] and there's the wet scenario which is
+[1:40:17] where there's a lot of gas as well as
+[1:40:19] the as the stars because galaxies do
+[1:40:21] contain a lot of a lot of gas and the
+[1:40:23] gas has turbulence and the gas has a
+[1:40:25] different kind of uh dynamical effect on
+[1:40:28] the black holes as they move through the
+[1:40:29] gas and create uh disturb gravitational
+[1:40:32] disturbances and so on they lose uh
+[1:40:35] energy so uh so there's wet disturbances
+[1:40:37] there's wet mergers and there's dry
+[1:40:39] mergers and the wet mergers tend to be
+[1:40:40] more effective um I think I think the
+[1:40:44] the answer uh the the attempt to to
+[1:40:47] distinguish between wet and dry
+[1:40:50] um will be a subtle one and it'll depend
+[1:40:52] on number number of things first it'll
+[1:40:54] depend upon whe How many um events are
+[1:40:58] there are we seeing a a larger
+[1:41:00] population of of these events which
+[1:41:02] might indicate wet scenarios or dominant
+[1:41:05] or or smaller than we expect but also
+[1:41:08] when we get counterparts so the idea is
+[1:41:10] to is is is to use the Lisa error box on
+[1:41:13] the sky and find out what galaxy is
+[1:41:16] actually the Galaxy that um uh uh in
+[1:41:21] which this merger is taking place and
+[1:41:23] then then with x-rays and with Optical
+[1:41:25] observations of that Galaxy you should
+[1:41:26] be able to tell how much gas is there
+[1:41:28] was this a um a wet or a dry merger
+[1:41:32] event itself for each individual event
+[1:41:36] um we do think it's not unreasonable to
+[1:41:39] be able to pinpoint the counterpart
+[1:41:40] galaxies because um uh galaxies in which
+[1:41:44] em merger has just taken place that
+[1:41:46] we've detected with gravitational waves
+[1:41:48] should be highly Disturbed and they
+[1:41:49] shouldn't look like uh the average
+[1:41:51] Galaxy and so although there's a a
+[1:41:53] fairly big error box on the sky that the
+[1:41:55] astronomers have to look at we think it
+[1:41:57] shouldn't be um too difficult to to
+[1:41:59] arrive at an identification of a
+[1:42:01] counterpart
+[1:42:09] Galaxy the
+[1:42:15] questions that's not thee let's

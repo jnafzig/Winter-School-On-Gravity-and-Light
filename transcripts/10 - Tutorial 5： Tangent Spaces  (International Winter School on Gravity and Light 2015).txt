@@ -1,0 +1,1076 @@
+[00:00] this program is being presented to you
+[00:02] by the Harris International winter
+[00:05] school on gravity and lights hello and
+[00:16] welcome back to the fifth tutorial of
+[00:18] the w/e heroes international winter
+[00:21] school and gravity and light today about
+[00:24] tangent spaces again we will start with
+[00:27] a view to affords questions to spark
+[00:30] discussions and the tutorials and here
+[00:31] for you as a self-test so we have to
+[00:35] take the correct statements but not the
+[00:37] incorrect ones a a tangent vector to a
+[00:42] differentiable manifold has a length in
+[00:44] a direction well well you could argue
+[00:48] that the direction is given by the
+[00:50] tangent vector as a new kind of
+[00:52] terminology
+[00:53] it certainly has no length in a general
+[00:56] setting because as you will see in one
+[00:59] of the following lectures a length is
+[01:02] only defined when you have a metric on
+[01:05] your manifold and in general you have
+[01:08] not so the first option is wrong a
+[01:12] tangent vector to a differentiable
+[01:15] manifold must not be 0 well let's have a
+[01:19] look at the definition of a tangent
+[01:21] vector the tangent vector V was affirmed
+[01:25] defined by curve gamma at a point P by
+[01:29] its action on a function f on the
+[01:31] manifold and how does it that well you
+[01:38] have to compose the function with the
+[01:40] respective curve take the derivative of
+[01:43] it and evaluate at the point lambda
+[01:47] naught what is lambda naught well it is
+[01:50] the parameter value where the curve
+[01:53] gamma takes the value P so come off
+[01:56] lambda naught s P now if we have a curve
+[02:02] gamma which remains stationary at the
+[02:05] point P so imagine you fu
+[02:10] manifold M here point P and your curve
+[02:15] come out or something and at the point P
+[02:18] it stays there for a time and then
+[02:21] carries on this derivative will be 0 of
+[02:25] course and the tension vector would be
+[02:28] the 0 map from C infinity M to R so yeah
+[02:33] it can be 0 so this second option is
+[02:36] wrong as well a tangent vector to a
+[02:40] differentiable manifold map's a function
+[02:43] on the manifold to the real numbers well
+[02:46] I just gave you the definition of a
+[02:47] tangent vector here you take a function
+[02:53] on the manifold and here you get a real
+[03:01] number so a tangent vector is mapping a
+[03:05] function on the manifold to the real
+[03:07] numbers so this is correct and we can
+[03:10] take it atención vector ax to a
+[03:14] differentiable manifold is of the same
+[03:16] dimension as the manifold what is the
+[03:20] dimension of a vector the answer is we
+[03:23] had we didn't define dimensions of
+[03:25] vectors a vector is only a vector in the
+[03:29] context of a whole vector space and the
+[03:31] Specht of space may carry a dimension
+[03:33] but not the vector itself so this option
+[03:37] is wrong is worth a tangent vector to a
+[03:41] differentiable manifold arises as the
+[03:43] velocity to some curve through the
+[03:45] vector space point yes this is true we
+[03:49] defined these velocities showed that
+[03:53] they constitute a vector space and any
+[03:55] element of this vector space we call a
+[03:58] tangent vector so by its very definition
+[04:01] this option is right Kress to be
+[04:09] the tension vector the tension space TPM
+[04:12] to a d-dimensional differentiable
+[04:14] manifold is of the dimension 2 times
+[04:18] dimension of M well no this is to dilute
+[04:23] you we will see the dimension is only 1
+[04:27] times mm 2 times some M would be the
+[04:31] dimension of the tangent bundle to which
+[04:33] we will come later so this option is
+[04:35] wrong the tangent space can be defined
+[04:39] at every point P of M yeah why not let's
+[04:44] again take a look at the definition of
+[04:46] the tangent space TPM a tangent space
+[04:49] TPM it's just defined as the collection
+[04:56] of all velocities of curves through this
+[05:02] point P ya where gamma is just a curve
+[05:09] through this point P and here
+[05:17] we didn't make any restriction on the
+[05:21] point P so it is valid for every point P
+[05:24] as no sense no no real reason to
+[05:27] restrict it so this option is red the
+[05:33] tangent space GPM is no real vector
+[05:35] space because it's element only tangent
+[05:37] vectors this is of course wrong because
+[05:43] in the lectures you showed that you can
+[05:46] equip this tangent space with an
+[05:49] addition and scalar multiplication and
+[05:53] you just showed let's the axioms for a
+[05:57] vector space hold so of course it is a
+[06:01] vector space and this elements are
+[06:04] called tangent vectors because we call
+[06:07] this vector space the tangent space but
+[06:09] nevertheless it is the vector space the
+[06:12] tangent space TPM to a d-dimensional
+[06:14] differentiable manifold admits a linear
+[06:17] by direction to the vector space Rd plus
+[06:21] where Plus shall be the component vise
+[06:24] addition on tuples of real numbers and
+[06:27] circ the component vise multiplication
+[06:29] with a scaler
+[06:30] this is of course true because in a
+[06:33] lectures you checked that TPM to a
+[06:37] d-dimensional differentiable manifold in
+[06:40] fact is a d-dimensional real vector
+[06:43] space and it is a fact that every finite
+[06:47] dimensional vector space with dimension
+[06:50] D to the real numbers is isomorphic to
+[06:56] the vector space Rd which is written
+[06:59] here and the linear projection between
+[07:02] vector spaces it's just a vector space
+[07:04] as a morphism so this is true the
+[07:11] tangent space TPM has no tangent vectors
+[07:15] in common with a tangent space tqm for
+[07:18] different point Q which is not M and not
+[07:21] B this is right as you can see on the
+[07:27] definition of your tangent space it is
+[07:30] defined via these objects which are
+[07:35] defined by collections of curves through
+[07:37] P the point P and of course this
+[07:40] collection looks different at any point
+[07:42] P so true question C if you X is a chart
+[07:49] for a d-dimensional differentiable
+[07:51] manifold then the co ordinate maps XY
+[07:56] mapping from the Charter menu to the
+[07:59] real numbers are with i running from 1
+[08:03] to the dimension of the manifold are
+[08:05] only continuous not differentiable well
+[08:09] first it is true at the coordinate maps
+[08:13] are defined as being continuous maps
+[08:16] into the real numbers with continuous
+[08:19] inverse so pictorially we have the
+[08:25] Charter menu
+[08:29] and coordinate maps map into the real
+[08:31] numbers this is the current map XY and
+[08:36] here on this level you can only check
+[08:39] for continuity because here you have no
+[08:42] structure to talk about differentiation
+[08:46] but now we can look at what happens in a
+[08:49] chart and here we may take the same
+[08:52] chart X which is very convenient so a
+[08:56] chart maps into Rd and of course in this
+[09:02] level down in the chart we can check
+[09:05] this function not only for continuity
+[09:09] but also for differentiability so here
+[09:12] we have X I after X inverse which is
+[09:22] just the identity map on Rd and of this
+[09:31] identity map the if' component which is
+[09:39] of course differentiable and when we are
+[09:43] talking about a differentiable manifold
+[09:45] then the chart transition maps into
+[09:49] different charts let's call them Y are
+[09:52] differentiable so this differentiability
+[09:55] carries over to the differentiability in
+[09:59] a different chart and we can say that
+[10:03] this function on the manifold level is
+[10:05] continuous because air is differentiable
+[10:07] because this notion doesn't depend on
+[10:10] the chosen chart anymore so yes you can
+[10:14] tick this the coordinate maps are the
+[10:17] own I'm sorry
+[10:21] question was whether they are not
+[10:23] differentiable and this is of course
+[10:25] fault
+[10:32] a few acts as a chart for a
+[10:34] d-dimensional differentiable manifolds
+[10:36] then these objects DX 1 at the point p 2
+[10:42] DX team to the at the point P constitute
+[10:46] the basis of T P star M well we can show
+[10:52] that they do not constitute any basis
+[10:55] but special cases basis which is the
+[10:58] dual basis for the coordinates on TPM
+[11:03] and from there it follows that they
+[11:08] constitute a basis of T P style let's
+[11:11] chose us so what is the condition for
+[11:16] dual basis an element of the spaces DXi
+[11:22] the point P acting on the basis vector
+[11:32] del Del XJ P shall be just data I chain
+[11:43] and this we can check by at the very
+[11:46] definition of the gradient so left hand
+[11:55] side is defined by the action of this
+[11:59] vector on on this function so I just
+[12:06] just del del X J point P acting on the
+[12:13] function X a and this is also just the
+[12:18] definition bodies denoted here it is the
+[12:25] partial derivative with respect to the j
+[12:29] DH entry of this function in question
+[12:34] composed with the inverse of the chart
+[12:38] map do you notice down here and
+[12:41] evaluated at the chart image of the
+[12:44] point P
+[12:46] and she in the bracket we just have the
+[12:53] identity map on Rd and of this map the
+[12:59] guy of component and taking the partial
+[13:04] derivative with respect to the chafe
+[13:06] entry of this map it's just Delta IJ
+[13:13] which is exact what we need in order for
+[13:18] the condition for the two wheelbases to
+[13:20] hold so we checked that these elements
+[13:24] constitute the dual basis of TPM so they
+[13:28] constitute a basis of GPA of T piece
+[13:31] time so this is true
+[13:42] for the basis Delta del X 1 P 2 del Del
+[13:48] X D P of T p.m. there's no dual basis in
+[13:52] the dual space unless we just checked so
+[13:55] we can ticket it is wrong because we
+[14:00] gave a dual basis right I'm sorry
+[14:04] the components of the vector X with
+[14:07] respect to the chart and use basis are
+[14:10] DX I sub P X well of course this is true
+[14:23] because let's again write down what the
+[14:29] components of vector over a vector
+[14:37] arises as a velocity of a curve at a
+[14:43] point P and was defined by the action of
+[14:48] a function f we are taking the function
+[14:54] after the curve left
+[14:58] lay off the derivative evaluating at the
+[15:02] point lambda naught where lambda naught
+[15:04] again was just the parameter value where
+[15:07] the curve takes the value P so here we
+[15:14] now can insert our chart map the inverse
+[15:27] of the chart map here and in here just
+[15:29] the chart map which just collapses with
+[15:32] identity so we can do this take the
+[15:35] derivative evaluating and now we may
+[15:40] apply apply our my two dimensional chain
+[15:43] because we can put brackets here and
+[15:45] here
+[15:48] so what does the multi-dimensional chain
+[15:51] will do we have to differentiate this
+[15:57] inner function and of this inner
+[16:04] function the ith component evaluate at
+[16:10] lambda zero and then comes the partial
+[16:16] derivative with respect to the I've
+[16:18] entry of the outer function so the I the
+[16:26] outer function f of X inverse varying at
+[16:32] x after gamma of lambda zero so X of
+[16:37] gamma lambda zero
+[16:51] here you can recognize just the basis
+[16:58] vectors with respect to the chart map X
+[17:01] acting on the function f so animation
+[17:06] for this is dead then X a the point P
+[17:10] acting on the function f so these guys
+[17:16] are the components of our vector if we
+[17:28] now apply this Co vector on this vector
+[17:36] written here we can extract just these
+[17:42] components let me show it to you just
+[17:49] have to apply as gradient then DX j the
+[17:57] point P to our vector V comma P and by a
+[18:05] definition of the gradient we get the
+[18:08] vector V comma P I'm acting on the
+[18:13] function XJ and we know what what this
+[18:20] vector is doing we calculated it here
+[18:23] just have to put XJ the place of F and
+[18:26] this we already calculated up here or a
+[18:32] lot along this calculation you will just
+[18:35] use Delta IJ if you put XJ here so we
+[18:46] get this
+[18:47] Prefecture the components
+[18:59] times delta j i and of course this
+[19:08] extracts the safe component of the
+[19:17] vector so the statement certainly it's
+[19:23] true the expression D X a sub P acting
+[19:33] on the basis vector del Del X a sub P
+[19:36] it's the dimension of the manifold how
+[19:40] could the dimension of the manifold come
+[19:42] into play here well let's take a look at
+[19:45] this we have this Cove Ector DX a acting
+[19:56] on this vector and we already calculated
+[20:03] this up here right and we just got
+[20:09] editor i J
+[20:11] now I and J are both a so we write data
+[20:16] a a and now we have to remember our
+[20:20] summation convention here we have an
+[20:23] invisible some sign with a running from
+[20:29] Run 1 to the dimension of the manifold
+[20:33] which was T summing over all these
+[20:41] numbers data a a which are just 1 by
+[20:45] definition so we have the sum from 1 to
+[20:51] T over the 1 under their steam that I
+[20:55] mention of a manifold so this statement
+[20:59] is true
+[21:03] exercise to go to other use of the
+[21:05] symbol del over del X I sub P this
+[21:11] exercise is about getting familiar with
+[21:15] this notion and a few other notions to
+[21:17] be introduced question for a smooth
+[21:20] function f and a chart UX provide the
+[21:23] definition of the expression del F over
+[21:25] del X I P this looks very much like the
+[21:32] undergraduate analysis partial
+[21:35] derivative and to a certain extent it is
+[21:39] exactly this but here it is slightly
+[21:42] different because we have a function f
+[21:45] mapping from the manifold M to the real
+[21:49] numbers f in this we can't differentiate
+[21:56] because m care is not a reservation
+[21:59] structure but we can use a chart map
+[22:04] which maps down into some Rd
+[22:15] I'm sorry so that we can regard the
+[22:20] function f after X inverse mapping from
+[22:25] Rd to R and here we can decide for
+[22:28] differentiability and calculate this
+[22:30] derivatives and when it's about to
+[22:33] calculate the I F partial derivative
+[22:36] where of this function we can take the
+[22:39] partial derivative with respect to the I
+[22:42] F entry which then is just then I of the
+[22:54] function down in the chart and of course
+[22:59] we can't put in the point P directly we
+[23:02] have to put it in down in the chart so
+[23:06] at the point X of P this is the
+[23:11] translation of the symbol above question
+[23:20] show that for overlapping charts you x
+[23:23] and y and vy1 has this relation here we
+[23:37] will start with the right hand side
+[23:41] because we already know something about
+[23:43] the right hand side we did it in the
+[23:46] first exercise data a B can arise as the
+[23:57] derivative in the chart
+[24:01] X
+[24:06] respect to them earth entry no a is
+[24:10] below so we have to write be here at a
+[24:16] point P of the chart map X a this will
+[24:27] just evaluate to Delta a B which which
+[24:31] showed in the previous exercise we can
+[24:39] evaluate the symbol this is the B of X a
+[24:47] after the X inverse at the point X of P
+[24:54] and now we can insert here the identity
+[25:01] written as Y inverse after Y where Y is
+[25:07] our second shot map so let me do this
+[25:15] and then put brackets around these
+[25:19] functions X a Y inverse and around Y
+[25:27] after X inverse and evaluate at the
+[25:34] point X of P now we may employ our
+[25:39] multi-dimensional chain rule which goes
+[25:44] like this take this derivative of the
+[25:48] inner function or rather of the MF
+[25:53] component of the inner function so there
+[25:57] will be of the f component of the inner
+[26:06] function evaluated at the point
+[26:11] and multiply it and sum over em with the
+[26:18] partial derivative with respect to the
+[26:20] MF entry of the outer function X a after
+[26:27] Y inverse and evaluate at the point X of
+[26:33] P evaluated at Y after X inverse so here
+[26:37] we really have to put Y after its
+[26:41] inverse of X of P 1 2 3 now of course X
+[26:54] inverse cancels X and we just can put Y
+[26:58] of P here in in this bracket and then we
+[27:04] can translate these expressions back
+[27:09] into our symbol but now we don't have F
+[27:14] we have chart maps x and y
+[27:25] so this year reads down here xb because
+[27:38] we're using the chat X and the
+[27:43] differentiate with respect to the beef
+[27:45] injury and which function do a
+[27:49] differentiate
+[27:49] well it's why M why am but hang on M is
+[28:00] written out here not here directly at Y
+[28:04] where this doesn't do any harm because
+[28:07] for the leftmost function it doesn't
+[28:11] make any difference if we write M here
+[28:15] or here right because M indicates the
+[28:20] because this function takes values in R
+[28:26] T and M just picks one of these values
+[28:30] and therefore it doesn't matter if you
+[28:33] pick the value at the end or if you say
+[28:38] well just regard only the YF component
+[28:43] function right so we can write this here
+[28:48] at the point P and here it reads del of
+[28:58] the function X a with respect to the
+[29:05] chart map Y and here we have put the m
+[29:11] at the point P and this is what we had
+[29:15] to show we have to swap those
+[29:17] expressions but we can do this and
+[29:20] because data a B
+[29:27] question after inserting Y inverse after
+[29:33] Y the Y is another chart map on the same
+[29:36] chart to menu at an appropriate position
+[29:39] in the definition of the left hand side
+[29:42] in this expression we shall use the
+[29:49] undergraduate multi-dimensional chain
+[29:51] rule to show that it equals the right
+[29:53] hand side okay let's do this
+[29:58] therefore we again have to translate
+[30:01] this expression which we already did a
+[30:04] few times so this will just be there
+[30:15] then I of f of X inverse at the point X
+[30:24] of P this is a translation of this and
+[30:30] now we can insert right here the
+[30:35] identity map Y inverse after Y because
+[30:39] it takes values of the many-fold and it
+[30:47] again gives a value in the manifold
+[30:55] so this is the right spot for the
+[30:58] identity on the manifold now we can
+[31:05] again put brackets around the right
+[31:09] functions here around this function and
+[31:12] yeah around this function employ the
+[31:21] chain rule so first they lie of the
+[31:29] inner function and here of the M
+[31:41] component times the derivative del M of
+[31:52] the outer function at this point
+[32:10] now this again it's just the identity
+[32:15] map on manifold so we can just put Y of
+[32:20] P at the place of this expression and
+[32:24] then we can translate these expressions
+[32:28] back to our symbols and we get there by
+[32:34] M over del X I the point P times the F
+[32:44] over there I am at the point P so we
+[32:50] showed that this left hand side really
+[32:53] it's this right hand side question do
+[33:02] the dim M many quantities defined by the
+[33:05] left hand side of the above expression
+[33:07] constitute the components of a tensor if
+[33:10] so what are the valence and the rank of
+[33:12] the tensor we will see that they in fact
+[33:21] constitute the components of a tensor
+[33:24] and it will be a 0 1 tensor so what do
+[33:29] we have to check for this well of course
+[33:33] you can expand echo vector Omega if you
+[33:36] have a chart map X 2 components with
+[33:40] with respect to this chart map and of
+[33:44] course the chart induce basis of the
+[33:48] dual space DXi P and you can employ a
+[33:56] different shot Y and here
+[34:03] it looks like this components with
+[34:06] respect to the white chard times a chart
+[34:08] ink used basis elements with respect to
+[34:12] the white chart and in order for those
+[34:16] two expansions to get the same Co vector
+[34:19] on a real word Omega you have to ensure
+[34:24] that the relation between these
+[34:29] components and the X chart and these
+[34:32] components in the white chart for fits a
+[34:35] property which you may call tensor
+[34:41] component transformation something like
+[34:45] this and you can calculate it to be this
+[34:52] condition Omega in the X chart so the Y
+[35:00] component in the X chart has to be a
+[35:05] linear combination of components in the
+[35:08] white chart in which current combination
+[35:11] well it's given by these numbers del Y J
+[35:20] over del X I at the point P and now we
+[35:28] can compare with what we calculated
+[35:30] above if these are components in the X
+[35:38] chart and these are components in the
+[35:40] right chart the linear combination has
+[35:45] to be with respect to this objects and
+[35:49] really here we have these exact objects
+[35:53] so the tensor components transformation
+[35:58] law for a 0 1 tensor is fulfilled
+[36:02] so these del F over del x IP really
+[36:06] constitute components of a 0 1
+[36:12] ten sir so this is the valence zero one
+[36:19] and the rank is one because it is the
+[36:27] sum of the zero and this and the one
+[36:32] exercise free transformation of vector
+[36:35] components understanding the vector
+[36:38] component transformation or the
+[36:39] pedestrian way here this about
+[36:42] calculating real components of real
+[36:45] vectors therefore we have given a
+[36:47] manifold are two equipped with standard
+[36:51] topology and both an atlas consisting of
+[36:55] two charts first the identity map on
+[36:58] hold r2 given here and second the map y
+[37:03] on hold r2 given here first question is
+[37:08] about calculating these objects this we
+[37:12] can just do in a very straightforward
+[37:14] way by remembering the definition of
+[37:17] these objects which was the J of X Y I
+[37:27] after Y inverse at the point Y of P now
+[37:37] we see in order to calculate those
+[37:39] objects we have to know what the inverse
+[37:41] of the coordinate map YS so let's
+[37:46] calculate it this will just be a system
+[37:50] of equations where y1 of a B equals a
+[37:58] and bi 2 of a B equals B plus a cube
+[38:06] this we can invert and here we can use
+[38:11] the first equation to write B plus a
+[38:16] cube as just Y 1 cube so y1
+[38:23] of a B cube so we calculated the inverse
+[38:33] map Y inverse of two numbers mmm UB will
+[38:45] just be the first number again and the
+[38:52] second number minus the first number to
+[38:55] the power of 3 so we minus u cube and we
+[39:09] already know what X after Y inverse does
+[39:17] with two numbers because X is just the
+[39:20] identity map so again we get U and we
+[39:25] minos minus u cube now now we can
+[39:42] calculate these four objects separately
+[39:45] we can start with the Alex 1 over Y 1 P
+[39:53] is a state 1 of X 1 after Y inverse at
+[40:04] the point Y of P so the L 1 of X 1 after
+[40:16] by inverse means we have to
+[40:19] differentiate this function which just
+[40:23] gives u with respect to the first entry
+[40:27] here you which it's 1 irrespective of
+[40:32] this point
+[40:34] you get what now what about the second
+[40:40] component it's against a 1 but now ik
+[40:47] Stu after Y inverse y FP now if we want
+[40:58] to put numbers into this we have to
+[41:00] specify our point P by two numbers so we
+[41:05] call P let's say a and B so we evaluate
+[41:21] it by of a and B and Y of a and B is
+[41:26] written up here this a plus a and B plus
+[41:35] a cube now we have to differentiate the
+[41:44] second component with respect to the
+[41:48] first entry and this Y it's minus 2-u
+[41:54] squared so minus 2 and here we don't
+[42:02] call it u we call it a so minus 2 is
+[42:08] great
+[42:16] and now we may turn to the next two
+[42:21] objects del X 1 over del Y 2 P this is
+[42:32] the 1 X 1 after buying inverse No here
+[42:39] we have dead 2 at Y of P so first
+[42:49] component with respect to the second
+[42:52] entry just yet 0 and the last object del
+[43:00] X 2 over del Y to the point P so there
+[43:07] are 2 X 2 sacra inverse Y of P and what
+[43:17] does this yet
+[43:19] well the second component with respect
+[43:22] to the first with respect to the second
+[43:27] entry it's a 1 again
+[43:30] irrespective of the point where we
+[43:33] evaluate so these are the first other
+[43:36] four objects now
+[43:51] now she is a text where the
+[43:56] transformation of vector components is
+[43:59] being recorded so a vector was defined
+[44:06] by its action on a smooth function like
+[44:09] this and we already did it in the first
+[44:13] exercise you can extract components with
+[44:17] respect to a basis by inserting the
+[44:22] identity map here and applying the
+[44:25] multi-dimensional chain rule and you get
+[44:27] these components here and these
+[44:31] components we want to calculate for this
+[44:34] specific curve so let's do it
+[44:44] we'll start with the components in the X
+[44:47] map gamma X and shear the first
+[44:53] component at the parameter value lambda
+[44:58] naught this is by the definition of this
+[45:02] abbreviation the coordinate map after
+[45:09] the curve gamma of this the first
+[45:14] component derivative of this and
+[45:19] evaluating it parameter value lambda
+[45:23] naught now X is just the identity map so
+[45:32] X after gamma of parameter lambda just
+[45:37] gives lambda and minus lambda
+[45:50] so we have to differentiate the first
+[45:55] component of this map lambda which of
+[45:59] course gives everyone irrespective of
+[46:02] this parameter value lambda naught now
+[46:06] proceeding the same way for the second
+[46:08] component to we get this time M minus 1
+[46:30] now turn to the Y map gamma dot y1 flump
+[46:42] not well this dress is the Y map after
+[46:46] gamma first component derivative lambda
+[46:51] naught now we need to compose this curve
+[46:55] with the by map so by after come of
+[46:59] lambda that's what we need now we have
+[47:05] to insert the point lambda and minus
+[47:09] lambda into the map y just noted here so
+[47:14] we get lambda and minus lambda plus
+[47:18] lambda cube you can lambda minus lambda
+[47:25] plus lambda cube
+[47:30] and now we have to take the derivative
+[47:33] of the first component again just one
+[47:39] for the second component we get oh yes
+[47:50] same gamma - now we have to
+[48:08] differentiate this component which gives
+[48:12] minus one plus three times the argument
+[48:18] squared so minus one plus three times
+[48:23] lambda naught squared and we calculated
+[48:28] all four components
+[48:38] now to the last part of this exercise
+[48:45] with the rezard of the first question
+[48:48] how could you have obtained the
+[48:51] components gamma dot X from the
+[48:57] components gamma dot Y well this
+[49:02] question of course is asking for the
+[49:04] transformation behavior of vector
+[49:07] components which is quite easy to derive
+[49:13] because we have to recall how you can
+[49:18] calculate vector components this goes by
+[49:23] this expression x after gamma I
+[49:32] differentiate it and evaluate it at the
+[49:36] point lambda naught and here we can just
+[49:39] insert the identity map written as Y
+[49:43] inverse after Y so this is X after by in
+[49:47] verse after why after gamma I've
+[49:51] component derivative at lambda naught
+[49:55] and now we have to employ the chain rule
+[49:57] you can put brackets here and here and
+[50:03] get the derivative of the emperor of
+[50:08] this year so why after mmm gamma M
+[50:24] crime of lambda naught times the MF the
+[50:31] partial derivative M of the outer
+[50:34] function X after Y inverse
+[50:50] I because here we can put the I here I
+[51:04] an evaluating at lambda not inserted
+[51:10] into the inner function so at why after
+[51:14] comma at lambda not so here we see just
+[51:31] the definition of this gamma Y dot M
+[51:39] right so the components of the velocity
+[51:42] in the chart map
+[51:46] why and of course in in the chart map X
+[51:54] we get a linear combination of these
+[51:57] components and this linear combination
+[51:59] is given by this expression here and
+[52:02] what is this expression well this is
+[52:06] just a symbol and we can train translate
+[52:08] it into a symbol by Del X I over del Y M
+[52:19] evaluated at this point gamma of lambda
+[52:23] naught which is just our p because islam
+[52:33] 10 not really obvious defined this way
+[52:37] so
+[52:40] this is the transformation law for
+[52:45] vector components and this law we could
+[52:50] have employed to calculate for example
+[52:53] the components in the X map from the
+[52:56] components in the Y map we didn't have
+[52:58] to calculate these explicitly so how can
+[53:02] we do this
+[53:04] so now let's let's check that we
+[53:07] actually were able to do this for the
+[53:14] first component we get this linear
+[53:21] combination gamma dot y1 times Del X 1
+[53:31] over the y1 at P or let me denote thanks
+[53:46] freshmen for PF come of lambda naught
+[53:53] plus the second component in the Y map
+[54:03] now here the truth below to come of
+[54:10] lambda naught these objects we
+[54:14] calculated in the first question and
+[54:17] these and the second question so we can
+[54:21] read them off this is 1 for the first
+[54:27] component and minus 1 plus 3 lambda
+[54:30] naught squared for the second component
+[54:33] so here a 1 and here a minus 1 plus 3
+[54:40] lambda naught square
+[54:48] for the second component
+[54:55] now we have to read off these objects
+[54:59] from the first exercise here we got a
+[55:04] one for the second derivative eyeful
+[55:08] first the reserve and the zero for the
+[55:11] second one so one and here zero and
+[55:18] insulter we get one which we can compare
+[55:22] with our previous result where we also
+[55:25] got a one now we can do this for the
+[55:28] second component as well gamma to X the
+[55:34] point lambda naught equals gamma dot y
+[55:41] oops
+[55:42] y 1 x del X 2 now over there y 1 at the
+[55:52] point gamma of lambda naught plus gamma
+[55:55] dot y 2 times Del X 2 over del y 2 that
+[56:04] come off lambda naught that we can read
+[56:08] off again for the components again we
+[56:16] have 1 and minus 1 plus 3 lambda naught
+[56:19] square so
+[56:26] this and we have to read off these two
+[56:30] objects from above they have you got
+[56:34] minus 2 a squared but for a we have to
+[56:40] insert the first component of the point
+[56:46] P equals gamma of lambda naught so minus
+[56:53] 2 and the first component in the Y map
+[57:01] can be seen here is just lambda not so
+[57:05] minus 2 lambda naught squared and I see
+[57:18] I made a mistake in the previous
+[57:20] exercise here of course and we
+[57:23] differentiate a cube you should have got
+[57:27] -3 squared
+[57:39] and th shot also reads minus 3 and the
+[57:50] second object just gives the 1 so here
+[57:53] we get 2 born now we can put this
+[57:55] together and see that these expressions
+[57:59] cancer this is minus 3 lambda naught
+[58:03] squared plus minus 1 plus 3 lambda
+[58:12] naught squared and we just get minus 1
+[58:15] which now is the right answer here
+[58:22] exercise for the gradient here you will
+[58:29] see a special property of the co vector
+[58:33] named gradient here introduced first we
+[58:37] have to start with a notion of letter
+[58:40] sets so given a function f on a manifold
+[58:45] M let me draw a picture so the show be a
+[58:52] manifold M and function f so I map to
+[59:00] the rillette and we can draw the level
+[59:05] sets of this function so the sets where
+[59:08] the function takes same values which
+[59:11] could maybe look like like this
+[59:21] here takes where you see one pac-2 and
+[59:24] pac-3 and these sets are defined like
+[59:30] this level set for a constant C is
+[59:35] defined by all the points P in the
+[59:38] manifold at which the function takes
+[59:41] this way you see like I drew it here now
+[59:45] the question is to formulate the
+[59:48] condition for a curve gamma to take
+[59:51] values solely in one of the level sets
+[59:54] of a function f so you want to formalize
+[59:58] this intuition that a curve gamma only
+[1:00:03] remains for example in this first level
+[1:00:06] set C goes maybe like this well what
+[1:00:16] does this curve gamma have to fulfill it
+[1:00:19] of course if we if we look at the point
+[1:00:29] at any parameter lambda the point of the
+[1:00:34] curve the function f should yield the
+[1:00:38] specific constant C so we shall have
+[1:00:43] this in order for gamma to lie in the
+[1:00:49] level set of the function f with respect
+[1:00:52] to the constant C right it says to
+[1:00:55] Howard for all lambda in R so we can say
+[1:01:04] the composition of the function f and
+[1:01:08] the curve gamma has to be identical to
+[1:01:14] the constant function C at any parameter
+[1:01:21] time lambda we say get when we compose F
+[1:01:25] with the curve the constant C right
+[1:01:30] now we have to show that if we take the
+[1:01:37] gradient of this function and if we let
+[1:01:43] it act on the velocity vector V of this
+[1:01:49] curve then we shall get zero like it is
+[1:01:53] written here so let's calculate this we
+[1:02:01] take the gradient of the function f the
+[1:02:05] point P in the level set let it X on the
+[1:02:09] velocity vector to a curve gamma through
+[1:02:15] this point P now by definition of the
+[1:02:19] gradient this is this vector applied to
+[1:02:28] this function so we gamma P applied to
+[1:02:33] the function f and now by definition of
+[1:02:37] the velocity this is the composition of
+[1:02:45] F and the curve of this composition the
+[1:02:49] derivative at parameter value lambda
+[1:02:54] naught and again lambda naught
+[1:02:58] it's the parameter where the curve takes
+[1:03:01] the value P and now we have to use the
+[1:03:08] condition to the curve gamma namely that
+[1:03:11] gamma is a curve which lies solely in a
+[1:03:15] level set and we saw four such curves
+[1:03:17] gamma this composition always yields a
+[1:03:22] constant function so here we take the
+[1:03:25] derivative of a constant function which
+[1:03:28] gives zero
+[1:03:31] so really the gradient of a function
+[1:03:35] 'nearly relates the vectors to go to
+[1:03:40] curves which remind entirely in the
+[1:03:43] level set of this function exercise 5 is
+[1:03:48] there a very defined sum of curves in
+[1:03:50] the lectures you define the sum of
+[1:03:54] curves with respect to a specific chart
+[1:03:56] in order to define the sum of tangent
+[1:04:01] vectors to these curves and serious
+[1:04:04] about this construction and to see
+[1:04:06] whether this is useful to to really
+[1:04:10] define a sum of curves and not only of
+[1:04:11] the vectors but let's go at this step by
+[1:04:16] step first we consider again the
+[1:04:18] topological manifold r2 with standard
+[1:04:21] apology and equip it with the specific
+[1:04:25] at atlas first mapping r2 with the
+[1:04:29] identity map and mapping r2 with this
+[1:04:32] map why to r2 first question is whether
+[1:04:38] a is a seen Finity atlas well first
+[1:04:42] infinity atlas we have to check whether
+[1:04:45] the charge translation maps from X to Y
+[1:04:47] and from Y to X hace infinity so
+[1:04:52] therefore we need first the inverse maps
+[1:04:55] which is quite easy for X inverse for X
+[1:05:00] because it is just the identity so the
+[1:05:04] inverse is also the identity a maps a B
+[1:05:07] to a B for y we have to solve a system
+[1:05:13] of equations we set by one of a B to a
+[1:05:21] like prescribed here Y to of a B to B
+[1:05:28] times e to the a I have to solve from
+[1:05:31] this for a and B the first one we can
+[1:05:36] already solve is y1 of a beam and here
+[1:05:42] we can insert the first equation and get
+[1:05:45] B times e to the Y 1 of a be divided
+[1:05:51] through this and
+[1:05:52] P so P is y2 of a be over yeah
+[1:06:03] over e to the Y one of a B right
+[1:06:09] so why inves just Maps a and B to the
+[1:06:21] second over e to the first so well my
+[1:06:27] first to the first a and then what I
+[1:06:31] said
+[1:06:31] the second over e to the first so being
+[1:06:36] is the second and it to the first is
+[1:06:40] each other
+[1:06:47] and now we have to check two functions
+[1:06:51] for the C infinity property first let's
+[1:06:58] take X inverse after Y which just maps a
+[1:07:05] B to this expression because X inverse
+[1:07:11] doesn't do anything further with it so
+[1:07:15] we get a and B times e to the a well
+[1:07:21] it's the C infinity of course it is the
+[1:07:27] first component
+[1:07:28] it's just mapping a B to a which is of
+[1:07:32] course infinity and second component as
+[1:07:34] well here we have the product of two C
+[1:07:38] infinity functions which is again C
+[1:07:40] infinity so this is infinity but I'm not
+[1:07:52] of em but of our two
+[1:08:01] - er - so a second charge transition map
+[1:08:11] would be Y inverse after X mapping a B
+[1:08:20] first again type a B and then - a and B
+[1:08:25] over e to the a so a and B over e to
+[1:08:32] they which is AG + C infinity absolute
+[1:08:38] because here we have a smooth function
+[1:08:41] which we can rarely see here we have the
+[1:08:44] quotient of two smooth functions and
+[1:08:47] importantly in the nominator we have the
+[1:08:52] function which is only positive so it is
+[1:08:56] never zero and now we know that the
+[1:09:01] composition is infinity if it was zero
+[1:09:03] at some point this would fail but here
+[1:09:06] it doesn't know second question on M we
+[1:09:16] now consider two curves gamma and delta
+[1:09:23] gamma map in lambda to lambda and 1 and
+[1:09:27] their dominant damp them to 1 and lambda
+[1:09:29] no questioners without me having to any
+[1:09:33] chart
+[1:09:34] can we give the some gamma plus delta of
+[1:09:37] these curves and the answer of course is
+[1:09:40] no topologically many fold or many fold
+[1:09:49] is r2 and one might think well it's r2
+[1:09:53] so we can just add two bits of numbers
+[1:09:56] but this isn't sure how many fold it's
+[1:10:00] just the space of all our positions and
+[1:10:03] not a vector space at all so and without
+[1:10:08] a vector space structure we can't add
+[1:10:10] points and without vector space
+[1:10:13] structure we can't add
+[1:10:15] curves vector spaces are our chart
+[1:10:19] domains our chart images so this a 2 and
+[1:10:27] this a 2 they carry a vector space
+[1:10:30] structure but here we asking if we could
+[1:10:34] add two curves without referring to any
+[1:10:37] chart so again no we can't now we may
+[1:10:43] try to give the some of those curves
+[1:10:47] with respect to a certain chart and this
+[1:10:49] is asked here very first shall calculate
+[1:10:53] the representatives of the curves in the
+[1:10:55] charts illustrate them and look where
+[1:10:58] they intersect stop step by step the
+[1:11:03] representative of the curve gamma in the
+[1:11:08] X chart so of course given by this and
+[1:11:15] it takes lambda and gives lambda 1
+[1:11:21] compose with the identity map so again
+[1:11:25] lambda 1 now for the second curve we get
+[1:11:34] 1 lambda so this we may also do for the
+[1:11:43] chart may apply where we put in lambda
+[1:11:47] get lambda 1 first and this we have to
+[1:11:52] put into a chart map Y so we get lambda
+[1:11:56] 1 times e to the lambda so lambda and e
+[1:12:04] to the lambda for the second curve
+[1:12:11] we get first one and lambda and with the
+[1:12:16] chart map we get 1 and lambda times e to
+[1:12:20] the 1 so 1 and lambda times e to the 1
+[1:12:27] and this curve we may illustrate so here
+[1:12:36] in the X chart well this is all true
+[1:12:47] here we have X 1 here we have X 2 the
+[1:12:54] curve gamma is just a horizontal line
+[1:12:57] with hate 1 imagine this pin horizontal
+[1:13:09] and the curve data well let me draw it
+[1:13:16] more straightly
+[1:13:31] and the curve data is just a vertical
+[1:13:34] line intersecting the one at the X 1
+[1:13:39] axis so this is the curve data and of
+[1:13:50] course they intersect here at so I
+[1:13:56] should specify this is actually X after
+[1:14:00] gamma and this is X after that so they
+[1:14:08] are the images in the chart of the
+[1:14:10] curves and they intersect here in 2.11
+[1:14:18] the parameter value lambda naught equals
+[1:14:23] 1 so this is the parameter where you
+[1:14:28] where this curve the first curve it's
+[1:14:33] the intersection point and lambda 1 is
+[1:14:38] the parameter value for the second curve
+[1:14:39] but it is 1 right at 1 both curves
+[1:14:44] intersect each other now in the same
+[1:14:49] shot you have EF again R 2 y 1 y 2 and
+[1:15:00] the first curve is the graph of the
+[1:15:03] function e to the lambda right the y 1
+[1:15:08] coordinate is is lambda and the y 2 is e
+[1:15:12] to the lambda so we get something like
+[1:15:18] this the setting here
+[1:15:24] no intersecting one here actually and
+[1:15:33] the second curve remains constant with
+[1:15:38] respect to them first component and so
+[1:15:45] here so it's the horizont as a vertical
+[1:15:49] line here so what about the intersection
+[1:15:58] point well we see for lambda equals 1 we
+[1:16:04] have 1 and E and here for lambda equals
+[1:16:08] 1 we also have 1 India so they intersect
+[1:16:12] at the intersection point one year where
+[1:16:17] the first curve has to take the
+[1:16:19] parameter value 1 and the second curve
+[1:16:23] as well so draw the names again this is
+[1:16:28] why you have to come up this is why
+[1:16:31] after data so you see of course with
+[1:16:35] respect to different sharp maps curves
+[1:16:37] may look quite different here especially
+[1:16:41] this curve that curve gamma now you may
+[1:16:53] give the sum of both curves in this
+[1:16:56] chart which is asked in the next
+[1:17:00] exercise on the next question
+[1:17:08] now it's about to recoil this procedure
+[1:17:12] from the lecture where you edit those
+[1:17:18] two curves and then subtracted one times
+[1:17:24] this intersection point in order that
+[1:17:27] the intersection curve which may look
+[1:17:33] like this again passes this point and
+[1:17:41] then you could lift this curve again to
+[1:17:45] the menu followed by using this chart
+[1:17:47] map x2 the inverse and when you get a
+[1:17:50] curve in the real world so let's do this
+[1:17:54] for those two curves this procedure we
+[1:18:02] want to give the sum of two curves in
+[1:18:04] the real world in first with respect to
+[1:18:08] the X charge so curve Sigma X of lambda
+[1:18:18] shall live in the real world so we take
+[1:18:22] X inverse after our construction on the
+[1:18:25] chart level X inverse off the sum of
+[1:18:35] both curves lambda plus lambda naught
+[1:18:48] plus lambda 1 so this is the sum of both
+[1:18:51] curves in the chart and we substrate
+[1:18:54] subtract the intersection point like
+[1:19:06] this this we calculated so here we have
+[1:19:11] to put lambda plus 1 because lambda
+[1:19:15] naught lambda 1 were both 1
+[1:19:31] now we can plug these values into our
+[1:19:35] curves here here we get lambda plus 1
+[1:19:51] and 1 minus 1 and lambda plus 1 minus
+[1:20:04] the intersection point which was just 1
+[1:20:07] and 1 and actually we wanted to give the
+[1:20:14] sum of the curves not the difference I'm
+[1:20:16] sorry so this evaluates to X inverse of
+[1:20:24] lambda plus 1 plus 1 minus 1 so lambda
+[1:20:32] plus 1
+[1:20:40] and 1 plus lambda plus 1 minus 1 so
+[1:20:49] again lambda plus 1 and X inverse was
+[1:20:54] the identity map so we really get just
+[1:20:57] lambda plus 1 and lambda plus 1 right
+[1:21:03] the same we can do for the PI map now Y
+[1:21:12] inverse Y after gamma like lambda plus
+[1:21:18] lambda naught plus y after data at
+[1:21:24] lambda plus lambda naught minus y after
+[1:21:30] gamma Atlanta not putting everything in
+[1:21:42] we get first lambda plus lambda naught
+[1:21:47] in e to the lambda plus lambda naught so
+[1:21:51] lambda naught was 1 so note that plus 1
+[1:21:57] and e to the lambda plus 1 which is just
+[1:22:02] e times e to the lambda then we get a 1
+[1:22:12] and lambda plus 1 because you're putting
+[1:22:18] in lambda x 1 and e so e plus e
+[1:22:30] - the intersection point which was one
+[1:22:35] and E so we have y inverse of
+[1:22:55] lambda plus one plus one minus one so
+[1:22:59] again lambda plus 1 and here e
+[1:23:12] times e to the lambda plus e minus e
+[1:23:17] plus e lambda so e times e to the lambda
+[1:23:23] plus e times lambda now we have to use
+[1:23:32] the inverse of Y which we calculated up
+[1:23:43] here
+[1:23:50] the first inch beam is kept and then we
+[1:23:54] have the quotient of the segment and e
+[1:23:56] to the first for the first entry is kept
+[1:24:00] and the quotient of a second e times e
+[1:24:07] to the lambda plus e lambda over e to
+[1:24:16] the lambda plus one I will use this
+[1:24:24] space to draw the result I to to give
+[1:24:29] the result this is lambda plus one and
+[1:24:36] well the scan sets to 1 and this can
+[1:24:40] Sert's to lambda times e to the minus
+[1:24:45] lambda so 1 plus lambda times e to the
+[1:24:51] minus lambda would be the sum with
+[1:24:58] respect to the wide shot of the two
+[1:25:02] curves so this with respect to the
+[1:25:06] extras and this with respect to the wide
+[1:25:09] shot actually this question was about
+[1:25:14] this calculation for the white shot I
+[1:25:17] just did them both here now we can draw
+[1:25:22] those two curves in the real world - and
+[1:25:32] our - of course if you can't draw like
+[1:25:35] this because it is just two bits
+[1:25:41] now I'm curve Sigma X is this straight
+[1:25:49] line through the point 1 1 and 0 0 for
+[1:25:53] example 1 and 0 0
+[1:26:00] because maybe like this and this curve
+[1:26:08] Sigma Y a little bit more complicated so
+[1:26:14] we are back with a plot of the second
+[1:26:19] curve Sigma Sigma Sigma Y of lambda
+[1:26:23] which looks somehow like this in the
+[1:26:28] real world and where they are
+[1:26:31] intersecting in the point 1 1 and we
+[1:26:37] easily see we already saw it with this
+[1:26:40] expressions for the curves that they do
+[1:26:42] not coincide so we saw this concept of
+[1:26:50] adding curves down in the chart and then
+[1:26:53] lifting the sum up is not invariant
+[1:26:56] another choice of chart so it is really
+[1:26:59] not useful
+[1:27:02] now we saw that this addition doesn't
+[1:27:05] make any sense but what about the
+[1:27:09] velocities with respect to this curves
+[1:27:11] at the intersection point this is what
+[1:27:15] this question is about we shall compare
+[1:27:18] those two velocities and we will do so
+[1:27:20] with the components of the velocities we
+[1:27:23] already saw how to do this expansion
+[1:27:25] inner components are the components of
+[1:27:29] the first velocity we know denote by the
+[1:27:34] curve dot you have to specify the charge
+[1:27:39] and we look at the first component so
+[1:27:44] and of course at the intersection point
+[1:27:48] of both curves which is zero cause at
+[1:27:54] zero we get for a sigma x 1 + 1 + 4
+[1:27:59] Sigma Y 1 and also 1 so they were
+[1:28:07] defined by taking the first component in
+[1:28:13] this example of the composition of chart
+[1:28:16] map and curve but the curve is in the
+[1:28:20] comma yeah it is Sigma X first component
+[1:28:28] they offer them derivative we're getting
+[1:28:32] at the point 0 and of course just get a
+[1:28:37] 1 because this is X composed with Sigma
+[1:28:40] X because X is just the identity map and
+[1:28:43] the derivative gives one the same for
+[1:28:49] the second component
+[1:28:59] second component again gives one here
+[1:29:07] now these are the components of the
+[1:29:10] curve segments with respect to the X
+[1:29:12] charge now turn to the white chart or to
+[1:29:17] them actually we consider the second
+[1:29:20] curve which we constructed using the
+[1:29:23] white chart but in order to compare our
+[1:29:26] vector components we have to use the
+[1:29:28] same chart here so we will calculate the
+[1:29:31] components with respect to the X chart
+[1:29:33] again again the definition now Sigma Y
+[1:29:42] first component derivative at zero well
+[1:29:46] again just get one because this is the
+[1:29:48] first component of the curve Sigma Y one
+[1:29:54] and now the second component is also
+[1:30:03] defined like this and this gives 0 here
+[1:30:13] we have product rule so we get 1 times e
+[1:30:22] to the minus lambda at 0 at 0 this gives
+[1:30:26] 1 and then we get lambda times minus e
+[1:30:33] to the minus lambda if we insert 0 this
+[1:30:38] gets 0 so 1 plus 0 is again 1 and we see
+[1:30:45] the components of both curves with
+[1:30:49] respect to the same chart X are the same
+[1:30:59] and therefore the corresponding vectors
+[1:31:04] are the same because the components give
+[1:31:08] the whole expansion of the vector
+[1:31:10] for example V Sigma X at the point P P
+[1:31:17] is just one one intersection point was
+[1:31:23] just these components and the basis
+[1:31:35] vectors and the second expansion of
+[1:31:42] course looks I'm sorry and we just
+[1:31:51] checked that these objects are the same
+[1:31:57] as these so the whole linear combination
+[1:32:09] stays the same and those two velocities
+[1:32:18] coincide

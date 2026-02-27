@@ -1,0 +1,1898 @@
+[00:00] this program is being presented to you
+[00:03] by the hereas international winter
+[00:05] school on gravity
+[00:06] and light
+[00:13] so we'll have a short lecture
+[00:16] investigating cosmology at
+[00:19] later times we studied cosmology at
+[00:21] earlier times at least we made an
+[00:23] observation we studied cosmology in
+[00:24] general
+[00:25] and we looked at a consequence at early
+[00:27] times and now we look at later times
+[00:30] and we will now consider
+[00:33] various types of meta at the same time
+[00:36] now consider various meta types
+[00:43] simultaneously
+[00:46] because as already some of some of you
+[00:50] asked
+[00:51] um what happens if you have several meta
+[00:54] types present at the same time that's a
+[00:55] realistic situation
+[00:57] you cannot say oh let's assume the
+[00:58] universe is made of photons well it
+[01:00] isn't
+[01:00] there's lots of stuff in the universe
+[01:02] and you have to consider that
+[01:04] but um
+[01:12] um so let's recall
+[01:15] however uh what we learned we learned
+[01:18] that if we have equations of state
+[01:22] that are linear and i will not go away
+[01:25] from that because we're writing down
+[01:28] simple models of course if you're a
+[01:29] cosmologist
+[01:30] you may have many many reasons to
+[01:32] generalize what we're doing here
+[01:34] and the purpose of these introductory
+[01:36] lectures is to give you a taste and the
+[01:38] basic ideas
+[01:39] and of course with whatever assumption
+[01:41] you're not happy
+[01:42] you go and generalize it and of course
+[01:44] people did that so for instance i was
+[01:46] asked in the break
+[01:47] what happens if you drop some of the
+[01:49] killing symmetries
+[01:50] well then you get non-isotropic
+[01:52] universes for instance
+[01:54] and then you get other models so for
+[01:56] instance they're the bianchi models of
+[01:58] the universe
+[01:59] we looked at the so-called friedman
+[02:00] robertson walker model it's the
+[02:01] homogeneous and isotropic
+[02:04] cosmology so many such generalizations
+[02:07] of course are being looked at because
+[02:09] cosmologists
+[02:10] try to understand the data nevertheless
+[02:13] some amount of modeling is always
+[02:15] involved because you need to make an
+[02:17] abstraction from the local structure
+[02:20] which is extremely rich
+[02:22] and for them you cannot if including
+[02:24] every detail you simply cannot solve the
+[02:26] einstein equations
+[02:27] so some amount of modeling is always
+[02:29] required but of course you can be very
+[02:31] clever
+[02:32] and say i do not make a model by just
+[02:34] writing down
+[02:35] something i make a model by really
+[02:38] trying to derive this from fundamental
+[02:40] principles and so on
+[02:41] of course the better a cosmologist you
+[02:43] will be anyway so the purpose of these
+[02:46] lectures is to give you the basic ideas
+[02:47] and the basic ideas
+[02:49] if we make our assumptions explicit
+[02:53] there is nothing dishonorable about
+[02:55] making
+[02:56] such assumptions it is an assumption
+[02:58] nevertheless
+[02:59] you know the game so our equations of
+[03:01] state
+[03:03] i will always assume that this is
+[03:06] this one for omega equals constant and
+[03:08] from that we will now not deviate
+[03:11] so for each meta type and then for each
+[03:13] meta type you may have a different
+[03:16] omega i i equals one to
+[03:19] number of meta types that you
+[03:22] do have okay fine so obviously then you
+[03:26] have different pressures and different
+[03:28] densities for precisely those meta types
+[03:31] okay these different equations of state
+[03:33] now however what we have learned we
+[03:36] learned
+[03:38] that independent
+[03:42] of the meta type
+[03:47] it's true that h squared
+[03:50] scales like the density scales like
+[03:54] a to the minus n of omega
+[03:57] and what was the omega let's make again
+[04:00] our little table
+[04:01] and maybe this time i would ask the
+[04:03] blackboard
+[04:04] erasers to maybe not delete this table
+[04:07] for
+[04:08] a while
+[04:18] okay so you see the erasing procedure is
+[04:22] not homogeneous it needs to be right up
+[04:23] there
+[04:24] okay good so this is the omega
+[04:29] and obviously we had
+[04:32] obviously we had radiation
+[04:35] so let me write here what the meta type
+[04:38] was
+[04:38] the type was radiation
+[04:43] then we had omega zero that we called
+[04:46] dust
+[04:46] that was pressureless fluid we had
+[04:50] a minus one was a cosmological constant
+[04:55] well let's leave it there okay we do
+[04:56] radiation dust and cosmological constant
+[05:00] and or maybe i want later on the omega
+[05:03] copper two
+[05:04] yeah and we have the um the spatial
+[05:06] curvature
+[05:08] but let's not consider spatial curvature
+[05:10] as meta because we're going to rewrite
+[05:11] the friedman equation
+[05:13] uh you know especially the acceleration
+[05:14] equation in a way
+[05:16] that will uh use the spatial curvature
+[05:19] separately okay so let's take these
+[05:21] three types you add your favorite other
+[05:23] type
+[05:24] if it makes any sense um but there are
+[05:26] these numbers n
+[05:27] appearing n of omega and n of omega was
+[05:31] three times
+[05:35] n of omega was three times one plus
+[05:37] omega
+[05:39] so instead of remembering the omega
+[05:42] we could remember the n n equals
+[05:45] omega equals zero n equals three
+[05:49] omega equals minus one n equals zero
+[05:53] omega equals a third that's three third
+[05:55] plus one third is four
+[05:56] thirds over three is four
+[06:01] okay so let's have uh these guys here
+[06:04] um i don't know what i wanted to put in
+[06:06] the in the other
+[06:07] column it doesn't matter it's a nice
+[06:09] empty column right okay
+[06:11] so please do not erase
+[06:16] um ah well one could put in the uh
+[06:20] the time evolution but um yeah why not
+[06:23] okay so let's say what what's the a
+[06:25] of t how does the a evolve and uh we
+[06:28] found that for the cosmological constant
+[06:30] it was special
+[06:31] it evolved exponentially like this for a
+[06:33] constant age
+[06:35] and for the others it was this power law
+[06:37] a of t
+[06:38] was t to the 2 by n
+[06:42] t to the 2 by n
+[06:45] is here
+[06:50] yeah it's square one half aha yeah of
+[06:53] course
+[06:54] n is for one half um t to the two by n
+[06:57] is two thirds exactly so those were the
+[07:00] this is the
+[07:02] scale factor how it evolves for
+[07:03] radiation how it evolves for dust
+[07:05] how it evolves for a cosmological
+[07:07] constant that is something we found out
+[07:10] um we further found out
+[07:14] that for all matter types
+[07:18] not equal to cosmological constant so
+[07:21] that's an exception
+[07:23] the row invariably went like
+[07:27] t to the minus 2. that's stuff we
+[07:31] observed right
+[07:32] that's just from this homogeneous and
+[07:34] isotropic
+[07:37] universe okay
+[07:40] now let's make a definition
+[07:43] i already wrote it down it's the hubble
+[07:46] function
+[07:47] so so this is all you need to know okay
+[07:49] and all that now comes is terminology
+[07:52] but it's terminology that's heavily used
+[07:55] and it makes the equation simpler so why
+[07:57] not use it
+[07:58] the hubble function is simply the
+[08:00] function h of
+[08:01] t that is a dot by a
+[08:04] that's the hubble function okay
+[08:08] and the hubble function has to do with
+[08:10] the age of the universe
+[08:13] why well if the rope goes like the t
+[08:16] to the minus two from this we learn and
+[08:19] that we will show in the tutorials right
+[08:21] um you will you can show that h
+[08:24] goes like t inverse
+[08:30] and you know that at t
+[08:33] equals zero boom
+[08:38] big bang aha
+[08:42] so and this guy can be measured because
+[08:46] it has to do with the expansion of the
+[08:47] universe the hubble
+[08:49] function which in this case is a hubble
+[08:51] constant if you have only a cosmological
+[08:53] constant otherwise the function
+[08:56] and so it's related
+[08:59] roughly speaking
+[09:05] h inverse is the age
+[09:09] of the universe
+[09:12] and it's a rather remarkable number
+[09:15] that you can measure the age of the
+[09:17] universe first of all it has an age
+[09:19] because it has a birthday
+[09:21] right the big bang is the birthday of
+[09:23] the universe
+[09:24] let's hope we don't celebrate it ever um
+[09:28] so okay it's it's quite remarkable that
+[09:30] you can calculate this from this theory
+[09:33] who would have thought that
+[09:34] einstein didn't set out to calculate the
+[09:36] age of the universe
+[09:38] it's a rather preposterous aim but
+[09:41] nevertheless it drops out
+[09:44] okay so that's the hubble constant um
+[09:47] but then there are more
+[09:48] interesting objects and
+[09:52] they're called density parameters well
+[09:55] there may be functions
+[09:56] but for linear evolution laws
+[09:59] for linear equations of state like those
+[10:01] they're actually constants
+[10:03] so let's call them parameters but keep
+[10:05] in mind that
+[10:06] in this jargon you should never ever
+[10:09] deduce anything
+[10:10] from what it is called you only look at
+[10:12] the definition
+[10:14] and so you have a density
+[10:19] parameter density parameter
+[10:24] for matter
+[10:28] of density
+[10:31] rho say well if you have the density why
+[10:33] do you need a density parameter
+[10:35] well you like to normalize this in a
+[10:38] certain way
+[10:39] you call this omega now you may have
+[10:42] several meta types i
+[10:44] write a small i and you know in here the
+[10:46] i
+[10:47] always runs from one to number of meta
+[10:49] types
+[10:50] okay so for each meta type that has a
+[10:52] density rho i which is every everyone
+[10:55] you get a density parameter capital
+[10:57] omega i
+[10:59] and this one first comes with
+[11:02] a bunch of constants a p 8 pi
+[11:05] g n third why do we put them
+[11:09] well of course they're not relevant
+[11:10] they're just there because we use that
+[11:12] later in the
+[11:13] the equations become perfectly simple if
+[11:14] these constants are absorbed in here
+[11:16] okay but that of course meaningless it's
+[11:18] just a rescaling
+[11:19] and then the relevant thing is that you
+[11:21] have the density in there linearly
+[11:25] so that's why it's called a density
+[11:26] parameter because the density scales
+[11:28] linearly with the density
+[11:29] but it's normalized with the hubble
+[11:32] constant squared
+[11:33] or the hubble function squared so unless
+[11:35] you're in a
+[11:36] in a purely cosmological constant
+[11:38] scenario and no other matter present
+[11:41] this is really scaling by a constant um
+[11:44] but if you have other meta types you
+[11:45] know the hubble constant isn't quite
+[11:47] that constant it's it's a function
+[11:49] right it goes like t minus one
+[11:52] and um and then we like the scaling
+[11:54] because this is a nicer quantity if we
+[11:56] plug it into the equations
+[11:58] we're going to rewrite the equations
+[12:00] using these guys
+[12:02] so this is for the meta types
+[12:05] as a matter of density but it doesn't
+[12:09] work
+[12:10] for the fake matter that makes spatial
+[12:14] curvature or the
+[12:15] if you have a spatial curvature i said
+[12:17] you can consider this as fake matter
+[12:20] uh or if you have a cosmological
+[12:21] constant it's like fake matter
+[12:24] with such a um equation of state where
+[12:27] the omega is minus one
+[12:28] right i mean actually only matter is
+[12:31] only this stuff here
+[12:32] and different models and the
+[12:33] cosmological constant didn't come by
+[12:35] putting it in an energy momentum tensor
+[12:38] it came from the other side of the
+[12:39] einstein equation but you could think of
+[12:41] it as a contribution to the energy
+[12:43] momentum tensor
+[12:44] and then it would correspond to a fluid
+[12:46] of omega is minus one
+[12:49] you look critical julian
+[12:52] what's strange it takes taking a term
+[12:55] from one side of the equation to the
+[12:57] other side
+[12:58] second grade it's not strange no no it's
+[13:01] not strange
+[13:04] the cosmological constant comes in in
+[13:06] the einstein equations
+[13:07] at the level of the action as an
+[13:10] addition here
+[13:11] and square root minus g plus you add
+[13:15] a meta lagrangian not lagrangian density
+[13:18] because you already
+[13:19] took care of that it's the associativity
+[13:22] of
+[13:22] addition that allows you to do this
+[13:25] and yeah that's it
+[13:29] okay good so um
+[13:32] it's not strange to do that it's maybe
+[13:34] surprising that it works
+[13:38] but from there it's clear it does okay
+[13:41] so
+[13:42] therefore one also associates density
+[13:44] parameters but according to a different
+[13:46] formula
+[13:47] with the cosmological constant and with
+[13:50] the fake
+[13:50] curvature with the curve spatial
+[13:52] curvature which now really doesn't come
+[13:54] as matter into the game right i mean
+[13:56] so for the cosmological concept you say
+[13:57] okay it comes into the game as matter
+[13:59] but that the spatial that the spatial
+[14:01] curvature of your underlying three space
+[14:03] for which you have three choices
+[14:05] that that can be understood as a meta
+[14:07] contribution i mean that's really just
+[14:10] looking at the terms and saying it looks
+[14:12] like matter
+[14:13] for a certain omega okay
+[14:16] you can do this but now once you've
+[14:18] defined these density parameters
+[14:20] you have to make extra definitions for
+[14:21] the density parameters
+[14:23] they're also called density parameters i
+[14:24] call them fake density parameters
+[14:27] because they just absorb something under
+[14:29] the same heading
+[14:30] which has actually a very different
+[14:35] origin question i'm wondering
+[14:41] so what's the physical
+[14:45] meaning okay okay yes so the
+[14:47] cosmological constant i could just call
+[14:50] matter
+[14:50] so for the cosmological because i added
+[14:53] here whether i say add it here that has
+[14:55] historical reasons
+[14:56] rather than adding it to the metal
+[14:58] lagrangian but of course it could
+[14:59] equally well be part of the metal
+[15:01] lagrangian that's the associativity of
+[15:03] addition here
+[15:04] so it's an artificial distinction to say
+[15:06] it is not in the meta it's in the
+[15:08] geometry
+[15:09] what do you mean you have an actual
+[15:11] there's a sum
+[15:12] how who are you to tell me right
+[15:16] this belongs to this rather than this no
+[15:17] of course not well you and that's
+[15:19] exactly your point right they say what's
+[15:21] what you mean by fake matter
+[15:22] so for the cosmological constant it's
+[15:26] as good matters all the rest it's a bit
+[15:28] of a funny matter
+[15:29] because it's everywhere of of negative
+[15:32] pressure
+[15:34] but on the other hand if you have a
+[15:35] rubber band it's also of negative
+[15:37] pressure now you have a rubber band and
+[15:38] you stretch it
+[15:39] and has negative pressure because it
+[15:40] pulls you in
+[15:42] is there any physical meaning of the
+[15:46] energy momentum
+[15:51] logical the energy momentum tensor for
+[15:54] um for the cosmological constant uh is
+[15:57] uh the cosmological constant times the
+[15:59] metric
+[16:00] because you vary with respect to the
+[16:01] metric and there are maybe some dressing
+[16:03] factor here
+[16:04] roughly speaking okay one second i say
+[16:07] one more
+[16:08] thing now so you could say well here the
+[16:10] cosmological constant i call it fake
+[16:12] matter because the
+[16:13] the term looks different but that's
+[16:14] still you could still consider it matter
+[16:17] that has the same right but now however
+[16:20] if you start talking about the curvature
+[16:24] the spatial curvature kappa
+[16:28] which we have three choices zero plus
+[16:30] one or minus one
+[16:32] if we absorb the scale into the scale
+[16:35] factor
+[16:37] i mean that is strange because it
+[16:38] doesn't appear anywhere in the
+[16:39] lagrangian
+[16:41] well of course if you plug in a special
+[16:42] solution to the field equations appears
+[16:44] but it comes from a
+[16:44] totally different point it comes from a
+[16:46] symmetry assumption gives a restriction
+[16:48] you have three
+[16:49] types of anzacs you can make now
+[16:53] you say the unsuch i make is matter is a
+[16:55] meta type
+[16:56] that's a little strange right so um but
+[17:00] formally you can do that and then you
+[17:03] can
+[17:04] forget about the difference between one
+[17:06] and the other
+[17:07] and treat them all the same and measure
+[17:09] all the same and say this contribution i
+[17:11] associate to this and so on
+[17:13] so that that's so that that certainly
+[17:15] determines
+[17:17] deserves the name fake fake density but
+[17:19] i said that's my personal terminology i
+[17:21] mean you
+[17:22] you might equally drop that yes
+[17:30] something like gravitational force again
+[17:33] because i mean
+[17:33] in the newtonian picture way gravitation
+[17:36] had
+[17:37] something like a meaning of force and
+[17:39] would put things
+[17:41] together but i mean we got rid of it
+[17:43] because now
+[17:45] it's curvature of space but if you
+[17:47] introduce something which
+[17:48] now pulls something together this is
+[17:51] like
+[17:52] introducing again something like a force
+[17:56] in this new tile no no because because
+[17:59] no because the cosmological constant
+[18:01] i mean that's the intuition understand
+[18:02] the negative pressure but the
+[18:03] cosmological
+[18:04] constant appears in here i associate to
+[18:06] the energy momentum tensor it
+[18:08] contributes to the meta contents of the
+[18:10] universe
+[18:11] and that curve space time even more or
+[18:13] differently
+[18:15] okay so you add it and the role it plays
+[18:18] here is that it
+[18:19] curves best and more therefore all the
+[18:21] the particle trajectories are modified
+[18:24] as opposed to you don't have a
+[18:25] cosmological constant
+[18:27] in that sense it has an effect it should
+[18:29] have an effect
+[18:30] but it's not a force it just contributes
+[18:33] to the curvature
+[18:34] via the einstein equation okay fine
+[18:37] so um let me write down this uh
+[18:40] okay omega equals minus one did we
+[18:43] already
+[18:43] put in the assumption that we assumed to
+[18:45] be greater than zero
+[18:58] no no because we will now write down the
+[19:01] lambda explicitly in the density
+[19:08] parameter
+[19:14] no no we didn't okay so um
+[19:17] we have the first fake density parameter
+[19:19] that's for the spatial curvature copper
+[19:26] so that deserves the name fake for the
+[19:28] spatial uh
+[19:30] curvature kappa so if it is present we
+[19:33] think we have a fake density present
+[19:35] which is omega kappa so kappa is not
+[19:38] included into the one
+[19:39] two number of meta types it's an extra
+[19:42] type
+[19:43] is minus um kappa
+[19:47] over h squared
+[19:50] a squared we just have to define it that
+[19:53] way
+[19:54] so that we can treat this at the same
+[19:56] level and the third
+[19:58] is then uh the pseudo fake so not quite
+[20:00] such a fake
+[20:02] um so let's put in brackets the the
+[20:05] pseudo fake density parameter
+[20:08] but i agree that's that's that's
+[20:09] ridiculous it could also be called the
+[20:11] density parameter but for the
+[20:12] cosmological constant you have to write
+[20:14] it down in a different way
+[20:15] it's called omega down lambda and it is
+[20:19] um lambda by
+[20:20] 3h squared lambda
+[20:24] by 3 h squared so
+[20:27] the point is ignore the terminology what
+[20:31] i call the density parameter fake
+[20:33] density parameter i call it the flower
+[20:35] concept
+[20:35] it doesn't matter you have on the right
+[20:38] hand side of these definitions
+[20:40] you have quantities you know and you
+[20:42] well understand
+[20:43] that are defined that have a physical
+[20:45] meaning and on the left hand side
+[20:47] you obviously have a combination of such
+[20:49] quantities and we
+[20:51] it's nicer to work with these
+[20:53] combinations for the following
+[20:55] reason using
+[20:59] the hubble function
+[21:04] and the density
+[21:10] parameters
+[21:14] we get well first first of all we get
+[21:17] for the friedman equation
+[21:21] we can rewrite it and look
+[21:24] how nice it looks i take the sum
+[21:28] of all meta types from one
+[21:32] to the number capital i of the meta
+[21:34] types and number of meta types
+[21:37] is capital i
+[21:40] and i add up all the density parameters
+[21:44] for meta type 1 meta type 2 meta type 3
+[21:48] but i didn't want to call the coppers
+[21:52] meta types but i call so you could say
+[21:55] over all non-fake matter so let's make
+[21:58] really say not fake here let's only say
+[22:00] fake density parameter here
+[22:02] so you could also say it's the sum over
+[22:05] all
+[22:06] non-fake matter
+[22:09] so that includes the cosmological
+[22:11] constant meaning from one
+[22:14] to i but the fake matter you also add
+[22:18] okay you'll see in a second why i do it
+[22:20] like this anyway the sum of all of this
+[22:22] is one that's the friedman equation you
+[22:25] can
+[22:26] check so that is more memorable i guess
+[22:30] than the original friedman equation okay
+[22:33] so this is why one likes this but then
+[22:35] we have another
+[22:37] equation we had the equation which
+[22:39] requires an
+[22:40] acceleration excel flowration
+[22:44] equation what was that that was this a
+[22:47] double dot
+[22:48] and that becomes h inverse
+[22:52] squared a double dot over a
+[22:56] you could also set out to rewrite the a
+[22:59] double dot over a
+[23:01] using the the h but let's leave it this
+[23:04] way
+[23:05] equals minus one-half
+[23:09] sum over all non-fake matter
+[23:14] so including cosmological constant but
+[23:16] not including
+[23:17] the curvature of one plus 3 omega i
+[23:23] so the omega from the linear equation of
+[23:27] state
+[23:28] makes a reappearance times the omega i
+[23:35] so you see that using the density
+[23:37] parameters
+[23:38] both equations take a rather simpler
+[23:42] form
+[23:42] and that is why cosmologists like to
+[23:45] think of the meta types including the
+[23:47] cosmological constant
+[23:49] as meta types and even in this equation
+[23:53] they like to also think of the spatial
+[23:55] curvature which you may choose to be
+[23:57] zero which means that this omega
+[24:01] copper goes out or you may choose it to
+[24:04] be plus one or minus one
+[24:06] okay they like to think of it as the
+[24:08] same level
+[24:09] so you say some all matter fake or
+[24:11] non-fake it's one
+[24:13] the density parameters but down here is
+[24:15] only the non-fake matter
+[24:18] okay so
+[24:21] you you have this and you say okay you
+[24:25] re defined these quantities
+[24:28] what's the point it looks nice but
+[24:31] what's the point
+[24:32] well you can ima immediately look at uh
+[24:35] what i call
+[24:37] for me that's what should have been
+[24:38] called density parameter and hubble
+[24:40] function
+[24:41] okay so that was section one here
+[24:44] density
+[24:46] parameter
+[24:49] and hubble function
+[24:54] it's just these redefinitions and the
+[24:56] friedman equations
+[24:58] in those terms and then the next
+[25:02] step is the second
+[25:07] dominant matter
+[25:13] at various epochs
+[25:16] so stages of the evolution of the
+[25:20] universe
+[25:22] so now you could think that you have to
+[25:25] postulate which
+[25:26] matter is dominant in the early universe
+[25:29] from your physics intuition and which
+[25:32] matter is
+[25:32] more important later on in the universe
+[25:35] from your physics intuition
+[25:37] in fact you don't need the intuition you
+[25:39] can calculate
+[25:41] we know
+[25:45] that rho
+[25:48] goes like a to the minus n of omega
+[25:51] right so we know the density of the ith
+[25:55] meta type
+[25:56] goes like a to the minus n
+[26:00] of the omega of the nth
+[26:03] metatype omega is a constant
+[26:07] now we also know that's the first thing
+[26:09] you know
+[26:10] the second thing we know is the not
+[26:13] erased
+[26:13] table here but maybe the rest could
+[26:15] slowly be erased
+[26:17] um maybe the left the left blackboard
+[26:20] we know that the various meta types
+[26:22] radiation dust and cosmological constant
+[26:25] they have different
+[26:26] ends so let's write down the ends
+[26:29] what is the n for radiation i write n
+[26:32] gamma like a gamma quantum
+[26:35] right and gamma is four right that's
+[26:38] what we had is four
+[26:40] for radiation uh then we could have the
+[26:43] n the next lower one is three that's the
+[26:46] one for
+[26:47] for dust and uh here i write in m like
+[26:50] matter
+[26:50] but what i really mean is dust that's
+[26:53] the terminology
+[26:54] in cosmology matter and here we mean
+[26:57] radiation
+[26:59] okay that is three from the table
+[27:04] then you also can get from the table
+[27:06] that the n
+[27:07] for the kappa if you include it in the
+[27:09] ticket in the table
+[27:11] would be a 2
+[27:14] and the n for the lambda is actually a
+[27:17] 0.
+[27:19] for the cosmological constant so this is
+[27:21] the n you would
+[27:22] formally associate with the spatial
+[27:25] curvature
+[27:28] and that's the n you would associate
+[27:31] formally
+[27:32] with a cosmological constant okay
+[27:36] and this is true for any meta type
+[27:39] including cosmological constant
+[27:42] remember i emphasized some of the
+[27:44] equations i wrote down
+[27:46] are only valid for non-cosmological
+[27:50] constant matter
+[27:51] but this one in particular is true for
+[27:54] all matters see the
+[27:56] tutorials today where you will derive
+[27:57] this a very short derivation
+[27:59] it's good to do this yourself
+[28:05] no we didn't assume ah
+[28:09] no this should be for any kappa yes
+[28:13] that's the end it's the the density
+[28:16] parameter for the kappa
+[28:17] carries the kappa and carries the sign
+[28:22] uh you're right i i think i wrote in
+[28:25] this table
+[28:26] in the last lecture i i wrote something
+[28:28] like this
+[28:29] no no no sorry that's that's minus one
+[28:31] third i'm sorry i'm sorry
+[28:32] no no the sign goes in the omega yeah
+[28:35] yeah
+[28:36] i was confused there now now i see now
+[28:38] that you ask
+[28:39] and that's just minus one third and the
+[28:41] sign comes from the omega in a second
+[28:44] okay so um now you have that
+[28:47] and from that you can immediately
+[28:50] conclude
+[28:51] that the following is true you can
+[28:53] conclude that the density
+[28:55] associated with the cosmological
+[28:57] constant which we just defined
+[29:00] scales like a squared
+[29:03] the density associated with spatial
+[29:05] curvature
+[29:07] which in turn is proper it may mean
+[29:09] proportional to that is what i mean
+[29:11] proportional to
+[29:14] with a constant factor proportional to a
+[29:18] squared omega kappa which in turn is
+[29:21] proportional to
+[29:23] a to the third omega matter
+[29:26] so that's the dust which in turn is
+[29:29] proportional to
+[29:30] a to the fourth omega for radiation
+[29:35] this follows immediately if you check
+[29:37] the definitions of these
+[29:39] of these density parameters and what we
+[29:42] wrote up
+[29:43] here if you plug in these ends here and
+[29:46] check how the density parameter
+[29:48] parameter has to row in there it's very
+[29:50] obvious
+[29:51] okay so think about this it's very easy
+[29:54] okay
+[29:55] aha now this
+[29:58] is simply an observation but it's an
+[30:02] observation that tells you a lot
+[30:07] why does this tell you a lot
+[30:14] well
+[30:20] observation
+[30:25] in an expanding universe
+[30:31] that means a universe where the hubble
+[30:34] function
+[30:34] is at all times greater than zero
+[30:36] because it's a dot over a
+[30:38] that means the a increases all the time
+[30:41] that's an expanding universe in an
+[30:44] expanding
+[30:45] universe the later the time the bigger
+[30:48] the a
+[30:49] right
+[30:53] t 1 less than t 2
+[30:56] if and only if a of t 1 less than a
+[31:00] of t 2 at later times there's a bigger
+[31:03] scale
+[31:04] factor right very simple it's an
+[31:06] expanding universe
+[31:09] but if that is true then how
+[31:12] do look at just this proportionality
+[31:16] here
+[31:16] for a second you can look at any of
+[31:18] these but let's look at this one
+[31:20] there's an a to the third as an a to the
+[31:22] fourth so you can of course divide by a
+[31:24] to the third
+[31:25] what remains is omega m scales like a
+[31:28] times omega gamma right
+[31:32] so they're they're the same so which is
+[31:35] more important at late
+[31:37] times this one which is higher this one
+[31:39] or the omega gamma
+[31:44] the matter because the matter is
+[31:47] a thousand omega gamma or a million or
+[31:51] ever increasing that means
+[31:54] if you have hence
+[31:58] we read off
+[32:01] that if you have here time
+[32:06] which we now know starts at the big bang
+[32:12] great
+[32:14] this one if you go forward in time
+[32:18] the ones to the left here become ever
+[32:20] more important
+[32:23] and if you at the beginning of time
+[32:25] where the scale factor is very small
+[32:28] this one is the most important one that
+[32:30] means in the early universe the gamma
+[32:32] dominates the others may be there
+[32:35] but they are suppressed
+[32:38] so then slowly the gamma is less
+[32:42] important and the matter starts to
+[32:45] dominate
+[32:47] and then slowly the matter is even less
+[32:50] important this is even further less
+[32:52] important and the spatial curvature you
+[32:54] may have chosen or not to be there
+[32:56] or that maybe they are not dominates the
+[32:58] evolution of
+[32:59] the density and at very late times only
+[33:02] the cosmological constant
+[33:05] the term determines is the dominant
+[33:08] matter type in the universe
+[33:09] that plays the biggest role
+[33:13] so i didn't have to speculate about
+[33:16] the role of a cosmological constant in
+[33:19] the early universe
+[33:22] there is none it's highly suppressed
+[33:26] there would only be a role in the early
+[33:28] universe if all the other meta types
+[33:30] weren't there
+[33:31] then of course it remains the dominant
+[33:33] one because it's the only one
+[33:38] okay it's a political solution if you
+[33:41] eliminate all your competitors right
+[33:43] then you you stay dominant
+[33:45] everywhere right but but that's the only
+[33:47] possibility
+[33:48] otherwise the other one starts to
+[33:50] dominate
+[33:52] and that is a result of the theories not
+[33:54] a modeling
+[33:55] assumption that's good
+[33:59] that's good so we have better control
+[34:00] over the various epochs
+[34:02] so if a cosmologist says well lambda
+[34:05] dominates
+[34:06] at late times it's a very mysterious
+[34:08] statement unless you know this line of
+[34:10] proportionalities implied by the
+[34:11] friedman
+[34:12] and acceleration equation um
+[34:16] that's this okay fine so you have the
+[34:19] these dominant meta types at various
+[34:21] times yes
+[34:45] do you know any later time than now
+[34:53] that's that's the terminology we're at
+[34:55] late time
+[34:56] we're at late time okay
+[35:01] i mean you could say if we weren't at
+[35:02] late time maybe we couldn't have
+[35:04] observed this yet right
+[35:07] if there's other stuff present because
+[35:09] then this might be still dominating and
+[35:10] we have that stuff
+[35:12] and that's the standard model that's our
+[35:16] assumption
+[35:16] whether the spatial section is flat
+[35:19] spherical or hyperbolic
+[35:21] and we'll see how this fares with uh
+[35:23] observations yes
+[35:24] so but we speak only of if we have
+[35:26] different types of
+[35:28] meta which are dominating at which time
+[35:31] but we do not speak about converting one
+[35:34] type into the other
+[35:36] no no not included not here no no that's
+[35:39] not included
+[35:40] that's right you may want to look at
+[35:43] that and people in fact people look at
+[35:44] that and
+[35:45] their conditions on nuclear synthesis
+[35:47] and stuff like this and you need a
+[35:49] deceleration period but not
+[35:51] as a second derivative is less than zero
+[35:53] and so on so there are many many results
+[35:55] they're all based on the model that's
+[35:56] right i mean
+[35:57] obviously one needs to look at this this
+[35:59] is a very simple-minded
+[36:00] model that uses several types of matter
+[36:03] yes
+[36:04] because this spatial curvature we're
+[36:06] talking about
+[36:07] is obviously not caused by mass so we
+[36:10] just assume
+[36:11] we're living in a sphere or a saddle or
+[36:14] a blood space
+[36:15] and that's it yes it's there it isn't
+[36:18] it's there it isn't but if it's there
+[36:21] assume the spatial universe is
+[36:23] s3 it's closed as a finite volume assume
+[36:26] that's the case
+[36:28] then that doesn't play a big role in the
+[36:30] early universe
+[36:31] and it doesn't play a dominant role in
+[36:33] the late universe
+[36:35] but it plays a role somewhere in between
+[36:40] well not not for late and not for early
+[36:43] but for in between it is
+[36:45] okay and whatever processes take place
+[36:47] here so you can say
+[36:49] when did i don't know the stars develop
+[36:51] what was structure formation
+[36:53] when was the cosmological microwave
+[36:55] background being imprinted
+[36:57] in the quantum fluctuation blah blah
+[36:58] blah blah blah blah right
+[37:00] when what took that place and you you
+[37:02] try to
+[37:03] to figure out when happened what because
+[37:05] of all the physics you know
+[37:07] which is more physics input and then you
+[37:09] slowly get a picture and this is already
+[37:11] very rough pictures
+[37:12] of what could have been the most
+[37:14] dominant meta type
+[37:16] density wise density parameter wise at
+[37:19] which stage
+[37:21] it gives a first order first ordering
+[37:24] principle to what you're looking at
+[37:27] and obviously cosmology is a fascinating
+[37:30] and very big
+[37:31] business today not only a business a
+[37:32] fascinating subject it's
+[37:34] extremely complicated because you need
+[37:36] to take everything into account
+[37:38] from quantum field theory uh plasmas but
+[37:41] what not the whole business this is the
+[37:44] uh
+[37:45] the zeroth order approximation to to
+[37:47] what's going on
+[37:48] yes
+[37:53] yes experiments say something and i'll
+[37:55] i'll show in the diagram in a second
+[38:02] um
+[38:04] does this mean that well the meta is not
+[38:06] dominating
+[38:07] so this uh canvas interpreted as
+[38:11] okay we take some galaxy cluster and
+[38:13] according to its gravity
+[38:14] it evolves and does stuff but this
+[38:18] i don't know about any galaxy as little
+[38:20] as somebody dealing with a gas
+[38:22] who dealt with gases at the time
+[38:26] who were these people who who did the
+[38:27] gas laws what were they called uh
+[38:30] tell me name help me what boil
+[38:33] okay boyle didn't think about atoms
+[38:37] at this level i'm not thinking about
+[38:39] galaxies i'm thinking about the fluid
+[38:41] from very far away
+[38:45] but you say okay the matter in our
+[38:47] universe has no
+[38:48] impact or nearly no impact on the
+[38:50] evolution of the universe as a whole
+[38:52] at our time now because we are less less
+[38:55] impact yes
+[38:56] not the dominant impact yes yes that's
+[38:58] right
+[39:00] i no longer i no longer have the
+[39:02] resolution of i don't even see a galaxy
+[39:04] cluster
+[39:05] as little as in this room you see uh uh
+[39:08] um oxygen
+[39:13] okay in atoms universe we have now uh
+[39:16] the matter
+[39:17] evolves according to the laws of gravity
+[39:19] but it has nearly no impact on the
+[39:21] evolution of the universe as a whole
+[39:23] because
+[39:25] i mean it's trying i'm trying to draw to
+[39:28] to make a metaphor
+[39:30] for what actually is this exact line of
+[39:32] proportionalities
+[39:33] i'm trying to bring them to life but if
+[39:37] you need to go back to this to answer
+[39:39] any specific question yes so
+[39:42] obviously the density of matter is being
+[39:45] reduced a lot
+[39:47] by time in proportion to the density of
+[39:50] the cosmological constant for instance
+[39:54] it's proportionality it doesn't tell you
+[39:56] anything about the absolute value
+[39:58] okay so maybe it's just this
+[40:00] proportionality then but um
+[40:01] i just wonder how we can met at all
+[40:05] like dominant matter at all as we have
+[40:08] um if it's being reduced that much
+[40:12] well we do have yeah but as i said i
+[40:14] mean the point is you have a very thin
+[40:17] very non-dense met i mean
+[40:22] i'm in this room you have a lot of air
+[40:25] okay that's one fluid and there's
+[40:27] another fluid that's all your noses you
+[40:29] know
+[40:30] we'll come back to this topic so the
+[40:32] point is
+[40:33] all your bodies and now the point is
+[40:36] what contributes more to gravity in this
+[40:39] room to the space-time curvature in this
+[40:41] room
+[40:42] your bodies or the height the oxygen
+[40:44] molecules uh
+[40:45] molecules well you you do
+[40:49] okay so you have several types of matter
+[40:51] and here we're in a situation
+[40:53] where you contribute more to that then
+[40:56] you could have another situation right
+[40:59] where you have i don't know
+[41:01] with a very dense oxygen gas filled with
+[41:03] a very dense oxygen gas you wouldn't be
+[41:05] sitting quite so happily here
+[41:07] but it's the same audience then all of a
+[41:10] sudden it could be so dense and it
+[41:11] contributes more to gravity than you do
+[41:14] and in the evolution of the universe
+[41:16] these proportions
+[41:17] in a sense these dominances density-wise
+[41:20] they change according to this line
+[41:22] yes it fades away
+[41:25] so the oxygen will fade away with time
+[41:28] and our bodies will fade away less
+[41:32] well it depends i mean it depends also
+[41:34] on the statistical mechanics of this
+[41:35] how does it thin out if you make space
+[41:38] double as big
+[41:39] how does the density of a radiation
+[41:41] change compared to the density of
+[41:43] point bodies you look at this in
+[41:44] statistical mechanics you get different
+[41:45] results
+[41:46] that the scale dependence the volume
+[41:49] dependence
+[41:50] is not the same for different meta types
+[41:53] so this is in perfect accordance with
+[41:55] say statistical
+[41:56] considerations because some are massive
+[41:58] they have a different phase space than
+[42:00] those that are
+[42:01] massless has to do with that yes
+[42:06] the larger the universe grows the less
+[42:07] important the matter becomes
+[42:09] that's somehow clear but what's the
+[42:11] interpretation of the cosmological
+[42:12] constant then
+[42:13] is it is it this dark matter well
+[42:17] yeah so some people say um
+[42:21] i like to think of photons and little
+[42:24] balls that don't interact and curvatures
+[42:26] but this guy i can't imagine and it it
+[42:29] aids
+[42:30] some people's imagination to invent
+[42:32] names
+[42:34] and so you can call this dark energy
+[42:38] and then they say well it's a justified
+[42:40] name because it's an energy as you can
+[42:43] see well energy density and you have a
+[42:46] dark
+[42:46] because the cosmological constant is a
+[42:48] meta type i added to the energy momentum
+[42:51] tensor
+[42:51] but none of the other matter has the
+[42:53] lavender in it
+[42:55] do you know the lambda where's the
+[42:56] lambda in the maxwell action
+[42:59] in jackson it isn't there the the
+[43:02] so the the light doesn't couple to the
+[43:04] lambda
+[43:05] roughly speaking okay so the lambda
+[43:08] stays there separately alone
+[43:10] not coupling to any of the other matter
+[43:12] okay
+[43:14] so that means you couldn't detect it by
+[43:16] other matter because you can only detect
+[43:18] something if it interacts
+[43:19] i can detect your head by throwing a
+[43:21] ball if the ball is reflected but for
+[43:23] that the ball needs to interact with
+[43:25] your head
+[43:26] right if it doesn't i have a problem
+[43:28] with detecting your head
+[43:30] okay or with the light and so on so if
+[43:33] the lamp that doesn't couple to anything
+[43:34] else in your other matter actions
+[43:37] which is something we haven't seen okay
+[43:40] then
+[43:40] it's dark because you can shine any
+[43:43] matter on
+[43:43] it it's not being reflected because it
+[43:46] goes straight through it
+[43:48] okay so therefore it's dark energy we
+[43:51] don't see it
+[43:52] other than through its gravitational
+[43:54] effect because it contributes to the
+[43:56] energy momentum tensor
+[43:57] hence the met the the einstein curvature
+[44:01] sees it but that's the only thing that
+[44:04] sees it hence it's called dark energy
+[44:06] and then you can say well anyway i'll
+[44:08] show a diagram in a second
+[44:10] but that's just the name dark energy and
+[44:12] then people could say oh it could have
+[44:14] different types of dark and
+[44:15] what do you mean by dark energy well for
+[44:18] you can call this dark energy that's
+[44:20] terminology i try to avoid it
+[44:22] yes if it is a constant in the ancient
+[44:25] equation
+[44:26] doesn't it mean that it is perfectly
+[44:28] homogeneously distributed
+[44:30] that's right that's right yes yes it is
+[44:32] like the ether
+[44:36] okay that's polemics but but but the
+[44:39] point is it is that's right
+[44:40] that's right
+[44:44] the background independence
+[44:48] as giulini in his evening talk in his
+[44:51] inofficial evening talk
+[44:53] explained um one has to be very specific
+[44:56] of what of what
+[44:56] means by background independence because
+[44:59] you can
+[44:59] make any equations background
+[45:01] independent in a sense
+[45:04] well any matter you put on somewhere is
+[45:06] extra structure if you wish
+[45:09] i i think this question is uh not
+[45:11] particularly meaningful it depends on
+[45:12] how i look at it if i say
+[45:13] well if you provide this density omega
+[45:16] omega's
+[45:18] the energy then uh of course you have
+[45:21] provided one right so
+[45:22] how is it still background independent
+[45:24] it provides a background
+[45:25] but it depends on what you call a
+[45:26] background it's rather
+[45:30] at this stage of technical definition
+[45:33] it's a rather ill-defined question i
+[45:36] think
+[45:36] sounds good but that's the case with
+[45:39] many questions
+[45:45] in the yes how then can i see a
+[45:47] gravitational effect in
+[45:49] smaller scale because the sun i know
+[45:52] okay there will be some effect but it's
+[45:54] distributed now you see the you see it
+[45:56] at the global scale now
+[45:57] if you only have a cosmological constant
+[45:59] the evolution is like e to the ht
+[46:01] right and it blows up not by light
+[46:04] deflection
+[46:07] now of course by light deflection
+[46:09] because if the universe changes in time
+[46:11] light is a time like null geodesic
+[46:15] well depending on what the whole overall
+[46:17] circumstances are and so on
+[46:19] of course you see it also there yes but
+[46:21] not in a spatial
+[46:25] affiliation yep but in a space but in
+[46:28] spatial foliation you see nothing
+[46:30] because the experiment needs to use
+[46:32] massive or masses particles
+[46:33] and they always are transverse to
+[46:37] spatial
+[46:41] the model that we sections uh all all
+[46:43] the things
+[46:44] are uniformly isotropic and everything
+[46:46] but of course in real life matter
+[46:48] texture
+[46:48] and even radiation you can have pockets
+[46:50] with more radiation so
+[46:52] would it be possible that also dark
+[46:54] energy also
+[46:55] memories like this or buying the
+[46:57] construction
+[47:00] of course so some people say okay
+[47:03] let me continue because i first need to
+[47:05] i always want to give you answers that
+[47:07] already depend on an experimental result
+[47:08] i'm trying to show you in a second right
+[47:11] so um okay so let's see another urgent
+[47:14] question
+[47:17] okay good so um
+[47:20] so let's look at a realistic late
+[47:36] universe well
+[47:38] i shouldn't say realistic i should say a
+[47:40] more realistic
+[47:41] late universe
+[47:47] i mean these are all toy theories and
+[47:50] they can be slightly refined
+[47:52] so a realistic late universe
+[47:55] several meta types
+[48:01] present so let's assume
+[48:05] we have matter
+[48:08] spatial curvature and a cosmological
+[48:11] constant
+[48:15] yeah let's say that um
+[48:19] that is a three-dimensional parameter
+[48:22] space
+[48:24] that we have for these parameters but
+[48:26] the friedman equation
+[48:30] says the sum of the three is 1
+[48:34] that means i could express for instance
+[48:37] the omega kappa
+[48:38] as 1 minus omega mata minus omega lambda
+[48:42] the friedman equation says if you have
+[48:45] three density parameters
+[48:47] you only need to look at two because the
+[48:50] third one is then determined by the
+[48:52] friedman equation
+[48:53] right aha so
+[48:56] that is hence
+[49:00] the parameter space
+[49:05] for this model
+[49:10] is omega m
+[49:14] omega lambda because the third one is
+[49:18] automatically
+[49:19] determined you only need to track these
+[49:22] two now let's draw
+[49:26] a picture of this
+[49:35] so here i have the omega lambda
+[49:40] and here i have the omega m the density
+[49:43] parameter
+[49:44] for the dust for the pressureless matter
+[49:48] which i imagine fills the universe
+[49:51] and here i have the density parameter
+[49:53] for the cosmological constant
+[49:55] which i assume might be present
+[49:59] i don't know how much of this and i
+[50:02] don't know
+[50:02] how much of that and i also have
+[50:06] presents
+[50:07] the omega kappa but the omega kappa
+[50:12] i don't need to look at because if i
+[50:14] know a point in this space like this one
+[50:16] i know there's this density for that and
+[50:18] that density for that
+[50:20] that could be an observation do you
+[50:21] agree i could look
+[50:23] now and ask what's omega m and omega
+[50:26] lambda and that's in fact what the
+[50:28] various experiments extract from their
+[50:30] data
+[50:31] on the basis of the model very
+[50:34] importantly not absolutely
+[50:36] but on the basis of the model they
+[50:38] extract that from their data so very
+[50:39] important
+[50:40] caveat right okay and then i know the
+[50:44] omega kappa because it will be one minus
+[50:46] this minus that
+[50:47] is the omega kappa so now
+[50:52] the cosmological constant this guy here
+[50:54] is proportional to the cosmological
+[50:55] constant if you go back to the
+[50:57] definition
+[50:58] um let's look at this in the range
+[51:01] from minus one plus one we'll see in a
+[51:04] second y
+[51:05] and let's look at this in the range from
+[51:07] zero
+[51:09] to two you'll see in a second why
+[51:12] okay so we have this model
+[51:16] here now i can ask various questions in
+[51:19] order to understand the space of
+[51:21] possible measurements
+[51:22] an observation would measure a point i
+[51:25] mean a sufficiently
+[51:26] precise observation so classify the
+[51:29] regions
+[51:30] in this parameter space classify
+[51:34] the regions in this
+[51:38] parameter space and obviously if you say
+[51:40] hey you forgot the omega gamma what
+[51:42] about the radiation in the universe i
+[51:44] say yeah okay
+[51:44] then draw a three-dimensional diagram
+[51:47] you have the omega gamma
+[51:48] in there still the omega kappa is then
+[51:50] one minus omega m omega lambda minus
+[51:53] omega
+[51:54] gamma right then you get a
+[51:55] three-dimensional graph and you have to
+[51:57] put a point into a three-dimensional
+[51:58] graph
+[51:59] okay but if we are interest in the late
+[52:01] universe
+[52:02] the omega gamma is long not more no more
+[52:05] interesting you remember
+[52:08] so we leave it out in the model why
+[52:09] would we bother let's do a two
+[52:11] dimensional graph
+[52:12] okay good um
+[52:16] right so classify these reasons in this
+[52:17] parameter space
+[52:19] and the first thing you could ask is
+[52:22] um consider regions
+[52:27] of spatial curvature
+[52:33] copper either greater zero but i would
+[52:36] also like to know the region where it's
+[52:38] less than zero
+[52:39] and i would like to know the region
+[52:40] where it's equal to zero
+[52:42] aha how did this go
+[52:46] well k equals zero kappa equals zero
+[52:50] corresponds please check the definition
+[52:52] of omega kappa
+[52:54] corresponds to omega kappa being zero
+[52:56] right
+[52:57] because it was proportional to kappa the
+[52:59] omega kappa
+[53:00] if one is zero the other one is zero aha
+[53:03] but omega kappa
+[53:05] is one minus omega m minus omega lambda
+[53:10] agree why the friedman equation
+[53:13] hence i have
+[53:16] omega lambda equals this is 0
+[53:20] equals omega m
+[53:23] minus 1.
+[53:27] which line is that omega lambda is
+[53:30] omega m minus 1.
+[53:34] is this this is wrong at that right it's
+[53:37] one minus omega m
+[53:40] omega lambda goes to the other side is 1
+[53:42] minus omega m
+[53:44] what line is that that's
+[53:48] this one here
+[53:54] right so this
+[53:57] straight line here
+[54:00] in a suitably curved blackboard plane
+[54:04] this is a straight line
+[54:06] this straight line here
+[54:09] are all the observational
+[54:13] data points i could have which would
+[54:15] yield
+[54:16] kappa equals zero
+[54:22] you see it's just a line and anything
+[54:25] to this side of it you can check
+[54:28] has kappa greater than zero
+[54:32] you check by the same argument but
+[54:33] instead of the equal sign you take the
+[54:35] other sign
+[54:36] and everything to this side of it has
+[54:39] kappa
+[54:40] less than zero
+[54:45] you need to look very closely to see
+[54:47] whether it's zero or not
+[54:49] but anyway that's what you can have
+[54:52] these are the two sides here
+[54:56] then you can have another i can ask
+[54:58] another question
+[55:00] you could ask the acceleration
+[55:03] of the expansion what is that well
+[55:06] that's
+[55:06] h to the minus 2 a double dot over a
+[55:10] well this one is always positive this
+[55:12] one is always positive
+[55:13] so if you are just interested in the
+[55:15] sign it doesn't matter what the factors
+[55:17] in front are
+[55:18] you can again ask where is it less than
+[55:20] zero where is it greater than zero and
+[55:22] where's the acceleration of the universe
+[55:23] zero
+[55:24] where does the expansion accelerate
+[55:26] where does it not
+[55:27] and where does it decelerate that's
+[55:29] interesting to
+[55:30] look at now we look at the acceleration
+[55:32] equation so this was
+[55:34] friedman this here was the friedman
+[55:37] equation
+[55:39] and now we have another equal sign now
+[55:42] we use the acceleration equation
+[55:48] and what was that there was something
+[55:49] like minus one half
+[55:51] the sum over all non-fake meta types
+[55:56] i equals one to capital i um
+[56:00] three now um uh uh
+[56:04] one plus three omega i right yeah one
+[56:06] plus three omega i
+[56:10] omega i aha so i only take the non fake
+[56:13] types equals
+[56:15] minus one half now the first type
+[56:18] i want to look at is the only non-fake
+[56:21] types are m and lambda
+[56:22] they're meta types right m was
+[56:26] uh dust which omega does just have
+[56:31] zero p equals zero rho
+[56:35] because it is pressureless has zero so
+[56:37] the first one is
+[56:38] one plus zero times omega
+[56:42] matter plus so that means a minus
+[56:46] one half next type is the lambda
+[56:49] what omega did the lambda have
+[56:53] minus one one minus three
+[56:57] is minus two minus two times minus one
+[57:00] half is plus one
+[57:03] plus one times omega lambda
+[57:06] you agree
+[57:12] think you do agree so you have minus one
+[57:14] half
+[57:15] omega m plus one omega lambda
+[57:18] so again from starting from this equal
+[57:21] sign if you want to get the line here
+[57:23] from here it follows omega lambda
+[57:27] is plus one half omega m
+[57:33] aha so if before we drew this
+[57:37] yellow line that was the line for kappa
+[57:40] equals zero
+[57:42] and now we draw a blue line
+[57:45] that's the one for acceleration
+[57:49] equal to zero and it's omega lambda is
+[57:52] one half
+[57:53] m it starts here goes to the middle
+[57:56] goes to up here
+[58:03] that's this one so this has on this line
+[58:07] the acceleration of the expansion
+[58:11] of the universe
+[58:16] well the acceleration of the scale
+[58:18] factor is zero
+[58:23] and you can again do the same
+[58:25] calculation and check the signs
+[58:28] if you go in this direction the
+[58:30] acceleration
+[58:31] is greater than zero and if you go in
+[58:34] this direction the acceleration of the
+[58:36] universe is less than zero
+[58:41] you can ask further questions you can
+[58:44] ask
+[58:45] in what region what about re-collapse i
+[58:48] think this answer this question was
+[58:49] asked before right
+[58:51] re-collapse versus
+[58:55] eternal acceleration
+[58:58] i mean it seems very reasonable so you
+[59:00] say our universe expands
+[59:02] but there's matter in it i mean matter
+[59:04] and energy
+[59:06] and okay some energy has this funny
+[59:08] negative uh
+[59:09] pressure type thing the cosmological
+[59:10] constant but shouldn't
+[59:13] the energy in there the matter
+[59:16] try to lump together again it flies
+[59:18] apart
+[59:19] but shouldn't finally it fall together
+[59:23] again
+[59:24] and that would then okay so i mean
+[59:25] that's the question that you can ask
+[59:29] so the so that you can say there is
+[59:31] recollapse
+[59:33] if and only if there exists a time
+[59:37] t star in r plus zero
+[59:40] please keep it i i need this it exists
+[59:44] does there exist a time t star in r uh
+[59:47] zero such that the expansion
+[59:50] of the universe
+[59:54] actually comes to a standstill and
+[59:57] actually also that this is not only this
+[59:59] but this is a maximum
+[1:00:04] know that the a is a maximum
+[1:00:08] that the second derivative also vanishes
+[1:00:10] and so on so anyway
+[1:00:12] you know what i mean you look at the
+[1:00:13] scale factor right this is time
+[1:00:16] this is the a is there something like
+[1:00:18] this so there needs to be a turning
+[1:00:20] point
+[1:00:21] and of course you can write this in
+[1:00:23] terms of an equation right you can ask
+[1:00:25] when is the second derivative of the
+[1:00:27] expansion
+[1:00:28] zero and if it's supposed to be a
+[1:00:30] maximum so that really goes back i mean
+[1:00:31] it could come to a stencil and then
+[1:00:33] go on then you know that you need
+[1:00:38] the first derivative to be less than
+[1:00:41] zero
+[1:00:42] no something is strange here the first
+[1:00:44] derivative is zero and the second
+[1:00:45] derivative is
+[1:00:47] is is less than zero for maximum right
+[1:00:51] okay thank you okay so as i said
+[1:00:54] undergraduate
+[1:00:55] calculus all replaced by differential
+[1:00:58] geometry no
+[1:00:59] no no kidding so so the point is you
+[1:01:02] find the condition
+[1:01:03] for this turning point and you can write
+[1:01:04] it down and look what the equations say
+[1:01:07] um that can be written down it's a
+[1:01:10] little bit more complicated
+[1:01:11] what you find is the following so you
+[1:01:13] find
+[1:01:15] the condition that the collapse just
+[1:01:18] doesn't happen so the division line
+[1:01:20] between re-collapse happens and eternal
+[1:01:23] acceleration
+[1:01:24] happens is the following
+[1:01:28] the division line runs along here
+[1:01:32] really exactly along here and then it
+[1:01:35] takes off a little here and that's a
+[1:01:37] complicated function which however can
+[1:01:39] be analytically calculated
+[1:01:41] some are cosines in it and so on and
+[1:01:44] everything above here
+[1:01:46] is eternal acceleration
+[1:01:51] eternal expansion and everything
+[1:01:55] down here
+[1:02:02] every down here is re-collapse
+[1:02:09] it only depends in this model on the
+[1:02:11] omega m
+[1:02:12] and the omega lambda
+[1:02:18] now you can investigate well omega m and
+[1:02:20] omega lambda actually constants well it
+[1:02:22] depends on your model
+[1:02:24] in our model they are because in our
+[1:02:26] model
+[1:02:27] recall
+[1:02:30] that the row went like t
+[1:02:34] to the minus two and the h went like t
+[1:02:37] inverse and you have in the densities
+[1:02:40] the omegas are rho
+[1:02:42] by h squared quite obviously
+[1:02:46] okay anyway so we're here and now the
+[1:02:48] question is what does experiment say
+[1:02:50] this is all theory
+[1:02:51] these are possible universes we might
+[1:02:53] have
+[1:02:54] filled with this toy matter what does
+[1:02:56] the theory the observations say
+[1:02:59] and the observations from various
+[1:03:01] sources
+[1:03:02] and cosmologists believe from
+[1:03:04] independent
+[1:03:06] sources not independent groups but in a
+[1:03:09] sense one is supernova galaxy surveys
+[1:03:11] and redshifts and whatnot indicate
+[1:03:16] that omega lambda is
+[1:03:19] 0.7 and
+[1:03:25] and omega m is 0.3
+[1:03:33] hang on a second yes and kappa omega
+[1:03:37] kappa is zero because it lies exactly
+[1:03:39] on this line and of course it's an
+[1:03:42] experiment right
+[1:03:47] so the experiment rather says something
+[1:03:48] like this and says our universe
+[1:03:50] is somewhere like there
+[1:03:54] so um you might say well to a very
+[1:03:58] big degree kappa equals zero a flat
+[1:04:02] universe
+[1:04:02] that means spatially infinitely extended
+[1:04:06] is supported but i mean it's very easy
+[1:04:10] to
+[1:04:10] to jump here to jump here right okay
+[1:04:14] and um 70 percent
+[1:04:19] of the energy density matter energy
+[1:04:22] density of the universe
+[1:04:24] 70 percent needs to be put in the
+[1:04:27] cosmological constant
+[1:04:30] and only 30 percent comes from
+[1:04:34] matter but it's even worse
+[1:04:39] so observations
+[1:04:44] say one hundred percent that's the one
+[1:04:47] in the friedman equation
+[1:04:49] equals zero percent from the spatial
+[1:04:52] curvature
+[1:04:55] spatial curvature
+[1:05:00] contribution and of course
+[1:05:03] there may be a little space place a
+[1:05:05] curvature plus
+[1:05:07] 70 percent is the cosmological
+[1:05:11] constant contribution this is in order
+[1:05:14] to explain
+[1:05:17] the totality of observations or a
+[1:05:20] certain sub totality of observations
+[1:05:22] plus now there's 30 percent left but the
+[1:05:25] 30
+[1:05:26] are split in 25 plus 5
+[1:05:30] which we divide for other reasons and
+[1:05:33] only these 5 percent
+[1:05:36] come from what we believe is standard
+[1:05:39] model matter
+[1:05:41] standard model of particle physics
+[1:05:48] matter
+[1:05:51] so if we don't look into the universe
+[1:05:54] and we go to accelerators and we
+[1:05:56] shoot bananas onto oranges and we see
+[1:05:58] what happens
+[1:06:00] and we study all the products of these
+[1:06:05] of these collisions we get all the
+[1:06:08] particles of the standard model
+[1:06:11] that's what we get this is quantum field
+[1:06:14] series the three
+[1:06:16] uh gauge feed not three gauge with the
+[1:06:18] three gauge theories and
+[1:06:19] or the electro weak and the uh strong uh
+[1:06:22] interaction and all the the zoo
+[1:06:24] of of of of particles that come with it
+[1:06:28] but that what we believed in quantum
+[1:06:31] fields here in elementary particle
+[1:06:34] physics
+[1:06:34] to be all the matter there is
+[1:06:37] at high energies as high as we can
+[1:06:39] produce them in the lab
+[1:06:41] what we believe is all the matter there
+[1:06:43] is
+[1:06:45] only accounts for five percent of the
+[1:06:49] matter
+[1:06:50] and energy in the universe that you need
+[1:06:54] in order to explain the observations in
+[1:06:58] cosmology
+[1:07:04] don't steal the moment so now
+[1:07:07] the remaining stuff is not of this type
+[1:07:10] and it has certain properties and people
+[1:07:14] call it dark
+[1:07:15] matter because like the cosmological
+[1:07:17] constant we introduce which is just one
+[1:07:19] model for dark energy it's a
+[1:07:22] dark matter and i can call this dark
+[1:07:23] energy
+[1:07:26] it's just terminology right
+[1:07:30] it doesn't interact with any of that
+[1:07:32] matter but all our instruments are made
+[1:07:34] from that matter can only interact with
+[1:07:36] that matter so it could be that dark
+[1:07:38] matter interacts with dark matter i mean
+[1:07:39] it
+[1:07:39] very likely does and so on but the point
+[1:07:41] is we don't have
+[1:07:43] instruments built of dark matter so we
+[1:07:46] can't detect whatever dark matter is
+[1:07:48] deflected by dark not deflected is is um
+[1:07:51] scattered by other dark matter we can't
+[1:07:54] detect it so it's dark for us
+[1:07:56] it's dark because we don't have the
+[1:07:57] right instruments okay
+[1:07:59] um and if we had the right instruments
+[1:08:01] that were made of dark matter
+[1:08:02] maybe i could still not read off the
+[1:08:04] dial because i have no dark matter in me
+[1:08:06] so
+[1:08:06] if it really doesn't interact it's a
+[1:08:08] problem but gravitationally it has an
+[1:08:10] effect that's why we see
+[1:08:12] certain things so i mean this is
+[1:08:14] dramatic
+[1:08:15] because well the zero you can forget
+[1:08:18] because it says
+[1:08:19] that 95 of the stuff
+[1:08:23] of the matter energy density that fills
+[1:08:27] the universe
+[1:08:29] if einstein's theory is correct because
+[1:08:32] all of this all the interpretation of
+[1:08:34] the raw data
+[1:08:35] this diagram more complicated models
+[1:08:37] they all depend on einstein's theory
+[1:08:40] plus our theories of the standard model
+[1:08:42] of particle physics put together in
+[1:08:44] combination on craft space-time
+[1:08:47] all of this relies on that and if
+[1:08:49] there's no mistakes have been made
+[1:08:52] the theory says that what we always
+[1:08:55] believed is all the matter in the
+[1:08:57] universe
+[1:08:58] is only five percent so you can
+[1:09:01] if you believe firmly and einstein
+[1:09:03] gravity
+[1:09:04] and you believe firmly in the standard
+[1:09:06] model of particle physics put on curved
+[1:09:08] space-time
+[1:09:09] being treated they're right and people
+[1:09:11] who calculate the stuff having made no
+[1:09:12] mistake
+[1:09:14] if you believe in all of that which is
+[1:09:16] quite reasonable to believe
+[1:09:18] conservative point of view right
+[1:09:22] we have a major discovery here from
+[1:09:24] recent observational data of the last 20
+[1:09:26] 25 years
+[1:09:27] we discovered 25
+[1:09:31] of matter in the universe in the last 25
+[1:09:33] years
+[1:09:34] which before went undetected
+[1:09:37] this is why people are so excited about
+[1:09:40] this
+[1:09:41] they say if this is true but it always
+[1:09:45] comes with a caveat
+[1:09:46] if the underlying theories that have
+[1:09:48] been used to extract
+[1:09:50] this splitting of numbers are correct
+[1:09:54] einstein theory being one of them
+[1:09:57] and of course remember i said
+[1:10:02] maybe you cannot make the symmetry
+[1:10:06] assumption first and then calculate
+[1:10:08] maybe you have to do this in another way
+[1:10:11] and there are people who claim you need
+[1:10:13] to do that
+[1:10:14] so some people say maybe some amount of
+[1:10:17] this
+[1:10:19] maybe not everything but maybe the
+[1:10:21] proportions
+[1:10:22] shift a lot if you do the good old
+[1:10:25] physics properly
+[1:10:28] so maybe einstein theory being correct
+[1:10:30] quantum field theory being correct
+[1:10:32] and also people not having miscalculated
+[1:10:34] who calculated the background theory for
+[1:10:36] that
+[1:10:36] but maybe they made a mistake in line
+[1:10:40] one
+[1:10:42] okay and therefore it's very valuable
+[1:10:44] what some people try that they say don't
+[1:10:46] make the symmetry answers too early
+[1:10:49] it could be that if you average later
+[1:10:52] that this
+[1:10:53] shifts and maybe then this is 25 95
+[1:10:56] and this is five and you say yeah yeah
+[1:10:59] there is something
+[1:11:00] okay okay and now you have to work on it
+[1:11:03] and
+[1:11:03] you know i mean also the smallest
+[1:11:05] mercury procession can take you
+[1:11:07] somewhere you know
+[1:11:08] four arc seconds per century so we
+[1:11:10] couldn't just shouldn't discard this
+[1:11:13] but this major result would look
+[1:11:16] different
+[1:11:17] okay so always keep in mind what it's
+[1:11:19] based and always
+[1:11:21] question where else could this come from
+[1:11:23] but of course it's excellent for
+[1:11:25] research grants i take it
+[1:11:26] so therefore um you follow the standard
+[1:11:28] route so anyway
+[1:11:29] so you have you have this this result
+[1:11:33] um in the universe
+[1:11:41] that's different what yulen is referring
+[1:11:44] to is
+[1:11:45] and should have emphasized this more if
+[1:11:48] you have
+[1:11:48] a field equation and einstein gravity is
+[1:11:51] not
+[1:11:51] an exception then you should always
+[1:11:54] insert symmetry assumptions
+[1:11:56] on the objects about which the field
+[1:11:58] equations talk in this case
+[1:12:01] on g you should always insert it at the
+[1:12:04] level of the equation
+[1:12:05] if you remember julian is talking
+[1:12:06] symmetry is something that takes a
+[1:12:08] solution to a solution
+[1:12:10] but this here comes from an action
+[1:12:13] namely as grav
+[1:12:15] plus s matter this total action by
+[1:12:17] variation with respect to all
+[1:12:20] possible fields that are in there and
+[1:12:23] you could say oh
+[1:12:24] i could implement this already up here
+[1:12:26] and then i only need to vary for
+[1:12:27] instance in cosmology
+[1:12:29] with respect to the scale factor because
+[1:12:30] that's the only degree of freedom that
+[1:12:32] survives
+[1:12:34] this here is usually illegal you must
+[1:12:38] not insert a symmetry answers into the
+[1:12:41] action
+[1:12:42] and then derive and it's pretty clear
+[1:12:44] why
+[1:12:45] think of actions in in classical
+[1:12:48] mechanics there you say
+[1:12:50] you call this curve special or solution
+[1:12:52] of your equations
+[1:12:54] if any neighboring curve however
+[1:12:56] slightly it deviates
+[1:12:58] um now if slightly deviating neighboring
+[1:13:01] curves
+[1:13:01] don't change the value of this guy to
+[1:13:04] first
+[1:13:05] order right that's the stationarity
+[1:13:07] principle
+[1:13:08] but now assume i put in the symmetry
+[1:13:12] hundreds from the beginning then i can
+[1:13:13] no longer compare to this graph it's
+[1:13:16] crucial that you say
+[1:13:17] any neighboring curve that deviates only
+[1:13:19] a little
+[1:13:20] shouldn't change the value by more than
+[1:13:23] a quadratic order
+[1:13:24] not just one but any but now imagine you
+[1:13:27] put in the symmetry answers first in
+[1:13:29] that case for your curves
+[1:13:30] you would only compare to other curves
+[1:13:33] that satisfy
+[1:13:34] a certain symmetry condition
+[1:13:38] then you're comparing to fewer
+[1:13:40] competitors
+[1:13:43] if you compare to fewer competitors you
+[1:13:45] can be more easily better
+[1:13:47] so the point is you can have fake
+[1:13:49] solutions
+[1:13:51] if you insert it here okay that's the
+[1:13:54] point you can have fake solutions
+[1:13:56] so this is not allowed but there's the
+[1:13:58] principle it's um the principle
+[1:14:02] of symmetric criticality
+[1:14:06] or stationarity but tradition is called
+[1:14:08] criticality
+[1:14:10] it's by palais and he gives conditions
+[1:14:14] under what conditions you can plug in
+[1:14:16] the symmetry
+[1:14:17] and very roughly speaking if your
+[1:14:19] symmetry algebra
+[1:14:21] you know that the symmetry comes with an
+[1:14:22] algebra for the metric if the symmetry
+[1:14:25] algebra
+[1:14:26] is the algebra of a compact group how do
+[1:14:29] you find whether it's the symmetry
+[1:14:30] algebra of a compact group
+[1:14:33] well you calculate the so-called killing
+[1:14:35] metric it's the same killing but a
+[1:14:36] different object
+[1:14:37] you calculate the so-called killing
+[1:14:39] metric from the
+[1:14:41] structure constants of the algebra
+[1:14:46] so we have the structure constants of
+[1:14:48] the symmetry algebra you remember
+[1:14:51] you square them up down down
+[1:14:54] up down down you contract this one with
+[1:14:56] that one and this one with that one and
+[1:14:58] then this a and b
+[1:14:59] remain open you call the result k a b
+[1:15:03] it's called the killing metric i think
+[1:15:05] if it's negative definite
+[1:15:08] then the lee group to that lee algebra
+[1:15:11] is compact i think that's right
+[1:15:16] so you very quick i give you an algebra
+[1:15:17] for instance our our rotation algebra
+[1:15:20] you could check this guy is a negative
+[1:15:21] definite 0-2 form
+[1:15:24] and then you know ah so for a symmetry i
+[1:15:28] can do it because palais says
+[1:15:30] for compact groups you can do it and
+[1:15:32] then vary and it's the same
+[1:15:35] but it's a very rough statement and it's
+[1:15:37] only sufficient and
+[1:15:39] application requires sufficient care but
+[1:15:41] roughly something like this
+[1:15:43] but that's right but in general that's
+[1:15:44] what julian i think you you
+[1:15:46] meant yes yes is you're not allowed to
+[1:15:49] do that
+[1:15:50] but that has nothing to do with
+[1:15:51] cosmology
+[1:15:54] yes is it possible that these dark
+[1:15:56] matters are just
+[1:15:57] ordinary particles but unseen by us
+[1:16:01] cold or just hidden somewhere yes so
+[1:16:04] some people consider that they say
+[1:16:06] it could be the standard model over
+[1:16:09] again
+[1:16:10] but with a little slash on each particle
+[1:16:13] and the slash has no interaction terms
+[1:16:15] with the non-slash
+[1:16:16] particles yeah but that's dark matter so
+[1:16:18] nobody knows how to model that in detail
+[1:16:21] i mean something like astro
+[1:16:23] astrophysical objects like
+[1:16:25] match or something like this is it
+[1:16:29] out do we know it's not true there are
+[1:16:31] many possibilities uh
+[1:16:33] these trump this is it's
+[1:16:37] it's not believed that it's uh of
+[1:16:39] standard model type
+[1:16:41] but again who knows okay but it doesn't
+[1:16:44] look like it
+[1:16:45] it simply doesn't look like it okay is
+[1:16:48] there a static solution on this graph
+[1:16:50] a static solution you mean where the
+[1:16:54] universe does not expand
+[1:16:57] well you need to you can you can check
+[1:16:59] you can require
+[1:17:00] a of t is constant
+[1:17:03] and you know that rho goes like a to the
+[1:17:06] minus
+[1:17:06] n you know that h goes
+[1:17:09] like a square root of rho
+[1:17:13] you look at the densities and you look
+[1:17:15] how they need to go
+[1:17:16] if if that's possible at all such that
+[1:17:20] there is
+[1:17:20] uh that this the solution is static yeah
+[1:17:22] you can check that yeah
+[1:17:24] okay so i think we need to postpone any
+[1:17:26] questions to
+[1:17:27] after the pizza event thank you

@@ -1,0 +1,2078 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:07] [Music]
+[00:13] light good morning and welcome to
+[00:15] lecture 7 of the winter school today we
+[00:18] talk about
+[00:19] Connections and uh today there is a
+[00:22] certain uh uh new part of the course
+[00:26] because whatever we did so far the
+[00:28] underlying set topology topological
+[00:31] manifold smooth manifold the
+[00:34] construction of the bundle all of that
+[00:38] is structure you need to provide by hand
+[00:43] before you can start doing physics as we
+[00:45] know it why because we don't have
+[00:49] equations that determine what happened
+[00:52] so far this is these are assumptions you
+[00:56] need to um submit before you can start
+[01:00] the physics today we introduce yet
+[01:03] another structure on a smooth manifold
+[01:06] so-called connections they also go under
+[01:08] the name of covariant derivatives but
+[01:11] actually there is a a difference between
+[01:13] connections and covariant derivatives
+[01:15] but for our purposes we will never talk
+[01:17] about this difference connections is the
+[01:19] slightly more General
+[01:21] notion but the connection in SpaceTime
+[01:25] will be determined by Einstein's
+[01:28] equations and actually sense equations
+[01:30] will determine a metric which is a even
+[01:32] more special structure which in turn
+[01:35] determines a connection but everything
+[01:38] from now on will be objects that are the
+[01:41] subject of Einstein's equations they
+[01:44] will be determined by Ein sense
+[01:46] equations depending on the matter that
+[01:48] is in the universe having said that we
+[01:50] continue in this mathematical fashion I
+[01:53] only make these Illusions to physics in
+[01:54] order to give you some
+[01:57] orientation okay so connections and um
+[02:01] uh so
+[02:03] far uh we
+[02:06] saw that a vector
+[02:09] field a vector field and we always wrote
+[02:14] shy for a vector field but now I write X
+[02:18] where X before was reserved for vectors
+[02:21] but from now on we will only talk about
+[02:24] Vector Fields unless unless anything
+[02:27] special uh is said
+[02:30] uh that we
+[02:31] don't we saw and therefore I just Ed
+[02:34] this notation for the vector field and
+[02:36] after all a vector field is just a
+[02:39] vector at every point the whole bundle
+[02:41] construction the last lecture was only
+[02:44] necessary in order to speak about a
+[02:46] smooth Vector field in a precise manner
+[02:50] but for all the intuition you need to
+[02:52] look at the formula even to interpret
+[02:54] the formula most of the time it's good
+[02:57] enough to think a vector at each point
+[02:59] okay so therefore we'll also indicate
+[03:02] Vector Fields with just these Capital
+[03:04] Latin letters so we saw that a vector
+[03:06] field X can be
+[03:11] used to provide or does provide can be
+[03:16] used to provide a directional
+[03:22] derivative and after all this was the
+[03:25] whole idea of each tangent space that it
+[03:28] contains all the direction derivatives
+[03:30] we called them velocities all the
+[03:32] directional derivative
+[03:34] operators um x
+[03:38] f of a
+[03:42] function f that had to be a smooth
+[03:46] function okay and uh what I will do now
+[03:49] in order
+[03:52] to remind you that this is directional
+[03:55] derivative I will introduce yet another
+[03:58] definition yet another symbol Nam I'll
+[04:01] say this is the directional derivative
+[04:03] of f in the Direction X this looks like
+[04:07] engineering mathematics right I will
+[04:10] introduce okay this this but it acts
+[04:13] only on functions we can only do
+[04:16] directional derivatives of functions so
+[04:19] far okay so
+[04:24] remark from now on
+[04:31] consider
+[04:33] mostly Vector
+[04:40] Fields now this seems absolute
+[04:45] notational
+[04:54] Overkill because we have this XF and we
+[04:57] know perfectly well what what it means
+[04:59] it's directional derivatives we know
+[05:01] this is in some
+[05:03] TPM well if it's a field in each TPM
+[05:07] there is a is a vector provided by the
+[05:09] vector field and we know this acts as a
+[05:11] directional derivative and we already do
+[05:14] have a different notation for this Nam
+[05:17] the one that works like this we have the
+[05:20] D of the F which if we plug in a vector
+[05:24] or vector field we get this function XF
+[05:27] now Vector on function gives number but
+[05:30] Vector field on a function gives a
+[05:31] function again we already have an
+[05:33] alternative notation and now I bother
+[05:36] you with yet another notation and that
+[05:39] certainly seems Overkill we have three
+[05:41] notations for precisely the same
+[05:46] thing now the reason is for this is it's
+[05:49] not quite the same thing not quite well
+[05:54] this is of course these are equal signs
+[05:56] but the objects that appear are
+[05:58] different you know that a vector field
+[06:01] may eat a function and spits out a
+[06:07] function that's what happens
+[06:11] here whereas the
+[06:14] DF takes a slightly different
+[06:16] perspective on what's going on here
+[06:19] because it eats a vector field a smooth
+[06:23] Vector
+[06:24] field and only after doing that it spits
+[06:28] out a function
+[06:32] okay but now you certainly say okay but
+[06:34] now really the D X down here this is
+[06:38] really precisely the same thing as the X
+[06:40] you're just emphasizing that it's a
+[06:42] derivative but you put the vector field
+[06:46] down here so now this certainly goes
+[06:48] again from C Infinity M to C Infinity M
+[06:52] so maybe you still see there may be some
+[06:55] value in this because it changes the
+[06:57] perspective of of what is the argument
+[06:59] and what is the function but this
+[07:01] certain is the same as this absolutely
+[07:04] right so this is to Total notational
+[07:07] Overkill but it's introduced for the
+[07:09] following reason this guy here can be
+[07:13] generalized to
+[07:17] extend to the following to eating an
+[07:22] arbitrary PQ tensor
+[07:28] field and then to yield again a PQ
+[07:33] tensor
+[07:35] field this guy can only eat
+[07:39] functions but now we also want to be
+[07:42] able to act not only on z00 tensor
+[07:46] fields which are functions we want to
+[07:49] extend the action of a directional
+[07:52] derivative to arbitrary arbitrary PQ
+[07:55] tensor fields for instance to Vector
+[07:58] fields we want to be able to talk about
+[08:01] the directional derivative of a vector
+[08:03] field for instance this is needed okay
+[08:07] and that's the idea and now again it
+[08:10] wouldn't be necessary to invent a new
+[08:13] symbol if this extension came for free
+[08:17] if this was on any smooth manifold
+[08:20] defined automatically we wouldn't get
+[08:22] the idea of introducing a new
+[08:25] symbol however it doesn't come
+[08:27] automatically you need
+[08:30] even if you require all the properties
+[08:32] you wish to have of a directional
+[08:34] derivative you still need to provide
+[08:37] extra structure on the manifold in order
+[08:40] to get such a directional derivative on
+[08:43] non functions on
+[08:45] tensors okay and this symbol will stand
+[08:50] exactly for this additional structure so
+[08:53] we need a new symbol and this only means
+[08:56] that the new structure if it acts on f
+[09:00] it doesn't require the new structure you
+[09:02] need in the general case on the
+[09:04] functions it still acts like this hence
+[09:07] this was a definition but only if it
+[09:09] acts on functions okay that's the
+[09:13] idea okay so um first section is
+[09:17] directional
+[09:24] derivatives of tensor fields
+[09:35] now how do we go about this how do we
+[09:38] get direction derivatives well and what
+[09:41] is the appropriate strcture structure to
+[09:44] establish it's very simple what we do we
+[09:48] just first require what we would a
+[09:51] directional derivative to
+[09:53] satisfy and then we see what structure
+[09:56] that
+[09:58] contains so
+[10:00] um
+[10:02] we
+[10:04] ask we postulate yeah postulate um we
+[10:08] formulate a wish list we formulate a
+[10:12] wish
+[10:14] list of
+[10:19] properties
+[10:21] which the NAA
+[10:24] X
+[10:26] acting on tensor fields
+[10:33] or on a tensor field because in each
+[10:36] instance it acts on a particular tensor
+[10:38] field uh should
+[10:45] have and uh we put this into the form of
+[10:47] a
+[10:50] definition and after we made the wish
+[10:53] list there may be still remaining
+[10:55] Freedom there may be many structures
+[10:58] that satisfy the wish list and will be
+[11:01] important for us to find out how
+[11:04] many or how to parameterize these
+[11:07] different structures because we will
+[11:09] have to pick one and on another occasion
+[11:12] we may pick another one so we need to
+[11:15] identify the in type of information and
+[11:18] the amount of information we will need
+[11:20] to provide as extra structure in order
+[11:23] to fix a particular such coant
+[11:26] derivative right so um let's make here
+[11:33] any
+[11:35] remaining after these wish list has been
+[11:38] satisfied any remaining
+[11:41] freedom in
+[11:46] choosing such a structure or maybe I
+[11:50] write it without the without the X
+[11:51] you'll see in a second why any remaining
+[11:54] freedom in choosing such a nabler I I
+[11:56] will call this nabler it's actually
+[11:58] called the coant derivative and so on
+[12:00] but let's call this nabler as a symbol
+[12:02] okay but it's of course not the naer
+[12:04] from engineering mathematics uh any
+[12:07] remaining freedom in choosing nabler
+[12:10] will need to be
+[12:16] provided as additional
+[12:21] structure
+[12:23] beyond the structure we already have and
+[12:26] we assume that all this takes place on a
+[12:28] smooth man manold so you already have
+[12:30] your smooth manifold but there might be
+[12:33] or there will be additional structure so
+[12:36] definition a connection
+[12:42] nabler a connection nabler and
+[12:46] uh so in the literature there's also the
+[12:51] name a linear connection that's more
+[12:53] precise but we will not look at
+[12:55] nonlinear ones so we don't need to
+[12:57] mention it all the time it goes mostly
+[12:59] under the name of
+[13:01] covariant
+[13:03] derivative which very much emphasizes
+[13:06] the way in which we use it and um some
+[13:10] people like shinger call it an
+[13:12] fine
+[13:14] connection and so on so these are all
+[13:17] different names uh I will probably also
+[13:19] use very often covariant derivative for
+[13:22] our purposes this is supposed to be the
+[13:24] same a connection nabler on a smooth
+[13:28] manifold
+[13:34] m o
+[13:37] a is a map what else is a map that
+[13:46] takes a
+[13:48] pair
+[13:51] consisting
+[13:53] of a
+[13:56] vector and here I say vector
+[13:59] field but actually this particular piece
+[14:02] of data this x down here it suffices if
+[14:06] it's only a vector at one point I'll
+[14:09] talk about this again but first please
+[14:11] read this as Vector field because this
+[14:13] is certainly true and the other thing is
+[14:15] a subtlety that in some points comes
+[14:17] points comes in okay consisting of a
+[14:21] vector field and a
+[14:25] PQ
+[14:26] tensor field now here the field is
+[14:30] important and cannot be substituted by
+[14:33] just a tensor and the PQ tensor field
+[14:36] that takes those and um sends
+[14:43] them to a
+[14:47] PQ tensor field and in order to be less
+[14:52] cryptic I should probably say a vector
+[14:56] field X and the PQ tensor field T and
+[15:02] sends these two to a PQ tensor field
+[15:06] that we denote nabla down
+[15:10] X on T and if we took here a vector
+[15:15] field it's a tensor field and if we took
+[15:18] here only a vector it only sends it to a
+[15:20] vector at the same point where this
+[15:22] Vector was
+[15:24] attached it's very much like taking here
+[15:27] just a vector and acting on a function
+[15:29] you get a number namely the directional
+[15:31] derivative of the function in the
+[15:34] Direction X at the point where the X
+[15:36] lives then you get just a real number
+[15:38] but if you take here a vector field
+[15:40] acting on a function you get an entire
+[15:42] field because you do this point by point
+[15:44] it's precisely the same logic here and
+[15:48] so if you put here the field you need to
+[15:50] put here the field if you don't put here
+[15:51] the field you can't put here the field
+[15:54] okay but for first understanding ignore
+[15:58] the brackets
+[16:01] um is a map
+[16:06] satisfying and now come four
+[16:08] properties the first property is very
+[16:11] simple it just requires that if the
+[16:15] symbol acts on a z0 tensor field it
+[16:19] simply acts by action of the vector
+[16:22] field so that is what I already wrote
+[16:25] down very simple now in writing down
+[16:28] further the further aims will only will
+[16:30] work for General tensor Fields so this
+[16:33] is for all 0 tensor
+[16:37] Fields the following three aims will all
+[16:39] talk about the action on an arbitrary PQ
+[16:42] tensor field but you can imagine PQ
+[16:44] could be zero so anything I write down
+[16:47] now should be a property of this in the
+[16:49] first place because otherwise we get an
+[16:51] inconsistency with number one right and
+[16:54] on the problem sheets today on on in the
+[16:56] in the examples classes uh you will
+[16:59] actually check this that this works out
+[17:01] it's a very good exercise in seeing
+[17:03] where's an object defined where's this
+[17:05] multiplication defined and so on and so
+[17:07] on okay so please as always go to the
+[17:09] problem classes so uh the second
+[17:12] requirement we have is that if we act on
+[17:16] two tensors of the same type so both T
+[17:19] and S are PQ tensors otherwise I
+[17:22] couldn't add them okay then we require
+[17:25] that this is additive in the tensor
+[17:28] fields on which it
+[17:30] acts so this is supposed to be true very
+[17:35] simple now
+[17:37] uh it could the following could happen
+[17:40] you could have a tensor t a PQ tensor
+[17:45] but I will now write it down for a one
+[17:47] one tensor because then you know it all
+[17:50] okay so you could have a one one tensor
+[17:54] um which is already evaluated on a co-
+[17:57] Vector field and a vector field if that
+[18:01] is the case then um this is
+[18:05] already a smooth function is that clear
+[18:08] if you plug into a one one tensor a co-
+[18:11] Vector field and a vector field it's
+[18:13] fully evaluated it gives you a function
+[18:16] so that means the left hand side is
+[18:18] already determined by this thing up here
+[18:20] but now the question is or what yeah
+[18:23] it's not the question it's it's a
+[18:24] postulate here you wish that this equal
+[18:29] Del XT the covariant derivative of the
+[18:32] tensor itself and once you calculated
+[18:36] the derivative you
+[18:38] evaluate on these two Fields
+[18:43] plus you have the tensor and you derive
+[18:48] the first one the co- Vector field and
+[18:50] you keep the vector field the way it is
+[18:53] plus you keep the co- Vector field as it
+[18:56] is and you derive the co vector field
+[18:59] full
+[19:01] stop so in other words this guy you
+[19:04] already know how to calculate but you
+[19:07] can represent this by the action of this
+[19:10] guy on just everything that is in here
+[19:12] one after the other okay and so this is
+[19:16] for a one one tensor for a one one
+[19:20] tensor field
+[19:23] T but
+[19:26] precisely well but analog
+[19:32] ously for
+[19:34] any
+[19:36] PQ tensor field okay so if you had one
+[19:40] more entry Z for another Vector field
+[19:44] would be a one two tensor you need plus
+[19:48] T Omega y comma NAA x z and the same if
+[19:53] you had another covector field here okay
+[19:57] I could write it down with dots but I
+[19:58] don't think that serves Clarity more
+[20:00] than this
+[20:04] okay this rule up here could be called
+[20:07] um well uh it's the that NAA X is an
+[20:11] extension that's the extension rule uh
+[20:14] this is the additivity in the argument
+[20:17] and this is called the LI nits
+[20:21] rule this is called the light nits
+[20:26] Rule and uh finally the fourth rule is
+[20:30] that the whole object is C Infinity
+[20:34] linear in the lower entry so if down
+[20:38] here FX
+[20:40] plus uh Z acting on some tensor T if you
+[20:46] have this then you may split this it's
+[20:49] additive in there so you have a nabl FX
+[20:54] Z plus nabla uh no FX t plus NAA z t but
+[21:03] it's also C Infinity linear so the F can
+[21:07] jump in front so this is indeed for
+[21:11] functions F appearing here in this form
+[21:14] this is the C Infinity linearity in the
+[21:18] lower slot whereas in the slot it acts
+[21:21] on it's only additive but if you have
+[21:24] here a function f it needs to be treated
+[21:28] uh like like a tensor uh like a tensor
+[21:31] product with a product rule
+[21:34] okay so those are the um the aums we
+[21:39] would like like to impose in any such
+[21:43] structure la la la la any such such
+[21:46] structure is called a covariant
+[21:48] derivative that's the nabler and uh we
+[21:52] say um
+[21:55] a um manifold with Conn
+[22:05] action is a quadruple of
+[22:14] structures m o a smooth manifold and now
+[22:20] yet on top another structure namely such
+[22:24] a specific such uh object that's
+[22:28] satisfies these
+[22:30] rules the question is is there a unique
+[22:33] such object or is there an amount of
+[22:36] choice I make if I pick a particular one
+[22:40] whichever I pick it satisfies these
+[22:42] rules and it will serve as well but
+[22:44] there may be many ways to satisfy these
+[22:47] rules and indeed there is some remaining
+[22:48] freedom but it's fully under control and
+[22:52] again yes just the question you stressed
+[22:55] that the F need not be
+[22:59] the the F must be so it's only the entry
+[23:03] down
+[23:05] here it's only the entry down here
+[23:08] yes so it's meaningful to talk about the
+[23:11] directional derivative of a
+[23:14] field in the direction at a point there
+[23:17] are derivatives like the lead derivative
+[23:20] where you cannot ask for the lead
+[23:22] derivative of a field of a tensor field
+[23:26] in One Direction at one point because
+[23:29] the Le derivative uses an entire
+[23:32] Direction field in order to calculate
+[23:35] the lead derivative in that in the
+[23:37] direction of that field of another field
+[23:41] okay but here this is like that and um
+[23:44] if I hadn't emphasized it uh you would
+[23:47] have said ah this thing is C Infinity
+[23:51] linear down here what does the C
+[23:54] Infinity linearity really mean forget
+[23:57] about the the Z just look at nabla FX on
+[24:00] T it means you can
+[24:03] scale if even if x is a field you could
+[24:07] scale the field at any point at every
+[24:09] point in a different fashion
+[24:12] right but the result if you then
+[24:15] evaluate at the point P the result would
+[24:19] only depend on the scaling you chose at
+[24:21] the point where you evaluate so however
+[24:24] you change the field
+[24:28] in the neighborhood of this point where
+[24:30] you evaluate doesn't have an effect on
+[24:33] the
+[24:34] result the only effect is how the
+[24:37] function how the scaling is at that
+[24:40] point and that tells you you don't need
+[24:42] the field values in the neighborhood
+[24:44] because they don't go into the result so
+[24:47] the C Infinity linearity in something
+[24:50] tells you you put in a field but you
+[24:53] wouldn't have needed a field do you
+[24:56] remember the definition of a tensor
+[24:57] field a tensor field is something that's
+[24:59] C Infinity linear in all the slots that
+[25:02] means even if you plug in Vector fields
+[25:04] and co- Vector fields at a point you
+[25:07] could evaluate by just plugging in the
+[25:10] values of these fields you plug in at
+[25:12] that point how the field behaves next to
+[25:14] it doesn't matter that's the whole
+[25:16] secret of looking at V tensors so that
+[25:19] you at the end know something at a point
+[25:21] okay so these brackets could be read off
+[25:24] with some experience from this postulate
+[25:26] of C Infinity linearity if if you think
+[25:28] about it okay so um that as a side
+[25:34] remark
+[25:36] yes I yes usually comes in with just
+[25:41] demanding linearity just demanding
+[25:46] that we have that because um it would
+[25:50] not even
+[25:52] fit this instance because here um you
+[25:56] would have
+[26:00] nabla X acting on function times
+[26:04] function this would then be the 0 0
+[26:06] tensor field this would be the function
+[26:08] multiplying it which is of course both
+[26:10] functions and you know this is x f * G
+[26:14] and there is a product rule there is XF
+[26:17] * G plus
+[26:20] fxg and not time um there's there's a
+[26:23] times there is not there's a times
+[26:26] linearity C Infinity linearity would
+[26:28] mean you have only this term you can
+[26:30] pull the F out but in fact you have a
+[26:32] product rule because it's a derivative
+[26:35] so requiring here more than additivity
+[26:38] any derivative is additive in the object
+[26:41] it adds on acts on but it's certainly
+[26:44] not C Infinity linear because you need a
+[26:48] product rule and in fact if you want to
+[26:49] calculate this therefore you need to go
+[26:51] to what I call the liet rule
+[26:54] here
+[26:56] okay so um so this is a manifold with
+[26:59] connection or an fine manifold there
+[27:01] many names around for this this is the
+[27:04] one we want to use a manifold with
+[27:05] connection is a
+[27:07] quadruple um before we identify the
+[27:09] remaining Freedom let me make the remark
+[27:13] um if you look at this um you see that
+[27:16] if you leave out the
+[27:18] X
+[27:20] um you see the following if d x is the
+[27:25] extension
+[27:28] of the action of X as it acts on a
+[27:31] function it's the extension to tensors
+[27:33] in the way I described before then you
+[27:36] might ask what is the nabler itself
+[27:38] without having
+[27:39] filled the lower slot what is this the
+[27:43] extension
+[27:44] of um this is the extension of the
+[27:49] D you see it here the nbla alone is the
+[27:53] extension of the D you need to feed the
+[27:55] nabler and X in some fashion before it
+[27:59] then can act on a function okay so um
+[28:02] this will come well this is just
+[28:05] notational uh nonsense right I mean
+[28:07] we're talking about notation this has no
+[28:09] depth but sometimes one wonders well why
+[28:11] is the structure why does it come with
+[28:13] an X well it doesn't really it's just
+[28:15] that this is more easily formulated if
+[28:17] you think of it like that I could have
+[28:19] formulated it all as an extension of
+[28:21] this and uh that's uh yet another level
+[28:25] of uh obscurity in here which is not
+[28:27] needed okay but if you ask what is this
+[28:29] generalization of it's the
+[28:31] generalization of the D okay now the
+[28:35] important question is how many such
+[28:38] structures are there uh so what is the
+[28:41] new structure
+[28:44] required new structure on
+[28:48] M A
+[28:51] required uh to
+[28:53] fix
+[28:56] nabler I can require
+[28:58] all right but is it fixed by this and in
+[29:01] order so the question is how much
+[29:03] freedom is
+[29:05] left how much
+[29:09] Freedom do we
+[29:12] have in
+[29:17] choosing such a
+[29:22] structure and um it turns out that it's
+[29:26] useful to First consider the following
+[29:29] case um certainly if we want to be able
+[29:32] to do something with this we need to be
+[29:35] able to act on a vector field that would
+[29:37] be the simplest or one of the simplest
+[29:39] examples Beyond acting on functions
+[29:42] let's study this case and see what we
+[29:44] learn so consider uh Vector Fields let's
+[29:49] have them both as Fields Vector
+[29:53] fields and let's calculate this now once
+[29:57] please once we're at this
+[29:59] point we don't know what to do because
+[30:02] we say okay you have such a structure
+[30:04] you apply it to a vector field what do
+[30:06] you do well let's do the following in
+[30:08] order to understand what kind of data is
+[30:11] in there we would like to maybe get
+[30:14] numbers and you always get numbers by
+[30:17] going to a chart so you consider the
+[30:20] situation you have here locally in a
+[30:24] chart okay so um in a chart you can
+[30:28] certainly expand the X in the chart in
+[30:32] US spaces and the y in the chart in you
+[30:34] spaces let's do that so you get x i d by
+[30:38] DX I because I don't have a point here
+[30:42] it's the vector field d by dxi and this
+[30:46] whole thing acts on some ym d by
+[30:50] DXM so I can put brackets here in order
+[30:53] to make clear the nabler acts on all of
+[30:56] that that is certainly true what do we
+[30:59] learn well we learn that um in order to
+[31:02] understand this we can do several things
+[31:05] this is a vector field and these are
+[31:07] functions that are by a
+[31:10] sum multiply this Vector field because
+[31:13] the expansion of the vector field X you
+[31:16] can pull the sum out that is the
+[31:18] additivity down here but you can also
+[31:21] you pull then the um individual
+[31:24] functions out so you get here x i nabla
+[31:29] d by DX I of course the vector field you
+[31:32] cannot pull out so this object is
+[31:35] actually this and now it acts on this
+[31:39] but this is a function that's Z 0 tensor
+[31:43] this is 01
+[31:45] tensor sorry a one zero tensor using the
+[31:48] lipet rule you get from this ym it acts
+[31:52] on this
+[31:54] one and it then
+[31:56] evaluates at this one no sorry it
+[31:59] doesn't evaluate that's sorry it's it's
+[32:01] a product with
+[32:04] d d by
+[32:07] DXM
+[32:09] plus lightnet rule the same object x i d
+[32:13] by
+[32:17] dxi sorry it keeps this one and it
+[32:21] multiplies with the
+[32:22] application d by DX I acting on D by
+[32:29] DXM that is what it does that's
+[32:31] according to the lipnet
+[32:33] rule and then we know what to do because
+[32:37] this guy is a vector field acting on a
+[32:40] function for each M this is a function
+[32:43] so this is x i the vector field acts
+[32:49] directly on the
+[32:52] function this is aim one so this is uh
+[32:56] three and this is one
+[33:01] and you re you keep the the spaces so
+[33:05] these are numbers or functions this is a
+[33:08] basis of course because the
+[33:11] result according to the definition must
+[33:14] be a vector field again because the Y is
+[33:17] a vector field and this is of course
+[33:19] already a vector field expansion plus x
+[33:23] i ym what do we do here well this guy we
+[33:28] can no further cannot do anything with
+[33:31] any further in this chart we don't know
+[33:34] indeed these this here what is this what
+[33:37] is the result well it's a vector field
+[33:39] because this is a vector field you act
+[33:41] on a vector field you get a vector field
+[33:44] whatever it is whatever Vector field it
+[33:46] is you can expand it in the chart right
+[33:49] if this is a vector field you can expand
+[33:51] it that means you can write it as d by
+[33:55] DX q and it has some coefficient
+[33:58] functions let's call them gamma
+[34:02] Q if this is a vector field it must be
+[34:06] you must be able to write it like this
+[34:09] coefficient functions gamma Q expanded
+[34:12] in terms of these basis Vector fields in
+[34:14] the chart right but the gamma Q's will
+[34:18] certainly depend whether you chose here
+[34:20] the first or the second or the third or
+[34:22] here the first or the second or the
+[34:23] third so they depend on what I and M you
+[34:26] chose so we should give them the name I
+[34:30] uh M and I in this
+[34:32] order so depending on i and m this will
+[34:35] be coefficient functions and this Q is
+[34:37] the
+[34:40] expansion these guys are very important
+[34:43] and they have a specific name these guys
+[34:45] are called the um
+[34:48] connection because it refers to this
+[34:52] guy coefficient
+[34:58] because it's the coefficients of this
+[35:00] expansion functions because they're
+[35:03] indeed functions and they functions on
+[35:06] the manifold uh we could make them
+[35:09] functions on the chart but we rather
+[35:11] prefer to think of them as functions on
+[35:13] the manifold on the
+[35:16] U the indices refer to the Chart but we
+[35:19] could think of them as functions as a
+[35:22] collection of functions push down to the
+[35:24] chart and they eat a point in the chart
+[35:27] or we think of them as eating the point
+[35:29] in the manifold where they come from we
+[35:32] prefer to eat them the point in the
+[35:34] manifold we will come to this in a
+[35:35] second so these are the connection
+[35:37] coefficient
+[35:39] functions of nabla with respect to the
+[35:43] Chart ux obviously if I had chosen
+[35:46] another chart for the same object they
+[35:49] would take different
+[35:51] values that's what I was going to ask we
+[35:54] introduced them with indes yes how can I
+[35:58] think of them as chart independent
+[35:59] they're not they're highly not chart
+[36:01] independent the indices indeed indicate
+[36:04] they depend on the chart but you can
+[36:07] even of a chart um dependent object you
+[36:11] if it's a function you could think of it
+[36:14] as being a function of the point in the
+[36:17] chart because it changes from point to
+[36:19] point in the chart but it's clever to
+[36:21] think of these chart dependent objects
+[36:24] from point to point not as a function of
+[36:26] the point in the chart but as a function
+[36:28] of a point up there and there is no
+[36:30] problem because you have a one to one
+[36:31] map x and x inverse between the points
+[36:34] down there and the points up there it's
+[36:36] just the formula becomes simpler if we
+[36:39] do otherwise we have formula where we
+[36:40] always have a composition with the X
+[36:42] inverse in it with the x or the X
+[36:44] inverse this way we save that trouble
+[36:47] okay we we we'll come to that okay so I
+[36:50] give a definition so I give a definition
+[36:53] yes
+[37:01] yes yes so uh that I leave you as a
+[37:04] homework the point is the way I no no
+[37:06] the way no it's important that you try
+[37:08] that the way I formulated the lipets
+[37:10] rule it could have also been formulated
+[37:13] like T tensor s equals NAA x t tensor S
+[37:22] Plus T tensor na
+[37:25] Xs and the tensor product is an
+[37:27] incredibly simple object well it's not
+[37:29] the tensor product between Vector space
+[37:31] it's the tensor product between vectors
+[37:33] in this case tensors and the tensor
+[37:35] product between tensors is T tensor s um
+[37:40] if T is a um PQ tensor and S is an RS
+[37:45] tensor then the tensor product is a p+ r
+[37:49] q plus s tensor it depends on
+[37:51] correspondingly many omegas and Vector
+[37:54] Fields X's co- Vector fields in Vector
+[37:56] fields and it's simply defined as T of
+[38:00] the first P co- Vector
+[38:03] fields and the
+[38:05] first R Vector Fields times the S times
+[38:10] the remaining co- Vector Fields
+[38:13] remaining q and the remaining s Vector
+[38:16] fields and this is just a multiplication
+[38:19] in r or if these are Fields a
+[38:21] multiplication in C Infinity r m okay so
+[38:24] this is the Tor product and maybe in
+[38:27] this form it reminds you even more of
+[38:29] the standard product rule okay and
+[38:32] however my uh formulation of the liet
+[38:35] rule already combined these two
+[38:39] definitions so I didn't have to
+[38:41] introduce the tensor product but thanks
+[38:44] to your question I had to do it
+[38:46] anyway
+[38:49] okay maybe I can
+[39:04] here this is this is a Q This is a
+[39:08] q okay A little
+[39:11] Q how do know
+[39:14] from pardon me how do we know
+[39:17] from ah um well because I say it here
+[39:22] and uh Yas wants me to write a little X
+[39:24] here in order to indicate it's a chart
+[39:27] depend object and that's a clever thing
+[39:29] to do and whenever I don't do it I
+[39:31] should do it and especially when we talk
+[39:33] about different charts of course it
+[39:35] becomes mandatory to do it so we don't
+[39:38] get confused as long as we talk about
+[39:40] one chart we may suppress this but it's
+[39:42] certainly better to first put it there
+[39:44] until we get tired of it and then we
+[39:46] drop it okay it's a good pedagogical
+[39:49] principle um okay so but let me give you
+[39:52] a precise
+[39:53] definition
+[39:55] definition you have a manifold with
+[39:59] connection and you have a chart ux from
+[40:03] the
+[40:04] atlas then the uh
+[40:09] connection
+[40:13] coefficient
+[40:15] functions and uh you see connection
+[40:18] coefficient functions is a lot of
+[40:20] writing I could write CCF uh but really
+[40:24] what mathematicians and physicist refer
+[40:27] to them is the gamas right the
+[40:30] connection coefficient are the gamas uh
+[40:33] are given by with respect to the Chart
+[40:39] ux
+[40:40] are the dim
+[40:44] m to the third many
+[40:51] functions gamma i j k from the domain of
+[40:56] the chart
+[40:57] each into the real
+[40:59] numbers given
+[41:02] by um
+[41:05] DX I acting on
+[41:08] nabla D by D X and now comes an
+[41:11] important point it's a convention but
+[41:15] it's important if you put the K here the
+[41:20] last one corresponds to the index that's
+[41:23] on the object that's down here XK d by
+[41:29] DX J and if you want to think of it as
+[41:33] this map it Maps this to well this is a
+[41:37] vector field after deriving it it's
+[41:39] still a vector field a co- Vector field
+[41:42] acts on it so this is a function and you
+[41:44] evaluate if you wish at the point P
+[41:47] because it's a function on the manifold
+[41:50] hence the GMA is a function on the
+[41:53] manifold okay so this looks terrible but
+[41:56] this is really a part uh that you have
+[41:58] to think of this is a vector field you
+[42:00] could expand it then has these expansion
+[42:01] coefficients but you extract its I
+[42:04] component by acting by the dxi as always
+[42:08] okay so this is the precise definition
+[42:10] and this also shows that it's indeed a
+[42:12] collection of functions chart dependent
+[42:15] functions but nevertheless functions on
+[42:17] the
+[42:18] manifold other examples for chart
+[42:22] dependent functions that are defined on
+[42:24] the manifold well the coordinate
+[42:26] functions the 1 to XD they functions
+[42:29] from U to R and they're obviously chart
+[42:32] dependent because they Define the chart
+[42:35] okay so this is nothing nothing unusual
+[42:38] these are the connection
+[42:40] coefficient
+[42:42] functions all right so apparently so
+[42:45] using
+[42:48] them we have that actually NAA X on Y is
+[42:55] a vector field hence it has
+[42:58] components I I can expand
+[43:03] it I can expand it in terms of the D by
+[43:05] dxi but that means it has components x i
+[43:08] that are given as
+[43:12] XM d by
+[43:15] DXM acting on the y i
+[43:20] functions it's very important whether
+[43:22] the I is inside the bracket or outside
+[43:24] inside the bracket means this is a
+[43:26] function namely a component function of
+[43:28] the vector field if the I was outside
+[43:31] the bracket which it is not here I just
+[43:33] put it here for a moment then it would
+[43:35] mean you act with this on a vector well
+[43:37] you can't do this because this guy
+[43:38] doesn't act on vectors this is a vector
+[43:40] field doesn't act on a vector field like
+[43:42] this so it must be inside here but then
+[43:45] this has nothing to do with a vector
+[43:46] anymore it's are just component
+[43:48] functions of a vector so it acts like a
+[43:50] vector field acts on a function which
+[43:52] happens to be the member of a family and
+[43:54] this is the family member called I
+[43:57] okay it's this thing plus we just
+[44:00] calculated this over there plus
+[44:04] gamma
+[44:06] i m n and this m goes with the
+[44:12] XM and this n is the
+[44:15] YN and all of these are functions so the
+[44:18] product is all these products here are
+[44:21] products between functions so they're
+[44:23] pointwise defined if I would evaluate
+[44:26] then at a point point this would become
+[44:28] a value at a point a value at a point a
+[44:30] a number at a point so this would be
+[44:32] multiplications in R here they are in C
+[44:35] Infinity M okay same as here the result
+[44:38] is a function this is a product in C
+[44:39] Infinity M this is just an application
+[44:42] and so this is the addition is also in C
+[44:44] Infinity M okay this is actually a
+[44:49] rather simple way you may be shocked but
+[44:52] this is a simple way to express what
+[44:54] this thing does because if I provided
+[44:57] you with these dim M to the3 many
+[45:02] functions on the chart you are able to
+[45:06] calculate the directional derivative of
+[45:08] the Y with respect to
+[45:10] X but you say yeah well if you provided
+[45:13] me with so many functions well this is
+[45:15] the freedom that is left choice of so
+[45:18] many functions on a chart we first on
+[45:21] one chart how to go to Glo how to go
+[45:23] globally we'll do in a second but on one
+[45:26] chart you need to provide me so much
+[45:28] information it's a lot of
+[45:30] information but this is all the
+[45:32] information you need in order to do the
+[45:35] coant derivative of a
+[45:37] vector now you say okay but what about
+[45:40] the coent derivative of a coor field and
+[45:43] even worse what about the coant
+[45:45] derivative of a tensor field the fear is
+[45:48] you need more and more and more of these
+[45:51] coefficients the higher the rank of the
+[45:53] tensor field becomes that is not the
+[45:56] case
+[45:57] it turns out and I write it down in a
+[45:59] second it turns out that also if this D
+[46:03] X acts on a CO Vector field or in a
+[46:05] tensor field the same information is
+[46:08] needed these dim m to the three many
+[46:11] functions but they're used in a slightly
+[46:13] different way but only in a subtly
+[46:15] different way so you need to take
+[46:17] careful attention at the position of
+[46:19] indices that are contracted with what's
+[46:21] over there and at the signs in
+[46:23] front Okay so now um so first uh um
+[46:30] remark um on a
+[46:33] chart
+[46:36] domain
+[46:38] U
+[46:39] it um
+[46:42] choice of the dim
+[46:46] m to the
+[46:48] thir
+[46:50] functions gamma i j
+[46:53] k suffices
+[46:58] to
+[46:59] fix the
+[47:02] action of
+[47:04] nabla on a vector field on a vector
+[47:11] field
+[47:17] fortunately
+[47:20] fortunately the
+[47:22] same dim M to
+[47:25] the3 functions
+[47:30] fix the
+[47:33] action of nabler on any tensor
+[47:43] field the key observation to see this is
+[47:47] the
+[47:51] following if we want to act on a co-
+[47:53] Vector
+[47:55] field then obviously we can do the same
+[47:59] type of calculation up to the point
+[48:02] where we arrive at the elementary
+[48:04] question what is d by DXM because what's
+[48:08] down here will remain a vector field but
+[48:10] now it will act on a
+[48:13] dxi now remember is a dxi but these are
+[48:17] not functions these are not coefficients
+[48:18] but dxi denotes the I basis Vector in
+[48:23] the co space so if this is not at a
+[48:26] point it's a co- Vector field it's the I
+[48:29] basis co- Vector field this we cannot
+[48:32] further
+[48:33] reduce now the question is do we have to
+[48:37] require new gamas I know call them
+[48:40] Capital sigmas which now have a
+[48:42] different index structure because this
+[48:44] now has to this will certainly again be
+[48:47] a co- Vector field so we could expand it
+[48:48] in DX something and so on so the
+[48:51] question is do we have to
+[48:53] provide and of course we can
+[48:56] new coefficients let's call them Sigma
+[48:59] it's not a sum sign it's a sigma and
+[49:01] that would be something like
+[49:03] I uh m is bad uh uh q i q M's so
+[49:11] certainly we can do that so we have
+[49:12] functions Sigma they have now this
+[49:15] structure the question is are they
+[49:17] already expressed in terms of the gamas
+[49:20] and the answer is yes um also so now but
+[49:25] now
+[49:28] we do the following
+[49:30] consider the action of d by DXM on
+[49:35] something different consider the action
+[49:38] on the dxi acting on the D by
+[49:42] dxj what is this well we know this is a
+[49:46] vector field this is a co- Vector field
+[49:48] so this is a function inside here we
+[49:51] know how to deal with functions but we
+[49:53] chose here the Dual Fields so this is a
+[49:56] very special function is the function
+[49:58] that's either zero or one depending on I
+[50:01] so we know how to act with this guy this
+[50:04] guy acts like the vector acts because
+[50:07] this is a function so this is this
+[50:10] action of a vector on a function but
+[50:12] this is a constant function whatever I J
+[50:15] is so the result is zero aha what do we
+[50:18] learn well we learn if we go in this
+[50:20] direction we hold this take this entire
+[50:21] thing and this is another Prime
+[50:24] opportunity to use the liit rule
+[50:27] because this is one tensor and you plug
+[50:31] in other tensors so it's the lighten
+[50:33] rule this must be according to the liet
+[50:36] rule three must be the action of this on
+[50:39] that so that's the action of d by
+[50:42] DXM on the I co Vector
+[50:46] field and then you plug in D by DX
+[50:51] J plus you keep this I co Vector field
+[50:56] and you plug in the derivative nabla d
+[50:59] by
+[51:00] DXM on the D by
+[51:04] dxj and now you already see it coming
+[51:06] this gentleman here we know very well
+[51:09] this is
+[51:10] gamma um up
+[51:13] Q D by
+[51:17] dxq um m in the back J here
+[51:24] right and the other side is
+[51:27] zero so we can solve for this guy we
+[51:31] want to
+[51:32] know
+[51:34] therefore let me continue
+[51:37] here therefore um nabla d by
+[51:43] DXM acting on the I co Vector field is
+[51:48] if I act on the J Vector but that's the
+[51:51] definition of the J component of a co-
+[51:54] Vector field 10 acting on the J Vector
+[51:58] Co Vector acting on that is that is the
+[52:00] J equals and I take this to the other
+[52:04] side so you get a minus sign a fat minus
+[52:10] sign because of taking this to the other
+[52:13] side and you get dxi of this guy but
+[52:16] these are just functions they jump in
+[52:18] front of the XI the dxi acts on the D by
+[52:21] dxq to a Delta IQ so the Q becomes an i
+[52:25] gamma
+[52:27] I
+[52:30] JM aha so um if I had expanded here in
+[52:36] terms of JS instead of
+[52:39] Q's you see
+[52:42] indeed there are such coefficients Sigma
+[52:45] JM but they're nothing but minus gamma
+[52:51] JM so the rule for calculation the
+[52:55] pneumonic rule you keep in mind is
+[52:57] wherever you do this formula for vectors
+[53:00] you have it with a plus sign wherever
+[53:03] you do it for co- vectors or co- Vector
+[53:05] Fields you have it with a minus sign
+[53:08] okay so summary so
+[53:15] far and it is worth writing down this
+[53:18] Vector rule again without looking at it
+[53:21] and uh so this is now not mathematics
+[53:23] this is just memory but you need to
+[53:25] Commit This to Memory so you have the
+[53:27] following nabla on a vector field y in
+[53:30] the direction of an X will be a vector
+[53:33] field again so in components it will
+[53:35] have one component
+[53:37] up this component will be given by you
+[53:42] simply do the derivative X you act with
+[53:45] X on the component
+[53:49] function here I still wrote this as XMD
+[53:53] by DXM but this is just the X acting the
+[53:56] X acts on the I component function this
+[54:00] is engineering mathematics you do the
+[54:02] directional derivative on a fun on on on
+[54:05] on a vector field by doing the
+[54:08] directional derivatives of the
+[54:09] components of that Vector field and then
+[54:11] you're done well you're not because
+[54:14] there is a
+[54:16] plus and then there is a
+[54:18] gamma and now you need to be careful the
+[54:21] gamma has three entries and the last
+[54:23] entry is always for the direction in
+[54:27] which you go so if this last entry is a
+[54:30] j or what do you say an
+[54:33] M then you need an XM it's linear the
+[54:37] correction is linear in the direction
+[54:38] which you derive the result there's only
+[54:42] a position I that you can put here and
+[54:45] then there is a remaining J and that
+[54:47] takes the field that's being derived the
+[54:49] functions the coefficient functions of
+[54:51] that field okay so you see the uh the m
+[54:56] is always the last because it goes with
+[54:58] this direction and that will stay like
+[55:00] this and this here is the
+[55:04] result and then you have no more choice
+[55:07] that this must be here okay and you
+[55:10] remember the plus and the plus you
+[55:13] always
+[55:16] put because you act on a
+[55:21] vector field then you put the plus I
+[55:24] mean we derived this but you need need
+[55:26] to remember it like this now the other
+[55:28] thing we just derived is that the
+[55:30] covariant derivative of a co- Vector
+[55:32] field will be a co- Vector field so the
+[55:34] coefficient has an index
+[55:37] down this equals now you take the X and
+[55:41] you naively apply it to the coefficient
+[55:44] functions again also in engineering
+[55:46] mathematics you would act the
+[55:48] directional derivative of a c-vector
+[55:49] field you would just act on the
+[55:52] functions here on the coefficient
+[55:53] functions and then you feel you don't
+[55:55] need to make a difference between Vector
+[55:56] fields and coor Fields well
+[55:58] unfortunately that's not all of it you
+[56:00] need a minus sign all of a sudden and
+[56:03] then you have a gamma you have an M that
+[56:06] goes with an XM perfect so that's the
+[56:09] same thing but now you have to
+[56:10] distribute indices differently you have
+[56:13] two more positions open one down one up
+[56:15] one down the down index must remain a
+[56:19] free index so that's an I here you have
+[56:22] no other choice but to put another
+[56:23] summation index J here oh that fits
+[56:26] because the Omega J has the index
+[56:30] down okay so you have this rule here
+[56:33] that's the summary so far we derived
+[56:36] this and these rules you use all the
+[56:38] time in general relativity calculations
+[56:41] so you really need to commit them to
+[56:42] Memory and you need to have a method of
+[56:45] remembering where the indices are I try
+[56:48] to present you mine you may have your
+[56:50] own personal rule of how how to remember
+[56:53] this this was my rule and this is for
+[56:56] the action on Vector fields and co-
+[56:58] Vector Fields the important message is
+[57:00] the same gamas determine that now
+[57:05] similarly by application by further
+[57:08] application of the lightnet rule
+[57:13] similarly by
+[57:16] further
+[57:19] application of lip
+[57:24] nits you get the action
+[57:28] on a one one tensor field and once I
+[57:31] wrote that one down you know the action
+[57:32] on a one two tensor field or let's do
+[57:34] one two just for fun the action on a one
+[57:37] two tensor field will be a one two
+[57:39] tensor field according to the definition
+[57:42] that means you will have indices i j k
+[57:46] for the resulting coefficient functions
+[57:49] of the resulting tensor field okay if T
+[57:52] was a 13 tensor field
+[57:56] uh one two sorry one two tensor
+[58:00] field okay how does this go well very
+[58:04] simple it's already all there you act
+[58:06] with the X naively on the coefficient
+[58:10] functions of the one two tensor field
+[58:14] engineering mathematics
+[58:17] plus now for each index up you do this
+[58:21] Rule and you keep the under other
+[58:23] indices on the T untouched
+[58:27] and for each index down you apply this
+[58:29] Rule and you keep the other indices on
+[58:32] the capital T untouched let's do it we
+[58:35] do it for the upper index do it for the
+[58:38] upper index maybe here I move the
+[58:40] Blackboard up for the
+[58:44] camera index up you need a plus because
+[58:48] of the index up gamma the result will be
+[58:50] in I the um direction in which you go is
+[58:54] in M now this I refers to this index
+[58:58] here on on the T so you put the T here
+[59:02] because you put the I there the T can no
+[59:04] longer carry it you need to find a dummy
+[59:06] index s that is being summed over that
+[59:10] carries this the same rule applies up
+[59:12] there and then you keep the remaining
+[59:14] indices J K untouched and you need to
+[59:18] say it's in the Direction X that as
+[59:20] always goes with the last one now comes
+[59:23] a minus sign for each of the lower
+[59:26] indices how does this go there is a
+[59:28] gamma there's the M for the direction in
+[59:31] which you go it's the last index
+[59:32] there're two threee the T has indices up
+[59:36] down down now you are talking about the
+[59:38] first J index the gamma needs to know
+[59:41] about it because it's the turn of the J
+[59:43] index the J goes here you need a dummy
+[59:46] index where before the J was to sum over
+[59:49] it here the M sorry that's not it and
+[59:52] the other two you keep untouched I is
+[59:55] untouched K is untouched finally you
+[59:58] deal with the last index of the T so you
+[1:00:02] put here minus gamma the m is the one in
+[1:00:06] which direction you derive then there is
+[1:00:09] the T with three indices you're now
+[1:00:11] dealing with the K index so the gamma
+[1:00:13] needs to know about it but then where
+[1:00:16] the K index was there's going a dummy
+[1:00:18] index sorry there was um yeah that was
+[1:00:20] here the dummy index and the other two
+[1:00:23] indices of the K are left unti that's
+[1:00:27] it okay so uh you need to learn this
+[1:00:32] somehow study these rules find your own
+[1:00:35] rule plus minus minus because it's a one
+[1:00:38] two tensor one up two
+[1:00:42] down so again and similarly of course
+[1:00:46] for any other PQ tensor okay and in all
+[1:00:51] these cases it's the same dim m to the
+[1:00:54] three functions
+[1:00:57] gamma that determine
+[1:01:00] this
+[1:01:09] okay question so
+[1:01:14] far yes so this is lot of definitions
+[1:01:17] and I'm a little bit lost but so just
+[1:01:21] let me let me break down to very
+[1:01:23] simple everything in
+[1:01:27] aan I
+[1:01:31] guess if by a ukan space okay so the
+[1:01:36] question okay yeah yeah let's say
+[1:01:38] this okay so the question is if in a
+[1:01:41] ukian
+[1:01:47] space the
+[1:01:49] gamas
+[1:01:50] all
+[1:01:52] vanish in a then
+[1:01:58] existing Global
+[1:02:02] chart that's I I take the question like
+[1:02:05] this yes but what is a ukian space So my
+[1:02:08] answer would be
+[1:02:10] yes
+[1:02:13] but what is a ukian
+[1:02:20] space you can now give an answer to this
+[1:02:24] the answer is it is
+[1:02:26] an M that's an some
+[1:02:31] Rd uh it's equipped with the standard
+[1:02:33] topology and some smooth
+[1:02:36] Atlas right if you do it R3 you know you
+[1:02:40] have essentially unique Choice up to
+[1:02:42] diff morphism and so on we had this
+[1:02:45] okay but that doesn't make it you clear
+[1:02:47] in space that's just a smooth
+[1:02:50] manifold on a smooth manifold you have
+[1:02:53] no gamas what you now mean
+[1:02:56] is
+[1:02:58] assume that R3 comma the identity on R3
+[1:03:05] is a chart of the smooth
+[1:03:08] Atlas you can cover the whole R3 with
+[1:03:11] this identity map that's true that's not
+[1:03:14] the Assumption yet assume this but with
+[1:03:18] the idea and the gamma i j
+[1:03:24] k if this is the chart Map
+[1:03:27] X you what you're assuming is that the
+[1:03:30] gamma i j k in this
+[1:03:33] chart defined as the
+[1:03:36] dxi of the nabla D by DX k d by
+[1:03:42] dxj that they're all zero and that's a
+[1:03:45] choice you
+[1:03:47] make so yes they are they do all vanish
+[1:03:51] by definition of ukian
+[1:03:54] space so um the implication error is
+[1:03:58] like this so it's indeed right but you
+[1:04:01] could easily equip our three with a
+[1:04:06] non-trivial coant derivative
+[1:04:11] intuition
+[1:04:13] intuition the smooth manifold R3 up to
+[1:04:17] here well maybe R2 let's say intuition
+[1:04:20] for R2 with this construction is it
+[1:04:23] looks like this it's because because our
+[1:04:26] eyes already think about coant
+[1:04:28] derivatives because coant derivatives
+[1:04:30] identify a curvature or not that will be
+[1:04:32] the next lecture but this is this but
+[1:04:35] you could EAS so that's the naer you
+[1:04:37] chose okay so that's the
+[1:04:40] ukian na which in this one chart looks
+[1:04:43] like this so it defines the nuer on this
+[1:04:46] side if you set it to
+[1:04:48] zero uh that's ukian nabla but I could
+[1:04:51] choose the hyperbolic nabla on the same
+[1:04:55] smooth manifold and uh the intuition
+[1:04:58] would be it's such a
+[1:05:00] saddle right it's still still R3 it goes
+[1:05:04] infinitely in R2 it still goes
+[1:05:06] infinitely in all directions as a smooth
+[1:05:08] manifold but it has a curvature and it's
+[1:05:10] a saddle showing that ukian space is
+[1:05:15] exactly the choice of gamas of a
+[1:05:16] coordinate system where that globally
+[1:05:18] vanishes on this space there exists no
+[1:05:21] more a global coordinate system in which
+[1:05:24] all the gamas vanish
+[1:05:26] we'll come to that it's a very good
+[1:05:27] question
+[1:05:31] okay but also I just say it even on this
+[1:05:35] ukian space and that will be the topic
+[1:05:37] of the next section even on this ukian
+[1:05:39] space if you go to another
+[1:05:42] chart like polar coordinates or slightly
+[1:05:45] deformed linear nonlinearly deformed
+[1:05:48] chart map you will also get non-
+[1:05:50] Vanishing lambas although in this chart
+[1:05:52] you have them all Vanishing and this is
+[1:05:54] what you know again from engineering
+[1:05:56] mathematics you want to calculate the
+[1:05:59] gradient in polar coordinates well
+[1:06:02] what's the gradient the Divergence sorry
+[1:06:04] the Divergence so uh um definition
+[1:06:07] didn't want to bring it but let's do it
+[1:06:09] definition let X be a vector
+[1:06:13] field on a connect on a manifold with
+[1:06:16] connection so m o a assume you're given
+[1:06:20] some
+[1:06:23] connection then the
+[1:06:27] Divergence of
+[1:06:29] X is the
+[1:06:32] function on the
+[1:06:34] manifold
+[1:06:37] DivX which is defined as nabler in any
+[1:06:41] chart defined as d by DX I acting on the
+[1:06:47] X taking the I component and there is a
+[1:06:50] trace over
+[1:06:52] here and claim is I used a chart to
+[1:06:55] Define it or use charts to Define it
+[1:06:59] claim this definition is nevertheless
+[1:07:01] chart
+[1:07:06] independent the definition is but
+[1:07:08] depending on the chart if you go to a
+[1:07:10] chart if you have ukian space and you go
+[1:07:13] to a chart where the gamas vanish this
+[1:07:15] is just the uh the partial derivatives
+[1:07:18] of the coefficients and taking the sum
+[1:07:21] it's the engineering mathematics
+[1:07:22] Divergence if you're on the same space
+[1:07:25] you have the same physical situation the
+[1:07:27] same Vector field everything is the same
+[1:07:29] but you choose polar coordinates then
+[1:07:32] you still do these derivatives but you
+[1:07:34] have additional terms which you look up
+[1:07:37] in your formula
+[1:07:39] collection depending on what the
+[1:07:41] coordinat system is for spherical polar
+[1:07:44] coordinates for cylindrical coordinates
+[1:07:47] for elliptical Co whatever you find what
+[1:07:50] if you use coordinates that's not in
+[1:07:51] your formula collection it's very simple
+[1:07:55] you use the gamas it's always the gamas
+[1:07:58] so what you need to know is how do the
+[1:07:59] gamas look in other charts we're going
+[1:08:02] to do that but so all these different
+[1:08:04] lists in the formula collection is just
+[1:08:06] this one formula okay so you used it
+[1:08:09] already you used the gamas already
+[1:08:12] there's no such thing as I never used
+[1:08:14] that before and I don't need it you
+[1:08:18] do
+[1:08:19] okay yes the formula on the lower left
+[1:08:23] of thisable isn't that for
+[1:08:26] Co which this one yes uh well I don't
+[1:08:30] know if you want to call a coordinate
+[1:08:32] system in which the gamma vanish a
+[1:08:34] cartisian coordinate system you may
+[1:08:37] although in a cartisian coordinate
+[1:08:38] system you need something more you also
+[1:08:40] think of certain angles between the
+[1:08:42] coordinate lines you need a little more
+[1:08:43] you need a metric this will be called
+[1:08:45] Global or in the chart normal
+[1:08:48] coordinates we'll come back to that okay
+[1:08:50] so there's a remaining question is I
+[1:08:54] defined these gamas only on one chart
+[1:08:57] what if I have another chart well if the
+[1:08:59] chart is right over here it doesn't
+[1:09:01] matter you can def give these functions
+[1:09:03] but what if you define it on one these
+[1:09:05] scamers on one chart and you define them
+[1:09:07] on another chart but the charts do
+[1:09:09] partially overlap they needs to be a
+[1:09:12] compatibility you can't choose them here
+[1:09:14] like this and there like that and you
+[1:09:15] have different coari derivatives in the
+[1:09:17] overlap region depending on which chart
+[1:09:19] you're on so you need to check that so
+[1:09:22] you need to look at third change of
+[1:09:25] components of coefficient functions
+[1:09:28] change of
+[1:09:31] gamas yeah under change of
+[1:09:40] chart so how do we go about this well
+[1:09:43] it's very simple uh let's take ux and
+[1:09:48] VY uh both elements of the smooth
+[1:09:52] Atlas and um and assume they have an
+[1:09:56] overlap if the chart domains do not have
+[1:09:59] an overlap we have no problem if they do
+[1:10:02] have an overlap we can simply calculate
+[1:10:06] the gamma i j k in the Y chart and try
+[1:10:10] to related to the gamma i j k in the X
+[1:10:14] chart okay we need to see how these are
+[1:10:17] related so let's do this how is this
+[1:10:20] defined well this is defined as the DYI
+[1:10:24] acting on the
+[1:10:26] d by DX K last index acting on the D by
+[1:10:31] dxj that's the
+[1:10:33] definition of these guys and sorry X is
+[1:10:36] wrong is of course in the Y chart so
+[1:10:38] every x what was before an X is now a y
+[1:10:42] okay now what are what is this object
+[1:10:45] this object is these Yi are functions
+[1:10:50] right the Y eyes are functions and the D
+[1:10:52] acts on them so don't be blinded this
+[1:10:55] being a Yi and being well not summed
+[1:10:58] over but being a
+[1:10:59] Yi if this was a DF you would
+[1:11:02] immediately agree that you can write
+[1:11:05] this in components d f by d uh
+[1:11:09] x d f by
+[1:11:12] dxq time dxq if this was a DF you know
+[1:11:17] in the X chart you can expand it like
+[1:11:19] this right well it's not an F but it's a
+[1:11:23] Yi it's the I component function it's
+[1:11:25] nevertheless true and here it's not
+[1:11:28] evaluated at a point we leave it like
+[1:11:31] this as a as a vector field okay so this
+[1:11:34] is this now this acts on nabla there's a
+[1:11:38] d by Dy K that's the K spasis Vector now
+[1:11:42] I could argue by how basis vectors
+[1:11:44] transform but I could only also just
+[1:11:47] write down the product rule and the
+[1:11:48] chain rule this is d by
+[1:11:51] dxp dxp by Dy
+[1:11:55] K well it's not quite the product rule
+[1:11:57] because you know these are not partial
+[1:11:59] derivatives these are our symbols you
+[1:12:01] remember but you can show that these
+[1:12:03] symbols are expanded exactly like this
+[1:12:05] according to the chain rule for the
+[1:12:07] symbols it's not the chain rule from
+[1:12:08] undergraded analysis but it's directly
+[1:12:10] reducible to the chain rule from
+[1:12:12] undergraded analysis you can write this
+[1:12:14] thing like this of course my strategy is
+[1:12:16] wherever there was a y I want to get an
+[1:12:18] X into the game and this acts on D by
+[1:12:21] dyj this can be expanded as d by DX uh
+[1:12:25] uh k k LM what don't we have yet uh uh
+[1:12:29] UV r s s is good uh d x s by d y j so
+[1:12:38] this guy here acts on this okay nothing
+[1:12:42] happened nothing happened I just used
+[1:12:44] the chain rule a little now these are
+[1:12:48] again functions they jump in front
+[1:12:51] because of the C Infinity linearity down
+[1:12:53] here this is again a product so again
+[1:12:56] need to use the lipet rule let's execute
+[1:12:58] this this is DYI by
+[1:13:02] dxq now this is DX well let me write it
+[1:13:06] down once dxq on dxp by
+[1:13:11] Dy
+[1:13:13] K uh NAA d by D XP acting on and now I
+[1:13:18] do the product rule here it first acts
+[1:13:20] on the functions
+[1:13:22] DXs by Dy J and then d by DXs multipli
+[1:13:29] by this Vector plus but now I need to
+[1:13:32] repeat this guy here or I put a bracket
+[1:13:36] uh plus now this guy this is kept
+[1:13:41] DXs by Dy J and this guy this guy acts
+[1:13:46] on that guy but you see this is the
+[1:13:48] gamma well let me write it down um d by
+[1:13:51] dxp acting on D by DXs
+[1:13:56] uh yeah well it Xs like this and then
+[1:13:58] the the bracket closes okay this is this
+[1:14:02] so now we continue and we already look
+[1:14:05] at this very closely so there is a
+[1:14:08] DYI by
+[1:14:10] dxq in front let's do the first term
+[1:14:14] this is a co- Vector field these are
+[1:14:16] functions so these jump out of here too
+[1:14:19] these jump out of here so this is dxp by
+[1:14:22] d y k so now there is still this guy
+[1:14:27] acting on this stuff but these are just
+[1:14:30] functions so this will just act as a
+[1:14:32] function and it will jump out so this
+[1:14:35] will be D by D XP DXs by d y j so this
+[1:14:43] is a second derivative but not in the
+[1:14:45] same variable so we got to be careful
+[1:14:47] but this is of course right uh this acts
+[1:14:49] on this and the only Vector field part
+[1:14:53] still standing under the DX Q is this
+[1:14:55] one but what is dxq on D by DXs it's a
+[1:14:59] Delta Down s up Q because these are dual
+[1:15:02] bases that's the first part now comes
+[1:15:05] the second part we start with this one
+[1:15:06] is the dy I by
+[1:15:10] dxq dxq acts on here this is a function
+[1:15:14] that jumps out just like that because of
+[1:15:16] C Infinity linearity of this Co Vector
+[1:15:18] field DXs by dyj this jumps out and then
+[1:15:22] there acts dxq on D by dxp D by DX is a
+[1:15:27] we know what that is this is the gamma
+[1:15:30] q p and the S
+[1:15:34] here and there is
+[1:15:37] one
+[1:15:38] object
+[1:15:40] missing I this one was still in front of
+[1:15:44] these brackets and that still goes there
+[1:15:46] gamma qsp I forgot this guy because this
+[1:15:50] is before the square bracket so there
+[1:15:52] still the
+[1:15:53] dxp by
+[1:15:56] Dyk aha um the only one we still want to
+[1:16:00] work on a little is this one because
+[1:16:01] there is the XS with respect to the YJ
+[1:16:05] and then with respect to the other set
+[1:16:06] of coordinates XP but look at this there
+[1:16:09] is a summation here so this entire thing
+[1:16:13] according to the chain rule is d by d y
+[1:16:16] k aha so the whole formula becomes well
+[1:16:21] let me write down here
+[1:16:25] so in
+[1:16:29] summary the gamma in the Y system with
+[1:16:33] coefficients i j
+[1:16:35] k equals let's start with the last term
+[1:16:39] it equals the gamma in the X system so I
+[1:16:42] should
+[1:16:43] have denoted this x because it has been
+[1:16:45] calculated from the X system in the X
+[1:16:48] system with IND indices
+[1:16:51] qsp and then there are three
+[1:16:53] transformation matrices in front of
+[1:16:56] course constructed from the chart
+[1:16:58] transition map um and they are Yi
+[1:17:02] because this gives you a y index here uh
+[1:17:06] xq and then the other y's are here
+[1:17:09] they're the JK Y and they're the SPs
+[1:17:13] XS XP and if this last term that I wrote
+[1:17:17] down was all of it you would see oh in
+[1:17:21] that case these were the components or
+[1:17:23] coefficient functions of a one two
+[1:17:26] tenser but that is not the only term
+[1:17:29] there is an additional term and now look
+[1:17:31] at this guy this is DYI dxq DYI by
+[1:17:37] dxq and then there comes a second
+[1:17:40] derivative of XS with respect to First y
+[1:17:47] j and then with respect to y k and now
+[1:17:52] be very careful whenever you see you
+[1:17:54] could have said this was already a
+[1:17:56] second derivative XS by dxp and the dyj
+[1:18:01] and you think oh you could exchange this
+[1:18:03] XP and YJ according to schwarz's rule
+[1:18:06] right that you can exchange coant
+[1:18:08] derivatives well first of all these are
+[1:18:10] the symbol so this is not schwarz's rule
+[1:18:12] in the first place you have to go down
+[1:18:14] to the Chart but it doesn't reduce to
+[1:18:16] schwarz's rule because these are your D
+[1:18:19] coordinates Y and you have another D
+[1:18:21] coordinates y but it's another
+[1:18:23] coordinate set and then the Schwarz rule
+[1:18:25] doesn't apply whereas because of this
+[1:18:28] here we brought it to the form second
+[1:18:31] derivative with respect to twice the
+[1:18:33] same set of coordinates here the Schwarz
+[1:18:36] rule is inherited by the
+[1:18:38] symbol okay so if you have y y down here
+[1:18:41] you can exchange if you have YX down
+[1:18:43] here you can't very important very
+[1:18:46] common mistake okay that's this and now
+[1:18:49] ah and there's a Delta Qs um oh and
+[1:18:52] there's another no this one we took Del
+[1:18:54] Qs so the S is a
+[1:18:57] Q and where has the gamma gone in the
+[1:19:00] second piece there is not even a gammer
+[1:19:03] in the second
+[1:19:06] piece why is this important well first
+[1:19:08] of all it destroys the tensor
+[1:19:09] transformation law the gamas Do Not the
+[1:19:12] tensor component transformation the
+[1:19:14] gamas Do Not transform as one two tensor
+[1:19:17] components but even more importantly
+[1:19:19] because there's no more gamma in this
+[1:19:21] term even if in some coordinate system
+[1:19:24] the gamas are zero you go to another one
+[1:19:28] and because there is no gamma here to
+[1:19:29] zero that part it will make out of
+[1:19:32] nothing out of zero it will make non
+[1:19:35] Vanishing
+[1:19:36] gamas for what kind of chart
+[1:19:39] transformation Maps well for those where
+[1:19:42] the second derivative is non-trivial so
+[1:19:46] for linear change of chart say you're in
+[1:19:49] what you call a cesan coordinate system
+[1:19:51] I would call the normal coordinate
+[1:19:52] system and you just do a rot
+[1:19:56] that's a linear transformation you don't
+[1:19:58] feel it yet because this second
+[1:20:00] derivative drops out so for anything if
+[1:20:03] you have in a coordinate system and you
+[1:20:04] restrict yourself to only looking at
+[1:20:06] linear Transformations on your position
+[1:20:08] space so to speak because these are
+[1:20:10] coordinates then you never feel this
+[1:20:13] term this is one of the reasons why in
+[1:20:16] special relativity one thinks it's
+[1:20:20] clever in position space to only look at
+[1:20:23] Laurence trans well in the tangent
+[1:20:25] spaces I fully understand but in
+[1:20:28] position space why would I not introduce
+[1:20:30] polar coordinates which make this a
+[1:20:32] nonzero entity here which means even if
+[1:20:35] before you were in a system where the
+[1:20:36] gamas are zero in the new system they
+[1:20:38] are not because this is this
+[1:20:39] inhomogeneous term with respect to gamma
+[1:20:42] the gamma cannot null it it's a very
+[1:20:45] important point to realize and it shows
+[1:20:47] you for tensors let's look at this again
+[1:20:50] if this was a tensor it's a general rule
+[1:20:52] for tensors if tensor components vanish
+[1:20:55] in one frame then they vanish in any
+[1:20:58] frame because the new frame is still
+[1:21:02] homogeneously dependent on this gamma if
+[1:21:04] it's zero it's zero huh but the gamas
+[1:21:08] are simply not of that type they can
+[1:21:10] vanish totally in one frame in one sorry
+[1:21:13] in one chart even across the entire
+[1:21:16] manifold in each of the charts but they
+[1:21:18] still do not in others that's one way to
+[1:21:21] look at if you change charts but another
+[1:21:25] thing is is again changing charts if the
+[1:21:27] charts overlap if I choose the gamma X
+[1:21:30] in the U region and I choose fully
+[1:21:34] independently the gamas like this the
+[1:21:36] gamma y in the v y region I get a
+[1:21:40] problem in the intersection unless the
+[1:21:43] choice of these in the other region
+[1:21:45] obeys this relation to the other choice
+[1:21:49] so you cannot freely choose this in
+[1:21:53] every chart but in the overlap regions
+[1:21:56] this can be read as a compatibility
+[1:21:58] condition so whatever way you read it
+[1:22:00] this is a very important formula it
+[1:22:03] should also be committed to
+[1:22:05] memory it's the um
+[1:22:08] change of
+[1:22:12] connection
+[1:22:16] coefficient
+[1:22:19] functions under
+[1:22:21] change of chart
+[1:22:24] from uux or let's rather say from U
+[1:22:28] intersected vx to u intered v
+[1:22:40] y so and now because the question was
+[1:22:43] asked give me five more minutes and I
+[1:22:45] explain normal
+[1:22:47] coordinates and how you can get them and
+[1:22:51] how you cannot get them
+[1:23:00] normal
+[1:23:10] coordinates let P be a point uh of a
+[1:23:16] manifold with connection so assume some
+[1:23:19] connection is given we think of the
+[1:23:21] abstract
+[1:23:22] connection as given so also say the
+[1:23:25] manifold can be equipped with such a
+[1:23:27] connection and that's this
+[1:23:31] um now the question is can you find a
+[1:23:34] coordinate system that makes the gamas
+[1:23:37] vanish that's an interesting question
+[1:23:39] because apparently the formula becomes
+[1:23:42] simpler well there is a result but the
+[1:23:45] result is rather
+[1:23:47] sobering and you can already see it I
+[1:23:49] started with fixing one single
+[1:23:52] point and indeed having chosen a point
+[1:23:56] in that order you can find
+[1:24:00] coordinates then
+[1:24:03] U then one then one can
+[1:24:10] construct a
+[1:24:13] chart
+[1:24:15] ux that contains the
+[1:24:18] point one still hopes one can construct
+[1:24:21] a chart such that in this chart if it's
+[1:24:23] small enough it vanishes know you can
+[1:24:25] construct a chart that contains the
+[1:24:27] point such
+[1:24:30] that the
+[1:24:32] gamma J JK with respect to this chart
+[1:24:36] map
+[1:24:38] vanishes but only at that
+[1:24:44] point at the point
+[1:24:49] P
+[1:24:52] not in any
+[1:24:59] neighborhood
+[1:25:02] um not
+[1:25:06] necessarily in any neighborhood of
+[1:25:08] course if the manifold has a certain
+[1:25:10] property which we will call flatness
+[1:25:13] I'll Define in a second uh or flatness
+[1:25:17] in a region then the gamas can be found
+[1:25:20] in an extended region but if the
+[1:25:22] manifold is not flat like for for
+[1:25:24] example this hyperbolic space it's R2 as
+[1:25:27] a smooth
+[1:25:28] manifold and you ask what does this
+[1:25:31] shape have to do with the coant
+[1:25:34] derivative well that will be the next
+[1:25:35] lecture but trust me it has to do with
+[1:25:37] the shape the coant derivative gives the
+[1:25:39] space shape okay uh on this
+[1:25:43] space um you can go to a point and you
+[1:25:47] can find a coordinate system and you
+[1:25:48] have to choose the entire coordinate
+[1:25:50] system in the neighborhood of that point
+[1:25:52] and you need to choose it such that at
+[1:25:54] this point the gamas are zero but in you
+[1:25:56] will not manage to find a coordinate
+[1:25:58] system such that in the smallest
+[1:25:59] neighborhood it's everywhere zero okay
+[1:26:03] uh proof that's interesting enough to to
+[1:26:05] show it's also a good exercise so
+[1:26:10] um aha so
+[1:26:18] assume so um let v
+[1:26:22] y be a b any
+[1:26:27] chart uh with P in V so we start with
+[1:26:31] some chart uh pick any and there in
+[1:26:35] general the gamas won't
+[1:26:37] vanish uh
+[1:26:39] thus in general unless you were just
+[1:26:41] lucky um the gamas with respect to this
+[1:26:45] y chart i j k will be nonzero so
+[1:26:50] generically they will not be all zero
+[1:26:53] question how do I get from this chart
+[1:26:55] you picked whatever chart you picked how
+[1:26:57] do I get this chart
+[1:27:04] constructively then consider this
+[1:27:07] transformation
+[1:27:09] law what you want you want this part to
+[1:27:14] cancel whatever comes from that
+[1:27:17] part for this part you need to know the
+[1:27:19] second derivative and that's the second
+[1:27:21] derivative KJ with respect to the chart
+[1:27:24] transition Map X after y
+[1:27:26] inverse then consider a new
+[1:27:31] chart
+[1:27:33] ux to
+[1:27:37] which one
+[1:27:40] transits by
+[1:27:43] virtue of the chart transition Map X
+[1:27:46] after y inverse that
+[1:27:49] eats
+[1:27:51] chart numbers elements in Rd
+[1:27:55] and I Define this as the
+[1:27:58] identity so I want the ice component in
+[1:28:03] the new chart should be the ice
+[1:28:06] component in the Old Chart well then
+[1:28:07] nothing will happen then these will be
+[1:28:09] deltas and this will be zero nothing
+[1:28:11] will happen so I need to do something
+[1:28:13] different uh I need to put a plus or a
+[1:28:16] minus I don't know I will decide in a
+[1:28:17] second Plus or a minus and I add the
+[1:28:20] gamma i j K's of the old chart of the Y
+[1:28:25] chart and I multiply by Alpha K and
+[1:28:29] alpha alpha J Alpha K you say how can
+[1:28:33] you multiply these numbers into well on
+[1:28:35] the chart you can do whatever you wish
+[1:28:36] this is just Rd to Rd you do what you
+[1:28:39] want okay and I take this only at the
+[1:28:44] point P okay and the point P if you want
+[1:28:48] to write it out is uh X inverse of alpha
+[1:28:51] 1 to Alpha d
+[1:28:54] so now let's calculate what we need to
+[1:28:57] know let's calculate the chart the first
+[1:29:00] and the second derivative of the chart
+[1:29:01] transition map the first oh already
+[1:29:04] wrong uh so DX I by
+[1:29:08] Dy
+[1:29:10] B what is this this is DB of x i after y
+[1:29:16] inverse according to the symbol
+[1:29:19] right um but what is this well this is
+[1:29:22] just this map with respect to the be
+[1:29:25] entry is with respect to Alpha B so this
+[1:29:27] gives you a Delta I plus minus I will
+[1:29:30] decide in a second you derive here so
+[1:29:33] you get a factor of two so probably I
+[1:29:35] need a 1 half here after all I put a 1
+[1:29:37] half here so it gives you a factor two
+[1:29:40] it gives you a
+[1:29:41] gamma ah if it's not ah okay my
+[1:29:44] statement is wrong uh then one can
+[1:29:46] construct a chart with that such that
+[1:29:48] the symmetric part of this guy vanishes
+[1:29:51] the symmetric part vanishes okay and uh
+[1:29:54] so here I put only the symmetric part of
+[1:29:57] this and then the one half will serve me
+[1:29:59] well so I will get gamma uh I in the Y
+[1:30:04] system with respect to J and the K
+[1:30:07] becomes the B and there's an alpha J
+[1:30:10] left and this is still at the position P
+[1:30:13] that's the first derivative and now for
+[1:30:15] good measure I'll do the second
+[1:30:17] derivative by d y aha I should have
+[1:30:20] probably used uh here this index J
+[1:30:25] in order to easily plug in this later on
+[1:30:28] I J and here then I have an
+[1:30:31] MJ index Collision which I just resolved
+[1:30:34] and then I have here a Dy J and a Dy K I
+[1:30:39] believe yes exactly equals well that's
+[1:30:43] yet the next derivative of this guy uh
+[1:30:46] this gives a zero and yet another
+[1:30:48] derivatives yields a plus or minus gamma
+[1:30:52] I uh
+[1:30:54] k j in the Y system evaluated at the
+[1:30:58] point P but if I now want to find out
+[1:31:02] what is the gamma in the X system I what
+[1:31:07] are the components i j
+[1:31:09] k all I need to do I need to take the
+[1:31:12] old gamma and and I want to know this at
+[1:31:15] the point
+[1:31:17] P want to know this at the point p and I
+[1:31:20] only want to know about the symmetrized
+[1:31:23] part
+[1:31:25] I take the old gamma and I plug in twice
+[1:31:29] this derivative at the point P so I need
+[1:31:32] to evaluate this I didn't evaluate it at
+[1:31:34] P because I had to derive another time
+[1:31:37] but once I want to evaluate at P all of
+[1:31:39] these I evaluated at P especially these
+[1:31:41] two first of all and then you see if I
+[1:31:44] evaluate at p i if I had been clever I
+[1:31:47] would have chosen the chart y here
+[1:31:50] without loss of generality such that the
+[1:31:53] coordinat of the point P are zero if
+[1:31:57] that's not the case I can move the chart
+[1:31:59] so without loss of generality so if I
+[1:32:01] evaluate at p i evaluate at Alpha equals
+[1:32:04] Zer that means it would yield Delta i j
+[1:32:07] so it means the DX I by Dy J is Delta i
+[1:32:10] j at the point but you calculate on the
+[1:32:13] last problem sheet I think that the
+[1:32:15] inverse that this Matrix is the inverse
+[1:32:17] of this at the point the inverse of
+[1:32:20] Delta is Delta so what happens to the
+[1:32:22] gamas in the X system the Delta Delta
+[1:32:25] Delta the gamma is in the Y system and
+[1:32:28] that's i j k at P after evaluated the
+[1:32:32] Deltas then comes the correction term
+[1:32:35] plus here it is this is again evaluate
+[1:32:38] all at the point p is a Delta IQ so it's
+[1:32:42] dxi by KJ that's exactly this guy so
+[1:32:46] this is plus plus minus which I wasn't
+[1:32:48] sure of uh gamma um I
+[1:32:55] KJ in the Y system at the point p and
+[1:32:58] now I see I need to choose the minus
+[1:33:00] sign here because if I choose the minus
+[1:33:03] sign this is in the chart construction
+[1:33:05] to which chart I go I have the minus
+[1:33:07] sign the minus minus minus sign and you
+[1:33:10] get zero but uh this was only the
+[1:33:13] symmetrized part of it so the
+[1:33:15] symmetrized part of it I can make to
+[1:33:19] vanish and later on we will see that the
+[1:33:21] anti- symmetric part of this gamma is a
+[1:33:23] tensor that can be set consistently to
+[1:33:26] zero if you wish um assume you have this
+[1:33:29] tensor it's called the torsion set to
+[1:33:31] zero you have the
+[1:33:33] theorem that in a torsion for torsion
+[1:33:37] free connection you can always make the
+[1:33:39] gamma vanish by appropriate choice of a
+[1:33:42] chart this is the constructive proof to
+[1:33:45] vanish at a given point and you can
+[1:33:48] later on also show along the straight
+[1:33:51] lines not only at a point but along a
+[1:33:53] straight line but certainly not in a
+[1:33:56] neighborhood okay yes here you used a
+[1:34:00] particular construction yes so you
+[1:34:03] probably can convince me that this
+[1:34:05] particular construction will not give
+[1:34:08] Yas in the neighborhood how do I know
+[1:34:10] that there is not way to construct the
+[1:34:13] different in a different manner that's
+[1:34:14] right the final theorem of the next
+[1:34:17] lecture uh will state that on uh if and
+[1:34:20] only if both torsion and curvature of a
+[1:34:23] connection vanish then and only then can
+[1:34:26] you find an extended coordinate system
+[1:34:28] where the gamas all vanish so a
+[1:34:31] Vanishing curvature tensor which we're
+[1:34:33] going to Define in the next lecture or a
+[1:34:35] non-vanishing curvature tensor is the
+[1:34:38] obstruction to extending this beyond the
+[1:34:41] point so there will be a clear
+[1:34:43] quantification of when you can and when
+[1:34:45] you can't and the result in uh uh in
+[1:34:48] everyday language is if the manifold is
+[1:34:51] flat which we're going to Define then
+[1:34:53] then you can find an extended coordinate
+[1:34:55] system where the gamas uh vanish
+[1:34:58] throughout if and only if the manifold
+[1:35:01] is flood and torsion free next lecture
+[1:35:05] okay exctly continuing on that remark if
+[1:35:11] I just redefine my to be just that that
+[1:35:15] Ian would
+[1:35:18] be no but this is only at one point the
+[1:35:21] point has been chosen first first pick a
+[1:35:24] point and then do this construction
+[1:35:26] where these coefficients are the numbers
+[1:35:28] at that point if you say away from that
+[1:35:32] point it needs to look differently that
+[1:35:33] would amount to making this dependent on
+[1:35:36] an X that varies with the
+[1:35:38] alphas but then this is no longer of
+[1:35:42] this quadratic form then these
+[1:35:44] derivatives no longer reduce here to the
+[1:35:47] Deltas and and and to the um uh and to
+[1:35:50] this form here so if the p is not
+[1:35:54] fixed then you have a problem so
+[1:35:56] probably this is uh misleading here
+[1:35:58] because the p is chosen from the
+[1:36:01] beginning and for this P you construct
+[1:36:04] this by using the gamas at the P but you
+[1:36:07] can't go away because then you upset
+[1:36:09] this uh logic of this uh this game here
+[1:36:13] but you're absolutely right I Prov to
+[1:36:15] you that at a point you can make the
+[1:36:17] symmetric part vanish the stronger
+[1:36:20] Converse uh will be part will be the
+[1:36:23] final theorem of the next
+[1:36:26] lecture
+[1:36:33] yes yes so so you say the the the
+[1:36:37] symmetric part of this
+[1:36:39] here um no I shouldn't have the so it's
+[1:36:42] like this in the new system the gamas
+[1:36:45] are the gamas in the old system minus
+[1:36:48] the symmetrized gamas in the old system
+[1:36:51] that means what remains is the gamma I
+[1:36:54] in the system JK at the point P the
+[1:36:57] antisymmetrized part remains so you
+[1:37:01] can start in the Y system with arbitrary
+[1:37:04] gamma and you can remove the symmetric
+[1:37:08] contribution now this here will turn out
+[1:37:10] in the next lecture to be a
+[1:37:13] tensor with components in the Y system i
+[1:37:16] j k but because it's a tensor if I
+[1:37:18] require it vanish in one system it will
+[1:37:21] vanish in every system so I can look at
+[1:37:23] special types of connections where this
+[1:37:26] tensor vanishes those are called
+[1:37:28] torsionfree
+[1:37:29] connections if we restrict attention to
+[1:37:31] torsion free connections we have the
+[1:37:34] easily memorable theorem you can always
+[1:37:37] make the gamas vanish at a point and
+[1:37:39] here you must say in this generality you
+[1:37:41] can always make the symmetric part of
+[1:37:44] the gamas vanish but it's the symmetric
+[1:37:46] part that has the funny transformation
+[1:37:48] Behavior because you see here the in
+[1:37:51] inhomogeneous part y y
+[1:37:54] is symmetric here that means if you
+[1:37:57] change coordinate system then the anti-
+[1:38:01] symmetric part of the gamma doesn't get
+[1:38:03] a contribution well of course not
+[1:38:05] because if it is a tensor it must
+[1:38:07] transform like this it must not feel
+[1:38:10] this okay so from already here you can
+[1:38:13] read off that the antisymmetric part of
+[1:38:15] the gamas must be a
+[1:38:17] tensor okay this will be part of the
+[1:38:19] next
+[1:38:21] lecture okay
+[1:38:24] did you WR oh um I constructed this
+[1:38:28] chart transition map I calculated the
+[1:38:30] first and the second derivative here
+[1:38:32] according to the definition of the
+[1:38:34] symbol I then want to calculate this guy
+[1:38:37] at the point P so I go to the formula
+[1:38:40] here and I evaluate at P then I have to
+[1:38:44] evaluate
+[1:38:45] everything at
+[1:38:50] P now once I have this first derivative
+[1:38:53] that looks like this but if I evaluate
+[1:38:55] at p and I cleverly choose the chart I
+[1:38:58] move it like this it's a centered chart
+[1:39:00] then this is just a Delta and I can
+[1:39:03] execute these here all by setting I to q
+[1:39:06] s to J P to K and so on and for this
+[1:39:09] second bit here I evaluate at P by doing
+[1:39:13] nothing because this is constant in the
+[1:39:15] first place because this P was in here
+[1:39:17] from the beginning even before I
+[1:39:19] evaluated on
+[1:39:20] P because this is the construction for
+[1:39:22] this chart transition map it's designed
+[1:39:25] to make the symmetric part of the gamas
+[1:39:27] vanish at the point p and this is
+[1:39:29] constructive you can always do
+[1:39:33] that and uh so these coordinates so
+[1:39:36] terminology last word on this
+[1:39:41] terminology uh v y no V ux
+[1:39:48] ux is
+[1:39:50] called a normal
+[1:39:55] coordinate
+[1:39:58] chart so this is probably what one might
+[1:40:00] have called kesian coordinates but uh
+[1:40:03] there is no angle or something implied
+[1:40:06] these are called at this structural
+[1:40:07] level you can talk about cesan
+[1:40:09] coordinates at the metric level we're
+[1:40:10] still at the lower structure level you
+[1:40:12] call these normal coordinates ux is
+[1:40:14] called a normal coordinate chart of this
+[1:40:17] connection nabla at the point
+[1:40:22] p and that's that's important at a point
+[1:40:25] you have normal coordinates at a point
+[1:40:27] and if we introduce curvature
+[1:40:30] non-vanishing curvature
+[1:40:31] obstructs extending this to a region to
+[1:40:35] a neighborhood around the
+[1:40:38] point
+[1:40:45] yes okay so what I say is I calculate
+[1:40:50] the gamas in the new system from the
+[1:40:52] gamas in the old system
+[1:40:55] and that I do according to this rule
+[1:40:56] there is no symmetrization in here in
+[1:40:58] the first place so I just apply this
+[1:41:02] Rule now in this definition of change of
+[1:41:06] chart I put the symmetrization brackets
+[1:41:10] already but I didn't have to because I
+[1:41:13] write Alpha J Alpha K that will
+[1:41:15] symmetrize automatically see one of the
+[1:41:19] tutorials because this is clearly
+[1:41:21] symmetric under exchange of J and K
+[1:41:23] because of the commutativity of
+[1:41:25] multiplication in the real numbers so
+[1:41:27] this implies this here and then
+[1:41:30] following this through evaluating at the
+[1:41:32] point P I start on the left of this
+[1:41:34] formula no symmetrization bracket I
+[1:41:36] evaluate at P gives you Delta Delta
+[1:41:38] Delta of this guy this is what's left
+[1:41:41] without symmetrization bracket minus but
+[1:41:44] that there's a symmetrization bracket
+[1:41:45] here comes from this
+[1:41:48] calculation which where you first derive
+[1:41:50] with respect to Alpha it is clever to
+[1:41:52] set it there because if I didn't like I
+[1:41:55] did here by accident and you do the
+[1:41:57] derivative uh you would have to put down
+[1:42:00] two two summons because the product rule
+[1:42:03] but if it's symmetric I have to exp make
+[1:42:05] this
+[1:42:06] explicit sorry make and this goes
+[1:42:09] through down here and so what is
+[1:42:12] subtracted it has the symmetrization
+[1:42:14] bracket and then you have the
+[1:42:16] unsymmetrized gamas in the Y system
+[1:42:18] minus the symmetrized gamas in the Y
+[1:42:20] system are the antisymmetric part in the
+[1:42:22] Y system it's not true that it's zero no
+[1:42:25] the symmetric part is zero I corrected
+[1:42:28] at the end I said my statement was wrong
+[1:42:30] I uh corrected to you can make the
+[1:42:32] symmetrized part
+[1:42:37] vanish ah no very wrong okay sorry so so
+[1:42:41] this was before because I was thinking
+[1:42:42] with zero torsion which I shouldn't
+[1:42:44] because I didn't say anything like this
+[1:42:46] so this is this this continues to here
+[1:42:48] and this thing is just called the
+[1:42:50] torsion so up to the torsion you can
+[1:42:52] make it vanish
+[1:42:54] and if you look then at special
+[1:42:55] connections where you require the
+[1:42:57] torsion to vanish which is s such um
+[1:43:00] just a subset of the connections um uh
+[1:43:04] then you can make the whole gamma vanish
+[1:43:05] but that's of course
+[1:43:08] yeah okay thank you very much let's
+[1:43:11] reconvene at uh a quarter pass half an
+[1:43:15] hour okay thank you very much

@@ -1,0 +1,1064 @@
+[00:00] This program is being presented to you by the Haraeus International Winter School on Gravity and Light.
+[00:12] So welcome to lecture number 23 on Penrose diagrams, which are also called Penrose-Carter diagrams or conformal diagrams or simply diagrams.
+[00:20] That's all the same and
+[00:23] unfortunately, I
+[00:24] got rid of my punchline for this lecture by recklessly already drawing a Penrose diagram in the last lecture as you know
+[00:33] But nevertheless, I will formulate the wish again. Would it not be nice?
+[00:43] Would it not be nice to be able
+[00:47] to draw an
+[00:50] informative, thank you, an informative picture
+[00:57] of a space-time of an entire space-time of an entire space-time
+[01:07] on a finite portion of
+[01:16] paper
+[01:20] Yes, it would
+[01:27] But the question is, is it possible? Well, for some space times
+[01:36] It is possible
+[01:40] So the recipe I'm now going to write down
+[01:43] It's not an algorithm in the technical sense. It's more like a moral recipe
+[01:50] try to construct a diagram along the following lines. I'm going to write down and
+[01:57] You'll get a nice diagram and
+[02:00] I will then demonstrate how you get that diagram for the simplest of space times for Minkowski space
+[02:07] Minkowski space is also difficult to picture. We always think we know how that looks like but what really happens at infinity and
+[02:14] From where to where do really geodesics run in this infinitely extended Minkowski space?
+[02:19] That's already interesting and it's the model construction for such diagrams
+[02:24] But inevitably you'll need some skill, maybe some experience, maybe some intuition to come up with a nice way to construct the diagram
+[02:33] Okay, so this is a notoriously
+[02:36] Difficult to explain subject because
+[02:39] Although there is a general way you do this
+[02:43] It's difficult to describe it
+[02:44] I just describe it as a rough recipe and then we'll apply it then you look it up for another space time or you try it
+[02:51] Try it for another space time in the tutorials. I show it for Minkowski in the tutorials
+[02:55] You'll do it for cosmology for the FRW universe filled with radiation
+[03:00] You will construct all on your own the diagram and then with time you get a heck of it
+[03:06] Okay, so that's roughly how how that goes
+[03:09] and
+[03:11] So the point is an entire space seven a finer portion of paper
+[03:16] Well, of course you could you could just compactify the dimensions and that's it
+[03:20] But it should be a useful diagram
+[03:23] To be able to draw on a finite portion of paper
+[03:27] In order for the diagram to be useful
+[03:31] In order for the diagram
+[03:36] To be useful
+[03:40] We will compromise
+[03:46] On a number of issues
+[03:51] The point is you can't get this for free, right? If you compactify you lose some
+[03:57] information on a number of issues, but we will not
+[04:02] We will not compromise
+[04:08] On the nice feature
+[04:15] Of having
+[04:18] Light geode and null geodesics so light rays if you wish
+[04:27] Run at slopes
+[04:31] Plus and minus one
+[04:34] In the diagram
+[04:36] So we want to the
+[04:38] Construct a diagram where at the end of the day
+[04:42] You know how light rays run
+[04:44] But then you will have to compromise to knowing immediately how
+[04:50] Time like geodesics run you can reconstruct this. It's not like you can't reconstruct it
+[04:54] But without drawing the light like geodesics
+[04:59] You will know how they run
+[05:01] And we'll just make this a construction principle and aim of the construction of the diagram
+[05:06] Because if you know how light runs, you know the causal relationship, you know
+[05:10] This point could never influence that point because that other point doesn't lie in this diagram in this future cone
+[05:18] Okay, that that's the idea. That's the idea. So
+[05:22] first is
+[05:24] the recipe and I don't call it algorithm because it's more like a recipe you have you introduce your own taste at some places a
+[05:33] recipe to construct a
+[05:37] Diagram
+[05:41] So
+[05:43] So the first step is one start
+[05:48] with a
+[05:51] space-time
+[05:54] metric
+[05:57] Given in
+[06:00] Some coordinates in some chart
+[06:03] Well, you need to have a space-time metric first
+[06:06] Usually you're most interested in space-time metrics that solve the Einstein equations
+[06:11] But you could construct a diagram for a metric that doesn't solve the Einstein equation
+[06:14] Then the physical meaning is dubious, but you could do that
+[06:19] So start with such a space-time metric in some coordinates
+[06:25] second
+[06:29] Change coordinates
+[06:31] Aha, and I should have a warning here and that actually applies to every point
+[06:35] So I put it in these funny square brackets to emphasize it
+[06:39] painfully note
+[06:44] The coordinate ranges
+[06:48] So where exactly from where to where do the coordinates run
+[06:52] So from our runs from zero to infinity or something sometimes you have to be careful
+[06:57] It's not enough to say where each individual coordinate runs
+[07:01] Sometimes you have to say how a combination of coordinate runs right if you describe funny funny areas funny regions
+[07:07] Okay, painfully note the coordinate ranges second
+[07:10] step is
+[07:12] find
+[07:15] coordinates
+[07:19] Such that
+[07:24] To previously
+[07:27] So in the original coordinates to previously non-compact coordinates
+[07:36] So I mean coordinates where one runs to infinity in one direction to infinity or in both directions to infinity
+[07:43] such that two previously non-compact coordinates
+[07:47] are replaced
+[07:51] By two
+[07:54] And brackets then still non-compact
+[07:58] Well, if it's different it doesn't matter a possibly still non-compact null coordinates
+[08:07] What's a null coordinate well, so remark a
+[08:15] Coordinate
+[08:16] You know that a coordinate is a coordinate function a coordinate. Let's call it you
+[08:23] Is so it's a
+[08:25] Function from some domain into the real numbers the coordinate is called a
+[08:32] Null coordinate
+[08:36] if
+[08:38] the g of the
+[08:41] Vector field induced by this coordinate is everywhere zero
+[08:45] Makes sense, right? If coordinates for coordinates
+[08:49] Into induce a vector field if the vector field is
+[08:54] Light like null g null. We call the coordinate a null coordinate
+[08:59] Okay
+[09:00] Find to replace by two such non-compact null coordinates
+[09:06] The recipe is mysterious at this point, okay, it will remain mysterious then you'll see an example
+[09:13] Then you'll see ah now I understand
+[09:15] And so sometimes one is attempted to first show the example and then may make the abstraction to the recipe
+[09:22] But that's as much of a step. I chose this way. Okay first the recipe then the example. Okay, third
+[09:29] D come and on compactify
+[09:33] Compactify
+[09:36] The two null coordinates that you just constructed
+[09:42] The two null coordinates separately
+[09:47] Separately so let's say the two null coordinates that we're talking about let's call them V and W
+[09:56] Okay, so now you compactify them that means you introduce new coordinates that is
+[10:05] Introduce
+[10:07] New coordinates
+[10:10] Which you call P and Q for instance, of course you're free and
+[10:17] If the previous coordinate V and W
+[10:22] These null coordinates if they were non-compact had non-compact range. They don't have to but if they did
+[10:29] Then you can use for instance the Arcus tangent so the inverse function to the tangent and
+[10:37] you pull
+[10:39] Something that had infinite extension back to a finite extension. So the idea is this
+[10:45] So the tangent looks like this
+[10:49] Right
+[10:51] The tension looks like this
+[10:53] From minus pi half to plus pi half
+[10:57] Okay, so
+[10:59] This year would then be the P if this year was the V right V is the tangent of P
+[11:05] That's the picture and of course for every P. I have a unique
+[11:10] Every V. I have a unique P that corresponds to it
+[11:14] But even if the V took values in the whole real line the new coordinate P
+[11:20] Which one to one covers this only takes values at most in minus P half to plus P half
+[11:27] Okay, thus
+[11:30] P
+[11:33] comma Q
+[11:34] will take
+[11:37] Values so the pair will take values in
+[11:41] Some subset of I'll say that in a second some subset of
+[11:47] the
+[11:48] range
+[11:51] Minus pi half to pi half for the P
+[11:55] Cartesian product minus pi half pi half for the Q
+[12:00] So you say well if the V was infinite, of course, it will lie in here if the W was infinite
+[12:05] Of course, it will lie here, but there could be from the before
+[12:09] Constraints on the V and W the V must always be bigger than the W or something and that will of course
+[12:15] Inherit itself to a subset of here. You'll see an example
+[12:19] Okay, so but that's the basic idea
+[12:22] So we took two Nile coordinates and we separately
+[12:26] Compactified one of them and
+[12:29] We separately compactified the others note that we didn't take say a temporal coordinate in a space corner
+[12:36] Which would also pull things to finite?
+[12:40] Distances so to speak right
+[12:42] But that wouldn't preserve the cones
+[12:45] but if I have null coordinates already and I push along them
+[12:50] Trivially the cones stay untouched
+[12:53] That's the basic idea. So you compactify the null coordinates and these are so far all coordinate transformation now
+[13:01] All coordinate transformation. Okay, so then comes the fourth step
+[13:09] Define
+[13:11] Again a temporal and
+[13:18] Spatial
+[13:20] Coordinate
+[13:24] The temporal coordinate being defined like D by if the temporal coordinate is capital T. It's D by DT
+[13:31] Is then in our sign conventions from today negative previously positive whatever
+[13:37] T you define it as V plus W and you take an X you define it as V
+[13:44] Minus W. So you go back for our partner not not be P plus Q and P minus Q
+[13:52] So you now take the compactified null coordinates and you
+[13:57] reinstate
+[13:58] You reinstate the
+[14:02] You combine them in this manner again, then you have you have something like this. Okay, and again keep track
+[14:10] So again keep track
+[14:14] Of ranges
+[14:17] So in this case of the pair TX
+[14:22] Uh-huh
+[14:26] So fifth step express
+[14:31] The metric
+[14:33] Which is an objective thing express the metric G from the beginning now in
+[14:41] the
+[14:43] coordinates
+[14:44] Well in the beginning we had coordinates and we only always change to and kept the
+[14:50] Remaining coordinates the same in the coordinates TX and the other ones you had which you didn't change now you you start you replace
+[14:59] Two coordinates by two null coordinates, then you compactify the two null coordinates, then you combine them again
+[15:06] But the other coordinates you didn't touch. Okay, re-express the metric in those coordinates
+[15:13] if
+[15:15] the such expressed
+[15:20] Metric
+[15:23] Takes the form
+[15:28] G it's the abstract metric
+[15:31] If it takes the form that there is a factor omega inverse
+[15:36] Which may depend on just anything it may depend on any of the coordinates TX and all the other coordinates
+[15:44] That multiplies everything that comes that's the first requirement
+[15:50] The second requirement is that here you have DT tensor DT
+[15:56] Minus DX tensor DX where T and X are these such constructed coordinates
+[16:03] Minus and now you have here a new function R
+[16:07] Which depends on the T and DX possibly but only on those and in here you have
+[16:14] some factor we don't care
+[16:16] D
+[16:18] Theta tensor D theta say what's the remaining coordinates? I mean, it's just an example plus
+[16:24] D phi tensor D phi
+[16:29] Close bracket close bracket
+[16:32] Okay, I so here I said any other coordinates say for instance theta and phi
+[16:38] I'm just making this up to make it concrete, right if you can bring the metric to this form
+[16:44] Maybe maybe you can't okay, then you're lost, but if you can take it to the form then
+[16:53] Obtain the and I emphasize non physical
+[17:01] Diagram metric you want to draw a diagram diagram metric
+[17:07] We call it G diagram
+[17:10] As
+[17:12] Follows you want to draw a two-dimensional diagram, okay, and so first of all you forget about this part here
+[17:21] You just suppress it and the idea is how can you suppress this part?
+[17:25] Well, the idea is you draw a diagram only of these two coordinates roughly speaking and
+[17:31] This part you think that at every point Tx there is attached a space that has this metric
+[17:38] Which depending on the point Tx may be blown up or not?
+[17:43] Okay, so you need to suppress dimensions if you want to draw a two-dimensional diagram
+[17:48] You do that but doesn't mean that you forget this forever
+[17:51] You just forget it when drawing first and then you need to reinstate it if you want to interpret what's going on, okay?
+[17:57] So we only draw the diagram of this bit here
+[18:01] That will simply be you drop the omega and you drop this entire term
+[18:07] So what remains is dt tensor dt minus dx tensor dx
+[18:14] You say but but this this is just Minkowski space isn't it?
+[18:19] But if the outcome is always Minkowski space, why would I go through the motions?
+[18:24] It's only a portion of Minkowski space
+[18:29] because
+[18:31] Note
+[18:32] the ranges
+[18:34] Note the range of T and X
+[18:38] what subset really it is of
+[18:42] the two by two Minkowski space
+[18:45] Right, and the whole thing wouldn't be worthwhile if it wasn't a finite range
+[18:50] So you formally get something that's Minkowski as it must be because otherwise the cones wouldn't be everywhere like this
+[18:56] That was our aim
+[18:57] But the information of the diagram is where its boundaries are
+[19:01] I
+[19:02] Give an example in a second
+[19:05] Okay, that's it, and then if you draw this diagram with the range. That's the diagram
+[19:11] so this we need to
+[19:15] To put into practice
+[19:17] But
+[19:18] Two remarks first and then we'll do an example and then you go home and you compare the example to the recipe and you say well
+[19:25] Yes, now I know what he means
+[19:31] It's just a definition
+[19:36] A coordinate if you have a coordinate a coordinate induces a vector field by the symbol d by d u
+[19:43] The coordinate u coordinate is a function on the domain
+[19:47] Now you can classify coordinates at least at a point in space time a coordinate may be
+[19:54] time-like
+[19:55] meaning this thing is
+[19:57] Greater or less than zero depending on your signature convention
+[20:01] You can it can be null or it can be space-like
+[20:06] Now here I require that you have a coordinate that everywhere is null
+[20:12] That I call a null coordinate where the tangent vector field induced by it is everywhere null. It's just to have
+[20:20] Determinology
+[20:23] We mark one we mark one
+[20:28] one
+[20:30] chooses
+[20:33] In step two it is one chooses in step two
+[20:40] Null coordinates
+[20:44] comma and
+[20:46] Compactifies
+[20:49] these
+[20:52] in step three
+[20:56] Because
+[20:58] This preserves the cone structure
+[21:05] Again, I asked you to refer to the example more over
+[21:13] I think it's already my second remark and
+[21:16] Yes, so second more over dropping
+[21:23] The so-called conformal factor
+[21:30] Omega to the minus two which should be everywhere non vanishing
+[21:39] Does affect the shape
+[21:45] of
+[21:47] time-like and
+[21:50] Space-like geodesics
+[21:55] But not of null geodesics
+[22:03] So more precisely the statement is
+[22:07] a
+[22:12] Curve gamma is a null geodesic
+[22:19] of
+[22:22] the metric
+[22:25] G
+[22:27] Of an of a metric g if and only if
+[22:33] Both directions if and only if
+[22:37] gamma is a null geodesic of
+[22:44] The metric
+[22:47] Omega squared g
+[22:51] Where omega squared is a nowhere vanishing
+[22:58] Smooth function
+[23:05] On the manifold
+[23:08] So if I have a metric and I blow it up by an overall factor
+[23:13] That changes a lot
+[23:15] Totally different space and the overall factor can change from point to point even
+[23:20] But the null geodesics with respect to one are precisely the null geodesics with respect to the other
+[23:29] And if that wasn't the case dropping this would be ridiculous
+[23:35] You say I okay you drop this you keep the cones, but then still the null geodesics are different
+[23:40] No, the null vectors remain the same, but also the null geodesics
+[23:45] Okay, and the proof of this is not difficult
+[23:50] And therefore you're asked to do it in the tutorials today
+[24:02] So this is the general recipe and as I said
+[24:05] It is probably mysterious if written down like this
+[24:09] But I try to formulate it sufficiently loosely so that it applies to other
+[24:13] Space times than just the example. We just are going to calculate now
+[24:18] So please check now whether we do what I
+[24:22] Declare we would do
+[24:24] So we'll now construct the Penrose diagram for the Minkowski space time
+[24:37] Diagram for Minkowski
+[24:41] So
+[24:46] The simplest vacuum solution
+[24:55] Of Einstein's equation
+[25:01] Equations is Minkowski space
+[25:11] Which in coordinates
+[25:16] In some coordinates t, r, theta and phi where t
+[25:23] covers the entire real line
+[25:25] r goes from 0 to infinity
+[25:27] theta goes from 0 to pi and phi goes from 0 to 2 pi
+[25:34] takes has the metric
+[25:41] G equals d t tensor d t minus the r tensor r
+[25:48] Minus r squared d theta tensor d theta plus sine squared theta d phi tensor d phi
+[25:57] So I chose polar coordinates in the spatial
+[26:02] Slices in some spatial slices. I could have written d t squared minus the x squared minus the y squared minus the z squared
+[26:11] That would be other coordinates. I chose to write it in polar coordinates
+[26:15] There are such coordinates where it takes the form we start from here from wherever you like, okay
+[26:20] That's the basic idea and here I followed already the prescription always
+[26:26] Take care to note the ranges on which your coordinates are defined. You can now no longer simply write down
+[26:35] elements line elements or these metrics without
+[26:39] Noting the coordinates. So I guess this constitutes as step one
+[26:44] Start with a solution or not with some spacetime in some coordinates
+[26:50] This is infinitely extended if I would draw this on the blackboard and okay
+[26:54] What the heck is going on at infinity would like to compactify the diagram, but we follow the route
+[26:59] I just laid out step two requires to replace two non-compact coordinates
+[27:07] These two are already compact
+[27:09] It would be silly if I started working with these these guys make the problem of this thing being so in the chart in this chart
+[27:17] Being an infinitely extended chart. So I rather want to make of these two coordinates
+[27:23] I want to make new coordinates and my recipe together with the remark requires. I construct null coordinates
+[27:30] So here I say construct
+[27:33] null
+[27:36] coordinates and
+[27:37] I simply guess them how they look like and then we see whether they are null coordinates
+[27:43] I say v is t plus r this new coordinates and the new coordinate w is t minus r
+[27:51] are those
+[27:53] Null coordinates or not. So I draw an original picture of Minkowski spacetime in these coordinates t and r and
+[28:02] I already suppress at every point of this two-dimensional picture. I already suppress a
+[28:08] By r squared blown up unit sphere. This guy here is actually
+[28:15] The line element well the metric of the unit sphere
+[28:20] Okay, so actually if it's written like this I could call it the metric of s2 and
+[28:27] The unit s2 the round unit sphere round unit sphere and I can blow it up
+[28:33] So at every point here, I have additionally attached an s2 of various radius
+[28:40] But I suppressed this but doesn't mean I forget it. I just reduced those coordinates now
+[28:46] What is these t plus r? So where is v constant v is constant?
+[28:51] Everywhere here. Do you see this here? It's constant then it has another constant
+[28:55] It has another constant right that is where v is constant which means nothing, but that this is the v axis
+[29:03] Because if I go to a certain v all those have the same v coordinate
+[29:09] Similarly t minus r
+[29:11] This year is the new w coordinate
+[29:15] Okay, these are the two
+[29:17] You can quickly check by
+[29:20] calculating the symbols and
+[29:23] inserting into here or by just looking at it because you know that in these coordinates the cones
+[29:29] everywhere stand like this
+[29:32] You can quickly check
+[29:35] These are null coordinates indeed indeed. They are null
+[29:40] Okay, so that was not so difficult and of course it's Minkowski space is easy to come up with such null coordinates
+[29:47] Why null codes? Well, what does it mean null codes?
+[29:49] It means I can express any vector in this plane as a linear combination of the two
+[29:54] Of course because expressing vectors as linear combinations cares nothing about this being null or time like a space like it
+[30:01] Only cares about the two being linearly independent
+[30:04] Which is a notion of a vector space the tangent space at each point
+[30:08] That's fully independent of any inner product it carries, right?
+[30:13] It's a pre inner product notion. Therefore. It doesn't care so therefore I can do this
+[30:17] Okay, construct these null coordinates, but let's see the advice
+[30:22] What are the ranges?
+[30:23] Well, the ranges before was T covers everything and R covers zero to infinity
+[30:30] so
+[30:31] Actually before I only covered this range here
+[30:39] This is the R coordinates so this negative one is cute, but in fact it wasn't covered previously do you agree?
+[30:47] I
+[30:48] Only want to cover this and now I need so these are these two conditions here
+[30:54] Now I need to express this in terms of the V and the W
+[30:58] What is this? Well, the condition was R is always greater than zero, but R equals one half
+[31:05] V minus W. Do you agree?
+[31:08] You can recover R and you require this be greater than zero or
+[31:13] Express in terms of the new coordinates V greater than W
+[31:19] So this was just the derivation. This is the important bit
+[31:23] You have two new coordinates the others stay the same and are suppressed and you require V greater than W
+[31:30] You need to note the range if you don't keep track of the ranges in the end you will have a big minkowski space, right?
+[31:36] That's not the point keep track of the ranges. That was step number two
+[31:41] What's the step number three the step number three is now you have null coordinates you?
+[31:47] Compactify along the null coordinate, and you compactify along the other null coordinate
+[31:54] How do you do this well so compactify
+[31:59] Which is just dragon it means introduce
+[32:05] Then you coordinates
+[32:07] P and Q and
+[32:10] You choose here your favorite compactifying function
+[32:15] There many you could take the tangent hyperbolicers and and everything that yet yet you find that compactifies there many
+[32:22] smooth
+[32:24] Objective functions that take an interval to the real line or the inverse takes in the real line to an interval
+[32:30] You pick the one you like best and of course the one you like best is the one that in the end produces the simplest metric
+[32:36] But it's a choice so you get different diagrams for different choices, right?
+[32:41] But let's take this tangent inverse that compactifies
+[32:45] So again the V greater than the W, but still V and W can take any
+[32:52] Any value because the V can be negative here or it can if you go with W here
+[32:57] But nevertheless they can take any range so you should say V and W can both be from all of R
+[33:04] But with the condition that V is greater than W
+[33:08] So you do this compactification and you define these two intervals at these two new variables
+[33:13] And all that remains to be done is keep track of what now in terms of these again new coordinates
+[33:20] We keep changing coordinates. What are the ranges?
+[33:23] Well, how does V greater W translate into P and Q while it translates into P greater than Q?
+[33:31] Why?
+[33:33] Well it translates into that because the tangent is monotonic strictly monotonic
+[33:38] So translate like this. That's the first condition and what's the ranges of the P and the Q?
+[33:43] Well in principle the P and the Q in principle can come from minus pi half to plus pi half
+[33:49] That depends on having chosen this compactifying function
+[33:53] But not in the pair doesn't take values anywhere in the Cartesian product
+[33:58] But only where this is also satisfied. It is also that all very very clear. Okay, so that was our step three
+[34:06] We compactify
+[34:08] Now our step four is
+[34:10] So somehow there's no somehow they're still null coordinates, right?
+[34:14] Because they're still in this direction the P and the Q. It's just this went out infinitely and now the P
+[34:21] Goes only say up to here, right? And the Q only goes
+[34:27] No
+[34:28] Little bit like this. You can only take these values, but then you only want to cover this something like that
+[34:38] Okay, one needs to be careful when you go stouter here, okay
+[34:41] You you check what this range is with the P and the Q that's written. I
+[34:45] Ignore my picture now you
+[34:47] construct
+[34:50] For convenience
+[34:53] From these two null coordinates P and Q again a temporal coordinate
+[35:00] By having P plus Q. I think that's the right way around it then goes. Yes, and another
+[35:07] coordinate X
+[35:10] Equals P minus Q and again all the coordinates. I suppressed stay the same
+[35:16] Okay, I just displayed those parts that I change
+[35:20] Well again, I need to note
+[35:23] Because we're here in a special case. I need to know what are the ranges of this new T and the new X
+[35:29] Well, let's check. So, um, I
+[35:32] know that
+[35:35] Minus one-half
+[35:37] This year must be less than
+[35:40] the P
+[35:42] But the P is the T
+[35:45] Plus the X times one-half must be less than pi half. That's the P and the Q
+[35:52] Must also lie in this range
+[35:54] That's I just take from before but the Q is T minus X
+[36:01] Right
+[36:03] And I need to take care of P greater equal to Q. So that means one-half the P was T plus X
+[36:13] What is a greater than
+[36:16] One-half T minus X. Do you agree that we just?
+[36:21] rewrote
+[36:23] The conditions we had here expressing P and Q in terms of T and X very simple, but now of course you
+[36:33] You are want to write in terms of the
+[36:36] Of the T's in the X's and you can actually find that
+[36:40] Minus pi is less than T is minus less than pi
+[36:45] Right way it goes
+[36:50] No, no, no, no, no, no, no, no, no, of course not
+[36:53] I mean the only thing I can do sorry the only thing I can do it can multiply by two
+[36:59] So you have this result you have
+[37:01] This result right just multiply by two nothing spectacular happens and maybe here you can do something you can cancel the
+[37:10] One-half T on both sides and you learn that
+[37:16] X is greater than
+[37:18] One-half X also goes away X is greater than minus X. So two X is
+[37:25] Greater than zero meaning X is greater than zero
+[37:28] X is greater than zero
+[37:30] agree
+[37:32] This is what it is. So you keep track of the Rangers
+[37:38] Aha now one thing we didn't do we didn't keep track of the continuous change of how the metric looks like in the new system
+[37:46] Okay, so now we go through the steps again. So we arrived here
+[37:51] Okay, but now for the step five I need to express the metric
+[37:57] Express the metric
+[38:00] Now in
+[38:03] coordinates
+[38:05] T X and the ones I suppressed well the ones I suppressed with these two
+[38:11] Okay
+[38:12] So now one can either collect all the redefinitions and do this at once or one does it in steps
+[38:19] Well, let's be very courageous and let's do this at once
+[38:23] So what is the T the T is defined as the P plus the Q, right?
+[38:30] But the P and the Q is the 10 area. This is going to be terrible
+[38:35] Aha, so I rather for pedagogic reasons, of course not because this is too difficult now for me
+[38:41] For pedagogic reasons alone. We'll just make the trend. I show how the transition works
+[38:47] Say from here to there and the remaining
+[38:50] Transitions you do step by step and I give you the final result. Okay, good. Okay, so you need to do that
+[38:56] So we do this in the steps. We followed steps is we first express
+[39:02] V is T plus R
+[39:05] W is T minus R and you know the drill the drill is that you need to get the new metric in the new system
+[39:12] Right, so let's call this the system Y and the in the first step
+[39:16] a
+[39:17] B you get this by the transformation law from the old system Mn by DD
+[39:25] D y a dy b Xm Xn and you know how that works
+[39:32] So I need to calculate these matrices here, but what I rather calculate is dy
+[39:38] Well, in this case, we do it differently in this case
+[39:42] We solve for the T and the W the T is one half V plus W and R is one half V minus W
+[39:51] Okay, so these are the Y coordinates so we can
+[39:56] So these are the Y coordinates so we can directly calculate these guys. So what is DX by dy?
+[40:03] row
+[40:04] column
+[40:07] Equals, okay, so we need an order the order is VW and here's TR and of course we have the other variables
+[40:15] So we derive T with respect to V yields a one half
+[40:20] T row with respect to W is also a half T with respect to theta is zero T with respect to phi is zero
+[40:29] Next one R with respect to V is one half R with respect to W is minus one half R with respect to theta is zero
+[40:38] R with respect to phi is zero
+[40:41] Aha, and now the remainder is just unchanged
+[40:47] That's the transformation matrix, okay, we don't need to invert because I quickly inverted this one
+[40:53] So now we express this so we say the G in this new system
+[41:01] The zero zero component. How does it work now? I tried to do it better than last time now in the X coordinates
+[41:07] This is simply the Minkowski line element. We started with so I start with
+[41:13] 00 by
+[41:15] 00 but that's this one so it's the one half once the one half twice times the G
+[41:21] 00 over there was a one
+[41:25] Now comes plus because of the summation convention
+[41:28] But now I get from the 1 1 component which is minus one I get one by zero one by zero
+[41:36] So I hang on a second again row column. I go to the
+[41:42] To the next row, so I need to take these two. Is that right?
+[41:46] What do I do it wrong again?
+[41:49] One one is the X one the one is the row. So I need to take these two, right? Yes, so it's plus one half times
+[42:00] Now hang on I
+[42:02] Take the one one with which I don't know hang on. I'm still in the zero row
+[42:07] I'm of course. I'm still in the zero row. So I will still want with respect to zero
+[42:12] So it's this column. So I take this one. I take take these guys here, right?
+[42:16] So this is plus one half times one half times but the G one one is minus one and
+[42:23] Then come plus zero plus zero
+[42:26] So you get G zero zero is surprisingly zero
+[42:31] Ha, okay, so then let's check the G Y the zero one the zero one
+[42:38] We now need to
+[42:42] Come from zero zero one one and so on
+[42:45] But this is zero. This is one and that's the column. So we go in here
+[42:55] So
+[42:56] We first take the zero zero that is a one and then we have zero zero
+[43:02] Zero one
+[43:05] So what is the zero zero row zero?
+[43:08] Column zero is the one half
+[43:11] But then we go with the one that's the row one
+[43:16] Column zero still that's again a one half. I
+[43:20] Think that's right. Then comes the plus now I go with the G one one which is a minus one
+[43:27] But the G one one goes with the one
+[43:32] Zero because we want that one one zero is one zero is this one half and
+[43:38] Then we come with the one one which is minus one half
+[43:45] And the remainders are again zero and now by miracle. This is a one
+[43:53] But of course the same is true for G Y of one zero. That's also one
+[44:00] Then you do G Y one one equals and now I stopped the exact calculation. I just tell you what it is
+[44:07] it is
+[44:09] One one yield zero again and all the others are unchanged
+[44:16] Yes
+[44:22] One half exactly because it's a quarter plus a quarter. Thank you
+[44:33] Okay
+[44:34] So, okay, all others are unchanged. That means in these new coordinates now. I write them out in the new coordinates
+[44:41] you a V
+[44:43] W theta Phi
+[44:46] a
+[44:49] B
+[44:51] Equals the whole thing looks like
+[44:54] One half one half zero zero one one
+[45:06] That's how it looks like okay and so on so you carry that through now you start from there
+[45:11] You do the next change you change to the p-coorders with this tangent. That's a little bit more
+[45:18] Bothering but the result is not too difficult. Well
+[45:23] So continuing
+[45:26] Like that
+[45:30] Up to
+[45:32] Chart given by T and X and the theta and the Phi
+[45:38] one obtains
+[45:43] G equals
+[45:46] So there's an overall factor. I think it's a fourth for anything to look that up
+[45:52] P P and Q and P and Q are the the T and the X yes P Q
+[46:00] It's something like a fourth
+[46:03] One over
+[46:06] Tangent squared of the P, but the P is simply a
+[46:11] One half T plus X
+[46:15] one half T plus X
+[46:18] Times one over tangent squared
+[46:21] one half T minus X and
+[46:25] We're so happy that then a big bracket opens and that will be the overall factor which we're going to drop
+[46:32] Okay, and then you obtain in there
+[46:38] Simply
+[46:40] DT tensor DT
+[46:43] Minus DX tensor DX
+[46:47] minus
+[46:49] sine squared of X
+[46:53] times the bracket D theta tensor D theta plus
+[46:59] Uh-huh, what was that?
+[47:06] So longer calculation
+[47:08] As to simply sine squared theta is just this sphere plus sine squared
+[47:14] theta d phi tensor d phi and
+[47:18] The big bracket closes
+[47:20] Okay, yes
+[47:23] Yes
+[47:27] Yes
+[47:33] Yes, you're absolutely right you're absolutely right because you say theta and phi down here
+[47:40] You originally had an R squared the R squared became
+[47:45] in this
+[47:47] The R so the X is the one half
+[47:51] Um T plus no, how was it? Sorry
+[48:00] V minus W no squared V minus W
+[48:04] One half squared something like this no for the radius squared
+[48:09] And then down here you have of course one half V minus W
+[48:14] Squared sine squared theta. That's right. Thank you. Thank you very much. Yes, and okay
+[48:19] So that stays here. So you have this to the end and we note
+[48:26] It is the metric of a so-called
+[48:33] Simple
+[48:36] Space time I
+[48:38] Think that's Penrose's terminology for a space time that can be brought to this form
+[48:43] Which by definition is one for which you can draw a diagram one for which
+[48:50] One
+[48:52] can draw a
+[48:54] Diagram
+[48:55] Name me by what prescription? Well
+[48:58] namely for the metric g diagram
+[49:02] Which is not the original metric is only a two-dimensional one which drops this last term and drops the overall factor
+[49:10] Which is dt tensor dt?
+[49:13] Minus the x tensor dx and again you say well, this is just two-dimensional Minkowski space well not quite
+[49:20] Please note the ranges of t and x
+[49:24] This is now important. You know the ranges of t and x
+[49:28] where
+[49:30] Minus pi less than t plus x less than pi
+[49:34] Minus pi less than t minus x less than pi and the condition x is greater than zero
+[49:41] applies and you see all the trouble of
+[49:45] All this dropping terms and so on you had to do this step in order to see whether it's a simple space time
+[49:52] You could say well, I already knew here what the ranges are. Why didn't I draw immediately?
+[49:57] Well, you didn't know whether the line element is of the form where you required to drop the terms
+[50:03] So you need to check whether it has this form
+[50:07] That's contained recipe if it has this form
+[50:10] Then the diagram metric is like a portion of Minkowski space. This is only a portion of the Minkowski space
+[50:18] So let's draw the diagram
+[50:22] Yes
+[50:27] Yes
+[50:29] No, no, no, no, okay, so this is just a jargon
+[50:33] If you have in the real numbers with the topology of the real numbers if your interval is extends to infinity, it's non-compact
+[50:47] Yes, okay, okay, so this is dry you're right you're right so but this is this is jargon
+[50:52] It can never be closed because it's a coordinate range and so so in that sense. Yes
+[50:59] Oh
+[51:02] I don't consider I don't consider I calculate
+[51:06] D by dt
+[51:08] D by dt I plug it into the abstract Minkowski metric and I find in with our signature convention
+[51:16] It's less than zero I find I
+[51:19] Don't consider. Yes, okay, so thus we obtain
+[51:29] the diagram
+[51:33] For Minkowski space time
+[51:39] Yes
+[51:42] Who well it depends on the signature. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes
+[51:50] That's right. I used my my own signature convention again. Yeah, that's very good. Okay, so thus we obtain the diagram for Minkowski space time
+[51:59] So, how does it go? Well, it's a portion if you look only at the metric and you ignore and
+[52:05] You ignore the ranges
+[52:07] Then you know it's Minkowski space time with the metric dt tensor dt minus dx tensor dx
+[52:16] Okay
+[52:18] And before it's deleted I need to recover minus pi is less t plus x less than pi minus pi
+[52:25] Okay, thank you t minus x less than pi and x is greater than zero
+[52:30] But what are these bounds here?
+[52:33] Let's check this one t plus x must be less than pi. That means t must be less than pi minus x
+[52:40] So this is pi
+[52:42] and I go down here
+[52:45] This is pi minus x and the t
+[52:49] So this is the t the t must be low that
+[52:53] Okay, so I can already
+[52:55] All of this is not interesting all of this does not belong to the diagram agree
+[53:01] So now I look at t is greater than minus pi minus x
+[53:10] Okay, minus pi is here minus pi minus x is this line
+[53:17] Straight line
+[53:19] It's greater than that so I can cross out all of this
+[53:23] Agree
+[53:25] So that was the first one
+[53:27] Now I check the second one
+[53:29] t minus x is less than pi means t is less than pi plus x
+[53:36] Pi plus x is this one
+[53:39] This is pi plus x, but t must be greater than that so all of this is excluded as well
+[53:46] Now I have t no, sorry t must be less than yes, that's right t is less than that right
+[53:52] So now t is greater than minus pi plus x minus pi
+[53:58] plus x is this line and
+[54:02] T must be greater than that so all of this is excluded and
+[54:07] Finally, so that's this one and
+[54:10] Finally x greater than zero
+[54:13] means
+[54:14] All of that but this year is excluded
+[54:18] Agree
+[54:19] So what remains is this piece here
+[54:23] So all of that all of this is taken care of on this piece
+[54:32] Here
+[54:37] And of course these some now you need to see
+[54:40] Is is less than is less than is excluded, but that means
+[54:45] Okay, I should have checked what exactly happens on the boundary well this one is certainly not there
+[54:53] So you have this diagram so the diagram of Minkowski is this
+[55:07] That's it and
+[55:09] You know that in this Minkowski this metric says that light runs like this
+[55:20] But that's a little bit misleading as I'll explain in a second or it runs like this
+[55:25] This is misleading because well, it's true, but at each point there's still the little sphere. So let me
+[55:33] reinstate
+[55:35] plus one dimension
+[55:37] So I suppressed two dimensions every point I have a little two sphere attached right now I reinstate
+[55:45] One of these dimensions
+[55:47] That means I rotate this around this axis
+[55:51] Then I reinstate the phi for instance and then I get this diagram
+[56:07] So this one point here becomes this entire this entire line right so this point here
+[56:15] Becomes then this if I reinstate one coordinate of the two suppressed ones agree and
+[56:22] This is a set I zero in the diagram. It seems just like a point and has a name I zero is called
+[56:30] space like infinity
+[56:37] It's called
+[56:46] Yes, so so the point is yeah, the point is these different spheres depending on where
+[56:52] Depending on where they are attached. They have different size. That's right
+[56:56] And I distorted that by the conformal diagram. I lost that information in the diagram
+[57:02] Okay, but I still know how the geodesics run and now you can more easily understand what null geodesic does and null
+[57:10] Geodesic can only start or can only run at 45 degrees
+[57:14] But it runs inside inside this thing
+[57:17] So it runs from here to here. So if I draw the line like it runs like
+[57:23] This and then actually it goes like this because if you rotate this it goes straight through
+[57:29] Okay, so light runs at these lines
+[57:33] Certainly at every point under 45 degrees slow plus or minus one
+[57:38] Okay, so this is what what the light does this point is called space like infinity and you see here
+[57:45] It's already a circle if you reinstate one more. It's an s2
+[57:49] Okay, the space like infinity is an s2
+[57:52] Then there is this point up here called I plus
+[57:57] I plus this called future
+[58:00] time-like
+[58:02] infinity
+[58:04] And you have I minus which is past
+[58:08] time-like
+[58:11] Infinity
+[58:12] Now we pulled points from infinity to a finite distance. That's the I minus and
+[58:18] Then these sets here
+[58:21] this one here
+[58:24] This one here is called script I
+[58:28] Minus and this one is called script I plus and this is red scri
+[58:37] Script I short scri
+[58:40] Scri minus is past
+[58:44] null
+[58:45] infinity and
+[58:48] Scri plus is future
+[58:51] null
+[58:53] infinity and
+[58:54] the statement is
+[58:56] Space like geodesics
+[58:59] If you extend them to their full parameter, they start and end at I zero
+[59:06] Null geodesics
+[59:09] Start at scri minus and end somewhere on scri plus
+[59:15] So it took care of the space like ones the time like null ones and the time like ones they all start at
+[59:23] Past time like infinity and they all end there
+[59:27] And if I start now if I reinstate the information that I suppressed of how exactly the metric looks like including the conformal factor
+[59:35] Then I can draw all the time like geodesics and in this diagram all the time like geodesics look like this
+[59:44] But in order to calculate this I need to reinstate all the information I dropped, but of course I can draw it in here
+[59:51] Okay, and then you can start discussing. What are the causal relations? Who sees whom stuff like that? Okay
+[1:00:00] So that's the Penrose diagram of Minkowski space time
+[1:00:07] Okay
+[1:00:08] Are there questions so far?
+[1:00:12] So then I will finally just draw
+[1:00:17] Other space times
+[1:00:20] Diagrams of other space times
+[1:00:31] So as I said I already it took my punchline so for Schwarzschild
+[1:00:37] maximally extended
+[1:00:42] We had the following diagram
+[1:00:45] Singularity shake Chuck
+[1:00:48] Singularity
+[1:00:50] Chick-Chuck Chick-Chuck
+[1:00:52] That's it, and you have
+[1:00:57] Space like infinity here and you have space like infinity there
+[1:01:00] They're separate space like like infinities. You have I minus here and minus here
+[1:01:06] I plus here and I plus here, but this these are the ones from this region and these are the ones from that region
+[1:01:14] Okay, then you have here
+[1:01:17] Scri plus and Scri minus and here you have Scri minus and Scri plus and
+[1:01:24] Then you call this the black hole you call this the white hole. We embarrassed about it. This is outer region one
+[1:01:30] This is outer region one prime
+[1:01:33] this is the Penrose diagram of
+[1:01:35] Schwarzschild and you can then again draw. I think the null geodesic either the the time like geodesics look like this
+[1:01:45] Furion state them
+[1:01:47] You can draw them here as well
+[1:01:49] those are all the time like
+[1:01:51] geodesics
+[1:01:53] And so on and then you can look here at the space like geodesics. They run like this
+[1:02:00] So these are the time like ones these are space like ones and the null ones you don't need to think you don't need to
+[1:02:05] Draw because you know the null ones always run like this
+[1:02:09] So that means from both universes well from both regions every null curve
+[1:02:17] Falls into the black hole
+[1:02:20] Okay, and stuff like this. Okay, so that's that's the use of this these diagrams
+[1:02:25] So that's this Schwarzschild maximally extended another interesting one
+[1:02:31] That's a
+[1:02:33] Yes, please
+[1:02:35] identify this
+[1:02:42] Yes, yes
+[1:02:43] Well, I discussed and well I didn't discuss I just mentioned that here's this funny topology change going on
+[1:02:51] Okay, so I don't I'm not entirely sure whether in the middle
+[1:02:56] They're finally I don't think they're connected in the middle
+[1:03:00] Geodesics know they probably run up there. I
+[1:03:03] I don't exactly know but I am I think these are separate time like a space like infinities
+[1:03:10] Please check. Please check. Okay, so the B
+[1:03:14] I would use the isotropic and you homogeneous universe we discussed
+[1:03:20] isotropic and homogeneous
+[1:03:23] universe
+[1:03:26] So for instance eg filled only
+[1:03:32] With
+[1:03:34] Radiation although it doesn't make a big difference here and say for copper is zero and for lambda is zero
+[1:03:39] You remember we calculated that stuff you get a concrete line element a concrete metric, right?
+[1:03:45] We've got a concrete concrete metric and we can draw this and it looks like this
+[1:03:58] That's it and
+[1:04:01] This guy here this singularity is of course what we call the big bang
+[1:04:06] And you say hey hang on. I thought it was a point. Well, it is a point. It's not in the manifold
+[1:04:12] It's like in a sphere
+[1:04:13] You take out a point and then you can open the point and stretch it apart and it's the same here
+[1:04:19] It's a point that's missing and then you can pull it apart. It doesn't matter, but all of this is one point
+[1:04:25] Because it doesn't belong to it. You can stretch it
+[1:04:27] Okay, so this is this and there's an interesting thing here
+[1:04:30] So first of all we can also extend this picture. We can say well, it actually looks like this
+[1:04:35] If I reinstate one extra coordinate, I mean the diagram is only this right
+[1:04:40] So maybe I should keep it like that and then should say reinstate in one coordinate. I
+[1:04:46] get this picture and
+[1:04:50] Well
+[1:04:52] It's a little bit like this and everything down here now the big bang
+[1:04:57] Singularity is this whole
+[1:04:59] plane down here
+[1:05:01] After you rotate it, but it's just one point right just one point pulled apart because the point didn't belong to it anymore
+[1:05:07] And now you see there was a time in the universe
+[1:05:11] I first do it here
+[1:05:12] There was a time in the universe up to that time because of particle physics blah blah blah this part of the universe was not
+[1:05:20] Transparent because there was stuff flying around that didn't let the photons propagate
+[1:05:27] And then at some point here it's a combination. There was the photons were
+[1:05:32] Set free so from then on photons could just travel right
+[1:05:37] So then the universe was transparent so here the universe was opaque so this is extra information I give you
+[1:05:45] Park and here
+[1:05:47] The universe
+[1:05:49] Is transparent since then
+[1:05:52] Aha, but now there is a funny thing it depends on when the universe
+[1:05:58] Became transparent of whether there is something that we call the cosmological horizon problem or paradox
+[1:06:07] This here
+[1:06:09] From here. This is the earliest light we can get right photons that kind of emerged here to they can reach us
+[1:06:18] Now we sit somewhere. Let's say we sit somewhere here
+[1:06:22] okay, so
+[1:06:25] We are the the light we reach right today. I mean sitting here means being now into the here and today
+[1:06:31] Okay, that's us observer
+[1:06:35] Now light reaches us
+[1:06:37] That's lighted reason. This is the light that reaches yesterday
+[1:06:41] Okay, and this is the light that reaches us tomorrow
+[1:06:45] But the light that reaches us today
+[1:06:47] Comes from this point
+[1:06:50] So what well, let's draw that in this picture in this picture
+[1:06:55] This axis we're here. Let's say it's the light that comes from here
+[1:07:01] But now it's of course light that comes from everywhere on here
+[1:07:05] But this is supposed to be on this level. I don't know my drawings probably not particularly good
+[1:07:10] So down here is the singularity now. There is this point when the university at the university. Yeah, the universe
+[1:07:17] Became transparent. Well the university becoming transparent is still outstanding. So
+[1:07:22] Anyway, so we are here and actually there is light so before that the universe was a park and then here we of course
+[1:07:30] receive light
+[1:07:32] receive light
+[1:07:35] Only from from this line here right from all directions we look at all possible directions and
+[1:07:42] This is the light we get from this direction
+[1:07:44] And that's the light we get from that direction and that's the light we get from this direction
+[1:07:48] And if I reinstate yet another dimension, it's the light I get from all the dimensions from all the directions in space, right?
+[1:07:55] This is this picture of the cosmic microwave background that you get that we saw last night in the talk
+[1:08:00] You remember you had this kind of sphere
+[1:08:02] Which is like you look from inside to a sphere what you see in the cosmic microwave background. That's just
+[1:08:09] Light originating here. It's the light generated here one dimension suppressed hence only a circle and not a sphere. Yes
+[1:08:33] Well, you need you need to check if you want to know how exactly it runs
+[1:08:37] But certainly light will run like this if you suppress these other dimensions
+[1:08:41] So the other suppressed you certainly it moves along there
+[1:08:45] But I mean if you're uncertain you need to go to the full line element and calculate
+[1:08:49] And that's what we actually of course do but because we know that light certainly runs here
+[1:08:54] One can give very quick arguments without calculation that are true
+[1:08:58] It's all true and so in my three-dimensional picture
+[1:09:02] This was just to tell you that's the light coming from all directions
+[1:09:04] But now I go back to this one because it's more easily discussed
+[1:09:08] And I only rotate this in in I only reinstated this by a rotation in order to make the problem clear
+[1:09:19] Like it's difficult to draw this three-dimensional picture so I do rotate but I only draw this section here, right?
+[1:09:27] So assume the universe was intransparent up to here
+[1:09:32] And now I receive light from here that would say we are here, right?
+[1:09:37] I mean you could extend this so I don't need to draw a diagram in the diagram this reaches us today here and
+[1:09:44] This one reaches us to be here and these are directly opposite
+[1:09:49] Directions from which I look at the microwave background
+[1:09:52] I look down the sky and then the sky and I get this and as we said the spectrum we get from here to here
+[1:09:59] Both spectra associated to roughly three Kelvin
+[1:10:04] Right plus minus these ten to the minus five
+[1:10:08] little
+[1:10:09] In homogenities, okay
+[1:10:11] In I in I trust in isotropies because if I go around here if it's different different directions
+[1:10:16] I call it in isotropy in what I measure, okay
+[1:10:19] Now you look at this diagram say, okay from everywhere from this and this and if you look at here from everywhere
+[1:10:25] I get roughly three Kelvin
+[1:10:28] Well, that's kind of remarkable
+[1:10:30] because look
+[1:10:32] Could there have been a process
+[1:10:35] That makes this light do the same stuff or be the same as the light here
+[1:10:41] Now you look at the proportions in this diagram, of course if I go higher up this vanishes, but this is the fact
+[1:10:47] The past events that could have influenced
+[1:10:52] What happens here?
+[1:10:54] Are only the events in the shaded area why because the conformal diagram light runs at 45 degrees
+[1:11:01] Nothing runs faster than the speed of light no information
+[1:11:04] So whatever caused the light to have the spectrum here it has whatever did it whatever physical process
+[1:11:10] It doesn't matter. It must have taken place somewhere here
+[1:11:15] But then over here
+[1:11:17] For this light. It's also true that whatever made it have this spectrum
+[1:11:22] The physical process must have happened there
+[1:11:25] oops
+[1:11:28] No physical process since the Big Bang could pause if Einstein's theory is right and light travels along Nalgir desics
+[1:11:36] No physical process
+[1:11:38] Could have been a common process that brings this to three Kelvin and this to a three Kelvin radiation and
+[1:11:45] This is true around here. This is true in all the directions
+[1:11:50] This is called the cosmological horizon problem
+[1:12:01] Because it's totally mysterious how this could be
+[1:12:05] how can this be and
+[1:12:08] One solution to this
+[1:12:13] One solution to this is
+[1:12:16] Inflation
+[1:12:18] Which says the Einstein equations for the universe aren't right
+[1:12:23] You need to add an extra field called an inflat on and
+[1:12:29] It's called in flaton because it makes something you want namely inflation and you'll actually do that in the tutorials. Is that right?
+[1:12:36] Yes, so in the tutorials, you will calculate cosmology with inflation and there the problem will be solved
+[1:12:44] Okay, but this is Einstein's theory results. So you see you have a conformal diagram of the
+[1:12:50] Frw solution you found you plug in a few extra numbers that you know and calculate
+[1:12:56] I mean, it's not so easy, but you get this and then you say oops. There's a problem
+[1:13:01] You see how useful these diagrams are
+[1:13:04] Right
+[1:13:10] Yes, this line thing is a point. Yes. Yes, but it doesn't belong to it
+[1:13:14] But immediately after the point. Okay, look think of a sphere you take out a point and then you can open up the sphere
+[1:13:23] Why you pull this apart? So this was just a point taken out that can be my but then once you be beyond this point
+[1:13:33] There there is this is and the causal diagram tells you exactly this you might have the intuition if you don't draw the
+[1:13:41] Light rays at 45 degrees. You might have the intention. Well, maybe this is not so far from this
+[1:13:46] Well, what do you mean by far what interests us is not far whatever that means because that depends on the observer
+[1:13:52] What interests us is could anything here have influenced this point the answer is no
+[1:13:58] So this is the beauty of the conformal diagram, right? It greatly distorts distances and stuff like this
+[1:14:05] But it keeps causal relations in exactly this way. So you can very easily discuss what influenced what?
+[1:14:13] Nobody claimed that you keep all the information in the diagram and we would be asked too much
+[1:14:18] Right not every spacetime is a Porsche of Minkowski space
+[1:14:21] But as far as the causal structure is concerned the so-called simple space times are
+[1:14:28] This is yet another example, and I give you a final example
+[1:14:32] So this is be this in C's gravitational collapse
+[1:14:42] And you can also start drawing diagrams and discuss the effects or the the structure of space time or
+[1:14:49] Speculate on the structure of space time by drawing down diagrams and say wouldn't it look somehow like that? Okay?
+[1:14:56] So
+[1:14:57] Gravitational collapse where you have mass that on its own gravity collapses
+[1:15:03] Until it's inside its own Schwartz Schild radius
+[1:15:07] The diagram would probably look something like this
+[1:15:14] So we're here at past time like infinity
+[1:15:19] We go here like this
+[1:15:22] so the so this would be
+[1:15:25] So far Minkowski space, but now we put a lot of matter in Minkowski space and matter
+[1:15:31] Consists a lot of matter like all of you
+[1:15:33] All point particles. So all of you fall freely
+[1:15:39] Say like this, okay
+[1:15:42] So all of you fall freely and if it's a whole bunch of you, this is what happens
+[1:15:47] But at some point under the influence of the own gravitational
+[1:15:52] Field this collapses and
+[1:15:57] At some point it's inside the Schwartz Schild horizon so horizon forms
+[1:16:07] Horizon forms and
+[1:16:12] Then here it's like a little half bit of Kruskal
+[1:16:21] The matter further falls in the matter finally falls into the singularity it itself produces
+[1:16:28] Here you have the black hole generated by this matter in a sense before you didn't have a black hole and
+[1:16:34] Then the matter collapses and you get a black hole and this is the outer region
+[1:16:40] And in this picture you would have a kind of a cut version of the of
+[1:16:46] the
+[1:16:47] Of the Kruskal diagram right because all of a sudden you have matter for instance it you get rid of the white hole
+[1:16:56] Which is was in a purely vacuum solution so you could start discussing whether
+[1:17:03] Gravitation collapse looks like that you can start calculating it and then try to construct the diagram
+[1:17:08] Or you can start thinking well isn't gravitation collapse wouldn't the diagram somehow probably look like this
+[1:17:14] So you can start speculating on spacetime with black holes in it and
+[1:17:19] Very far extended spacetime so you can bring it all to finite size and you can start discussing with some
+[1:17:28] Intuition that is not wrong in the first place because again, so this is cry minus
+[1:17:35] This is cry plus. This is I zero space like stuff starts
+[1:17:41] This is the singularity. This is the black hole and you know how how matter runs here for instance light
+[1:17:47] Will kind of fall into here
+[1:17:49] like this
+[1:17:52] Pardon me
+[1:18:00] Yes in this case this
+[1:18:02] Well the singularity no longer belongs to the space time but in a sense. That's also where the null geodesics end
+[1:18:08] They will end in here
+[1:18:10] But again, you need to be careful because you need to rotate it and what needs to be careful
+[1:18:14] We need to know what one's doing, but very roughly speaking you
+[1:18:18] You can think of the diagrams like that. Okay
+[1:18:30] Well here neither here neither you could have
+[1:18:34] So
+[1:18:38] I think this year
+[1:18:41] Is I think this year must be future time like infinity not everything has to fall into a black hole
+[1:18:51] You can stay out
+[1:18:54] Right for instance by having a rocket if you're far away from the black hole you accelerate moderately in that direction
+[1:19:01] Then you don't fall in
+[1:19:03] Okay
+[1:19:08] Okay, yes
+[1:19:18] Which geodesics
+[1:19:26] Okay, that's difficult because
+[1:19:29] For
+[1:19:31] The one that circles around you certainly well you could choose the theta for instance to be pi half
+[1:19:39] And then you're in this equatorial plane, but then the phi would of course change
+[1:19:44] so
+[1:19:46] Okay, maybe one can do this one would have to rotate this guy very much like we rotated
+[1:19:53] This guy here well and then you have to discuss because you
+[1:19:59] You
+[1:20:02] Yeah, because then information is hidden and how in this attached s2's where there's a theta and a phi
+[1:20:08] How in there you rotate and that's of course suppressed in the diagram. So if you
+[1:20:15] Nice, you know what I mean. So if you rotate around you you calculated all this right the
+[1:20:21] The light that runs in the equatorial plane
+[1:20:24] Then the phi runs, but the phi running means whenever you draw here a light ray
+[1:20:30] The suppressed extra space in there you circle in a certain way. So this is not in this in this diagram
+[1:20:37] So you could say
+[1:20:39] Maybe you don't see in this diagram whether it circles around or not, but I'm not entirely sure
+[1:20:44] So I mean that's something you can can investigate and again the diagrams because they're suppressed dimensions
+[1:20:50] They of course have limitations right of course they do but they allow very well to discuss causal causal relations
+[1:20:57] And that's why they're useful and that's why they are sometimes constructed. Yes
+[1:21:03] In the diagram here
+[1:21:13] No, that's not happening the point is here only null geodesic start and you say why is that the case?
+[1:21:20] Well, because everything is deformed in such a way that I mean so in
+[1:21:25] Let's say that's the standard minkowski space diagram that extends in all directions
+[1:21:30] Well a time-like geodesic as we know
+[1:21:34] Always looks a little bit like that because it always needs to stay inside the cone and
+[1:21:40] very but but light
+[1:21:42] From wherever it comes at 45 degrees
+[1:21:45] Well, you have to think of this infinitely far away
+[1:21:47] This kind of comes from another
+[1:21:50] From another starting point an endpoint if you extend it so very roughly speaking
+[1:21:55] Time-like geodesics go from here to here
+[1:21:57] But of course the picture is wrong because it goes to infinity in those directions and the light comes from here and from here
+[1:22:04] If you extend it to all directions now if you say what what you mean by this
+[1:22:09] Well in the diagram you can calculate it so what you have to do you go to the diagram
+[1:22:14] You do not drop all the conformal factors and stuff you keep the exact then you have a metric on this domain
+[1:22:20] Okay, with and then you calculate on this domain you calculate the time-like geodesics
+[1:22:26] You can do that in those coils and they will all start here
+[1:22:34] Ah
+[1:22:45] So I know that this is true for geodesics that they start there and end there
+[1:22:50] I
+[1:23:08] No, no, no, no, it's not the case
+[1:23:16] Yes
+[1:23:19] Yes, but look we suppressed dimensions so you could certainly start here and run over here I
+[1:23:28] Mean what you asked okay, so first let me first treat the first question
+[1:23:31] Okay, first question was could it be that non geodesic start somewhere else?
+[1:23:36] I'm not entirely sure probably yes. I know that geodesic start there. Okay. That's the first thing second question
+[1:23:43] That was asked is
+[1:23:46] In what directions can this run obviously again because we suppressed dimensions and so on you need to treat this with care
+[1:23:53] All you can certainly say is about causal influences. You know that this guy
+[1:23:59] Here can at most have been influenced by this guy here, but no longer by this guy later
+[1:24:07] Okay, stuff like this you can directly discuss. It's without problem
+[1:24:13] Everything else needs very careful scrutiny of what really happens and
+[1:24:19] Depends from case to case and so here I said well that is this I zero and I minus and I plus
+[1:24:25] What one has to do one has to check that all time like geodesic start here and end here and then these points deserve the names
+[1:24:32] Right, so this requires further further work. Okay. Now. They were more questions. Yes
+[1:24:39] Yes
+[1:24:42] Yes
+[1:24:52] Yes
+[1:25:12] Well, so I think the statement was so it's a light concept every point stand like this
+[1:25:20] And I think the state was statement was if you if you start here
+[1:25:24] I think you can go straight up to here with a timeline curve
+[1:25:30] Why not because the cones everywhere stand like this? I don't see a reason why you why you couldn't end up here
+[1:25:37] Right
+[1:25:39] The question is whether whether they can can start here. Maybe yes, it's not to do this
+[1:25:51] Yeah, yeah, yeah, but but but the question nevertheless is with all time like curls need to start here
+[1:25:56] I only know that the time like geodesics need to start here and end here
+[1:26:02] Okay, so I we need to check and I need to check now tell you
+[1:26:06] Okay
+[1:26:10] Okay, good. Okay, so those those are the the diagram so now if you see one of those, you know how that works and then
+[1:26:19] This completes the exact solutions part of the course and on Wednesday
+[1:26:25] We'll do something new so far. We always took symmetry assumptions in order to solve
+[1:26:31] Now we will be able to drop symmetry assumptions somewhat, but we do something different
+[1:26:37] We do linear perturbation theory, so we expand
+[1:26:41] the Einstein equations and
+[1:26:43] We will do a linearization of the Einstein equations
+[1:26:47] Then we get linearized solutions and that opens an entirely new direction of solutions
+[1:26:53] For instance, you detect you see that the theory the Einstein Einstein equations
+[1:26:58] actually encode gravitational waves
+[1:27:01] And so that you get by perturbation methods and also in cosmology
+[1:27:05] We had this exact solution, but the universe is not homogeneous and isotropic in particular
+[1:27:10] You want to understand where the structure comes from? Why are there clusters of galaxies?
+[1:27:16] Why are there galaxies? What's the large-scale structure is not homogeneous?
+[1:27:19] We see this and you now want to understand the structure formation for instance by
+[1:27:26] perturbations around the exact solution which assume perfect symmetry and
+[1:27:30] So you perturb around an exact solution
+[1:27:33] so we need to learn how to perturb around exact solutions and then
+[1:27:38] Detect small deviations from that and that will be the topic on Wednesday
+[1:27:44] That also has to do with cosmology probably Valera Petorino today and tomorrow will also use that either explicitly or implicitly
+[1:27:52] And then when Bernhard Schutz comes with the gravitational waves. It's again the same technique of
+[1:27:56] Perturbation theory. Thank you

@@ -1,0 +1,767 @@
+[00:00] this program is being presented to you
+[00:02] by the Harris international winter
+[00:05] school on gravity and lights welcome to
+[00:24] the third tutorial of the w/e Helios
+[00:28] International winter school on gravity
+[00:30] and light
+[00:31] today's topic is multi linear algebra
+[00:34] and again we want to start with fifteen
+[00:37] statements which may either be true or
+[00:41] false what space at what statements on
+[00:46] vector spaces are correct commutativity
+[00:50] of multiplication is a vector space
+[00:52] axiom no it's not commutativity of
+[00:56] addition is one but commutativity of
+[00:58] multiplication follows from the
+[01:02] commutativity of multiplication on the
+[01:05] field that underlies so this is
+[01:07] incorrect every vector space is a matrix
+[01:11] with only one column false as well since
+[01:14] we had the example of polynomials up to
+[01:17] some finite degree which constituted a
+[01:21] vector space and these are definitely
+[01:23] not a matrix with only one column every
+[01:27] linear map between vector spaces can be
+[01:29] represented by a unique quadratic matrix
+[01:33] this would be true if the dimensions of
+[01:36] both vector spaces were the same but
+[01:39] here the statement says nothing about
+[01:42] the dimensions and therefore this is
+[01:44] false every vector space has a
+[01:48] corresponding dual vector space that's
+[01:51] correct
+[01:52] because if we think about what the dual
+[01:57] vector space was and it was just the
+[02:01] linear maps from the vector space itself
+[02:05] into the underlying field which is our
+[02:09] in our case and of course you can always
+[02:11] construct
+[02:12] these maps and put those together this
+[02:15] is the dual vector space the set of
+[02:19] everywhere positive functions on our
+[02:21] with point wise addition and s
+[02:24] multiplication is a vector space no it's
+[02:27] not since there's no neutral element you
+[02:30] do not have to zero in here B what is
+[02:35] true about tensors and their components
+[02:37] the tensor product of two tensors is a
+[02:40] tensor this is certainly correct since
+[02:43] it's defined in that way you can always
+[02:47] reconstruct a tensor from its components
+[02:50] and the corresponding basis that's true
+[02:53] as well since one can write T equals t
+[02:58] IJ e I tensor product ej for example
+[03:05] here for a zero two tensor so that's
+[03:13] true the number of indices of the tensor
+[03:18] components depends on dimension that's
+[03:22] false the range of the indices of the
+[03:26] tensor components depends on dimension
+[03:28] but the number of the indices has
+[03:30] nothing to do with that the Einstein
+[03:33] summation convention does not apply to
+[03:35] tensor components yes it does so the
+[03:39] statement is false the summation
+[03:42] convention means that if we have indices
+[03:45] up and the same index down then there's
+[03:50] something like an invisible sum and we
+[03:54] sum up to the dimension of the vector
+[03:57] space a change of basis does not change
+[04:02] the tensor components yes it does
+[04:05] since the tensor components are defined
+[04:07] by plugging in the basis vectors C given
+[04:14] a basis for a D dimensional vector space
+[04:16] V one can find exactly d squared dual
+[04:20] basis for the corresponding dual vector
+[04:22] space V star
+[04:24] that's incorrect since there's precisely
+[04:27] one dual basis to a given basis of beam
+[04:33] that's the condition that has to hold
+[04:39] that means epsilon are the basis vectors
+[04:47] of B star and E are the basis vectors of
+[04:50] V and I'm sorry this has to be a B and
+[04:55] if this condition holds then epsilon is
+[04:59] called dual basis of the dual vector
+[05:01] space and this is a linear equation
+[05:05] system and can be solved precisely in
+[05:10] one fashion given a basis for a d
+[05:16] dimensional vector space V by removing
+[05:18] one basis vector of the basis of V a
+[05:21] basis for a D minus 1 dimensional vector
+[05:23] space V 1 is obtained that's correct you
+[05:28] can think of r3 equipped with addition
+[05:31] and multiplication and we pick the
+[05:34] easiest basis that's 1 0 0 0 1 0 and 1 0
+[05:39] 0 1 and we remove one of these basis
+[05:43] vectors then we arrive at our to the
+[05:47] plane and this is d minus 1 dimensional
+[05:50] in this case two-dimensional so that's
+[05:53] true and applies for all vector spaces 3
+[05:57] given a basis for a d dimensional vector
+[06:00] space V the continuity of a map F from V
+[06:04] to W depends on the choice of basis for
+[06:07] the vector space W no it doesn't
+[06:11] continuity is defined for topological
+[06:14] spaces and there's nothing set about a
+[06:17] topology on V or W given a base for a d
+[06:22] dimensional vector space V one can
+[06:24] construct the components of the elements
+[06:27] of the dual vector space V Star you can
+[06:30] do that because are you it's the only
+[06:33] way because the components are defined
+[06:35] by plugging in the
+[06:37] cases given a vector space for a
+[06:41] d-dimensional given a basis for a D
+[06:44] dimensional vector space V each vector
+[06:46] space of V can be reconstructed from its
+[06:48] components that's correct as well since
+[06:54] it's the same as we showed here because
+[06:57] you can think of vectors as zero one
+[07:00] tensors and then that's here we continue
+[07:05] with exercise two vector spaces we want
+[07:09] to build the vector space R 3 and think
+[07:12] about its dual and so on so we start
+[07:16] with our 3 that's just the set of all
+[07:21] real Triplets first question we equipped
+[07:25] the set V with addition and s
+[07:28] multiplication defined by the entry wise
+[07:34] addition and the entry wise
+[07:37] multiplication which comes from R and
+[07:42] now we need to check that we equipped
+[07:46] with this addition and this
+[07:48] multiplication is a vector space what we
+[07:54] need to do is check the vector space
+[07:56] axioms there are eight of them and we
+[08:00] start with commutativity of the addition
+[08:07] we call it C plus and what we have to
+[08:12] check is whether a b c plus d EF is
+[08:20] equal to the same with ABC and DF
+[08:25] exchanged so we apply the definition and
+[08:29] that's just a plus d b + e and c plus F
+[08:36] and of course since we know that the
+[08:40] addition on R is commutative we may
+[08:43] exchange the sums in the entries
+[08:48] therefore it looks like this and now we
+[08:54] can do the same backwards and right D
+[08:58] comma a comma F and come on too much
+[09:02] plus a comma B comma C and that's
+[09:07] exactly what we wanted to see next axiom
+[09:12] is the associativity of + that means if
+[09:19] we sum three elements
+[09:21] that's a b c + + now we put a bracket
+[09:25] here d e f plus G H I this needs to be
+[09:35] the same with the brackets around the
+[09:38] first two summons and what we do is we
+[09:45] say ABC plus and here we apply to the
+[09:49] definition and that means d + g ii sorry
+[09:55] plus h and f plus i and of course again
+[10:01] the definition what means a plus d + g b
+[10:08] + e + h + c plus F + I and now we know
+[10:17] that addition on R is associative so we
+[10:20] can put the brackets in here so a + D B
+[10:26] and E and C and F are now in brackets
+[10:30] and continue here we pull all of these
+[10:36] out and then we remain with a comma B
+[10:42] comma C + D comma Y comma F bracket plus
+[10:52] and now G H I
+[10:56] that's what we wanted to show next one
+[11:00] is easy we need a neutral element for
+[11:05] the addition and we think of one call it
+[11:09] n and say this is zero zero zero and
+[11:13] what we have to check is that any
+[11:17] element of the vector space or the set
+[11:22] first we do not know if it's a vector
+[11:24] space and if we add a neutral element
+[11:28] then it needs to stay the same and of
+[11:31] course by the definition this is this
+[11:38] and we know that zero is the neutral
+[11:40] element of the real numbers and this is
+[11:44] of course ABC and that's true last one
+[11:49] four plus is the existence of an inverse
+[11:54] that means we need corresponding to each
+[12:00] element of B another element such that
+[12:03] their sum is the neutral element so we
+[12:07] start with a b c let's say and now we
+[12:13] need well call it for instance capital a
+[12:19] and now we need some a to the minus 1 I
+[12:24] just call it like that and we define
+[12:26] this as minus a minus B minus C and what
+[12:32] needs to be checked is that capital A
+[12:35] plus capital a inverse is M so we start
+[12:43] a plus B a comma B comma C plus minus a
+[12:49] minus B minus C again by the definition
+[12:56] we have I minus a B minus B C - C in
+[13:03] each entry and therefore this is 0 0 0
+[13:08] and that's a neutral Elam
+[13:10] so the first four axioms are checked we
+[13:14] continue with the associativity of the S
+[13:18] multiplications called a dot maybe you
+[13:24] should have the Serbs around here
+[13:27] because we wanted to indicate that these
+[13:30] are different operations than the ones
+[13:34] in the entries so we have to check that
+[13:39] lambda times mu times some element of B
+[13:52] is the same as the brackets around
+[13:57] lambda and mu so we start calculating
+[14:00] this is lambda times mu times a mu times
+[14:07] B u times C in the entries and again by
+[14:11] the definition we have lambda times mu
+[14:14] times a lambda times mu times B and
+[14:18] lambda times mu times C and now since we
+[14:24] know the multiplication on R is
+[14:26] associative we can put brackets around
+[14:29] here so this is true and now we do the
+[14:35] inverse thing and pull this out and what
+[14:39] remains is we have here multiplication
+[14:43] we remain with lambda times mu in
+[14:46] brackets times ABC okay
+[14:54] now we have the first distributive axiom
+[15:00] call it D 1 that means we have to check
+[15:06] that lambda plus mu and here it's a plus
+[15:11] on our because lambda and view come from
+[15:14] R times an element of B this has to be
+[15:20] the same as lambda times this element
+[15:23] and me plus nu times this element and
+[15:27] again we apply the definition of the
+[15:30] Cirque dot and this is lambda plus mu in
+[15:34] brackets times a lambda plus mu in
+[15:40] brackets times B and lambda plus mu
+[15:43] times C okay now we know that we can do
+[15:52] the multiplication here and what remains
+[15:55] in the entries is lambda a plus mu a
+[15:59] lambda B plus mu B and lambda C plus mu
+[16:05] C and this yields lambda times a comma x
+[16:14] sorry I've got this all the time ABC
+[16:19] plus now it's a plus on B mu times a
+[16:26] comma B comma C that's what we wanted to
+[16:30] show second last one is the second
+[16:35] distributive law and that says that
+[16:39] lambda times a b c plus d e f and this
+[16:51] has to be lambda times a b c plus lambda
+[16:55] times d EF now we apply the definition
+[16:58] all together and we have lambda times a
+[17:04] Plus D lambda
+[17:06] times II sorry B plus e and lambda times
+[17:13] c plus F so now we know that this is
+[17:19] lambda times a plus lambda times D and
+[17:22] the same for the other entries and then
+[17:25] we do it backwards and arrive at lambda
+[17:29] times a comma B comma C plus lambda
+[17:37] times D comma y comma F and the last one
+[17:42] is you serve touch
+[17:48] that's the existence of a unitary
+[17:52] element for the S multiplication and we
+[17:55] pick one and say it's called you and
+[18:00] it's the one from R and what needs to be
+[18:04] checked is that you times a comma B
+[18:08] comma C is the same as a comma B comma C
+[18:13] times U is a comma B comma C now we plug
+[18:20] it in and say this is one time sorry and
+[18:23] I really always forget these sharks
+[18:26] around here this is one circuit P comma
+[18:29] C applying the definition this is one
+[18:33] times a 1 times B 1 times C and of
+[18:38] course this is the same as a times 1 B
+[18:42] times 1 C times 1 and of course the 1 is
+[18:47] a mutual element of multiplication on R
+[18:50] and therefore this is a b c and now all
+[18:55] the 8 axioms are checked here forgot a
+[18:58] check mark here as well and to summarize
+[19:04] maybe so we always picked these triples
+[19:08] from v and lambda mu the Greek letters
+[19:11] come from the field underlying that is
+[19:14] our in our case and that's fine I guess
+[19:22] okay now we know that we equipped with
+[19:26] this plus and this circ dot
+[19:30] multiplication is a vector space and now
+[19:34] we consider objects on this vector space
+[19:36] the first one we want to look at is a
+[19:38] map called D that takes us from V to V
+[19:42] and it does precisely this and the
+[19:47] question is is D linear so what we have
+[19:51] to check is if D apply it to and now
+[19:57] lambda times ABC and I will drop the
+[20:02] Serb dot and the surplus because it's
+[20:06] much writing effort and I guess it's
+[20:09] clear I hope it's clear it should be
+[20:11] clear plus and now d EF and the question
+[20:18] is is this the same as lambda times D of
+[20:24] a b c plus d of d EF
+[20:33] maybe you should call this D tilde and
+[20:41] what we want to have here is two
+[20:44] brackets and that's really on purpose
+[20:47] because we plug in the triple and not
+[20:50] each of the entries so I try to keep
+[20:54] this and well that's a question and now
+[20:57] we just know what this is so this is
+[21:03] lambda a plus D tilde lambda B plus E
+[21:09] and lambda c plus F okay now we can
+[21:15] apply the definition of D and therefore
+[21:19] what remains is lambda times D plus E
+[21:24] and now twice lambda c plus f
+[21:29] and here the zero that's the definition
+[21:33] of D and now we want to know if that's
+[21:37] the same as this line so what we want to
+[21:43] do is pull out the lambda now what we're
+[21:48] going to do first is say this is lambda
+[21:51] B comma lambda times 2 C + 0 + and now
+[22:00] we have e comma 2 times F comma 0
+[22:07] next step is pulling out the lambda and
+[22:10] this is lambda B 2 C 0 + e comma 2 f 0
+[22:19] and of course this is the same as lambda
+[22:23] D applied to a b c plus d applied to e f
+[22:33] g that's right this is d e f we'll use
+[22:41] this one so here we have D tilde e comma
+[22:49] F and here I guess that's fine
+[22:52] so we checked that the map D is linear
+[22:56] and therefore we may write the tilde on
+[22:59] the arrow
+[23:08] the excess has continues and the next
+[23:10] thing to show is that the map D after D
+[23:14] is linear so first we write down this
+[23:19] map and then we check linearity so this
+[23:22] map D after D will certainly take us
+[23:26] from V into V and the question is is it
+[23:30] linear and we can write down what it
+[23:33] does it takes a triple and the stripper
+[23:38] is mapped to D after D applied to this
+[23:44] triple and this is D applied to the
+[23:49] first D acting on the triple produces B
+[23:53] comma to C 0 and the next D acting on
+[23:59] there makes it to C comma zero comma
+[24:04] zero and this has to be linear therefore
+[24:08] we need to check if D after D applied to
+[24:12] lambda a b c plus d e f and again we
+[24:20] call it d tilde so we start calculating
+[24:26] the after D now we put these together in
+[24:30] here so we have lambda a plus D tilde
+[24:35] comma then we have lambda B plus E and
+[24:42] we have lambda C + F okay now we know
+[24:50] what D after d-does it takes the last
+[24:52] entry and puts it in the first entry but
+[24:58] twice so what remains is just 2 times
+[25:06] lambda C + F in the first entry and two
+[25:11] zeros and of course we can split these
+[25:15] and now we have lambda
+[25:18] on to see alright you need the other
+[25:24] entries as well so comma 0 comma 0 + and
+[25:29] here we have 2 F comma 0 ma 0 and this
+[25:34] is right next line this is lambda times
+[25:43] D after D applied to a comma B comma C +
+[25:50] D after D applied to D tilde e comma F
+[25:59] and that's what we wanted to see next
+[26:05] question now we consider a map i that
+[26:10] goes from B to R so from the vector
+[26:13] space itself in to the field underlined
+[26:16] there and it does this with the entries
+[26:20] and first we should check linearity
+[26:24] therefore we do the same i of lambda of
+[26:28] a b c + d e f and we start calculating
+[26:37] again so this is i times lambda a + D
+[26:43] next entry is lambda b + e and we have
+[26:49] lambda c + f okay now we know what this
+[26:55] is this is lambda a plus d plus 1 over 2
+[27:02] lambda b + e plus 1 over 3 and here it
+[27:10] is lambda c + F now we do a little
+[27:18] reordering here so the lamp top floats
+[27:21] out of a + 1 / 2 B plus 1 over 3 C
+[27:29] this whole thing plus D plus 1 over 2 e
+[27:33] plus 1 over 3 F and this is lambda I of
+[27:40] a C plus I of d e f so this is linear
+[27:52] therefore here and the question that's
+[27:55] asked here is of what set is I an
+[27:58] element and we know I is an element of V
+[28:04] star because we star the linear maps
+[28:08] from V to our and since we checked
+[28:11] linearity and I goes from V to R that's
+[28:15] an element of the dual vector space now
+[28:23] we consider a map g that takes two
+[28:26] elements from V cross V 2 R and it's
+[28:33] defined as written down here and again
+[28:37] we should check linearity of G in fact
+[28:39] multi linearity that means it should be
+[28:42] linear in each entry so this is the
+[28:46] first entry and this is the second entry
+[28:49] and for each of these entries linearity
+[28:53] has to hold and I'm not going to route
+[28:56] write down everything just we need to
+[28:59] show that G of lambda times V plus W and
+[29:07] here we say X so V W and X come from V
+[29:12] and lambda comes from our and what we
+[29:16] need to check is whether this is the
+[29:18] same as lambda pulled out times G of D
+[29:22] comma X plus G of W comma X if this
+[29:29] holds G is linear in the first entry and
+[29:32] we do the same thing for the second
+[29:34] entry and then we check that G is multi
+[29:37] linear and
+[29:41] if that's the case and it is the case
+[29:42] then we know that G is a tensor G and
+[29:49] more precisely a zero to ten sir now in
+[29:59] the last question we will understand why
+[30:02] these maps G and I show them again so
+[30:07] this G and this map I why they are
+[30:10] defined in the way they are defined so
+[30:12] why is this a plus 1 over 2 B plus 1
+[30:16] over 3 C and this is this long stuff
+[30:18] here now we will understand why this has
+[30:21] been done because when you remember in
+[30:25] the lecture we had the set of
+[30:27] polynomials which we called P and now
+[30:31] here we want to look at just the
+[30:33] polynomials up to degree 2 and I will
+[30:37] define them again for you so P 2 is now
+[30:42] the set of all P that are maps from R to
+[30:47] R with the condition that P of X is
+[30:52] equal to a plus BX plus C X square just
+[30:57] the quadratic polynomials and now we
+[31:01] want to set P 2 and our vector space R 3
+[31:07] in relation and we will understand the
+[31:10] map G capital G and small G from the
+[31:13] lecture and small I from here and
+[31:16] capital I from the lecture and as well D
+[31:20] that was defined up here I will show it
+[31:23] to you oh it's on the other page sorry
+[31:26] I'll read this down and the map Delta
+[31:29] from the lecture so small D was a map
+[31:34] that takes an element of r3 and produces
+[31:40] another element of R 3 that is it took a
+[31:47] triple ABC and that's mapped to
+[31:51] of ABC and that was just this shift so
+[31:56] b2c and 0 and similarly we had in the
+[32:02] lecture tell of a polynomial P so we had
+[32:07] this P that is mapped over here and in
+[32:12] order to define this we need to oh I'm
+[32:15] sorry we know that this was the
+[32:19] derivative of P so P Prime and in order
+[32:22] to write this down we plug in an x and
+[32:25] this is b plus 2c x plus 0 times x
+[32:35] squared and from the way i write this
+[32:39] you will recognize that this map D and
+[32:44] the map Delta they do similar things so
+[32:48] they move the entries of this vector and
+[32:53] they move the coefficients up to here
+[32:57] because that's the derivation of this
+[32:59] the derivative of this I'm sorry and so
+[33:04] maybe there's a connection between these
+[33:06] two maps and the connection is precisely
+[33:09] this J this J that takes a polynomial
+[33:15] and maps it into r3 and now I have to
+[33:22] write down this polynomial I'm sorry
+[33:26] Arif to write down this map J that means
+[33:30] it takes a little P and this P is mapped
+[33:34] to J of P which is a B see if the
+[33:44] polynomial has been a plus BX plus C X
+[33:49] square and similarly one can construct
+[33:53] the inverse map that goes from r3 to p2
+[33:58] so it takes some ABC and these are
+[34:03] mapped to J inverse
+[34:05] of ABC and if we evaluate this many
+[34:14] brackets here if we evaluate this at X
+[34:18] this is precisely a plus BX plus CX
+[34:23] squared that's why the map J is defined
+[34:27] and the smaller gets clearer if we draw
+[34:32] a diagram I will do this here that means
+[34:37] we have P 2 2 P 2 that was the map Delta
+[34:44] and down here we have our 3 2 R 3 that
+[34:50] was the map D and we have this
+[34:55] connecting map G J and what's clear now
+[35:05] is D that takes us from our three to our
+[35:10] three it's the same as if we go up here
+[35:13] over there and down here so we first
+[35:17] apply J to the minus one then Delta and
+[35:23] then J to go down here so this is the D
+[35:32] and similarly you can do this
+[35:35] construction for the other maps that I
+[35:38] mentioned the G and the small GDI and
+[35:42] the capital I and I'm going to write
+[35:44] down this for I and capital I guess
+[35:49] the space should be enough so we have
+[35:52] the map by that takes us from V to our
+[36:00] maybe that's better notation so this one
+[36:04] here that's the map I and in the lecture
+[36:07] we had the map capital I that takes us
+[36:12] from the polynomials into the reals and
+[36:15] again we can find
+[36:18] this map J between P 2 and V and
+[36:23] therefore one can write AI equals and
+[36:28] now we go
+[36:29] J I after J so what we learned from here
+[36:40] is that we find structure preserving
+[36:46] maps between vector spaces so P 2 also
+[36:48] vector space and R 3 was a vector space
+[36:50] and this map J helps to connect these
+[36:55] vector spaces and you can write down the
+[37:00] 1 map in terms of the other map so
+[37:04] that's it for the second exercise so the
+[37:12] third exercise is all about indices you
+[37:15] consider a vector space V that is d
+[37:18] dimensional and we have two tensors
+[37:21] given a 2 0 tensor a and 0 to 10 so B in
+[37:27] V we have a basis e1 2 e d and then the
+[37:31] star we have a basis epsilon 1 2 epsilon
+[37:34] D and the first question asks us to
+[37:39] define the components a a B and Bab of
+[37:44] the two tensors and that's really simply
+[37:48] simple so the components of a are
+[37:53] defined by a and we apply a to two basis
+[38:01] vectors of V star because it can eat 2
+[38:05] elements of B star maybe that's again
+[38:08] the better notation that this is just a
+[38:10] way it's defined and that's all we have
+[38:12] to do here similarly for B so these are
+[38:17] defined by be applied to e a comma E B
+[38:23] and this is the basis of V and this is
+[38:25] the basis of V star the next question
+[38:29] should recall the Einstein summation
+[38:32] convention and write it down in our own
+[38:34] words so that's easy we just have some
+[38:41] indices and if indices appear pairwise
+[38:54] up and down so up and down then they are
+[39:10] summed over . that's Einstein summation
+[39:22] convention okay so to give you an
+[39:28] example we have maybe a tensor T and
+[39:31] that has some indices and another tensor
+[39:35] s that has for instance these indices
+[39:39] and we know that we have to sum over C
+[39:43] and we have to sum over a that's the
+[39:47] summation convention so that's just an
+[39:51] example but yes that's clear the next
+[39:57] question we start with the definition we
+[40:00] define the square brackets around two
+[40:04] indices in here and that's defined as 1
+[40:08] over 2 times the difference of the
+[40:14] indices like this and the indices
+[40:16] exchanged and there are two things to
+[40:19] show so the first thing one is that we
+[40:25] exchange the indices in these square
+[40:28] brackets then we pick up a minus sign
+[40:31] and that's easily done by just applying
+[40:35] the definition so this was defined like
+[40:39] that hey B - a
+[40:42] da and now we can exchange these but we
+[40:47] pick up a minus sign which we put out
+[40:49] here and therefore what remains is this
+[40:54] one and we can think of that as this
+[41:00] year so one is shown the second one and
+[41:05] that's really helpful because it saves a
+[41:10] lot of calculation as we will see later
+[41:12] on so the second thing is to show that
+[41:18] these brackets can sorry they can be
+[41:24] written on the one index pair or on the
+[41:27] other and it doesn't matter so plugging
+[41:31] in the definition yields 1 over 2 times
+[41:35] a a B minus a BA this one now we since
+[41:42] these are all real numbers we can just
+[41:44] pull them in here and that's a a b b a b
+[41:50] minus a B a B a B and now we have to do
+[41:59] a little trick and that it doesn't
+[42:02] matter how the indices that are summed
+[42:04] over are called so it doesn't matter if
+[42:07] this is P P or mm or Delta Delta that
+[42:14] does not matter so I will rename them
+[42:17] and what I will do is I will remain them
+[42:21] as mm and therefore here we have nm so
+[42:29] far so good next line is we rename them
+[42:34] again but now M becomes a and n becomes
+[42:40] b and b become and a becomes B and sir n
+[42:47] becomes B and M becomes a so that's just
+[42:51] renaming again and now I see
+[42:55] there's the a appearing twice here the
+[42:58] same index with the same indices and
+[43:04] therefore we can pull it out that's a a
+[43:07] B and in there we have B a B - B B 8th
+[43:14] together with this 1/2 what remains is a
+[43:20] a B up times B and now the brackets for
+[43:26] the beam indices so that's helpful and
+[43:32] we will continue with another definition
+[43:37] so next question we define the round
+[43:41] brackets around index pairs which are
+[43:44] similarly defined but now a + between
+[43:47] them again two things to show the first
+[43:51] one says that it doesn't matter if we
+[43:56] say B round bracket a B or B round
+[44:00] bracket B a and again this is shown by
+[44:04] plugging in the definition and now we
+[44:09] know that the plus of real numbers is
+[44:12] commutative and therefore this is the
+[44:15] same as B B a plus B a B which is by
+[44:21] definition BB a second thing to show
+[44:27] here is that also the round brackets
+[44:34] transfer to the other index pair and I
+[44:38] guess you can do this a little more
+[44:41] quickly than the other thing because
+[44:43] it's just the same plug in the
+[44:48] definition again and pull this in here
+[44:51] so a a b and b ba and now we again
+[44:58] rename the index pairs but we rename a
+[45:01] SP and B
+[45:03] as a and what remains is this but a and
+[45:10] B exchanged so P a and a B and therefore
+[45:17] we can pull out the B and what remains
+[45:20] is the symmetrization of the indices of
+[45:24] a which is one-half a a B plus a B a and
+[45:31] B a B is out of the bracket and that's
+[45:35] just the long notation for the up here
+[45:38] introduced short notation which is a a B
+[45:43] in brackets times a times B a B so
+[45:49] that's good and now we use these results
+[45:53] to really show something important and
+[45:56] helpful because it saves a lot of
+[45:58] writing if you know this so to show is
+[46:02] that if you have index pairs that are
+[46:07] summed over and the one is
+[46:09] anti-symmetric and the other one is
+[46:12] symmetrized and this always yields zero
+[46:15] and you may remember that and just apply
+[46:19] it but once one times we have to to
+[46:23] write it out so a a b and b a b this is
+[46:34] like in the definition of one of these
+[46:37] does not matter which one so this is the
+[46:40] same as sorry
+[46:43] without the bracket a a B times B a B no
+[46:52] - because we plugged in the square
+[46:54] brackets this is a B a and down here B a
+[46:59] B but with the brackets okay and now we
+[47:03] learned that we can transfer the
+[47:07] brackets from down to up as we did this
+[47:11] calculation
+[47:14] okay so we do this for the second
+[47:19] summoned here - and now we have the
+[47:27] round brackets around these upper
+[47:29] indices now they're gone here and we
+[47:34] know what this means because this means
+[47:36] we can exchange a and B so what we do is
+[47:41] a a b b AV - a a b b a b and I forgot
+[47:53] the round brackets around the B it does
+[47:57] not actually it does not matter if I
+[47:59] pull them here or not
+[48:00] so could leave this but that's okay too
+[48:04] and now what you see is here's the same
+[48:09] thing is here so this is zero and I'm
+[48:13] not sure if I mentioned this already but
+[48:16] we call these square brackets the anti
+[48:20] symmetries asian and the round brackets
+[48:23] we call this symmetrization of index
+[48:25] pairs last exercise for this problem
+[48:32] sheet on multi linear algebra is about
+[48:36] how we can see or understand linear maps
+[48:40] as tensors so the example given here is
+[48:44] that we have a vector space V and on its
+[48:48] dual so on V star we have a linear map
+[48:51] Phi that takes us from we start to V
+[48:54] Star and the first question is we should
+[49:00] construct a 1:1 tensor T sub Phi by
+[49:04] using that Phi is precisely this map so
+[49:08] a 1 1 tensor you know is a map from the
+[49:14] star cross V linearly into the reals
+[49:19] that means we take some Sigma from the
+[49:23] star and the V
+[49:25] from V and this defines the map T sub 5
+[49:37] and now we need to define this and since
+[49:42] we know that Phi is a map from V star to
+[49:46] B star and since Sigma comes from B star
+[49:51] we can apply Phi 2 Sigma and the result
+[49:58] again lies in the star since this is the
+[50:02] map that's given and elements of the
+[50:05] star you all know are homeomorphisms
+[50:09] source Rd is the set of all linear maps
+[50:13] from V to R that means it can eat an
+[50:20] element of V and we have one here so
+[50:23] that's the definition the next question
+[50:28] does the same thing but the other way
+[50:31] around so we are given the tensor T from
+[50:35] V star to V it's again a 1 1 tensor and
+[50:38] now we should construct a linear map
+[50:41] from this tensor so I write this down
+[50:45] again Phi T should take us from the dual
+[50:49] vector space we start linearly into the
+[50:52] dual vector space we star so it takes a
+[50:55] sigma and that's mapped to Phi sub T of
+[51:01] Sigma and this we have to define by
+[51:04] using T and the only way we can do this
+[51:09] is to write T of the first entry takes
+[51:14] an element of the star and we have one
+[51:17] that's Sigma and there's an entry that's
+[51:20] open open tslot so to say and if we look
+[51:26] at this we see that we can plug in a
+[51:29] vector V and what we get is a real
+[51:34] number
+[51:35] so this thing is an element of V star as
+[51:42] it should be so that's first first
+[51:48] definition second definition and now
+[51:53] there's something to show and that is
+[51:55] that our definitions are good
+[51:57] definitions we want to reconstruct T
+[52:02] from the T sub Phi so we look at T sub
+[52:12] Phi sub T and this is a map from V Star
+[52:18] Plus V to R that is a 1 1 tensor I'll
+[52:22] write this down again
+[52:24] so here linearly and that means we plug
+[52:30] in a sigma from V Star and AV from V and
+[52:36] this is map to T sub Phi sub T of Sigma
+[52:42] comma V and now we do not have to define
+[52:47] anything because we did this in the
+[52:50] first two questions so the first we need
+[52:53] is T sub something and he said something
+[52:58] is the something of the first entry
+[53:03] applied to the second entry so what we
+[53:07] need here is this is Phi sub T of the
+[53:13] Sigma but this whole thing applied to V
+[53:17] and we also know what Phi sub T is
+[53:21] because that's the second thing that's
+[53:24] been defined so this is the tensor T of
+[53:29] Sigma open slot and of course it again
+[53:35] acts on on V so this thing is an element
+[53:40] of V Star and it acts on a V but if we
+[53:44] write the V in here or put it into the
+[53:47] open tslot that
+[53:48] really does not matter so we arrived at
+[53:52] what we wanted to show and again I
+[53:57] forgot the second pair of brackets here
+[54:01] okay so a finished B we wanted to show
+[54:09] or we have to show that T sub Phi sub T
+[54:13] sub Phi which is a map from B star to
+[54:18] the staff linearly that this reproduce
+[54:23] is the Phi that's given in the first
+[54:26] place so it takes a sigma that's mapped
+[54:31] to Phi sub T sub Phi of Sigma and this
+[54:38] is applying the definitions that we made
+[54:40] here so it's T sub Phi of Sigma comma
+[54:47] and an open slot and now we know what T
+[54:52] sub Phi is because that's Phi of Sigma
+[54:56] but there's no V in here so that's all
+[55:01] and what we have is Phi sub T sub Phi
+[55:07] applied to some Sigma it's the same as
+[55:10] applying the Phi to the Sigma in the
+[55:14] first place so we showed a and B and
+[55:18] what that means is and that's the
+[55:21] conclusion and the last question for
+[55:23] this exercise sheet is that we should
+[55:27] conclude that a linear map Phi from B
+[55:29] star to B star is a 0 0 to a 1 1 tensor
+[55:33] so this is this year is a little bit too
+[55:38] much so we should better say we can
+[55:41] understand or consider linear maps from
+[55:45] the star to be star as 1 1 tensor so
+[55:48] consider would be the better word here
+[55:50] because it's not precisely the same but
+[55:53] we can construct the one the one from
+[55:56] the other and the other way around and
+[55:58] this is all well defined
+[56:00] that's good so maybe you should write
+[56:03] down something here so the one can be
+[56:09] reconstructed from the other . and one
+[56:23] last note is that if we would if we had
+[56:29] chosen a map let's say sy that goes from
+[56:34] V to V we could also think of that as a
+[56:38] 1:1 tensor by a similar construction
+[56:42] that we did up here one could prove that
+[56:46] but it's a little bit more sophisticated
+[56:49] because you have to use and that's
+[56:53] really not to this question but you
+[56:55] would have to use that the star star is
+[57:00] isomorphic to V and to show that you
+[57:05] probably need one page and this not this
+[57:10] is not done here but you can figure it
+[57:12] out so thanks and see you in the next
+[57:16] tutorial

@@ -1,0 +1,657 @@
+[00:00] this program is being presented to you
+[00:03] by the hereas international winter
+[00:05] school on gravity
+[00:06] and light
+[00:13] welcome back to the double e is
+[00:15] international with disco on gravity and
+[00:17] light
+[00:19] today's sheet is the first actual
+[00:21] physics sheet of the school
+[00:23] so we'll deal with the throttle
+[00:24] space-time
+[00:26] in exercise 1 we will look at the
+[00:28] geodesics in a schwarzschild space time
+[00:31] so we consider a manifold equipped with
+[00:33] a so-called schwarzschild metric
+[00:36] that is given here in the following
+[00:39] we will use this notation the shorthand
+[00:42] notation
+[00:44] and the first question now is
+[00:47] to write down the lagrangian
+[00:50] so the gaussian in its
+[00:53] abstract formulation is given by
+[00:56] a a gamma dot a gamma dot b
+[01:01] for the for this easy case of a
+[01:04] schwarzschild metric
+[01:06] this becomes the lagrangian
+[01:10] l is equal to 1 minus
+[01:14] 2 g m divided by
+[01:17] r t prime
+[01:21] squared minus
+[01:26] one over one minus two g m
+[01:29] pi r x uh
+[01:33] not x but r prime squared
+[01:37] minus r squared
+[01:40] theta prime squared
+[01:43] minus r squared sine squared theta
+[01:48] phi prime squared
+[01:52] this was already the first the answer to
+[01:54] the first question
+[01:56] and we move on to the second question
+[01:59] so there it starts with a little remark
+[02:02] that this lagrangian can be parametrized
+[02:04] by lambda
+[02:05] which we will see is just the eigen time
+[02:08] in such a way that the lagrangian is
+[02:11] equal to one
+[02:12] for all lumped down
+[02:16] now there are four euler lagrange
+[02:18] equations for this lagrangian
+[02:21] we want to derive one of them namely
+[02:24] this one with respect to the function t
+[02:27] of lambda
+[02:29] so the euler lagrange equation is zero
+[02:32] is dl by
+[02:35] dt prime
+[02:38] this one derived again by prime so
+[02:41] the prime always indicates derivatives
+[02:44] with respect to this
+[02:46] parameter lambda
+[02:50] and the second term is a del l
+[02:53] by del t
+[02:58] so we see that the lagrangian which we
+[03:01] just wrote down
+[03:05] does not depend on t itself
+[03:08] so del ll by del t is zero
+[03:12] however it is dependent on t
+[03:16] prime so we can derive
+[03:19] del l by del t
+[03:22] prime is just two times
+[03:26] one minus two g m divided by r
+[03:30] g prime
+[03:35] and this expression again derived with
+[03:37] respect
+[03:39] to lambda gives just
+[03:43] two times one minus two
+[03:46] g m divided by r g
+[03:49] double prime
+[03:52] plus four g m divided by
+[03:57] r squared r prime
+[04:00] t prime and this is
+[04:03] already equal to zero
+[04:06] so we can rewrite this equation as t
+[04:09] double prime
+[04:11] plus 2 g
+[04:14] m divided by r squared
+[04:18] of n 1 minus 2 g m over
+[04:21] r of r prime
+[04:25] g prime is 0.
+[04:29] so here we see that we could read of
+[04:33] the christopher symbols for the
+[04:35] schwarzschild metric
+[04:37] in the case that so this is
+[04:42] gamma so this is
+[04:45] two times gamma of
+[04:51] t r t
+[04:54] and of course is equal to two times
+[04:57] gamma t
+[04:58] g r however we don't want to go
+[05:02] further into these christopher symbols
+[05:05] but we rather
+[05:07] would like to show now that the lead
+[05:09] derivative of g with respect to the
+[05:11] vector field
+[05:12] kt which is just given by del by del t
+[05:15] vanishes so
+[05:19] we just take the lead derivative
+[05:23] g a b so
+[05:26] take the lead derivative with respect to
+[05:28] the vector field k t
+[05:30] of g and evaluate at the
+[05:33] components a and b this is
+[05:37] equal to kt
+[05:40] acting on g a b
+[05:44] minus no actually it's a plus here
+[05:51] g m b
+[05:55] and the del del t acting on
+[06:02] oh that is
+[06:05] yeah well that is correct but not del
+[06:07] del t but del
+[06:09] x a acting on the
+[06:12] m's component of kt
+[06:15] and this goes also
+[06:19] the other way around so we take del by
+[06:21] del xp
+[06:22] acting on the m's component of
+[06:25] k
+[06:30] so
+[06:33] in this term we see that this is the
+[06:36] derivative
+[06:40] of g with respect to the function t
+[06:44] however we know that our met the watches
+[06:47] metric
+[06:48] does not depend on our
+[06:51] does not depend explicitly on time on
+[06:54] the time function
+[06:55] so this will give zero
+[06:59] and we also know that the components
+[07:03] kt 0 is 1
+[07:06] while kt 1
+[07:11] 2 and 3 are all zero so what we do here
+[07:17] we derive the constant
+[07:21] well that certainly gets zero so this
+[07:24] term goes out
+[07:25] this term goes out this term goes out as
+[07:28] well
+[07:29] so all this is zero
+[07:34] so we showed that the lead derivative of
+[07:37] g with respect to the vector field kt
+[07:39] vanishes so what does this mean well
+[07:42] we have some kind of symmetry here and
+[07:45] of course we will
+[07:46] we see that this symmetry with respect
+[07:50] to
+[07:51] time translations well this gives rise
+[07:54] to
+[07:54] conserved energy
+[07:58] and the last part of the of this
+[08:02] section here is
+[08:05] to find the conserved quantity so the
+[08:08] explicit form is given by this
+[08:09] expression here and now we want to
+[08:12] derive an expression for this quantity
+[08:14] t prime appearing in the lagrangian
+[08:20] so we see we have k t here but with an
+[08:23] index down that's not a problem
+[08:28] so we see that k t index down
+[08:32] x a prime of lambda
+[08:35] is constant however we're only given
+[08:40] the kt with components up well well
+[08:42] that's not a problem
+[08:44] we just take g a b
+[08:47] k t b
+[08:50] x a prime of lambda
+[08:56] and this only gives us contributions
+[09:00] since the only contribution here from
+[09:02] the kt is for b
+[09:04] equals zero which then also sets a to
+[09:07] zero
+[09:08] due to the special form of our
+[09:10] schwarzschild metric
+[09:11] so after this is g zero zero
+[09:14] times kt zero times
+[09:19] t
+[09:24] this is just 1 minus 2 gm
+[09:28] divided by r g prime of
+[09:31] lambda and this is constant
+[09:37] and now we write this constant as the
+[09:40] square root of
+[09:41] some e which will later turn out to be
+[09:45] the energy
+[09:47] so and then we find that t
+[09:50] prime of lambda can be rewritten as
+[09:54] the square root of e divided by
+[09:58] 1 minus 2 gm divided by r
+[10:07] this was the first part of this exercise
+[10:14] now we see that also this metric
+[10:18] fulfills
+[10:18] so-called spherical symmetry
+[10:22] that is the lead derivative of g with
+[10:24] respect to these vector fields which we
+[10:26] already know from
+[10:27] the tutor from the last tutorial that
+[10:31] delineative vanishes
+[10:33] so which physical quantity is conserved
+[10:35] by this symmetry
+[10:37] well that's rather easy since we know
+[10:40] that this
+[10:40] is just so in quantum mechanics this
+[10:43] would be the
+[10:44] angular so this would be the algebra for
+[10:48] angular momentum and indeed
+[10:51] angular mention is conserved here
+[11:01] and to fix angular momentum we need
+[11:06] two vector fields
+[11:11] that fill that fixed direction
+[11:17] and one vector field
+[11:22] that fixes the absolute value
+[11:26] of angular momentum
+[11:33] so the first two of these vector fields
+[11:37] x1 and x2
+[11:38] they fix the motion to a plane of
+[11:41] constant theta
+[11:42] and if we have found such a plane of
+[11:45] constant theta
+[11:46] we can of course turn
+[11:50] or turn our system of reference in such
+[11:52] a way
+[11:53] that we end up at theta is equal to pi
+[11:56] half which makes life much easier since
+[12:00] then all these sine
+[12:01] squared or sine theta that appear are
+[12:04] just one and we don't need
+[12:05] to carry them through anymore which i
+[12:07] said can set them to one
+[12:10] and of course we can always turn our
+[12:11] system of reference such a way
+[12:13] that if we have fixed ourselves to
+[12:17] a plane of constant theta so that we can
+[12:21] we can turn around our system of
+[12:23] reference to theta is equal to pi half
+[12:29] but how can we now derive an expression
+[12:31] for the remaining term
+[12:33] phi prime of lambda well that's not a
+[12:36] problem we already
+[12:39] saw how to derive the conserved quantity
+[12:43] for a symmetry
+[12:44] on the last exercise or in the last
+[12:47] question
+[12:50] so we recall that
+[12:54] we need x3 index
+[12:57] down x prime
+[13:01] a no x a
+[13:05] prime
+[13:08] of lambda is constant
+[13:12] we can rewrite this to
+[13:16] g a b x 3 with index b
+[13:20] up now and the x a
+[13:23] prime of lambda is constant
+[13:28] so now we can take okay
+[13:32] x3 only which was exactly
+[13:37] del by del phi has only
+[13:40] a non-vanishing b equal 3 component
+[13:44] which then means we get that g 3 3
+[13:50] x 3 b and
+[13:54] phi prime of lambda is constant
+[13:58] and this constant we like to call
+[14:02] minus j
+[14:06] so which will turn out to be the angular
+[14:08] momentum
+[14:10] so g3 3 was just minus
+[14:14] r squared sinus squared
+[14:18] theta however we know that
+[14:21] theta is equal to pi half and thus the
+[14:23] sine squared is just one
+[14:26] and for that we find that phi prime of
+[14:29] lambda is equal
+[14:31] to j over r squared
+[14:34] which is a nice formula in fact
+[14:39] and now we are prepared to look at the
+[14:42] lagrangian again
+[14:45] so we now use the fact that the
+[14:46] lagrangian is equal to one over the
+[14:48] whole parametrization
+[14:50] so the lagrangian itself is a conserved
+[14:53] quantity
+[14:55] now we want to insert all the previously
+[14:58] obtained results and
+[15:00] then we'll see what we get out
+[15:04] so we have one is equal
+[15:07] to the lagrangian is equal to
+[15:12] 1 minus 2 g m divided by
+[15:15] r and now we insert
+[15:18] t prime so this is just e divided by
+[15:22] 1 minus 2 g m over r
+[15:26] squared
+[15:30] we get a minus sign a one
+[15:33] divided by one minus two g m over
+[15:36] r r prime squared
+[15:41] we can't substitute anything in here
+[15:44] because we have no conserved quantity
+[15:47] for
+[15:48] r prime however in the case
+[15:51] in the next term that which would be
+[15:53] theta prime
+[15:54] we know that this term vanishes since we
+[15:57] say since we have
+[15:59] our motion in a plane of constant theta
+[16:03] and the last term contained phi prime
+[16:08] well we just we just found the formula
+[16:12] how to replace this phi
+[16:13] prime by j squared so phi prime squared
+[16:17] is just
+[16:18] j squared over r to the fourth power
+[16:23] and now we substitute all the terms and
+[16:25] can
+[16:30] and can put them all together and we
+[16:32] will find that
+[16:33] one is equal to e or divided by one
+[16:36] minus two
+[16:37] g m over r
+[16:40] minus one
+[16:44] over one minus two g m divided by
+[16:47] r r prime squared
+[16:50] minus j squared
+[16:53] divided by r squared
+[16:56] and now we put all terms
+[17:00] that contain e which is only the first
+[17:03] one here
+[17:04] to one side and all the other ones to
+[17:06] the other side
+[17:08] so we find that this is e is e is equal
+[17:12] to
+[17:13] one minus two g m
+[17:18] by r times 1
+[17:22] plus j squared divided by r squared
+[17:26] plus
+[17:30] and r prime squared term
+[17:35] so the result will be that e is equal to
+[17:38] r
+[17:38] prime squared
+[17:41] plus 1 minus 2 gm
+[17:45] divided by r
+[17:49] plus j squared divided by r squared and
+[17:52] the last term minus
+[17:53] 2g m j squared divided by r to the power
+[17:58] of 3.
+[18:02] and now the last question asks us to
+[18:04] interpret the terms that appear in this
+[18:06] expression
+[18:09] so on the left side this is
+[18:13] the total energy total energy e
+[18:17] so we know that quite well r prime
+[18:20] squared
+[18:21] well that is just some kind of kinetic
+[18:26] term
+[18:29] so we have not introduced a mass here so
+[18:31] we have
+[18:33] unit mass m equals to one
+[18:39] then this term here the one is just the
+[18:42] mass term
+[18:46] so the relativistic correct mass term
+[18:49] which would be
+[18:50] m c squared however we set both m and c
+[18:54] to one so we just get the 1 here
+[18:57] now we have minus 2 gm divided by r
+[19:00] well you should know that this is just
+[19:04] the newtonian gravitational potential
+[19:18] the next term j squared divided by r
+[19:20] squared well this is just a contribution
+[19:25] due to the angular momentum
+[19:28] that is also quite standard
+[19:34] but now this last term here this is the
+[19:37] interesting
+[19:38] one and this one
+[19:41] then indeed turns out to be the
+[19:44] correction term from gr
+[19:50] and you see this is divided so
+[19:53] you have constants here
+[19:56] in the numerator and in the denominator
+[20:01] you have
+[20:01] r to the power of three so
+[20:05] this term will contribute
+[20:09] when r is small and that indeed is
+[20:13] of course the physical relevance of
+[20:14] schwarzschild space time
+[20:17] you don't far far away from
+[20:20] the player for example black hole
+[20:24] you don't see much effects that are
+[20:28] different from the usual ones the usual
+[20:31] classical
+[20:32] picture however if you go near the black
+[20:34] hole of course
+[20:36] the motion of your particle on the
+[20:38] curved space there is quite different
+[20:41] and there this term gives us the correct
+[20:46] equations so we see we can interpret all
+[20:49] these terms
+[20:50] all the four terms here are purely
+[20:52] classical
+[20:53] kinetic term a mass term the classical
+[20:56] gravitational potential and contribution
+[20:59] of angular momentum
+[21:00] but only the last one really says okay
+[21:03] this is
+[21:03] the correction to the motion
+[21:07] that comes from gr and corrects our
+[21:10] classical motion
+[21:15] so this is the first exercise of this
+[21:18] sheet
+[21:19] and there will be one more exercise
+[21:21] which will deal with gravitational
+[21:22] redshift
+[21:27] also an important effect
+[21:30] appearing in general relativity
+[21:34] so we consider a space standards
+[21:36] equipped with a schwarzschild metric
+[21:38] as well as two observers one and two
+[21:40] that are at rest in their respective
+[21:42] system of reference that means
+[21:44] their coordinates are theta and phi
+[21:48] they don't change they only move in time
+[21:53] the observers sit at the same theta and
+[21:56] phi
+[21:56] for simplicity while the
+[22:00] radial coordinates are 1 and r is
+[22:02] smaller than r2
+[22:06] so you want to derive first an
+[22:08] expression for t
+[22:10] prime using the lagrangian from the
+[22:12] previous exercise
+[22:14] so we remember we have that the
+[22:16] lagrangian is equal to
+[22:18] one and the first contribution
+[22:21] was one minus two g m divided by
+[22:24] r t prime squared
+[22:28] now there would be more terms concern
+[22:31] having
+[22:31] r prime theta prime and phi prime
+[22:35] however we know since the observers
+[22:38] don't move
+[22:40] well these terms get kicked out
+[22:43] so this is indeed the whole expression
+[22:46] we need to look at here
+[22:48] and this means that t prime is equal to
+[22:51] 1
+[22:52] over square root of minus of 1 minus 2
+[22:56] gm
+[22:56] divided by r
+[23:02] now observer 1 emits photons that
+[23:05] observer 2 detects
+[23:08] the gap between two photon emissions is
+[23:10] delta lambda one
+[23:14] so what this means is in physical terms
+[23:18] observer one emits photons
+[23:21] and between two photo emissions
+[23:24] in you have the interval delta lambda
+[23:28] one in eigen time
+[23:29] so so one emits
+[23:32] after each period delta lambda 1 a photo
+[23:37] however observer 2 maybe sees this
+[23:40] these this length differently
+[23:43] and we want to calculate this
+[23:46] so of course there our
+[23:50] formula for t prime derived in the first
+[23:53] question will prove useful
+[23:57] we see for fixed r
+[24:00] we have a fixed r here so the whole
+[24:03] right side
+[24:04] does not depend on lambda
+[24:09] so we can just integrate this and we
+[24:11] will find that
+[24:12] delta t so in the coordinate time
+[24:15] that this is just so 4 1
+[24:19] for observer 1 this is 1 over
+[24:23] square root of 1 minus 2 gm divided by
+[24:26] r1
+[24:30] delta lambda 1
+[24:35] and of course for observer 2 this is
+[24:38] delta t2 this is just 1 over
+[24:41] square root of 1 minus 2 gm
+[24:45] divided by r2
+[24:49] delta lambda 2.
+[24:53] so now we have to consider these two
+[24:56] delta t1 and delta t2 so both
+[25:02] distances in coordinate type and
+[25:05] therefore we
+[25:06] it's the best if we draw
+[25:10] a space time diagram of this whole
+[25:12] situation
+[25:14] so we have up here is the time
+[25:17] and here we say that there goes
+[25:21] the radial coordinate so we have
+[25:25] observer 1 sitting at r1 observer 2
+[25:28] sitting at r2
+[25:30] and the world line it looks just like
+[25:32] that as the coordinates
+[25:34] in space so r theta and phi never
+[25:37] change this is the world line
+[25:41] of these two obser of both also these
+[25:44] are the word lines of both observers
+[25:47] now observer one emits a photon here
+[25:51] and a photon here
+[25:56] so this is delta t1
+[26:01] so and now we see
+[26:04] okay this goes some way for example
+[26:09] this way all the way here
+[26:12] where observer 2 m detects
+[26:15] this photon and now we wonder how does
+[26:18] this
+[26:19] path how does the word line of the
+[26:22] photon
+[26:23] look like if it is emitted up here
+[26:26] and now we use our knowledge from the
+[26:28] first exercise
+[26:30] we know that
+[26:34] the schwarzschild space time has a
+[26:36] symmetry with respect to time
+[26:38] translations
+[26:40] since the vector field k t which was
+[26:42] just del by del t
+[26:45] was a killing vector field
+[26:48] so we know that this the situation
+[26:52] from here from the first dimension to
+[26:55] the second
+[26:56] didn't change but for a constant offset
+[26:59] delta
+[27:00] t1 in coordinate time but
+[27:04] on r or something else nothing has
+[27:07] changed on the other coordinates
+[27:09] so the situation up here is just the
+[27:12] same and we get just the
+[27:14] same curve parallel up here
+[27:18] to this to the second detection by
+[27:20] observer two
+[27:23] so these two lines
+[27:26] can be said to be parallel
+[27:29] so their distance the distance between
+[27:32] two points of equal r is always the same
+[27:35] as delta t1
+[27:38] but you know also that this here is
+[27:41] delta t2
+[27:44] well but if this holds here for that the
+[27:46] distance
+[27:47] in space time between every two points
+[27:50] here
+[27:50] that have the same r is always delta t
+[27:53] one
+[27:54] well then delta t one is obviously
+[27:58] equal to delta t two
+[28:02] oh k this is good we find that delta
+[28:07] lambda2 then is just
+[28:13] ah no we have to write it a little
+[28:16] differently
+[28:17] so we just say that this is delta lambda
+[28:19] 1 which will prove
+[28:21] easier in the next exercise we do it
+[28:24] this way
+[28:25] that this is exactly a big square root
+[28:29] one minus two g m
+[28:32] divided by r one over
+[28:35] one minus two g m divided by
+[28:39] r two and this
+[28:42] is times delta lambda 2.
+[28:47] so you get this fact so
+[28:52] the emission so the
+[28:56] dm so observer one emits
+[29:00] photons with a
+[29:03] delay of in its eigen time of delta
+[29:07] lambda one
+[29:08] however observer 2 detects these
+[29:13] with this factor here
+[29:17] so he picks up such a factor here and
+[29:19] now we look
+[29:20] how does this look at the at the
+[29:23] frequency level
+[29:25] so consider the ratio of the frequencies
+[29:28] omega 2
+[29:28] divided by omega 1.
+[29:32] well it's quite obvious to see that this
+[29:34] just corresponds to the case that delta
+[29:36] lambda 1 is divided by delta lambda 2.
+[29:40] oh well that is easy this is just this
+[29:42] big square root we have here
+[29:45] this one minus 2 gm divided by r1
+[29:49] divided by 1 minus 2gm divided by
+[29:52] r2
+[29:55] and indeed since we have
+[30:00] r1 is smaller than r2
+[30:04] we see that
+[30:08] the numerator up here
+[30:12] is smaller than the denominator
+[30:16] so this will be smaller than one
+[30:20] which corresponds to omega 2 being
+[30:23] smaller than omega 1 or
+[30:26] for wavelength
+[30:34] we know that the observed wavelengths
+[30:37] for our for observer 2
+[30:41] is so
+[30:45] for so i call the wavelength here not
+[30:47] lambda since lambda is already
+[30:50] already given but we will call it
+[30:54] well i would call it just mu
+[30:57] we then know that the wavelength
+[30:59] observed by observer 2
+[31:01] mu 2 is larger than mu 1
+[31:05] well in larger wavelength we always call
+[31:09] that this is more red
+[31:12] so we have a red shift
+[31:16] now we look at what happens if observer
+[31:19] 2 is being approximately at infinity
+[31:24] well observer 2 being approximately
+[31:26] infinity
+[31:27] for a schwarzschild space time means
+[31:30] that he is
+[31:30] sitting in the approximately flat space
+[31:35] so we can just take the limit of the
+[31:38] expression for small
+[31:39] r2 well then the denominator just kicks
+[31:42] out here
+[31:43] and we find that omega 2 divided by
+[31:46] omega 1
+[31:47] for r2 to infinity
+[31:51] is just square root of 1 minus 2 gm
+[31:54] divided by r1
+[31:58] and now the second special case is what
+[32:01] happens if we send
+[32:03] r1 to the schwarzschild radius rs is to
+[32:06] gm
+[32:07] but you see that then the numerator
+[32:11] becomes very very little so
+[32:16] the observed frequencies
+[32:20] so omega 2
+[32:23] grows larger and larger
+[32:28] the more r1 is near the schwarzschild
+[32:31] radius
+[32:34] and of course if we are exactly at
+[32:38] so the redshift is even stronger and
+[32:40] stronger
+[32:42] so the wavelength are so you observe
+[32:45] very very large wavelength
+[32:47] and if you go to the schwarzschild
+[32:50] radius
+[32:52] so if you sit now exactly at the
+[32:54] schwarzschild radius
+[32:56] this whole formula then breaks down you
+[32:58] can't observe a frequency then anymore
+[33:01] so you can observe any wavelength and
+[33:03] set and so
+[33:05] you can't bring information
+[33:09] from the schwarzschild radius or even
+[33:10] from below the 30 radius outside this is
+[33:13] not possible
+[33:14] you have to sit above the schwarzschild
+[33:16] radius
+[33:18] and with this
+[33:24] we want to close this tutorial
+[33:28] and we hope to see you next time

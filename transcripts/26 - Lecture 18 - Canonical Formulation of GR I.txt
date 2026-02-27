@@ -1,0 +1,898 @@
+[00:00] This program is being presented to you by the Hurraeus International Winter School on Gravity and Light.
+[00:08] And these are usually called Poincaré charges because they correspond to the globally conserved quantities that are assured by
+[00:36] corresponding to symmetries. And here in this context, if you have isolated systems, you have a global acting symmetry group, which is what's called the asymptotic Poincaré group.
+[00:46] And so in these situations, you can attribute mass, momentum, spin angular momentum, for example, to black holes.
+[00:54] You can talk about the mass of a black hole, its linear momentum and its angular momentum.
+[00:59] And last but not least, it's the fifth point. It serves as the starting point for the canonical quantization program if you're interested in quantum gravity.
+[01:12] And that point is sort of disconnected from this. This is all classical. This is all a classical theory.
+[01:19] But if you're interested in quantizing gravity, you would like to put it to a form in which you can apply canonical or standard quantization rules.
+[01:29] And some of them, one choice of them is canonical quantization rules. So it's the starting point.
+[01:49] And I put this in inverted commas because canonical quantization is, as I said, a program. It's not a theory.
+[02:10] It's not that any Hamiltonian dynamical system could be chronically quantized. It's sometimes wishful thinking, but there are certain steps to be taken.
+[02:23] And as we said yesterday, you can write down equations and you regard them as a statement of intent.
+[02:35] So how do we do this? How do we try to achieve this goal?
+[02:55] We will rewrite Einstein's equations. In form of a constrained Hamiltonian system.
+[03:21] So in the first part of the lecture, I actually don't talk about Hamiltonian systems at all. I just talk about dynamical systems.
+[03:29] But once you have them in a dynamical form that is with time derivatives and so on, then you can actually see that you could write these as kind of Hamilton's equations.
+[03:39] So you have an additional constraint in the form that only certain hypersurfaces in submanifolds of the Hamiltonian system is accessible to you.
+[04:06] And that is the signature of a system which gauge degrees of freedom that only certain submanifolds of Hamiltonian systems are accessible.
+[04:19] And we'll see what this means.
+[04:24] So let's start. So that's the declaration of what we're trying to do.
+[04:32] So the starting point, of course, is Einstein's equations. And to fix some notation and ways of writing things, I will write down certain things that I think are familiar to you.
+[04:42] And if they are not or if they differ from what you have heard so far, then you should stop me and point out the difference.
+[04:51] So this, I believe, is Einstein's equations that you have seen. Einstein stands on the left-hand side.
+[04:57] Then there might be a cosmological constant. And then there's the right-hand side, which is the source of the gravitational field. It's the energy momentum tensor.
+[05:05] My convention is usually that the Greek indices run through values 0, 1, 2, 3, whereas Latin indices run from 1 to 3.
+[05:15] Is that what the convention you had? Or is it just the opposite?
+[05:17] You made it the other way around.
+[05:19] But it's okay. I'm sure we can think.
+[05:24] Okay. And my signature is minus plus plus plus. Is that your signature?
+[05:29] No.
+[05:32] Okay.
+[05:34] It's fine.
+[05:36] Yeah, should be not good.
+[05:39] I sometimes change that signature. It depends on what you do. But if you make a 3 plus 1 decomposition, it's likely better to have it minus plus plus plus.
+[05:46] So that space is positive definite, rather negative definite.
+[05:49] Because otherwise in space, you always have these minus signs coming in.
+[05:53] Right.
+[05:55] And my convention is also that T00 is the positive energy density.
+[06:01] So T00 is positive.
+[06:06] Right. So there are three things in this equation.
+[06:09] So this is the Einstein tensor, G menu.
+[06:14] This is a cosmological constant.
+[06:19] And with my conventions, let's see, with my conventions plus minus, it should be plus. Sorry.
+[06:32] So that if you bring it on the other side, it accounts for a positive energy density.
+[06:38] But in my case, I won't talk much about the cosmological constant. So that's not really important.
+[06:44] Then there is the coupling to the meta, which is 8 pi times Newton's constant divided by the fourth power of the velocity of light.
+[07:02] This is an important number in order to judge the amount of the strength of gravitational effects.
+[07:09] What it does is it turns an energy density into a curvature.
+[07:15] If you multiply that quantity with an energy density, you get a curvature.
+[07:21] The physical dimension of curvature is 1 over length squared.
+[07:24] And the physical dimension of an energy density is dual divided by length cubed.
+[07:31] And so that makes clear what this is in physical terms, in physical dimensions.
+[07:36] Let me just give you a number in a few seconds.
+[07:38] So T menu, if I put the indices upstairs, has the following structure in a 1 plus 3D composition.
+[07:50] So the north-north component W is the energy density.
+[07:57] This column vector, this row vector, is the energy current density up to a factor 1 over C.
+[08:09] The column vector is, sorry, C times, this is an N, and this is an M.
+[08:18] This is the momentum density, and this is the momentum current density.
+[08:26] And I'll write it down in a second.
+[08:28] So W is energy density.
+[08:40] G index M is momentum density.
+[08:53] SM is energy current density.
+[09:06] TMN is momentum current density.
+[09:08] So it has two indices.
+[09:09] The first says what momentum are you talking about.
+[09:12] And the second is the index in what direction does it flow.
+[09:26] And as you see, all these components create gravitational fields.
+[09:30] That means if, for example, you have a fixed amount of matter, fixed number of barions,
+[09:35] then they carry a certain energy density.
+[09:38] But if you put them under pressure, then you create a component down here.
+[09:41] And this pressure creates gravitational fields.
+[09:44] So the same amount of stuff creates a different gravitational field,
+[09:49] depending on whether that's under tension or not.
+[09:51] And that is very important because that's the reason,
+[09:54] partially the reason for why there is gravitational collapse.
+[09:57] If you want to build a star, you have to support the pressure, the gravitational pressure,
+[10:03] in the gas of the star by having momentum current densities.
+[10:09] In other words, pressures.
+[10:11] And these pressures increase the weight of the gas that's in the atmosphere of the star.
+[10:21] And if you increase the pressure more and more,
+[10:25] if you make more and more matter into the star,
+[10:28] the star has to stabilize itself by creating more and more pressure.
+[10:31] And the pressure has the effect that the amount of stuff weighs more and more.
+[10:37] And at a certain stage, adding more pressure will lead to the collapse of the material of the star.
+[10:45] So general relativistic effects, in that sense, destabilize systems
+[10:51] and make gravitation collapse possible.
+[10:55] Should we start with the symmetry?
+[10:58] Yes, I'm coming to this.
+[11:00] So these are three, this is one component.
+[11:04] This here are three components.
+[11:07] These are also three components.
+[11:10] And these are six components because this is symmetric.
+[11:13] But because of symmetry of this tensor, energy current density and momentum density are related.
+[11:20] So T mu nu equals to T mu mu,
+[11:24] which implies that the energy current density is equal to C squared times the momentum density.
+[11:33] And so this tensor has ten independent components.
+[11:38] One, three, six gives ten independent components.
+[12:00] The physical dimension is clear.
+[12:02] Energy momentum tensor has joule divided by meter cubed, say.
+[12:16] Curvature is one over meter squared.
+[12:21] And K, this constant, is the obvious thing.
+[12:28] Namely, it turns T mu nu into G mu nu.
+[12:31] So it should be joule times meter.
+[12:38] Sorry, it should be just the other way around.
+[12:40] It's one over meter squared divided by joule over meter cubed.
+[12:50] And the rough order of magnitude is such that
+[13:19] the curvature divided by energy density.
+[13:31] But instead, you could look at this one, which is curvature divided by mass density.
+[13:44] And it tells you how much local mass density you must have in order to create a certain curvature.
+[13:52] And this can be written in a following way.
+[13:55] That's for example, one over 1.5 astronomical units.
+[14:01] So distance as to sun on average squared divided by density of water.
+[14:14] Right, so if you have matter sitting here with the density of water,
+[14:18] the question is how much curvature does it create?
+[14:20] According to this equation, roughly speaking,
+[14:22] the answer is a curvature radius of 1.5 astronomical units.
+[14:28] So very little curvature.
+[14:30] But you can also write it as one over 10 kilometers squared
+[14:38] divided by nuclear density in the core of a neutron star.
+[15:02] Which is roughly like, say, 5 times 10 to the 17 kilograms per cubic meter.
+[15:11] So inside the neutron star, the curvature radius is roughly 10 kilometers.
+[15:15] But the neutron star itself is about 10 kilometers.
+[15:18] So that means the curvature is of the same order of magnitude as the geometric radius of the object.
+[15:23] And that means very strong gravity.
+[15:33] So that explains the constant that has been erased.
+[15:39] And on the left hand side, let me say a little bit about the Einstein tensor,
+[15:43] just a few words about its interpretation.
+[15:46] So it's certain curvature components.
+[15:49] Which ones?
+[15:56] So if I just write I for the Einstein tensor, so the geometric object,
+[16:04] I don't want to call it capital G because G is already given away for the Newton Curvitation constant.
+[16:10] So that means G minu is the Einstein tensor contracted, say, with this coordinate basis.
+[16:20] Does that make sense to you as a basis for the tangent vectors?
+[16:26] Since it's a symmetric bilinear form, it's determined by its quadratic form.
+[16:30] If you know the quadratic form, the values of the quadratic form, you know the bilinear form.
+[16:34] And the quadratic form means take the Einstein tensor and you fill it with two identical entries.
+[16:40] There's a so-called polarization identity.
+[16:43] So the Einstein tensor contracted with the vectors v and w,
+[16:48] this equivalent is the same as one-half the Einstein tensor v plus w,
+[16:56] v plus w minus the Einstein tensor v minus w, v minus w.
+[17:04] And that shows you if you know the Einstein tensor is filled in with two identical entries,
+[17:08] you know the full Einstein tensor, okay?
+[17:10] So once we know its quadratic form, we know the bilinear form.
+[17:15] And now the Einstein tensor contracted with two or filled in with two identical vectors
+[17:25] can be written the following form is minus G ww times the sum of sec.
+[17:36] Sec stands for sectional curvature.
+[17:38] Did you do sectional curvature?
+[17:40] Okay.
+[17:42] So I might come back to this point later.
+[17:46] Sectional curvatures are the components of the Riemann tensor.
+[17:52] So sectional curvature has as argument a two-plane.
+[17:57] So for example, the span of v and w.
+[18:04] And it just depends on the span.
+[18:06] It does not depend on which vectors you take to span it, yes?
+[18:09] It may be a quarter.
+[18:17] It may be a quarter, let's see.
+[18:19] You get, yes, it's a quarter, sorry about this.
+[18:26] So it takes as an argument two vectors and only the span.
+[18:30] And then it's essentially the Riemann tensor v w v w divided by G v w squared minus G v v G w w.
+[18:50] There's a certain sort of object.
+[18:53] So this division by this area that is spanned by these two vectors,
+[19:00] make this right-hand side independent of the actual vectors that you take in order to span this.
+[19:07] And the interpretation is like this.
+[19:09] You go to manifold, you go to a certain point.
+[19:12] In the tangent space at this point, you take the plane that is spanned by v and w.
+[19:17] And you suppose that this plane is not light-like.
+[19:20] Otherwise, the denominator would be zero.
+[19:23] The plane is not light-like.
+[19:24] So it's time-like or it's space-like.
+[19:27] And then the sexual curvature is the Gaussian curvature of the two surface that's spanned by the GUD6,
+[19:35] which at this point starts tangentially to that two plane.
+[19:40] So it's a local Gaussian curvature.
+[19:42] And the local Gaussian curvature of a two plane, if you embed it into three space,
+[19:47] is just the product of the inverse main curvature radii at this particular point.
+[19:54] So it is a very geometric interpretation.
+[19:57] And therefore, curvature has the physical dimension of one over length squared,
+[20:02] because it's the product of two inverse main radii.
+[20:06] So this is essentially, section curvatures are essentially Gaussian curvatures of two planes.
+[20:13] And this formula, this formula tells you that if you take, for example, the Einstein tensor,
+[20:18] contracted with twice a normal time-like vector, say, zero-zero,
+[20:23] the time component with respect to some time coordinate.
+[20:27] Then according to my sign convention, this is minus one.
+[20:32] If this is a normal vector in time-like direction, so this is just one.
+[20:36] And then this is, on the right-hand side, is the sum of three Gaussian curvatures,
+[20:41] of three mutually orthogonal two planes.
+[20:45] So the orthogonal complement to w is a three-dimensional hyperplane in the tangent space.
+[20:52] So it's a three-dimensional space.
+[20:54] And that three-dimensional space has three mutually perpendicular two planes in it.
+[20:58] And of that, you take the Gaussian curvatures and sum them all up.
+[21:02] And this gives you the Einstein tensor.
+[21:04] So in a sense, the Einstein tensor is very much the average spatial curvature,
+[21:10] the spatial meaning perpendicular to this entry.
+[21:13] If this entry is space-like, then, of course, you have a time-like plane.
+[21:17] It's also known to it.
+[21:18] And then it's not so obvious as an interpretation.
+[21:22] But if you take time-like vectors, it's really just the average spatial curvature.
+[21:26] And so this is very much what this interpretation alludes to.
+[21:31] Right.
+[21:39] And then there is a very important and useful identity.
+[21:53] And that is that the covariant divergence of the Einstein tensor is zero.
+[22:01] And this follows.
+[22:20] The twice-contracted second Bianchi identity, which says that the cyclic sum of this thing,
+[22:42] of the covariant derivative of the Riemann tensor, with respect to cyclic permutations
+[22:47] of this index and the later two indices, is zero.
+[22:50] And if you contract this twice, it has five indices, five free indices.
+[22:55] So you take two pairs away.
+[22:57] It's one free index.
+[22:58] And there's only essentially two ways of doing it.
+[23:01] If you do it one way, which is the stupid way, then it gets zero is zero, equals zero.
+[23:07] And the other way gets to this equation.
+[23:09] So you should do it the right way.
+[23:11] But then you get this equation.
+[23:14] Yeah.
+[23:21] This here?
+[23:22] Yeah.
+[23:23] Well, this says take the sum over any triple of mutually perpendicular
+[23:43] two planes in the orthogonal complement of w.
+[23:51] That's the meaning of the...
+[24:00] If you, in a coordinate system, write out this equation, then you get something like this.
+[24:11] First, you write the time derivative, the space derivative.
+[24:18] And then for each index, you get a gamma symbol.
+[24:21] You call them gamma symbol or Christoffel symbols or all of that.
+[24:26] Good.
+[24:27] And then you get two more terms, which I actually don't need to write down.
+[24:33] Some indices contracted.
+[24:40] And that is zero.
+[24:42] And now this is an identity.
+[24:44] This is identically fulfilled.
+[24:45] This is not a requirement on the metric.
+[24:47] That's identically fulfilled for all metrics.
+[24:50] The G has at most second derivatives of the metric in it.
+[24:55] This is a spatial derivative.
+[24:58] This has...
+[25:01] So if you put everything from here on the right-hand side, it has at most second time derivatives.
+[25:08] So in this part, there are...
+[25:11] Contains...
+[25:25] Second time derivatives.
+[25:27] This means, because this is already a time derivative, that this contains first time derivatives.
+[25:42] And since the Einstein equations are of second order, this means that the zero, zero, or zero,
+[25:48] space-like components of the Einstein equations do not contain more than the first time derivative
+[25:53] of the gravitational field.
+[25:55] But since the equations are of second order, this means this equation is actually an equation
+[25:59] for the initial data.
+[26:00] It's not an evolution equation.
+[26:02] So four out of the ten Einstein equations do not contain the time derivatives of the fields you are
+[26:08] actually looking for.
+[26:09] It contains constraints for the initial data.
+[26:12] That's very similar to Maxwell's equations.
+[26:14] You know this phenomenon from Maxwell's equations.
+[26:16] In Maxwell's equations, you have six equations of the sort E dot equals something and B dot
+[26:21] equals something.
+[26:22] And then you have an equation divergence of B equals zero, which does not contain time derivative.
+[26:28] And you have an equation divergence of E equals rho, which also does not contain a time derivative.
+[26:33] So this is a constraint on the initial data.
+[26:36] You cannot prescribe magnetic fields, which are not divergence free.
+[26:40] And you cannot prescribe an electric field, which is not related to the charge density
+[26:46] by divergence E equals rho.
+[26:48] If you do so, you cannot evolve these fields according to Maxwell's equations.
+[26:52] And very similarly here, there are four constraint equations which you have to satisfy
+[26:58] before you start running the evolution problem.
+[27:18] Thank you.
+[27:48] The space-space components, the six space-space components are the evolution equations.
+[28:11] So you have ten Einstein equations.
+[28:18] And they split into four constraints.
+[28:33] And these constraints equations are of what's called undetermined elliptic type.
+[28:43] This undetermined just refers to the fact that you have a gauge freedom.
+[28:47] That you have, so the diffeomorphic image of one solution is another solution.
+[28:54] So you cannot determine the solution to more than up to a diffeomorphism.
+[28:58] This is why it's undetermined.
+[29:00] And you have six evolution equations.
+[29:10] And they are of undetermined hyperbolic type.
+[29:29] And as you know, the standard example of an elliptic equation is something like the Laplace equation.
+[29:36] It wants a boundary value problem.
+[29:38] So for the initial data, you want to set up a boundary value problem.
+[29:41] And for the evolution equation, you want an initial value problem.
+[29:44] And if you want to solve both together, you have a boundary initial data problem.
+[30:02] It's an elliptic system.
+[30:03] So the time derivative of the field is part of the initial data.
+[30:07] What you have to specify in order to solve Einstein's equation is certain fields and their first time derivatives.
+[30:14] And then the evolution equations evolve the system.
+[30:17] And the constraints relate the zeros and the first derivatives.
+[30:22] And this system together is an elliptic system.
+[30:25] And you will see this.
+[30:34] Oh, OK.
+[30:53] Because this is an identity.
+[30:54] This is an identity.
+[30:55] This holds identical, identically, in the metric.
+[30:58] So if I put this on the other side of the equation, then the right hand side contains at most second time derivatives.
+[31:05] Since this is already a time derivative, in order to fulfill the identity, this cannot have more than first time derivatives.
+[31:28] So you have an initial boundary value problem.
+[31:41] You have both aspects in these equations in it.
+[31:43] And it took a long time until people understood this character of Einstein's equations.
+[31:48] Einstein, in his first papers, compared his equation with Newton's equation.
+[31:55] But Newton's equations are purely elliptic.
+[31:57] There's Laplacian of phi equals 4 pi g rho.
+[32:01] This is the master example of an elliptic equation.
+[32:05] It just wants boundary values.
+[32:06] It's not evolving anything.
+[32:08] If you put the boundary values of the gravitation field and put it in the source, then the solution can be uniquely determined by integrating up this equation.
+[32:18] The standard example for a purely hyperbolic system is, for example, the Klein-Gordon equation.
+[32:23] The wave operator on a field equals a source or is equal to zero.
+[32:26] So you just want to have the scalar field on an initial time slice and its first derivative.
+[32:33] And then you can write down solutions for the evolution.
+[32:36] But here you have both aspects in it.
+[32:38] And that's difficult.
+[32:40] One thing you must show is that if initially you satisfy the constraints and then you evolve the fields according to the six evolution equations, then the constraints will continue to be satisfied.
+[32:55] And that is easy to see for analytical data from this equation.
+[32:59] But it follows in general because the evolution equation that you get for the constraints are of so-called symmetric hyperbolic type.
+[33:07] And then you can actually prove in general, in certain function classes, that this evolution stays such that the constraints will continue to be satisfied.
+[33:16] So it's a consistent set.
+[33:18] It's just like for Maxwell's equations.
+[33:20] If initially you satisfy the equation that the B field is divergence free and you evolve according to the Maxwell equations, then it can prove for Maxwell equations that it will continue to be divergence free.
+[33:33] It does not develop non-zero divergence.
+[33:38] And the same way for E.
+[33:41] If you initially satisfy the E, let the E satisfy divergence E equals rho, and you evolve according to Maxwell's equations, then the divergence of E will continue to be rho according to Maxwell's equations and according to the conservation of charge.
+[34:00] Rho dot equals minus the divergence of the charge density current, which is an integrability condition of Maxwell's equations.
+[34:09] The conservation of charge is a consequence from Maxwell's equations.
+[34:13] You cannot satisfy the Maxwell equations with currents that violate this condition.
+[34:17] And very similarly here, so you cannot satisfy Einstein's equations for a right hand side for energy momentum tensor that is not covariant divergence free, which is a big problem in solving certain problems because this equation tells you that the matter basically has to satisfy local energy and momentum conservation.
+[34:37] Okay.
+[34:39] Yep.
+[34:42] Somehow this thing that we say we have to fulfill a system that evolves accordingly to those six evolution equations has still fulfilled those four constraints just enables us to do the separation to constraints and evolution because if we couldn't prove that those six evolution equations preserve those constraints, we just couldn't call them constraints, could we?
+[35:07] Yeah.
+[35:08] I mean, I could say, I could say I have an initial constraint on my initial data, then I evolve them and I will look what happens to this initial data.
+[35:16] Do they continue or do they not continue?
+[35:18] I can still continue to evolve them if I like, but the whole set would then not any longer count as a solution to Einstein's equations.
+[35:27] If we just satisfy six out of the ten equations.
+[35:30] Right.
+[35:31] It's a self-consistency requirement, if you like.
+[35:34] Okay.
+[35:36] So the next thing I want to talk about is the so-called three plus one split.
+[35:51] So if you want, you see, space time doesn't evolve in time. Space time just is, right? Space time is the block and this is sits there.
+[36:01] So if you want to think of space time as the evolution of something, so this is space time M, then one way you could come go about if you want to have a sort of initial data problem,
+[36:15] cozy initial data problem, you can foliate space time into space like leaves and say space time is the history of space.
+[36:28] So you could foliate it into a sequence of leaves, all of the same topology sigma, which is a three-dimensional manifold, and you have certain embeddings of this into here, to here, into here,
+[36:42] by some sort of say ET, ET prime, ET double prime, by some sort of one parameter set of embeddings of a three-dimensional space sigma into space time.
+[36:55] So this is sigma is a three-dimensional.
+[37:06] And in order to do this, we have to make an assumption.
+[37:14] Assume space time to be topologically a product M is homomorphic to the real line times a three-dimensional manifold.
+[37:36] So whenever this is the case and the metric is suitable, then I can foliate space time in this way and the sigma becomes space like hypersurfaces.
+[37:46] One can prove that in four dimensions, this is equivalent to what's called global hyperbolicity of MG.
+[38:03] And globally, hyperbolicity means is equivalent to saying space time admits a Cauchy surface.
+[38:09] So it can be thought of as being evolved from an initial value problem, and this is what we are interested in.
+[38:15] There are solutions to Einstein's equations which do not have that form.
+[38:19] There are quite a few of those, but these are not the ones we are interested in.
+[38:25] We are interested in space times, and there are sufficiently many, to be physically interesting of course,
+[38:30] of that form which can be thought of being created by an initial value problem.
+[38:36] So the sigma would be here, a fiber to the base space arc.
+[38:43] Can it be seen?
+[38:44] Yeah, if you like.
+[38:45] Yeah, just to be complicated.
+[38:47] Yeah, but it's a product, and so it's a very trivial fiber, vibration, but it's a, yeah.
+[38:53] And I'm sorry, under which circumstances is this possible?
+[38:58] Under which circumstances?
+[38:59] If space time is globally hyperbolic, if it admits a Cauchy surface, then it's always of that form.
+[39:05] So in a sense, you can say we are interested in space times of that form.
+[39:11] Whether there are others or not, I'm not interested in.
+[39:14] I just want to restrict my interest a priori to space times of that form.
+[39:19] And they're sufficiently general to be able to discuss many, many physically interesting problems.
+[39:26] I'm not saying that I'm exploring the whole world of solutions of Einstein's equations.
+[39:31] I'm saying I'm exploring the world of Einstein's equations of that form.
+[39:35] And there are many equivalent conditions under which this global topological split is actually necessary.
+[39:43] For example, as I said, if space time is globally hyperbolic, that is, it admits a Cauchy surface.
+[39:49] Another equivalent condition is space time admits a so-called SL2C spin structure.
+[39:55] You can define fermions on space time.
+[39:58] If you want to have a spin structure, it must also be in four dimensions of that form.
+[40:02] That's the theorem of Garroch.
+[40:04] So it's a very natural assumption.
+[40:07] But I'm not saying that a space time which solves Einstein's equations which is not of this form is a priori uninteresting.
+[40:13] I'm not saying this.
+[40:19] So the idea is, as view it as a history of space,
+[40:43] and space is a three-dimensional manifold with a certain metric on it.
+[40:47] And it evolves in a certain parameter which has yet not received any interpretation which I call t.
+[40:53] It's just a coordinate time, if you like.
+[41:20] Mathematically, this means that we have one parameter family of embeddings.
+[41:30] I call them Et.
+[41:32] And what I'm embed is the three-manifold sigma into m, where t is any text values in the reels.
+[41:41] And the image of this embedding, I call sigma t, which is the image of sigma under Et.
+[41:49] And that's the manifold that you see here.
+[41:52] So that's sigma t prime, that's sigma t, and that's sigma t double-primed.
+[41:58] So this straight line sort of standing for the manifold sigma has images in m.
+[42:07] And to have a foliation means through each point in m goes one and only one leaf, precisely one leaf.
+[42:17] The metric at time t, so at parameter time t, is just the pullback of this embedding.
+[42:34] The pullback of the metric g is h at time t.
+[42:42] And when you talk about tensor fields, do you say sections in a certain bundle, did you use that language?
+[42:50] So may I write something like this as a section, I call gamma t, 0, 2, for example, and on sigma, does that make sense to you?
+[43:04] Okay, but that's not very much more, right?
+[43:11] So this is the 0, 2 tensors, so it means twice covariant, they are even symmetric, over the manifold sigma, and this is a section in there.
+[43:19] So it's just a local assignment, a smooth assignment of tensors, you had tensors of type 0, 2, so twice covariant.
+[43:29] So this gamma means section in that tensor bundle.
+[43:35] And this is Riemannian, which is equivalent to saying that sigma t is space-like.
+[43:50] So these leaves should be space-like leaves.
+[43:57] And this local foliation of spacetime into spaces and transversal directions serve to split the tangent space, and therefore the cotangent space, and therefore all tensor products between these spaces into horizontal and vertical components.
+[44:57] Right, if I go at a certain point of my manifold p, there is a leaf going through this point, and the tangent space at this point can be split into those vectors parallel to the normal and vectors parallel to the tangent vector of sigma.
+[45:22] And the projection operators are at each point, and I don't indicate the point, I say this is true for any point in the tangent bundle of m.
+[45:37] I have a split and a projection of this into the parallel component of m, and the map is any vector x goes to x plus n g n x.
+[45:52] And if you take the opposite signature to, if you had the time-like direction positive, there should be a minus sign here.
+[46:00] So this is an orthogonal projection parallel to the normal into the tangent space of sigma.
+[46:08] And the perpendicular projection operator is t m goes to t perpendicular m, and this is x goes to minus n g n x.
+[46:23] And the minus sign here is due to the fact that time-like directions are negative in my convention.
+[46:28] Yeah, here I'm assuming the n is never null.
+[46:55] My n is never null. It's never light-like, yeah?
+[46:59] For otherwise, there is still a split of the space, but the direct sum doesn't span the tangent space any longer.
+[47:09] I don't want, I don't want.
+[47:11] There are other formalisms which do that with inclusion of light-like vectors, but I don't do this.
+[47:16] So n, so g n n is always minus one.
+[47:46] So this projection operators can be continued to the co-tangent vectors.
+[48:05] Whenever you have a linear map on your vector space, you have the linear map on the dual space and to tensor products.
+[48:16] So I can, for an arbitrary tensor, I can make this decomposition slot-wise for each of the tensor entries, right?
+[48:36] So I can do this in a linear and parallel.
+[48:42] Right.
+[48:47] One thing I can write down here is that the induced metric,
+[49:02] so let's t on this t, is then this continued projection parallel to the hypersurface of this tensor g.
+[49:18] And this can be written as g plus n n restricted to the tangent vectors of sigma.
+[49:31] If this n underlines, this is my private notation, this is the one form that corresponds to the vector n under the metric isomorphism g.
+[49:41] So in index language, it's pulling the index down.
+[49:44] So this is equal to, by definition, g n and the slot is three.
+[49:51] Did you write it like this similarly?
+[49:54] I'll flat.
+[49:55] Okay.
+[49:56] Yeah, I can't write a flat because it always looks like a b.
+[49:59] In my, it's, it's, you have sharp and flat.
+[50:02] Musical isomorphisms.
+[50:04] Yeah.
+[50:07] How do you, do you write it like this?
+[50:09] Similar to this?
+[50:10] Yes.
+[50:11] They.
+[50:12] And we have it as a map flat of n.
+[50:15] Oh, you write flat the word?
+[50:17] No.
+[50:18] The b.
+[50:19] B of n with brackets.
+[50:21] As a map taking n to.
+[50:23] Okay.
+[50:24] So the image of this map is my n underlined.
+[50:28] Much shorter.
+[50:29] Yeah.
+[50:30] Why do you know that this is given to me once I have the foliation because to the foliation
+[50:42] there's a normal vector at each point.
+[50:44] And if, if, if the foliation, I have a metric, I have a foliation of a Lorentz manifold and
+[50:50] the foliation is time like.
+[50:51] So at each point I know what the, what the, what the space like subspace in the tangent
+[50:57] space is that's tangent to my, to my leaf.
+[51:00] Hence I know what the normal is.
+[51:02] And I assume my space time I should have said this to be time orientable.
+[51:06] Hence I know what the normal direction in time positive direction is and I normalize
+[51:10] it and this is a field.
+[51:12] If my foliation is smooth, this is a smooth field and this is defined over all the points
+[51:18] which, through which leaves actually go.
+[51:21] So if, if I assume that this is a global foliation, this is a globally defined vector field.
+[51:36] So if you, if you insert two tangent vectors and tangent to sigma into this metric H, this
+[51:43] is just g of these vectors for all x, y element t of sigma.
+[51:59] And this induces a split of the covariant derivative.
+[52:28] So this means like given two vector fields which are, perhaps I should write it like this,
+[52:33] perhaps I should write it like this.
+[52:36] Sections in the, in the tangent bundle which are parallel to the hypersurfaces.
+[52:44] Then I take the covariant derivative of one with respect to the other.
+[52:49] And these two vectors are parallel but the result of taking the covariant derivative is
+[52:54] not necessarily parallel anymore.
+[52:56] So I have to decompose it into the parallel component in the normal component.
+[53:07] And this I write just at the moment this is just a, just a name.
+[53:15] And since the, the, the, the perpendicular component is proportional to n, I can write it like this.
+[53:22] n times a certain function on these two vector fields.
+[53:25] And what I can now prove is this is a tensor field and this is in fact a covariant derivative
+[53:30] on the tangent bundle of parallel vectors.
+[53:32] In fact, it's the unique metric torsion free connection with respect to the metric H.
+[53:38] If the nabla is the unique metric torsion free connection with respect to the metric g.
+[53:51] So I call it to one because it's the second section and the first proposition in the second section
+[53:56] that says a.
+[54:27] Yes.
+[54:34] I could.
+[54:36] Let's just write it like this.
+[54:46] It's a section in t.
+[55:06] The proof of this is fairly easy.
+[55:34] Sorry.
+[55:50] Sorry.
+[55:52] Yeah.
+[55:54] Element.
+[55:56] Well actually I want to prove that's an element of this.
+[55:59] But it's, that, that is really a section in a tensor bundle.
+[56:02] As such, this is just, this is, this just notes a certain functional dependence.
+[56:07] If I give you, if you give me two sections, x and y, then I produce you a function,
+[56:13] a real valued function on the manifold.
+[56:15] And I want to show it to show to you that this many, that this function is actually brought about
+[56:20] by contracting a tensor with these two vector fields.
+[56:23] So that there exists a tensor such that this function, which depends on these two,
+[56:27] is actually just the contraction of a tensor with these two entries.
+[56:31] This is what I want to show.
+[56:33] And the, in, in order to show this, I have to show that this dependence on x and y
+[56:44] is actually linear over the C infinity functions.
+[56:47] Then such an assignment is a tensor.
+[56:49] Did you do this?
+[56:50] When you prove that the Riemann tensor is a tensor.
+[56:52] So that the C infinity functions can go outside.
+[56:55] So this you have to prove.
+[56:57] You have to show that k, f, f, just a moment.
+[57:01] Why do we have this?
+[57:02] Because it takes entries of the vectors.
+[57:08] It's a, it's a, it's a tensor product of two dual vectors.
+[57:11] It receives two vectors and gives you a number.
+[57:13] So it's a covariant tensor.
+[57:26] So this you have to prove.
+[57:35] And this is really trivial.
+[57:37] I leave it to you.
+[57:38] It's, it's a one line, one line proof.
+[57:40] But once you take this definition of the, of the, of the, of the right-hand side,
+[57:46] you take this, this, this, this line, it's easy to prove.
+[57:52] If you want to, trivial, n symmetry.
+[58:05] You want to show that this is symmetric.
+[58:07] So let's do this.
+[58:08] Symmetry.
+[58:09] k, x, y equals minus g times n times perpendicular x, y.
+[58:22] Right from this equation, I contract this equation with n.
+[58:26] The scalar product of n with itself is minus one.
+[58:30] So if I contract this with n, I get that gn with the,
+[58:40] sorry, yeah.
+[58:48] Which is the same, of course, as this.
+[58:53] Because that's, that's doing the projection already.
+[58:56] And this is equal to minus gn.
+[59:07] Now here I can reverse the arguments x and y,
+[59:12] but the price I have to pay is I get a commutator.
+[59:26] Why is this?
+[59:28] Because x, y minus y, x minus commutator equals the torsion,
+[59:37] contracted with x and y.
+[59:39] Nabla is the torsion free connection, so the right-hand side is zero.
+[59:43] So x, y, and this on the other, on the side is this.
+[59:47] Right?
+[59:48] But this is the commutator of two tangent vector fields of a leaf.
+[59:54] And since this leaf is the leaf of a so-called integral distribution,
+[59:58] that means that the commutator of two tangent vector fields is again tangent.
+[1:00:03] So this is again an element of the section tangent to m.
+[1:00:09] And hence the scalar product with n is zero.
+[1:00:11] So this has gone away, but then you see that this is just the reversed order.
+[1:00:15] So this is just kyx.
+[1:00:19] So this is symmetry.
+[1:00:20] You need torsion freeness in order to prove this.
+[1:00:30] For b,
+[1:00:48] you have to show that this d is a connection.
+[1:00:52] Did you write down the axioms for a causal connection?
+[1:00:56] So linearity in the first argument, linearity in the second argument,
+[1:01:01] function linearity in the first argument,
+[1:01:04] but function Leibniz rule in the second argument, things like this.
+[1:01:08] That you have to prove.
+[1:01:09] And again, that's almost trivial.
+[1:01:11] If you go through the axioms of a connection,
+[1:01:13] you show that they're all satisfied because they're satisfied by Nabla.
+[1:01:17] And that's basically just p,
+[1:01:19] d is basically just a composition of this connection with a linear map.
+[1:01:26] And so all these properties survive.
+[1:01:46] And you must show this metric preserving in torsion free.
+[1:02:11] Now, metric preserving means the covariant derivative of h with respect to x is 0,
+[1:02:17] but this is per definition is just of, is this.
+[1:02:30] Now, this on this is 0 because this is a metric connection.
+[1:02:33] This goes by Leibniz rule on this factor and on this factor,
+[1:02:37] but there's always another factor being parallel to n that's annihilated by this.
+[1:02:41] So that's 0.
+[1:02:43] And torsion, the torsion of the d connection evaluated on x and y is dxy minus dyx minus xy.
+[1:03:02] And that's equal to p parallel.
+[1:03:05] And then you have xy minus yx minus xy.
+[1:03:11] And for the first two entries, this is just the definition of d.
+[1:03:15] And here I may write the commutator of two tangent vector fields as the commutator followed by a projection.
+[1:03:22] Because I know that if they are tangent, they are parallel.
+[1:03:25] So I may just pull out the parallel here, but this is just the torsion of delta on xy.
+[1:03:32] And this is 0.
+[1:03:33] So this is 0.
+[1:03:34] So this is the torsion free.
+[1:03:36] I find linear connection.
+[1:03:44] Right.
+[1:03:45] And this is the end of that part.
+[1:03:47] And then there's definition 2-2, which says that k is called the extrinsic curvature of sigma in m on the leaves.
+[1:04:08] So whenever you're evaluated at a point, it's the extrinsic curvature at that point of the leaf that goes through the point.
+[1:04:17] No parallel to the surface, parallel to the surface at this moment.
+[1:04:27] Perhaps a remark.
+[1:04:32] That's 2-3.
+[1:04:53] If you may associate a mixed tensor field, which for a moment I call w.
+[1:04:58] So it's a section in T11 parallel to m with this k, which is basically just taking the k and raising an index.
+[1:05:12] In a component in sort of, in a more invariant way of writing, it's like this.
+[1:05:20] We define a w uniquely by that equation.
+[1:05:27] So w maps a vector to a vector.
+[1:05:30] So you stick an x, you get a vector out, you take the scalar product with y, and then this should be equal to kxy.
+[1:05:36] This determines w uniquely.
+[1:05:38] And if you write it in components, it's just index raising.
+[1:05:41] But this w is a field of endomorphisms.
+[1:05:45] So it's not a bilinear map from tangent vectors.
+[1:05:49] You take a tangent vector and you get a tangent vector out of it.
+[1:06:11] Could it be here at the A, there would possibly be a gamma in the second, do I have a problem with this?
+[1:06:18] K is an element of gamma and that is...
+[1:06:23] Ah.
+[1:06:30] I don't remember if you used it as a formula for the solar system.
+[1:06:37] Is that again?
+[1:06:39] Sigma.
+[1:06:41] Capital sigma.
+[1:06:43] Yeah.
+[1:06:44] When you used this sigma, it was a field for showing the solar system.
+[1:06:53] Yeah, sigma stands for three manifold.
+[1:06:56] Yeah.
+[1:06:57] Am I right?
+[1:06:58] Now, k is called extrinsic curvature of sigma.
+[1:07:04] How is that possible?
+[1:07:05] If you change the story of the system that is extrinsic from extrinsic...
+[1:07:12] I should have said more precisely, it's the extrinsic curvature of the image of sigma in the embedding at the particular point.
+[1:07:21] I'm leaving out all the arguments.
+[1:07:22] I should write arguments at what point I evaluate this.
+[1:07:25] But there's a three manifold sigma, which is an abstract three manifold, which doesn't know anything about spacetime.
+[1:07:31] And then I have embeddings, time-parameterized embeddings of that three manifold into spacetime.
+[1:07:38] And for each parameter value t, there's one such embedding.
+[1:07:42] And for any two different parameters t, there are two embeddings which do not intersect.
+[1:07:48] So that's a foliation, right?
+[1:07:50] All these nice images foliate up spacetime.
+[1:07:55] And my k is a tensor field on...
+[1:08:00] It's actually a time-dependent tensor field on my manifold sigma that corresponds to the extrinsic curvature of the image of sigma in M under the embedding Et.
+[1:08:18] And this w is called the Weingarten map.
+[1:08:45] And the Weingarten map has a very nice interpretation.
+[1:08:50] So that's an expression that's usually used in surface theory in three-dimensional space.
+[1:09:15] So the expression for k was this.
+[1:09:19] But I can use the Leibnitz rule to put this covariant derivative of the y into a covariant derivative of the n.
+[1:09:29] Because the other terms that I would get would be an overall derivative, which is zero, because n is perpendicular to y.
+[1:09:35] And the other one is a covariant derivative of g with respect to x, which is zero, because this is a metric derivative.
+[1:09:41] This is a metric compatible connection.
+[1:09:43] So I may just, by adding a minus sign, put this derivative on the other side.
+[1:09:49] This is what I did.
+[1:09:52] And if you now compare this expression with this expression, since this tensor field is uniquely defined by this property,
+[1:10:05] I get, hence, w can be written as the covariant derivative of n.
+[1:10:13] So this is a vector field.
+[1:10:14] The covariant derivative with no entry put in here just increases the covariant tensor rank by one,
+[1:10:24] which is restricted to tangent vectors of m.
+[1:10:29] And this is, exactly, this is an element of section T11 parallel m.
+[1:10:38] So this is a very short expression for the Weingarten map.
+[1:10:41] And this also gives its interpretation.
+[1:10:43] If you think about surfaces, you have a surface that's embedded in R3.
+[1:10:48] If you want to geometrically capture its shape in R3, then one thing you can ask is, from an exterior viewpoint, there is a normal to the surface.
+[1:11:03] And I want to know how the normal tilts in certain directions.
+[1:11:07] So I've got one meter in a certain direction.
+[1:11:09] What does the normal do?
+[1:11:11] Does it stay straight?
+[1:11:12] Or does it tilt in this direction?
+[1:11:13] Or does it tilt in this direction?
+[1:11:15] This is by this Weingarten.
+[1:11:17] The Weingarten map answers that question.
+[1:11:20] So you stick in a vector.
+[1:11:21] That's the vector in what direction you go.
+[1:11:24] And what you get out is the direction in which the normal vector tilts.
+[1:11:28] So, for example, if you have a cylinder and there's a normal vector like this, and say you walk parallel to the central line, to the symmetry line of the cylinder,
+[1:11:42] then if you walk in this direction, the normal will not tilt.
+[1:11:46] It will just stay straight.
+[1:11:48] So in this direction, there is no extrinsic curvature.
+[1:11:51] But if you move in a perpendicular direction, down the cylinder curvature, then the normal tilts in the direction in which you go.
+[1:11:58] And if you go in a direction which is sort of tilted against these two, then it also tilts, but in a more complicated way.
+[1:12:07] Right?
+[1:12:08] So the eigenvalues of the Weingarten map are just the principal curvatures.
+[1:12:15] And so it's the inverse of the principal radii.
+[1:12:19] And they are perpendicular to each other because this is a symmetric map, as you can see.
+[1:12:24] So this k is the curvature with respect to the time component.
+[1:12:32] Not quite.
+[1:12:33] Not quite.
+[1:12:34] But in some sense it's, so if there is a curvature, it means the size of space of a volume element is changing this time.
+[1:12:43] This is, curvature has many aspects.
+[1:12:45] This is one of them.
+[1:12:47] But the extrinsic curvature, which is sort of equivalent to the Weingarten map, captures a little other aspects.
+[1:12:55] It does not capture the, it's called the extrinsic curvature because it shows how these leaves are bent into the ambient space.
+[1:13:03] So for example, in this case, where you have a cylinder which is intrinsically flat.
+[1:13:08] I can roll it out and the geometry, the intrinsic geometry of the cylinder, if I embed it in R3, is flat.
+[1:13:14] Right?
+[1:13:15] Locally, all axioms of, of, you can see the geometry hold.
+[1:13:20] But the extrinsic curvature tensor is non-zero.
+[1:13:24] It is zero in one direction, as the Weingarten map has a kernel.
+[1:13:29] If I go in one direction, nothing happens.
+[1:13:31] But if I go in a perpendicular direction, something happens.
+[1:13:34] So the Weingarten map as a two by two matrix would have one diagonal entry in this, in this case.
+[1:13:40] So extrinsic curvature is non-zero.
+[1:13:42] Extrinsic curvature, sorry, intrinsic curvature can be obtained from the Weingarten map as the product of the eigenvalues.
+[1:13:49] And they will be zero in this case.
+[1:13:51] In this theorem of Gauss, the theorem of Gregium says that this, this product, the determinant, if you like, of the, of the Weingarten map,
+[1:14:00] has purely intrinsic meaning.
+[1:14:02] It can be deduced from the metric inside this two-dimensional surface,
+[1:14:06] even though the tensor was defined from an extrinsic point of view.
+[1:14:11] Yes, in this example, what I just said, what I just said with respect to that picture holds if, if, if, if we are embedding flat space.
+[1:14:31] Right.
+[1:14:33] It's just to, to visualize that there can be extrinsic curvature even though the manifold you embed is intrinsically flat.
+[1:14:40] So therefore it's called extrinsic curvature.
+[1:14:43] It captures also the bending in, in, in this ambient space.
+[1:14:49] So, um, alternatively, I could write.
+[1:14:53] Right, because here I agree just to have entries in the tangent direction.
+[1:15:05] In order to define it, um, to, to, to make them sort of more and more, um, invariant definition,
+[1:15:10] I could just write it's the covent derivative of the normal vector field,
+[1:15:13] which is now a tensor in spacetime, and now a projected parallel to, to the direction of the leaves.
+[1:15:18] And then I get the Weingarten map.
+[1:15:23] Okay, so in this way of writing, and this is why, why I do all this.
+[1:15:53] Sorry, V, K, and H is tensors of a spacetime, which can receive entries from tangent or non-tangent directions.
+[1:16:09] The only difference being if you stick in a normal vector, it always annihilates it.
+[1:16:13] Right, so you, you can sort of allow, um, the tensor to also take entries from vectors which are not parallel to the leaves,
+[1:16:19] but then it will annihilate the normal components.
+[1:16:22] And then it would, for example, the Weingarten in components,
+[1:16:27] the Weingarten, um, tensor would be something like p parallel mu beta, p parallel alpha nu,
+[1:16:40] and then it would be something like this.
+[1:16:45] And if you then use,
+[1:16:48] then you can actually show that, um, this is equal to,
+[1:17:19] A is the covent derivative of the normal with respect to the normal.
+[1:17:26] It's the acceleration in the normal direction with respect to,
+[1:17:30] showing the, the sort of how fast the leaves accelerate at this particular point in space,
+[1:17:36] um, when you, um, let the embedding parameter T run over the real values.
+[1:17:42] So it's an acceleration.
+[1:17:45] And then Ki, KiB can likewise be shown to be,
+[1:17:57] and it's in fact symmetric as you can check under the exchange of alpha and beta.
+[1:18:07] So these equations are very useful later on.
+[1:18:10] Let me just write them down again.
+[1:18:27] In particular the first.
+[1:18:29] So if we regard K as a tensor in space time,
+[1:18:33] um, which has only non-venging components tangential to the hypersurface,
+[1:18:37] it has this expression.
+[1:18:40] And there's one more technical, um, thing I want to show you.
+[1:18:45] Let me, that is about,
+[1:18:47] lead derivatives.
+[1:18:51] You did lead derivatives?
+[1:18:53] Yeah.
+[1:18:56] So it's clear that the lead derivative of the normal with respect to the normal is zero,
+[1:19:01] because it's just a commutator.
+[1:19:03] Right?
+[1:19:04] The lead derivative of a vector field with respect to a vector field is a commutator.
+[1:19:10] Yes.
+[1:19:11] Can you remind what is N underlined?
+[1:19:13] Uh, underlined is the, is the one form that you obtain from N.
+[1:19:17] So N underlined is G, N, an entry like this.
+[1:19:22] So it's the dual, it's the, it's the image in the dual space under the isomorphism generated by the metric.
+[1:19:30] Yes.
+[1:19:31] Underlined is always, you take the image under this.
+[1:19:38] The lead derivative of N underlined is A, interestingly.
+[1:19:46] It's not so easy to see, but it's, uh, nevertheless true.
+[1:19:49] And the proof is this.
+[1:19:58] So let's evaluate.
+[1:19:59] This is a lead derivative of a one form.
+[1:20:01] So you get, again, a one form evaluated on any sort of any, any vector.
+[1:20:07] That can be written as it's N of N applied to X.
+[1:20:12] So this is the vector field N applied to the function that you get by contracting N underlined with X.
+[1:20:21] Okay?
+[1:20:22] Minus, so this is just using the Leibnitz rule for the lead derivative.
+[1:20:26] Minus N, LN of X.
+[1:20:30] Okay?
+[1:20:31] So that's the same thing.
+[1:20:33] Now this is the same as the covariant derivative with respect to N of N of X.
+[1:20:41] Because the covariant derivative of a function is just the ordinary derivative.
+[1:20:45] And this is the commutator.
+[1:20:55] And this is the covariant derivative of N underlined, which is A underlined applied to X, plus N underlined N of X minus N of X.
+[1:21:18] Okay?
+[1:21:19] So this goes on this, on this vector.
+[1:21:22] So it gives an A underlined X.
+[1:21:24] And then it goes on this one.
+[1:21:25] And I combine it with these two.
+[1:21:27] But this, according to zero torsion, is equal to XN.
+[1:21:35] And N, XN, is one-half XGNN.
+[1:21:49] Yeah, you can check.
+[1:21:50] It's just, and this is one, identically, minus one.
+[1:21:55] So this is zero.
+[1:21:56] So this is zero.
+[1:22:02] So this is AX.
+[1:22:04] And since this holds for all X, this line is shown.
+[1:22:14] And I also want to calculate this.
+[1:22:16] The derivative in normal direction of the spatial metric.
+[1:22:23] Note, if I haven't extended the meaning of H as a tensor field in M, this symbol doesn't make any sense, wouldn't make any sense.
+[1:22:30] If this were an intrinsic tensor in sigma, the derivative in a direction out of the surface would just not be defined.
+[1:23:01] And you know, so this is just Leibniz's rule applied to this in linearity.
+[1:23:11] And the derivative of the metric with respect to any vector field is the symmetrized covariant derivative.
+[1:23:17] You might have seen this in components.
+[1:23:19] It's if you say LX of G, and you take the new component of this.
+[1:23:25] This is mu X mu plus mu X mu.
+[1:23:32] Is this shown?
+[1:23:33] Was that in the tutorials?
+[1:23:35] No, I mentioned it.
+[1:23:37] Okay, so this is a formula that you can prove.
+[1:23:40] You need torsion-free-ness for this.
+[1:23:42] Otherwise, it's not true.
+[1:23:44] In a sort of semi-component-free way of writing it, you write twice the symmetrized delta N.
+[1:23:56] Right, this is this term.
+[1:23:58] This is just this without components.
+[1:24:01] Plus N, A plus A, N.
+[1:24:09] But now, look at this formula.
+[1:24:12] This just tells you that this is twice K.
+[1:24:19] So the derivative of H in normal direction is twice the extrinsic curvature.
+[1:24:24] And this is important because our canonical variables for our theory will be the three-dimensional metric, and it's basically its velocity.
+[1:24:32] So the normal velocity is basically K.
+[1:24:35] So that already shows you that once we set up the evolution equations, there will be two parameters, two values, two dynamically variables.
+[1:24:45] H and its velocity are H and its momentum.
+[1:24:50] So K, essentially, up to linear combinations, will be the momentum associated to H.
+[1:24:56] This is the Q variable in mechanical terms, and this is the P variable.
+[1:25:01] Right, so this is the normal derivative.
+[1:25:04] The question is there is underline missing under last N?
+[1:25:09] Yeah.
+[1:25:10] Can you remind what was H?
+[1:25:12] H is the spatial metric.
+[1:25:14] It's a parallel projection of G.
+[1:25:31] The T, the embedding parameter, can be used as one of four coordinates in the spacetime manifold.
+[1:26:00] Because any point lies on one and exactly one leaf.
+[1:26:03] So any point has a T parameter associated to it, namely that T parameter, which is the T parameter of the leaf that goes through the point.
+[1:26:11] So if I then define local coordinate systems on sigma, three coordinate systems, three functions, I will get four functions on the manifold,
+[1:26:20] namely the T and the three coordinate functions on the sigma.
+[1:26:23] And now I want to decompose the metric with respect to this coordinate time and some spatial coordinate system on my manifold sigma.
+[1:26:35] So the G is H minus NN.
+[1:26:51] And now let's first of all introduce an adapted basis.
+[1:27:00] And it's dual basis.
+[1:27:26] So a dual pair of or thermal adapted basis.
+[1:27:29] And this means the following.
+[1:27:30] That the thetas are dual to the E's just means that this holds.
+[1:27:41] Orthonormality means adapted means that the E0 components is actually my N.
+[1:27:51] So this is my time direction.
+[1:27:54] Orthonormal then means that G, E, A, E, B, so the spatial components will get delta AB.
+[1:28:07] There are anyway perpendicular to this because the tangent directions are perpendicular to the normal.
+[1:28:12] So the only thing I have to fix is the scalar product of the spatial parts and they are just orthonormal.
+[1:28:17] So that's an orthonormal frame and the thetas are its dual frame.
+[1:28:21] In that frame the metric takes a very simple form.
+[1:28:25] It's just...
+[1:28:37] Okay, so that's just the sustain of the normal in this frame.
+[1:28:45] You can also write the inverse metric which is now a metric on the cotangent bundle.
+[1:28:50] And this has the very same form E0, tensor E0 plus...
+[1:29:09] Right, so now the foliation.
+[1:29:39] Defines the time vector field just by following the history of a single spatial point.
+[1:30:02] That gives you a time like trajectory.
+[1:30:04] Now you do this for every point.
+[1:30:05] It gives you integral lines and the tangent vectors to these integral lines adjust the time like vector field.
+[1:30:13] So who's...
+[1:30:43] And just to keep the velocity of light for the moment for dimensional reasons.
+[1:30:55] The vector field d by dt at the point Etp is then defined to be d by dt of Etp.
+[1:31:09] Say to be fully precise t prime t prime at t prime equals t.
+[1:31:30] And of this vector field, this vector field now we decompose into the normal and tangential components.
+[1:32:01] Now write it like this.
+[1:32:05] So it has a component in normal direction and a tangential vector field.
+[1:32:09] And this alpha is called the LAPS function.
+[1:32:17] That's a function on the manifold.
+[1:32:19] And that's a vector field on the manifold always tangent to the leaves.
+[1:32:24] So it's like this and this beta is equal to the shift.
+[1:32:50] Say it again.
+[1:32:57] I just wanted to draw a picture.
+[1:33:12] So the left hand side is defined by the right hand side.
+[1:33:19] So this is the leaf sigma t and this is the leaf sigma t plus delta t.
+[1:33:26] This is the point p of m that is mapped to by Et of p.
+[1:33:37] Yeah, Et of p, sorry, Et of p.
+[1:33:41] And this is the point Et plus delta t of p.
+[1:33:47] Now if I connect these, if I think of them as being very, very close so they can sort of connecting the connecting vector,
+[1:33:53] I can decompose it into tangential component which is beta and the normal component which is alpha times n.
+[1:34:01] So alpha times n, alpha tells you how far these two neighboring leaves are away in proper time per unit parameter time.
+[1:34:12] So if I go one second in parameter time, what is the distance in actual space time?
+[1:34:17] And the beta says if I stay at the same space point, how far do I have to move tangentially to come to this point with the same tangentially?
+[1:34:30] So how much, the next slide is actually tangentially moved with respect to the first one.
+[1:34:50] Is the time over or not?
+[1:34:57] Five minutes?
+[1:35:00] Okay.
+[1:35:20] So if I now introduce coordinates on sigma, I can, the three coordinates on sigma and the one corner t here serve as a four-dimensional coordinate system in space time.
+[1:35:30] And with respect to them, I can now write down the metric.
+[1:35:33] And this I want to do.
+[1:35:34] This is the only thing I want to do next.
+[1:35:36] So I have, I can write d by dx.
+[1:35:40] So, okay.
+[1:35:42] X naught equals ct.
+[1:35:52] So this formula that I just wrote down has this form.
+[1:36:07] The inverse of this is easy to compute.
+[1:36:11] So this alpha minus one minus alpha to the minus one beta m zero and r to the minus one m alpha.
+[1:36:25] And this is d by dx zero d by dx m.
+[1:36:35] So this is how the locally orthogonal basis relates to my coordinate basis.
+[1:36:41] And these matrices adjust the expressions how the coordinate basis is expressed in terms of the orthonormal basis.
+[1:36:48] And now having written down this for the vectors, I can also write it down for the dual vectors by taking basically the transpose of this.
+[1:36:57] So I'll take the transpose and then it looks like this.
+[1:37:03] So now I've, I've row vectors rather than column vectors.
+[1:37:07] Alpha theta a zero a m.
+[1:37:16] And dx naught dx a equals theta naught theta a and then the inverse matrix.
+[1:37:37] And having written down all this, it's very easy to write down the metric in these coordinates.
+[1:37:42] First of all, h m n is just h d by dx m d by dx n.
+[1:37:52] And this is easily seen to be just a m a n a equals one to three.
+[1:38:00] The same for the inverse and I skipped that.
+[1:38:03] And the metric remember was just this.
+[1:38:16] But I know what these are in terms of the coordinate basis.
+[1:38:19] So I can write it down.
+[1:38:21] And it gives me, where's it, here's it.
+[1:38:28] It's minus alpha squared minus h beta beta times dx naught dx naught plus b m dx naught.
+[1:38:50] dx naught dx m plus dx m dx naught plus h n n dx m dx n, right?
+[1:39:11] Okay, so this is the four-dimensional metric written down in terms of this coordinate system
+[1:39:20] that's given to me by any sort of transversal foliation of my space-like foliation
+[1:39:26] for any sort of choice of time and a spatial coordinate system on sigma.
+[1:39:30] And it has two, it splits the ten functions which are the components of g into six plus four.
+[1:39:38] The six are the metric of the space-like slices and the four other ones are left-labs and shift function.
+[1:39:45] So the alpha function here and the beta function in here.
+[1:39:48] And the alpha and the beta function will be those function in the dynamical systems
+[1:39:53] whose evolution is not determined by Einstein's equations.
+[1:39:56] Einstein's equations determine the evolution of these functions but not of the other ones.
+[1:40:01] So in that system there are four functions whose evolution is completely open
+[1:40:05] and not determined by Einstein's equations.
+[1:40:07] And that's the signature of a gauge theory.
+[1:40:09] So if you have dynamical equations and you have some functions whose future evolution is not at all constrained by the equations of motion.
+[1:40:16] And now what is achieved by this construction is to have isolated those functions which are not constrained
+[1:40:22] from those which are determined by the equations of motion.
+[1:40:27] So the three-dimensional metric will be determined, the laps and shift function will be not.
+[1:40:31] And what's encoded in them is how I move from slice to slice,
+[1:40:36] how fast in the normal direction that's encoded in alpha
+[1:40:40] and how far in the tendential direction that's encoded in beta.
+[1:40:43] And these will be the gauge functions of my theory.
+[1:40:46] They encode four of them and will differ more in variance.
+[1:40:49] Okay.
+[1:40:51] Thank you.
+[1:40:59] Are there any urgent questions?

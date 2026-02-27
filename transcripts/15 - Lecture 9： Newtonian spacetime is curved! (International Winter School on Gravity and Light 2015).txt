@@ -1,0 +1,2214 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:12] light good morning and welcome to the
+[00:14] ninth lecture of the winter School uh
+[00:17] today's lecture number nine is titled
+[00:20] Newtonian SpaceTime is
+[00:23] curved this may come as a
+[00:25] shock uh because you thought probably it
+[00:29] is isn't curved and indeed in the
+[00:31] standard formulation it is not the
+[00:34] question is whether this standard
+[00:36] formulation holds up of course it does
+[00:39] in a way but if we inspect the axioms
+[00:42] properly I would like to make the point
+[00:44] that Newtonian space time must be
+[00:47] considered curved and in fact that this
+[00:50] curvature absorbs the effect of a
+[00:52] gravitational force so that no longer
+[00:55] gravity can be considered a force let me
+[00:59] make my point let's in the
+[01:01] beginning oh as you see today is a
+[01:03] physics
+[01:05] lecture um so however we'll of course
+[01:08] use much of what we have learned
+[01:11] especially the autop parallel equation
+[01:14] and we start here by Newton's two laws
+[01:17] which I wrote down more or less like
+[01:19] Newton did um Newton didn't use formula
+[01:23] he made little drawings and he used
+[01:25] words but it's actually very carefully
+[01:27] worded so the first axim is a body on
+[01:30] which no Force acts moves uniformly
+[01:34] along a straight line and usually there
+[01:38] is the addition in an inertial
+[01:41] system and Newton 2 also has the
+[01:45] addition in an inertial system I did not
+[01:48] put that there because an inertial
+[01:51] system has something to do with choosing
+[01:56] coordinates but this statement is an
+[01:58] absolute statement a body on which no
+[02:00] Force acts moves uniformly along a
+[02:02] straight line we know what a straight
+[02:04] line is independent of our reference
+[02:06] system right or we can at least
+[02:08] formulate this today second deviation of
+[02:11] a body's motion from such uniform
+[02:14] straight motion so deviation today we
+[02:17] call this
+[02:18] acceleration is affected by a force so
+[02:21] this identifies there is a force present
+[02:24] but the force doesn't act just like this
+[02:26] it's reduced by a factor of the body's
+[02:28] reciprocal mass the inertial mass Mass
+[02:30] the bigger the body's inertial Mass the
+[02:33] less the same force will accelerate the
+[02:36] body right so this looks nice and um the
+[02:41] question is what do these axioms say we
+[02:44] can read both axium statements about
+[02:47] what a particle does under various
+[02:50] circumstances if no Force acts then the
+[02:53] axium tells us the particle moves
+[02:55] uniformly along a straight
+[02:57] line however if you read read the first
+[03:00] axim like a postulate of what a particle
+[03:04] does it is merely a special case of the
+[03:08] second axium because if in the second
+[03:10] axum I say the force is zero the force
+[03:14] vanishes then deviation of a body is
+[03:17] affected by a Vanishing Force reduced oh
+[03:20] so there is no deviation from the
+[03:21] straight uniform motion so if you read
+[03:25] the first axim like an axim that says
+[03:27] what the particle does it becomes the
+[03:30] special case Newton wasn't that naive he
+[03:35] didn't need to emphasize the special
+[03:37] case in an extra axium and the first
+[03:40] Axiom needs to be read therefore a
+[03:42] different way in order to have an
+[03:44] important role the role is the following
+[03:47] you assume that for some reason we'll
+[03:50] come to that you know that no Force
+[03:53] acts and then for such you use such
+[03:57] particles to experimentally
+[04:00] check what a straight line
+[04:03] is okay so imagine you're in outer space
+[04:06] there's absolutely no Force at all you
+[04:08] throw a stone and it does something and
+[04:11] your the first axim instructs you to say
+[04:14] Ah that's a straight line you're testing
+[04:18] the
+[04:19] geometry of
+[04:21] space that's the idea it's a measurement
+[04:25] prescription for
+[04:26] geometry so that's this
+[04:30] and then the second axum tells you if
+[04:33] that if then you have other particles on
+[04:34] which a force acts for instance because
+[04:36] they have charges and they react to some
+[04:38] Fields that's a modern Faraday point of
+[04:40] view then the second axium kicks
+[04:44] in so um let me remark first
+[04:51] remark first
+[04:55] axium in order to be
+[05:03] relevant
+[05:05] must be
+[05:10] read as a
+[05:14] measurement
+[05:20] prescription for the
+[05:27] geometry of space
+[05:31] and actually we'll add something behind
+[05:34] space later that's the first remark and
+[05:38] that makes a lot of sense because if in
+[05:40] science you talk about an
+[05:42] entity like geometry straight line then
+[05:46] you better Define what it is now you
+[05:49] might say that's obvious well it's
+[05:51] obvious on paper in mathematics what the
+[05:53] straight line is but is it obvious what
+[05:55] in nature a straight line is well Newton
+[05:58] recognizes this and um makes of it a
+[06:02] measurement prescription for straight
+[06:06] lines
+[06:08] however there is a second important fact
+[06:13] that one
+[06:14] observes in nature and that is that
+[06:17] gravity affects all
+[06:20] masses all massive
+[06:23] particles so if I have a massive
+[06:26] particle and there is nothing else in
+[06:28] the universe
+[06:30] well maybe if I consider that the self
+[06:34] interaction of the particle with itself
+[06:36] gravitationally doesn't matter maybe the
+[06:39] first axium can be realized but as soon
+[06:42] as I have a second particle in the
+[06:44] universe and I think of gravity as a
+[06:47] force which is the standard view then I
+[06:52] can no longer use this
+[06:55] particle in order to measure this the
+[06:59] geometry of
+[07:00] space why well there is another particle
+[07:04] somewhere another mass and in Newtonian
+[07:06] Theory all particles have mass and all
+[07:09] masses gravitate at arbitrary large
+[07:13] distance so if we have a universe with
+[07:15] already two
+[07:17] particles the first axium can no longer
+[07:20] be applied because it's assumption that
+[07:23] no Force acts can no longer be applied
+[07:26] we say ah come on we nevertheless we
+[07:29] never use use this anyway we mostly work
+[07:31] with this and it works fine the axum is
+[07:34] there it's very important to say what
+[07:36] straight line is if you don't know what
+[07:37] a straight line is you don't know what
+[07:39] the deviation from a straight line
+[07:41] is of course because we're already
+[07:43] educated we know ah straight line that's
+[07:47] a covariant derivative here or rather
+[07:49] the gamma symbols are being determined
+[07:51] by
+[07:53] this deviation oh that must be the
+[07:56] covariant derivative of a curve
+[07:59] maybe the coant derivative of the
+[08:01] tangent Vector to the curve in the
+[08:04] direction of the tangent Vector to the
+[08:05] curve you remember a straight line was
+[08:08] nabla v v down V on V equals zero well
+[08:13] acceleration deviation from that is is
+[08:16] nabl down v v is not equal to zero
+[08:20] that's a vector again because V was in
+[08:22] the coent derivative makes of this a v
+[08:25] okay so you see if you don't know what
+[08:26] the straight line is you don't know the
+[08:27] gamma symbols you can't calculate the
+[08:30] acceleration you need to know the
+[08:32] straight lines first because before you
+[08:33] can even start talking about this we'll
+[08:36] do this more precisely okay but that's
+[08:40] an important Insight but the point is if
+[08:42] gravity is also modeled as a force and
+[08:46] it acts on every
+[08:48] Mass you have a
+[08:51] problem so um since
+[08:58] gravity un
+[09:01] ially
+[09:04] acts on
+[09:06] every
+[09:09] particle um in a
+[09:15] universe and of course when Newton says
+[09:17] body we think particle in a universe
+[09:20] with at
+[09:22] least two
+[09:27] particles gravity
+[09:32] must
+[09:34] not be considered a
+[09:41] force if the first axum if Newton
+[09:46] 1 is
+[09:50] supposed to
+[09:54] remain applicable
+[10:03] so we got a serious problem because we
+[10:07] don't know how to encode gravity other
+[10:11] than as a
+[10:16] force the first one to think about this
+[10:21] was
+[10:23] llas and it's the laas you
+[10:26] know laas is question
+[10:30] and laas was uh what was it
+[10:36] 1749 to
+[10:44] 1827 laas asked the following
+[10:50] question can gravity be encoded
+[10:54] question can gravity
+[10:59] be
+[11:02] encoded in a
+[11:07] curvature of
+[11:12] space
+[11:13] such that its
+[11:17] effect this such that its
+[11:21] effects
+[11:23] um
+[11:26] show if particles
+[11:30] under the
+[11:36] influence of no
+[11:39] other
+[11:41] Force so we are still in this situation
+[11:44] where we think gravity is a force but we
+[11:46] want to get rid of it uh if particles
+[11:48] under the influence of no other
+[11:52] Force are required are
+[11:57] postulated to move
+[12:02] along straight
+[12:06] lines straight
+[12:09] lines in
+[12:11] this
+[12:13] curved
+[12:15] space that's the
+[12:17] question and in some museums in some
+[12:20] science museums you see this there is
+[12:27] some throat like this and you put a coin
+[12:30] here and then you flip the coin then the
+[12:32] coin coin runs in here like this have
+[12:35] you seen that right so bowl shaped like
+[12:39] this now of course it spirals in because
+[12:42] of friction if we imer so this is a
+[12:45] curved two-dimensional surface if we
+[12:48] imagine we had no friction you have the
+[12:51] idea it goes around like this and if you
+[12:54] give it less energy it goes on such an
+[12:57] orbit and so on and there is and
+[12:59] intuition could this be the motion of
+[13:02] the planets around the Sun one dimension
+[13:05] higher that that's the rough idea and
+[13:08] um well the answer to La's question and
+[13:12] llas spent quite some while thinking
+[13:15] about this but we don't think about it
+[13:17] we use mathematics and it's a TW liner
+[13:20] uh laas the answer to La's question is a
+[13:23] resounding no no you cannot it's
+[13:27] absolutely impossible to come up with a
+[13:30] curved space such that this
+[13:34] works why do we do it then well because
+[13:37] it's instructive to see what doesn't
+[13:39] work because we can repair
+[13:42] it
+[13:44] proof so what is the standard view so
+[13:48] the the gravity is a force view gravity
+[13:52] is a force point of view
+[13:59] and I mean after all gravity is a force
+[14:01] point of view works pretty
+[14:03] well it just has this slight conceptual
+[14:08] difficulty which is tremendous if you
+[14:10] think about it so let's start with this
+[14:14] um that means you have mass times what
+[14:17] you call
+[14:20] acceleration this is not the
+[14:21] acceleration but let's not talk about it
+[14:24] right now that comes later mass time
+[14:27] acceleration equals the gravitational
+[14:30] force field and the gravitational force
+[14:33] field so this is at a point so it's the
+[14:37] eeve
+[14:38] formulation you have this and the gravit
+[14:41] if it's the gravitational force field
+[14:43] you know that it satisfies pance
+[14:48] equation pance equation is 4 Pi Newton
+[14:52] Conant G * row and this is the mass
+[14:56] density
+[14:59] of
+[15:01] matter in the
+[15:03] universe now you solve this equation
+[15:06] usually write the f as the minus the
+[15:08] gradient of the gravitational potential
+[15:10] then you have pance equation and pance
+[15:13] equation is the gravitational field
+[15:16] equation in Newtonian gravity because
+[15:19] depending on the masses around it
+[15:21] determines the gravitational force law
+[15:23] you need to solve this once you have it
+[15:25] you can plug it in here to study how a
+[15:28] particle under the
+[15:29] on which this Force acts it acts on all
+[15:31] the particles reacts
+[15:34] okay now the thing
+[15:37] is um well actually if I write it like
+[15:41] this I need to have a little F here and
+[15:44] there's a little F here and an M here
+[15:47] because the gravitational force is this
+[15:49] F the gravitational force is
+[15:53] proportional to the mass of the body on
+[15:56] which it acts that's very special
+[16:00] it's also proportional of the mass of
+[16:01] the body that produces it uh more
+[16:04] generally written here but it's also
+[16:07] proportional to the mass of the body on
+[16:08] which it acts which results in which
+[16:11] fact which results in the fact that you
+[16:14] can cancel out this mass of the body on
+[16:17] which it acts all together and there is
+[16:20] no more mention of the mass of the body
+[16:22] on which it
+[16:23] acts is this
+[16:27] true well Theory doesn't tell us let's
+[16:30] go to experiment yes this is called in
+[16:34] theory the weak
+[16:37] equivalence
+[16:39] principle but we can give it names all
+[16:42] day
+[16:43] long experiment
+[16:50] decides so we have here two things we
+[16:54] have a little feather and we have a
+[16:56] little bead
+[16:59] both are red okay now uh they're just
+[17:02] for fun they're in this tube um let me
+[17:05] start maybe
+[17:07] here
+[17:09] okay now you know what happens um I now
+[17:13] erect the tube in into the vertical
+[17:16] position and every day day experience
+[17:18] tells you uh the little bead will go
+[17:20] down like CH because it has a much
+[17:22] bigger mass than the feather we would
+[17:25] say the people on the street would say
+[17:27] you're probably already more educated in
+[17:29] physics and the feather will just fall
+[17:32] more slowly will be less accelerated
+[17:35] maybe because you think it has less Mass
+[17:38] well that's
+[17:40] a okay once
+[17:43] again so I mean the bead you don't see
+[17:45] you only hear when it arrives down here
+[17:48] and then you look at the
+[17:53] feather huh the bead Falls much faster
+[17:57] because they both started from zero
+[17:58] speed up here it must have been
+[18:01] accelerated more
+[18:06] strongly that's what you think but of
+[18:08] course this is can all be attributed to
+[18:13] the air resistance within the tube and
+[18:17] we'll demonstrate this now so uh
+[18:20] removing the air resistance by
+[18:23] evacuating the
+[18:27] tube for
+[19:08] so the tube has now been thank you the
+[19:10] tube has now been
+[19:17] evacuated
+[19:18] okay now we do the same experiment again
+[19:21] air resistance has been switched
+[19:27] off it's it's not true that the bead is
+[19:32] more strongly accelerated than the
+[19:34] feather they're both accelerated the
+[19:37] same okay within the error of
+[19:39] measurement here thank you very much ah
+[19:43] okay well next proof so we didn't just
+[19:47] exchange the tubes and and the bead and
+[19:49] so on it's the same
+[19:51] okay
+[19:55] right Tada okay
+[19:59] proce yes I have two questions yes one
+[20:02] is a concept conceptional one you
+[20:06] convinced me that we have a problem uh
+[20:10] there are two ways out of the problem
+[20:12] one is we want to keep up Newton's a
+[20:15] Newton's first AEL but the other one is
+[20:17] we could just dispose of it yes so why
+[20:20] do we
+[20:21] choose you could dispose of it and then
+[20:24] my next question would be what do you
+[20:26] mean by deviation from a straight line
+[20:31] and then you could refer to the straight
+[20:33] lines of ukian geometry then I asked you
+[20:37] why is the world why does the world
+[20:39] feature physical space feature a ukian
+[20:43] geometry and I think at that point you
+[20:45] say okay let's reinstate it and let's
+[20:47] see whether we can save it that
+[20:49] way it's a fully conservative approach
+[20:52] nothing I say goes against anything
+[20:54] that's written in Newton's principia it
+[20:56] goes a little bit about what people made
+[20:58] out of it afterwards by using
+[21:03] vectors yes second question so this uh
+[21:07] is the US so this is the example we
+[21:10] usually bring when we talk about uh
+[21:13] conser conservation of angular momentum
+[21:16] so this here okay so angular
+[21:18] momentum from thean point of view is
+[21:21] just a
+[21:22] momentum and in that sense say there is
+[21:26] if there is no force acting then I don't
+[21:28] have
+[21:31] but what I don't see is if I sit on the
+[21:35] particle why could I not say so
+[21:40] this why can't I say that okay um if if
+[21:44] you go around in a curved space like
+[21:46] this nobody said that if you attach an
+[21:48] additional frame and you return that the
+[21:50] frame still points in the same
+[21:53] direction so this is just the the um
+[21:56] this is the the the the Free Falling
+[21:58] motion here but you're probably thinking
+[22:01] like you can feel that you go around
+[22:03] here and you're like the centrifugal
+[22:05] force or something like this we'll come
+[22:07] to
+[22:08] this okay so anyway we experimentally
+[22:12] verify it and then we give it the grand
+[22:14] name weak equivalence principle which
+[22:16] then is great for philosophers without
+[22:18] experiments um you cancel this guy and
+[22:22] then you can make an approach towards an
+[22:26] answer to La's question you say ah aha
+[22:29] laas wants to interpret this which we
+[22:32] interpret as acceleration and force he
+[22:35] says well the equation is correct
+[22:37] because I mean this is numerically
+[22:38] checked to very great Precision if you
+[22:41] neglect relativistic effect so let's
+[22:43] assume the world the real world is
+[22:44] Newtonian that's the name of the game at
+[22:46] this level um and laas doesn't say
+[22:49] change the equation put an extra term
+[22:51] laas says let's interpret this equation
+[22:55] as an autop parallel
+[22:57] equation because that is the equation
+[22:59] for a straight line so take the F to the
+[23:01] other side and LA's question now takes
+[23:05] the form
+[23:07] laas
+[23:09] asks is
+[23:13] this
+[23:14] of is this of the
+[23:18] form xou do a alpha of T So Alpha runs
+[23:23] from 1 to three right three dimensional
+[23:25] return space is this of the form xou
+[23:28] Alpha plus gamma Alpha Beta
+[23:31] gamma uh at the points where you pass X
+[23:36] beta dot X gamma dot of T of T equals
+[23:43] Zer that's his question is Newton's
+[23:46] equation if there's the gravitational
+[23:48] force can this be
+[23:50] interpreted as an autop parallel
+[23:53] equation no it can't why because thisy
+[23:58] gamma can only depend on the X where you
+[24:00] are but what about these two velocity
+[24:05] factors here this could only be
+[24:08] interpreted as this for well not for
+[24:11] zero velocity well actually not really
+[24:13] for any velocity because if you have any
+[24:15] velocity you can have double the
+[24:16] velocity that's possible and you would
+[24:19] whatever choice you make for the gamas
+[24:20] in terms of the fs you can't make this
+[24:23] match because you can't get rid of the
+[24:26] effect of the X dots in this gamma
+[24:28] because the gamma only depends on X well
+[24:31] even if it depended on x dot it would be
+[24:32] very difficult to get rid of these
+[24:34] vectors here so the point is this simply
+[24:38] doesn't have the form of the autop
+[24:40] parallel equation that means one cannot
+[24:43] choose so
+[24:46] conclusion one
+[24:48] cannot
+[24:50] find
+[24:53] gamas
+[24:55] gamas such that
+[25:01] Newton's
+[25:02] equation for this case of the
+[25:05] gravitational force uh takes the
+[25:09] form of an autop
+[25:16] parallel but being able to find such
+[25:19] gamas would mean being able to find a
+[25:22] notion of straight
+[25:25] line that could absorb the effect we
+[25:30] usually attribute to a
+[25:32] force okay it's done laas also found
+[25:36] this not using the auto parallel
+[25:39] equation because he didn't have it he
+[25:41] spent several days thinking and he
+[25:43] realized there are other inconsistencies
+[25:46] which at the end of the day are this one
+[25:48] it is not
+[25:50] possible this standard example from
+[25:53] science museums is entirely wrong
+[25:57] entirely wrong you cannot curve space
+[26:00] that
+[26:02] way
+[26:05] now what can we do so we already learned
+[26:07] something from our knowledge of the auto
+[26:08] parallel equation from our understanding
+[26:10] that it describes straight
+[26:13] lines that gamma can be made in any
+[26:16] point but only this point equal to
+[26:19] zero
+[26:22] yes that's another
+[26:24] problem yeah but I would say then can do
+[26:28] it at least in this point well look if I
+[26:32] let this
+[26:33] fall and then say here it has a certain
+[26:36] acceleration I can make the acceleration
+[26:39] vanish there by going to the coordinate
+[26:42] system that falls with
+[26:46] it that's that and now you say I can
+[26:50] fall with it all the time can't I make
+[26:52] this all along the curve zero so well I
+[26:55] have to walk uh climb up here and then
+[26:57] jump down and let let myself fall let
+[26:59] this fall and then I will fall together
+[27:00] with with the chalk
+[27:02] okay the problem is the Earth is round
+[27:07] and if
+[27:08] somebody at the North Pole makes this
+[27:10] experiment and thinks of a coordinate
+[27:13] system that's falling with him he will
+[27:16] be able to transform a the gravitational
+[27:19] force apparently there where he is but
+[27:22] in this falling coordinate system what
+[27:24] if at the same time somebody makes the
+[27:26] same experiment down here in the system
+[27:29] of the falling guy up here this one will
+[27:31] not be transformed away this effect so a
+[27:35] homogeneous gravitational field like we
+[27:37] like it in standard examples can be
+[27:40] transformed away entirely come back to
+[27:42] that later but an inhomogeneous one
+[27:46] can't so but that has to do with your
+[27:48] question here how this can be
+[27:49] transformed away okay so this uh is
+[27:53] rather sobering but um in fact as so
+[27:57] often
+[27:59] laas didn't look carefully so the full
+[28:03] wisdom of Newton
+[28:06] 1 takes us all the way to implement ll's
+[28:11] idea in a way that works and what laas
+[28:15] asked can we find a curvature of space
+[28:19] such that particles move along straight
+[28:23] lines he didn't read Newton 1 properly
+[28:27] Newton 1 talks about a straight line but
+[28:30] it talks about uniform motion along a
+[28:34] straight line not just motion along a
+[28:37] straight line
+[28:43] okay so the full wisdom of Newton 1 is
+[28:47] use
+[28:49] also the
+[28:51] information from Newton's first law
+[29:01] that
+[29:04] particles under the influence of No
+[29:07] Force move
+[29:13] uniformly so if I draw this uh in a
+[29:16] two-dimensional flat space say this is
+[29:19] uniform motion uh these are
+[29:24] equal amounts of time one would say
+[29:28] that's a straight line straight uniform
+[29:30] line this is also a straight line but uh
+[29:34] the motion described by this is not
+[29:36] uniform because it gets slower and
+[29:39] slower laas in his idea only implemented
+[29:44] this only
+[29:48] tried to
+[29:52] implement this and as it's often said in
+[29:55] research proposals it's a beginning
+[29:59] okay but if you but if you don't take
+[30:02] things really seriously you see starting
+[30:05] somehow if we can't make this work we
+[30:07] won't make anything work no uh you have
+[30:10] to take everything into account and then
+[30:11] we start talking um the question is
+[30:15] rather than drawing these pictures and
+[30:18] something that's very difficult to
+[30:19] explain to students at first is that a
+[30:22] curve is more than the set of it its
+[30:24] points a curve is the set of its points
+[30:26] and its parametri ation which makes
+[30:28] exactly the difference right well let's
+[30:31] make it easier for students uh let's
+[30:33] introduce the appropriate data structure
+[30:36] to capture this introduce the
+[30:41] appropriate
+[30:43] appropriate
+[30:46] setting to
+[30:48] talk about the difference between these
+[30:53] two
+[30:55] difference um
+[31:00] easily and that is something you also
+[31:02] know from school you draw a space time
+[31:07] diagram uh if you have a harmonic
+[31:08] oscillator you did
+[31:10] this how does the position depend on
+[31:14] time uh well let's do this for a
+[31:16] one-dimensional world um say this is the
+[31:19] one-dimensional world here and now I
+[31:21] have a
+[31:23] straight uniform motion that looks in a
+[31:27] one dimension world like this agree and
+[31:30] I have a straight non-uniform motion
+[31:32] well you can in a onedimensional world
+[31:34] the motion is always straight but the
+[31:36] point is here the difference between
+[31:37] straight and
+[31:42] uniform now in rather than showing this
+[31:46] and remembering the
+[31:49] parameterization we attach a Time
+[31:53] axis and we do not introduce new data
+[31:57] but we just represent the data in
+[32:00] different fashion if these were
+[32:02] equal intervals of time then it's clear
+[32:05] how to translate these pictures uh this
+[32:08] one looks
+[32:09] like
+[32:11] so
+[32:13] so
+[32:14] so so and so on uh because every time I
+[32:19] arrived at this
+[32:23] interval it's like this agree that's
+[32:25] uniform straight Motion in one Dimension
+[32:28] well this is also straight motion one
+[32:30] dimension you but you could easy imagine
+[32:32] an extra Dimension it still runs along
+[32:34] the xaxis would be straight motion um
+[32:37] but again equal time intervals um would
+[32:40] lead you
+[32:41] to
+[32:43] have hang on a second equal time
+[32:45] intervals now we need
+[32:49] to uh hang on I'm
+[32:52] confused H equal I no this is less time
+[32:55] that's the point this is less time
+[32:58] I'm confused no it's the same time for
+[33:00] Less distance ah it looks like this
+[33:02] exactly it goes up I'm sorry this is not
+[33:04] getting slower I said here it's getting
+[33:06] slower it's getting faster of course no
+[33:09] it isn't I'm I'm
+[33:11] confused are you also confused
+[33:17] noeler is exchange ah of course of
+[33:20] course of course so yeah yeah yeah so
+[33:22] this is really so this is getting slower
+[33:24] and this is also getting slower because
+[33:25] in equal times it makes less
+[33:28] now so as a relativist this is a rather
+[33:32] embarrassing moment okay so we're trying
+[33:34] to cut it off the video okay because I
+[33:37] don't even have the excuse that in
+[33:38] relativity you you order the axes
+[33:40] differently well I have an excuse
+[33:42] because there are no axes but but that's
+[33:44] okay anyway so so you see the point the
+[33:47] the the inside is the
+[33:50] inside is um in space
+[33:55] time in space time if you attach time to
+[33:59] space and consider it an
+[34:00] entity this guy here is simply you can
+[34:04] ignore the parameterization because
+[34:07] nobody cares whether you now
+[34:11] parameterize this curve in space time in
+[34:14] the most crazy
+[34:17] manner because for every point where you
+[34:20] are you just look at this axis and you
+[34:22] know what time it is you no longer rely
+[34:25] on the parameter that par parameterizes
+[34:28] the SpaceTime curve because you stored
+[34:31] the information in the extra coordinate
+[34:34] you freed yourself from uh
+[34:37] parameterizing the curve in a certain
+[34:39] way because you stored the information
+[34:41] but even better in space time
+[34:44] uniform and
+[34:47] straight
+[34:50] motion where the uniform and straight
+[34:53] must be set because we always think
+[34:55] about time but in space time you don't
+[34:57] need to say uniform and straight Motion
+[35:00] in
+[35:01] space in space time this uniform and
+[35:04] straight Motion in space is
+[35:06] simply straight
+[35:11] motion no further questions asked so
+[35:16] this gives us a hint LA's idea might
+[35:19] work if you only look at straight lines
+[35:22] if you only want to implement straight
+[35:24] lines but it will work in space time in
+[35:27] Newtonian space time this has nothing to
+[35:30] do with
+[35:31] relativity it's just drawing what you
+[35:33] already Drew in school for the harmonic
+[35:35] oscillator it's not relativity it's just
+[35:38] representing the data you have in a
+[35:41] different fashion this goes one to one
+[35:45] okay but then we can use our ideas about
+[35:49] straight motion otherwise we would have
+[35:50] to invent new differential geometry that
+[35:52] implements straight in uniform motion it
+[35:55] can be done too but not in that way okay
+[35:58] so let's try
+[36:05] this so let's
+[36:08] try in space
+[36:15] time well uh the first thing we need we
+[36:18] need to convert the data into the right
+[36:20] form so um let X from R to R3
+[36:28] be a
+[36:31] particle
+[36:36] trajectory in
+[36:38] space so this is the usual picture and
+[36:42] now I claim you can convert this back
+[36:44] and forth into a world line that's just
+[36:48] a name a world line you could also call
+[36:51] the world line the history of the
+[36:55] particle because obviously
+[36:58] if you um if you look at the world line
+[37:01] of some particle you know its entire
+[37:04] story so you can
+[37:06] uh you can tell jokes in SpaceTime which
+[37:10] today are somewhat outdated for instance
+[37:13] uh in Newtonian SpaceTime this is the
+[37:17] joke Pope
+[37:20] Pope what is the
+[37:23] joke two popes meet okay so this is
+[37:27] nowadays possible but this is a joke in
+[37:29] space this a story you're telling a
+[37:31] story in space time okay so the the
+[37:34] world line somehow this joke never works
+[37:37] I don't know why anyway so you convert
+[37:40] from
+[37:41] this you convert this information into
+[37:44] that information very easily you assign
+[37:47] to each T now a quadruple of real
+[37:50] numbers a for truple where you just
+[37:52] reproduce what you already put in not a
+[37:55] problem and then you use the trajectory
+[37:58] you had before which of course
+[38:00] decomposes in three real functions that
+[38:04] is the world line of a particle uh and
+[38:07] that is of course the picture I drew
+[38:08] over there if you want a more elaborate
+[38:11] picture uh you can uh put here the Sun
+[38:15] at least a very massive body uh and you
+[38:18] may put here a very small body I don't
+[38:21] know me
+[38:24] and we know it does something like this
+[38:27] if it's ener is not too big otherwise it
+[38:29] will fly away in parabolic or hyperbolic
+[38:31] motion as a bound orbit that's what we
+[38:33] observe something like this in neonian
+[38:35] gravity it would be like that and so
+[38:37] this is the curve X but you know there
+[38:39] is kepas uh uh law of equal areas in
+[38:43] equal times and blah blah blah blah so
+[38:46] the parameterization here plays a role
+[38:48] but now you
+[38:50] may represent this in space time X1 X2
+[38:56] space time time and what is circular
+[38:59] motion elliptical motion down here in
+[39:02] space
+[39:04] time Becomes Of course
+[39:08] something I don't know whether the
+[39:09] picture is so good but it becomes a
+[39:11] spiral right it's a spiral and you can
+[39:14] look at every point where you are
+[39:18] okay but obviously if you're here you
+[39:20] can go back because you just project you
+[39:23] just forget the first component and you
+[39:26] get this curve back
+[39:28] there's nothing happening no new physics
+[39:31] no nothing is just a different way to
+[39:34] represent the uh history of a
+[39:40] particle that's
+[39:42] it that's all it
+[39:46] takes to make LA's idea work but in
+[39:50] space time why well first there is a
+[39:54] trivial implication from our
+[39:59] uh so the point is let's assume that on
+[40:02] this side let's
+[40:06] assume that X the little X we start on
+[40:10] the left hand side satisfies again uh
+[40:14] Newton's law uh concerning the
+[40:17] gravitational force such that I could
+[40:19] already um cancel the M let's assume
+[40:22] this so now we have a number of trivial
+[40:25] really trivial rewr
+[40:32] writings the first one has nothing to do
+[40:36] with this the first one is that I take
+[40:38] the zeroth component and this is just a
+[40:41] manner of numbering the components here
+[40:44] that I say this is the zeroth component
+[40:48] of this uh coordinate map and you see we
+[40:50] here all in charts I have only talked
+[40:53] about charts um and then you have and
+[40:56] this is not a Vector but this is uh this
+[40:59] capital x is just a world line
+[41:02] coordinates I just label them like this
+[41:05] and it's very clear that if
+[41:07] you take the time
+[41:10] derivative of the
+[41:12] x0 it's one because it's simply x0 of T
+[41:16] is T you take the derivative It's one oh
+[41:19] that's very simple and and then from
+[41:22] this it follows
+[41:24] immediately that if you take the second
+[41:26] time derivative
+[41:30] it is
+[41:32] zero of course the derivative of one is
+[41:35] zero so we keep this in mind and uh now
+[41:39] we write down a number of equations the
+[41:41] first one is this one this is simply
+[41:43] true right this is simply true now I
+[41:46] write down what is the time
+[41:49] derivative of the alpha components Alpha
+[41:53] runs from 1 to 3 what's the time
+[41:56] derivative of of the alpha components
+[41:58] all depends on T well uh you need to
+[42:01] look ah there it says because the x
+[42:03] capital the X Alphas are the small X
+[42:07] Alphas you can use this and if you use
+[42:10] this we can of course take it to the
+[42:11] other side
+[42:13] agree minus F Alpha of well this only
+[42:17] depends on the small X's but you can
+[42:20] also write in there the capital x is
+[42:22] strictly speaking it's a different
+[42:23] function because the function that
+[42:24] ignores its first entry well that's not
+[42:26] very deep let's name it like this equals
+[42:31] zero that's it that solves the
+[42:35] problem you say hang on how on Earth is
+[42:39] this going to solve the problem because
+[42:42] as far as one can see you still have the
+[42:44] same problem here and you just added an
+[42:47] equation how can that help well that
+[42:50] equation doesn't help it just doesn't
+[42:52] cause trouble we'll see in a second but
+[42:54] there is something that helps may this X
+[42:57] do0 is 1 so I can easily multiply here
+[43:02] with x do0 uh x0 do x0 dot right * 1 * 1
+[43:08] I did not change a
+[43:11] thing how is that supposed to help well
+[43:14] these two here these two equations are
+[43:19] perfectly equivalent to the following
+[43:22] set of equations X up a where a now runs
+[43:26] from 0 1 to 2 3 and here the alpha runs
+[43:29] only 1 2
+[43:31] 3 x a double dot plus gamma AB b c
+[43:38] x.b x do c equal Z what is this this is
+[43:42] an autop parallel equation in space time
+[43:46] right it's an
+[43:48] auto
+[43:50] parallel equation in
+[43:54] Newtonian space time
+[43:58] and now you compare the two and you say
+[44:00] oh
+[44:02] yes
+[44:04] choosing in this chart I mean we're
+[44:06] always in a chart with coordinates so we
+[44:08] can choose gamas choosing gamma we read
+[44:11] it off what are the gamma zero if a is
+[44:15] zero what are all the gamas that have a
+[44:18] zero
+[44:19] up well they must all be zero because I
+[44:23] have plus Z here so gamma zero up
+[44:28] whatever is down at any point in this
+[44:31] space must be zero I read this off now
+[44:35] let's look at this one what do the gam
+[44:38] what do I have to how do I have to set
+[44:39] the gamas that have an alpha up well the
+[44:44] gamas that have an alpha
+[44:46] up if they have anything down that's
+[44:50] different from zero Alpha up say um one
+[44:54] one then it would produce a term X1 dot
+[44:58] X1 Dot and that's not good all of those
+[45:02] Alpha
+[45:03] up and beta gamma down or it even
+[45:09] suffices is zero but it even suffices if
+[45:13] one of the two down is zero but that
+[45:16] could also be the other
+[45:19] one they all must be
+[45:22] zero why because otherwise if we choose
+[45:26] them different different from zero terms
+[45:29] come up in this on this side that do not
+[45:32] have this
+[45:34] form so all the gamas are zero
+[45:40] only gamma up Alpha down Z down Zer that
+[45:46] must be chosen
+[45:49] as minus F
+[45:52] Alpha at each point oh nice alpha alpha
+[45:58] these indices are set now it makes sense
+[45:59] with the
+[46:00] indices so the claim is in the chart we
+[46:04] started with which is the start the
+[46:06] chart which in standard neutronium
+[46:08] mechanics is called the obvious chart or
+[46:10] the cartisian chart or whatever it
+[46:13] doesn't matter uh we play the game for a
+[46:16] time being until we made our point and
+[46:18] then we'll make it more clear in that
+[46:21] chart you have can choose gamas to be
+[46:25] given by minus the gravitation Force
+[46:27] divided by the mass it acts on so the
+[46:31] this little F and the others you choose
+[46:35] all
+[46:36] zero now you say hang on and that's the
+[46:39] question could asked could I transform
+[46:42] this away because this is just in one
+[46:45] chart right I could use the gamma
+[46:48] transformation law and we know even
+[46:51] though the gamma can be non zero in some
+[46:53] charts there may be a chart where it's
+[46:55] zero or there may not be it depends on
+[46:58] whether the curvature vanishes or not
+[47:00] you
+[47:02] remember the question is is this a
+[47:05] coordinate
+[47:06] artifact
+[47:08] question is this
+[47:12] a
+[47:15] coordinate
+[47:17] Choice
+[47:22] artifact the answer is
+[47:24] no since
+[47:27] we can calculate the reman
+[47:30] curvature and the reman curvature of
+[47:34] this of the connection defined this way
+[47:38] we can calculate it in that chart R
+[47:41] Alpha and the only non Vanishing
+[47:46] components only non Vanishing components
+[47:50] you can calculate the others and they
+[47:53] will all vanish the all only
+[47:56] nonvanishing
+[47:57] components are those minus Del beta F
+[48:04] Alpha in this chart and uh
+[48:09] probably we would rather write it like
+[48:12] this these are the only nonvanishing
+[48:16] components this is actually known as the
+[48:19] tidal Force tensor if you study how
+[48:22] tidal forces act you look you look at
+[48:25] this guy it's the title Force
+[48:28] tensor it's the hessan of the
+[48:30] gravitational it's minus the hessan of
+[48:32] the gravitational potential it doesn't
+[48:34] matter that's the guy uh and you can
+[48:36] calculate the z0 component of the REI
+[48:39] tensor you remember the rich
+[48:41] tensor Rich tensor uh
+[48:45] um is the contraction so that's the
+[48:48] components that I left is the
+[48:49] contraction here you go you contract the
+[48:52] first and the third index was on the
+[48:53] last tutorial sheet anyway it's a it's
+[48:57] sub information it's traced information
+[48:59] in here and the rid tensor is minus
+[49:03] Del well d by DX so here it doesn't
+[49:06] matter to write it so precisely because
+[49:08] uh we're he in these coordinates is
+[49:12] this but now you say oh my God we know
+[49:15] something about this guy because we
+[49:18] remember that we had Pon law
+[49:22] right P told us that minus Del Alpha f
+[49:26] Alpha is 4 Pi * Newton constant times
+[49:30] the mass density of the masses that
+[49:33] generate the gravitational force so this
+[49:36] is equal to 4 Pi Newton constant row
+[49:42] ah
+[49:44] interesting well interesting if you know
+[49:47] general
+[49:48] relativity because you could call this
+[49:50] the zer0 component of an energy momentum
+[49:53] tensor and then you got something like
+[49:55] r0 equals t0 0 okay uh so writing and
+[50:02] that is now really in a sense cheating
+[50:05] uh an energy momentum tensor uh writing
+[50:08] it like
+[50:12] um2 row or something like
+[50:16] this uh you get
+[50:20] r00
+[50:22] equals
+[50:23] 16 Pi no 8 Pi G
+[50:31] t0 and these are is the F this is the
+[50:36] first of 10 gravitational equations that
+[50:40] Einstein postulated in
+[50:47] 1912 Einstein in 1912 said in
+[50:50] relativistic physics where a few more
+[50:53] ideas come in but in relativistic
+[50:56] physics he said you have R A equals 8 Pi
+[51:00] g t
+[51:03] AB the point is this isn't entirely
+[51:07] correct but it's almost
+[51:10] correct SpaceTime Rich curvature he said
+[51:13] in 1912 is the energy momentum of matter
+[51:16] we'll come to this the point is this is
+[51:21] not far from what Pon law says Pon law
+[51:26] says that for the curvature of space
+[51:28] time in Newton
+[51:31] gravity
+[51:32] r0 is 8 Pi gt0 0 well that's cheating
+[51:36] because I set it to row but in
+[51:38] relativity if you have dust that's lots
+[51:41] of particles that don't interact and
+[51:42] only have mass it looks exactly like
+[51:45] this so Pon equation which you all know
+[51:50] makes you understand the basic idea of
+[51:53] Einstein's equations at least the old
+[51:56] form the not correct form there's an
+[51:58] extra term missing here that makes it
+[52:00] correct but that's another issue and
+[52:02] that has to do with relativity and
+[52:04] SpaceTime physics in relativistic
+[52:06] SpaceTime physics but Pon law the field
+[52:09] equation for gravity is right here and
+[52:11] because it's non zero in the absence of
+[52:14] masses in the absence in in the presence
+[52:16] of masses the curvature is not zero if
+[52:20] the curvature is not zero remember the
+[52:22] theorem there is no coordinate system
+[52:25] where the gamas all vanish
+[52:27] you have the Earth you make a
+[52:29] non-homogeneous gravitational field and
+[52:32] there is no system where you make for
+[52:34] every particle that you can think of
+[52:36] make the gamas vanish so it's not a
+[52:39] coordinate artifact it's not like oh
+[52:41] choose better coordinates and the effect
+[52:43] is there no it's not a coordinate and
+[52:46] wouldn't it be funny if it was a
+[52:47] coordinate artifact because coordinates
+[52:49] are in our mind but you feel whether you
+[52:51] accelerate or not okay so all fits
+[52:54] together okay so we have
+[52:57] this um and so the conclusion is uh
+[53:02] lass's
+[53:04] idea
+[53:07] conclusion LA's
+[53:12] idea
+[53:14] works on space time neonian space time
+[53:19] oh by the way you see the gamas that
+[53:21] were nonzero so yet another remark
+[53:27] the gamas that were nonzero were
+[53:30] gamas that had time indices well here we
+[53:35] think of them as time indices has to do
+[53:37] something with this extra direction
+[53:38] right this shows it's not a curvature of
+[53:42] space for instance the reman tensor in
+[53:46] components Alpha Beta Gamma Delta
+[53:49] they're all zero where Alpha Beta Gamma
+[53:51] Delta run from 1 to three it's not a
+[53:55] curvature of space
+[53:57] the space time is not curved in the
+[53:59] space directions roughly speaking in
+[54:02] this neonian space time it's curved in
+[54:04] the extra Direction together with the
+[54:07] space you understand what I mean okay so
+[54:11] here you see it's really space time
+[54:13] curvature not space curvature but space
+[54:15] time curvature that works the only
+[54:19] one that's not
+[54:23] Vanishing is this one but that means not
+[54:27] all components of the reman tens are
+[54:29] vanish
+[54:33] yes right side is this certainly
+[54:35] transforms as a t on the left there's
+[54:39] point and
+[54:40] gamma gamma does not transform as a
+[54:43] tensor but the X double dot neither
+[54:45] thank you for the question so very good
+[54:47] question neither the velocity
+[54:50] theeler the velocity does the
+[54:52] acceleration doesn't well let me write
+[54:54] it down okay so question
+[54:57] what about the transformation
+[55:01] Behavior travle
+[55:05] behavior of left hand
+[55:08] side of X double dot Alpha no
+[55:14] a plus gamma AB c x.b x do c equal Z
+[55:21] well this guy here you may remember is
+[55:27] this
+[55:28] guy we calculated this so if you take
+[55:33] the derivative of the Velocity in the
+[55:36] direction of the velocity of a
+[55:40] curve the eighth component is this here
+[55:44] this is the eighth
+[55:46] component and this is again a vector
+[55:49] field along the curve and this guy is a
+[55:53] vector field which we call the
+[55:55] acceleration
+[55:56] a uh well a yes yeah it is a let me make
+[56:00] a fancier a because I also have an index
+[56:03] a this is the
+[56:06] acceleration
+[56:08] acceleration vector I told you the
+[56:12] acceleration is a vector the
+[56:14] acceleration is a vector but the second
+[56:18] derivative of the components of a curve
+[56:21] are
+[56:22] not the components of that acceleration
+[56:26] this belongs to a to and only the sum of
+[56:29] the two transform right and you know
+[56:32] these transform as vectors because the
+[56:33] velocity components we checked that
+[56:36] these do not and in the same way no in
+[56:39] the opposite way in which the gamas Do
+[56:41] Not transform as tensors as a one two
+[56:44] tensor in the opposite way this doesn't
+[56:47] transform as a vector as Vector
+[56:49] components and but the sum of the two
+[56:52] cancels the Troublesome terms and only
+[56:55] the combination deserves to be called
+[56:58] the
+[57:00] acceleration you can't say that's the
+[57:02] acceleration and that's an extra an
+[57:04] extra acceleration no this together is
+[57:07] the acceleration and of course it's
+[57:09] chart independent if you sit on a
+[57:13] rocket you feel whether you accelerated
+[57:16] or
+[57:17] not how crazy would it be if somebody
+[57:19] thinks another coordinate system and you
+[57:22] feel something
+[57:23] different it won't happen okay this
+[57:27] together is the
+[57:30] acceleration
+[57:35] okay
+[57:36] now we have thus
+[57:40] reformulated Newtonian Theory such that
+[57:43] gravity is a curvature of Newtonian
+[57:45] space time and the first axium now takes
+[57:49] the form particles under the influence
+[57:51] of No Force but gravity no longer counts
+[57:54] among them under no other the of no
+[57:56] other Force moves along has a world
+[58:00] line that is straight but a world line
+[58:03] is in space time end of message this is
+[58:07] Newton's first axium you don't say
+[58:09] uniformly straight in space you say
+[58:11] straight in space time the world line
+[58:14] grav and if you now have gravity and you
+[58:17] throw to Pi say that's the Earth right
+[58:20] small Earth if these two particles you
+[58:22] drop them and they will start doing this
+[58:25] right they will be convergence of these
+[58:27] lines that's another way you can
+[58:28] identify curvature that you that
+[58:31] geodesics that are originally
+[58:33] parallel start converging think of the
+[58:37] surface of a sphere you you go from the
+[58:39] equator up parallel now equator you go
+[58:41] up parallel but finally they meet okay
+[58:45] that's another effect that you have when
+[58:47] there's Cur it's called geodesic
+[58:50] deviation so we solved our problem we
+[58:53] just have to accept that space time is
+[58:56] curved but your space is still nice and
+[58:58] flat but space time is curved and the
+[59:01] first axim can be put into
+[59:04] practice Case Closed um up to the point
+[59:09] that of course we have a terrible
+[59:11] coordinate dependent formulation here
+[59:13] all was with components what is the real
+[59:16] structure behind that um so that's
+[59:19] section
+[59:20] three adequate a sketch or the
+[59:24] foundations because I I have no time to
+[59:26] do this all uh the
+[59:29] foundations of the geometric
+[59:38] formulation of Newton's axioms and again
+[59:41] this is not new
+[59:44] physics this is just what Newton wrote
+[59:47] down in
+[59:48] words implemented properly with the
+[59:51] mathematics that makes it work rather
+[59:53] than that the mathematics that seem
+[59:56] seems to make it work okay so uh the key
+[59:59] definition I just catch it and I tell
+[1:00:01] you where it goes but maybe you're able
+[1:00:03] to fill in uh the uh the following steps
+[1:00:06] yourself definition a Newtonian
+[1:00:14] SpaceTime so this is now we we we have a
+[1:00:17] new start okay so this is just in our
+[1:00:20] mind this change our philosophy a little
+[1:00:22] and now we start talking seriously okay
+[1:00:24] so a Newtonian
+[1:00:26] SpaceTime is a quintuple of
+[1:00:30] structures and about every single
+[1:00:33] structure here Newton talks okay uh it's
+[1:00:37] a set with a topology continuous curves
+[1:00:39] and so on it's smooth we can take talk
+[1:00:41] about derivatives we have a coent
+[1:00:44] derivative of course we do because
+[1:00:46] Newton talks about straight lines uh
+[1:00:49] uniform straight lines we translate this
+[1:00:51] into straight lines in space time um and
+[1:00:55] Newton also
+[1:00:56] talks insistently on something called
+[1:01:00] absolute time we have an absolute time
+[1:01:04] T
+[1:01:06] where M
+[1:01:08] OA is a four
+[1:01:11] dimensional smooth
+[1:01:15] manifold a four dimension smooth that
+[1:01:17] has no that has no direction this is
+[1:01:19] space and this is time there's a danger
+[1:01:22] in the word SpaceTime the danger in the
+[1:01:24] word SpaceTime is is that you misspell
+[1:01:27] it uh you could misspell it like this
+[1:01:31] space plus time this is not space time
+[1:01:34] space time is one thing in which at
+[1:01:39] first you cannot distinguish between
+[1:01:41] space in time it's just four di like the
+[1:01:44] sphere the sphere is two dimensional but
+[1:01:46] you wouldn't say uh where's One
+[1:01:48] Direction over the other well
+[1:01:51] okay space time and only you start with
+[1:01:54] this and then you make have a derived
+[1:01:56] notion under certain circumstances what
+[1:01:59] is space and what is time okay so space
+[1:02:02] time is a four-dimensional manifold
+[1:02:04] don't think you already know what it is
+[1:02:05] delete all your memory so four
+[1:02:07] dimensional space time with a coant
+[1:02:09] derivative and and this this is this and
+[1:02:12] T this is clear what this is a coant
+[1:02:14] derivative and T is a smooth function on
+[1:02:18] the manifold so absolute time is a
+[1:02:21] smooth function T from M to R is a
+[1:02:23] smooth function
+[1:02:28] and Newton says
+[1:02:31] things he says two things which we
+[1:02:36] convert into aums into requirements I
+[1:02:40] should say
+[1:02:43] satisfying which we convert into axioms
+[1:02:47] for these two
+[1:02:48] structures one thing Newton says is that
+[1:02:53] um there is
+[1:02:56] absolute
+[1:03:01] space that's what Newton says there is
+[1:03:04] an absolute
+[1:03:05] space um this will take the following
+[1:03:09] form you say oh we didn't provide for
+[1:03:12] absolute space we only provideed for an
+[1:03:14] absolute time whatever it
+[1:03:16] is but it can be derived there is
+[1:03:19] absolute
+[1:03:22] space is this
+[1:03:26] it's the requirement that the gradient
+[1:03:29] of the absolute time function doesn't
+[1:03:32] vanish anywhere it's
+[1:03:34] nonzero all on the manifold so if you
+[1:03:37] take it at a point
+[1:03:40] P at every point of the manifold you
+[1:03:44] require that this absolute time function
+[1:03:46] has non Vanishing
+[1:03:48] gradient what does it have to do with
+[1:03:51] this absolute
+[1:03:52] space so this is no longer part of the
+[1:03:55] axium but that's something that follows
+[1:03:57] from it you define absolute
+[1:04:05] space s to it's absolute space at time
+[1:04:10] to Absolute space at time to is the set
+[1:04:14] of all the points of the man of the four
+[1:04:16] dimensional
+[1:04:17] manifold that satisfy the condition that
+[1:04:21] t of the point well if T is a smooth
+[1:04:25] function function on the manifold then
+[1:04:27] every Point can be assigned at T of P
+[1:04:30] every point of the manifold every event
+[1:04:33] in space time is given a
+[1:04:36] time a universal clock time okay um and
+[1:04:41] the space the absolute space to at time
+[1:04:45] TOA is the collection of all the points
+[1:04:47] that have the time label to as uh this
+[1:04:50] says and then it follows by this DT non
+[1:04:54] zero it follows that the entire manifold
+[1:04:59] is a disjoint Union and the
+[1:05:02] disjoint comes from this is a disjoint
+[1:05:06] Union of all these
+[1:05:11] spaces or in other words if you like
+[1:05:14] pictures if I do a three if I do a
+[1:05:17] three-dimensional space Tye because I
+[1:05:19] can't draw a four-dimensional
+[1:05:21] one SpaceTime foliates
+[1:05:29] foliates in all of these uh
+[1:05:33] S1
+[1:05:35] s32 s pi and so on right it foliates in
+[1:05:39] all these spaces and the universal clock
+[1:05:42] gives the same time for all these points
+[1:05:45] here as long as this is a smooth
+[1:05:48] function and the gradient vanishes if
+[1:05:50] the gradient would vanish you would have
+[1:05:53] um so you look at it from the side
+[1:05:57] so this would be S1 and this would be uh
+[1:06:01] s a little later if it would vanish for
+[1:06:02] quite a while S2 uh they would intersect
+[1:06:05] here right that would be a point where
+[1:06:08] uh if these are Level lines of the uh
+[1:06:12] Global time function of the absolute
+[1:06:13] time functions at this point p uh there
+[1:06:16] would be a problem therefore we exclude
+[1:06:18] that okay so aha so this requ innocent
+[1:06:24] requirement on the absolute time yields
+[1:06:27] you a notion of absolute space and of
+[1:06:30] course that's how we think of space time
+[1:06:32] there are spaces stacked together to
+[1:06:35] give space time he said but they're
+[1:06:37] stacked together in a in a strange way I
+[1:06:39] mean why why are they like wobbly well
+[1:06:41] what do you mean by wobbly have we
+[1:06:43] talked about shape yet no we haven't
+[1:06:45] okay good then Newton goes on and he
+[1:06:48] says things like
+[1:06:50] time flows uniformly
+[1:06:56] so absolute time he
+[1:06:59] says
+[1:07:00] absolute time flows uniformly Newton
+[1:07:04] says what does that mean with 1 second
+[1:07:07] per
+[1:07:08] second right I mean what is that
+[1:07:11] supposed to mean where if you want to be
+[1:07:12] clear about it you say that the coant
+[1:07:15] derivative of the
+[1:07:17] gradient vanishes everywhere so if you
+[1:07:21] put here an X for any X this is again
+[1:07:24] the zero Co Vector field you say this is
+[1:07:27] zero at all points of the
+[1:07:30] manifold so
+[1:07:32] everywhere it's already written as a
+[1:07:35] field
+[1:07:37] equation this means absolute time flows
+[1:07:41] uniformly how do we understand that this
+[1:07:43] means absolute time flows uniformly
+[1:07:46] let's see in a second okay question
+[1:07:51] yes yes that's um if there's if this is
+[1:07:55] open here so um you could put uh d by
+[1:07:58] dxa here in any coordinate system on the
+[1:08:01] manifold uh and then you take the be
+[1:08:04] component and then because this is C
+[1:08:06] Infinity linear and certainly C Infinity
+[1:08:08] linear if I put something here this
+[1:08:10] would be a02 tensor
+[1:08:13] field so if I leave this slot
+[1:08:16] unfilled then this is a
+[1:08:19] 02 tensor
+[1:08:22] field and I can require that to be the
+[1:08:25] zero tensor field of that type if you
+[1:08:30] don't like it in this form we'll do it
+[1:08:32] in coordinate form a little later but I
+[1:08:34] maintain that this equation is good and
+[1:08:36] this is an equal sign on the space of 0
+[1:08:40] to tensor
+[1:08:47] Fields anyway so let's do this in
+[1:08:49] coordinates in a second yes got
+[1:08:52] problematic point would it correspond to
+[1:08:54] saying that time stop
+[1:08:57] yes time time would here time would
+[1:09:00] would stop for a while right because um
+[1:09:03] yeah that's what the gradient is no if
+[1:09:06] if you draw the level surfaces if the
+[1:09:08] gradient gets
+[1:09:11] uh yeah you know if this goes together
+[1:09:14] yeah that's right time time would stop
+[1:09:16] here that's
+[1:09:18] correct and and that's of course
+[1:09:19] meaningless that that's it's not what we
+[1:09:21] want in physics but it could be if we
+[1:09:23] just say it's a smooth function so we
+[1:09:25] have these two AXS you see this is a
+[1:09:27] compatibility Axiom because it relates
+[1:09:30] these two things Newton talks about so
+[1:09:32] eloquently but um that's sometimes uh a
+[1:09:36] matter of a heated debate what exactly
+[1:09:38] this means well this is well a proposal
+[1:09:40] this is a clear formulation of what it
+[1:09:43] means and this you can make work okay so
+[1:09:47] um well if you bear with me for 10 more
+[1:09:49] minutes I can sketch a little bit how it
+[1:09:51] goes from here on but I won't do the
+[1:09:53] full thing um because actually my main
+[1:09:56] point for the purpose of these lectures
+[1:09:59] was made before that you can view
+[1:10:01] gravity as a curvature of space time
+[1:10:04] already in Newtonian mechanics okay uh
+[1:10:07] and that this viewing gravity as a
+[1:10:09] curvature of space time even within
+[1:10:11] neonian mechanics is not just an
+[1:10:14] alternative formulation which of course
+[1:10:17] is the more uh uh agreable view point of
+[1:10:20] view to take but really if you look at
+[1:10:22] the first a you say what other choice do
+[1:10:24] I have okay anyway that will be exactly
+[1:10:27] the philosophical point of view the
+[1:10:29] approach in general relativity later and
+[1:10:31] I wanted to show to you that already in
+[1:10:33] Newtonian gravity that gravity effects
+[1:10:37] or can be understood as a curvature of
+[1:10:39] space time has all to do with
+[1:10:42] gravity and very little or rather
+[1:10:45] nothing to do with relativity it's not
+[1:10:48] relativity that forces us to space time
+[1:10:50] as far as gravity concerned it's gravity
+[1:10:53] itself and the understanding of the
+[1:10:55] relation between geometry and gravity
+[1:10:58] and all of that okay so I think that's
+[1:11:00] the most important lesson in there for a
+[1:11:03] theory Builder um but anyway so now we
+[1:11:06] have this uh nice
+[1:11:08] definition and
+[1:11:10] um well now we can make a
+[1:11:15] definitions
+[1:11:16] definition a
+[1:11:19] vector X in some TPM in
+[1:11:23] SpaceTime is called
+[1:11:26] called uh a future
+[1:11:32] directed if the application of the
+[1:11:36] absolute time function to it yields a
+[1:11:39] number greater than
+[1:11:41] zero the vector is called spatial it's a
+[1:11:45] spatial Vector in the sense of absolute
+[1:11:48] space if the application of the gradient
+[1:11:51] of the absolute time function is zero
+[1:11:55] and it's called past
+[1:11:59] directed if you guess it DT of X is less
+[1:12:03] than zero what does that mean
+[1:12:09] picture you have the level surfaces of
+[1:12:12] your absolute time function which are
+[1:12:14] called the absolute space at the various
+[1:12:17] times and you now take a point in one
+[1:12:20] such absolute space which however is
+[1:12:22] also a point in space time and you have
+[1:12:24] a SpaceTime Vector say this one well now
+[1:12:27] it depends on whether this is S2 and
+[1:12:29] this is S1 because then time increased
+[1:12:32] from here to here and then this
+[1:12:34] one applied the gradient of the absolute
+[1:12:37] time function which is a co- Vector
+[1:12:39] applied Co Vector field applied to this
+[1:12:41] Vector at this point yields a positive
+[1:12:43] number so this guy is future
+[1:12:48] directed um whereas uh a vector that
+[1:12:52] points what we intuitively would call
+[1:12:54] Tang to the
+[1:12:57] surface this guy this is
+[1:13:00] spatial well of course it's a tangent
+[1:13:03] Vector to the level surface of this of
+[1:13:05] course the gradient on the tangent
+[1:13:06] Vector of a level surface vanishes this
+[1:13:08] this old theorem and if you had a vector
+[1:13:11] pointing here this would be a past
+[1:13:13] pointing or a past
+[1:13:16] directed Vector right okay so uh the
+[1:13:21] impact of this is um definition
+[1:13:25] or rather
+[1:13:26] postulate or rather Newton's first
+[1:13:30] law Newton
+[1:13:32] 1 it's still Newton one it says nothing
+[1:13:35] different it says um the world
+[1:13:39] line World line of a
+[1:13:45] particle under the
+[1:13:50] influence of No
+[1:13:53] Force and I mind you again gravity isn't
+[1:13:56] one
+[1:13:57] anyway in this view isn't one
+[1:14:05] anyway
+[1:14:07] is a future
+[1:14:11] directed a future
+[1:14:14] directed autop
+[1:14:19] parallel with respect to the nabler we
+[1:14:22] have on space time and a future directed
+[1:14:25] curve is a curve that
+[1:14:29] has as its tangent vectors at every
+[1:14:32] point a future directed velocity okay so
+[1:14:35] a future directed Auto parallel means
+[1:14:40] that's an auto parallel so you have
+[1:14:43] nabla V World line X on world line X
+[1:14:47] zero that's Auto parallel no Force
+[1:14:50] acceleration is zero and you have that
+[1:14:53] DT of the velocity is greater than zero
+[1:14:58] everywhere of course the particle runs
+[1:15:01] into the future and not into the
+[1:15:03] past in SpaceTime you need to make the
+[1:15:05] distinction between future and past
+[1:15:07] right
+[1:15:08] you okay that is this that's F Newton's
+[1:15:13] first law no more funny
+[1:15:18] talk now there is an interesting
+[1:15:22] question about what this formulation can
+[1:15:25] give you other than a nice formulation
+[1:15:27] of Newton 2 which I also write down in
+[1:15:30] short
+[1:15:31] form Newton
+[1:15:33] 2 is simply the
+[1:15:37] acceleration of a world line which is of
+[1:15:40] course this guy if it was Zero it's
+[1:15:42] unaccelerated uh is a gravitational
+[1:15:46] force H sorry is a force not a
+[1:15:48] gravitation not gravitational is a force
+[1:15:51] so
+[1:15:53] where f
+[1:15:55] is a
+[1:15:58] spatial Vector
+[1:16:07] field because a force is only supposed
+[1:16:11] to accelerate you in the spatial
+[1:16:14] directions okay so you have you can
+[1:16:17] prescribe a vector field it's only a
+[1:16:19] force if it's a spatial Vector field
+[1:16:21] then you have this that's Newton's
+[1:16:23] Second Law and if you like if you like
+[1:16:27] it's m * the acceleration is the force
+[1:16:32] nobody said that's wrong I only said the
+[1:16:35] acceleration is not X double
+[1:16:37] dot
+[1:16:40] okay so that's uh Newton Second
+[1:16:46] Law now
+[1:16:48] um let me introduce one more piece of uh
+[1:16:52] one more idea but that's more or less
+[1:16:55] just a
+[1:16:56] convention and then we have
+[1:16:59] another I believe good
+[1:17:01] Insight
+[1:17:03] convention we have this absolute time
+[1:17:06] function right it's given to us as part
+[1:17:09] of the structure of the
+[1:17:11] manifold the convention would be
+[1:17:14] restrict attention but that's really a
+[1:17:16] convention you don't need to do this is
+[1:17:19] just incredibly practical restrict
+[1:17:22] attention
+[1:17:24] to
+[1:17:28] atlases a
+[1:17:33] stratified we call them a stratified
+[1:17:35] Atlas to adlas a
+[1:17:37] stratified um whose chart whose charts
+[1:17:43] ux have the
+[1:17:46] property and now of course if you're a
+[1:17:49] geometer and you say oh you know what
+[1:17:52] you can require on your charts whatever
+[1:17:54] you like as long as they still cover the
+[1:17:56] manifold I don't care about your charts
+[1:17:59] because your charts are in your head so
+[1:18:01] this is not a real really a convention
+[1:18:03] let's only think of those charts because
+[1:18:06] okay uh that have the property that the
+[1:18:10] zero you know that this chart map comes
+[1:18:13] in a on a four-dimensional manifold in
+[1:18:15] terms of three coordinate functions
+[1:18:19] right and so on uh that have the
+[1:18:22] property that the zero coord coate
+[1:18:25] function coincides with the absolute
+[1:18:28] time function why can you do this well
+[1:18:31] the absolute time function is defined on
+[1:18:34] all of M so you can always take the
+[1:18:36] Restriction to a chart domain U because
+[1:18:38] the other coordinates might not be
+[1:18:40] defined all on all of them but so the x0
+[1:18:43] which is defined on U is just the
+[1:18:45] absolute time FR that exists everywhere
+[1:18:47] globally by axium by Newton's talk um
+[1:18:51] let's do that it's just clever because
+[1:18:55] otherwise you have an atlas you can
+[1:18:57] choose an atlas that disobeys this
+[1:18:59] structure and all the formula are right
+[1:19:02] it's just the formula becomes simpler if
+[1:19:04] you make this choice and because you
+[1:19:06] have the data why not use it okay to
+[1:19:09] make life simple but it's really make to
+[1:19:12] make life simple nothing depends on it
+[1:19:14] okay very important a stratified Atlas
+[1:19:17] um and in the stratified Atlas we can
+[1:19:20] now
+[1:19:21] evaluate this guy with some inside uh
+[1:19:25] you know what this is this guy we set is
+[1:19:28] zero uh that is the time flows uniformly
+[1:19:35] torque absolute time flows uniformly
+[1:19:38] nice what does it mean in a stratified
+[1:19:40] Atlas well uh it means this guy here is
+[1:19:44] of course then just the dx0 you
+[1:19:47] agree uh in any direction so for any d
+[1:19:50] by DX a a running from 1
+[1:19:55] from 0 to three right is zero but this
+[1:20:00] guy is because there's the DX it's the
+[1:20:02] minus gamma symbol you remember from
+[1:20:04] yesterday this is minus the Gamma or day
+[1:20:07] before yesterday this is minus the gamma
+[1:20:09] symbol and it has the index a down here
+[1:20:13] this zero comes to lie here and there is
+[1:20:15] another B here because the whole thing
+[1:20:17] is a one form field so there's the other
+[1:20:20] B okay so you see that all the gamas
+[1:20:24] whatever is down from 0 to three all the
+[1:20:27] gamas with an index zero
+[1:20:30] up vanish that is what this thing says
+[1:20:35] in a stratified Atlas in a
+[1:20:37] non-stratified
+[1:20:38] atlas you get extra terms but they're
+[1:20:41] all coordinate artifacts because you
+[1:20:43] could go to a stratified Atlas okay you
+[1:20:46] can always do that because that is
+[1:20:47] always a global function and then these
+[1:20:50] guys vanish now let's use this and let's
+[1:20:53] evaluate what Newton 2 says so let's
+[1:21:02] evaluate in a
+[1:21:05] chart
+[1:21:07] ux of a
+[1:21:11] stratified
+[1:21:13] Atlas a
+[1:21:16] strat so actually everything is said
+[1:21:19] there is nothing more to be said what
+[1:21:21] I'm going to do now reconnects you with
+[1:21:25] chart physics which we're used to and
+[1:21:28] we'll recognize terms we always
+[1:21:30] interpret it in a I would say rather
+[1:21:32] peculiar
+[1:21:35] manner Newton's second
+[1:21:38] axium uh Newton
+[1:21:46] 2 what is Newton 2 Newton 2 says nabla
+[1:21:52] velocity of the world line velocity of
+[1:21:55] the world line is f by m right that's
+[1:22:00] what Newton 2 says now let's write this
+[1:22:03] in
+[1:22:04] coordinates um in the
+[1:22:08] chart this takes the following form
+[1:22:12] X I do the zero component separately
+[1:22:15] because then I can discuss it better x0
+[1:22:19] now did I say anything about how the
+[1:22:21] world lines are to be parameterized no
+[1:22:24] said a world line is a future directed
+[1:22:27] curve right um that satisfies this also
+[1:22:31] here Newton 2 says a x is a future
+[1:22:34] directed
+[1:22:35] curve like in the first axum right and
+[1:22:39] then this is true um I didn't say
+[1:22:41] anything about the parameterization you
+[1:22:43] so you could have chosen any let's call
+[1:22:46] it Lambda and then the autop parallel
+[1:22:48] equation says take the x0 component
+[1:22:50] deriv it twice with respect to Lambda
+[1:22:53] then comes gamma 0 a x a prime XB Prime
+[1:22:58] equal Z with respect to whatever
+[1:23:00] parameter you chose do you lose
+[1:23:02] information about time no you go to the
+[1:23:04] point you evaluate the point with the
+[1:23:06] absolute time function you have the time
+[1:23:08] whatever your parameter chosen now I
+[1:23:11] write the other three all at once with
+[1:23:14] Alpha so Alpha is from 1 to three so
+[1:23:17] Greek indices always run from one to
+[1:23:19] three and Latin indices from zero to
+[1:23:21] three x Alpha double Prime plus and now
+[1:23:25] I split up what happens here so I have
+[1:23:28] the alpha now like here the alpha now I
+[1:23:31] have ab x a prime XB Prime but I like to
+[1:23:36] resolve this Einstein summation
+[1:23:39] convention somewhat I could have that
+[1:23:41] these two guys are just okay now I call
+[1:23:44] them Alpha Beta is not clever let's call
+[1:23:47] them um
+[1:23:49] CD CD okay so I now for the Alpha Gamma
+[1:23:53] Alpha I have they could be both indices
+[1:23:57] 1 2 3 okay then I have here by extension
+[1:24:01] of the summation
+[1:24:02] convention this but then I forgot terms
+[1:24:06] okay I forgot the terms where I have
+[1:24:09] both of them zero I have x0 prime x0
+[1:24:14] prime okay but I still forgot terms I
+[1:24:17] forgot the terms where I have a beta
+[1:24:22] gamma down one is
+[1:24:25] uh 1 2 3 and one is zero so I have X
+[1:24:29] gamma prime x0 prime and I forgot yet
+[1:24:33] another ah I should have said something
+[1:24:35] I'm sorry I forgot something in the
+[1:24:36] axioms for Newtonian space please uh add
+[1:24:39] to the axium I'm
+[1:24:43] sorry add two
+[1:24:47] axium of
+[1:24:50] Newtonian space
+[1:24:52] time now I made a postulate on the T me
+[1:24:55] DT not equals Zer I made a postulate on
+[1:24:58] the compatibility of gamma and T NAA and
+[1:25:01] T me NAA DT is always zero and the third
+[1:25:04] one I forgot is a postate on the naer
+[1:25:07] alone nabler is torsion
+[1:25:10] free I'm sorry I forgot that naer is
+[1:25:13] torsion free one condition on the
+[1:25:14] absolute time one condition on uh the
+[1:25:17] coent derivative and one compatibility
+[1:25:19] condition between the two I'm sorry so
+[1:25:22] you have this but if it's torsion three
+[1:25:24] we still miss a term namely where the
+[1:25:26] first one is zero and the second one is
+[1:25:29] gamma but that is the same term if it's
+[1:25:32] symmetric down here so I get a factor of
+[1:25:37] two and I bet you all spend a lot of
+[1:25:39] time in your lectures on classical
+[1:25:41] mechanics deriving this
+[1:25:45] too ah and the right hand side is of
+[1:25:47] course not right here we have F Alpha
+[1:25:51] divided by m and there it's Z because
+[1:25:55] that's the F0 in a stratified Atlas F0
+[1:25:59] is of course zero because
+[1:26:02] DTF is
+[1:26:05] zero so this is Newton's second law
+[1:26:08] written out what on Earth do we learn
+[1:26:11] from that this isn't even time this is
+[1:26:13] an arbitrary
+[1:26:15] parameter well in a stratified Atlas
+[1:26:18] this guy goes
+[1:26:22] out so in a certified Atlas we can
+[1:26:25] immediately
+[1:26:29] conclude x0 dou Prime of the parameter
+[1:26:34] Lambda is zero meaning x0 of Lambda
+[1:26:39] equals a Lambda plus b for constants
+[1:26:45] AB
+[1:26:47] agree what is x0 x0 is T is X little x0
+[1:26:54] Z after the world line curve X
+[1:26:58] right of Lambda but that is T after X of
+[1:27:03] Lambda in a stratified
+[1:27:06] Atlas meaning the time of a point along
+[1:27:11] a curve runs proportionally to this
+[1:27:15] parameter Lambda the other way around
+[1:27:17] the time is given the time function and
+[1:27:20] the zeroth component which you say well
+[1:27:23] that I'm really not interested it in
+[1:27:24] that's just garbage and you remember
+[1:27:26] before we had this as the zeroth
+[1:27:29] equation uh we inherited this and it was
+[1:27:31] triv true and so on so you see in a
+[1:27:34] stratified Atlas what we did before in
+[1:27:37] the first part where we had a zero here
+[1:27:40] that's only true in a stratified Atlas
+[1:27:42] the point is the SpaceTime diagrams I
+[1:27:44] drew in the first part of this lecture I
+[1:27:46] already assumed I I cheated because I
+[1:27:49] said that's space and that's time let's
+[1:27:51] do this well I assumed that space
+[1:27:54] repeats itself like this
+[1:27:57] right in a stratified Atlas if this was
+[1:28:00] a chart picture it wouldn't but in a
+[1:28:02] stratified picture it also looks in a
+[1:28:04] chart Atlas like this so what I did was
+[1:28:06] right but now I understand why because I
+[1:28:09] already used the global time function in
+[1:28:11] order to define the
+[1:28:14] spatials uh the spaces yes confused we
+[1:28:18] started out with constructing our form
+[1:28:21] list in a way where we those Capital
+[1:28:25] gamma Z CD to zero because we started
+[1:28:29] with demanding that
+[1:28:31] you is valid that was the first part of
+[1:28:34] the lecture right yes the only
+[1:28:36] difference was that there were dots
+[1:28:38] instead of the primes so we said okay
+[1:28:42] let's demand that GMA has this property
+[1:28:45] of having mostly zeros now we say okay
+[1:28:48] let's formulate this in a manner yes
+[1:28:51] which has the mathematic that's right
+[1:28:55] and now we are happy to recover that the
+[1:28:57] gamas are zero no no no no no no no no
+[1:29:00] it's right so the the first half of the
+[1:29:03] talk until I started this section was
+[1:29:06] starting with what we always write down
+[1:29:08] and somehow working your way to an
+[1:29:11] understanding that you say somehow this
+[1:29:12] looks better but now we were always
+[1:29:16] caught in a sense of preconceptions of
+[1:29:20] superstition or of preconceptions about
+[1:29:22] charts and what it means means to have a
+[1:29:24] Newtonian space time this was rather
+[1:29:26] formulated in a vague manner in a
+[1:29:28] non-geometric manner always in charts
+[1:29:31] and we went up once we were there we had
+[1:29:33] some insight we say we need a proper
+[1:29:35] geometric formulation then I made a cut
+[1:29:38] forget everything from before I start
+[1:29:40] now with this abstract definition I
+[1:29:42] reformulated both of Newton's laws in
+[1:29:44] the new language but now I need to start
+[1:29:47] from the I can no longer use what I had
+[1:29:49] before from Newton's laws in charts I
+[1:29:51] need from these from this reformulation
+[1:29:53] I had in this section I need to derive
+[1:29:55] what I had that's right and there is no
+[1:29:58] assumption on nabla being flat it's not
+[1:30:01] a flat connection I didn't require this
+[1:30:04] anywhere okay I only required this posit
+[1:30:07] so it's right we're coming the other way
+[1:30:09] down and you can now not look at this
+[1:30:11] derivation with these prejudices you
+[1:30:14] can't Crosslink them that's dangerous
+[1:30:16] right so okay so um so so the definite
+[1:30:21] statements are these that's my point
+[1:30:23] okay so that's the certified Atlas but
+[1:30:25] now look at this guy down here what on
+[1:30:28] Earth is this well once I saw this I can
+[1:30:32] see I could get the
+[1:30:34] idea no I could for convenience so it's
+[1:30:38] a
+[1:30:38] convention I could uh
+[1:30:42] parameterize just convention
+[1:30:44] parameterize the world
+[1:30:49] line by absolute time
+[1:30:54] so by the number by this number here and
+[1:30:58] then you find that what before was D by
+[1:31:00] D Lambda now is a * d by DT but for a
+[1:31:05] constant a so you can convert these
+[1:31:09] primes into dots if the dot is the
+[1:31:12] derivative with a down here let's do
+[1:31:14] this we do this twice so instead of
+[1:31:17] double Prime we get double dot with a
+[1:31:19] factor a
+[1:31:21] squared a prime and yet another Prime
+[1:31:24] both become dots with a factor a squared
+[1:31:28] a prime and another Prime both become
+[1:31:30] dots with a factor a squared a prime and
+[1:31:33] another Prime both become dots with a
+[1:31:35] factor a
+[1:31:38] squar and over
+[1:31:40] here you don't have an A squ but you can
+[1:31:44] now divide on both sides by this factor
+[1:31:47] a squ which is just the units unit
+[1:31:50] measure of time you use right
+[1:31:54] so the whole left hand side becomes free
+[1:31:56] of it and only on the right hand side if
+[1:31:58] you write down your Force law you need
+[1:32:00] to decide for instance a Newton's
+[1:32:03] constant on what units of time you have
+[1:32:05] seconds or or years or whatever uh so
+[1:32:08] there it survives somehow it's a choice
+[1:32:11] that is usually absorbed into
+[1:32:15] here okay fine so we have this equation
+[1:32:18] so we have that now here you have what
+[1:32:21] you would usually call the acceleration
+[1:32:23] but which isn't the acceleration because
+[1:32:25] what is the
+[1:32:27] acceleration all of
+[1:32:29] this all of this is the one and only
+[1:32:33] acceleration Alpha
+[1:32:35] component no summon in there alone or
+[1:32:40] any combination of summons that isn't
+[1:32:42] all the
+[1:32:43] summons is acceleration because none of
+[1:32:47] these terms by itself or if any of these
+[1:32:50] terms is
+[1:32:51] missing this no longer transforms as a
+[1:32:54] vector okay but acceleration is a vector
+[1:32:58] because if acceleration as a vector it's
+[1:32:59] a tensor if a tensor has Vanishing
+[1:33:02] components in one chart it has Vanishing
+[1:33:04] components in any chart but chart is now
+[1:33:07] a chart on space time for instance you
+[1:33:09] have a chart like this now imagine you
+[1:33:11] twist the chart like this in space time
+[1:33:14] what do you get you get a rotating
+[1:33:16] coordinate system but in space time it's
+[1:33:18] one chart one chart that's constructed
+[1:33:22] like this is a rotating coordinate
+[1:33:26] system in space it's one fixed chart in
+[1:33:28] space time isn't that clever or now you
+[1:33:31] can do this wiggle yeah and that's it's
+[1:33:34] that chart but it's one fixed chart in
+[1:33:36] space time describes the view of a
+[1:33:39] dancer right if you want the coordinate
+[1:33:42] system of a dancer who carries the
+[1:33:44] coordinate system with him or something
+[1:33:46] like this okay anyway not a single one
+[1:33:48] of these is an acceleration by all by
+[1:33:50] itself now what if we have the presence
+[1:33:53] of
+[1:33:55] gravity yes question I see uh when you
+[1:33:59] introduce this a factor I see on the
+[1:34:02] left side how a squ emerges but I don't
+[1:34:04] see on the right side it doesn't and I
+[1:34:07] divide it through yeah but then one a
+[1:34:11] emerged there I don't see
+[1:34:13] how there's an a squ ah okay now
+[1:34:17] it's okay so I forgot the square
+[1:34:22] yes symb for
+[1:34:25] acceleration this is an a it's a small a
+[1:34:29] I just use this Crypt a because I had an
+[1:34:32] index a over
+[1:34:35] there okay it's the a for acceleration
+[1:34:39] okay now let's discuss this very quickly
+[1:34:42] in the presence of
+[1:34:44] gravity these two guys we would set to
+[1:34:46] the gravitational force little F Alpha
+[1:34:50] right so that would contribute a term to
+[1:34:54] the acceleration due to gravity and a
+[1:34:57] term that cannot be transformed
+[1:35:02] away additionally there could be a there
+[1:35:05] could be also sitting in this guy in the
+[1:35:07] gamma Alpha zero so let's say there is
+[1:35:09] no gravity let's let's get rid of
+[1:35:11] gravity if there's gravity there's a
+[1:35:12] contribution here let's assume there is
+[1:35:14] no
+[1:35:17] gravity and let's indeed assume if
+[1:35:20] there's no gravity you know in Gravity
+[1:35:22] the only
+[1:35:24] that is non zero if you use the right
+[1:35:26] chart is this one you can make all the
+[1:35:28] others zero if there's no gravity you
+[1:35:30] could formulate this as Newtonian space
+[1:35:33] time is flat in the absence of gravity
+[1:35:36] Newtonian space time is flat right and
+[1:35:39] if there's gravity in a certain system
+[1:35:41] is this gamma you can reformulate this
+[1:35:43] also fully geometrically I spare you
+[1:35:45] this the point is in the absence of
+[1:35:47] gravity you have a coordinate system
+[1:35:50] where all the gamas vanish and you say
+[1:35:51] oh that's what we always said EX double
+[1:35:53] dot equals F Alpha by m in a system
+[1:35:58] without gravity and in a very special
+[1:36:01] coordinate system now let's assume this
+[1:36:04] case you go to this very special
+[1:36:05] coordinate system and you don't have
+[1:36:07] gravity this looks all normal but now
+[1:36:09] you get the idea let's view the same
+[1:36:12] physics in a chart that's Twisted in
+[1:36:14] this direction which is one chart in
+[1:36:17] space time and which we would call
+[1:36:20] intuitively a rotating chart right but
+[1:36:23] it could also stretch could do all crazy
+[1:36:25] stuff then of course in that chart even
+[1:36:27] though in the previous chart all the
+[1:36:29] gamas were zero all kinds of gamas pop
+[1:36:32] up and assume we use a stratified Atlas
+[1:36:35] this is not
+[1:36:37] affected now what do these terms mean
+[1:36:41] well this term is only spatial only
+[1:36:44] spatial indices it means you chose a
+[1:36:47] chart for instance a polar coordinate
+[1:36:49] chart so without using a twisted chart
+[1:36:52] you have this cartisian chart as you
+[1:36:54] would call it now you choose polar
+[1:36:55] coordinates in space but you leave time
+[1:36:58] untouched you did this a thousand times
+[1:37:00] in classical mechanics these guys appear
+[1:37:04] these guys appear they're the correction
+[1:37:06] terms in polar coordinates this doesn't
+[1:37:08] appear and this doesn't appear either
+[1:37:11] now you go to a rotating chart and in
+[1:37:15] order to really say what rotation is
+[1:37:17] rather than rotation dilation you
+[1:37:18] already need to establish a metric on
+[1:37:20] each spatial section we haven't done
+[1:37:24] that yet for a good reason because the
+[1:37:26] idea that each Spa absolute that
+[1:37:29] absolute space carries a metric is an
+[1:37:31] inertial system fiction in a non-
+[1:37:35] inertial system the geometry of spaces
+[1:37:38] is more complicated than a
+[1:37:39] three-dimensional metric geometry I'll
+[1:37:42] comment on that maybe in a second again
+[1:37:44] so anyway assume we can talk about a
+[1:37:46] rotating system finish in a
+[1:37:49] second this term here x do0 in a
+[1:37:53] stratified chart there will be no more X
+[1:37:57] dots and this one will go
+[1:37:59] to this one here will be a term that's
+[1:38:03] independent of velocity but will depend
+[1:38:06] on what we usually call the rotation the
+[1:38:08] angular frequency of the rotation of the
+[1:38:11] chart this will be the centrifugal what
+[1:38:14] is usually called the centrifugal pseudo
+[1:38:18] acceleration this here has a two here
+[1:38:21] it's proportional to the velocity to the
+[1:38:23] spatial velocity of the particle it will
+[1:38:25] have the Omega in it too I mean you can
+[1:38:28] do much more complicated stuff than
+[1:38:29] rotating the Omega in it too this is
+[1:38:31] with an Omega and with an with an x dot
+[1:38:34] and the Omega may come in various ways
+[1:38:36] this is the CIS pseudo acceleration look
+[1:38:41] at Wikipedia how you get the
+[1:38:43] two okay uh I don't understand that
+[1:38:46] argument but the point is the two is
+[1:38:48] because the G the space time has no
+[1:38:50] curve has no torsion it's because of
+[1:38:53] these two terms appearing twice okay
+[1:38:55] that's the true of the Coralis Force
+[1:38:57] which really is hard to explain usually
+[1:38:59] you have to have to do some hand waving
+[1:39:02] the centrifugal pseudo acceleration and
+[1:39:05] the centrifugal and the coralist pseudo
+[1:39:07] acceleration why do you call them pseudo
+[1:39:09] accelerations well because you feel
+[1:39:11] something isn't quite right about them
+[1:39:13] as an acceleration of course there isn't
+[1:39:15] because neither this is an acceleration
+[1:39:16] nor that is an acceleration not that
+[1:39:18] what you're absolutely certain of is an
+[1:39:20] acceleration but only this one plus this
+[1:39:23] one plus this one is an acceleration now
+[1:39:25] in a rotating system this will no longer
+[1:39:28] be zero if before you had a uniformly
+[1:39:31] free moving
+[1:39:32] particle this will not be zero anymore
+[1:39:35] and this will not be zero anymore but
+[1:39:37] the sum of these will remain to be zero
+[1:39:40] because it's the acceleration of the
+[1:39:42] particle who doesn't care whether you're
+[1:39:44] thinking about a rotating coordinate
+[1:39:46] system or not
+[1:39:49] right the acceleration is totally
+[1:39:51] unimpressed
+[1:39:53] by your fantasy about what coordinate
+[1:39:56] system in
+[1:39:57] SpaceTime you
+[1:39:59] have that's all thank you very
+[1:40:09] much if there are no questions uh we
+[1:40:12] reconvene at a quarter
+[1:40:14] past there is a question
+[1:40:16] okay uh you were assuming that the
+[1:40:20] tortion is zero as one of the additional
+[1:40:23] yes I mean I understand that this makes
+[1:40:26] this nicer
+[1:40:28] here but we didn't get that out of the
+[1:40:32] first half of the lecture of
+[1:40:36] the there we didn't need it because we
+[1:40:39] assume first all the gamas are zero and
+[1:40:41] then we were forced to see some are
+[1:40:43] not the the first was coming from
+[1:40:47] prejudices to a certain level of
+[1:40:50] understanding and then saying in order
+[1:40:52] to get rid of all the the dead bodies we
+[1:40:55] left on the side of the road I didn't
+[1:40:57] talk about uh pedagogic omission of
+[1:41:01] truth I then formulated the next section
+[1:41:04] where I come top down and everything I
+[1:41:06] said before I said to give you an idea
+[1:41:09] how you get there and what is said in
+[1:41:12] this last section is the definite
+[1:41:14] formulation you should give Newton's
+[1:41:16] words so I I initially thought about
+[1:41:19] starting the lecture with the last
+[1:41:21] section but that is somewhat abstract if
+[1:41:24] you haven't understood the idea before
+[1:41:26] why you would even be prompted to go
+[1:41:28] there and you would get the idea well if
+[1:41:31] I do everything in a special chart then
+[1:41:33] everything was fine anyway this is all
+[1:41:36] unnecessary sophistication for S
+[1:41:40] sophistication sake the first part was
+[1:41:43] to say let's start with what we always
+[1:41:45] think is the right way to present it and
+[1:41:48] let's see where the problems
+[1:41:50] lie but then we need to have a fresh
+[1:41:52] start this is the Fresh Start I don't
+[1:41:55] think we need because we talking only
+[1:41:58] the which are not impressed by anyway
+[1:42:01] they
+[1:42:01] are the auto parallels are impressed by
+[1:42:05] torsion there it's dangerous if you have
+[1:42:07] a metric compatible connection which
+[1:42:09] comes in the next lecture and uh you add
+[1:42:13] torsion or not the autop parallels are
+[1:42:15] impressed okay um you say they're not
+[1:42:19] impressed because you have a symmetric
+[1:42:21] contribution from both there that's
+[1:42:23] right it depends on where you start and
+[1:42:24] what exactly you require in which order
+[1:42:27] uh this is a notoriously confusing
+[1:42:29] statement that torsion does it or does
+[1:42:32] it not affect Auto parallel the auto
+[1:42:34] parallel equation the answer is it
+[1:42:36] depends on how you define uh the
+[1:42:39] connection starting from given
+[1:42:41] structures in one way it depends in the
+[1:42:42] other one it doesn't depend although by
+[1:42:45] just staring at the equation you say the
+[1:42:46] antisymmetric part falls out but the
+[1:42:48] question is does already the symmetric
+[1:42:50] part have a torsion squared in it by
+[1:42:53] some construction
+[1:42:56] mechanism we just postulate it then
+[1:42:59] everything works out like like we like
+[1:43:01] it and the same is true in in Newtonian
+[1:43:04] in in Einstein gravity you require that
+[1:43:06] the connection you use is torsion free
+[1:43:09] and you have a um compatibility
+[1:43:12] condition not to the time function but
+[1:43:13] to the lorenzian metric of SpaceTime
+[1:43:16] which philosophically replaces the time
+[1:43:18] function is just that the uh the
+[1:43:21] sections it makes are no longer like
+[1:43:22] this but they're like the cone and
+[1:43:24] everything here is time like and
+[1:43:26] everything here is space like right uh
+[1:43:29] and here this was space like and this
+[1:43:31] was Tim like and everything this was and
+[1:43:33] so on okay but the lorenzian metric is
+[1:43:37] not the generalization of the spacal
+[1:43:39] metric you can think of it that way but
+[1:43:41] it's particularly non- insightful to do
+[1:43:44] it's the generalization of the absolute
+[1:43:45] time
+[1:43:48] function thank you very
+[1:43:50] much okay right suppose I'm in a rocket
+[1:43:54] and I turn on the engine turn off the
+[1:43:56] engine then Force depends on time so how
+[1:43:58] should I use the Newton Second low in
+[1:44:01] this case then I cannot or what happen
+[1:44:04] well I said it's a spatial Vector field
+[1:44:06] that means that DTF is
+[1:44:11] zero but I said f is a vector field on
+[1:44:14] space time so I don't see why it
+[1:44:16] wouldn't change if you proceed in space
+[1:44:19] time it's just it doesn't have a
+[1:44:20] component pointing there so say if I
+[1:44:23] draw a little picture say these are the
+[1:44:26] equal time surfaces um then I say the
+[1:44:29] force points like this it doesn't point
+[1:44:31] out but of course at another point it
+[1:44:34] could be different so you're just
+[1:44:35] switching off the rocket and now you're
+[1:44:38] switching it on again agree so that is
+[1:44:41] captured of
+[1:44:44] course any more
+[1:44:46] questions yes it's I have an idea this
+[1:44:50] formation you can very EAS
+[1:44:54] equations how you get in this the Gran
+[1:44:57] equations yes you can't before you do
+[1:45:02] not understand how to um establish a
+[1:45:05] metric on the spatial sections because
+[1:45:07] in the O lran equations they invariably
+[1:45:10] take the form like this some books say
+[1:45:12] in most systems they take this form no
+[1:45:14] in all systems uh the point is the G the
+[1:45:17] T here uh
+[1:45:19] is the velocity to the spatial Cur curve
+[1:45:24] okay uh 12 M um and you need a metric on
+[1:45:31] space to do this okay and when the book
+[1:45:34] thinks it doesn't have the form of the
+[1:45:35] standard T well it's just a
+[1:45:37] transformation of the components of this
+[1:45:39] G in other charts like polar coordinates
+[1:45:42] so neon mechanics always the lrin has
+[1:45:45] this form and this T has this form
+[1:45:48] without the square root because on Space
+[1:45:51] Newtonian uh LR formalism works over the
+[1:45:54] spatial section only um because uh if
+[1:45:57] you put the square root you have
+[1:45:59] reparameterization in variance you get
+[1:46:00] straight curves but not straight uniform
+[1:46:02] curves if you take this away you fix the
+[1:46:05] parameter automatically you get straight
+[1:46:07] uniform curves that's the reason for the
+[1:46:09] kinetic energy being like this without
+[1:46:10] the square root to get straight uniform
+[1:46:13] curves rather than straight curves but
+[1:46:15] this is a solid spatial picture this
+[1:46:18] doesn't work in the space time and it
+[1:46:20] cannot work in the space time as I said
+[1:46:22] because only in inertial systems which
+[1:46:24] by the way are uh defined as uh
+[1:46:28] coordinate frames XA d by
+[1:46:31] dxb uh by coordinates that satisfy this
+[1:46:34] these are inertial frames uh non
+[1:46:38] accelerated non- rotating is this um
+[1:46:42] because only in such frames where you
+[1:46:44] then have the uh equal time functions
+[1:46:48] can you establish a spatial metric
+[1:46:50] everywhere if you go to a rotating
+[1:46:53] system well phys in physicist intuition
+[1:46:56] tells you if you go to a rotating system
+[1:46:57] what do you need to know you need to
+[1:46:59] know the Omega Vector the frequency
+[1:47:02] right well it's actually Omega Co Vector
+[1:47:04] because it has to do with rotation in
+[1:47:05] Planes but apart from the G which is a
+[1:47:08] two tenser in space you need a one form
+[1:47:12] to know what's going on so in fact the
+[1:47:14] geometry is given by a metric and this
+[1:47:17] this Omega and stuff like this so really
+[1:47:20] having a metric of space is an inertial
+[1:47:23] system fiction and in an inertial system
+[1:47:27] uh you can make this working and running
+[1:47:30] and then you can by calculational truth
+[1:47:33] but zero structural Insight you can
+[1:47:35] change coordinates to depend also on the
+[1:47:38] time t Okay the formula of lran
+[1:47:41] mechanics stay true but it's somewhat
+[1:47:44] out of the initial formulation of LR
+[1:47:47] mechanics to go to rotating frames and
+[1:47:50] then you pick up all these terms and so
+[1:47:52] on but you don't really understand
+[1:47:54] them
+[1:47:57] okay so there their lectures in German
+[1:48:00] on the web on my classical mechanics
+[1:48:02] lectures that's a second year
+[1:48:03] undergraduate lecture um where I follow
+[1:48:06] this approach to introduce classical
+[1:48:08] mechanics and I finally come to lrin
+[1:48:10] mechanics uh that's in German is on the
+[1:48:13] web so if you want more on this this is
+[1:48:16] kind of some I don't know 40 hours
+[1:48:19] lectures
+[1:48:23] okay I I I'd say we we stop here and we
+[1:48:25] reconvene at a quarter past

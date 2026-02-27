@@ -1,0 +1,509 @@
+[00:00] This program is being presented to you by the Haraeus International Winter School on Gravity and Light.
+[00:12] Well, once more welcome to this second lecture on dynamical formulation of GR.
+[00:23] I've written down the last blackboard that I had yesterday once more.
+[00:29] There were some indices a little bit messed up yesterday, so this was an A, it should be an M,
+[00:35] and I think somewhere else there was something strange, but I guess from the formula it's clear what it should be.
+[00:41] And this was all already on the board yesterday, so this is the transformation between the orthonormal frame and the coordinate frame,
+[00:49] and the coordinates were chosen to be x0 equals ct, and xm are the coordinates on the three manifold,
+[00:58] and these are the relations between the two.
+[01:00] What they serve to is to plug this formula into this expression for the four-dimensional Lorentz metric,
+[01:08] then you get a parametrization of the four-dimensional Lorentz metric in terms of the three-dimensional metric of sigma
+[01:14] and four more functions, and these are the alpha and the beta.
+[01:18] So this is just a way to rewrite the four-dimensional metric which has ten coefficients
+[01:24] in terms of the six coefficients of h and the four coefficients of alpha, alpha making up one and three beta.
+[01:31] It's just a reparametrization if you like.
+[01:34] But the use of all this is, as you will see, is that in the equations of motion, it will be the h which are determined
+[01:42] and the alpha and beta which are not determined.
+[01:44] So we have isolated, by choosing a gauge, we have isolated those functions which are not determined by the equations of motion.
+[01:53] And as an analogy, you can think of electrodynamics.
+[01:56] If you write electrodynamics in terms of the three-vector potential and the scalar potential,
+[02:01] and you look at the Lagrangian function, e squared minus e squared, and you replace e by minus gradient phi minus a dot,
+[02:10] and you replace b by curl a, then you will see that this Lagrangian depends on the scalar potential, but not its time derivative.
+[02:18] And as a consequence of this is that the Euler-Lagrange equations do not determine the time development of the scalar potential.
+[02:26] It's up to you to choose any functions you like.
+[02:29] And the similar thing hold here, but we have four functions which are not determined.
+[02:33] Okay, so these are the formula for the metric.
+[02:36] The inverse metric can also be written down easily from this formula.
+[02:40] The measure on spacetime, the four form, the top form, which gives the measure which is the just the wedge product of orthogonal one-forms,
+[02:48] can also be easily calculated from this.
+[02:50] This is alpha times the determinant of the three-dimensional metric in the coordinates with respect to which you choose the Lebesgue measure here.
+[02:57] And then a CDT.
+[02:59] And I kept the factors of C. Most people don't do this, but I have them around, and so you can see where the C enters.
+[03:05] Anyway, so this is the measure.
+[03:07] And this sets the stage.
+[03:09] From now on, we can just sort of calculate the curvature by using this decomposition, plug into the Einstein-Hilbert action,
+[03:17] or the equations of motion, and formulate them in this way.
+[03:22] There's only one remark I would like to make.
+[03:26] So here is, again, this picture, you have a slice at time t, and a slice at an infinitesimal later time t plus delta t.
+[03:35] The slice may be well very much tilted, which says that the velocity with respect to the parameter time t may vary from place to place,
+[03:47] and also from time to time.
+[03:49] So if alpha is very large, that means there's a lot of eigen time per unit parameter time, you evolve the slice very far.
+[03:56] If alpha is small, you evolve it very little.
+[03:59] And it sometimes advantages to actually choose a gauge in which the time slices will in future avoid those regions where catastrophes occur,
+[04:10] like the formation of a black hole.
+[04:13] So sometimes you want to choose a gauge.
+[04:16] This is a little bit sort of picking on what's coming later, but sometimes gauge conditions.
+[04:45] E.g., the maximal gauge.
+[04:47] It's called maximal gauge, which says choose the slices.
+[05:14] Such that the trace of the extrinsic curvature of the slices is zero.
+[05:18] So you start with a maximal slice, whose trace of the extrinsic curvature is zero, and then progress from that slice on by choosing alpha suitably so it stays zero.
+[05:28] That's called the maximal slice, because this is a condition for the sigma on which this vanishes to be a so-called, in Euclidean geometry it would be called a minimal surface.
+[05:40] In Lorentzian geometry, it's a maximal surface.
+[05:43] It's like the geodesics also are of maximal length rather than of minimal length.
+[05:48] Therefore, it's called maximal gauge.
+[05:55] And you can show, for this to be preserved in time, you must satisfy a partial differential equation for the alpha, and that's the gauge condition.
+[06:09] This is that the Laplacian with respect to h of alpha plus minus the Ritchie tensor nn of that slice plus kabkab times alpha equals zero.
+[06:25] And that's the maximal slicing condition.
+[06:36] And the idea behind this is that whatever you have a system, say, of binary stars revolving around each other, and from a certain time on forming a black hole,
+[06:47] so that will be in horizon appearing in time and space.
+[06:59] Then if you did slice it straight, then your numerical code will break down when the first slide hits the singularity, and then it's finished.
+[07:11] But if you're outside and you're interested in the future outside, for example, if you want to measure how much gravitational radiation comes out,
+[07:18] you would, for example, be interested in an observer that travels along this line and who wants to receive the gravitational radiation that somewhere sent out in this region.
+[07:29] So somewhere here the observer wants to measure that.
+[07:32] But you see, if you stay on these slices, you can't do it, because then your numerical code goes as far as this point, and then it stops.
+[07:42] So you'd rather do something like slowing down the slices in the vicinity of that region that is likely to develop a singularity, but then the slices go up, like this.
+[07:56] And that condition says the surface must be maximal, and for a surface to stay maximal, it doesn't want to enter those regions where it's very much crunched.
+[08:11] So that condition sort of captures the idea that whenever the slices come into regions where they are very much compressed together, they slow down.
+[08:19] Whereas in other regions where this is not likely to occur, they progress with uninhibited speed.
+[08:25] And so many of these, this is the whole industry that sort of looks for these conditions and make appropriate slicing.
+[08:32] And for numerical people, this is very, very important.
+[08:35] Okay. This is just a remark.
+[08:39] So let me come, we have decomposed the metric, now we can decompose the curvature.
+[09:05] We know that the Riemann tensor for the connection nublar satisfies these conditions.
+[09:13] And I trust this equation you have seen.
+[09:26] This equation I've seen. Okay.
+[09:28] And the same for D.
+[09:30] So the same for the connection D.
+[09:32] And of course vector fields, which are tangent to the leaves.
+[09:39] Oh, I shouldn't do this.
+[09:46] So let's take this expression and
+[10:09] let's take tangent vector fields and use our formula for the covariant derivative, which looked like this.
+[10:22] In terms of the extrinsic curvature and the intrinsic covariant derivative.
+[10:26] Just insert this here and do the calculation.
+[10:29] And that's very easy.
+[10:31] It's a two line calculation.
+[10:35] And you get that the curvature tensor of the full spacetime equals the curvature tensor of the intrinsic connection plus certain other terms.
+[10:57] Oops.
+[10:59] Sorry. This is K. Sorry.
+[11:01] K, Y, Z minus D, Y, N, K, X, Z plus an N component.
+[11:17] D, X, K, Y, Z minus D, Y, K, X, Z.
+[11:36] Right. So the curvature tensors are not identical since the ambient curvature in the same direction might be different from the curvature intrinsic to the leaf.
+[11:45] And now, you see this curvature tensor.
+[12:04] There are many ways to read this, but the remaining curvature could be read as an endomorphism value two form.
+[12:09] I don't know whether you put it like this.
+[12:12] You put in two vectors and then you get an endomorphism.
+[12:15] It acts on a vector and as an image you get another vector.
+[12:20] So this is vector valued.
+[12:22] So now, if you contract this result with the tangential vector to the leaves, you get one expression.
+[12:34] And if you contract it with a normal vector, you get another expression.
+[12:37] For example, here you see this is already proportional to the normal.
+[12:40] This is basically the normal part and this is the tangential part.
+[12:46] So if you take this to be tangential, you get what I call Riem.
+[12:55] So the curvature tensor with all indices downstairs, if you like, here W, Z, X, Y.
+[13:06] And that is defined to be the scalar product of this.
+[13:15] And then, just using this formula, it is Rd Riem plus, sorry, the other way around.
+[13:35] Doesn't matter a bit.
+[13:37] And then minus.
+[13:47] And that is called the Gauss-Coudacci equation.
+[14:01] W.
+[14:11] So this is when you, usually the Riem tensor is A, B, C, D, an index structure like this.
+[14:18] But now I pull an index down and call this Riem R, B, C, D. This is the object.
+[14:35] So this is the Gauss-Coudacci equation.
+[14:39] So in components, it's like this.
+[14:56] And this formula contains, as a corollary, Gauss-Theorema y Grigium.
+[15:02] Because if you apply this formula to a two-dimensional surface being embedded in three dimensions,
+[15:08] the embedding space, the three-dimensional embedding space is flat.
+[15:11] So this is zero.
+[15:12] And then this formula says that the only non-trivial component, which is 1, 2, 1, 2,
+[15:17] there's only one independent component of curvature in two dimensions, equals some combination of the case,
+[15:24] which you can easily identify to be just the determinant.
+[15:27] And that means the extrinsic Gaussian curvature can be read off from the principal radii.
+[15:32] And this is the Gauss-Theorema y Grigium.
+[15:34] So this Gauss-Coudacci equation is the generalization of the Gauss-Theorema y Grigium.
+[15:59] The astonishing, I guess it means astonishing theorem.
+[16:03] OK.
+[16:06] Now here we used the contract with w.
+[16:10] If you take the normal component, we get the Riemann tensor.
+[16:29] This minus the covariant derivative of k with respect to x.
+[16:36] And then contract it with this plus, oops, with this.
+[16:47] And this is called Gauss-Theorema y Grigium.
+[17:01] And so we have now decomposed the Riemann tensor for the cases where sort of none of the indices is space-like,
+[17:08] all are space-like, or one is time-like.
+[17:11] But there's still the possibility that two are time-like.
+[17:14] There cannot be more than two equal in the normal direction because of the symmetries of the Riemann tensor.
+[17:20] It is antisymmetric in the first pair, antisymmetric in the second pair,
+[17:24] and symmetric under slot-wise exchange of the two pairs.
+[17:27] So it cannot be that three indices are equal.
+[17:30] So the only other possibility.
+[17:53] Two indices are proportional to n, and here's the result.
+[17:57] This is slightly more tedious to compute, but also straightforward from the formula.
+[18:06] So two indices are n, the others are x and y.
+[18:10] And this can be written in the following form.
+[18:14] I sub x, I mean the operator that inserts the vector in the index here into the first free slot.
+[18:28] So it can be written as the lead derivative of k.
+[18:31] We had a formula for this, plus basically just the square of the Weingarten map.
+[18:40] I write down what this is in coordinates, then da, and then a tensor a.
+[18:55] So in coordinates, this would be kac kcb, just the square of the matrix.
+[19:07] And from that, you can calculate the Ricci curvature, the Einstein curvature and the scalar curvature.
+[19:34] It's just using these expressions, and for example you find.
+[19:39] So the Ricci curvature with respect to the disconnection is if I contract it with the 00 component,
+[19:50] then this is just minus kab kab, plus the trace of k squared,
+[20:00] plus the divergence of a vector, and the divergence of the vector is n times the trace of k plus a.
+[20:10] Sorry, minus a.
+[20:15] It's plus divergence, yes.
+[20:45] It's plus divergence, yes.
+[21:15] And the scalar curvature, let me just write r for this, this is the scalar curvature.
+[21:42] It's the scalar curvature of the intrinsic metric, plus kab kab minus kcc squared, plus twice the divergence of this vector.
+[22:03] Now this is, oh, sorry.
+[22:08] This is already interesting because this is basically the Lagrangian density.
+[22:14] You did Hilbert Einstein action, Einstein Hilbert action.
+[22:17] So this is something like a term quadratic in the velocities, which is the kinetic energy, minus potential energy.
+[22:25] So the potential energy is something like minus the three-dimensional scalar curvature, plus the surface term,
+[22:30] and for the time being, it doesn't interest us.
+[22:33] It will interest us later, but at this moment it doesn't interest us.
+[22:37] So because this is an interesting quadratic expression, let's write down it in different form.
+[22:54] Using the David metric, which is just this quadratic pairing,
+[23:07] let's identify this metric to be one-half, and then hac hbd plus had hbc minus twice hab hcd.
+[23:26] This is just a quadratic expression.
+[23:28] This is an interesting metric on the six-dimensional, per space point, six-dimensional space of velocities for h.
+[23:36] So this is a six-dimensional, six-by-six matrix metric, and it can be shown to be of Lorentzian signature.
+[23:42] It has one minus sign and five plus signs.
+[23:45] So the kinetic energy is not positive definite for gravity.
+[23:48] And the mode that is negative is the trace part of k, the uniform, the isotropic expansion or contraction.
+[23:56] So in the universe, in the standard model of the Friedman cosmology, the only degree of freedom that is actually considered in gravity
+[24:03] are the conformally scalings, and these have a negative kinetic energy in gravitation.
+[24:10] So the kinetic energy part is not positive definite.
+[24:16] Okay, so if I use that, then this is just kinetic energy plus potential energy plus divergence.
+[24:32] And I put it in.
+[24:38] This is minus potential, right?
+[24:43] Lagrangian is always of the form kinetic energy minus potential energy.
+[24:51] Okay.
+[24:56] Having the Lagrangian in terms of my configuration variables and their velocities, or its normal velocities,
+[25:03] I want to write it in terms of the velocities with respect to my chosen time vector field d by dt.
+[25:09] So note that k was equal to one-half the lean normal derivative of h, this we showed.
+[25:18] And also one over c d by dt was defined to be lapse and shift function like that,
+[25:28] so that normal is one over alpha one over c d by dt minus beta.
+[25:41] And hence k equals one over two alpha times h dot minus literative of h,
+[25:51] where h dot is now defined to be one over c d by dt of h.
+[26:03] So a dot is not really the time derivative, it's the time derivative rescaled by c.
+[26:08] It's just convenient too.
+[26:12] So from that, folks, we have the Einstein-Hilbert action in 3 plus 1 split form.
+[26:35] So Einstein-Hilbert, what does it depend on?
+[26:39] It depends on h, on h dot, on alpha and beta, but there is no alpha dot and beta dot around.
+[26:46] This is just like in electrodynamics with a scalar potential, but here's no four functions.
+[26:53] And of course there is, oh, I should write it down, that's one over two k.
+[26:59] Then there is g k k m plus r d times the measure for the, this is actually density, right?
+[27:13] Or it should be sort of a four form.
+[27:15] If you think of it as a four form, it has alpha, h, d4, x, right?
+[27:25] And where the k is now thought to be expressed in this way, right?
+[27:36] Then it depends on h and h dot.
+[27:39] You talked about some forms, but I don't really have an understanding of what it is.
+[27:47] No, no, otherwise I run out of time.
+[27:52] It's just a wedge product of, it's something that you can integrate over four dimensions.
+[27:59] Forget about this, just take, just forget about this.
+[28:03] Say this is the thing that you integrate over spacetime.
+[28:06] So, but you have to, did you see the measure over which you integrate has the gravitational variables in it, right?
+[28:13] There is no naturally God-given measure.
+[28:15] The measure depends on your dynamical variables.
+[28:18] You must include them in your Lagrangian.
+[28:20] That's the only way I want to say it.
+[28:22] Okay.
+[28:31] Oh, sorry, kappa.
+[28:33] This is my gravitational constant.
+[28:35] This is, this is, sorry, this is 8 pi gc4.
+[28:41] This, perhaps I should write some xi, I don't know.
+[28:45] This is, sorry, this is my constant.
+[28:49] Yeah.
+[28:52] Okay, note.
+[29:05] Sorry, alpha.
+[29:35] The surface term has been removed and it has been removed by actually realizing that the Einstein-Hilbert action is not what you think it is.
+[29:49] It depends on what you have told them.
+[29:51] But it's, it's not reached the scalar times, so this is usually called the Einstein-Hilbert action.
+[30:04] This is generally not true.
+[30:06] And you can easily see that it is not true.
+[30:08] Take the Schwarzschild solution.
+[30:09] The Schwarzschild solution is a rich flat.
+[30:11] So if you take the action of the Schwarzschild solution, it's actually zero.
+[30:14] But it has non-trivial mass.
+[30:16] How can that be?
+[30:17] And in fact, it's, it can be, but this is not the action.
+[30:20] This is, this action is not functionally differentiable over long-ranging configurations.
+[30:27] You must add to it a surface term.
+[30:29] And the surface term that you add is just such that it cancels the surface term that we had here.
+[30:34] Right?
+[30:35] So you must define Einstein-Hilbert action correctly.
+[30:38] And if you do it correctly, the surface term that you would get from the gradient of V would be removed.
+[30:48] That's an interesting issue, but I can't go into this.
+[30:53] Okay.
+[30:54] All right.
+[30:55] So before we go into the Hamiltonian formulation,
+[31:25] where everything will be expressed in terms of conjugate momenta,
+[31:28] let us pause for a little bit and write down the literal translations of Einstein equations in terms of H and K.
+[31:35] So here's the 0, 0 component.
+[32:06] So this is minus twice the Einstein tensor and N.
+[32:13] So what's on the left-hand side, I mean, is twice the Einstein tensor.
+[32:18] And there is GABCD, GBKCD.
+[32:25] And that's the mixed components.
+[32:38] And these are precisely the four components out of the ten,
+[32:41] which do not contain more than first-time derivatives.
+[32:44] As you can see, the K is the first-time derivative of the metric,
+[32:47] but there's no time derivative of K in these equations.
+[32:53] And so we saw this before that these four equations have that property.
+[32:57] Now you see it explicitly, and therefore these are the constraints.
+[33:14] And then there is the other equation, the six more equations,
+[33:26] which are the time evolution equations for H,
+[33:43] and that we already had, that was given to us by definition of K.
+[33:47] So that equation we already had, and then we have an equation for K,
+[33:51] which is the evolution equations, so perhaps I've write it down here
+[33:56] because it's the most important equation.
+[34:08] So by this I mean the derivative with respect to CT of K,
+[34:15] and then the AB component, and that is equal to the derivative of K
+[34:24] with respect to beta plus a so-called tilting term, the Hessian of alpha,
+[34:33] then plus alpha 2KACKCB plus KABKCC minus Ritchie tensor
+[34:48] of the intrinsic metric, AAAB.
+[35:00] This is again the constant, sorry about that,
+[35:09] plus alpha again the constant TAB minus one-half HCDTCDHAB.
+[35:24] So I haven't been quite consistent with either writing indices
+[35:27] and vectors in the slots, but I could have written TNN here,
+[35:30] but this is the same.
+[35:32] So this splits the contribution of the matter part into the part
+[35:38] that comes from the time-time component and other components
+[35:41] not involving the time-time component, only the spatial components,
+[35:44] only pressures and momentum densities and so on.
+[35:49] So this is the evolution equation.
+[35:51] Now in this poses the initial value problem
+[35:56] because what is now the initial value formulation?
+[36:12] Let's restrict to the vacuum here, because otherwise, of course,
+[36:15] I would have to add the matter equations, which I have not specified,
+[36:18] but in the vacuum, how would it look like?
+[36:20] So the first thing you do is you choose a three-manifold sigma.
+[36:32] And it's a non-trivial result that there is no topological obstruction.
+[36:36] Any topology can arise as a solution to Einstein's equations.
+[36:51] That's usually not true for differential equations.
+[36:53] Sometimes there are topological obstructions.
+[36:55] Certain differential equations don't have solutions on specific topologies.
+[36:59] Here it is not the case.
+[37:01] It's not excluded.
+[37:03] Pick a pair, h, k,
+[37:23] so that constraints are satisfied.
+[37:26] And this is an elliptic system.
+[37:29] So you have to solve non-linear elliptic differential equations.
+[37:36] Third,
+[37:58] pick any four functions, gauge functions at your will,
+[38:02] your favorite functions.
+[38:04] The only thing you should not do is to take alpha identically zero,
+[38:07] because then you don't move off the surface.
+[38:10] And any other choices, okay.
+[38:13] So pick any such functions.
+[38:15] So beta, for example, you may choose to be zero,
+[38:17] because you don't want to remove the spatial coordinate system.
+[38:19] And alpha should perhaps better be zero,
+[38:21] but it doesn't have to be larger than zero,
+[38:24] so it has to move forward in time.
+[38:26] So if it has a zero and a negative component,
+[38:29] then the surface tilts relative to your ones.
+[38:35] And then, having done that,
+[38:38] you plug this into the evolution equations,
+[38:40] and then you can evolve them.
+[38:42] They contain alpha, they contain beta,
+[38:44] and they contain your initial values.
+[39:12] So this is the Lagrangian picture in the 3-plus-plants-width form.
+[39:15] And now you can sort of turn the handle
+[39:18] and just throw at this the standard Hamiltonian formalism.
+[39:43] So let's write this down again.
+[39:45] But now explicitly,
+[39:47] insert into the quadratic form
+[39:49] this combination of H dot and lead derivatives.
+[39:52] So it's G,
+[39:57] 1 over 2 alpha
+[40:01] times H dot minus L beta H,
+[40:07] 1 over 2 alpha H dot minus L beta H,
+[40:16] plus Rd.
+[40:26] So this is the Lagrangian.
+[40:37] The canonical momenta from the Lagrangians are obtained
+[40:40] by taking the derivatives with respect to the velocities.
+[40:43] I must be a little bit careful here
+[40:45] because what I call velocity
+[40:47] is really the derivative with respect to Ct rather than T.
+[40:50] Therefore, I get an addition factor of C.
+[40:53] So C times the canonical momenta for alpha,
+[40:57] which is defined to be
+[41:00] Einstein-Hilbert with respect to alpha dot,
+[41:04] is 0 because alpha dot doesn't occur.
+[41:18] The momentum
+[41:21] conjugates to beta n,
+[41:23] the nth component of the beta field.
+[41:25] It's just the same.
+[41:35] So they are vanishing momenta,
+[41:38] and they are called these equations
+[41:40] when you have vanishing momenta
+[41:42] are called primary constraints.
+[41:50] And the theory of systems
+[41:53] where you do have these kind of degeneracies
+[41:56] is according to Dirac,
+[41:58] D Dirac,
+[42:01] and the terminology also,
+[42:04] according to Dirac.
+[42:06] So they have primary constraints.
+[42:08] A primary constraint, a vanishing momentum,
+[42:10] tells you that a certain variable
+[42:13] does not enter the kinetic energy.
+[42:15] That means throwing the system in this direction
+[42:17] does not cost you action.
+[42:19] It also means that once you have found a solution
+[42:22] to your equations of motion,
+[42:24] given any solution, you can add on it
+[42:26] any motion in that direction
+[42:28] which is the property of being a solution.
+[42:30] In other words, the motion
+[42:32] in this direction is totally undetermined
+[42:34] by the dynamical system.
+[42:36] And that is, of course, the signature of a gauge symmetry.
+[42:38] That means whatever is generated
+[42:40] by these constraints
+[42:42] is a direction in phase space
+[42:44] which does not count as a physical degree of freedom.
+[42:46] It's very similar to what you encounter
+[42:48] in electrodynamics.
+[42:50] The vanishing momentum for the scalar potential
+[42:52] has exactly the same meaning.
+[42:55] And then there is the
+[43:10] the conjugate momentum
+[43:12] for the AB component of the metric.
+[43:14] And that is, of course,
+[43:16] defined to be in a similar way.
+[43:18] Einstein-Hilbert,
+[43:20] H dot
+[43:22] AB
+[43:24] equals, and if you look at this,
+[43:26] then you get
+[43:36] and I
+[43:38] swallow the factor,
+[43:40] this density factor,
+[43:42] determinant of H into the metric
+[43:44] and define a new metric which just carries ahead.
+[43:46] I just call it 1 over 2K.
+[43:48] G hat
+[43:50] AB
+[43:52] CDK CD
+[43:54] and this is just
+[44:00] just by definition.
+[44:08] Okay, so there is a conjugate momentum.
+[44:10] That can actually be inverted.
+[44:12] So you can write
+[44:14] KAB
+[44:16] is actually
+[44:20] 2K times C
+[44:22] times
+[44:24] the inverse metric
+[44:26] whose components are now downstairs
+[44:32] and you can actually calculate it.
+[44:34] So the
+[44:46] AB and M
+[44:50] CD
+[44:52] and M
+[44:54] equals one-half
+[44:56] delta CA
+[44:58] delta DB
+[45:00] plus
+[45:02] delta CB
+[45:04] delta DA.
+[45:06] So it's the unit matrix on the space of symmetric tensors.
+[45:08] It's a funny way to write the unit matrix.
+[45:20] So
+[45:22] so
+[45:48] Sorry, no tree here.
+[45:50] There's a tree here.
+[45:54] And you can check that equation.
+[45:56] That's okay.
+[46:02] So in order to calculate the Hamiltonian,
+[46:04] we have to express
+[46:06] the velocities in terms of the momentum.
+[46:08] We make it a rounded transformation,
+[46:10] express the velocities in terms of the momentum
+[46:12] and then write everything in terms
+[46:14] of configuration space variables and momentum.
+[46:20] So
+[46:46] and the answer is this
+[46:48] The velocity
+[46:50] is the lead derivative
+[46:52] foH
+[46:54] and that's the AB component
+[46:56] plus 2
+[46:58] alphas
+[47:00] times K
+[47:02] but how to express K in terms of
+[47:04] the momentum that we have just learned
+[47:06] and the lead derivative
+[47:08] can be expressed in terms of the
+[47:10] covariant derivatives
+[47:18] so that we get finally 4 alpha
+[47:20] K
+[47:22] and there's also C coming in
+[47:24] G hat minus 1
+[47:26] A B C D
+[47:28] Pi C D
+[47:32] So that's a relation that expresses the velocity
+[47:34] in terms of the momentum
+[47:36] and there are gauge functions coming in
+[47:38] that's also just like in electrodynamics.
+[47:40] It's the very same thing.
+[47:42] And then
+[47:44] we have the Hamiltonian
+[47:46] and I have an index 0 on it
+[47:48] for reasons to explain later
+[47:54] So I make it a
+[47:56] rounded transformation for those momentum
+[47:58] for which I can invert the relation
+[48:00] and for the others I don't.
+[48:02] I just leave the parameters as they are.
+[48:14] So here it is.
+[48:20] Alpha
+[48:22] times
+[48:44] And just for completeness I reinsert it
+[48:46] the cosmological constant
+[48:48] which I had left out previously in the Einstein Hilbert action
+[48:50] just reinsert it
+[48:52] so you can see where it will appear
+[48:54] reinsert it
+[49:02] plus
+[49:04] twice C
+[49:06] A B
+[49:08] delta A
+[49:10] B
+[49:14] Right, so this is the Hamiltonian.
+[49:18] Nice function of the
+[49:20] three-dimensional metric
+[49:22] the conjugate momentum
+[49:24] and alpha and beta.
+[49:30] Now for the primary constraints
+[49:34] and here is sort of
+[49:36] going a little bit ahead in the
+[49:38] in the theory of Dirac
+[49:40] if you encounter a system where you have constraints
+[49:42] that means not all
+[49:44] points of phase space are accessible to you
+[49:46] and it could be
+[49:48] that if you go to a point
+[49:50] which satisfies the primary constraint
+[49:52] and you follow the evolution
+[49:54] then the evolution will take you off that surface
+[49:56] you must make sure that this does not happen
+[49:58] therefore you must check
+[50:00] whether all
+[50:02] points on the primary constraint surface
+[50:04] satisfy these conditions and if not
+[50:06] you must further restrict the phase space
+[50:08] then you get so-called secondary conditions
+[50:10] and then you must check whether the secondary conditions
+[50:12] are satisfied and whether you get
+[50:14] tertiary and other
+[50:16] constraints. It might happen
+[50:18] that the system has no solutions at all
+[50:20] that there will be no point in phase
+[50:22] space so that you do not leave off the
+[50:24] constraint surface then the theory is just inconsistent
+[50:26] but it usually happens
+[50:28] in all gauge theories in physics that there will be
+[50:30] primary and secondary constraints but no further
+[50:32] ones and this is also true here

@@ -1,0 +1,748 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:12] light so welcome back to the next
+[00:15] tutorial on cosmology of the V Heros
+[00:19] International winter school on gravity
+[00:21] and
+[00:22] light and again we have some
+[00:25] statements today these are 10 and it's
+[00:30] as I said about cosmology and an
+[00:33] important notion for cosmology
+[00:36] is what a maximally symmetric space is
+[00:40] and by maximally symmetric we mean that
+[00:43] we have the maximal amount of killing
+[00:45] Vector Fields the first statement on
+[00:48] that is homogeneous and isotropic three
+[00:51] manifolds are maximally symmetric
+[00:54] manifolds that is right since
+[00:58] homogeneous produces three killing
+[01:00] Vector fields and isotropy produces also
+[01:04] two so translations and
+[01:07] rotations these are six in total and if
+[01:10] you look at the formula that is D * D +
+[01:14] 1 /
+[01:17] 2 basically that's the number of
+[01:20] independent components in the
+[01:23] metric and if you plug in the three here
+[01:25] that's 3 * 4 / 2 is 6 in our case is and
+[01:30] these are precisely these six killing
+[01:33] Vector
+[01:34] Fields so that's right therefore these
+[01:37] are maximally symmetric a
+[01:39] five-dimensional manifold can have
+[01:41] maximally 10 linearly independent
+[01:44] killing Vector Fields by the same
+[01:46] formula this is incorrect because 5 * 6
+[01:49] is 30 / 2 is 15 not
+[01:53] 10 reman curvature on a maxim symmetric
+[01:56] manifold contains exactly one derivative
+[02:00] the metric no it doesn't we saw that it
+[02:03] contains no derivative of the
+[02:07] metric a maximal isometric 3 manifold
+[02:10] cannot be
+[02:11] flat yes it can for example
+[02:14] consider the spatial part of
+[02:18] FW if we pick Kaa equals zero then we
+[02:23] have this maximally symmetric three
+[02:26] manifold that is flat so this is false
+[02:29] as as well and the last one for part A
+[02:33] would be a maximal symmetric space has
+[02:36] constant sectional
+[02:38] curvature these are the Capas so minus
+[02:41] one 0 and one that we introduced in the
+[02:44] lecture so that's
+[02:49] true B which statements are correct
+[02:53] perfect fluid matter has constant
+[02:55] pressure and constant density over the
+[02:58] whole space time
+[03:00] definitely not because the p which is
+[03:03] the pressure is some function of T and
+[03:06] the row as well so that's
+[03:09] incorrect homogeneous and isotropic dust
+[03:12] and radiation can be modeled as a
+[03:14] perfect fluid that's right so we saw
+[03:18] that um the equation of
+[03:23] state that is this one um for Omega = 1
+[03:29] / 3 we model radiation and for Omega
+[03:33] equals uh zero we have
+[03:36] dust so that can be modeled and this
+[03:39] equation of state is the equation of a
+[03:42] perfect fluid that's how how we call
+[03:45] that the fredine equations are the
+[03:47] Einstein equations for a spherical
+[03:49] symmetric
+[03:51] vacuum so up to here this would be
+[03:54] correct but it is not a vacuum it is not
+[03:59] necessarily spherically symmetric in
+[04:01] particular it can just be spherically
+[04:03] symmetric in the spatial part so this is
+[04:07] definitely not correct but the main
+[04:10] argument is here vacuum because we put
+[04:12] matter on the right
+[04:14] side the F frw metric with Kappa equals
+[04:18] 1 is the metric of a hyperbolic three
+[04:23] manifold if you put a minus here this
+[04:25] would be correct but since there's no
+[04:27] minus this is incorrect remember
+[04:29] remember this Factor 1 / 1 - Kaa R 2 and
+[04:34] Kaa = 1 produces a spherical three
+[04:40] manold the last one all met densities
+[04:43] row of T are proportional to T to the
+[04:45] minus 2 that's right and we calculated
+[04:49] that in the
+[04:55] lectures exercise two killings equation
+[05:02] first before we start deriving killings
+[05:04] equation we want to again think about
+[05:08] what it means for Vector field K to be a
+[05:12] killing Vector
+[05:13] field um and we should give some
+[05:15] interpretation of this condition in
+[05:17] terms of the flow HK associated with
+[05:20] that killing Vector field so the
+[05:22] condition for the vector field K to be a
+[05:27] killing Vector field was that the
+[05:29] derivative on the metric with respect to
+[05:33] this Vector field
+[05:36] vanishes okay so we should give the
+[05:40] interpretation in terms of the flow
+[05:43] where does the flow come into the game
+[05:46] well l k g was defined as h k some
+[05:54] parameter y Lambda the pull back of the
+[05:58] metric minus
+[06:00] G over Lambda and as always I forgot we
+[06:05] need to take Lambda to zero so some
+[06:08] limit Lambda goes to zero over that so
+[06:11] this is some more general form of a
+[06:14] differential
+[06:16] quotient that defines the lead
+[06:19] derivative okay but in order to do the
+[06:22] interpretation here we first need to say
+[06:24] what this flow
+[06:27] HK is really about
+[06:30] so in order to understand that we look
+[06:33] what it does so we look at this
+[06:36] map which takes some value R the Lambda
+[06:40] down here and some point and Maps this
+[06:45] in the manifold again so it gets the
+[06:47] Tuple Lambda p and this is mapped to h k
+[06:53] of this tupal so just pluged in and
+[06:56] normally because this looks a little bit
+[06:58] silly we write H up K down Lambda so
+[07:03] this parameter Lambda jumps here of p
+[07:07] and this one is just gamma P of
+[07:13] Lambda but now you have to ask what is
+[07:16] Lambda what is gamma and I need to tell
+[07:18] you
+[07:20] that and that is the tangent Vector to
+[07:24] the curve gamma at the point p
+[07:29] has to
+[07:31] be the killing Vector
+[07:33] field at the point P that is the vector
+[07:37] at this
+[07:38] point if we have this
+[07:41] condition then we call
+[07:44] HK the flow of the vector field
+[07:49] K okay so we maybe draw some
+[07:54] picture and and to use again the
+[07:57] terminology introduced these
+[07:59] gamma here are the integral curves
+[08:03] through the vector field and if we do
+[08:05] that for all of the points then we call
+[08:09] the parameter um subgroup of um integral
+[08:15] curves this we call the flow so this
+[08:18] here would be the h
+[08:23] k Lambda and the Lambda varies in this
+[08:27] direction and the point P do we plug in
+[08:31] here sets somehow the starting point and
+[08:34] if you plug in Q and Q is down here then
+[08:36] we arrive at this integral curve so this
+[08:39] would then be gamma Q of Lambda this up
+[08:42] here would be gamma P of Lambda that's
+[08:45] the idea of the flow and as we know we
+[08:49] can use such maps to pull back tensorial
+[08:54] objects for example the metric so we
+[08:57] look at the metric here for example and
+[09:01] look at the metric here but in order to
+[09:03] compare them we pull them back here and
+[09:07] we look at the difference of these two
+[09:10] and the meaning of the Le the The
+[09:13] Killing condition here is that they
+[09:17] don't differ so the metric here and here
+[09:20] is the same and that's how it is
+[09:22] mathematically
+[09:25] encoded
+[09:27] okay next question show that a vector
+[09:30] field K is killing if and only if NAA a
+[09:34] k down B plus NAA b k down a equals
+[09:40] zero and this one is called
+[09:44] killings
+[09:47] equation okay so you may have seen this
+[09:50] before but now we want to do the
+[09:52] derivation of this
+[09:55] result okay so the only thing that we
+[09:58] know is that that K is a killing Vector
+[10:01] field so the only thing that we can
+[10:03] write down is l k on G we look at this
+[10:08] in
+[10:09] coordinates equals
+[10:13] zero and now we try to write some equal
+[10:17] signs in order to arrive at some
+[10:19] expression that looks like
+[10:21] that okay so the lead derivative on a 02
+[10:26] tensor consists of three components so k
+[10:31] c d by
+[10:33] dxc acting on
+[10:36] gab now we have the indices down
+[10:39] therefore
+[10:42] A+
+[10:44] and now we introduce the summation index
+[10:48] down here and the derivative d by
+[10:52] DX um a acts on K C so the sum is here
+[10:59] now we do the same for the other index
+[11:01] so this is
+[11:03] G um oh sorry here's some thing going
+[11:07] wrong this should be a
+[11:08] b just replace the a by the C and shift
+[11:12] the a over here that's the rule and now
+[11:15] we leave the A and put the C here and
+[11:19] then we get Dy DX B because the B from
+[11:23] here moves there and this acts on not on
+[11:26] X but on K
+[11:30] and the index that needs to be summed
+[11:33] over is C so
+[11:37] that's basically it so the lead
+[11:39] derivative in
+[11:43] components okay so the next thing to do
+[11:46] is we somehow need to produce gamma
+[11:51] symbols why because here is the
+[11:54] covariant derivative and um if we write
+[11:57] this in coordinates completely we get
+[12:00] some
+[12:01] gamas and therefore we probably need to
+[12:04] recall the definition of the gamas and I
+[12:07] put this up here so some gamma AB b
+[12:11] c was defined as 12 g a
+[12:18] d and in here we have the metric g b d
+[12:23] comma c i again used the short notation
+[12:26] here uh g a a d comma
+[12:31] B plus oh that's not right the a can't
+[12:36] be down
+[12:37] here so what is it we have b c and now
+[12:41] we have C D comma V that's good and here
+[12:46] is no plus but a minus G and now we have
+[12:51] b c comma d That's the definition of the
+[12:55] gamas sorry for
+[12:58] the small space here but you should know
+[13:01] that by
+[13:02] heart okay so we see that here for
+[13:07] example this would be g a comma C that
+[13:11] looks similar to this
+[13:13] one and we should try to produce these
+[13:17] two terms here so what we could do have
+[13:21] a closer look at this one and pull the
+[13:25] metric in
+[13:27] here this produces
+[13:29] some mistake that we make and this needs
+[13:32] to be
+[13:33] compensated so this looks like g a b
+[13:37] comma C plus and now I make the mistake
+[13:43] by writing d by dxa on
+[13:47] GCB KC so here I would have to evaluate
+[13:54] this by the product rule but here only
+[13:57] one of the two
+[13:59] summons appears that means we need to
+[14:02] subtract the other one and the other one
+[14:05] is just the K C untouched and here we
+[14:09] have G CB comma a so this here is the
+[14:15] same as this expression just
+[14:19] inverse application of the product
+[14:22] rule here we do the same that means we
+[14:25] have d by
+[14:27] dxb on g a c k
+[14:32] c and to compensate this mistake that we
+[14:35] make we write K C and here it is g a c
+[14:40] comma
+[14:42] B
+[14:47] okay and now we do a little
+[14:51] reordering and write this a little bit
+[14:54] shorter so G CB k c is nothing but K
+[15:01] down
+[15:04] B so this would be k b comma a because
+[15:09] we derive by a same holds for this term
+[15:14] that means we have a plus K and now it
+[15:18] is down a comma B and this looks quite
+[15:24] good but we need to make the partial
+[15:27] derivative here into a variant
+[15:29] derivative but fortunately we have the
+[15:31] gamas that we first need to find but I
+[15:35] assure you that they are there so we
+[15:38] write this as the KC that appears here
+[15:42] and here and here pulls out so we can
+[15:45] put this in front and what's left is g a
+[15:49] b comma C minus G CB comma a minus g a c
+[15:58] comma B
+[16:03] okay and now
+[16:06] we need to have a closer look at this
+[16:09] one
+[16:12] so
+[16:14] mhm we just keep these two and do this
+[16:17] step by step plus so K up C can also be
+[16:22] written as K down let's say d we have no
+[16:28] D in in there but G
+[16:32] DC okay so these together just would
+[16:35] pull the index up and in here we
+[16:38] have what I want to do is put the minus
+[16:41] here so this one goes out and therefore
+[16:44] we have G CB comma a plus g a c comma B
+[16:49] these two but with the opposite sign and
+[16:52] here it
+[16:54] is um this is g a b comma C
+[17:00] okay that's
+[17:02] it and now we know that the metric is
+[17:07] symmetric in these
+[17:09] indices and what that means is we just
+[17:14] have twice the gamma here so this is KD
+[17:19] and now we have
+[17:22] twice the
+[17:25] gamma because if you remember here was
+[17:27] some Factor 1 12 and here we put the
+[17:33] two and that is now let me see the C is
+[17:39] summed over so what we have here is a d
+[17:44] up and Su a b
+[17:48] down so we sum over the D and ab remains
+[17:53] and the index
+[17:54] structure
+[17:56] fits and now we can do
+[17:59] some reordering so we know that this is
+[18:01] symmetric in these indices so we can
+[18:03] distribute the two gamas onto these two
+[18:07] here we missed some comma I'm
+[18:09] sorry uh and that means we have
+[18:13] k a comma B minus and now it is gamma d
+[18:21] a k
+[18:23] d
+[18:24] plus k b comma a this one minus the
+[18:30] other GMA that's KD ba
+[18:35] KD okay but this can be short written as
+[18:40] NAA a acting on K the be
+[18:44] component plus this plus here
+[18:48] NAA uh what is it b k the eighth
+[18:54] component okay and if you compare
+[18:59] up here that's the
+[19:01] same so we arrived at the right result
+[19:05] and since we just started from l k on G
+[19:09] which is zero we derived the killings
+[19:14] equation okay that's it for this
+[19:16] exercise we continue with exercise
+[19:20] three in exercise three we want to
+[19:24] estimate the age of the universe by some
+[19:27] specific met
+[19:29] model
+[19:31] and we start by first
+[19:35] deriving the conservation equation that
+[19:38] we need in order to manipulate the
+[19:41] fredman equations such that we can get
+[19:44] the desired
+[19:46] result so the exercise is the energy
+[19:49] momentum tensor for a perfect fluid is
+[19:52] given by this expression that you might
+[19:53] know from the lectures or somewhere else
+[19:56] and this UA is some
+[19:59] Tim
+[20:00] like vector or the components of some
+[20:03] time like
+[20:07] vector
+[20:09] okay we want to choose these
+[20:12] coordinates
+[20:14] and the condition that we use
+[20:18] is basically the energy conservation or
+[20:21] the energy momentum conservation that um
+[20:26] followed from the differential identity
+[20:29] that we showed last time that is or the
+[20:32] twice contracted differential Bank
+[20:34] identity that is that we have nabla a on
+[20:40] G A be
+[20:43] component this is
+[20:45] zero and if this holds and the Einstein
+[20:48] equations hold then this holds without
+[20:52] the u u here but adding the U will
+[20:55] change
+[20:57] nothing but this will just make it a
+[20:59] little easier for us to derive
+[21:02] this okay so we start by evaluating this
+[21:08] condition so nabla a on T A be component
+[21:12] times
+[21:15] U but this is just NAA a t
+[21:23] a0o maybe some minus in here but this
+[21:27] doesn't interest us because because the
+[21:28] other side is zero and this would cancel
+[21:32] so that's the expression where we start
+[21:35] and we just write this so NAA a t
+[21:41] a0 is okay so we have t a0 comma
+[21:48] a now indices are up therefore plus now
+[21:52] we have gamma here's some T and for the
+[21:55] other index as well gamma and the T now
+[21:58] we need to distribute the indices so we
+[22:01] derive by a therefore the a goes in both
+[22:05] cases
+[22:07] here here goes some dummy summation
+[22:12] index and here we put the a up here and
+[22:17] then the N goes there and then we are
+[22:20] missing something that is the zero here
+[22:23] that stays untouched and here it's the
+[22:26] other way around the zero goes here
+[22:29] and the a stays and the N goes there
+[22:33] that should be
+[22:35] right
+[22:37] okay
+[22:38] so in order to calculate this we need
+[22:43] the
+[22:43] gamas and I will give them to you so
+[22:46] this is gamma A N A is equal to gamma
+[22:54] alpha n Alpha where the A's run over 0 1
+[23:00] two and three and the alphas just one
+[23:03] two
+[23:03] three this holds as we showed in the
+[23:06] lecture and this gamma symbol is given
+[23:10] by a DOT over a and here's some
+[23:15] Delta alpha alpha but we know what that
+[23:18] is we contract here and this yields the
+[23:22] dimension in this case for the spatial
+[23:26] um indices A3 so we know what this guy
+[23:34] is is that
+[23:36] right ah okay I was too fast here I
+[23:40] wanted to put some zero here so this is
+[23:44] now correct and we'll see in a minute
+[23:46] why we need
+[23:47] that maybe you do this now okay so we
+[23:51] know that
+[23:52] the zero component if we have um the row
+[23:56] zero the column zero
+[23:58] then this has to be a zero too because
+[24:01] otherwise there are no contributing
+[24:04] entries in the energy momentum tensor
+[24:06] therefore this is row Dot and by dot we
+[24:11] denote the derivative so this one has to
+[24:14] become a zero and of course this one as
+[24:16] well so we derive the first component
+[24:20] that is just row because to P here
+[24:23] cancels and then derived by T we denote
+[24:28] this as
+[24:28] row dot now comes
+[24:32] A+ and now we argue here the same way
+[24:37] this has to be a zero therefore this has
+[24:40] to be a zero and now we can use the
+[24:43] gamma that I wrote down here maybe a
+[24:45] little bit fast but nevertheless that's
+[24:48] true so what we have here is 3 * a DOT
+[24:54] over a we use this and t0 0 is again
+[24:59] just
+[25:00] row okay now it gets a little more
+[25:04] complicated but nevertheless we will do
+[25:10] that and we write this as gamma
+[25:16] Z and now we put Greek indices
+[25:20] here Alpha Beta over which we sum this
+[25:25] is symmetric therefore the um order
+[25:27] doesn't matter better and we know that
+[25:30] in the gamma there's some zero anywhere
+[25:33] then only the spatial part contributes
+[25:37] that means we can rewrite this as just a
+[25:40] summation over the Greek indices which
+[25:43] are the spatial ones and now we can have
+[25:45] a look at this
+[25:48] guy and this was given in the lecture as
+[25:50] well and this is a * a DOT time gamma
+[25:55] Alpha
+[25:56] Beta where gamma Alpha Beta down was
+[26:04] G Alpha
+[26:07] Beta uh what do I want to say so G Alpha
+[26:10] Beta was a s * gamma Alpha Beta so this
+[26:15] was just the spatial part and in the
+[26:18] whole metric we want to multiply that by
+[26:20] the factor a
+[26:22] s
+[26:25] good so we know what
+[26:31] uh this one here is so this is + a * a
+[26:36] DOT and we have some gamma Alpha Beta
+[26:40] here and now we have to look at the
+[26:43] spatial part of the energy momentum
+[26:46] tensor that is just P * gab but G
+[26:53] upab and just the spatial part so Alpha
+[26:56] Beta is 1/ a s gamma Alpha
+[27:02] Beta okay so here goes some 1 / a sar
+[27:06] gamma Alpha
+[27:08] Beta and here's the
+[27:11] sum and again this whole contraction
+[27:14] here produces the dimension that is
+[27:16] again some three so we have row Dot and
+[27:20] now we evaluate this two cancels against
+[27:23] this one so we have a do over a the same
+[27:26] as here this one pulls out these two
+[27:30] yield the dimension therefore this is 3
+[27:33] a DOT over a row plus P I forgot the
+[27:39] P this P where is it this P I
+[27:43] forgot so that's it and this should be
+[27:47] zero and if you have a look this is the
+[27:51] desired
+[27:54] result okay
+[27:58] so to summarize we exploited the
+[28:03] condition that the coent derivative of
+[28:06] the energy momentum tensor in one of
+[28:08] these directions yields zero which
+[28:12] follows from the twice contracted
+[28:15] differential by Yanke identity that we
+[28:18] derived last time and then you have to
+[28:20] play around with the indices here and
+[28:23] look at the nonvanishing components here
+[28:26] and then if you do this care hope y you
+[28:28] arrive at the right result as I hope yes
+[28:32] so that's good and I suppress the of T
+[28:35] over here because that is not that
+[28:38] important
+[28:39] here okay so in the next
+[28:43] question for p equals Omega * row that
+[28:47] means we have a perfect fluid uh we
+[28:50] should solve this
+[28:53] equation uh we should solve this
+[28:55] equation above for row and then use the
+[28:59] fredman equations um with Vanishing
+[29:02] spatial curvature that means here is no
+[29:05] contributing term to derive an anous
+[29:09] differential equation for the a so we
+[29:11] want basically to eliminate this row and
+[29:14] replace by something with with a or a
+[29:18] DOT or
+[29:19] whatever okay so the first step as it is
+[29:23] given in the question we should have a
+[29:25] closer look at this expression and we
+[29:29] better write this in the given form so
+[29:32] this is -3 a DOT over a row +
+[29:38] P
+[29:40] um yes that's right and this is of
+[29:43] course the same as row dot equal
+[29:47] -3 a DOT over a and now we know the
+[29:51] equation of State here that means we can
+[29:54] pull out the row and here it is 1 plus
+[30:00] Omega good now we divide by row that
+[30:04] means row dot over Row = 3 * a do/ A+
+[30:13] Omega and this is the same as d by
+[30:18] DT the natural logarithm of row and here
+[30:23] the same thing d by
+[30:26] DT logarithm of
+[30:28] a * 1 +
+[30:32] Omega now we continue up here so we
+[30:36] integrate this once so we get log row =
+[30:41] -3 log
+[30:44] Ln a * 1 +
+[30:49] Omega now we take
+[30:52] this some X of that so we get row
+[30:56] equals uh we know what happens with
+[30:59] factors in front of the logarithm they
+[31:02] just go up here that means what we have
+[31:05] is a to the what is that - 3 * 1 + Omega
+[31:14] and we suppress the constant or we could
+[31:16] introduce it as well so here plus C and
+[31:20] then this is some C TI in front of
+[31:26] here that's right so that's the
+[31:29] expression for the row and we should
+[31:32] plug this in to that equation so star
+[31:37] into
+[31:39] 1 so we get a DOT over a s = 8 piun G /
+[31:46] 3 * this constant * a to
+[31:52] the- 3 * 1 + Omega and that's our result
+[31:57] because we wanted some
+[31:59] aous autonomous sorry uh differential
+[32:02] equation for the A's so here we just
+[32:04] have A's in there the rest are constants
+[32:07] so that's the
+[32:11] result now in the next question the
+[32:14] differential equation should be
+[32:16] solved and I write it down again so this
+[32:19] was a DOT over a squared and that was
+[32:23] equal to 8 Pi g/ 3 times our constant C
+[32:31] Tilda that we may suppress as well but
+[32:35] doesn't matter and here we have a to - 3
+[32:40] * 1 + Omega that was the differential
+[32:43] equation and the unz here is given so we
+[32:47] just plug this in here and what I will
+[32:50] do is just collect all the constants
+[32:53] that appear here and pull them into some
+[32:57] new constant
+[32:59] D um and what we have here is a DOT that
+[33:04] means derivative with respect to the
+[33:07] time so here we have
+[33:10] t Alpha minus 1 the alpha here again
+[33:15] went into the D down here we have t to
+[33:19] the alpha that is squared and here all
+[33:23] these factors went in there as well so
+[33:26] what we have is a nope not a but
+[33:31] t t to the- 3 * Alpha * 1 +
+[33:39] Omega okay now we do some
+[33:43] reordering that means we have D
+[33:48] equals here the alpha somehow cancels
+[33:52] and we get T Theus 2 and put this to the
+[33:56] other side and that
+[33:58] means we get some plus two
+[34:02] here okay and since here some invisible
+[34:07] t to the 0o in order for this equation
+[34:10] to hold we need to say that - 3 Alpha *
+[34:16] 1 + Omega + 2 = 0 otherwise this equal
+[34:22] sign cannot
+[34:23] hold and from that we can read off the
+[34:26] alpha we bring this to the other side
+[34:29] divide by 3 and by this so this is 2
+[34:32] over 3 * 1 +
+[34:39] Omega
+[34:41] okay and what I forgot to mention is
+[34:44] that we just consider omegas not equal
+[34:48] to minus one because then this would
+[34:50] vanish and then this would not be a
+[34:53] solution of that one so we found the
+[34:56] alpha and therefore can write down the a
+[35:00] of T which is then the constant c
+[35:05] times um T to
+[35:08] 2/ 3 *
+[35:11] 1 +
+[35:13] Omega
+[35:14] and by the way we want this C to be
+[35:19] greater than zero we will need this
+[35:21] later um and this makes sense because
+[35:23] the St scale factor should not decrease
+[35:28] in our model
+[35:29] here okay we continue with the next
+[35:32] question where we actually arrive at the
+[35:34] age of the
+[35:35] Universe um and the question is the
+[35:37] following so we should use this result
+[35:40] of the previous question to write down
+[35:42] an equation for H of T which is the
+[35:44] Hubble
+[35:46] function defined by a do over a and then
+[35:50] estimate the age of the universe uh only
+[35:53] filled with dust for today's value of
+[35:55] the Hub constant given by by that uh and
+[35:59] afterwards we should do the same thing
+[36:01] not for dust but for
+[36:02] radiation so we do this first in general
+[36:06] uh look at this function so h of T was
+[36:11] defined by a DOT over
+[36:13] a and if you look at our
+[36:18] a this is just
+[36:23] some well I write it down so this is the
+[36:27] C cancels of course and we get t to the
+[36:32] 2 3 * 1 + Omega minus one because we
+[36:37] derive one time and then we have this
+[36:40] thing
+[36:41] times well this one comes
+[36:44] down 2 * 1 + Omega divided by just t to
+[36:51] the 2 over 3 * 1 +
+[36:55] Omega okay now we cancel everything that
+[36:58] can be cancelled here is one plus so
+[37:02] this one goes against this one so what's
+[37:05] left is 2
+[37:07] over 3 * 1 + Omega
+[37:10] * 1 / T that's all that's
+[37:15] left okay and now we look at
+[37:21] first the dust model that means Omega
+[37:25] equals z equ equalent to zero
+[37:30] pressure so that means we have h0
+[37:34] equals now we plug that in
+[37:37] here so that yields 2 over 3
+[37:43] t0 now we can solve that one for
+[37:47] t0 uh which is 2 over 3
+[37:53] h0 and now plug in the given Hubble
+[37:58] constant for today or last week or
+[38:01] something like that so we used that and
+[38:04] the result would be 2/3 *
+[38:09] 13 * 10 the 9
+[38:14] years well that estimates the age of the
+[38:19] universe as some value if we assume that
+[38:24] everything is just filled with dust
+[38:28] the same goes for
+[38:31] radiation so we have omega equals 1
+[38:36] over3 and then we can just write out
+[38:39] what this is so Omega equal 1 over 3
+[38:43] that means we get some one2 here and we
+[38:47] have this one and now this gets
+[38:52] 6.5 10 9
+[38:56] years so you you see for
+[38:58] different models that we impose we get
+[39:03] different results for the age of the
+[39:04] universe for for some estimate of that
+[39:08] of course this whole thing is much more
+[39:10] complicated but I think it's quite nice
+[39:13] to have such an easy model and get such
+[39:17] good
+[39:20] results okay so that's it so far and the
+[39:23] last question is not about the age of
+[39:26] the universe but whether the expansion
+[39:29] is accelerating or not and this will
+[39:34] again depend on the
+[39:36] Omega and in order to talk about the
+[39:39] expans of the um the rate of the
+[39:42] expansion we need to look at a double
+[39:46] dot which is
+[39:48] then 2 over 3 * 1 + Omega that was the
+[39:54] factor from the first derivative and now
+[39:57] we get another factor which
+[39:59] is this one minus
+[40:02] one and in the exponent we have t to the
+[40:07] what is that 2 over 3 * 1 + Omega - 2
+[40:14] now so that can easily be derived I
+[40:17] missed the factor C and here you see why
+[40:20] I wanted this to be greater than zero
+[40:23] because otherwise I would have trouble
+[40:25] to uh say what whether this complete
+[40:29] Factor here in front is greater or
+[40:32] smaller than zero cuz that's the um
+[40:36] statement on acceleration or
+[40:39] deceleration okay in so we want to maybe
+[40:44] made in total so this is greater than
+[40:46] zero this is of course also greater than
+[40:49] zero because T is greater than zero
+[40:52] and therefore we look at roots of this
+[40:56] Factor and this can only be zero if 2
+[41:00] over 3 * 1 + Omega =
+[41:07] 1 it should be
+[41:11] right let's continue and then we will
+[41:14] check if this is right but I think so so
+[41:16] that means we have multiply that over
+[41:19] here
+[41:21] so 1 + Omega is equal to 23
+[41:27] this over here the three stays that's
+[41:30] good and this means Omega = -
+[41:36] 1/3 so this is the point where we have
+[41:41] zero
+[41:42] acceleration of the expansion and now we
+[41:46] can say that if Omega is larger than 1
+[41:49] over3 and if Omega is larger than minus
+[41:53] 1 over3 sorry um we can make statements
+[41:57] about the a dot
+[42:00] dot so that means larger than minus 1/3
+[42:04] we could for instance plug in zero if we
+[42:09] plug in zero here what do we get we get
+[42:12] 2 over 3 * 2 over 3 -
+[42:17] 1 that means this one gets negative this
+[42:21] is positive therefore here the
+[42:23] acceleration
+[42:25] is not acceleration so the expansion is
+[42:29] decelerating and here we have it the
+[42:31] other way
+[42:33] around so you see for different meta
+[42:36] models we get different statements on
+[42:40] the expansion of the universe namely
+[42:43] whether it's accelerating or
+[42:47] decelerating and as you see we have
+[42:50] measured that the expansion is
+[42:53] accelerating that's one of the results
+[42:55] of present measure Ms and that means the
+[42:59] Omega in this simple model um must be
+[43:04] negative but we cannot associate normal
+[43:07] mattera to that so this would maybe be
+[43:10] some indic indicator for dark matter or
+[43:15] dark
+[43:17] energy but of course only in this very
+[43:22] very simple model that we
+[43:24] choose okay so this completes
+[43:27] this tutorial see you next time thanks

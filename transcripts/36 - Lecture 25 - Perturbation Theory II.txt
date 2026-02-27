@@ -1,0 +1,1467 @@
+[00:00] This program is being presented to you by the Haraeus International Winter School on Gravity and Light.
+[00:12] Okay, good. So we saw that it may be laboriously calculated.
+[00:30] It may be laboriously calculated.
+[00:38] Delta GAB may be just the result of, well, maybe just vanish.
+[00:59] It may just vanish if one changes chart.
+[01:15] Okay. Of course, only a small chart transformation could be hidden in our small delta GAB.
+[01:45] Okay. So the idea is I calculate delta GAB and I say, is this maybe purely, is this removable if I change chart?
+[01:54] Well, because the delta GAB is small by construction. I only consider small ones.
+[02:00] The chart transformation that I would need to remove it would only need to be a small chart transformation.
+[02:07] Okay. So you can, yeah, okay, that's this.
+[02:12] Because this is the case, it's a fact that a small but otherwise arbitrary, that's important,
+[02:30] but otherwise arbitrary transformation of coordinates is given by a choice of a vector field.
+[02:56] XI, whose components in the original chart, whose component functions, XIMX with respect to the original chart are small.
+[03:23] So the picture to this idea is this.
+[03:31] If I, at every point, provide a little pointer that says how this point is going, this coordinate point, this point in the chart is going to be moved.
+[03:46] And as long as this is a smooth vector field, you see, you can make this transformation or that transformation or that transformation.
+[03:52] As long as it's small, it corresponds to moving every point in the chart a little bit to get the point in the new chart, very roughly speaking.
+[04:03] Okay. So this corresponds to a vector field.
+[04:07] But if it's a small transformation, what do you mean by small components? Do you measure them with the metric?
+[04:13] No, no, no. Small components with respect to the old system, okay?
+[04:22] Then the change incurred by the metric components under such a small transformation, small but otherwise arbitrary, I emphasize again,
+[04:49] arbitrary transformation, which is parameterized by such a vector field, is, I say, this is now not the Laplace.
+[05:03] I use this as the Laplace, but now I double use the symbol.
+[05:06] Sorry for that.
+[05:07] It's not the Laplace.
+[05:09] It's supposed to mark the change under a small transformation, the small transformation being parameterized by a vector field.
+[05:18] Okay.
+[05:20] So roughly speaking, the change of coordinates would then be something like old coordinate system, new coordinate system, you know how that works.
+[05:30] It would be given by something like this, right?
+[05:39] So the change of metric components, how do these components change if I apply such a transformation?
+[05:49] And the answer is it's the lead derivative of the metric AB out with respect to this vector field expressed in the same chart.
+[06:00] That's what a small transformation does.
+[06:04] It pushes the metric a little bit around, okay?
+[06:09] That's the idea.
+[06:11] The change incurred by the metric components by such a small but otherwise arbitrary transformation is this.
+[06:18] In other words, if the delta GAB one gets, takes this form, so that if there is a xi, such the delta GAB,
+[06:38] is the lead derivative of the original G with respect to that xi, it's pure fake.
+[06:45] Then the delta GAB is pure fake because that is a change I get.
+[06:54] I mean, no doubt it's a change, but it's not the delta, well, it's not the change or perturbation change.
+[07:00] It's a change that comes purely from such a coordinate transformation.
+[07:08] But of course, since we write the old metric plus this perturbation and so far we thought, well, until we started the last chapter of the last lecture,
+[07:28] we thought if we add this, this has meaning, okay?
+[07:32] We have to, if we get additionally from the coordinate, from some coordinate transformations such a contribution,
+[07:40] we don't know whether the contribution comes from such a coordinate transformation or it comes from such a delta GAB, right?
+[07:50] We must study, so any change that comes from a coordinate transformation would be attributed to this change.
+[08:01] We must study how the delta GAB changes if one chooses an arbitrary xi vector field.
+[08:24] But because we attribute any change to this delta GAB, the result is that the delta GAB will change under a small transformation like the lead derivative of the metric.
+[08:47] He said the metric changes like this and now I say the delta G changes like this, so there's no delta here.
+[08:54] Well, because whatever change I get from here, I consider it a change of the delta G, okay?
+[09:05] So we have to consider this thing and we have to study what the changes are under a choice of xi.
+[09:15] And then when we study all of them and we'll turn out there's not a single component of the GAB, if we decompose it in our fields,
+[09:23] not a single component that doesn't incur a change.
+[09:30] But then we see what the changes are and we find combinations where the changes cancel out, that's the idea.
+[09:37] Okay, so that's the plan.
+[09:40] So we need to calculate the form of these unphysical ones in order to find the invariance.
+[09:51] So we start by calculating.
+[09:54] So we go back to our fields little a, b alpha, c, and e alpha beta.
+[10:06] You know before, so always with respect, we calculate for a small change of coordinates, how do these original fields change?
+[10:16] You say, hang on, didn't we decompose this a, b, c, small e further using this Helmholtz decomposition into further fields where we said this is just an arbitrary symmetric trace-free field,
+[10:30] but what about the solenoidal vector part and so on?
+[10:33] It's cleverer to first calculate it here and then go into the further decomposition saves a lot of calculating, okay?
+[10:41] So we will reinstate the further decomposition of those, but at this stage let's calculate these guys first, okay?
+[10:49] That's why we return to them.
+[10:51] It's just smarter to do that.
+[10:54] So in our chart, in our original chart, ux where, for instance, our metric was dx0 tensor dx0, so the unperturbed metric minus gamma alpha beta dx alpha dx beta.
+[11:20] So the chart where the unperturbed metric takes this form, we decompose this Xi field.
+[11:31] We choose an arbitrary Xi field on spacetime.
+[11:35] It can be here like this and there like this because that corresponds to an arbitrary small transformation.
+[11:42] But because we're working in a chart and we're now working with chart-related quantities, we also decompose this Xi into its x0 component and into its x alpha components.
+[11:54] And the x0 component of the field Xi, this arbitrary field, we call t and the alpha components we call l alpha.
+[12:04] That's tradition.
+[12:06] And again, the t and the l alpha, they both depend, I use this physicist's notation, they both depend on all the coordinates, right?
+[12:16] Nevertheless, this l alpha only has a spatial index.
+[12:23] It's like we decompose all the time.
+[12:25] Now also our arbitrary, we need to check this for arbitrary Xi into such components in order to start mixing here.
+[12:36] And we calculate the change of delta G AB incurred under an arbitrary small transformation, chart transformation,
+[13:04] which we now parameterized by fields t and l alpha.
+[13:12] If you can choose the t field and the l alpha field all over the spacetime, as you wish, you can parameterize every small quarter transformation.
+[13:24] So what we need to look at, we need to calculate delta Xi, well the Xi can now be thought of as a t l alpha, if you wish, of the delta G.
+[13:37] But because that is the same as the change of the metric under this, is this literative Xi G AB.
+[13:48] So we need to calculate this.
+[13:50] What is this?
+[13:52] And we would like to substitute for the Xi, we substitute, we decompose it into these two guys.
+[14:00] And of course here we decompose into the zero and the alpha components, as we always did.
+[14:07] So we start doing that.
+[14:12] Now let's write this down.
+[14:18] Delta G AB component.
+[14:22] So it's useful to do this once, it's a good exercise.
+[14:25] Is l Xi G AB equals Xi M G AB comma M.
+[14:34] I use this comma notation instead of the symbol D by DXM.
+[14:38] Whenever I write the comma, we're only working in one chart X, I mean the symbol.
+[14:43] The literative gets a plus Xi M comma A GMB plus Xi M B GM.
+[14:54] That's the literative, right?
+[14:57] Okay, now we decompose in our chart coordinates.
+[15:04] So we set the M to zero, setting the zero component of the Xi, however we call it T, I get G AB comma zero.
+[15:14] Plus, but I didn't take the mu components, but the mu component of the Xi I called l mu, it's just tradition.
+[15:21] So you've got to cope with it.
+[15:23] G AB comma mu, that was the first term.
+[15:26] Now comes the second term plus the zero component is T comma A G zero B plus l mu comma A GMB.
+[15:45] This term, final term plus T comma B G zero M plus l mu comma B GMU GMU.
+[16:03] Okay, so I decomposed so far, but now you see that the Greek indices run from one to three and the Latin ones from zero to three as always.
+[16:13] Okay, but now I get to the AB component.
+[16:16] Unfortunately, there's no better way than to now look at the several different combinations separately.
+[16:25] So now this is the general formula.
+[16:28] And now I look at the zero zero component, the zero beta component and the alpha beta component.
+[16:33] Sorry, it's that complicated.
+[16:35] Okay, or that boring.
+[16:37] Nevertheless, we do it.
+[16:38] So now A and B are zero.
+[16:41] So what do I get?
+[16:42] I get T G zero zero comma zero.
+[16:46] But our answer was that it's had here a one that gives no contribution.
+[16:50] Here we get G zero zero comma mu, no contribution.
+[16:54] G zero zero T zero that exists.
+[16:59] That's T dot T comma zero and G zero zero is one.
+[17:04] So we get just a T zero.
+[17:06] Here we get L mu comma zero G mu zero.
+[17:12] There exists no G mu zero G.
+[17:16] Okay, here's something wrong.
+[17:19] There must be an.
+[17:22] No, there must be a P.
+[17:27] A zero.
+[17:28] You see from here there's a P this A and the mu was the zero.
+[17:32] Right.
+[17:33] So now G zero zero exists.
+[17:36] This is a T dot again.
+[17:38] So there's another T dot.
+[17:40] It's two D dot from here.
+[17:42] And the final one is L mu comma zero G zero mu is not there.
+[17:47] So the point is this guy here is two T dot done.
+[17:53] Now black side delta G zero beta.
+[17:58] Let's go through this.
+[18:00] G zero beta doesn't exist.
+[18:02] This out G zero beta commu is out T comma zero G zero beta is out.
+[18:13] L mu comma zero G mu beta is in.
+[18:19] So it's L mu comma zero.
+[18:21] This is L mu dot comma zero.
+[18:28] And then you have the G mu beta.
+[18:31] But the G mu beta is the minus gamma mu beta.
+[18:36] You agree?
+[18:38] That's this guy here.
+[18:40] Where were we here?
+[18:41] Right.
+[18:42] Then comes plus T.
+[18:45] What do we have?
+[18:47] G comma beta G zero zeros again there.
+[18:53] So this is plus T comma beta G zero zero is one.
+[19:00] And this is again G zero mu is out.
+[19:03] So this is this guy.
+[19:05] But because the gamma didn't depend on time.
+[19:07] You remember we had a static space time.
+[19:10] I can take the point out.
+[19:14] And this is gamma alpha beta dot equals zero because of statisticity.
+[19:24] Remember I assume that this is a static metric in these coordinates.
+[19:29] These are the x zero static coordinates.
+[19:31] So this guy here depends only on x one, x two, x three.
+[19:36] Otherwise you incur an extra term.
+[19:38] We can take the point out.
+[19:40] But then we have minus L downstairs beta derived plus T comma beta.
+[19:50] It's a scalar.
+[19:52] But I can of course write the partial derivative as a covariant derivative on the scalar.
+[19:57] So it looks more uniform.
+[19:59] Okay.
+[20:01] Almost true.
+[20:03] Now delta psi delta G alpha beta component equals.
+[20:10] All right.
+[20:11] T G alpha beta comma zero is the gamma alpha beta zero with a minus sign.
+[20:15] But it's static falls out.
+[20:17] G alpha beta comma mu this guy is there.
+[20:21] So we get L mu G alpha beta is however minus gamma alpha beta comma mu.
+[20:30] But the gamma may be spatially dependent.
+[20:32] Maybe polar coordinates or not.
+[20:34] As is this guy.
+[20:36] Now we have G zero beta that falls out.
+[20:39] This guy is in again.
+[20:40] This is G mu beta.
+[20:43] So this is plus L mu comma alpha.
+[20:48] G mu beta is minus gamma mu beta.
+[20:55] Okay.
+[20:56] This guy plus G alpha zero goes out and this is G alpha mu is in.
+[21:03] This is plus L mu comma beta G alpha mu however is minus gamma alpha mu.
+[21:15] Okay.
+[21:16] So we have these guys and now we need to work a little.
+[21:22] There is a vector field which is partially derived.
+[21:25] That looks terrible, right?
+[21:27] Because that's not a three tensor again.
+[21:30] So what we need to do, we need to massage this expression a little.
+[21:35] So let's do that.
+[21:36] We massage this expression by I have the derivative of L mu with respect to alpha and then comes the gamma mu beta.
+[21:45] Well, I will just include the gamma mu beta in this derivative.
+[21:49] But of course by that I make a mistake because by the product rule this will go here.
+[21:54] And that will remain.
+[21:55] That was what we had before.
+[21:57] But I have an extra term minus L mu this derived and I must compensate for this.
+[22:03] I must add this term again.
+[22:05] Plus L mu gamma mu beta comma alpha.
+[22:09] I must add the term again because here I subtracted it.
+[22:13] Okay.
+[22:14] And here's the same game.
+[22:16] The gamma is not derived but I like to derive it as well.
+[22:22] So I pull this out.
+[22:23] But then by the product rule the first term recovers what I had.
+[22:28] But then I get an extra term minus L mu gamma A mu beta.
+[22:32] But that's too much.
+[22:33] I need to add it again so it's gone.
+[22:35] Plus L mu gamma alpha mu comma beta.
+[22:40] Right?
+[22:41] Standard trick.
+[22:43] Aha.
+[22:44] So you say why did I do this?
+[22:46] Why did I make it more complicated?
+[22:47] Well, this whole thing now reads.
+[22:49] I start here.
+[22:51] No, let's start here.
+[22:53] Minus L mu gamma alpha beta comma mu minus L down beta comma alpha minus L down alpha comma beta plus L mu gamma mu beta comma alpha
+[23:15] plus L mu gamma alpha mu comma beta.
+[23:21] And if you now look at this very sharply you see this is minus two times L alpha comma beta symmetrized
+[23:34] because this one with this one symmetrized.
+[23:37] I need a factor of two because the symmetrization carries away at one half.
+[23:42] I pulled the minus out.
+[23:44] So what I get here is minus L mu times.
+[23:52] So I factor out the L mu.
+[23:54] So I have a big bracket.
+[23:55] I factor out the L mu of the remaining terms.
+[23:58] And it gives you a term gamma.
+[24:04] Hang on.
+[24:05] I factor it out.
+[24:06] I have a minus minus is a plus.
+[24:08] So I get these two guys.
+[24:09] I get L gamma mu beta comma alpha plus gamma alpha mu comma beta minus gamma alpha beta comma mu.
+[24:25] And looking at this very sharply you see this is, aha, but I factor out the two from this symmetrization.
+[24:33] But these guys didn't have a two.
+[24:35] So there is a one half in front.
+[24:37] And if you look at this half and you look at this sharply, you see this is minus two D alpha L beta covariant derivative where the D is the Levy-Chivita covariant derivative of the gamma.
+[24:54] Because that's exactly the combination of the gammas for, of the capital gammas for the small gammas.
+[25:02] Right?
+[25:03] So this is simply this expression.
+[25:11] So, and these are very important.
+[25:14] These I want to look at, but I will still rewrite them.
+[25:23] Now this is the change of the zero component of the delta.
+[25:28] That means I have a change under this psi of my A scalar.
+[25:37] No, of the little a scalar roughly, strictly speaking, the little a scalar which is two D t dot that I read off from here.
+[25:49] From this one, I read off that was this beta thing.
+[25:54] The change of the perturbation field beta alpha equals this guy equals, but the beta had in front the minus sign.
+[26:05] This has a minus sign.
+[26:07] So in total this is L beta dot minus D beta t.
+[26:16] And for the last one, we have to work a little because the change in this component that was distributed in a change of the minus two C gamma alpha beta minus two, the change in the E alpha beta.
+[26:46] That equals what we calculated.
+[26:51] That equals minus two D alpha L beta.
+[26:56] So I'm just comparing sides, but if I now want to isolate what this changes and what this changes, I take this equation.
+[27:03] So these are already done, right?
+[27:05] I mean, these I will need.
+[27:07] And please don't wipe them out.
+[27:11] But on this one, we're still working.
+[27:13] I'm going to read this one off.
+[27:15] And now on both sides, I contract with gamma alpha beta that gives me on the left-hand side.
+[27:21] Well, first of all, I can delete the minus twos.
+[27:24] Now I contract with gamma alpha beta that yields here delta psi of the C field.
+[27:30] Gamma alpha beta with gamma alpha beta gives the dimension, but the dimension is of course three because it's a spatial metric, plus delta psi E alpha beta gamma alpha beta.
+[27:42] But this one was trace free.
+[27:44] So this term goes out.
+[27:46] And the result is gamma alpha beta D alpha L beta.
+[27:50] And I no longer need to write the symmetrization brackets because this is that.
+[27:55] And that is of course nothing but D alpha L alpha.
+[28:01] I can simply write it like this.
+[28:03] So I get as the next equation, I get delta, when I write it down here, I get delta C.
+[28:11] How does the C field change?
+[28:13] It changes as one-third D alpha L alpha.
+[28:18] And now I reinsert this up here.
+[28:21] I have the one-third D alpha L alpha plus this guy is this.
+[28:26] That means that the delta psi of the E alpha beta changes like D alpha L beta symmetrized minus this to the other side,
+[28:37] minus a third D alpha L alpha gamma, well now I should write mu, mu to have no index conflict, gamma alpha beta.
+[28:46] Fantastic, there they are.
+[28:48] Are you assuming that the gamma alpha beta isn't changing from point to point?
+[28:55] The gamma alpha is changing from point to point, but not from time to time.
+[28:59] Inside delta.
+[29:01] Oh, I didn't.
+[29:02] Ah, I see.
+[29:03] No, but this is the covariant derivative with respect to this.
+[29:07] It's compatible with respect to this.
+[29:09] So the Levi-Civitta connection has the property that this is true and that it's torsion vanishes.
+[29:15] Yes, but I think about the left side.
+[29:20] Okay, what do you, I thought you were talking, what do you mean the left, here?
+[29:25] What did I do?
+[29:26] You put the gamma alpha beta in somehow inside the.
+[29:29] No, no.
+[29:30] I, it was multiplied here and I contracted with it.
+[29:33] There was only one point where I pulled it in in order to pull this index up, but I can pull it in because this is the call, the compatible derivative to this one.
+[29:41] So I can pull it in, that's perfectly fine.
+[29:44] I think you mean the thing where you use the E alpha beta tracement, yes.
+[29:50] Yes.
+[29:52] You put the gamma alpha beta into the delta side acting on E alpha beta.
+[30:00] Yes, yes, yes.
+[30:01] I know what you mean, but the point is, if you read this off, the point is.
+[30:13] Yes, but these are changes under coordinate.
+[30:16] You can pull that in.
+[30:17] You can pull it in.
+[30:18] Think about, it depends on when you, I mean you calculate this thing and then you compare to what's on the other side and you define this guy in such a way that it has been exchanged.
+[30:32] If you write this down, you see this.
+[30:35] Okay, this is fine, this is fine.
+[30:39] So this here in the middle was just my read-off equation.
+[30:44] What is really important, and again, please don't wipe it out, are these guys.
+[30:51] And let's look at them for just a second.
+[30:55] The A field, the B field, the C field and the E field change under an arbitrary coordinate transformation in terms of derivatives only of the T and the L, which are the components of the side field.
+[31:12] Okay, this is what they do.
+[31:14] But you see, each of these fields changes because I can choose the T and the L arbitrary, so I in general will not have that these are gauge invariant.
+[31:24] Simply not.
+[31:25] And looking at them, it's also not clear how to make this gauge invariant or to find gauge invariant combinations.
+[31:32] Now, the next step is the following.
+[31:35] We now consider one after the other different perturbations.
+[31:40] Let me check whether I calculated right.
+[31:43] Yes, you see here already, the two is wrong because I have to compare that the A had the two also.
+[31:49] The two in the A and the two here cancels, so that's two goes.
+[31:53] And the rest is minus sign, I got right.
+[31:56] And the minus sign here, I got right.
+[31:58] And that's also fine.
+[32:00] Okay, so that's fine.
+[32:02] Pardon me?
+[32:10] I don't hear.
+[32:12] Yeah, yeah, yeah, yeah, okay.
+[32:21] Thank you.
+[32:27] Thank you, cheers.
+[32:29] Okay, so what we now do, we now start with scalar perturbations and we check what happens there.
+[32:38] Second, yes.
+[32:41] Let's see how the small is included in all this calculation.
+[32:46] Where is the invariant, maybe, a kind of start?
+[32:50] The start is such as del by psi, del by two.
+[32:53] The psi has small components in the chart in which we're working, meaning the T and L1, L2, L3, they're all small real numbers.
+[33:10] One needs to think very carefully what one says.
+[33:12] If I say take a small vector field, you might think, okay, take a vector field which measured with a metric is small.
+[33:18] It's not what we're saying here.
+[33:20] I say take a vector field which whose components in the chart we're working in are small.
+[33:27] And you can think that that corresponds, that that parameterizes an arbitrary small, infinitesimally small transformation from that chart,
+[33:36] hence the relation, to another neighboring chart.
+[33:41] It can be very confusing if you don't know exactly what you want here.
+[33:45] Very important, yes.
+[33:46] With respect to what is this smaller?
+[33:49] One.
+[33:53] And what I mean by this is I could give them all a little delta in front,
+[33:58] and giving them a little delta in front is of course just an emphasis,
+[34:02] but I could think it's delta times, and I make delta so small,
+[34:06] that I'm prepared to throw away delta squared terms.
+[34:10] Constants we include.
+[34:13] Constants we include.
+[34:16] What constants?
+[34:17] G?
+[34:18] No, no, no, no, they have nothing to do with this.
+[34:20] No, no, no, no, no, no, no.
+[34:23] Yes.
+[34:24] Is the smallness of the parameter somewhere in here?
+[34:28] No, it's in your head.
+[34:30] So this is true for all sizes, but we are going to discard quadratic terms and higher,
+[34:39] so they need to be small.
+[34:41] But there is a reason why they are small,
+[34:44] because a little delta G can only contain the fake components of a little transformation,
+[34:52] because of a big transformation the delta G's would explode.
+[34:56] Okay.
+[34:57] So, yes, please.
+[35:00] Please let me take up this question again.
+[35:02] You have been trained to never say when it's small.
+[35:05] Yes.
+[35:06] You always have to say a small compared to certain physical quantities in our problem.
+[35:16] Yes, yes.
+[35:18] It's not like this here, because you take, you could write a delta, instead of T, I should write delta T,
+[35:33] but that would actually mean delta times T,
+[35:38] and at the end of the calculation, I take the limit delta goes to zero.
+[35:44] That's the idea.
+[35:45] So perturbation theory means, say, in the energy momentum tensor,
+[35:49] I also wrote this and I say there are small components in that chart.
+[35:53] What do I mean by this?
+[35:54] Well, I mean, for instance, I introduce a density, a matter density,
+[36:01] but how do I say it's small?
+[36:03] Well, I tell you, give me any matter density,
+[36:07] but I will cheekily multiply it by a delta, whatever matter density you give me,
+[36:14] that's your physical bit.
+[36:17] It's nicer to calculate with arbitrary row,
+[36:21] but then to introduce a control parameter, which I regulate down,
+[36:27] because you say, I give you a row and actually every physical row is too big.
+[36:34] So I say, in order to get a certain desired accuracy,
+[36:42] I need to scale down the delta sufficiently in order to,
+[36:47] in the end result, get the desired accuracy.
+[36:51] And I will take the freedom to pull this delta down close to zero,
+[36:55] as much as close to zero as I wish, sufficiently such that what comes out
+[37:01] satisfies my criteria for how precise I want to be.
+[37:05] So I introduce this here at this point.
+[37:07] So you're right, it's about physical quantities that I have here,
+[37:10] but it's nicer to not constrain them because that can be very tricky,
+[37:14] what that means, I rather multiply them here.
+[37:18] And everything I drop where I say, okay,
+[37:20] but it's only to such precision as you are prepared to go down here,
+[37:24] I say yes, and that's perturbation theory.
+[37:26] Perturbation theory is not exact, but you introduce these control parameters.
+[37:30] One can do this, it doesn't necessarily make the calculations more transparent.
+[37:34] But if one is in doubt, like you are, you are,
+[37:38] you should maybe reinstate this and then in the end make a delta sufficiently small.
+[37:43] That's the clean way to do this.
+[37:47] Of course, the physicist's way of speaking, let's drop terms quadratic and higher.
+[37:52] For instance, if you have a tensor, what are the terms quadratic and higher?
+[37:57] Well, whatever tensor you take, it's the terms quadratic and delta and higher
+[38:02] because this thing sucks everything to zero behind it if you let it go to zero.
+[38:08] So that's the technical aspect and that's of course right.
+[38:13] Okay, so let's look at scalar perturbations.
+[38:19] So you know that was where the fields,
+[38:23] before we Helmholtz-Hoch decomposed them, right?
+[38:27] And it's nice to have discalculated ones because we never again need to evaluate leader derivatives.
+[38:32] Nice, it's like this.
+[38:34] So now we look at scalar perturbations and you know we can look at them separately from all the others.
+[38:41] So how do scalar perturbations work?
+[38:43] Scalar perturbation means I take the field A and I set it to the field A, that's trivial.
+[38:48] There's nothing happening, it's just my notation here.
+[38:51] I take the field B alpha, but if it's a scalar perturbation, it's generated from a scalar field B.
+[39:00] You know the scalar perturbations, they come from an A, a B, a C and an E.
+[39:07] They only come from scalar fields.
+[39:10] So if I now want to produce such a B field here, it can only come from this form, right?
+[39:15] That's what we did before.
+[39:18] Then the C, well it's just the C itself.
+[39:21] And then we have the E alpha beta coming from a scalar we found by this decomposition theorem,
+[39:28] that this can only take the form D alpha D beta minus gamma alpha beta with a third Laplace operator.
+[39:38] So here it's now not the delta psi, here again it's the del mu D mu D mu.
+[39:45] We had before, right? It's the Laplace operator acting on the E.
+[39:50] This is how I get this.
+[39:52] So I have only A, B, C, E in there, but I generate these fields.
+[39:57] So that's how a scalar perturbation looks like.
+[40:00] Now we now wish to check, please don't wipe.
+[40:05] We now wish to check how these scalar perturbation quantities,
+[40:11] how these quantities change if you only do scalar perturbations.
+[40:18] Well one can show that if you do scalar perturbations,
+[40:24] you also, for your gauge transformations that you want to check,
+[40:29] actually you want to check under any gauge transformation,
+[40:32] but it turns out, and I don't want to go through the motions, I'll say this in a second,
+[40:37] in order to get the T and the L alpha that you generate the L alpha,
+[40:44] also only from an L which you newly invent from a scalar field.
+[40:51] At this point you say, hang on.
+[40:53] We discussed that the scalar perturbations go separately from the vector and the tensor perturbations.
+[40:59] But I must check you say, and you rightly say,
+[41:02] under arbitrary changes of coordinates, what happens to these quantities,
+[41:07] and not only under a restricted change of coordinate changes, right?
+[41:12] I mean if I choose the L alpha as the D alpha of an L,
+[41:16] that's more special than a general L alpha,
+[41:19] because these are only curl-free fields, right?
+[41:24] It turns out that if you do not make this assumption,
+[41:28] you write down what I now write down,
+[41:30] and you make a number of calculations in all directions,
+[41:34] you see that in total it is implied that you did that in the beginning, okay?
+[41:40] I don't want to go through this.
+[41:42] This is a lot of calculation on the side.
+[41:44] So you, at this point, for reasons of time, please trust me
+[41:48] that I don't need to make this assumption,
+[41:51] but then I go through the same motions
+[41:53] and I can derive that it was like that all along, okay?
+[41:57] Trust me, and you can do these calculations.
+[42:01] So if you do that, you now check what follows.
+[42:05] We check how does the A change this A.
+[42:10] How does it change under a transformation?
+[42:13] Well, we go and look.
+[42:15] The A, which is now very uncomfortable, is a t dot.
+[42:19] It changes like the A is the small A.
+[42:22] It changes like t dot, done.
+[42:26] Nothing more to do.
+[42:28] How does the B change?
+[42:32] Well, the B is the change of the, um, of the del alpha B.
+[42:41] So here's this for the same reason you can exchange.
+[42:46] Hang on a second.
+[42:50] What you get from over there, I'm sorry,
+[42:52] what you get from over there is how the B alpha changes.
+[42:55] Let's write this down.
+[42:57] So the B alpha changes like L dot alpha minus del alpha t.
+[43:06] Like L dot alpha minus del alpha d alpha t.
+[43:13] That is what it does.
+[43:15] Um, now I already use what I told you you should trust me with.
+[43:21] Namely that the L can effectively be considered to be generated from here.
+[43:25] Again, I don't have to assume this,
+[43:27] but then the whole thing becomes a little voluminous.
+[43:29] And it always works as this is what you do in practice.
+[43:32] So bear with me here.
+[43:34] So you get here the del alpha of the L,
+[43:38] and I cheekily already exchanged the dot and this guy.
+[43:42] But because this is of a static metric, you can do that.
+[43:46] Okay, so you have to think why you can pull the dots from outside to the L
+[43:52] and only then do the spatial derivative.
+[43:54] Okay, but that is because of our assumptions of the gamma.
+[43:58] And this is then minus t and I can bracket this out.
+[44:03] But here on this side, the B alpha takes this form and I can also exchange this
+[44:09] and I have the del alpha, um, change of the B field.
+[44:16] And from that I read off that the B field changes like L dot minus t.
+[44:32] So I got these two.
+[44:33] Now the delta C field is again very simple because the small c is the big C
+[44:38] and the delta C is a third times the divergence.
+[44:44] A third times the divergence.
+[44:48] Right, that's this one.
+[44:51] And then the final one is delta psi e alpha beta.
+[44:57] How does that change?
+[45:02] Aha, it's this symmetries derivative of the L minus a third times the divergence.
+[45:12] It's a symmetries derivative of the L minus a third time the divergence times
+[45:20] gamma alpha beta because the indices need to be carried, right?
+[45:25] Equals.
+[45:26] Now we again use what I said here.
+[45:30] And you can rewrite this as del alpha del beta.
+[45:35] You need to put the brackets because the covariant derivative, you know,
+[45:38] that doesn't necessarily commute acting on L minus a third.
+[45:47] And here you get the d mu gamma mu nu d mu d nu L gamma alpha beta.
+[46:05] And then we have to see how the epsilon is given.
+[46:09] It's given by that guy here.
+[46:11] And this guy here, I can also write as the Laplace.
+[46:14] Maybe they then see this more clearly.
+[46:17] That's the Laplace.
+[46:18] And the other side is the same operator, del alpha del beta.
+[46:24] I should have symmetrized here.
+[46:27] Although here it doesn't matter anyway.
+[46:29] It's fine.
+[46:30] It was right, but it's better to write it.
+[46:32] One third gamma alpha beta and then comes the Laplace operator.
+[46:37] So that only acts up to here.
+[46:39] Okay.
+[46:40] And that acted on the E.
+[46:44] And then you can pull the delta xi E here.
+[46:48] That's the Laplace.
+[46:49] That's the delta xi.
+[46:50] And from this you learn that the E field changes like L.
+[47:03] Yes.
+[47:14] Well, it's the same reason as before.
+[47:16] Because this here is the change you incur under a coordinate change.
+[47:22] And this one is a derivative in a coordinate system.
+[47:26] And because this is all tensorial, you can exchange the two exactly
+[47:31] because this transforms like in each of the coordinate systems
+[47:36] like a tensor.
+[47:37] Think of this as a difference.
+[47:42] Okay.
+[47:43] So you have this one, this one, and this one.
+[47:45] You have these here.
+[47:47] And you see, even if we specialize to scalar perturbations,
+[47:52] and even if you buy that this extra assumption was one
+[47:55] that makes this calculation quick,
+[47:57] but we could have done it and then derived this assumption,
+[48:00] asserted it and obtained the same calculation.
+[48:02] Okay.
+[48:03] You trust me on this one.
+[48:04] Nevertheless, still, neither of the four scalars,
+[48:08] neither the A nor the B nor the C nor the E,
+[48:11] are unaffected because these are the changes of those
+[48:15] under a T and an L vector field choice.
+[48:20] Note only derivatives of the T and the L,
+[48:23] which parameterized this C vector field, appear.
+[48:26] Something is funny down here.
+[48:29] What is it?
+[48:30] E.
+[48:32] E?
+[48:34] No.
+[48:35] No, no, no, no.
+[48:37] Can this be the L?
+[48:43] No, it's the L.
+[48:51] Oh, one second.
+[48:52] I also make another.
+[48:53] This is also true, but because the L has this form in terms
+[48:57] of the L function, this is the Laplacian.
+[49:00] No, this is right.
+[49:02] This is right.
+[49:03] Okay, so you have these changes here.
+[49:06] None of them separately is a good quantity,
+[49:10] is a quantity that you wouldn't change
+[49:13] if you change coordinates.
+[49:15] However, observe.
+[49:18] I originally wrote del mu L mu, which was correct,
+[49:24] but I know that from here the L mu is D mu L,
+[49:30] and that's the Laplacian of L.
+[49:41] So I just simplified that way.
+[49:43] So now you observe that the combination,
+[49:47] psi that I wrote down before,
+[49:50] defined as A plus B dot minus E double dot.
+[49:57] Is that the right one?
+[49:58] We'll see in a second.
+[49:59] Yes.
+[50:00] Observe that this is gauge invariant,
+[50:02] because how does this one change?
+[50:04] Well, the psi changes as the delta A psi
+[50:10] plus the delta B psi can take the dot out again,
+[50:15] minus the delta C E can take the double dot out.
+[50:19] But what is this?
+[50:20] The delta A is the T dot plus the B is here,
+[50:26] the L dot minus T, but it's dotted,
+[50:31] minus this here is the L and it's double dotted.
+[50:35] Chuck, chuck, chuck, chuck equals zero.
+[50:39] This is a gauge invariant quantity.
+[50:43] So although neither A nor B nor C nor E are gauge invariant,
+[50:48] this funny combination is.
+[50:52] This is physical.
+[50:53] This is a perturbed quantity,
+[50:56] and this one has meaning beyond choice of coordinates.
+[51:00] Very nice.
+[51:01] And the second one is the phi,
+[51:04] and that is, I mean, of course you stare long enough at it,
+[51:07] you see it is C minus a third Laplace E.
+[51:12] Also this is gauge invariant.
+[51:15] The change under psi is the change of the C under psi
+[51:20] minus one half times the change here.
+[51:26] And so the change of C is one third delta L,
+[51:33] so Laplace L minus one half Laplace
+[51:38] of the change of E is L is zero.
+[51:41] So also that is gauge invariant.
+[51:46] Did I say one third?
+[51:51] Yeah, that looks much better with one third.
+[51:53] Yeah, because there is the one third,
+[51:55] the one third, because then here I get the one third
+[51:59] and then it remains, yeah, of course, yeah.
+[52:02] Very good.
+[52:03] Okay, so that means of all the stuff I calculated
+[52:06] in scalar perturbation theory,
+[52:09] of all the perturbed scalar fields,
+[52:12] only this combination is invariant.
+[52:14] Do you now also see why I cannot just say
+[52:16] I just switch on the A scalar but not the B scalar?
+[52:19] I can do this, but I wouldn't get gauge invariant quantities.
+[52:23] So this means you're totally gauge free.
+[52:27] You can choose any coordinate system.
+[52:29] It works.
+[52:31] Now, however, so this is in the end result
+[52:36] of scalar perturbations.
+[52:39] For convenience only.
+[52:45] So don't think there's anything in that.
+[52:47] For convenience only and precisely
+[52:51] because the psi and phi do not change
+[53:11] if one changes coordinates infinitesimally.
+[53:19] Of course, if you make a huge coordinate transformation,
+[53:21] but that's not the idea here in perturbation theory,
+[53:23] if one changes coordinates infinitesimally,
+[53:25] we are free to make any choice for T l alpha.
+[53:38] We wish.
+[53:41] Didn't I say all the time say we want to get rid of this choice?
+[53:44] Depends, yes, but we already found out
+[53:46] which quantities do not depend on the choice.
+[53:49] Once I have them, I can start making choices
+[53:52] and the number psi and the number phi will stay the same, right?
+[53:59] This is called a gauge fixing.
+[54:02] This is called, again, this jargon, gauge fixing.
+[54:07] Gauge fixing means fixing a particular thing here,
+[54:12] but you always only must look at gauge invariant quantities.
+[54:17] Here what we do, I would like to choose the T to be B minus E dot.
+[54:31] So you must see I have a B and an E field
+[54:34] and I now fix the transformation I want to make like this
+[54:39] and the alpha I fix to be the, no, the L, I fix to be minus E.
+[54:48] Why does this not affect anything?
+[54:51] Well, if I look at only these quantities,
+[54:53] the quantities will stay the same, yes.
+[54:55] Why do we have to add the same thing?
+[55:00] Yes, we did.
+[55:01] I always said small coordinate transformations.
+[55:03] So a general coordinate transformation is not captured
+[55:07] by just giving a small vector field.
+[55:10] A small vector field gives a small coordinate transformation.
+[55:14] So the whole philosophy here depends on small coordinate transformations.
+[55:18] Hang on, why small?
+[55:19] Well, we only wanted to understand what in the small delta G
+[55:22] can be fake by coordinate transformations.
+[55:25] Well, the small delta G fake contributions
+[55:28] can only come from small coordinate transformations
+[55:31] because otherwise they would be so big they wouldn't fit into the delta G.
+[55:36] Where in the calculation have we used the components of the L alpha?
+[55:41] No, there we didn't use it.
+[55:42] We only used it at the point where we said
+[55:44] the coordinate transformation is captured by the lead derivative
+[55:47] with respect to an arbitrary vector field psi.
+[55:50] I mean, you know that the coordinate transformation of a, okay.
+[55:55] Let's do it with the eta.
+[55:57] If you do this, I claimed this is the change in eta
+[56:01] if you make a small coordinate transformation like this.
+[56:04] Well, if you calculate this in components AB,
+[56:07] you find it's psi m eta AB comma m,
+[56:10] but that goes out because it's the eta.
+[56:12] It's just an example, okay.
+[56:14] Now the eta is down, so it's a plus.
+[56:17] Now you have psi m comma A eta MB plus psi m comma B eta AM.
+[56:25] Now the eta is constant, so you can pull it in.
+[56:28] So this is psi B comma A plus psi A comma B, okay.
+[56:36] And you can check that that is the same that comes out.
+[56:40] If you do a coordinate transformation,
+[56:42] the XM coordinates of a point are the YM coordinates,
+[56:48] or you say it's the XM after Y inverse of some alphas.
+[56:55] If you say that's the Mth component in here,
+[56:59] plus the psi M field at every point,
+[57:04] a small shift in the chart.
+[57:07] And if you from here calculate the chart transition maps,
+[57:10] DX by DY, MA DX N by DYB.
+[57:17] So this is the small change.
+[57:19] On eta MN, you see that up to linear order in the psi.
+[57:25] Now come your small psi.
+[57:27] The derivatives gives you a delta plus,
+[57:31] so then you have this guy is a delta MA plus D psi M by DYA.
+[57:40] Okay, stuff like this.
+[57:42] If you plug this in here and this is small,
+[57:44] you see that this is eta AB plus,
+[57:48] and then comes exactly this term up here,
+[57:51] psi A comma B plus psi B comma A.
+[57:54] So indeed, this is the change in the eta
+[57:57] that has been affected by this small vector field.
+[58:01] And here you have plus higher orders in the components
+[58:05] of the psi squared, then you drop.
+[58:07] So in a sense that you say that the change in the eta
+[58:11] under psi is this.
+[58:15] At this point, you use that the psi components
+[58:19] in the original frame are all small compared to one.
+[58:23] That's the full explanation.
+[58:25] Yes.
+[58:26] Is it somehow trigger to see that the psi and phi
+[58:28] are the only independent gauge independent functions
+[58:31] you can build out of the 4-HB?
+[58:33] Yes, because you have to construct linear combinations,
+[58:37] because the AB and E and C are all small,
+[58:42] so you cannot make products because you would neglect them
+[58:46] according to the rules.
+[58:48] Or if you have a little delta in front,
+[58:50] you would neglect the delta squared,
+[58:52] and then you see linear combinations.
+[58:54] You can only make finitely many,
+[58:57] and then you very quickly see these are the only possibilities.
+[59:00] This is by finite exhaustion.
+[59:06] OK.
+[59:07] Good.
+[59:08] So I was here, so this was just a little excursion.
+[59:15] It was an excursion.
+[59:17] So we make this choice.
+[59:19] What does the choice yield?
+[59:21] Well, the choice yields, you know that the delta E,
+[59:26] you know that the delta E is exactly L.
+[59:32] And if I choose L to be minus E,
+[59:35] that results in assuming that the E is 0 throughout.
+[59:42] And if you look at this guy here, the T,
+[59:46] and then you find similarly that this implies
+[59:52] that the A, I think, no, the E,
+[59:57] the delta E is minus E,
+[1:00:00] and the B goes to 0, yes.
+[1:00:02] So here you know the delta B.
+[1:00:04] What does it do?
+[1:00:05] The delta B, what did we say, is L dot minus T.
+[1:00:11] And if you go in with what you had before,
+[1:00:14] you essentially also set the B to 0.
+[1:00:17] So you can say you choose the gauge where E and B are 0.
+[1:00:21] But why can you choose that gauge?
+[1:00:23] Well, because you can explicitly give
+[1:00:25] the gauge transformations that take you there.
+[1:00:28] And once you've done that, so this is called
+[1:00:32] the so-called longitudinal gauge.
+[1:00:36] It's a very special choice.
+[1:00:38] And again, it's only for convenience.
+[1:00:40] You don't need to do this.
+[1:00:41] But if you do it, you find that the psi and the phi
+[1:00:47] take a very simple form.
+[1:00:49] The psi is only the A, and the phi is only the C.
+[1:00:56] If you fix the gauge, then you can think
+[1:01:00] you don't need to remember these complicated combinations.
+[1:01:04] You can simply take the A and the C.
+[1:01:06] It's only because you fix the gauge.
+[1:01:08] So if you make these fixings, then the value of psi,
+[1:01:14] what it was all along, is all of a sudden given by A.
+[1:01:17] But it's the same value you had before.
+[1:01:20] If you're confused by this extra bit of choosing the gauge
+[1:01:25] for convenience, ignore it for a time being
+[1:01:28] for a while and think of this.
+[1:01:30] And then finally, you find why this is useful.
+[1:01:34] But this is not logically important.
+[1:01:36] It's only to simplify expressions.
+[1:01:40] So that's this.
+[1:01:42] And then, of course, now finally, we can write down
+[1:01:45] what we actually want, namely the left-hand side
+[1:01:48] of the Einstein equations.
+[1:01:51] Finally, for scalar perturbations,
+[1:02:05] choosing the longitudinal gauge,
+[1:02:10] because then simply the expressions I'm now going to write down
+[1:02:14] are greatly simplified, choosing the longitudinal gauge
+[1:02:18] where the E and the B field are both 0.
+[1:02:21] Well, they're set to 0, but I'd rather say I found the transformations
+[1:02:27] to make them 0.
+[1:02:30] The left-hand side of the perturbation equation,
+[1:02:40] which was delta GAB equals delta TAB, you remember,
+[1:02:47] I can finally give the components of this guy in this gauge
+[1:02:52] and the delta G00 component is simply 2 Laplace C.
+[1:02:58] The delta G0 alpha component is 2 del alpha C dot
+[1:03:06] and the del G alpha beta component is 2 C double dot
+[1:03:13] minus 2 thirds Laplacian A plus C close bracket gamma AB
+[1:03:21] plus the alpha, the beta symmetrized minus a third gamma
+[1:03:28] alpha beta times the Laplacian acting on A plus B.
+[1:03:38] That's it.
+[1:03:40] The left-hand side of the Einstein equations
+[1:03:43] for scalar perturbations in the longitudinal gauge.
+[1:03:47] If you don't choose the longitudinal gauge, the expressions are bigger.
+[1:03:51] Well, not interesting.
+[1:03:53] So you have this on the left-hand side.
+[1:03:59] And with this you can now calculate.
+[1:04:02] You can substitute the right-hand side of your problem,
+[1:04:04] the little perturbation, and you solve for the C and the A and the B.
+[1:04:10] No, some of the B I don't need, right?
+[1:04:13] The B is 0, A.
+[1:04:22] I solve for the A and the C.
+[1:04:24] And you know that in this gauge, the A and the C
+[1:04:28] are these two gauge invariant quantities.
+[1:04:31] In this gauge, they give the value of the physical,
+[1:04:34] of the quantities that have physical meaning.
+[1:04:37] Fantastic. Fantastic.
+[1:04:40] So in a sense, you don't calculate the A and the C.
+[1:04:42] In a sense, you calculate the psi and the phi.
+[1:04:45] So maybe it's cleverer to write here phi in the longitudinal gauge
+[1:04:53] because it simply is that.
+[1:04:59] One second.
+[1:05:03] So now in the longitudinal gauge, you get this,
+[1:05:05] and you know these are gauge invariant quantities.
+[1:05:07] You solve for them and you're done.
+[1:05:10] That's the quick way.
+[1:05:18] Now that I put the phi and psi, it must be true in the other gauge too.
+[1:05:22] That's the point.
+[1:05:25] OK? Yes?
+[1:05:28] I think in the sheet, the last point is A plus C.
+[1:05:35] A plus C?
+[1:05:37] OK.
+[1:05:41] Thank you.
+[1:05:43] Yes.
+[1:05:44] OK.
+[1:05:46] These equations to have the solutions to these equations,
+[1:05:49] if you substitute the delta T alpha beta,
+[1:05:52] they have physical meaning.
+[1:05:54] And remember, we started with four scalar fields,
+[1:05:57] but only two of them, in a certain combination,
+[1:06:00] have physical meaning.
+[1:06:02] And that's what you do.
+[1:06:04] OK.
+[1:06:05] So now you do precisely the same stuff for vector perturbations
+[1:06:09] and tensor perturbations, and I write it down for you.
+[1:06:12] I will not derive it again, but it works exactly along the same lines.
+[1:06:16] OK?
+[1:06:17] And you will be able to do this.
+[1:06:19] We need a blackboard service.
+[1:06:23] All gone.
+[1:06:24] OK.
+[1:06:25] Please.
+[1:06:32] Yes?
+[1:06:33] Could you give a physical interpretation of the psi and the phi?
+[1:06:36] I'll give an example in the end.
+[1:06:39] I will actually look at the rotating spherical shell.
+[1:06:47] OK?
+[1:06:48] You'll see how it works.
+[1:06:49] I'll give a demonstration of how that works.
+[1:06:54] I write down the vector perturbations,
+[1:06:58] because we need them for the rotating shell,
+[1:07:00] and I write down the tensor perturbation result,
+[1:07:03] because you need that for gravitational waves.
+[1:07:24] So I just make a few enlightening comments
+[1:07:27] so that it's not too boring to copy this.
+[1:07:31] So now we do vector perturbations.
+[1:07:39] So if you find this tiring, it is tiring,
+[1:07:42] but compared to writing down the full Einstein equations
+[1:07:46] and trying to solve them, it's not tiring at all,
+[1:07:48] because it's a great simplification, what we get, right?
+[1:07:52] So vector perturbations, they come from solenoidal vectors.
+[1:07:57] So you see here, you have a vector b alpha and a vector e alpha
+[1:08:03] and they're solenoidal.
+[1:08:04] You remember what solenoidal is?
+[1:08:08] What's solenoidal?
+[1:08:10] Divergence free.
+[1:08:11] Divergence free, right.
+[1:08:12] It's just the other word for divergence free.
+[1:08:14] So here for vector perturbations,
+[1:08:16] the a is zero and the c is zero,
+[1:08:18] because they can't be produced from vectors.
+[1:08:21] The b alpha is simply a b alpha,
+[1:08:24] but the b alpha is solenoidal.
+[1:08:26] So del alpha b alpha, we know it's zero, okay?
+[1:08:30] And the e alpha beta is given by this expression
+[1:08:35] to del alpha e beta symmetrized,
+[1:08:40] but again, this is trace free,
+[1:08:43] and here the solenoidal,
+[1:08:46] so you know that del alpha e alpha is zero.
+[1:08:51] So this is the set up of vector perturbations.
+[1:08:55] As before, miraculously,
+[1:09:05] the t, which you actually have to check,
+[1:09:10] if you start with this and you don't assume
+[1:09:12] that the t is zero in the vector perturbation setting,
+[1:09:15] you will find it got to be zero.
+[1:09:17] What you actually need for that,
+[1:09:19] if you calculate it, is that delta t at some,
+[1:09:24] Laplace t at some point is zero,
+[1:09:26] because t is small, it's in particular bounded,
+[1:09:29] and it's Louisville's theorem that a harmonic function
+[1:09:32] that's bounded in zero,
+[1:09:35] a harmonic function that's bounded is already constant.
+[1:09:38] But if it's constant, you'll see it only appears
+[1:09:40] in derivatives down there,
+[1:09:42] and then you can set it to zero from the beginning.
+[1:09:44] That's roughly the idea, but again,
+[1:09:46] we don't need to go through that.
+[1:09:48] You have this, and that the alpha is what it is,
+[1:09:51] but that the alpha also is solenoidal.
+[1:09:57] Again, you start without this assumption,
+[1:10:00] without that assumption,
+[1:10:01] but you get it through the vector,
+[1:10:03] you reinsert, and the whole thing works like that.
+[1:10:06] I'm not going to go through this for time reasons,
+[1:10:10] but this is also what you later on do practically.
+[1:10:14] What follows from that, along the lines before,
+[1:10:17] I just write it down, the capital A field,
+[1:10:20] of course, doesn't change,
+[1:10:21] and the capital C field doesn't change,
+[1:10:23] simply because they're zero anywhere,
+[1:10:25] they're set to zero, and that comes from here,
+[1:10:27] but in fact, it comes the other way around.
+[1:10:30] We don't even write that down,
+[1:10:32] they don't appear up there, let's not write this down.
+[1:10:34] What you get is the delta,
+[1:10:36] the change in the B alpha under the psi,
+[1:10:40] this is L alpha dot,
+[1:10:42] and the change of the E alpha under the psi
+[1:10:47] is L beta, L alpha.
+[1:10:50] Those are the changes,
+[1:10:53] and therefore, you have only one gauge
+[1:10:56] in varying quantity, let's call it capital theta,
+[1:10:59] who already had psi and phi,
+[1:11:01] and it's clear how you have to choose this
+[1:11:03] for this to work, it's B alpha,
+[1:11:06] it's B alpha minus E alpha dot.
+[1:11:10] Why? Well, we calculate psi theta alpha
+[1:11:15] is delta psi B alpha minus delta psi E alpha dot,
+[1:11:20] we can pull the dot out for always the same reasons,
+[1:11:24] and this is L dot alpha minus L dot alpha.
+[1:11:28] L dot alpha minus L dot alpha is zero,
+[1:11:32] so this is a gauge in varying quantity,
+[1:11:35] and it's the only gauge in varying quantity,
+[1:11:38] well, it's three gauge in varying quantities,
+[1:11:40] alpha runs from one to three.
+[1:11:42] Before at scalar perturbations,
+[1:11:44] we had two gauge in varying quantities,
+[1:11:46] now we have three gauge in varying quantities
+[1:11:49] because they carry this index.
+[1:11:51] I shouldn't say there's only one,
+[1:11:53] I should say there are three,
+[1:11:55] there are now three gauge in varying quantities.
+[1:12:05] They're all independent.
+[1:12:14] This is the E dot,
+[1:12:16] who knows what happens in that direction?
+[1:12:19] Okay, and again there is,
+[1:12:22] for convenience,
+[1:12:27] one finds a gauge,
+[1:12:32] which is called the vector gauge,
+[1:12:37] fixes the gauge to the vector gauge,
+[1:12:40] and there the E is set to zero,
+[1:12:48] and then of course it follows that the theta alpha
+[1:12:52] is just the B alpha,
+[1:12:55] but this is in the gauge,
+[1:12:58] vector gauge, okay?
+[1:13:10] Now what you get,
+[1:13:11] and that's what actually interests us,
+[1:13:14] finally we obtain the left-hand side
+[1:13:22] of the perturbation equations.
+[1:13:28] So it's the delta G,
+[1:13:30] we get the delta Einstein tensor,
+[1:13:32] the only non-vanishing components,
+[1:13:34] before I only wrote down a few components,
+[1:13:36] all others are vanishing,
+[1:13:37] all unrelated are vanishing,
+[1:13:39] the only non-vanishing components are
+[1:13:41] one half Laplace theta alpha,
+[1:13:49] and G alpha beta is D alpha theta beta symmetrized,
+[1:14:01] and there's only the gauge
+[1:14:03] in varying quantities appearing,
+[1:14:05] and that this is true,
+[1:14:07] you can see quickly in vector gauge,
+[1:14:12] but then you have this, okay?
+[1:14:19] Where's the dot?
+[1:14:31] Well then it's probably true,
+[1:14:33] oh yes, it's a dot,
+[1:14:34] I have a dot here too, yes,
+[1:14:36] sorry, okay, so you calculate this,
+[1:14:40] and that's it, that's it,
+[1:14:42] so now we have the scalars,
+[1:14:43] and the vectors under control,
+[1:14:45] only the tensors are missing,
+[1:14:48] these are very quickly,
+[1:14:50] fourth is tensor perturbations,
+[1:14:52] so these four, I write them down,
+[1:14:54] it's a little boring,
+[1:14:55] but they're exactly what you need
+[1:14:58] to solve problems,
+[1:15:00] so they need to be written somewhere,
+[1:15:02] now they're in your notes,
+[1:15:03] tensor perturbations,
+[1:15:05] and they come from tt tensors,
+[1:15:07] remember, tt tensors,
+[1:15:10] well here tt tensor epsilon alpha beta,
+[1:15:15] there's only one,
+[1:15:16] what was tt?
+[1:15:20] That's right,
+[1:15:21] there are versions free,
+[1:15:23] and trace free with respect to the gamma,
+[1:15:25] absolutely right,
+[1:15:26] and there what you get is
+[1:15:28] a equals zero,
+[1:15:30] the alpha equals zero,
+[1:15:31] c equals zero,
+[1:15:32] the only thing you have non-zero
+[1:15:34] is the e alpha beta,
+[1:15:35] but that's just the e alpha beta,
+[1:15:37] but the e alpha beta
+[1:15:38] is exactly what you just said,
+[1:15:40] it's trace free,
+[1:15:41] and it is divergent free,
+[1:15:45] these guys you have,
+[1:15:47] as before,
+[1:15:49] you have to check for general t and l,
+[1:15:52] but it turns out,
+[1:15:54] from a tt tensor,
+[1:15:58] you can set them both to zero,
+[1:16:00] or four to zero,
+[1:16:01] not from the beginning,
+[1:16:03] but if you start evaluating the changes,
+[1:16:05] you reinsert,
+[1:16:06] you effectively get that,
+[1:16:08] so let's put it right there,
+[1:16:09] in the beginning,
+[1:16:11] and well,
+[1:16:14] and then you find,
+[1:16:15] you calculate delta e alpha beta equals,
+[1:16:19] well there is nothing,
+[1:16:21] it's zero,
+[1:16:23] meaning for the tt tensor perturbations,
+[1:16:27] you don't have a problem,
+[1:16:29] they're always unique,
+[1:16:31] you can't gauge them away,
+[1:16:33] okay,
+[1:16:34] so that means that the invariants
+[1:16:40] are epsilon alpha beta,
+[1:16:43] but they're just the e alpha beta,
+[1:16:45] so this is really just,
+[1:16:47] now to have the same notation,
+[1:16:50] you have how many invariants?
+[1:16:54] Five,
+[1:16:55] five invariants,
+[1:17:00] and it follows that the delta,
+[1:17:06] the only non-vanishing components
+[1:17:10] of the left hand sides
+[1:17:11] are the delta g alpha beta,
+[1:17:14] and it's minus e alpha beta dot dot,
+[1:17:19] if you want,
+[1:17:20] you can write the big e,
+[1:17:22] dot dot plus laplace e alpha beta,
+[1:17:29] and done,
+[1:17:31] and do you recognize this right hand side?
+[1:17:34] Well if you set this to zero,
+[1:17:36] you have the wave equation,
+[1:17:39] so if you have an exact solution
+[1:17:42] of Einstein's theory,
+[1:17:43] so remark,
+[1:17:45] well it's too tempting to not say it here, right,
+[1:17:47] for the other two I make an example,
+[1:17:49] but remark,
+[1:17:51] assume you have an exact solution
+[1:17:55] to the vacuum Einstein equations,
+[1:17:58] e g,
+[1:18:01] the exact solution is g is the flat metric,
+[1:18:04] which we call eta,
+[1:18:06] and in certain coordinates
+[1:18:07] it has to form one minus one minus one minus one,
+[1:18:11] then I can now,
+[1:18:12] without being prompted by some modification
+[1:18:14] of the right hand side,
+[1:18:16] I can nevertheless say,
+[1:18:17] what if I take this exact solution,
+[1:18:20] and I change it a little,
+[1:18:22] what will happen to these changes?
+[1:18:24] Well you could make scalar changes,
+[1:18:26] vector changes, tensor changes,
+[1:18:28] let's say we make tensor changes,
+[1:18:30] because the others we could also calculate,
+[1:18:33] we change it a little,
+[1:18:35] and what will happen?
+[1:18:36] Well what will happen is,
+[1:18:38] well you will need to calculate
+[1:18:40] delta g alpha beta is the delta t,
+[1:18:42] well we didn't change anything,
+[1:18:44] so this is this,
+[1:18:45] but this left hand side is simply
+[1:18:47] minus xi, not xi,
+[1:18:50] minus e alpha beta double dot
+[1:18:53] plus la plus e alpha beta equals zero,
+[1:18:58] so you see it's the wave equation,
+[1:19:00] we have five components here
+[1:19:02] satisfying a wave equation, yes.
+[1:19:04] So you have five different waves
+[1:19:08] with different directions,
+[1:19:10] or is there some...
+[1:19:12] Yes, you have several polarizations,
+[1:19:17] you also need to take into account
+[1:19:19] that it's divergence free, right,
+[1:19:22] and so you can check
+[1:19:24] what these gravitational waves are doing,
+[1:19:26] like this and like that,
+[1:19:27] and there are different modes
+[1:19:28] you can separate from each other,
+[1:19:30] and I guess that Bernhard Schutz
+[1:19:33] will talk about this in great detail,
+[1:19:35] okay, but if he comes with
+[1:19:38] perturbing this somehow,
+[1:19:40] he might call delta eta,
+[1:19:43] or delta g, he might call as a little,
+[1:19:46] write as a little h,
+[1:19:47] maybe as a little epsilon h,
+[1:19:49] there's your little delta,
+[1:19:50] he will call it epsilon maybe,
+[1:19:51] in the coordinate system,
+[1:19:53] and so on and so on,
+[1:19:54] but finally, this is the justification,
+[1:19:57] this is gauge invariant truth, okay,
+[1:20:01] gravitational waves are not a coordinate object,
+[1:20:04] you could think that maybe
+[1:20:06] if you get this without the gauge,
+[1:20:07] understanding the gauge invariant quantities,
+[1:20:09] you could think, oh,
+[1:20:10] you just made a coordinate wave,
+[1:20:12] you just choose the coordinates like this,
+[1:20:14] and then you look at it and you say,
+[1:20:15] oh yeah, well that looks like a wave,
+[1:20:17] but it's just in the coordinates,
+[1:20:19] this shows to you it's not in the coordinates,
+[1:20:21] it's real, it's objective, okay,
+[1:20:24] so that were the tensor perturbations,
+[1:20:27] and so that's the main application here,
+[1:20:30] this says there exist gravitational waves,
+[1:20:41] okay, this you learn directly
+[1:20:43] from perturbations of the vacuum,
+[1:20:45] but of course you could have put
+[1:20:47] here an energy momentum tensor
+[1:20:49] for say a central star,
+[1:20:51] then you get outside,
+[1:20:52] you get the Schwarzschild solution instead of eta,
+[1:20:56] the Schwarzschild solution is static,
+[1:20:58] so it's our type of metric that we assumed,
+[1:21:02] and you can have gravitational waves
+[1:21:04] on a Schwarzschild background traveling,
+[1:21:07] right, so they travel along there,
+[1:21:10] described by the same equation then here,
+[1:21:13] okay, that's the point, that's the point,
+[1:21:16] okay, so we have that,
+[1:21:18] and then finally we do the slowly rotating sphere.
+[1:21:25] Example, so physical example,
+[1:21:27] that was a physical example for tensor perturbations,
+[1:21:30] physical example for scalar and vector perturbations,
+[1:21:41] and it's also an example where you need
+[1:21:43] both of them at the same time,
+[1:21:46] but nevertheless you treat them separately
+[1:21:48] because you may.
+[1:21:50] So how was that with our slowly rotating shell?
+[1:21:54] Well, we start with the idea of no shell,
+[1:21:59] so A, we have no shell,
+[1:22:02] we have again the situation that we have
+[1:22:04] an exact solution of Einstein's equations,
+[1:22:08] namely by putting the eta metric there,
+[1:22:12] okay, and so this is solved by the eta metric,
+[1:22:15] but now B now modify the right-hand side,
+[1:22:22] we write on the right-hand side
+[1:22:24] an energy momentum tensor, TAB,
+[1:22:27] I like to write it with indices up,
+[1:22:29] it's more easily constructed,
+[1:22:30] well it doesn't matter, TAB down.
+[1:22:32] What do I write on the right-hand side
+[1:22:35] for this shell?
+[1:22:38] I write rho times UAUB,
+[1:22:42] where the rho just gives you in spacetime
+[1:22:47] this mass distribution,
+[1:22:49] so if you draw it in spacetime,
+[1:22:51] it's like a cylinder with a solid wall,
+[1:22:55] that's the spacetime picture,
+[1:22:57] and the rho is everywhere here outside
+[1:23:00] on the solid wall, it's non-zero inside,
+[1:23:04] it's zero outside, it's zero, right,
+[1:23:06] spacetime picture of the sphere 2 plus 1 reduced, okay,
+[1:23:11] and so we can also write this down more formally,
+[1:23:14] this rho would be some total mass,
+[1:23:17] this thing has in a spatial section,
+[1:23:19] by 4 pi r squared, it sounds only like the surface,
+[1:23:23] but there is a density, namely this here,
+[1:23:27] if it's a sphere of the radius capital R,
+[1:23:29] so it's fixed, capital R is fixed,
+[1:23:32] it's the radius of the sphere,
+[1:23:33] and this little r is just x squared plus y squared
+[1:23:36] plus z squared square root,
+[1:23:38] if you're in, say, Cartesian coordinates.
+[1:23:41] Now the U up here, the UA,
+[1:23:46] that is the current,
+[1:23:49] and the current, if you're slow,
+[1:23:51] you can take the zero component 1,
+[1:23:54] otherwise you have to make corrections,
+[1:23:56] but if you're slow, and if you run around like this,
+[1:23:59] then minus omega is the angular velocity times y
+[1:24:04] plus omega times x comma zero,
+[1:24:08] where y, x, and z are coordinates in the spatial sections,
+[1:24:13] which I already used here, okay,
+[1:24:16] so you model this and you have this current,
+[1:24:19] and if you then evaluate what that is,
+[1:24:21] it follows delta t zero, zero,
+[1:24:25] is simply this row,
+[1:24:30] delta t zero alpha,
+[1:24:33] in these Cartesian coordinates, if you wish,
+[1:24:36] this is some, well I can write it as a vector
+[1:24:40] because it has one index,
+[1:24:41] as well as a collection of numbers,
+[1:24:44] this has the, this guy,
+[1:24:48] and the U zero always with it,
+[1:24:50] so it is minus row omega y,
+[1:24:54] row omega x comma zero, yes,
+[1:24:58] no, okay, alpha,
+[1:25:01] and the delta t alpha beta,
+[1:25:03] that won't be zero,
+[1:25:05] but it will be of order omega squared,
+[1:25:08] and the assumption,
+[1:25:11] the assumption is that the shell,
+[1:25:14] the spherical shell is,
+[1:25:17] well, it's very,
+[1:25:20] has very little mass,
+[1:25:22] little mass,
+[1:25:23] that means that the m is small,
+[1:25:25] and hence the row is small,
+[1:25:28] and that it rotates slowly,
+[1:25:33] that means that the omega is small,
+[1:25:36] and then you see,
+[1:25:37] then you can neglect this here,
+[1:25:39] and these are linear terms,
+[1:25:41] and you see that this here,
+[1:25:43] the row is a scalar,
+[1:25:45] so you have here a scalar perturbation
+[1:25:48] on the right-hand side,
+[1:25:50] and the t is a vector field
+[1:25:53] that spatially looks like this,
+[1:25:56] and namely everywhere where there is the shell,
+[1:26:02] inside there is no vector field,
+[1:26:05] and outside there's also no,
+[1:26:07] I mean there's no vector field is vanishing, right,
+[1:26:09] it's only where the shell matter is,
+[1:26:12] is there a current, right?
+[1:26:14] Yes?
+[1:26:15] In the delta t is your alpha,
+[1:26:17] it's actually already squared
+[1:26:19] because they have omega in the row,
+[1:26:21] so I suppose you're coming down to second order.
+[1:26:26] Aha.
+[1:26:31] Because the t, a, b would be actually a third order
+[1:26:33] because of the omega squared row.
+[1:26:35] Yes, that's very good.
+[1:26:37] Okay, so what we will do
+[1:26:39] is we will make omega not quite so small,
+[1:26:43] I will make the current small,
+[1:26:46] not the omega.
+[1:26:48] Nevertheless, for a small row,
+[1:26:51] I can, yeah, okay.
+[1:26:53] But you see, even if the row is small,
+[1:26:55] if I let it rotate too fast,
+[1:26:58] compared to the row,
+[1:27:00] then I would leave perturbation theory again.
+[1:27:03] So they both together need to be small,
+[1:27:06] but okay, thank you, thank you very much.
+[1:27:09] A very, very important point,
+[1:27:11] the row omega should be small.
+[1:27:13] Good, so with this set up
+[1:27:15] and with these conditions,
+[1:27:17] we can apply linear perturbation theory.
+[1:27:25] But you see, what I wanted to say,
+[1:27:27] the vector field looks like this.
+[1:27:29] Does this have a contribution
+[1:27:31] of the gradient of a scalar field?
+[1:27:33] No.
+[1:27:34] It's a solenoidal vector field.
+[1:27:37] So I have a solenoidal vector field.
+[1:27:40] If we didn't have a solenoidal vector field,
+[1:27:42] I would have to decompose it into the two parts
+[1:27:45] and use the contributions.
+[1:27:47] Okay, but this way it's very simple.
+[1:27:50] So what we do,
+[1:27:51] we start with the scalar perturbations
+[1:27:54] in longitudinal gauge or wherever.
+[1:27:56] So we get
+[1:28:00] treat scalar perturbation first.
+[1:28:06] And what I need,
+[1:28:07] I need the equations I wrote down for you.
+[1:28:10] I need the scalar perturbations
+[1:28:14] of the Einstein tensor.
+[1:28:17] This was two times Laplace C,
+[1:28:21] but Laplace C we called phi, right?
+[1:28:24] Something like this.
+[1:28:26] It was delta G zero alpha
+[1:28:29] was two d alpha C dot,
+[1:28:33] but that was phi dot,
+[1:28:35] and delta G alpha beta equals,
+[1:28:39] okay, two phi double dot minus two thirds Laplace A plus C,
+[1:28:47] that was psi plus phi,
+[1:28:51] gamma alpha beta,
+[1:28:54] plus, okay,
+[1:28:58] del alpha del beta minus one third gamma alpha beta Laplace
+[1:29:04] acting on phi plus psi.
+[1:29:10] But now we know the other side.
+[1:29:13] We know this is delta T zero zero.
+[1:29:15] This is delta T zero alpha.
+[1:29:17] We know this is delta T alpha beta,
+[1:29:20] but the T alpha beta we set to zero, right?
+[1:29:25] Because in that, to that order perturbation theory,
+[1:29:28] it simply is not there.
+[1:29:31] And I want a second, five, six,
+[1:29:35] okay, it simply is not there.
+[1:29:39] And what you can actually conclude
+[1:29:42] from this last one is directly
+[1:29:45] that phi equals minus psi, okay?
+[1:29:50] That's the first thing.
+[1:29:52] And then we have, can solve here,
+[1:29:55] it further follows from the first one,
+[1:29:58] that two delta psi,
+[1:30:02] psi was C, no?
+[1:30:04] No, two delta phi,
+[1:30:09] phi was the C one.
+[1:30:11] So let me remember this somewhere.
+[1:30:13] So phi was the C one and psi was the A one, okay?
+[1:30:19] You have this one,
+[1:30:21] and then you look at this side
+[1:30:23] and you take, and now reinstate
+[1:30:26] the units from Einstein's equations,
+[1:30:29] and then there's the T zero zero is the row.
+[1:30:33] Yes?
+[1:30:34] A question about this phi equals minus psi,
+[1:30:37] there is a first term, second term,
+[1:30:39] there is nothing of phi.
+[1:30:41] Does it also mean that you don't need C?
+[1:30:43] Aha.
+[1:30:45] Aha.
+[1:30:48] That's a very good question.
+[1:30:50] Hang on a second, what did I do here?
+[1:30:56] Well, the double dot must also vanish, I guess.
+[1:31:01] Yes, because they're all independent,
+[1:31:03] I guess what you get is that the phi double dot also vanishes.
+[1:31:09] Yes, the phi double dot also vanishes.
+[1:31:12] So these two are necessary.
+[1:31:14] Right, thank you.
+[1:31:17] Okay, and then you look at this one
+[1:31:21] because then you know that the phi with one derivative
+[1:31:24] is a constant, and then you have a constant,
+[1:31:29] well, but it's not a constant in time.
+[1:31:35] Yes?
+[1:31:36] Because of stationarity, every dot should be zero.
+[1:31:39] Of stationarity, who's stationary?
+[1:31:42] Well, we have the same situation in the previous time.
+[1:31:48] Yeah, but that should come out, right?
+[1:31:51] That should, in the end, should be a result
+[1:31:53] because you provide this side and you write it's stationary,
+[1:31:58] but on the right hand side, a priori,
+[1:32:01] you have the possibility that these quantities depend on time.
+[1:32:04] So I would rather like this to come out
+[1:32:09] rather than putting it in.
+[1:32:11] I think one should expect that it comes out,
+[1:32:14] but you're right, you can guess the result.
+[1:32:17] I agree with you, but I think that it's important
+[1:32:21] to see whether that needs to be put in or not.
+[1:32:23] Anyway, so you get this equation here
+[1:32:25] and you know what the rho is.
+[1:32:27] This is 4 pi gn.
+[1:32:29] This is this mass divided by 4 pi radius of the sphere,
+[1:32:33] and then there's a delta r minus r.
+[1:32:36] And you know equations of this type.
+[1:32:38] So you take the two away and stuff like this.
+[1:32:42] So you know that this is essentially,
+[1:32:46] this delta phi is something with a delta function, right?
+[1:32:52] And you know this from electrostatics and whatnot.
+[1:32:56] And indeed, you can calculate the solutions.
+[1:33:00] So dot, dot, dot, as always,
+[1:33:04] you know how to solve this equation.
+[1:33:07] And however here, you have to put boundary conditions
+[1:33:11] at infinity to zero.
+[1:33:13] So assuming that you let c go to zero,
+[1:33:17] as r goes to infinity, if you go out in polar coordinates,
+[1:33:22] you get the following result.
+[1:33:24] You get phi of r equals the two regions.
+[1:33:31] You have the region r inside the sphere
+[1:33:34] and you have the region outside the sphere.
+[1:33:37] It's a very thin shell, right?
+[1:33:39] And inside the sphere, it's gm divided by r.
+[1:33:43] But remember r is the constant radius of the sphere,
+[1:33:46] so this is a constant.
+[1:33:50] And outside the sphere, you have gm over little r.
+[1:33:55] And that's of course not constant.
+[1:33:58] And if you now reinstate this into the metric
+[1:34:02] and you check what this affects,
+[1:34:05] you see this is essentially the Newton potential.
+[1:34:09] There's a minus in there because it goes up there.
+[1:34:11] This is the Newton potential.
+[1:34:13] Outside the shell.
+[1:34:15] And inside the shell, it's a constant potential.
+[1:34:20] Okay, nothing changes.
+[1:34:23] So to linear perturbation theory,
+[1:34:26] gr does not predict deviation from the Newtonian result
+[1:34:30] that within the sphere, there is no gravitational field.
+[1:34:36] But the scalar perturbations don't take into account
+[1:34:40] that the sphere is rotating, right?
+[1:34:42] So only for the aspects that come from the non-rotating sphere,
+[1:34:46] only the aspect of there being some mass density
+[1:34:51] to linear perturbation theory, no deviation from Einstein.
+[1:34:56] So intermediate result.
+[1:35:00] Yeah?
+[1:35:02] How can we do pi as prescription potential?
+[1:35:06] How can we what?
+[1:35:08] How can we just interpret pi as prescription potential?
+[1:35:13] Okay, so this appears in the metric.
+[1:35:16] So remember that the metric was one,
+[1:35:21] the full metric with the perturbation.
+[1:35:23] It's 1 plus 2a, but the a there is nothing.
+[1:35:27] dx0, tensor dx0, minus 1 plus 2c.
+[1:35:38] But c is phi.
+[1:35:39] 2 phi times gamma alpha beta.
+[1:35:43] There is nothing extra.
+[1:35:45] dx alpha, dx beta.
+[1:35:47] So to scale up perturbations, what we have here,
+[1:35:51] oh, and we have the psi.
+[1:35:53] I'm sorry.
+[1:35:54] And the psi is the a.
+[1:35:55] Sorry, I did this wrong.
+[1:35:57] This is GAB equals 1 plus 2a is however minus,
+[1:36:04] this is plus 2a is plus 2 psi,
+[1:36:09] but plus 2 psi is minus 2 phi.
+[1:36:12] This is the result, okay?
+[1:36:15] And if you write this out,
+[1:36:18] so this is just the shell being there.
+[1:36:21] You have here 1 minus 2 outside the shell.
+[1:36:24] You have 1 minus 2 mg over r, dx0, tensor dx0,
+[1:36:30] minus 1 plus 2 mg over r, gamma alpha beta, dx alpha, dx beta.
+[1:36:39] And if you look very sharp and you think linearly in m,
+[1:36:44] expand for small m, then you can put a minus sign here
+[1:36:47] and here and inverse.
+[1:36:48] And what do you see?
+[1:36:49] You see the Schwarzschild solution.
+[1:36:51] This is for outside, okay?
+[1:36:54] What we derived is the linearized Schwarzschild solution
+[1:36:57] outside, and inside these guys have just a big r,
+[1:37:04] and nothing really happened.
+[1:37:06] And then you check inside and outside.
+[1:37:09] I should have written also these brackets here.
+[1:37:11] Inside and outside, you check how particles move.
+[1:37:14] What are the geodesics of this?
+[1:37:16] And you see the effect.
+[1:37:17] And the constant here and the constant here
+[1:37:20] will not have any effect.
+[1:37:21] So the point is you don't measure it.
+[1:37:25] Yes?
+[1:37:26] So when you introduced these gauge variables and variables,
+[1:37:31] we only called them observables and we didn't really know.
+[1:37:34] We never called them observables,
+[1:37:36] but you may call them observables.
+[1:37:37] Okay.
+[1:37:38] Okay.
+[1:37:39] No, you have to find a solution first in a concrete situation.
+[1:37:49] Well, yeah, you can.
+[1:37:50] There are the objects that stand here.
+[1:37:52] There is the plus two psi and there's the plus two phi
+[1:37:56] that you already know.
+[1:37:57] So then if you know what this guy,
+[1:37:59] and you can leave them there and say,
+[1:38:01] I don't say what they are in a concrete context
+[1:38:04] and you can calculate geodesics
+[1:38:06] and you can see what effect they have on geodesics.
+[1:38:08] In particular, if they are constant,
+[1:38:10] the effect on geodesics will be nothing.
+[1:38:12] So that means it's constant in here.
+[1:38:15] This is the solution and all is fine,
+[1:38:17] but it has no effect inside the shell.
+[1:38:20] Particles will not be impressed by the shell being there.
+[1:38:23] It's reproduced to linear order perturbation theory from GR.
+[1:38:28] So that means no new effect.
+[1:38:30] So intermediate results to linear order perturbation theory.
+[1:38:43] No new effect compared to Newton.

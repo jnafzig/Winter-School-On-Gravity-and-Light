@@ -1,0 +1,1108 @@
+[00:00] this program is being presented to you
+[00:02] by the Harris International winter
+[00:05] school on gravity and lights so welcome
+[00:14] to lecture 15 of the winter school we
+[00:17] now have all the important technology
+[00:19] collected in order to talk about
+[00:21] Einstein gravity now recall that in
+[00:26] Newtonian space-time which we talked
+[00:32] about in lecture nine we were able to
+[00:38] reformulate it's just a reformulation
+[00:44] it's not new physics we were able to
+[00:48] reformulate the warsaw law that the
+[00:59] Dalembert ssin of the gravitational
+[01:01] potential is four pi Rho where Rho is
+[01:05] the matter density that produces the
+[01:07] gravitational potential we were able to
+[01:10] reformulate the poisson law in terms of
+[01:14] the Newtonian space-time curvature
+[01:26] as our zero zero it was two zero zero
+[01:32] component of the Ricci tensor with
+[01:36] respect to the Newtonian connection that
+[01:40] we identified and that was 4 PI R oh
+[01:47] sorry there's a G and missing G sub N
+[01:51] and his G sub n ro and Reap sub n in
+[01:55] general here is the Newtonian
+[01:58] gravitational constant
+[02:05] that's for instance the one you measure
+[02:08] in this Cavendish experiment with the
+[02:10] two big balls okay so we're able to
+[02:13] reformulate the personal like this now
+[02:16] this was in Newtonian space-time and
+[02:18] however relations of this form prompted
+[02:23] Einstein this prompted Einstein of
+[02:29] course Einstein thought about this in
+[02:30] many different ways so it's difficult to
+[02:34] say what exactly prompted him to do what
+[02:36] in the course of the development of the
+[02:39] theory but roughly speaking this
+[02:42] prompted Einstein to postulate in the
+[02:50] years before 1915 I'm not exactly sure
+[02:54] when he wrote this down maybe 1912 or so
+[02:57] that the relativistic field equations
+[03:08] for the Lorentzian metric for the
+[03:15] Laurentian metric v of space-time as we
+[03:21] define it this morning of relativistic
+[03:25] space-time if you want to put emphasis
+[03:28] on it it prompted him to postulate that
+[03:33] the relativistic field equations ought
+[03:35] to be Rab equal 8 pi G Newton GA be the
+[03:41] 8 has to do with the conventions for the
+[03:44] factors now so it's R 0 0 is Rho and R 0
+[03:48] 0 s again connected with the energy
+[03:53] density we saw that you will go to the 0
+[03:55] 0 component with respect to some
+[03:57] observer you get something like this but
+[04:00] then this split that 0 0 is special has
+[04:03] to do with the absolute time and I said
+[04:05] well we don't want that we don't want
+[04:07] that direction to be special so it ought
+[04:09] to look like this however this equation
+[04:19] suffers from a problem and the problem
+[04:29] is that the right-hand side if you raise
+[04:33] the indices and so on by the way so I'm
+[04:36] now using a lot lots of indices so I
+[04:38] seem to be in a chart all the time and
+[04:41] yeah you can view it like that if you
+[04:44] know what you're doing it's perfectly
+[04:46] fine to be in a chart but you can also
+[04:49] look at this like this is not in a chart
+[04:51] at all that would be Penrose as for you
+[04:53] a quick way of writing what you want to
+[04:56] say ok anyway so we take the view you're
+[05:01] in some chart but it's true in all the
+[05:02] charts so who cares right this is just
+[05:04] much quicker notation than if I wrote
+[05:07] everything chart independent the point
+[05:09] the important point is it is chart
+[05:11] independent what I write down you could
+[05:13] check it explicitly ok anyway so if you
+[05:18] take on the right hand side this
+[05:20] divergence over the first index of this
+[05:23] tensor and we know from the meta theory
+[05:26] that this yields 0 this has to do with
+[05:29] the fact that the matter theory has been
+[05:31] formulated from an action and this
+[05:33] action was formulated without or could
+[05:37] have been formulated without the choice
+[05:38] of coordinates and that yields you this
+[05:42] kind of conservation law
+[05:44] now that's the right hand side now on
+[05:50] the left hand side you have a different
+[05:52] situation if you take the derivative of
+[05:56] the I stand tensor and then you contract
+[05:58] over these two oh sorry I sentence of
+[06:00] the Ricci tensor this is Ritchie right
+[06:02] the RIC guy I can write it like this
+[06:06] because here you see it's really not
+[06:07] Riemann
+[06:08] this is not zero generically it might in
+[06:13] certain situations it might be zero but
+[06:17] generically it isn't now that's not good
+[06:21] for an equation because obviously I
+[06:23] could take this divergence on both sides
+[06:26] and it leads to a contradiction and so
+[06:32] what do you do so Einstein try to argue
+[06:36] this problem away gravity is different
+[06:44] you know you all don't understand but
+[06:52] nevertheless it's wrong
+[06:54] nevertheless the equations cannot be
+[07:03] upheld so those are not the field
+[07:10] equations now what is the solution to
+[07:15] this well the solution came back
+[07:21] Einstein but at the same time by Hilbert
+[07:25] Hilbert as you all know one of the most
+[07:28] famous mathematicians of all time he was
+[07:31] actually a specialist for variational
+[07:35] principles
+[07:41] for variational principles and he
+[07:48] recognized that this is because this
+[07:52] comes from an action so he thought why
+[07:54] not derive the left-hand side also from
+[07:56] an action so Hilbert suggested to solve
+[08:00] or to find the appropriate left-hand
+[08:09] side of the field equations of the
+[08:16] gravitational field equations Hilbert
+[08:22] suggested to start from a variational
+[08:27] principle from an action and so s
+[08:40] Hilbert he said why don't we write down
+[08:43] an action for the G it's a field theory
+[08:47] so it must be over the entire manifold
+[08:50] well what is the simplest function I
+[08:54] could make of the metric well I could
+[08:56] contract it with itself that's the
+[08:58] dimension it's a very boring function
+[09:00] actually them from Riemannian geometry
+[09:03] one knows that the simplest function one
+[09:06] can build from the metric it's first the
+[09:09] second derivatives is are from the first
+[09:12] derivatives you can't build any tensor
+[09:14] and from the second derivatives you can
+[09:17] build the Ricci scalar which you
+[09:20] remember is our a B G a B it's the
+[09:24] simplest function but of course if you
+[09:26] integrate a function over a manifold you
+[09:28] need to have a density here in order to
+[09:30] make the whole thing work so by the
+[09:33] rather obscure principle of simplicity
+[09:40] simplest action one might arrive at
+[09:45] something like this now of course you
+[09:49] can talk about the beauty of equations I
+[09:51] can talk about the simplicity of
+[09:53] equations the equation being economical
+[09:57] and two shortest in whatever equation
+[09:59] all of these are aesthetic arguments
+[10:02] that have nothing to do with physics
+[10:03] right
+[10:05] if physics for aesthetics planets would
+[10:07] run on circles and not on ellipses
+[10:09] because the circle is more perfect than
+[10:11] the ellipses right so so it's obvious
+[10:13] this is not a good guiding principle on
+[10:16] the other hand if you're a mathematician
+[10:17] can say oh these physicists they're just
+[10:20] writing down equations just like that
+[10:21] and they get inconsistencies well let's
+[10:24] see what I can get if I start with the
+[10:26] simplest here maybe I get some insight
+[10:28] on how this left-hand side must look
+[10:30] like so that's roughly the idea now in
+[10:34] the following many people for many years
+[10:37] have thought about how to justify the
+[10:39] Einstein equations further and I will
+[10:41] probably talk about this at the end of
+[10:43] the course where if time permits I will
+[10:45] also explain that this action is the
+[10:48] unique one you can write down if you
+[10:49] want to have Maxwell theory on it and
+[10:51] that makes your theory ought to be
+[10:53] predictive and quantized about but
+[10:55] anyway that will be later if time
+[10:58] permits
+[10:58] so we start here this is what Hilbert
+[11:01] just wrote down in order to write down
+[11:03] something he could vary ok so well
+[11:06] that's essentially that's a fair
+[11:08] statement right I mean anything else is
+[11:10] interpreting something into it which
+[11:11] isn't really in them now so this is
+[11:15] Hilbert's suggestion and the aim is
+[11:22] varying this with respect to the metric
+[11:30] G a B would will result in some tensor
+[11:40] that one can show abstractly that if you
+[11:42] vary such a scalar function with respect
+[11:45] to a tensor it will result in it in some
+[11:49] tensor G up a B
+[11:52] okay and if there's nothing else to it
+[11:54] it would be G up a B equals zero because
+[11:57] we didn't add a matter action you would
+[12:00] get something like this and the question
+[12:01] is what is this tensor capital G that we
+[12:04] get out of the variation of this with
+[12:06] respect to the metric well there's only
+[12:08] one way to find out
+[12:11] so variation of a Silbert we do it okay
+[12:22] now you know variation leads to the
+[12:25] Euler Lagrange equations if you don't
+[12:27] specify the Lagrangian then you get very
+[12:29] general equations you can work them out
+[12:32] using it's quicker to vary a new rather
+[12:35] than writing down the Euler Lagrange
+[12:37] equations but you just do the variation
+[12:39] again now variation if you really write
+[12:42] it down for point particles involves
+[12:45] deforming curves and so on yet you
+[12:48] involves deforming fields and but there
+[12:51] is a quick way to determine the
+[12:53] variation by just some symbolic calculus
+[12:57] and you probably saw all of this before
+[13:00] I just do it again in this quick way
+[13:02] because this is really very useful okay
+[13:04] for a proper mathematical foundation you
+[13:07] look at any book that does that properly
+[13:09] but but what I do is write it's just at
+[13:12] some point have to say well variation
+[13:13] behaves like differentiation which it
+[13:15] actually does okay so we varied the
+[13:18] action it's understood that the
+[13:21] variation is with respect to the metric
+[13:24] okay okay and we require that the
+[13:27] variation vanish and that ought to give
+[13:29] us the field equations now what is the
+[13:32] variation of s Hilbert the variation of
+[13:37] s Hilbert is the following M so now we
+[13:40] have in here
+[13:41] the square root of minus the determinant
+[13:44] of G we have in there the G a B that
+[13:49] contracts and the Rab that depends on
+[13:51] the G its first and second derivatives
+[14:01] no this is if I vary this action the
+[14:05] variation of this will yield a tensor G
+[14:07] a B now if I add it to your plus s
+[14:11] matter I would then get on the
+[14:13] right-hand side a ta B and I have two
+[14:16] field equations it's just that I denote
+[14:18] the variation of this action by G a B I
+[14:21] already wrote the equal to zero if you
+[14:24] add nothing else that's the vacuum field
+[14:26] equations so maybe I should say varying
+[14:28] this with respect will result in some
+[14:30] tensor G a B is probably better the
+[14:32] better statement okay
+[14:34] so follows because in the action if you
+[14:51] formulate this chart free-trading it
+[14:55] shot independent you can actually show
+[14:57] that this implies a notice theorem that
+[14:59] gives you that that that's the point so
+[15:01] this can really be shown from there okay
+[15:05] so you very well you have to vary this
+[15:09] this in this so the variation is like a
+[15:12] derivative well that's the first of
+[15:14] these rules so it varies the first
+[15:15] factor plus it varies the second factor
+[15:19] and keeps the others plus it keeps the
+[15:23] first and the second and it varies the
+[15:26] last factor this is what variation does
+[15:30] have you seen stuff like this before in
+[15:32] classical mechanics probably yes ok so
+[15:35] here it's done for fields but it works
+[15:37] very similarly okay
+[15:39] so obviously we have to solve three
+[15:41] little problems the first one is we need
+[15:44] to find what is the variation of the
+[15:46] square root of minus the determinant of
+[15:47] G what is the variation of the inverse
+[15:50] metric rather than the metric and what's
+[15:53] the variation of the Ricci tensor well
+[15:55] let's do this one by one so let's call
+[15:57] this term one term to return three we
+[16:01] need to get them under control one after
+[16:03] the other
+[16:04] okay so at one
+[16:09] the variation of the square root of
+[16:11] minus G essentially it's a derivative is
+[16:14] first you get rid you of the outer
+[16:18] derivative and out here you have minus
+[16:21] and the derivative of a determinant is
+[16:25] the determinant itself times okay I
+[16:31] should write determined to be clear it's
+[16:33] the determinant itself times the inverse
+[16:39] of the matrix of which you take the
+[16:42] determinant that's this one times the
+[16:44] variation actually looking at that's
+[16:47] this okay right so how can you see this
+[16:55] so in here goes that variation of the
+[16:59] determinant G is the determinant of G
+[17:03] times G M and Delta G MN how do you see
+[17:08] this eg from and are going through this
+[17:12] the fact that the determinant of G is
+[17:15] the X of the trace of the Ln of G this
+[17:20] is one one way to look at that okay so
+[17:23] you get this and we have this here the
+[17:26] result is 1/2 square root of minus g GM
+[17:31] n Delta G MN this is the first lemma we
+[17:37] have then at 2 you have the variation of
+[17:44] the inverse metric well how do you get
+[17:46] this well if you have G a B and you have
+[17:49] g pc you know this is Delta AC that's
+[17:53] clear so therefore now varying on both
+[17:57] sides and if here the product rule delta
+[18:00] g a b x gb c + g a b delta g bc equals 0
+[18:10] applied the variation to both sides but
+[18:13] then i can isolate this by pulling the g
+[18:16] to the other side this gives you Delta G
+[18:18] a B
+[18:19] equals minus G am G P and Delta G MN and
+[18:26] I renamed indices in the last line to
+[18:28] make the result look more memorable okay
+[18:33] so it's the second little result we're
+[18:36] going to use here now before we do this
+[18:40] let me do the third here there
+[18:44] essentially we have to figure out what
+[18:46] is the variation of the Ricci tensor now
+[18:50] this is more tricky nevertheless we're
+[18:53] able to do it with our technology now
+[18:56] the Ricci tensor if I go to normal
+[19:00] coordinates at a point I can consider
+[19:08] the variation at the point you go to
+[19:09] normal coordinates the Ricci tensor it's
+[19:12] the partial Gama so it should be D by DX
+[19:16] whatever I write down I write this in
+[19:18] short form like this M a M comma B minus
+[19:30] del gamma M a B M and normally you would
+[19:40] have plus gamma gamma minus gamma gamma
+[19:43] with certain contractions right you saw
+[19:45] this but because we're in normal
+[19:47] coordinates these go out the derivatives
+[19:51] remain because normal ones are just at
+[19:53] the point so the next point it could be
+[19:56] different but these guys go but now we
+[20:00] take the variation of this with the
+[20:02] Delta of this and the Delta of that
+[20:05] now the next step consists in observing
+[20:09] and in fact I can formulate this here's
+[20:12] a nice rule that these guys commute but
+[20:17] how do you know this is right well you
+[20:19] have to formulate the variation more
+[20:22] properly if you do you see it does
+[20:24] commute yes
+[20:28] pammi yeah before I very yes because
+[20:40] variation means you choose two different
+[20:42] gammas yes yes and so then you get here
+[20:53] minus del M Delta Gamma M ay B well even
+[21:00] if you didn't look sub sub sub Julian
+[21:02] Julian even if you didn't do this before
+[21:05] wearing you would here have a delta
+[21:07] gamma gamma that would be a delta gamma
+[21:10] times gamma plus a Gamma Delta Gamma
+[21:12] here minus Delta gamma gamma minus gamma
+[21:16] delta gamma you agree still at the end
+[21:18] there still one gamma in there that
+[21:20] moves this okay so you go to this line
+[21:26] here and now there's an important
+[21:28] observation the Delta is the difference
+[21:30] between two gammas because I take a
+[21:34] gamma and I compared to another gamma
+[21:35] now it's a fact of life that if you have
+[21:38] one gamma gamma IJ K and I subtracted
+[21:43] from a totally different gamma different
+[21:46] choice of gammas a different different
+[21:48] connection coefficients ijk both uses
+[21:52] back to the same chart that this are the
+[21:56] components components of a one two
+[22:03] tensor why is that well because on the
+[22:08] corner transformations this guy picks up
+[22:11] an ugly term it transforms as a tensor
+[22:13] up to an ugly term but the ugly term
+[22:16] doesn't depend on the gamma at all it
+[22:18] depends only on the change of coordinate
+[22:20] system remember divided by the X t2 x by
+[22:24] d YY this one also changes in its linear
+[22:29] term like this takes a tensor term this
+[22:32] contributes and the extra term is
+[22:34] exactly the same but you subtract so the
+[22:36] extra terms cancel hence
+[22:39] the difference between two connection
+[22:41] coefficients two different choices of
+[22:44] connection is a tensor two connections
+[22:47] differ by a tensor now this is important
+[22:51] here because we're still in normal
+[22:53] coordinates we've chosen them once and
+[22:55] for all for this calculation so if the
+[22:58] difference here is the tensor and this
+[23:00] is a tensor then in normal coordinates I
+[23:03] have this del B and you say oh my god I
+[23:05] can't derive tensor components like this
+[23:08] well the point is you can take this
+[23:10] tensor and you can even make of the
+[23:15] partial derivative or covariant
+[23:17] derivative without harm because the
+[23:20] difference between the covariant and
+[23:21] partial derivative is gamma terms right
+[23:24] but the gamma terms all vanish because
+[23:27] we do normal coordinates so I can write
+[23:30] it like this I mean this is rather
+[23:32] remarkable I mean there's a gamma which
+[23:34] usually can't take a covariant
+[23:35] derivative of because this is not a
+[23:36] tensor but we see there's a tensor so we
+[23:39] can do all this game in normal
+[23:40] coordinates
+[23:41] - nabla M Delta Gamma components M a B
+[23:49] aha so now we did this and at that point
+[23:53] we can't make any further progress until
+[23:55] we realize ah but there is not this term
+[23:59] interesting interesting is this entire
+[24:00] term so let's try to figure that one out
+[24:03] so hence it follows the square root of
+[24:06] minus G G a B Delta R a B equals aha so
+[24:12] square root of minus 3 now this G a B is
+[24:17] actually in front of this right but I
+[24:21] can without harm pull it into this and I
+[24:25] should introduce some notation that is
+[24:27] very useful notation if you have a
+[24:34] tensor say one one tensor and you take
+[24:38] its derivative in the B direction and
+[24:42] you have an I in a J then this from now
+[24:47] on sometimes I will write a
+[24:51] i J semicolon B a semicolon says take
+[24:56] the covariant derivative in Direction B
+[24:58] but don't think you take the covariant
+[25:00] derivative of the components the symbol
+[25:03] means take the covariant derivative of
+[25:05] the tensor and then that's the component
+[25:08] from the tensor out here okay very
+[25:11] important so I could write this guy here
+[25:14] as Delta Gamma M a MC me : b and here
+[25:19] Delta Gamma M ay B semicolon M okay so
+[25:26] now I use this here I go maybe a line
+[25:29] you know equals square root minus G now
+[25:33] I can certainly pull this G into the
+[25:37] semicolon why well because it's the
+[25:41] metric compatible connection so G a B
+[25:43] Delta Gamma ma m semicolon around it be
+[25:49] Y well it will satisfy a product rule it
+[25:53] will take the covariant derivative of
+[25:55] the G times this guy plus G times the
+[25:59] covalent derivative of that guy but the
+[26:01] covalent derivative of G or G inverse is
+[26:03] zero because of nebula G equals zero
+[26:08] okay so you can pull this in without
+[26:12] harm that's the stress term minus square
+[26:18] root of minus G G a B gamma delta gamma
+[26:24] importantly M a B in brackets semi-colon
+[26:28] M ah that looks much better why does it
+[26:31] look better because if you look at this
+[26:36] here this index M summed over this index
+[26:41] a is summed over all that's left here is
+[26:43] an index B in here which is then being
+[26:46] arrived but because this is a tensor
+[26:48] this is being summed over in here our
+[26:50] vector components so I say I can
+[26:54] identify that there's a vector a with
+[26:56] components B and the vector is
+[26:59] covalently derived with respect to B
+[27:02] minus
+[27:04] square root of minnows - gee this is a
+[27:07] different vector because here gamma ma
+[27:10] vie there's the a side and the B some
+[27:13] that's a different vector from this one
+[27:14] is called the vector B up em semicolon
+[27:19] em aha
+[27:21] why is this interesting well this is the
+[27:24] divergence of a vector this is their
+[27:26] versions of another vector but
+[27:28] remarkably because this is summed over
+[27:30] you can check that this is the same as
+[27:33] if I did square root of - gee I took the
+[27:37] ad and I take the partial derivative in
+[27:40] Direction B yields the same result
+[27:42] because the corrections that come from
+[27:45] here are actually Corrections that come
+[27:48] here by application of the product rule
+[27:50] minus square root of minus G B B
+[27:56] semicolon P or mmm doesn't matter okay
+[28:04] yes
+[28:16] so a gamma in the white system ijk is
+[28:22] the gamma in an ex parte m and Q with D
+[28:32] by D D by D D by D X in X Y hang on
+[28:45] there must be a why I here No so there
+[28:56] must be why I XM x and x q YJ YK is that
+[29:08] right yes plus D 2 X M by dy j dy k dy
+[29:20] by DX M a PI
+[29:24] isn't that the right term okay so this
+[29:27] is for this connection gamma now I write
+[29:30] this down for an entirely different
+[29:32] connection in the same frame what I get
+[29:36] is exactly the same terms here but here
+[29:38] there's a gamma twiddle m and Q in the X
+[29:42] frame but this term is precisely the
+[29:45] same because there's no gamma appearing
+[29:47] now the difference between the true will
+[29:50] transform without return because they
+[29:53] cancel
+[29:53] okay good yes a and B are tensors as you
+[30:04] can read off from here they are the
+[30:06] tenses defined here this is the a B and
+[30:11] this is the p.m. well look at it it's a
+[30:17] 10
+[30:17] it's as tensor component it's a delta
+[30:19] gamma what do you mean oh it is so you
+[30:22] have a delta gamma as a tensor it has
+[30:25] components MA
+[30:27] b-but you have a contraction here that
+[30:31] makes it a co vector field or a co
+[30:33] vector then you pull the index up it's a
+[30:36] product of tensors to contract the
+[30:38] tensor product it's a tensor how you get
+[30:47] from here to here yes
+[30:51] oh that the comma I am sorry that the
+[30:56] comma is the partial derivative so I
+[31:00] panic semicolon semicolon is I'm sorry
+[31:09] only comma comma as partial okay and
+[31:14] then you have a product and the partial
+[31:17] goes on this guy and this guy will
+[31:19] reproduce itself but also produce the
+[31:22] gamma symbol that goes with the a not
+[31:25] the full gamma symbol but the right
+[31:26] contracted gamma symbol okay yes yeah
+[31:42] okay um well if you derive if you vary X
+[31:47] you get X / trace LNG that Tribute
+[31:51] reproduces the determinant again but
+[31:54] then you have to take the inner
+[31:56] derivative and the inner derivative of
+[31:58] Ln is 1 over that's the inverse okay so
+[32:05] now if you want to have it more
+[32:06] precisely written down the cleanest
+[32:08] proof is via the expansion formula for
+[32:12] the determinant when you expand in a
+[32:14] line with the minors or the drunks or
+[32:17] whatever that's called where you cross
+[32:19] the eyes in the Jade line and take the
+[32:21] determinant tralala and there you can in
+[32:23] a one-page calculation or so you arrive
+[32:26] at this formula okay so this is the
+[32:29] quick way I don't want to go into the
+[32:31] detail here right so this can be shown
+[32:34] okay so we have collected the terms one
+[32:40] two
+[32:40] and three and it's time to write this up
+[32:48] collecting terms one obtains zero is
+[32:59] Delta s hilbert equals M now the
+[33:06] variation of the square root of minus G
+[33:09] was one-half minus square root of G G MN
+[33:18] Delta G MN right then was the first term
+[33:23] which came with another G a B Rab that's
+[33:27] the first term plus now there comes
+[33:33] another square root of minus G now
+[33:35] variation of the inverse metric yields a
+[33:37] minus G a m GP n Delta G MN and came
+[33:48] with an R a B that's the next term the
+[33:53] third term comes to the plus square root
+[33:56] of minus G G a B but now this variation
+[34:01] over there which I need to quickly pick
+[34:04] that before it's wiped out oh yeah okay
+[34:10] thank you times aha I already use this
+[34:17] up right in this over there I don't need
+[34:20] to write this anymore because I already
+[34:21] included all of this this becomes square
+[34:25] root of minus G some vector a I'm not
+[34:28] interested how it looks in detail comma
+[34:30] a minus minus G some vector E
+[34:35] I'm not even interest how it looks in
+[34:37] Gita comma B close bracket
+[34:44] okay that's this so now you have an
+[34:48] integral over volume and what kind of
+[34:52] Armistice if you have the derivative
+[34:57] here and it's contracted like this is it
+[35:01] divergence right and yes exactly Stoke
+[35:05] or whatever so it's a surface term and
+[35:11] this is also a surface term so if you're
+[35:18] not very careful you say you can discard
+[35:20] them they're zero if there's no boundary
+[35:23] well you see in point particle mechanics
+[35:27] you fix two endpoints and then you do
+[35:31] this variation and you take care that at
+[35:33] the endpoints things are fixed if you
+[35:36] want to do this shield Theory
+[35:38] calculation properly you have to fix an
+[35:41] initial surface in the final surface and
+[35:43] you need to fix the fields there and
+[35:46] varied them in between and then if you
+[35:50] want to do this properly you also fix
+[35:51] them on the boundaries here right and
+[35:54] then maybe you take the boundary to
+[35:56] infinity and so on that's somewhat
+[35:58] subtle okay so in the action there may
+[36:02] be surface terms that survive if you
+[36:05] want to have the action as the axis the
+[36:08] value of the action however for the
+[36:12] equations of motions they really don't
+[36:14] make a difference so we can take them
+[36:17] out for the equations of motion okay
+[36:20] that's it okay so we do that but that
+[36:24] what we are we left with
+[36:26] M we can factor out the minus square
+[36:29] root or the square root of minus G we
+[36:32] can factor out the variation the
+[36:34] arbitrary vation Delta variation Delta G
+[36:37] MN and what we end up with is 1/2 G em
+[36:43] up em n R because this is our minus this
+[36:52] as
+[36:53] this is put up rmn equal to zero for an
+[36:58] arbitrary variation because that
+[37:05] variation is arbitrary we can conclude
+[37:07] from the vanishing the integral for an
+[37:09] arbitrary variation the square bracket
+[37:11] must vanish
+[37:13] hence we obtain that our tensor gmm
+[37:20] equals well I should have said that the
+[37:25] stencil that comes out is called minus G
+[37:27] MN okay I mean I didn't make a sign
+[37:31] mistake so it's just a question of how I
+[37:32] call this guy BM n equals I should have
+[37:38] written minus G MN before when I said
+[37:39] Hilbert wants to derive this and then
+[37:42] you get our MN minus 1/2 g MN our that
+[37:49] is what Hilbert gets out so hence
+[37:57] Hilbert from this mathematical argument
+[38:05] one might call it from this mathematical
+[38:09] argument concluded that one may take our
+[38:22] a be minus 1/2 G a B R which is just the
+[38:28] same object with the indices pulled down
+[38:30] with the metric equals 8 pi G and T a B
+[38:39] and in fact Einstein by physical
+[38:43] arguments arrived at the same result
+[38:47] more or less at the same time so these
+[38:50] are the these are called the Einstein
+[38:53] equations Hilbert is not mentioned but
+[38:58] the action that I called Hilbert hot
+[39:01] today called the Einstein Hilbert
+[39:05] and I think everybody agrees that does
+[39:10] both of them justice because Einstein
+[39:13] came here by physical arguments again
+[39:15] and well Hilbert just in a sense scooped
+[39:20] Einstein by listening to one of his
+[39:22] talks hearing about this problem saying
+[39:24] let's try this and doing this little
+[39:26] calculation okay
+[39:29] so um these are the equations on which
+[39:33] general relativity today is based now
+[39:38] still there is at this point no better
+[39:42] argument for this than saying this is a
+[39:44] pretty nice compact action right so one
+[39:48] can of course argue whether that's a
+[39:50] good reason for a physicist or not okay
+[39:54] so then we have a third solution of the
+[40:03] novella a ta P equals zero issue one
+[40:13] control in fact you will show in the
+[40:17] tutorials that this so-called Einstein
+[40:25] curvature that the Einstein curvature
+[40:33] which is this zero two tensor G a B
+[40:38] equals R AP minus one-half G a B are
+[40:43] exactly the left hand side of the
+[40:45] Einstein equations that this Einstein
+[40:47] curvature satisfies the so called that's
+[40:53] just the name that you find in the books
+[40:54] on this named contracted contracted by
+[41:01] Yankee identic differential contracted
+[41:04] differential by Yankee identity
+[41:13] you wouldn't have guessed it this equals
+[41:18] zero okay so the issue is indeed solved
+[41:24] and it had to be solved because this was
+[41:27] derived from an action where the same
+[41:29] argument that leads to the nabla a to
+[41:33] the divergence of the energy momentum
+[41:34] tensor being zero that was your question
+[41:36] the same argument leads to that this
+[41:38] must hold if this didn't hold then
+[41:41] somebody somewhere made a mistake okay
+[41:46] yes so this dissolves this argument and
+[41:49] it shows well Einstein really forgot
+[41:51] this term and this is a term that comes
+[41:53] up by this consistency argument okay
+[41:59] yes well there are a number and over the
+[42:08] years people so instance you can look at
+[42:13] at fluids and so you can feel space-time
+[42:16] with the fluid and one understands kind
+[42:18] of worry and at the time one understood
+[42:20] relativistic two it's how do they behave
+[42:22] and that you can then make consistency
+[42:25] arguments and you pick up this term okay
+[42:29] there are many other ways by which you
+[42:32] can arrive here a way that's that's a
+[42:36] recent result how you arrived there is
+[42:37] you require that you have dynamics for
+[42:41] your space-time that is compatible with
+[42:43] putting Maxwell theory on it such that
+[42:46] the Mexica theory remains predictive and
+[42:48] is quantized able and that already fixes
+[42:52] the Einstein equations as I said at the
+[42:56] end of the talk there school I will talk
+[42:58] about this yes
+[43:05] the in the Newtonian space-time which is
+[43:08] zero me in no no you can't even
+[43:18] construct it because in the Newtonian
+[43:20] space-time the Newtonian space-time only
+[43:24] carries a connection but this connection
+[43:27] does not derive from a metric on
+[43:30] Newtonian space-time it's a connection
+[43:33] that doesn't come from a metric and if
+[43:37] you don't have a metric you cannot
+[43:39] construct the curvature scalar because
+[43:42] from a connection you get the Riemann
+[43:44] tensor 1 3 and from that you get by
+[43:48] contraction of 1 and 3 you get the Ricci
+[43:51] tensor that you get from a connection
+[43:53] but you don't get these two indices away
+[43:56] unless you have a metric in the game as
+[43:58] well but there is no MIT connection so
+[44:04] Newtonian space-time we only talked
+[44:06] about ultra power less and if you
+[44:07] remember I presented in Newtonian
+[44:10] picture before we introduced metrics
+[44:14] because I didn't want you to get
+[44:16] confused to the Newtonian space-time
+[44:19] that love so the neuter did so the
+[44:23] Newtonian space-time carries only a
+[44:25] connection but not a metric so you
+[44:27] couldn't even build this guy and in your
+[44:30] own space-time we only found that the
+[44:32] zero zero component of this guy is this
+[44:34] 4 pi zero right but I could not even say
+[44:40] and all the others are 0 but I couldn't
+[44:42] even say what the scalar was ok
+[44:49] so this heavily relies on the fact that
+[44:52] all the connection that these curvature
+[44:55] tensors are built from the levy shemitah
+[44:57] connection of the gene these are the
+[45:00] metric curvatures for the question
+[45:07] yes no they do not
+[45:16] we I'll discuss the cosmological
+[45:18] constant a second they do not they do
+[45:20] not know they they do not these guys I
+[45:40] don't know but the issue is that if you
+[45:44] go to these surfaces like like here you
+[45:46] can fix the points and you can fix but
+[45:49] you cannot fix the velocities at the
+[45:51] same time now there this guy here the
+[45:55] the hill but actually depends on the
+[45:57] metric up to the second derivative and
+[46:02] some issues CR you can't fix the second
+[46:05] derivatives as well you can fix the
+[46:07] metric and the frill and so on and so
+[46:10] you have to discuss this very carefully
+[46:12] what happens at the boundaries that's
+[46:14] the point
+[46:15] okay and this was only discovered later
+[46:17] that you have to do this so I think
+[46:19] Gibbons and others say they looked at
+[46:21] this at these boundary terms and they
+[46:23] play a role in the canonical formulation
+[46:25] that too many could rule any is going to
+[46:27] discuss one of the satellite like for us
+[46:30] there one usually takes good care of
+[46:32] these guys one needs them but for the
+[46:35] equations of motion they really drop out
+[46:37] okay so they only play a role in the
+[46:40] absolute value of the action not for the
+[46:43] equations of motion okay so then we
+[46:49] finally look at variance of the field
+[46:52] equations
+[47:01] and I don't need variants like other
+[47:03] gravitational theories I mean the same
+[47:05] field equations a little extended or a
+[47:07] little differently written down so the
+[47:10] first one is a simple rewriting and
+[47:19] resemble your writings the following so
+[47:21] let's again write down the field
+[47:22] equations I mean this you need to know
+[47:23] by heart this is the key point of this
+[47:27] course 8 pi G in T a B now maybe for the
+[47:35] future just for the heck of it we will
+[47:38] set this to 1 over 8 pi so that I can
+[47:43] finally get rid of these annoying
+[47:45] factors right and in fact I think
+[47:47] there's always one over C squared in
+[47:49] there which I already set to 1 and so
+[47:51] who cares okay so I'm let's assume these
+[47:55] are the field equations right so aha
+[47:58] so now I can on both sides contract with
+[48:02] G a B I do a full contraction what do I
+[48:04] get
+[48:05] what is RA be fully contracted with G a
+[48:08] B R what is G a be contracted with G a B
+[48:13] 4 thank you dimension of space time for
+[48:16] a half is 2r minus 2r equals T where T
+[48:22] is defined as T a B G a B ok so now
+[48:29] therefore I have R minus 2 s minus R R
+[48:34] is minus T agree so I go with this into
+[48:39] the original field equations I have RA
+[48:42] be minus 1/2 G a B T with a plus equals
+[48:51] T a B or RA B equals T a be minus 1/2
+[49:00] its trace G a B so I can call this
+[49:04] right-hand side the modified energy
+[49:07] momentum tensor
+[49:08] at a B we're from the energy moment sir
+[49:12] I subtract 1/2 times its trace so
+[49:15] contraction with G times G a B and what
+[49:19] do I then have then the Einstein field
+[49:22] equations after all take to form our a B
+[49:25] equals T hat a be science M wasn't that
+[49:32] wrong after all he just took the wrong
+[49:35] version of the energy-momentum tensor
+[49:37] there's an energy momentum tensor with a
+[49:39] modified trait
+[49:41] okay but of course he had to no longer t
+[49:47] hat a B equals zero right it's just a
+[49:50] simple rewriting so if you wish you can
+[49:53] relate the Ricci curvature directly to
+[49:56] an energy momentum tensor well a
+[49:57] modified energy momentum tensor ok so
+[50:00] sometimes it's useful to write it like
+[50:02] this it's just a simple conclusion from
+[50:04] the field equations themselves ok and
+[50:09] the second variant is indeed different
+[50:12] physics and the second variant is if you
+[50:15] do the Einstein Hilbert action M square
+[50:21] root minus G R and in here you write
+[50:25] plus 2 capital lambda and now this
+[50:29] capital lambda has a name
+[50:34] called the cosmological constant and
+[50:39] it's nothing mysterious it's just a
+[50:42] constant that you add
+[50:46] well let's interpret this in a second
+[50:48] but before that let's look at the
+[50:50] history of this cosmological constant so
+[50:55] 1915 right
+[50:57] I think Einstein said it must be there
+[51:01] and since it because more logical
+[51:03] constant is there and it's less than
+[51:05] zero
+[51:07] Einstein wanted that why because only if
+[51:11] you put that there do you get solutions
+[51:13] for cosmology for the history of all of
+[51:16] space-time that produces a static
+[51:19] universe in order to get a non expanding
+[51:27] universe because - I understand at the
+[51:31] time it seemed ridiculous that the
+[51:33] universe should be expanding instead of
+[51:36] just be sitting there so he wanted this
+[51:41] constant then later of course Hubble saw
+[51:50] the universe is expanding which is
+[51:53] perfectly compatible with lambda equals
+[51:56] zero so Einstein said this was my
+[51:59] greatest blunder I shouldn't have done
+[52:01] that
+[52:01] this is an aesthetical and nando tutor
+[52:04] and he said lambda equals zero I mean no
+[52:07] doubt there many papers what lambda must
+[52:10] be zero okay so now today lambda is
+[52:15] supposed to be bigger than zero
+[52:17] now it's supposed to be bigger than zero
+[52:20] in order to account for to account for
+[52:25] and we'll see this in detail I'm just
+[52:27] giving you the taste of it to account
+[52:29] for an accelerated expansion so the
+[52:33] universe doesn't only expand it expands
+[52:37] in an accelerated way an accelerated
+[52:40] expansion today the problem is that this
+[52:44] lambda it is supposed to be bigger than
+[52:47] zero but
+[52:47] very very small okay what do you mean by
+[52:50] very small well very small compared to
+[52:52] any effect we could imagine that
+[52:54] produces a non-vanishing lambda let me
+[52:58] clarify this so if we now do here the
+[53:01] variation the lambda contribution here
+[53:05] can of course be understood as a
+[53:07] contribution to matter right because if
+[53:10] you say this is still gravity then this
+[53:13] part could already belong to a matter
+[53:15] action right so lambda non zero can be
+[53:21] interpreted interpreted as a
+[53:28] contribution what is it I think my 1/2 1
+[53:35] minus 1/2 lambda G a B 2 the energy
+[53:43] momentum of matter in space-time
+[53:51] okay okay why not well look at what that
+[53:55] means that means constantly overall the
+[53:59] universe there is a lambda that is
+[54:02] energy everywhere provided by the lambda
+[54:06] it's not just where the fields are big
+[54:08] over the fields are non vanishing it
+[54:10] everywhere everywhere where there is a
+[54:13] metric and a metric is everywhere there
+[54:16] is this energy and so people call this
+[54:20] dark energy it doesn't interact with
+[54:27] anything but it contributes to a
+[54:29] curvature of space-time that means it's
+[54:33] dark yes
+[54:43] um one one can as I said one can
+[54:49] carefully treat this for instance so um
+[54:54] for a careful treatment for a careful
+[55:00] treatment of the surface terms which we
+[55:12] discarded see for instance Eric Poisson
+[55:20] a relativists toolkit excellent book I
+[55:30] think Cambridge University Press
+[55:33] but the point is this is at the level of
+[55:36] the equations of motion where you
+[55:39] identify this so it couldn't come from
+[55:42] the surface terms the surface terms are
+[55:44] the action level this is the level of
+[55:46] the equations of motion now this lambda
+[55:50] what could give rise to an energy that's
+[55:53] everywhere and we haven't thought of
+[55:56] before well yes well a cone if you
+[56:12] calculate the volume of the sphere you
+[56:15] integrate over the function constant one
+[56:19] right so volume of the sphere
+[56:22] now you take capital lambda times two
+[56:25] volume you can pull it out of the
+[56:26] integral times 1 so it's lambda times
+[56:32] the volume of space-time in the action
+[56:37] and then you have to vary okay
+[56:43] you can write this there it doesn't
+[56:45] destroy the by Anki identity and the
+[56:48] question is what could this physically
+[56:50] be we haven't thought of it so far
+[56:53] it seems to be there and then people
+[56:57] like Weinberg got the idea it could be
+[57:00] the vacuum fluctuations of quantum
+[57:04] fields so we have a number of quantum
+[57:07] fields in space-time now they have
+[57:09] vacuum fluctuations right electrons and
+[57:12] positrons come into his existence and
+[57:14] annihilate each other again right it
+[57:17] could be this this vacuum energy and
+[57:19] then Weinberg calculated the vacuum
+[57:23] energy I think from QCD and how it would
+[57:26] contribute to this lambda and would
+[57:28] whether it would suffice and so you can
+[57:31] get the following calculations for idea
+[57:39] lambda could come or could arise as the
+[57:48] vacuum energy of the standard model
+[57:56] fields so this is throwing in a little
+[57:59] bit of quantum electrodynamics but it's
+[58:02] quite reasonable to try that and then
+[58:05] you obtain lambda calculated this way is
+[58:10] a whopping 10 to the 100 times bigger
+[58:14] than the lambda observed and this is
+[58:17] called the worst observation of physics
+[58:19] the first predict the were not the worst
+[58:21] observations the worst prediction of
+[58:23] physics right so indeed we have an idea
+[58:32] what the mechanism could be but it
+[58:34] overestimates by a factor 10 to the 120
+[58:39] so that shows that if people say it's
+[58:43] not understood why we have a positive so
+[58:47] small positive cosmological constant
+[58:52] right it's a puzzle where that comes
+[58:54] from
+[58:55] if you put it there phenomenologically
+[58:57] it fits the observations about the
+[58:59] universe
+[59:01] we'll come to that later okay so um let
+[59:09] me wrap it up here in the tutorials of
+[59:11] this week there won't be a central
+[59:13] lecture until Saturday so that you can
+[59:15] fully focus on the satellite lecturers
+[59:17] we've got great people so you should
+[59:19] definitely come but in the tutorials
+[59:22] they will run on the central lecture you
+[59:25] will check that the so called SWAT
+[59:29] shield metric you must have heard that
+[59:32] the so called swirled
+[59:34] SWAT shield metric is this fairly
+[59:37] symmetric solution of Einstein's
+[59:39] equations in vacuum and Einstein
+[59:42] actually wrote when he set up TIG and
+[59:43] she said well this equations are so
+[59:45] complicated nobody will ever find an
+[59:47] exact solution okay approximately yes
+[59:50] linearized solutions yes but exactly no
+[59:53] and then Schwartz sure in 1916 the
+[59:56] legend the legend has it that he was
+[59:59] even injured and was on a hospital bed
+[1:00:02] so maybe a voice helps me today with
+[1:00:03] other research he actually said well
+[1:00:07] let's make a symmetry and that so he
+[1:00:09] derived the exact virtual solution for
+[1:00:11] under the spherically symmetric
+[1:00:12] assumptions you will check that the
+[1:00:14] Schwarzschild metric and the metric
+[1:00:18] that's called as the Friedman
+[1:00:19] robertson-walker metric that describes a
+[1:00:24] homogeneous and isotropic universe and
+[1:00:27] that P P wave metric which describe P P
+[1:00:31] waves as you can imagine and that the
+[1:00:35] Reisner nordstrom metric which describes
+[1:00:41] the therapy symmetric solution of
+[1:00:43] Einstein's equations around a charged
+[1:00:45] body and that all of these you will
+[1:00:49] check that all of these are solutions to
+[1:00:53] Einstein's equations
+[1:00:57] that means you will be asked well in
+[1:01:00] groups there will be the advanced
+[1:01:01] tutorials so this will be what we called
+[1:01:04] workshops or advanced tutorials of
+[1:01:06] physics applications what not has
+[1:01:08] different names there you will check one
+[1:01:11] group will check this the other this the
+[1:01:13] other this the other that okay and you
+[1:01:15] will work in teams of three and you must
+[1:01:18] it doesn't matter which one you check
+[1:01:19] will tell you anyway but you need to
+[1:01:23] have done this once you get a specific
+[1:01:26] metric and you plug them into the
+[1:01:28] equations it gives you the same insight
+[1:01:31] like in high school when you see
+[1:01:33] something like what is it is it like
+[1:01:44] this is like that it's like this who
+[1:01:46] knows okay plus it must be a plus okay
+[1:01:51] if you see for the first time the that
+[1:01:56] this is solved by X of T equals cos
+[1:01:59] Omega T right or sine of C what this
+[1:02:05] fight by by a function like that that's
+[1:02:08] funny
+[1:02:08] well you know it works like that okay so
+[1:02:10] it's the same thing and you must plug it
+[1:02:12] in once and then you know how this works
+[1:02:14] then you really have a feeling for what
+[1:02:16] it means to be a solution okay
+[1:02:18] that's that's one thing you're going to
+[1:02:20] do another thing you're going to do is
+[1:02:23] you're going to discuss this in advanced
+[1:02:24] tutorials in the elementary tutorials
+[1:02:27] that's the tutorials you had so far for
+[1:02:30] the mathematical foundations there you
+[1:02:32] will in the familiar manner you will
+[1:02:35] study motion of particles and observers
+[1:02:44] in for chilled space-time
+[1:02:52] okay that's a very interesting topic and
+[1:02:55] it will lead to results that will be
+[1:02:58] needed in lensing and then there will be
+[1:03:01] satellite lectures during the week
+[1:03:02] during this week next week there two
+[1:03:04] others the first ones will be by Marcus
+[1:03:07] Savannah who also give a history Club
+[1:03:12] which will be very interesting and
+[1:03:13] Marcus will talk about gravitational
+[1:03:15] lensing a tional lensing and I think he
+[1:03:22] will show things like you see if you
+[1:03:24] have a body here there is a star here
+[1:03:26] and you look here you know light goes
+[1:03:28] out in all direction and is spent here
+[1:03:30] which is by the way something you will
+[1:03:32] study on Thursday in the advanced
+[1:03:38] tutorial as well as the first advanced
+[1:03:39] tutorial signal vans tutorial you study
+[1:03:41] here at the bending the bending of light
+[1:03:44] then you know you eat a star here or you
+[1:03:48] think you see one you see one here you
+[1:03:49] see two pictures and markers sure under
+[1:03:52] which circumstances you see always an
+[1:03:54] odd number of pictures and he will show
+[1:03:56] that with Moss theory that's quite
+[1:03:58] interesting and we have too many code
+[1:04:01] aleni
+[1:04:03] many could Giulini and I asked him to
+[1:04:07] show something very important namely
+[1:04:10] actually what are the Einstein equations
+[1:04:13] the dynamical equation it seems like
+[1:04:17] boom space-time is there you solve the
+[1:04:20] equations and you have all of space-time
+[1:04:21] but where's the evolution and he will
+[1:04:25] show that very roughly speaking if you
+[1:04:27] think of the three metric in some space
+[1:04:30] that the Einstein equations tell you how
+[1:04:33] the three dimensional metric you can go
+[1:04:36] back to a spatial surface how that's
+[1:04:39] devolves in space-time and what this
+[1:04:43] requires is to reformulate the Einstein
+[1:04:45] equations in Hamiltonian form and so
+[1:04:48] that's called canonical formulation of
+[1:04:51] gravity and that gives you a lot of
+[1:04:54] insights so it's also very important and
+[1:04:58] you should really look at that and that
+[1:04:59] also has been followed for many many
+[1:05:02] years in order to make progress in
+[1:05:03] quantum gravity just the key to
+[1:05:06] quantum gravity if you want to go there
+[1:05:09] so I invite you to all these to the
+[1:05:12] elementary tutorials of course to
+[1:05:13] practice the stuff we did here to the
+[1:05:16] advanced tutorials to get a feeling for
+[1:05:18] the physics you do going to do this and
+[1:05:21] you're going to study this and also the
+[1:05:24] precession of the orbit of mercury how
+[1:05:27] it goes around the Sun rather like this
+[1:05:29] and you calculate this this here goes at
+[1:05:32] four arc seconds per century no 42 but
+[1:05:37] something acts seconds what is it 44 I
+[1:05:40] mean 42 42 arc seconds per century this
+[1:05:45] precession this was long known before
+[1:05:47] Einstein and said was the first one to
+[1:05:50] explain this and you will derive this
+[1:05:52] result from data using Einstein's theory
+[1:05:56] so I invite you to all these parts of
+[1:06:00] the school this week thank you very much

@@ -1,0 +1,785 @@
+[00:00] this program is being presented to you
+[00:02] by the Harris international winter
+[00:05] school on gravity and lights
+[00:13] welcome to the problem class of the w/e
+[00:17] year's international winter school on
+[00:19] gravity in light today with our tenth
+[00:22] problem sheet about symmetries we as
+[00:25] always start with the first exercise
+[00:27] true or false which statements about
+[00:34] push forward and pull back are correct
+[00:37] the push forward maps a vector field to
+[00:40] a vector field this statement is not
+[00:43] correct therefore I have to remind you
+[00:46] on the definition of the push forward
+[00:49] first of all we have a manifold M with a
+[00:54] map Phi 2 n this map only has to be
+[00:59] smooth no injectivity nothing else said
+[01:04] about that these are our both many
+[01:08] faults now we take a point P and around
+[01:13] that the tangent space TPM and we take
+[01:17] another point Q and the tension space
+[01:21] over there now it could be that the map
+[01:25] file met the point Q and P to the same
+[01:31] point in the manifold M since the push
+[01:39] forward is a map from T M 2 T M we
+[01:49] always get with and this map is defined
+[01:53] with respect to this map we always get
+[01:55] the tangent vector in TN but the idea of
+[02:00] a vector field is that we have at each
+[02:04] point of the manifold to draw it again
+[02:08] this is now M
+[02:10] and these are the tangent vectors the
+[02:16] tension spaces over there we always have
+[02:18] just one vector in each tensioned vector
+[02:22] space but with this construction we had
+[02:26] two points in one of these tension
+[02:30] spaces therefore it's not a vector field
+[02:33] therefore the first answer is incorrect
+[02:39] the pullback of a Cove active Co vector
+[02:42] yields a co vector I remind you on the
+[02:45] definition of this we can again have
+[02:48] this picture but the Popek maps from t
+[02:53] star m2 t star m and this is certainly
+[02:59] true then every element in T star M lies
+[03:02] especially in 1tv pie and and maps it to
+[03:07] one t star PI M therefore it Maps a co
+[03:13] vector to a co vector this answer is
+[03:17] correct one can use a metric on a
+[03:21] smoothly embedded manifold by pulling
+[03:24] the metric back from the ambient
+[03:26] manifold this is correct and assure you
+[03:30] one we just define it in the lectures we
+[03:33] just say that the pull back of a metric
+[03:41] evaluated on some vector fields is
+[03:43] defined as the following it's G of the
+[03:49] push forward of the vectors and this
+[03:58] defines the pull back of the metric
+[04:01] therefore this statement is also true
+[04:06] the pull back
+[04:08] I should clarify what an embedding us
+[04:13] first so an embedding is a map
+[04:16] it's injective map from a manifold to
+[04:21] another manifold and embedding we just
+[04:24] denote by this curved arrow this have to
+[04:29] be smooth then it's a smooth and
+[04:32] injective then it's a smooth embedding
+[04:36] if we have this we always can find such
+[04:40] a map and this is always fulfilled the
+[04:47] next question asked us about other push
+[04:50] forward and pull back linear maps yes
+[04:54] they are
+[04:55] that's correct and I show you a part of
+[04:58] the proof here we again have the map 5
+[05:03] from say M to n and we now want to see
+[05:10] how this works so let act push forward
+[05:15] on a sum of two vectors after that this
+[05:22] lies in TP T Phi of P n so we have to
+[05:27] act on a function f which is an element
+[05:30] of C infinity M for this construction we
+[05:35] need that x and y are element of the
+[05:39] same tangent space otherwise this
+[05:42] addition what is not well defined for
+[05:47] that we use the definition its X plus y
+[05:51] of F after 5 but now this is again the
+[05:58] different the addition on the TPM but
+[06:01] since TPM is a vector space we know the
+[06:05] defined point was in this sense
+[06:11] and after that we can again apply the
+[06:14] definition of the push forward what is
+[06:19] Phi star X of F plus Phi star Y of F we
+[06:31] can now again pull out the F and what we
+[06:41] see that it is linear the same trick we
+[06:46] can do for if we multiply with a
+[06:49] constant out of our we will see that it
+[06:52] works the same way therefore the push
+[06:55] forward is linear and we can also do
+[06:57] with the same calculation for the pull
+[06:59] back and therefore in shorthand push
+[07:03] forward and pull back are both linear
+[07:05] maps in this sense the push forward is a
+[07:10] 1 1 10 so this is incorrect since a 1 1
+[07:14] tensor is a map from T star M cross T M
+[07:19] into the rears in a multi linear fashion
+[07:23] this is not the definition of a push
+[07:25] forward one can only pull back a 1 1
+[07:32] tensor along a buy checked if map this
+[07:37] is incorrect one can actually pull back
+[07:40] any tensor along a patch active map
+[07:47] therefore the answer is incorrect B
+[07:54] which statements are correct
+[07:56] Aliza algebra L is a symmetry of a
+[07:59] metric tensor field Chi if the poor back
+[08:01] of Chi along the flow of any element of
+[08:04] L reproduces team first we clarify the
+[08:08] vector field ok we have if we have a
+[08:11] vector field X which looks like that
+[08:17] then it has intricate integral curves
+[08:21] that means that they exist curves in the
+[08:25] manifold which point P where the vectors
+[08:31] of the curve at this point coincide with
+[08:34] the vectors of the vector field at this
+[08:37] point that's it and now we can ask or we
+[08:44] can we we can look whether if we start
+[08:46] here and go with the with the integral
+[08:54] curve gamma P just a small parameter
+[08:57] value of lambda we come to this point
+[08:59] and at that point the tangent vector of
+[09:03] this curve should also agree with the
+[09:06] tangent of the vector field okay that's
+[09:09] it and if we we can do this for all
+[09:14] points in the manifold here or peace and
+[09:17] we come after a small step lambda always
+[09:21] to another point here and all this maps
+[09:25] we denoted by H with respect to X the
+[09:28] vector field with respect to the
+[09:30] parameter lambda is a map from M to M in
+[09:34] a smooth fashion this we called the flow
+[09:37] map since this is a smooth map between
+[09:42] two many many faults we can push forward
+[09:47] or pull back some tensile feel some
+[09:50] tensors along this curve so if we now do
+[09:54] age X lambda pullback of symmetric and
+[10:02] this yields again the metric that means
+[10:05] if we start here and see our here's
+[10:07] metric attached and we go back some
+[10:09] steps and see our the metric has the
+[10:11] same it looks totally the same then we
+[10:13] know the vector field x is a symmetry of
+[10:18] the metric G and if this holds for all
+[10:21] vector fields out of the leads of
+[10:23] algebra then we call the lead sub
+[10:26] algebra a symmetry of the Mack metric
+[10:29] tensor field Chi
+[10:33] this statement is correct the leader
+[10:38] riveted of a vector field why with
+[10:41] respect to a vector field X is the
+[10:43] commutator X Y we just record the second
+[10:48] axiom of the leader relative L X Y and
+[10:52] it was defined as X comma Y with the
+[10:56] commutator so this statement is true
+[11:01] Alys up algebra l is a symmetry of a
+[11:04] metric tensor field if the leader
+[11:06] relative of Chi with respect to every X
+[11:09] element L Venice's therefore we just
+[11:13] have to repeat how the linear relative
+[11:16] was defined we can define L X of some
+[11:22] Chi is defined as the limit lambda
+[11:26] against 0 H X lambda star of Qi minus Qi
+[11:35] divided with lambda a through lambda but
+[11:41] from the first question we know already
+[11:44] that this is equal to this so the
+[11:51] nominator is a 0 therefore this is a
+[11:54] zero therefore if the leader rivet if
+[11:57] with respect to X of T is 0 therefore it
+[12:02] means that L is a symmetry of the metric
+[12:09] this statement is also correct the
+[12:14] leader rivet --iv acts on a function as
+[12:16] the covariant derivative does this is
+[12:21] simply the first axiom of the leader
+[12:23] rivet if it says LX f equals to X of F
+[12:28] and this is the same as the covariant
+[12:32] derivative therefore this statement is
+[12:37] also correct and we finished the first
+[12:39] exercise
+[12:41] exercise to pull back and push forward
+[12:44] formula for practical man and women
+[12:47] question consider a smooth map 5 from M
+[12:52] to M between two differentiable
+[12:55] manifolds show that for function f
+[12:58] elements C infinity n the pullback of
+[13:00] the gradient of F is the same as the
+[13:03] gradient of the pullback of F that means
+[13:06] exactly this yeah in order to show that
+[13:11] we choose an X element TPM which on
+[13:18] which we act with the whole guy here
+[13:21] since V Star DF is the element of T P
+[13:28] star M we can act on a TPM and get a
+[13:31] real number let's do that as first step
+[13:36] we just apply the definition of the
+[13:39] pullback it is the vector R the Kovach
+[13:45] to field acting on the push forward of
+[13:50] the vector field first definition second
+[13:55] definition we just use the definition of
+[14:00] the gradient that is five put forward of
+[14:06] X what is again an element of TPM what
+[14:11] can act on a function C infinity n this
+[14:15] is this guy as a next step we use the
+[14:21] definition of the push forward this is
+[14:24] defined as X after F of Phi now we have
+[14:32] to think a little bit in order to get
+[14:35] exactly this form we can ask ourselves
+[14:39] what is the push forward of a func air
+[14:42] what is the pull back of a function
+[14:45] therefore I will draw a short picture
+[14:48] mm5 and we feel the function f into our
+[14:54] we can ask now what what we already know
+[14:57] is if we pull back in this way Cove
+[15:04] extra fields we again get a CO vector
+[15:06] field over em what we now considers that
+[15:11] if we put back a function on em we want
+[15:15] to get back a function on em this is the
+[15:17] only thing we can get out of this
+[15:19] structure this is the map F after Phi Y
+[15:25] and to write this in a pullback fashion
+[15:28] we write it down as the pour back of the
+[15:31] function f okay with this thoughts done
+[15:39] we can insert this in here now it's
+[15:43] written X after Phi star of F and we now
+[15:50] go some steps backwards we know that
+[15:55] this can also be written with the
+[15:56] definition of the gradient as G of the
+[16:01] function Phi star of the F what is in
+[16:04] all a function on C infinity M acting on
+[16:07] the vector of X X therefore as we see
+[16:13] since we did this all for an arbitrary
+[16:16] vector X we can conclude that this is
+[16:20] equivalent to Phi star DF equals to D
+[16:27] Phi star F this is exactly what we have
+[16:32] to show
+[16:36] question two the push forward from TM to
+[16:41] TM it's a linear map between tension
+[16:44] bundles calculate its components
+[16:47] function ok so in order to do that we
+[16:54] just apply this thing just calculate
+[16:58] some steps and see that the result of
+[17:01] that is very important to derive this
+[17:04] formula V Star a beam equals 2d y a
+[17:13] acting on V Star del after del X P we
+[17:20] first apply the definition the gradient
+[17:23] again that's the vector V star of Dell
+[17:28] after del X P what lies in TN acting
+[17:34] acting on why a but where Y a is a
+[17:38] function on n since Y a are the charts
+[17:42] on N and we just can use the definition
+[17:48] of the performer again that means it's
+[17:52] vector file field D after DX P acting on
+[17:57] why a after Phi this is all what we want
+[18:02] to do at this step
+[18:05] question show that the component
+[18:08] functions of the pull back fist Archie
+[18:10] of a metric tensor field are obtained
+[18:13] from the component functions of G by the
+[18:16] following expression therefore we just
+[18:20] have to calculate a little bit and use
+[18:22] the result of question two so let's
+[18:27] start
+[18:28] Phee star g
+[18:35] a be evaluated at P in the X chart is
+[18:43] defined as the following its P star G of
+[18:51] become the basis and not allowed to
+[18:58] forget the brackets here because we have
+[19:01] to evaluate at P but as we have seen
+[19:05] before as we know from the lectures that
+[19:07] the pullback of the metric is the push
+[19:10] forward as the metric evaluated at the
+[19:15] push forward of its arguments therefore
+[19:18] next definition G of 5 star acting on
+[19:25] Dell after del X evaluated at P comma
+[19:30] Phi star del after del X being evaluated
+[19:36] P bracket closed so after this we simply
+[19:45] can expand our Chi again
+[20:04] we can expand the vectors inside the Chi
+[20:07] in some basis we call this basis why
+[20:12] it's Chi off first we need the
+[20:18] components of a vector del of del X
+[20:22] evaluated at P the enth component times
+[20:27] the basis vector evaluated at P comma
+[20:33] Phi star surely not a pie there's a 5
+[20:42] pie since after we do the push forward
+[20:46] we go from M to n and the bases are then
+[20:51] in free pie it's C star of del after del
+[20:57] X be evaluated at P there from the enth
+[21:02] component of del of the Del Y n
+[21:07] evaluated at Phi of the PI big break it
+[21:13] close since we know that G is a linear
+[21:20] map we just can pull out the coefficient
+[21:25] functions here and the coefficient
+[21:27] functions here so let's do that
+[21:30] it's Phi star of del Del X a related P
+[21:39] the nth component
+[21:46] times Phi star of Dell of the Dell X P
+[21:55] evaluated at P from that the enth
+[22:01] component times G of Dell after del Y M
+[22:14] evaluated at five pile come on Dell
+[22:19] after Del Y M evaluated at five PI this
+[22:28] guy here is just Chi M M evaluated at
+[22:35] five PI in the wide shot and the first
+[22:42] guy and the second guy - well we just
+[22:46] have to see how this two relations are
+[22:51] come together we know that if we want if
+[22:56] we like to figure out the components of
+[22:59] a vector and these are the components of
+[23:02] a vector we have to act on the vector
+[23:05] itself with the dual basis therefore we
+[23:11] can write this expression as del Y M
+[23:18] acting on Phi star off tell after del X
+[23:28] evaluated P pretty close break it close
+[23:34] and this is exactly this guy ah but this
+[23:39] we already calculated and we see that's
+[23:42] just del after del X B X Y of Phi with
+[23:48] this index combination we just have to
+[23:51] re look for the right index combination
+[23:54] and write it down
+[23:58] after seen that this is exactly what we
+[24:02] calculate in question two over here we
+[24:06] just can plug in these guys and for
+[24:10] these guys we can plug in this so what
+[24:17] written here is L after del X a evaluate
+[24:22] at P of Y after Phi from this the enth
+[24:29] component times del after del X P
+[24:35] evaluated at P and from that Y after
+[24:44] five the enth component from behind we
+[24:50] have this G M n in the Y's chart Phi of
+[24:57] Pi and comparing to what is written here
+[25:03] we see that this is true therefore this
+[25:07] exercise is complete we now come to
+[25:16] exercise 3 ly derivative the pedestrian
+[25:19] way the leader rivet if as a tool for
+[25:23] investigating symmetries question
+[25:29] consider the smooth embedding yata as a
+[25:33] map from s2 to r3 off as - equipped with
+[25:37] the topology in the atlas so a smooth
+[25:40] manifold and the same for r3 which for
+[25:43] families theoretical child u comma X
+[25:47] element a and R 3 comma Y is the
+[25:50] identity map on r3 is given by the
+[25:54] following expression where a and B are
+[25:57] positive real numbers what can you say
+[26:00] about the shape of yata of s2 that's a
+[26:05] good question what is the shade
+[26:08] first of all I would say it is necessary
+[26:13] to can talk about straight lines or
+[26:15] something like this but as we already
+[26:18] found out in order to do that we it's
+[26:22] not enough to have a pair smooth
+[26:24] manifold we need extra structure there
+[26:28] we we just know in this course we just
+[26:32] know two extra structures it's on the
+[26:35] one hand side a connection which yields
+[26:39] something like that
+[26:40] or on the other hand side it's a metric
+[26:42] but since we do not have anything like
+[26:47] this define them this smooth manifold
+[26:50] air three or standard and B we could not
+[26:53] talk about the shape therefore what can
+[26:56] you say about the shape of your toe
+[26:58] Festool the antler is nothing question
+[27:06] two now assume that our three or
+[27:10] standard beam is additionally equipped
+[27:12] with the akkadian metric team whose
+[27:15] component functions with respect to the
+[27:18] chart are three why are given by this
+[27:21] expression right down the component
+[27:26] factions of qi ellipsoid which is
+[27:30] defined by the pullback of G with
+[27:32] respect to the transmission function
+[27:35] gutter with respect to the chart G of X
+[27:38] okay how does this work we just have to
+[27:43] simply recall the formula of the last
+[27:46] exercise of exercise 2 therefore we
+[27:50] found out that the port back the
+[27:53] components of the port back of a metric
+[27:55] I just defined as the following this is
+[28:03] just the definition again evaluated at
+[28:06] some point and just the component
+[28:09] functions but the formula we found out
+[28:12] was that this is equivalent to del of
+[28:17] why I should
+[28:19] right down the similar way as before
+[28:23] then after del X a related P of Y of
+[28:30] yatta the N component times del after
+[28:39] del X be evaluated a paean of y of yatta
+[28:45] the nth component component multiplied
+[28:50] with GM n of I of P not I'm sorry Yatta
+[29:00] Yatta of P okay
+[29:03] but this symbols we can simply expand a
+[29:07] little bit more we know that this symbol
+[29:11] just translate the first one as the
+[29:13] partial derivative with respect to the
+[29:16] eighth component of Y of yatta of x
+[29:20] inverse of X of P from that the nth
+[29:25] component the second derivative is del P
+[29:34] of Y of yatta of X inverse the nth
+[29:39] component of X of P times GM n yota of P
+[29:49] but let's have a quick look look at yota
+[29:54] of P we know ah this is just in the
+[29:59] manifold r3 so at this point something
+[30:04] is going wrong since this P over here is
+[30:10] not the same PS here I'm sorry it's just
+[30:13] confusing I'm very very sorry
+[30:15] on this p8 cultures people here or peace
+[30:20] go to Pete will and all the P twiddles
+[30:27] our element of s 2 so our yatta maps our
+[30:34] elements of s 2 into 3 and the in the
+[30:39] sense that i of p twiddle is equals to
+[30:42] PI therefore we can use here it's just a
+[30:47] pie just correct it here GM n of Pi and
+[30:55] therefore we can use the concrete
+[30:58] expression of the Chi in the ambient
+[31:01] space okay that's the first step in
+[31:05] order to now really calculate how all
+[31:09] the components of Chi ellipsoid look
+[31:12] like we just have to calculate a and B
+[31:15] are running in this case from 1 to 2 so
+[31:18] 1 2 ok we just plug in I write it down
+[31:24] one time a little bit a little bit more
+[31:28] and then I just talk about what I'm
+[31:30] doing here it's the nth component
+[31:33] derived with respect to the first
+[31:35] component of Y of yata of X inverse of X
+[31:43] of Pi there one y of yata of X inverse
+[31:49] the nth component immediately right in
+[31:53] here of X of P tilde times G M and P so
+[32:05] what I see first is if M is not equal to
+[32:08] n all this terms vanish so we have to
+[32:13] just do y equals 1 it was 1 equals 2
+[32:18] equals 2 equal 3 equal 3 that means we
+[32:21] get here three terms but all terms a
+[32:25] quadratic of one of these balls because
+[32:27] these are the same since the derivatives
+[32:30] are the same here
+[32:32] okay look at the first term and the good
+[32:36] thing is that this expression is given
+[32:40] here so we can now just derive if you
+[32:44] derive with respect to the first
+[32:45] components we just derived with respect
+[32:48] to theta and if we derive with respect
+[32:51] to the second component we just derived
+[32:54] with respect of fire okay let's do that
+[33:01] and the first thing it yields a squared
+[33:06] cosine squared Phi times cosine squared
+[33:12] theta theta plus B squared times sine
+[33:20] squared of Phi times cosine squared of
+[33:28] theta times C squared of sine squared of
+[33:33] theta
+[33:36] but in this expression since a B and C
+[33:40] are not the same in principle we cannot
+[33:44] go any further the same calculation
+[33:48] holds now for G lips arrayed 1/2 of P
+[33:53] tilde and after a short calculation you
+[33:58] will find out that it's the same as a
+[34:01] squared cosine Phi cosine theta times
+[34:07] with a minus sine Phi sine theta plus B
+[34:15] squared sine Phi cosine theta times sine
+[34:25] theta cosine Phi since we know that a
+[34:32] metric has to be symmetric we also know
+[34:35] that this is the same as G 2 1 lip side
+[34:39] P tilde if you don't believe me
+[34:44] calculated again and you will see the
+[34:47] same G ellipsoid to two yields after
+[34:53] short calculation a squared sine squared
+[34:56] Phi sine squared theta plus B squared
+[35:02] cosine squared Phi sine square theta
+[35:09] that is all we are asked to do in this
+[35:12] question but what we see here is it's
+[35:14] very interesting if we have given a
+[35:17] leading metric on the r3 we can
+[35:20] construct from there given an embedding
+[35:25] map which embeds the s2 into the s3 we
+[35:28] can pull back the metric from the whole
+[35:31] r3 that's the idea of this exercise and
+[35:34] you see the formulas are not very short
+[35:37] but ke and it's really easy to calculate
+[35:42] question for convenience denote by theta
+[35:46] and Phi the coordinate functions x1 and
+[35:48] x2
+[35:48] check that the vector field given here
+[35:51] constitute a list of algebra of gamma T
+[35:54] squared with the leave bracket determine
+[35:57] its tracks structure constants one is a
+[36:02] Lisa algebra a Lisa algebra can be
+[36:05] perfect paraphrased that if we take two
+[36:10] objects out of the algebra taking the
+[36:13] leader riveted of it should yield a
+[36:16] linear combination of the lie algebra
+[36:22] components where the cka chain had just
+[36:28] some factors if we have checked this we
+[36:33] can be sure that all axioms which has to
+[36:36] be satisfied from the algebra are
+[36:38] satisfied and while this calculation we
+[36:46] also get the structure constants we
+[36:51] start
+[36:52] with the first bracket we just take x1
+[36:57] x3 evaluate at some point then we have a
+[37:03] vector and if you have a vector we can
+[37:06] act with it on a function f and this we
+[37:08] just do in order to do not forget any
+[37:11] terms afterwards we will see that the
+[37:15] function f pull out here is something
+[37:17] written and all the equation holds just
+[37:22] for the x1 come back three okay let's
+[37:28] start
+[37:29] it's X after x3 of P on F minus x3 after
+[37:44] x1 at P of F this is equal to x1 after
+[37:53] x3 x3 is easy x1 is just this guy it's
+[37:59] minus sine of fine till after del theta
+[38:06] minus cotangent theta cosine Phi del Del
+[38:13] Phi acting on them after they'll file
+[38:21] after that we evaluate all this at P and
+[38:25] act on a function f minus or the guy the
+[38:32] other way around
+[38:34] they'll Delphi
+[38:36] acting on - - we pick 2 times a - make a
+[38:41] plus here sine Phi del after del theta
+[38:46] minus cotangent theta cosine Phi del
+[38:52] after Delphi after acting with a vector
+[38:56] field on a vector field we evaluate at a
+[38:59] point
+[39:03] and act on function f so what is what is
+[39:10] happening here first the first
+[39:12] derivative acts on this function and
+[39:16] after that we act with the other two
+[39:18] derivatives on the function which comes
+[39:22] out if we act with derivatives or a
+[39:27] function that means what is written here
+[39:32] is minus sign del after del theta del
+[39:39] Del Phi of P EF minus cotangent theta
+[39:49] cosine Phi del del Phi del Del Phi of F
+[40:03] and we also have to evaluate all these
+[40:06] points then since we already do the a
+[40:08] variation on P and over here I forgot a
+[40:14] Phi sine Phi of P of P of P and I will
+[40:22] suppress the piece from now on second
+[40:26] term here we have to be a little bit
+[40:28] more carefully since we act with the
+[40:31] derivative on a product of function sine
+[40:34] Phi del Del Phi on F it's a product and
+[40:38] it acts on both so its first the
+[40:42] derivative of sine and Phi with respect
+[40:44] to Phi is just cosine Phi del Del theta
+[40:49] of F plus sine Phi del square del P del
+[41:00] theta on F minus first derived the
+[41:06] cosine
+[41:09] and it did again of minds and minus sign
+[41:12] mistakes since I said here I bring the
+[41:15] minus out and forgot it in this term I'm
+[41:17] sorry
+[41:19] so again they'll Delphi on this guy if
+[41:24] you derive cosign take the derivative of
+[41:27] cosign it's cold tension
+[41:29] theta sine Phi del del Phi on F plus
+[41:38] cotangent theta cosine Phi del squared
+[41:46] down 5/5 on F what one sees now is that
+[41:57] Delta Phi F with this guy the same
+[42:00] component in front though this kicks out
+[42:03] this you also see is that this guy and
+[42:08] this guy are the same with another sign
+[42:12] so this kicks out the only two terms
+[42:17] which are still there at these two guys
+[42:23] that's cosine Phi del del find F minus
+[42:32] cotangent theta sine Phi del Del Phi on
+[42:38] F and what I mentioned before us we act
+[42:41] with both objects we act with both
+[42:45] things on F so we can bring out the F
+[42:48] and what is written there is exactly the
+[42:54] sky the x2 term so what we get in the
+[43:00] end this is equivalent to X 1 X 3 are
+[43:08] equal to 1 times X 2
+[43:13] and destruction coefficient function is
+[43:15] a 1 you can now do the same calculation
+[43:19] for all remaining pairs and with the C
+[43:22] it works out very well this is a
+[43:25] take-home exercise for you the next
+[43:30] question calculate the integral curve of
+[43:33] x3 through the point P equal to inverse
+[43:37] of X equal to X inverse of theta naught
+[43:42] Phi naught that means the curve gamma P
+[43:46] satisfying as an integral graph it has
+[43:51] to satisfy gamma P of 0 is P that means
+[43:55] for the value lambda is 0 we start at
+[43:58] the point P and let the tangent of the
+[44:04] curve gamma p at some point gamma P of
+[44:10] lambda is the same as the vector field
+[44:14] x3 evaluated at gamma P of lambda that
+[44:18] means that point wise the tangent vector
+[44:24] of the curve and the vector field share
+[44:28] the same vector component okay just
+[44:36] repeat what we mean by an interior curve
+[44:45] or a curve in general in a chart it's
+[44:48] just X after lambda X after gamma from
+[44:53] lambda off to explain to you how a curve
+[44:57] looks in a chart I will write out these
+[45:01] two expressions again it's just X gamma
+[45:07] Prime the East come if component times
+[45:11] del X I this is the left hand side from
+[45:15] the right hand side I know
+[45:20] this is also just the summer of this
+[45:23] guy's and I write this more precisely in
+[45:26] our fashion it's since we know X 1 theta
+[45:31] and X 2 is 5 it's just fine
+[45:35] theta sorry after gamma prime times del
+[45:40] Del theta plus 5 gamma prime del Del Phi
+[45:50] is equal to big 3 component the vector
+[45:55] field X 3 at this point and the vector
+[45:57] field is given by del after Del Phi ah
+[46:02] what we can immediately read off is that
+[46:05] this guy has to be 0 and this guy has to
+[46:09] be 1 Prime and I didn't I just suppress
+[46:22] that I evaluate Atlanta sorry of lambda
+[46:27] equals to 0 and Phi of gamma of lambda
+[46:36] is equal to 1 but this is not asked now
+[46:40] we want to calculate this guy in order
+[46:44] to get this we have to integrate this ok
+[46:49] the integration for one dimensional
+[46:50] problems very easy especially if the
+[46:53] right side is ur 0 so what we get is a
+[46:58] theta
+[46:59] after gamma of lambda is some constant
+[47:04] but we know I just to first the both
+[47:09] integrations on the this side it nearly
+[47:12] is simple it's just 5 after gamma of
+[47:17] lambda
+[47:18] it's 1 times lambda plus another
+[47:23] constant C Prime
+[47:24] but since we now have the boundary
+[47:28] conditions
+[47:33] yeah gamma PI of 0 is PI we have to plug
+[47:39] in this give me a quick thinking about
+[47:44] that we know that pi is x inverse of
+[47:53] theta not fine not so theta
+[48:05] after gamma naught we know from that
+[48:09] that this is just theta naught and from
+[48:18] five times gamma zero we know lambda is
+[48:25] taken to zero so this is just V naught
+[48:30] therefore we get that C is theta naught
+[48:36] and the tilde is Phi naught Phi naught
+[48:45] and Phi after gamma of lambda is equal
+[48:52] to lambda plus Phi naught therefore we
+[48:58] have calculate the integral curve gamma
+[49:00] P in a charge X question the integral
+[49:08] curves gamma P gives rise to a
+[49:11] one-parameter family of smooth maps edge
+[49:14] egg three lambda from s 2 to s to
+[49:17] calculate the poor back edge three
+[49:20] lambda star chillip side of the metric
+[49:23] on s2 what can you conclude for the
+[49:26] leader riveted LX 3 of G first of all
+[49:32] let us think about what this map is
+[49:35] doing therefore we choose a chart
+[49:40] X after H X 3 lambda after X inverse is
+[49:47] a map from r2 to r2 in the following
+[49:52] sense we plug in just theater and a file
+[49:57] and what we get all this theta 5 plus
+[50:04] lambda if you like to draw a picture of
+[50:08] the sphere embedded in ss3 this is s2
+[50:13] with the crowd somehow here then the
+[50:17] vector fields x3 adjust these lines here
+[50:24] to the equator then one line here and so
+[50:29] on and so on
+[50:30] it's just cyclic and what our or map
+[50:37] does is just if you start at this point
+[50:40] say after some parameter lambda we just
+[50:44] change the Phi of you know with respect
+[50:48] to this parameter lambda so we run
+[50:50] around the quarter or other lines here
+[50:54] okay this is the idiom and
+[51:05] and what can you conclude for the leader
+[51:08] relative L with respect to X 3 of Chien
+[51:11] we're cheese mean the chillip so it
+[51:14] means if this would be equal to the Chi
+[51:19] ellipse it again then the metric would
+[51:22] look the same all on all lines along the
+[51:27] quarter or parallel lines to that okay
+[51:32] in order to check this we have to
+[51:35] calculate a little bit therefore we have
+[51:39] to calculate the poor bag age x3 lambda
+[51:45] of Chi ellipsoid but this we just want
+[51:53] to calculate the components of that and
+[51:56] therefore we have to evaluate in s2 and
+[52:00] s2 we get if you take the inverse map X
+[52:03] inverse of Theta Phi so first step is
+[52:09] again use the result of exercise to how
+[52:13] a metric pulls back under some flow
+[52:20] it's just del Del X a of X after h x3
+[52:32] lambda I forgot to evaluate this at the
+[52:35] point there from this we have the nth
+[52:41] component exactly in our point P is
+[52:48] again like here X inverse of theta of
+[52:52] five times del after del X B X after h
+[53:01] x3 lambda the nth component the
+[53:06] derivative evaluated at X minus theta 5
+[53:10] times Chi M a of
+[53:18] age egg three lambda at the point P what
+[53:24] is in our case x1 inverse theta phi okay
+[53:32] we now come in closer this expression
+[53:35] for a second and what we see this that
+[53:39] is exactly the derivative of this with
+[53:43] respect to the eighth come with respect
+[53:45] to the a entry and the enth component
+[53:48] but what we see here is if we derive the
+[53:51] first component with respect to
+[53:54] something else than the one component we
+[53:56] get a zero and we only get a one if we
+[53:59] derive with respect to theta with the
+[54:02] first component for the second term the
+[54:05] same argument holds if here is a two
+[54:07] here is a two so in total we can write
+[54:11] this guy here in matrix representation
+[54:15] as 0 1 1 1 0 0 1 a-m and this guy we
+[54:25] also can write 1 0 0 1 M B G M m h x3
+[54:37] lambda X inverse of theta phi ok after
+[54:46] that we see that this is just a delta so
+[54:50] we can just rename MN by a and B
+[54:58] a beam now we come back to the question
+[55:06] and I always forgot here to write down
+[55:08] that's Ellie whether these two things
+[55:13] are the same and what we see now is
+[55:16] since this guy here gives us in chart
+[55:21] representation nearly the same just
+[55:26] again of a theta and a fire but with an
+[55:31] offset in the second term only if the
+[55:34] offset I don't want to confuse it I just
+[55:40] calculate this by inserting this and
+[55:44] compare it with G a B le evaluated on
+[55:49] Theta Phi this this would be the most
+[55:52] easy thing because we already calculated
+[55:56] this I do it just for one component so
+[55:59] calculate this for one component it's
+[56:01] g11 le of h x3 lambda of X inverse of
+[56:11] theta 5 and this we calculate I think
+[56:16] one exercise before or in the same X I
+[56:20] think in the same exercise they were
+[56:22] already calculated the pullback of this
+[56:29] map
+[56:34] exactly and this was just a squared of
+[56:39] cosine Phi but now it's at cosine Phi
+[56:44] cosine Phi plus lambda here square again
+[56:49] times cosine square theta plus B squared
+[57:01] sine squared Phi plus lambda plus code
+[57:08] sorry times cosine squared theta plus C
+[57:16] squared time
+[57:17] silence queer theta this is what we
+[57:21] calculate now that's the poor back with
+[57:25] respect that the poor back of the Chi
+[57:29] ellipsoid with respect to this flow map
+[57:31] and what we had if you do not pull back
+[57:37] with respect to this flow map just the
+[57:40] poor back of the eyelid Ian's metric
+[57:42] with respect to the s2 we found out that
+[57:47] these are almost the same just with some
+[57:52] different expressions instead of Phi
+[57:55] plus lambda we have just fine that's all
+[57:59] the difference what we found out here
+[58:07] and he forgot term term it's cosine
+[58:11] square Phi DT comparing this two
+[58:17] expressions we see if a is equal to B
+[58:24] here just written a squared times cosine
+[58:28] squared of theta and here just written a
+[58:31] times 8 squared times cosine squared
+[58:35] theta
+[58:37] aha that means of a and B is the same
+[58:41] then the pullback of the cella period
+[58:46] along the edge ik 3 lambda curve is
+[58:49] again the Chi ellipsoid this also holds
+[58:52] for all the other components of Chi this
+[58:59] means if you have just a lip side
+[59:05] instead of this is ellipsoid and this is
+[59:10] a sphere and this is our angle Phi that
+[59:16] means if you just deform in this
+[59:18] direction then this map is again then
+[59:26] the x3 is a symmetry of the metric and
+[59:37] this is the idea of this exercise to see
+[59:40] that under which circumstances vector
+[59:43] fields are symmetries this concludes
+[59:49] this exercise and see on the next time

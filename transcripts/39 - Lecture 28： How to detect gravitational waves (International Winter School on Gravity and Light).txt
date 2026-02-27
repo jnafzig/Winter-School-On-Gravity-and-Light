@@ -1,0 +1,2361 @@
+[00:00] this program is being presented to you
+[00:03] by the hereas international winter
+[00:05] school on gravity and light
+[00:12] okay so this is the lecture about
+[00:17] detecting gravitational waves
+[00:21] i'm going to try to address some of the
+[00:22] issues of principle that people always
+[00:25] ask me someone asked me during the break
+[00:28] and but but i'm
+[00:29] uh often asked questions like
+[00:32] if you know gravitational waves are a
+[00:34] distortion of space
+[00:35] uh uh and all of space is distorted and
+[00:39] the light is distorted and so on how can
+[00:41] how can you detect gravitational waves
+[00:42] with light and
+[00:43] all of that so i want to put all of
+[00:45] those things to rest and
+[00:47] and and and get you to the point where
+[00:49] you have a clear physical understanding
+[00:51] of what's going on
+[00:52] with the detection of gravitational
+[00:53] waves but then i also want to talk about
+[00:55] the the the kinds of
+[00:59] different ways that there are to detect
+[01:00] gravitational waves is not just
+[01:02] interferometers
+[01:03] and uh and then i want to talk about
+[01:05] some of the technologies involved
+[01:07] um and also uh if we have time a bit
+[01:10] about the space technologies but
+[01:12] this is not primarily about technology
+[01:14] this is primarily about
+[01:15] um the whole enterprise of detecting
+[01:18] gravitational waves and
+[01:19] and how it fits into physics so
+[01:23] this is to remind you of things that i
+[01:25] was showing you in the last
+[01:26] uh lecture this is the polarization
+[01:28] diagram drawn in a slightly different
+[01:30] way but you have the two
+[01:31] orthogonal polar polarizations the where
+[01:34] the
+[01:35] uh stretching is along the x y axis and
+[01:37] here where it's tilted
+[01:39] to 45 by where it's rotated by 45
+[01:42] degrees
+[01:43] and then the tidal representation the um
+[01:47] this is all to do with general
+[01:50] relativity if
+[01:51] if general relativity isn't correct if
+[01:53] there's some additional effects you
+[01:54] might have other polarizations
+[01:56] but we know that general relativity is
+[01:59] is predominantly correct to the one
+[02:01] percent level from
+[02:02] in terms of its predictions of
+[02:03] gravitational waves from the from the
+[02:05] binary pulsar kinds of observations and
+[02:07] therefore
+[02:08] um uh it's a good description
+[02:12] it's a good basis for providing a
+[02:13] description of detection of
+[02:14] gravitational waves if there are small
+[02:16] changes at the one percent level then
+[02:18] we'll learn things but it won't affect
+[02:20] whether we're actually detecting the
+[02:21] waves or not um
+[02:23] so the interferometer again is sitting
+[02:26] here
+[02:26] uh with the with the distortion and and
+[02:29] the light comes in here the
+[02:31] the interference pattern comes out there
+[02:32] and if you arrange it so there's
+[02:35] nothing this is a dark port coming out
+[02:37] when there's no gravitational wave then
+[02:39] when you get light
+[02:40] then that gives you the gravitational
+[02:43] wave
+[02:43] that's how that this diagram of the
+[02:45] interferometer
+[02:46] explains why we we really look for
+[02:50] to interferometers as a natural way of
+[02:52] detecting gravitational waves
+[02:53] but that wasn't the first way that
+[02:55] people tried to detect gravitational
+[02:56] waves the first attempt
+[02:57] was with um the the bar detectors
+[03:01] and this is a picture of joseph weber
+[03:03] the pioneer of the field with his first
+[03:05] bar detector at the university of
+[03:06] maryland in the united states
+[03:09] weber uh actually did consider
+[03:11] interferometry
+[03:14] um but this picture was taken probably
+[03:16] around 1965
+[03:19] and when was the first continuous wave
+[03:22] laser
+[03:23] uh probably later than that or or around
+[03:26] the same time
+[03:29] so 1961 was the first continuous wave
+[03:31] laser maybe yeah
+[03:33] so the the technology for laser
+[03:35] interferometry
+[03:36] uh for detection of gravitational waves
+[03:38] simply wasn't there and and weber
+[03:39] considered it and rejected it
+[03:41] and did what he could do at the time now
+[03:44] a bar detector
+[03:45] operates um mainly at its resonant
+[03:48] frequency it's a
+[03:49] it's a metal cylinder um aluminum or
+[03:52] steel
+[03:53] and um a gravitational wave comes in
+[03:56] from the side
+[03:57] and you want to think about the the
+[04:00] interference that that polarization
+[04:02] pattern
+[04:02] as the gravitational wave comes in from
+[04:04] the side the stretching in the x
+[04:06] direction
+[04:06] stretches the bar and then after the
+[04:09] gravitational wave is passed through
+[04:10] the bar has been stretched a little and
+[04:12] it oscillates and
+[04:14] you pick up that oscillation and he's
+[04:16] instrumented it with strain gauges at
+[04:18] the point where the strain is maximum
+[04:19] namely the center of the bar and
+[04:23] those strain gauges are supposed to tell
+[04:24] you about the excitation of the
+[04:26] fundamental normal mode of oscillation
+[04:28] of the bar
+[04:29] and so it's that resonant mode and for a
+[04:32] steel or
+[04:32] aluminium bar uh about a meter long or
+[04:35] something that the
+[04:36] typical frequencies are around the
+[04:38] kilohertz that's the
+[04:40] that would be the most sensitive
+[04:41] frequency for detecting gravitational
+[04:43] wave
+[04:45] there's an inherent limitation in this
+[04:47] which weber was well aware of but
+[04:48] uh um uh this was
+[04:52] after all just the first attempt uh
+[04:54] which is that if you
+[04:55] want to want to take advantage of the
+[04:57] title effect if you want to make
+[04:58] bigger is better if you want to make it
+[05:00] bigger then
+[05:02] it becomes impractical first the the
+[05:05] longest bar that's ever been made is
+[05:06] about three meters
+[05:07] for for gravitational wave detection um
+[05:10] but the
+[05:11] larger you make it the lower the
+[05:13] resonant frequency goes because it's a
+[05:15] acoustic oscillation of the bar
+[05:16] and so um uh if you make it if you want
+[05:19] to make a kill if you imagine making a
+[05:21] kilometer long
+[05:22] piece of aluminum if you could possibly
+[05:24] imagine uh
+[05:25] doing that it would have much too lower
+[05:28] frequency
+[05:29] uh so it's you can't take advantage of
+[05:31] the tidal effect of gravitational waves
+[05:34] um so there's an inherent limit on
+[05:36] sensitivity
+[05:38] the bars were pushed to
+[05:41] around 10 minus 19 by cooling them down
+[05:44] to very close to absolute zero liquid
+[05:47] helium temperature
+[05:48] um and still that wasn't good enough for
+[05:51] any detections and so bars are not being
+[05:53] operated now
+[05:54] um anymore uh there are there have been
+[05:57] a few projects to
+[05:58] more imaginative ways of doing bar
+[06:00] detectors but it's an inherently limited
+[06:02] technology there was a controversy over
+[06:05] weber which i'll just mention briefly
+[06:07] which was in in the late 1960s he
+[06:09] believed he was seeing gravitational
+[06:11] waves
+[06:11] and he published that he had two of
+[06:14] these bars one in
+[06:15] maryland and one in chicago and he
+[06:17] believed that they were being excited in
+[06:19] coincidence with one another
+[06:21] and um uh he published it and
+[06:24] the it looked good and then he also
+[06:28] showed that the codes that the
+[06:29] that the as the earth turned on its axis
+[06:33] he was getting more coincidences when
+[06:34] the one when the
+[06:36] bar was was broadside onto the center of
+[06:39] our galaxy
+[06:40] uh and therefore it was probably that
+[06:42] his excitations were coming from the
+[06:43] center of the galaxy which seemed
+[06:46] you know even more convincing um
+[06:49] uh but uh but but his sensitivity was
+[06:52] low and nobody could understand how
+[06:54] there could be so many events with such
+[06:56] high uh amplitude coming from the center
+[06:59] of the galaxy we
+[07:00] the galaxy would actually be losing a
+[07:02] lot of mass if that happened over
+[07:04] millions of years
+[07:05] um so um
+[07:09] there was skepticism as well and then
+[07:12] and then it turned out that his data
+[07:13] analysis was a bit suspect
+[07:15] uh he wasn't doing it with digitally he
+[07:17] was he was looking with his eye
+[07:19] at two different chart recordings and
+[07:21] you can fool yourself
+[07:22] with uh with that kind of procedure you
+[07:25] can
+[07:26] find things that are that you want to
+[07:28] find even if you
+[07:29] tell yourself you're being honest
+[07:32] and so um the only way to test it was to
+[07:35] build other bar detectors
+[07:36] and most of the groups that are now in
+[07:39] the interferometry business started out
+[07:41] building bar detectors to test weber
+[07:43] and um uh and all the bar detectors that
+[07:46] were built came up negative
+[07:48] nobody else saw the gravitational waves
+[07:50] at the same time weber continued to see
+[07:51] gravitational waves
+[07:53] uh so then there was as you can imagine
+[07:56] a terrible period in which this pioneer
+[07:59] this guy who is very clever
+[08:01] wound up being on the fringe he could
+[08:04] not admit
+[08:05] that he was mistaken he tried to invent
+[08:08] all sorts of new kinds of physics to
+[08:09] explain it
+[08:10] um and he he died eventually
+[08:14] a you know a a rather broken
+[08:17] uh very sad individual um
+[08:20] so it's a sad episode and it also led to
+[08:24] tremendous caution in the field so
+[08:28] ligo now sets a very high standard
+[08:31] for for the first detection of
+[08:33] confidence for the first detection
+[08:35] because we don't want to be in that
+[08:37] situation we don't want to fool
+[08:38] ourselves we don't want to be
+[08:40] even have people in the community asking
+[08:42] us
+[08:43] are we fooling ourselves we don't want
+[08:44] any of that so
+[08:46] so weber's left a legacy even though it
+[08:48] was in the 1960s
+[08:50] that it's still affecting the field
+[08:52] today
+[08:54] um so those are the bar detectors but uh
+[08:58] most effective detectors of
+[08:59] gravitational waves now are are beam
+[09:01] detectors they're
+[09:02] they use light the interaction of light
+[09:04] and gravitational waves and we call them
+[09:06] beam detectors a beam of light
+[09:07] with a gravitational wave field and so i
+[09:10] want to talk about this in general
+[09:13] what what the what the uh
+[09:17] interaction between light and
+[09:18] gravitational waves is now
+[09:20] in a local inertial frame if i'm uh
+[09:23] uh uh you know in a frame where i can
+[09:26] put down
+[09:27] a minkowski metric and just and i'm
+[09:29] freely falling
+[09:30] and i treat the gravitational wave as a
+[09:32] small perturbation on that minkowski
+[09:34] metric i have linearized gravitational
+[09:36] waves and we've you've studied those you
+[09:38] know what they
+[09:39] they look like they travel at the speed
+[09:41] of light through this local inertial
+[09:42] frame
+[09:43] so they're always locally going at the
+[09:45] speed of light
+[09:47] um but globally the gravitational waves
+[09:49] distort this geometry of space time
+[09:51] and that can affect the travel time
+[09:54] between one place and another
+[09:56] um that is taken by the gravitational
+[09:59] waves and so beam detectors basically
+[10:02] operate on the principle of trying to
+[10:05] measure
+[10:05] travel time of light through a
+[10:07] gravitational wave field
+[10:10] um so here's a simple experiment to
+[10:12] imagine um
+[10:14] people have imagined this uh from very
+[10:17] early on send
+[10:18] a beam of light from a freely following
+[10:20] source your laser or whatever it is and
+[10:22] and by freely falling i mean really out
+[10:24] in outer space with nothing around
+[10:26] that's not that's what we'll do with
+[10:28] lisa it's not what we do on the ground
+[10:29] because we're not freely falling on the
+[10:31] ground so you have to
+[10:33] go to you know next order and ask
+[10:35] yourself does that have any effect but
+[10:37] but the but the principle of the
+[10:38] detection is easiest to see
+[10:40] if you're in uh in empty space you're
+[10:43] freely falling
+[10:44] and you have a light source and it goes
+[10:47] out and reflects off some mirror
+[10:49] and comes directly back to you so a
+[10:51] return trip
+[10:53] how much proper time on your clock you
+[10:55] have you're freely falling you have a
+[10:56] clock
+[10:57] a nice special relativity clock how much
+[10:59] proper time on that clock
+[11:00] is elapsed for that return trip okay
+[11:04] and if you monitor that and the
+[11:07] gravitational waves are going through
+[11:09] you will find that that time changes
+[11:12] and that's a measure of gravitational
+[11:14] waves and that's the principle of
+[11:16] measurement
+[11:16] that's used in interferometers and other
+[11:19] kinds of beam detectors
+[11:21] uh measuring the variations in that
+[11:22] return time
+[11:24] um and it's a
+[11:28] it's a it's an it's something that's
+[11:30] independent of
+[11:32] coordinate systems or gauges or anything
+[11:34] else you have a physical object here
+[11:35] which is sending out light
+[11:36] your physical object out there which is
+[11:38] reflecting it
+[11:39] both in free fall and you have a clock
+[11:41] that's measuring proper time locally
+[11:43] there's nothing
+[11:44] to do with coordinates in this
+[11:45] experiment and uh
+[11:47] so you can calculate in any coordinate
+[11:49] system you want in general relativity
+[11:50] what the return time is going to be it's
+[11:52] going to be the same uh because
+[11:54] it's um it's a it's a measurable it's a
+[11:56] coordinate independent measurable
+[11:58] um so uh um
+[12:01] now there's a there's a very important
+[12:03] formula
+[12:05] um which is uh called the three term
+[12:07] relation
+[12:09] very prosaic name for for uh what is the
+[12:12] fundamental formula for this whole
+[12:14] business
+[12:15] um if you have a gravitational wave so
+[12:17] let's suppose the beam is
+[12:19] the beam of light is going out that way
+[12:20] and my mirror is down there somewhere
+[12:22] and
+[12:22] that's coming back to me the
+[12:24] gravitational wave is coming along
+[12:26] at an angle theta to that to that beam
+[12:28] okay so
+[12:29] uh it's not a perfectly symmetrical
+[12:31] geometry so there's an angle here
+[12:33] which is which is the the direction
+[12:35] between the direction of
+[12:36] travel of the of the gravitational wave
+[12:38] and the direction of travel
+[12:40] of the light that's what theta is and
+[12:44] the answer for this return time is
+[12:48] i'm going to monitor the return time as
+[12:51] the rate of change of the return time so
+[12:52] the
+[12:53] t here is the proper time on my local
+[12:54] clock and i'm just going to say
+[12:56] what's the variation what's the time
+[12:58] variation of this
+[12:59] uh of the return time um and of course
+[13:03] if there's no gravitational waves so you
+[13:04] see a gravitational wave amplitude h
+[13:06] plus h plus is one of the polarization
+[13:09] states i'm taking
+[13:10] the polarization ellipse so that um
+[13:13] uh the uh when
+[13:16] there's a common there's a common axis
+[13:18] which is the when the gravitational wave
+[13:20] is going through and
+[13:21] and the intersection with the uh with
+[13:24] the light direction
+[13:25] i'm going to take the x-axis in that in
+[13:27] that
+[13:28] common plane and that's the orientation
+[13:31] that i take for my polarization so
+[13:33] that's the
+[13:34] other polarization component won't
+[13:35] contribute to the signal only there's
+[13:37] one polarization what does
+[13:38] so i'll call that h plus and you see
+[13:42] each of these things depend determine it
+[13:44] depends on h plus
+[13:46] if there's no gravitational wave if h
+[13:48] plus is zero you just get one
+[13:50] okay one means the light is coming back
+[13:54] always with the same return time so uh
+[13:56] there's no variation
+[13:57] um uh so you ignore the one and and
+[14:00] you're trying to measure these small
+[14:02] variations of order h
+[14:04] the remarkable thing is that um there's
+[14:06] only three
+[14:08] times in during during the during the
+[14:11] signal that are important
+[14:12] so this is the argument of h h is uh
+[14:15] um uh the the value of h
+[14:18] at at your location at the where you're
+[14:20] sending out the light
+[14:21] it's uh it's the uh um the wave field is
+[14:24] passing through
+[14:25] and so it's the value at a particular
+[14:27] time and
+[14:29] um the particular time
+[14:33] um is uh um
+[14:41] this is this is as a function of the
+[14:42] time you sent the light out not the time
+[14:44] you receive it so t
+[14:45] in here is the time when the light was
+[14:46] sent out no uh and then when it's coming
+[14:49] back is t return
+[14:50] so t is the emitted time so here's
+[14:52] here's the amplitude of gravitational
+[14:54] waves at the time
+[14:55] you're emitting it and there's a factor
+[14:57] here that depends upon
+[14:58] a sine of theta um
+[15:03] here is a uh
+[15:07] an argument t plus 2l that's when the
+[15:09] light has come back
+[15:11] now of course return time is affected by
+[15:13] age so
+[15:14] there's a small the return time is maybe
+[15:17] t plus 2l plus a little bit of h but
+[15:19] this is already an argument
+[15:21] to h so that's a second order change so
+[15:23] you don't have to worry about
+[15:25] that as an argument of h so this is the
+[15:27] return time this is when the light has
+[15:29] come back
+[15:29] so these two terms are the gravitational
+[15:32] wave at
+[15:32] you um when you set the light out when
+[15:36] you receive it back
+[15:38] and this this one however is is is
+[15:41] some intermediate time it's um uh
+[15:45] uh uh l times
+[15:48] l is the is the path length the light
+[15:50] the distance out to the to the
+[15:51] to your reflector and this is um one
+[15:54] minus sine theta
+[15:55] uh that comes in and we'll we'll talk a
+[15:57] little bit about that but that's an
+[15:58] intermediate time
+[15:59] so there's three terms in here that's
+[16:01] why it's called three termination
+[16:02] that that effect it's not like it's a
+[16:04] continuous time
+[16:06] um uh h it's just three times
+[16:10] um three different points in the
+[16:12] evolution of that waveform
+[16:14] that affect the return time
+[16:17] let's talk about the geometry so suppose
+[16:20] that
+[16:30] suppose that that the angle
+[16:35] is such that um
+[16:39] that that uh sine theta is equal to one
+[16:42] the angle is 90 degrees
+[16:44] um um
+[16:48] uh i should have drawn the i should have
+[16:52] drawn what the
+[16:53] uh what the uh
+[16:56] geometry is um maybe i should
+[17:04] um oh
+[17:07] okay
+[17:12] so i should have had this diagram here
+[17:14] you have your
+[17:15] you have your your laser here sending
+[17:17] out light
+[17:18] and you have a mirror here that's
+[17:19] reflecting it back and this is a
+[17:20] distance l
+[17:21] and then you have a gravitational wave
+[17:23] coming through
+[17:25] uh with with uh wave fronts
+[17:28] it's a plane wave that's going through
+[17:30] like that the angle theta
+[17:32] is the is the angle between the wave
+[17:35] fronts
+[17:35] and the um and the path of the light
+[17:38] so um you can think of
+[17:42] uh of of this as the angle theta
+[17:47] um so if theta is zero
+[17:51] uh if theta is is is pi over two then
+[17:54] you have a wave coming along here so
+[17:55] theta equals pi over two
+[17:59] is the wave the gravitational wave
+[18:02] is is parallel to the light it's going
+[18:05] along the same direction
+[18:06] as the light so that's that's when i
+[18:08] tilt over here
+[18:09] i make theta equal pi over 2. if you
+[18:11] look at what happens when theta is pi
+[18:13] over two sine theta
+[18:14] is equal to one the first term has a
+[18:16] factor of zero in front the second term
+[18:18] is a factor of two
+[18:19] h plus of t the third term has a factor
+[18:22] of two
+[18:23] and then here the one minus sine theta
+[18:26] that's
+[18:26] that's um uh uh
+[18:29] equal to one so so uh this is at uh
+[18:33] uh this is one minus one that's zero so
+[18:35] the l drops out and it's just a t
+[18:38] and that's the same argument as here so
+[18:39] this term and that term cancel out and
+[18:42] that one is zero
+[18:43] and you get no no effect so when a
+[18:46] gravitational wave is going along here
+[18:48] you don't get any disturbance on the
+[18:49] light at all
+[18:51] and that's because they keep phase with
+[18:53] each other
+[18:54] the action is all transverse and so
+[18:57] there's no disturbance to the light
+[19:00] so that just to normalize the angle
+[19:02] theta for you
+[19:03] the transverse thing here is where theta
+[19:06] equals
+[19:07] zero coming in broadside that's where
+[19:10] you would expect the maximum effect
+[19:12] and um uh if so theta equals zero you
+[19:16] the first term is is fully there the
+[19:17] second term is
+[19:19] uh fully there and the third term is
+[19:22] absent
+[19:22] uh completely so you have just the the
+[19:25] the
+[19:26] sending out time and then and then the
+[19:27] return time and it doesn't even
+[19:29] it isn't even affected by by when the
+[19:32] light is bouncing off the mirror that's
+[19:34] that's interesting it's just the
+[19:35] gravitational wave amplitudes
+[19:37] at the emission and return uh
+[19:40] time that that matter for the for the
+[19:42] signal so that's with theta equals zero
+[19:44] but if you have an intermediate theta
+[19:46] then this term
+[19:48] the the mirror term does uh have some
+[19:50] effect
+[19:51] all right so that's the three term
+[19:53] relation and and it's purely it's a it's
+[19:56] a measurable
+[19:57] and it comes out of gra it comes out of
+[20:02] general relativity any coordinate system
+[20:04] and it just assumes that the
+[20:05] gravitational wave is just a property of
+[20:07] the gravitational wave traveling at the
+[20:09] speed of light
+[20:10] um has nothing to do with the wavelength
+[20:12] of the light that you're using
+[20:13] so sometimes people say well is the
+[20:16] wavelength stretched you know you're
+[20:17] doing a
+[20:18] a an interferometry experiment the
+[20:21] wavelength is important is the
+[20:22] wavelength light affected
+[20:24] that's irrelevant that it's all to do
+[20:26] with the return time
+[20:27] of the light going back and forth um
+[20:30] so let's see how that let's see how that
+[20:33] works
+[20:34] uh this is a busy slide i hope yeah
+[20:37] i hope you can see it i want to talk
+[20:40] about different kinds of beam detectors
+[20:45] uh first is spacecraft tracking
+[20:48] thermometers
+[20:52] from the 1960s people at
+[20:55] at nasa understood that they're sending
+[20:58] spacecraft out through the solar system
+[21:00] and that if you sent signals out to the
+[21:02] spacecraft and got them back
+[21:04] and monitored the return time you were
+[21:06] doing this three-term
+[21:07] experiment you were doing exactly that
+[21:09] experiment
+[21:10] and you might be able to detect
+[21:12] gravitational waves like that in fact
+[21:13] that three-term
+[21:14] formula was derived by people working at
+[21:16] the jet propulsion laboratory
+[21:18] in california for for nasa that was the
+[21:20] first time anybody had ever
+[21:22] fully explored the quantitative
+[21:25] interaction of gravitational waves with
+[21:27] light because that's what they wanted
+[21:29] to do is that is that experiment so they
+[21:31] first began to do that with spacecraft
+[21:33] in the late 60s early 70s the pioneer um
+[21:38] were were involved but also um many of
+[21:41] the later
+[21:42] missions to the outer planets uh also
+[21:44] had it carried experiments
+[21:46] the idea was uh send radio waves out
+[21:50] um and and get them transponded a
+[21:52] transponder is a
+[21:54] is a radio receiver transmitter which
+[21:57] which tries to send signals back tries
+[22:00] to send exactly
+[22:01] a signal answering signal when it
+[22:03] receives one it tries to answer with a
+[22:05] minimum delay or with a known delay
+[22:07] so you can measure the time of travel
+[22:11] and do that experiment um so that's what
+[22:14] the transponders were doing
+[22:16] the sensitivity of this kind of
+[22:17] experiment is limited by the fact that
+[22:19] you're not in vacuum
+[22:20] you're in it there's an interplanetary
+[22:22] plasma that affects the travel time of
+[22:24] radio waves
+[22:25] and so the time return time that you get
+[22:28] isn't just a function of the
+[22:29] gravitational waves
+[22:31] so you have noise from the plasma and
+[22:34] also you have to measure
+[22:36] what i didn't talk about of course is
+[22:37] you have to measure that return time so
+[22:39] you have to have a very good
+[22:40] clock and so you have atomic clocks um
+[22:42] at the radio telescopes
+[22:44] on the earth in the in the deep space
+[22:46] network uh nasa's
+[22:48] instrument of the deep space network
+[22:49] with extremely good uh atomic clocks
+[22:52] those clocks some of the best in the in
+[22:54] the world are stable at some level like
+[22:56] 10 minus 16 or 10 minus 17 well
+[22:58] probably 10 minus 16. um and that is the
+[23:02] limit
+[23:02] um you you wouldn't be able to detect
+[23:04] variations at less than parts and 10 of
+[23:07] the 16
+[23:08] if you have a clock that isn't reliable
+[23:09] with those um
+[23:11] accuracies and so the typical values of
+[23:13] h that you can
+[23:15] get from from all this around 10 to the
+[23:16] minus 16. the frequency band is one over
+[23:19] the time scale so basically you're
+[23:21] looking for
+[23:22] effects that happen over the time scale
+[23:24] and of transplanting and so on
+[23:26] so it's millihertz
+[23:29] uh and these experiments have been run
+[23:31] many times
+[23:32] the galileo mission uh was the most
+[23:35] recent one and and
+[23:36] i think and and they um uh come out with
+[23:40] uh numbers like that but they have never
+[23:42] detected gravitational waves
+[23:44] um but that's that's the uh the classic
+[23:47] beam detector of the kind that i just
+[23:49] was talking about
+[23:50] there's another variation on this which
+[23:52] is called pulsar timing which
+[23:54] i've talked about where you get po where
+[23:55] you get pulses of radio waves from
+[23:57] distant pulsars
+[23:58] the radio waves travel through the
+[24:00] gravitational wave field arrive at your
+[24:02] location
+[24:03] the trouble is we're not sending them
+[24:05] back we don't send a signal out to the
+[24:06] pulsar which is
+[24:08] which is after all thousands of light
+[24:10] years away and would be a very difficult
+[24:12] experience experiment to do so we're
+[24:14] just relying on this on the pulsar
+[24:16] giving us these regular signals
+[24:20] so it's not a two-way it's not an up and
+[24:22] back it's just a one-way thing
+[24:23] but you can do the one-way calculation
+[24:25] and it's you come out with numbers that
+[24:27] are
+[24:27] similar of course formulas that are
+[24:31] um uh there the
+[24:35] and what you get is that h matters both
+[24:37] at the earth
+[24:38] and at the pulsar the the it's affected
+[24:40] by whatever gravitational wave field was
+[24:42] passing the pulsar
+[24:44] a thousand years ago when that radio
+[24:46] pulse was emitted
+[24:47] and what gravitational wave field is
+[24:48] passing the earth right now
+[24:50] but the pulsars are all over the sky and
+[24:53] the gravitational wave field
+[24:55] at the pulsar and at this pulsar and
+[24:57] that pulsar are not correlated with one
+[24:58] another so that's basically a noise
+[25:01] so you average over all the pulsars so
+[25:02] you don't pick up any information about
+[25:04] the gravitational waves
+[25:05] at the pulsars you you only get the
+[25:08] correlated
+[25:09] effect which is the gravitational wave
+[25:10] at the at the earth
+[25:12] at the time all these pulses are
+[25:13] arriving at the same time
+[25:15] so that's what you're well that's what
+[25:17] you're measuring is the gravitational
+[25:18] wave
+[25:19] um uh uh at the earth
+[25:23] the sensitivity of these experiments is
+[25:25] limited by clocks on earth again your
+[25:27] timing
+[25:28] um and um and also it's it's limited by
+[25:32] intrinsic pulsar
+[25:33] irregularities we the pulses are
+[25:36] uh some pulsars are quite noisy and we
+[25:38] don't want to use those but there are
+[25:39] some pulsars called millisecond pulsars
+[25:42] which are extremely clean where the
+[25:43] pulse is just coming out
+[25:45] with great regularity the individual
+[25:47] pulses can still
+[25:48] vary quite a lot but when you average
+[25:50] over about a year
+[25:51] with these millisecond pulsars and take
+[25:53] out a few systematic trends that are
+[25:56] the radio astronomers observe then you
+[25:59] get
+[25:59] a very clean signal from several pulsars
+[26:02] there's probably about 20 pulsars around
+[26:03] the sky that could be used for
+[26:05] for timing um they're so clean
+[26:10] that even with the best atomic clocks we
+[26:12] cannot detect
+[26:13] variations irregularities in their
+[26:16] pulses
+[26:16] so we don't know if they're better
+[26:18] clocks
+[26:20] but over time scales of about a year it
+[26:21] looks like the pulsars may be better
+[26:23] clocks than the
+[26:24] best clocks we can build at the moment
+[26:27] so so the limits on pulsar timing are
+[26:30] set by
+[26:30] clocks and the intrinsic
+[26:34] pulsar irregularities are either on the
+[26:36] same time scale as the clock
+[26:38] irregularities or maybe even better
+[26:39] so as our clocks improve pulsar timing
+[26:41] will improve
+[26:44] um but it means that the pulsar timing
+[26:46] is still limited around 10 by 16. but i
+[26:48] showed you earlier
+[26:50] that the that albertos suzanna's
+[26:51] predictions for gravitational wave
+[26:53] backgrounds for pulsar timing
+[26:54] are in that range around 10 minus 16.
+[26:57] those are strong
+[26:58] background chaotic stochastic signals
+[27:01] um so um uh uh
+[27:04] so pulsar timing unlike the signals
+[27:07] looking for spacecraft tracking pulsar
+[27:08] timing
+[27:09] has a chance of detecting even with the
+[27:11] clocks that exist today
+[27:13] the frequency band is not set by
+[27:16] transmission time which is the
+[27:17] thousands of years it's set by the
+[27:19] averaging time to get to very stable
+[27:21] pulsar
+[27:22] um uh arrival times and that's a
+[27:24] averaging time of about a year
+[27:26] so that means that what we're observing
+[27:28] with pulsar time is about
+[27:30] one to ten nanohertz it's it's below
+[27:33] frequency of leesa band it's a totally
+[27:35] different frequency band than anything
+[27:36] else
+[27:36] accessible to us and the sources are
+[27:38] these supermassive black holes
+[27:40] uh and they're binaries and so on
+[27:44] so if i then go to to the next one um
+[27:47] imagine building a one arm detector
+[27:49] a one arm detector with a clock it's
+[27:52] just like spacecraft tracking it's the
+[27:53] same thing
+[27:54] you you send light up and down it's the
+[27:57] thought experiment i just did and i have
+[27:58] a very good clock
+[28:00] and i do that why don't i build a
+[28:01] gravitational wave detector like that
+[28:03] why don't i put one of those on the
+[28:04] ground or in space why go to the
+[28:07] extra effort of building two arms for an
+[28:09] interferometer because it's
+[28:10] all very expensive big vacuum system and
+[28:12] lots of civil engineering
+[28:14] and so on well the so so the one arm is
+[28:17] is the
+[28:18] would be the would be the instrument of
+[28:20] choice if you could do it
+[28:22] but again we come down to the clocks the
+[28:25] one arm detector is limited by the
+[28:26] clocks both of these things are are
+[28:28] clock limited
+[28:29] and right now it's 10 minus 16. the
+[28:32] people who build
+[28:33] atomic clocks have great ambitions
+[28:34] they're hoping to to put
+[28:36] to to be able to construct clocks that
+[28:38] get to 10 minus 18
+[28:40] um in the very near future 10 minus 19
+[28:42] maybe 10 minus 20. so i put 10
+[28:44] minus 20 here but 10 minus 20 isn't good
+[28:47] enough
+[28:48] to get to the kinds of sensitivity
+[28:50] levels that we need
+[28:52] for ground-based detection in the
+[28:53] kilohertz band and so that's why we
+[28:56] don't have just one arm detectors with
+[28:57] good clocks we just don't have clocks
+[28:59] good enough
+[29:00] as soon as the clocks get good enough we
+[29:02] may you know
+[29:03] uh do that but at the moment we need
+[29:05] interferometers and i'll come back to
+[29:07] interferometers
+[29:08] but we we in principle you could use a
+[29:10] one arm detector with a clock
+[29:13] if you had one the frequency band would
+[29:14] be determined by the arm length
+[29:16] the time up and up and down um uh
+[29:20] would be a sort of sampling time and um
+[29:22] and also then by the clock stability
+[29:24] time scale so
+[29:25] how how much the clocks um
+[29:29] variation i have a question does that
+[29:32] involve
+[29:33] putting clocks very sensitive clocks on
+[29:35] spacecrafts that
+[29:37] go somewhere far away uh well i
+[29:40] imagine you know for one arm detector i
+[29:42] imagine you could build it on the ground
+[29:43] and you just have a clock um at the
+[29:46] place where you're sending the laser out
+[29:48] but in space then you would have a you
+[29:51] would have to
+[29:52] face the additional complication of
+[29:53] putting a really good atomic clock in
+[29:54] space
+[29:57] if we have any high precision clock
+[29:59] outside like
+[30:00] maybe there is something on voyager or
+[30:02] pioneer or something like that
+[30:04] yeah that's right but those cloud the
+[30:06] but but the clocks you can put in space
+[30:09] are always one or two generations behind
+[30:10] the ones you can build on the ground
+[30:14] um the um
+[30:17] uh but what is but but the next
+[30:19] paragraph is
+[30:20] relevant to that because there's a lot
+[30:22] of discussion right now of a
+[30:23] atom interferometry um
+[30:27] for gravitational wave detector
+[30:28] detection now
+[30:31] you know that that atoms and particles
+[30:35] are at a quantum level are waves there's
+[30:38] a the
+[30:39] the the wave particle duality and so you
+[30:41] you can imagine constructing an
+[30:43] interferometer
+[30:45] in which the medium is that's being
+[30:47] interfered is not
+[30:48] light but is is atoms and people have
+[30:50] done this um to demonstrate
+[30:52] uh the wave nature of matter um and you
+[30:55] could imagine
+[30:56] using that to detect gravitational waves
+[30:58] uh in the same way
+[31:00] uh it wouldn't you'd have a different
+[31:02] three-term relation all that would be
+[31:03] different but
+[31:04] but in principle you could detect
+[31:05] gravitational waves that way um
+[31:08] that's way in the future nobody knows
+[31:10] yet any practical way of doing that
+[31:12] but the people who do adam
+[31:13] interferometry are proposing to build a
+[31:15] space
+[31:16] a one-armed space detector
+[31:20] in which basically atom interferometer
+[31:22] takes the
+[31:23] takes the role of the clocks and you
+[31:25] have uh
+[31:26] clouds of uh atoms that are ejected at
+[31:29] both ends
+[31:30] and so you don't have a a return time
+[31:33] you have you have a
+[31:35] uh the transition that
+[31:38] is being used for the for the clock is
+[31:42] is uh uh uh the same and you
+[31:45] set up you pass a beam of light through
+[31:47] the atoms
+[31:48] uh at one end and that imprints a
+[31:50] certain state a certain quantum state
+[31:52] there there's a it's all to do with
+[31:55] entangled states
+[31:56] and then when you get to the other end
+[31:57] you resolve the entanglement
+[32:00] and hopefully that gives you a higher
+[32:03] accuracy
+[32:04] than atomic clocks so you're not
+[32:06] measuring time with an atomic clock
+[32:07] you're just measuring a phase
+[32:09] or or time transmission differential so
+[32:12] it's not as demanding as having a full
+[32:14] atomic clock but but it's um
+[32:16] something you might be able to do with
+[32:18] out of interferometry so this is being
+[32:19] i'm a member of a committee for
+[32:21] esa we've we've talked about this as a
+[32:24] future technology some of the people who
+[32:26] do this
+[32:26] are members of the committee it doesn't
+[32:29] look like it's a technology that we can
+[32:31] use on the time scale of lisa
+[32:33] but it is it is something that might
+[32:34] come along for a next generation lisa
+[32:37] um and so so keep your eye on adam
+[32:40] interferometry
+[32:41] for gravitational wave detection it's a
+[32:43] kind of hybrid between
+[32:45] it's a beam detector but instead of
+[32:46] having clocks that's using atom
+[32:48] interferometry and entanglement
+[32:50] would be very sexy so
+[32:55] that's those are all the things that i
+[32:57] wanted to get out of the way before i
+[32:58] came to the one that is the most
+[33:00] effective one
+[33:01] which is the laser interferometer um i
+[33:03] wanted to explain to you why we don't do
+[33:05] these other things
+[33:06] all of which might seem a bit easier but
+[33:08] we do pulse our timing and it's a
+[33:09] different frequency range
+[33:11] but um why are we doing the laser
+[33:13] interferometers with their two arms
+[33:14] instead of one
+[33:15] and all the um uh uh stuff that's going
+[33:18] on
+[33:19] the reason is you can think of it
+[33:20] physically as the second arm
+[33:22] is is is basically the time reference
+[33:24] for the fir
+[33:25] for the other arm um you can't build a
+[33:28] clock
+[33:28] that's accurate to that level but if you
+[33:31] have two cavities
+[33:32] uh uh that are both uh being uh
+[33:35] stabilized then
+[33:36] you're beating one cavity against the
+[33:38] other and so
+[33:39] your your um uh your accuracy
+[33:44] uh 10-21 or or or whatever
+[33:47] is now how how stable can you make those
+[33:50] cavities
+[33:52] that that you can get a time reference
+[33:54] or a phase reference out of each of
+[33:56] those cavities
+[33:57] the the difference be it's not exactly
+[34:00] having one of them as a clock and one of
+[34:01] them is a gravitational wave detector
+[34:03] because they're both cavities they're
+[34:04] both affected by the gravitational wave
+[34:06] as it comes through
+[34:07] and so what you pick up is the
+[34:09] difference between
+[34:10] what happens in one arm and what happens
+[34:12] in the other so it's a different uh
+[34:14] the three term relation has to be put
+[34:16] together in two perpendicular ways to
+[34:18] get
+[34:18] to get the uh response to the
+[34:20] interferometer out
+[34:22] okay um but that but but you can
+[34:25] you can do all that uh you have a
+[34:27] different angle theta and and all that
+[34:29] but
+[34:29] but uh it's fairly straightforward to
+[34:31] work out what the response of an
+[34:32] interferometer is
+[34:34] the sensitivity is then limited by how
+[34:36] well you can build the cavities and
+[34:37] there's the environment
+[34:39] environmental noise seismic noise and so
+[34:41] on there's laser noise
+[34:44] there's the photon shot noise and i'll
+[34:46] be talking about some of these later on
+[34:48] thermal effects in the mirrors mirror
+[34:50] quality the
+[34:51] the shape of the mirrors all these
+[34:53] things affect how well you can make your
+[34:54] cavities
+[34:55] and how how good you can make your uh
+[34:58] detector but
+[34:59] but we do believe we can get detectives
+[35:01] 10 minus 22
+[35:02] in the next few months and 10 minus 23
+[35:06] or 10
+[35:06] minus 24 when we um push the
+[35:09] technologies even further
+[35:11] the frequency band is determined by the
+[35:13] arm length basically
+[35:14] um but but it's a it's a slightly
+[35:19] it's determined but it's not equal to
+[35:21] the arm length or one over the arm
+[35:23] length
+[35:23] um because we use we use in in these
+[35:26] cavities we use multiple reflections of
+[35:28] light and so we build up a signal in a
+[35:30] cavity
+[35:30] that's much um that stays in the cavity
+[35:34] much longer than a single light crossing
+[35:36] time of the cavity so
+[35:37] so the cavities may have may have let's
+[35:40] say
+[35:40] a um a a natural frequency range around
+[35:45] uh around 100 kilohertz or something
+[35:48] like that
+[35:48] but actually we're measuring one
+[35:50] kilohertz gravitational waves or 100
+[35:52] hertz gravitational waves
+[35:53] by by keeping the light in the cavities
+[35:55] for much longer periods of time um
+[35:58] so but it's basically the alarm length
+[36:00] and when we go into space
+[36:02] we have much longer arms we have
+[36:03] millions of kilometers instead of a few
+[36:05] kilometers
+[36:06] and so then then we go to the um
+[36:08] millihertz band from from the sp
+[36:10] from the ground base bend um there is
+[36:13] one thing i wanted to do
+[36:15] uh sorry i should have done before so
+[36:17] let me go back
+[36:18] to to this diagram
+[36:22] to the three term relation um
+[36:26] i want to also um
+[36:30] look at the short arm so i've made no
+[36:33] assumption about how long
+[36:35] l is um uh in relation to let's say
+[36:40] the wavelength of gravitational waves so
+[36:42] the wavelength of gravitational waves
+[36:43] comes into this
+[36:45] because if l is short compared to the
+[36:48] frequency wavelength of the
+[36:49] gravitational waves or or
+[36:51] then 2l is a short time compared to the
+[36:54] period of the gravitational wave
+[36:56] and you can do a taylor expansion of h
+[36:58] dot of h
+[36:59] and and just keep first order in l okay
+[37:02] so in the short
+[37:03] in the small detector limit where the
+[37:05] way the arm length is small compared to
+[37:08] the the wavelength i can i can simplify
+[37:11] this by doing a taylor expansion
+[37:15] and what
+[37:18] what happens when i do that if you go
+[37:20] through all of it you get something
+[37:22] where um uh i just get the first order
+[37:25] terms in l
+[37:26] i mean we've we've effectively done that
+[37:28] i mean if i set l equals zero
+[37:30] uh then all these terms are bound to
+[37:32] cancel out if i have a
+[37:34] no armed if i have a no arm detector l
+[37:36] equals zero i'm not going to get any
+[37:38] uh signal so um so to first order in l
+[37:42] everything that comes out here will be
+[37:44] proportional to l and so the signal
+[37:46] that i'm measuring is proportional to l
+[37:50] and you can understand that in physical
+[37:52] terms
+[37:53] for a short detector compared to the
+[37:54] wavelength of gravitational wave
+[37:56] you're in the diagram where the where
+[37:58] the the title effect
+[38:00] is is uh uh coherent across your whole
+[38:03] detector
+[38:04] and so you're just stretching it out in
+[38:06] proper distance and then compressing it
+[38:07] in proper distance
+[38:08] everything is depending about just on l
+[38:11] uh and that's
+[38:13] a simple picture and that's what we have
+[38:15] on the ground that picture fails
+[38:19] if l is much bigger or comparable
+[38:22] to the wavelength of the gravitational
+[38:24] wave because then the gravitational
+[38:25] waves can be coming through this
+[38:27] picture in the way i've drawn them with
+[38:28] short wavelengths compared to l
+[38:30] and so the the light is going through a
+[38:32] fluctuating wave field
+[38:34] and you're getting cancellations you're
+[38:36] getting some effect and it cancels out
+[38:37] and so on
+[38:38] and all of that is in this formula you
+[38:40] can rely on this formula
+[38:41] um but it means that it's not just a
+[38:44] simple
+[38:45] uh coherent expansion and contraction uh
+[38:48] and with lisa we're in that regime
+[38:50] lisa's arm lengths of millions of
+[38:51] kilometers are longer
+[38:53] than some of the wavelengths are
+[38:55] comparable to some of the wavelengths
+[38:56] and that has some effect on lisa's
+[38:57] sensitivity and
+[38:59] and so on at the higher frequency end so
+[39:01] that's just something i wanted to point
+[39:02] out that there's
+[39:03] um this thing gets simpler if i if i go
+[39:05] to the short way
+[39:06] the short arm limit and that is
+[39:09] appropriate for
+[39:10] uh ground-based detection okay
+[39:14] um uh so so i did the all the beam
+[39:17] detectors now
+[39:18] whoops um now i want to do
+[39:22] um one other before i come back to the
+[39:24] information i want to talk about one
+[39:25] other way in which people are talking
+[39:26] about detecting gravitational waves
+[39:28] which is the cosmic microwave background
+[39:31] and we had last year this excitement
+[39:33] from the bicep 2
+[39:35] experiment that they thought they had
+[39:37] seen the signal of gravitational waves
+[39:39] what's going on there it's even though
+[39:41] cosmic microwaves are microwaves
+[39:44] uh it's not a beam detector we're not
+[39:47] seeing
+[39:48] time variations in the in the
+[39:50] transmission of cosmic microwaves
+[39:52] uh to our detectors what we're seeing is
+[39:55] the imprint of gravitational waves
+[39:58] on the polarization waves so
+[40:03] a photon scattering off of the charges
+[40:06] that are moving
+[40:07] then that alters the polarization
+[40:09] pattern if the charge is stationary
+[40:10] you'll have a random polarization
+[40:13] but if if if the plasma is moving this
+[40:15] way
+[40:16] you get preferential polarization one in
+[40:18] in the transverse direction
+[40:19] so um so a gravitational wave
+[40:23] uh sort of coherently stretching out the
+[40:25] plasma
+[40:26] at the just at the time when the
+[40:28] universe is becoming transparent will
+[40:29] leave an imprint
+[40:30] of uh in the polarization signal of
+[40:34] of its existence and that's what people
+[40:36] are looking for the
+[40:38] the and that's a scattering so um
+[40:41] it's a bit more like a bar experiment
+[40:43] because the bar
+[40:44] you have a mechanical system being
+[40:46] distorted in some way by the
+[40:48] gravitational wave
+[40:48] and then you then you try to figure out
+[40:51] what's happening
+[40:52] the microwaves are carrying us the
+[40:54] signal of what's happening but it's not
+[40:55] a beam detector
+[40:57] um uh the density perturbations
+[41:00] were around one part and 10 of the six
+[41:02] at the time
+[41:04] that's all these nice little
+[41:05] fluctuations in in them these wonderful
+[41:07] diagrams that come out of cmb
+[41:09] observations so the gravitational wave
+[41:11] perturbations
+[41:12] uh might have had a similar amplitude
+[41:15] and
+[41:15] the bicep two is is um an experiment
+[41:18] that would
+[41:19] would allow the detection of
+[41:21] gravitational waves at that sort of
+[41:22] amplitude
+[41:23] um if they were there um
+[41:26] and um and so that's the sensitivity and
+[41:29] this and the cmb
+[41:31] um the sky resolution of the cmb all
+[41:33] these little fluctuation
+[41:35] elements that you can resolve uh that
+[41:37] determines the wavelengths of the
+[41:38] gravitational waves because
+[41:40] what you're seeing is in each one of
+[41:41] these cells which is a
+[41:43] you know the angular resolution of these
+[41:45] cmb experiments
+[41:46] you have to have a coherent
+[41:47] gravitational wave signal so you're
+[41:48] seeing the gravitational wave
+[41:50] that had the wavelength at the time that
+[41:53] fills up that
+[41:53] angular region on the sky today okay um
+[41:57] so um uh it's
+[42:00] uh maybe a thousandth of the hubble
+[42:03] horizon at the time
+[42:04] at that time uh um that's what the
+[42:06] wavelengths of the gravitational waves
+[42:08] are
+[42:08] that you are selected by this method uh
+[42:12] and as you know i i'm sure the bicep
+[42:16] team have had to agree that that the
+[42:18] measurements from the planck satellite
+[42:20] um indicate that they didn't have the
+[42:22] sensitivity to
+[42:23] see gravitational waves because they
+[42:25] reflect their background fluctuation
+[42:27] foreground fluctuations caused by by
+[42:30] intermediate uh ionization and so on on
+[42:33] the plasma
+[42:35] uh on on the on this cosmic microwave
+[42:37] background so you're not going to see
+[42:39] those in the in the bicep 2 data
+[42:42] but you may be able to peer through that
+[42:44] you may the way to get through that is
+[42:47] that the
+[42:47] foregrounds have a different have a
+[42:49] frequency dependence that is different
+[42:51] from the
+[42:52] from the from the cosmic microwave
+[42:54] background so if you can measure over a
+[42:55] big frequency range
+[42:56] bicep two only measure one frequency if
+[42:59] you can measure
+[43:00] over at several cosmic microwave
+[43:01] background frequencies you can subtract
+[43:04] the foreground signal and try to get
+[43:06] below it and that's what people are
+[43:07] doing now and so if
+[43:08] if the gravitational waves are at this
+[43:10] 10-6 level then in another
+[43:12] uh year or so we may we may really have
+[43:15] a measurement
+[43:16] um but there are a lot of people who um
+[43:19] a lot of theorists who predict the
+[43:20] gravitational wave signal is actually
+[43:21] zero
+[43:22] so um uh any any you know uh
+[43:26] we may well we might get upper limits
+[43:28] and and it's hard to predict when we're
+[43:29] going to get to that
+[43:30] level but i wanted to talk about that
+[43:32] because it's another way of detecting
+[43:34] gravitational waves
+[43:35] that's quite different from the things
+[43:36] that we've been talking about
+[43:38] but now in the last uh part of this
+[43:40] lecture i want to talk about
+[43:41] interferometers
+[43:43] um and i think they're wonderful
+[43:45] instruments because they involve
+[43:46] practically every branch of physics
+[43:48] um you if you love thermodynamics then
+[43:51] you're going to
+[43:52] find a place in a team that builds
+[43:54] gravitational wave detect is controlling
+[43:56] the thermal effects in in mirrors if you
+[43:58] uh
+[43:59] are a materials person then we really
+[44:02] need you to help us
+[44:04] with things like suspending suspending
+[44:07] the
+[44:08] the mirrors and uh constructing the
+[44:10] mirrors
+[44:11] um uh themselves um ev
+[44:14] you know optics uh uh obviously quantum
+[44:17] optics obviously everything goes
+[44:19] practically every every branch of
+[44:21] physics comes in somehow
+[44:23] um the principle of the of the
+[44:25] interferometer
+[44:27] um uh uh i'll come back to
+[44:30] uh sorry uh uh uh there are some very
+[44:33] interesting things
+[44:34] and some myths about inferometers i want
+[44:35] to explode a bit later
+[44:37] but but let's just talk about um uh
+[44:40] the the limitations so environmental
+[44:43] disturbances are a big limitation the
+[44:45] two primary sources are environmental
+[44:47] and laser short
+[44:48] shot noise so environmental disturbances
+[44:50] means
+[44:52] noise from the ground um uh
+[44:55] and the way we get rid of that is our
+[44:57] pendulum suspensions
+[44:59] so we hang the mirrors from
+[45:02] maybe a mirror a meter or more of
+[45:05] a suspension and you know with a
+[45:08] pendulum
+[45:08] that it's a it's a mechanical filter
+[45:10] that if you wiggle
+[45:11] the top of a pendulum at a very high
+[45:14] frequency compared to the pendulum
+[45:15] frequency
+[45:16] then the pendulum hardly moves at all if
+[45:18] you
+[45:19] move the top of the pendulum at a low
+[45:21] frequency compared to the pendulum
+[45:22] frequency then the pendulum just follows
+[45:24] along and with your motion
+[45:26] so it's a it's a it's a low-pass
+[45:28] mechanical filter
+[45:30] and what we do in ligo uh and was
+[45:33] developed in geo is we have a three
+[45:35] stage suspension
+[45:36] three ganged pendulum so we have the
+[45:38] product of three
+[45:39] filter functions um uh so we have a very
+[45:43] steep falloff
+[45:44] of of seismic noise but but basically
+[45:47] the turning point is around the hertz
+[45:48] and so
+[45:49] we have a lot of noise in the system at
+[45:50] a hertz and then it falls off very fast
+[45:53] and by the time we get to observing
+[45:54] frequencies around 10 hertz we hope
+[45:57] um then it should be low enough for us
+[45:58] to be able to to
+[46:00] to uh to observe so so
+[46:03] uh the the lower limit on our frequency
+[46:06] uh band is set by the pendulum
+[46:10] at the upper end of frequencies very few
+[46:12] noise sources come in the the
+[46:14] the it's it's actually easy to build a
+[46:17] relatively easy build an interferometer
+[46:19] that is isolated and
+[46:20] and and and so on and so at the upper
+[46:24] upper end um we're limited by the amount
+[46:26] of laser light that we can put in
+[46:28] because laser light is quantized and you
+[46:30] have photons and the photons arrive
+[46:33] at the beam splitter in a random way and
+[46:36] that causes
+[46:38] tiny fluctuations in the intensity of
+[46:40] the light that comes out
+[46:41] even in a in a perfectly stable
+[46:43] interference pattern you'll have these
+[46:45] little fluctuations
+[46:46] and so um they have to be at a that sets
+[46:49] a noise limit that's the noise in our
+[46:51] interferometer that's called laser shot
+[46:53] noise
+[46:54] uh that dominates at the high
+[46:55] frequencies and i'll show you some
+[46:57] some some uh examples of that um
+[47:02] but if you understand these two kinds of
+[47:03] noise you understand the sensitivity of
+[47:06] gravitational wave detectors pretty much
+[47:08] um and we have ways of attacking
+[47:11] uh uh attacking this we we have uh
+[47:15] uh in virgo they they're even doing a
+[47:17] better job at the
+[47:19] for the environmental disturbances they
+[47:20] have they have they have six stage
+[47:22] pendulum
+[47:23] suspensions laser shot noise you can
+[47:26] affect by squeezing
+[47:28] you can put the laser light into a
+[47:30] quantum state so the fluctuations in
+[47:32] intensity
+[47:33] at the exit port where you're measuring
+[47:35] it are actually
+[47:37] lower um you you make you
+[47:40] effectively make two beams correlated so
+[47:42] that photons arrive back in a correlated
+[47:44] fashion um that's called squeezed light
+[47:47] and we're doing that we
+[47:48] did that in geo and i'll show you some
+[47:50] results of that and
+[47:52] that's being put into the big
+[47:55] interferometers in a second stage so
+[47:57] um we'll get below the standard shot
+[47:59] noise limit but it'll still be laser
+[48:01] noise a photon noise that affects it
+[48:04] all right now here's a quick
+[48:06] introduction to how to build
+[48:07] interferometer how it works
+[48:09] this is a standard what we call a
+[48:10] michelson interferometer
+[48:13] laser beam splitter mirror up there
+[48:16] mirror down mirror over there and photo
+[48:19] detector light comes out of the laser
+[48:21] reflects it gets split here into two
+[48:24] beams
+[48:25] reflects back the two beams come back
+[48:28] there's an interference pattern on the
+[48:30] on the beam splitter
+[48:31] some of the light is reflected back in
+[48:33] this direction and
+[48:35] this is the constructive interference
+[48:37] pattern and this is the destructive
+[48:38] interference pattern goes out here
+[48:41] now normally we want to run so that this
+[48:44] is zero normally we don't want anything
+[48:46] coming out here so that when we get a
+[48:47] signal
+[48:48] we go up from zero to something that's a
+[48:50] good signal noise change
+[48:52] um and then we're only limited by the
+[48:54] noise in our photo detector
+[48:55] but that has the remarkable and somewhat
+[48:58] disturbing
+[49:00] result that all the light is going back
+[49:02] in this direction
+[49:03] right if nothing's come out here then
+[49:05] it's all going back here
+[49:07] and uh and it hits the wall and burns a
+[49:09] hole in your wall
+[49:10] and um is is is lost so
+[49:13] ron drever back in the 1980s had the
+[49:15] wonderful idea
+[49:16] of um catching catching oh no sorry i'm
+[49:20] getting ahead of myself
+[49:21] the next thing is first of all um
+[49:24] uh why just put the light just up and
+[49:26] down once why not put
+[49:28] another mirror here and then catch the
+[49:31] light
+[49:32] and what i've shown is it bounces up and
+[49:34] down just once
+[49:36] which is actually what happens in geo
+[49:38] but
+[49:42] but in uh it's slightly different than
+[49:44] the other ones but but this is what i
+[49:46] was telling you about
+[49:47] is basically you store the light in the
+[49:49] arms for longer than the light travel
+[49:51] time up and down the arm here you
+[49:53] you're doubling the light travel time
+[49:54] with one bounce but you can imagine lots
+[49:56] of bounces and in fact
+[49:58] in in a detector that was a prototype
+[50:01] for geo that was built in
+[50:02] in uh garking near munich um
+[50:06] they had they had about 40 reflections
+[50:08] on a big mirror they had different spots
+[50:10] on this
+[50:10] on this on this interior mirror and they
+[50:12] had 40 independent bounces before the
+[50:14] light came back out it was really
+[50:15] elaborate
+[50:16] um uh but it was also quite difficult to
+[50:19] control and we don't do things that way
+[50:21] anymore there are more sophisticated
+[50:22] ways of doing it but nevertheless the
+[50:24] principle is the same you store the
+[50:25] light here
+[50:26] the what that does is effectively
+[50:28] increase the arm length remember we're
+[50:29] in the short arm
+[50:31] uh regime and so the gravitational wave
+[50:34] is coherent
+[50:35] uh over this whole detector if you store
+[50:37] the light in the in the arm it just
+[50:39] keeps acting in the same way it just
+[50:40] keeps stretching it out and stretching
+[50:42] it and stretching out
+[50:43] so as long as you store it for less than
+[50:45] about a quarter of the period of the
+[50:46] gravitational wave
+[50:48] you get a coherent effect on all those
+[50:50] bounces and and the signal just builds
+[50:52] up
+[50:52] and so that's the idea of of storing
+[50:55] light and that's a big advance
+[50:56] that that really improves the
+[50:57] sensitivity it effectively makes
+[50:59] the arm length much longer than you
+[51:01] could build in practice
+[51:04] i'll come back to that as an important
+[51:06] aspect
+[51:07] but then what i said ron dreever at
+[51:09] glasgow had this wonderful idea of power
+[51:11] recycling
+[51:12] why not catch the light that's coming
+[51:14] back here this is the light that's
+[51:16] wasted
+[51:16] catch it and send it back in and reuse
+[51:19] it
+[51:20] and so if you just catch it in such a
+[51:23] way that
+[51:23] that you make sure it comes back in with
+[51:25] the same phase
+[51:26] see the gravitational wave isn't
+[51:28] imprinted there because it's the sum
+[51:31] um uh here's the difference and that's
+[51:33] where you see the gravitational wave but
+[51:34] there's no gravitational wave signal
+[51:36] in here and so uh you just catch it and
+[51:38] you make sure it's in phase with the new
+[51:40] light that's coming in
+[51:42] and you recycle it it's wonderful it's
+[51:44] all very environmental today
+[51:47] uh it's recycling and um
+[51:50] so it's power recycling and and that's
+[51:52] what uh ron
+[51:53] in uh ron uh uh proposed also was
+[51:57] proposed by
+[51:58] um uh a shilling uh uh in
+[52:01] in in munich at this at roughly the same
+[52:03] time the two of them
+[52:04] had the this idea independently they
+[52:07] were both working on the
+[52:08] things they realized that they were
+[52:09] wasting a lot of light why not grab it
+[52:11] and bring it back in
+[52:12] now if you have perfect mirrors then you
+[52:16] wind up with a laser bomb
+[52:17] because because nothing ever comes out
+[52:20] there's no gravitational wave down here
+[52:21] allowing you so the light builds up
+[52:23] until you know um
+[52:24] you but that doesn't i'll come back to
+[52:26] you but that doesn't really happen
+[52:28] because you have losses at the mirrors
+[52:30] you have reflection
+[52:32] losses some scattering uh some
+[52:35] absorption and so on
+[52:36] but what happens is that the light up in
+[52:39] here
+[52:40] until it's limited by those reflections
+[52:42] and losses so the losses of
+[52:44] so this laser is supplying the losses at
+[52:47] the mirrors
+[52:48] all right so that if you can make your
+[52:50] mirrors really good and we have mirrors
+[52:51] with losses of 10 to the
+[52:53] one part and 10 of the six so that means
+[52:55] you can have a million times as much
+[52:56] power
+[52:57] inside the cavities as the laser power
+[53:00] coming in
+[53:00] and the laser power is just re just
+[53:02] replacing the losses
+[53:03] so this is a huge improvement in
+[53:06] sensitivity
+[53:06] a huge reduction in in shot noise sorry
+[53:09] no
+[53:10] why wouldn't you
+[53:19] um you mean remove these mirrors
+[53:25] this it to the other side of the one
+[53:28] and remove the the mirrors
+[53:31] which are within the laser construction
+[53:34] you mean remove these
+[53:36] in the little box there's probably some
+[53:37] mirrors inside
+[53:39] oh i see no you wouldn't do that because
+[53:41] because then you'd have a huge amount of
+[53:42] light going through the laser and it
+[53:44] would be it would distort all
+[53:45] the optics and so on you have to have a
+[53:47] really really sharp line here
+[53:49] and you want this laser to be very very
+[53:51] well controlled so you wouldn't do that
+[53:52] you wouldn't want all that light going
+[53:54] through the laser
+[53:55] it's much better to just just just
+[53:57] adjust the phase
+[53:58] with feedback systems so that they're in
+[54:00] phase it's pretty easy to do
+[54:03] i thought you were going to remove these
+[54:06] what what actually happens
+[54:07] is that this is a good design for for
+[54:10] geo
+[54:11] geo uh only only has one bounce but then
+[54:14] gets all of its sensitivity
+[54:16] through through this amazing light
+[54:18] recycling
+[54:19] in in um in ligo
+[54:22] and virgo there's a lot more um
+[54:26] reflections here which means that the
+[54:29] power is all stored in these arms
+[54:31] and there's the power recycling doesn't
+[54:33] actually come out to here
+[54:36] with such intensity as it does with geo
+[54:38] and that's a big problem for the
+[54:40] beam splitter the beam splitter in geo
+[54:42] has a huge
+[54:43] thermal load on it because it all the
+[54:45] recycled light is going through it
+[54:46] um it's a limitation on geo sensitivity
+[54:50] the ligo and virgo designs don't put so
+[54:52] much loading on the beam splitter and
+[54:53] that's a
+[54:54] an advantage but those are technical
+[54:55] things
+[54:57] okay so now what what um the
+[55:01] the next thing that i want to add in is
+[55:03] the final
+[55:05] recycling which also ron driver invented
+[55:08] um uh
+[55:11] no uh sorry that's not quite true it was
+[55:18] before andreas fryza it was someone in
+[55:20] glasgow who i'm
+[55:21] trying to remember um it wasn't dr was
+[55:24] it was um
+[55:27] a guy who unfortunately was killed in a
+[55:28] climbing accident and he's no longer
+[55:30] with us um
+[55:34] therefore i'm ashamed i can't pull his
+[55:35] name out but
+[55:37] uh the the idea of signal recycling was
+[55:39] first uh
+[55:40] proposed um in the late 1980s
+[55:43] um uh again in the glasgow group
+[55:46] and uh what this does is you put a
+[55:50] mirror here at the output port where the
+[55:52] fringes are now if there's no
+[55:53] gravitational wave this mirror doesn't
+[55:54] do anything
+[55:55] but if it's a gravitational wave you can
+[55:57] tune this mirror you can make it partly
+[55:59] reflecting and you can put it in a
+[56:01] particular place
+[56:02] to tune this whole cavity and basically
+[56:04] reflect the signal back and forth
+[56:06] and build up the signal in a particular
+[56:08] bandwidth so that
+[56:10] the more reflection you have the higher
+[56:11] the reflectivity the narrower
+[56:13] band you make you make this into a kind
+[56:15] of resonant detector with a narrow
+[56:17] bandwidth
+[56:18] um if you have only a partial
+[56:19] reflectivity you're shaping the signal
+[56:22] uh a little bit um and this is this has
+[56:25] been done and tested in in geo
+[56:27] it will be done um in the big detectors
+[56:30] as well
+[56:31] for for mainly for shaping the signal
+[56:34] but we can improve
+[56:35] if we put in the right kind of mirror we
+[56:36] can improve the sensitivity of
+[56:38] these big interferometers in particular
+[56:40] frequency bands if we want to
+[56:41] go after a particular signal um
+[56:45] so all of these are are tricks that
+[56:48] people have invented and that that's the
+[56:50] basically what
+[56:51] our interferometers um are doing
+[56:54] and um
+[56:58] uh the final step is as i've said we put
+[57:01] in cavities here in
+[57:02] in ligo and virgo you have a a
+[57:05] a whole um uh cavity here instead of
+[57:08] just a bunch of multiple reflections
+[57:10] so this mirror is is partly sir it's 99
+[57:14] silver to something and and so some of
+[57:16] the light comes back
+[57:17] out this one is totally reflecting and
+[57:20] you build up most of the power in the
+[57:22] arms is in these cavities and that's how
+[57:24] most of these detectors work now i want
+[57:26] to correct some misconceptions
+[57:30] um uh two things i've been saying to you
+[57:33] all along and you probably believe
+[57:35] are wrong and now you can understand why
+[57:38] they're wrong um
+[57:42] i might not have said this but you
+[57:43] probably
+[57:46] believe this we need we need freely
+[57:49] falling test masses for the mirrors and
+[57:50] that's why we're hanging them
+[57:52] so that they respond to the
+[57:53] gravitational wave as it comes along
+[57:55] that's actually not the reason we hang
+[57:57] them we we hang them
+[57:58] for the reason i talked about earlier
+[58:00] which is to isolate them from ground
+[58:01] vibration
+[58:03] uh we use the mechanical filtering the
+[58:05] reason
+[58:06] that i don't that they're free anyway
+[58:08] they would even if i
+[58:09] nailed them down those mirrors if i had
+[58:12] them on a rigid suspension attached to
+[58:13] the ground
+[58:14] they would still move with the
+[58:15] gravitational wave
+[58:17] and the reason for that is that the
+[58:20] earth is not rigid enough to stop the
+[58:22] moving
+[58:23] so you have this gravitational wave
+[58:24] which is a very weak thing i'm not
+[58:26] saying it's a big movement
+[58:28] but it happens on a time time scale of
+[58:31] milliseconds
+[58:33] the rigidity of the earth if you have a
+[58:35] station here in a station there that is
+[58:36] separated by
+[58:37] a couple of kilometers the rigidity of
+[58:39] the earth is dependent upon
+[58:42] pressure waves going through the earth
+[58:43] to counteract
+[58:45] whatever stretching is going on and the
+[58:47] and the
+[58:48] speed of seismic waves going through the
+[58:50] earth is rather slow
+[58:52] so when this station moves this station
+[58:55] doesn't get this
+[58:56] this the pull of it um uh until
+[58:59] much much later than than a few
+[59:01] milliseconds
+[59:02] and so so for purposes of gravitational
+[59:05] waves
+[59:06] these two stations would actually be
+[59:07] free anyway um
+[59:09] uh to move in the horizontal direction
+[59:12] um or to move in any direction
+[59:15] so the reason we suspend them is because
+[59:18] we want to isolate them from all the
+[59:20] vibrations that are coming through the
+[59:21] earth all that vibration and everything
+[59:23] else that's going on
+[59:24] would get in the way of the signal that
+[59:26] means we're only sensitive in this
+[59:28] direction because because then
+[59:30] that's where the isolation is affecting
+[59:32] going up and down the suspension will
+[59:34] just carry them up and down so we don't
+[59:35] detect gravitational waves in the
+[59:36] vertical direction we're only detecting
+[59:38] stretching in the horizontal direction
+[59:39] but it's all to do with the suspension
+[59:41] uh and vibrational isolations not to do
+[59:43] with the fact that we need them to be
+[59:45] freely falling bodies
+[59:46] they are freely falling bodies in this
+[59:48] time skill
+[59:49] region uh the second misconception which
+[59:53] i
+[59:53] certainly am guilty of having said to
+[59:55] you is you know bigger is better
+[59:57] we build our detectors kilometer size on
+[1:00:00] the earth
+[1:00:01] in order to get them to be very big um
+[1:00:04] and build up signal well i've already
+[1:00:05] i've already told you why that's wrong
+[1:00:08] which is the fact that we have these
+[1:00:09] this multiple reflections in here that
+[1:00:11] increase the length of the arm length so
+[1:00:13] so i could actually build uh geo 600
+[1:00:16] let's say a 600 meters
+[1:00:18] uh compared to three three kilometers it
+[1:00:21] it
+[1:00:22] i could build up the same signal the
+[1:00:25] same signal sensitivity in g0600 by just
+[1:00:27] having
+[1:00:28] that many more reflections okay and
+[1:00:29] doing my optics better
+[1:00:31] why we build the thing why why it's
+[1:00:34] better to have a bigger
+[1:00:35] detector than a geo 600 is that there
+[1:00:38] are other noise sources
+[1:00:39] and and particularly we have the
+[1:00:41] vibration noise that comes in through
+[1:00:42] the suspension
+[1:00:43] we have thermal vibrations in the
+[1:00:45] mirrors and so on and
+[1:00:46] the more times you bump into a mirror
+[1:00:48] the more times you pick that noise up
+[1:00:50] and so um we want mirrors to be far
+[1:00:54] apart
+[1:00:55] so we can store light in those arms but
+[1:00:57] we minimize
+[1:00:58] the uh the number of times the light is
+[1:01:00] in contact with the mirrors
+[1:01:02] and in in geo there and the the light
+[1:01:05] contacts the mirrors
+[1:01:06] four or five times more often and so we
+[1:01:08] have a background of noise
+[1:01:10] that is much harder to get rid of
+[1:01:14] than in the larger detectors and and if
+[1:01:16] we could build a 10 kilometer detector
+[1:01:17] like we
+[1:01:18] plan to do with einstein uh telescope
+[1:01:21] underground
+[1:01:22] then we would reduce that effect even
+[1:01:23] more so that's the reason for going long
+[1:01:26] arms
+[1:01:26] is to minimize the mechanical um
+[1:01:30] noise inputs when when you're contacting
+[1:01:32] the mirrors
+[1:01:34] okay so that was in order to get rid of
+[1:01:36] that
+[1:01:37] now i have only a couple more things to
+[1:01:39] do quantum noise for example
+[1:01:41] is um uh uh what i what i talked about
+[1:01:45] um um is this is an introduction to how
+[1:01:48] we do squeezing
+[1:01:49] uh here's the laser interferometer
+[1:01:52] the same diagram as you've seen this is
+[1:01:54] actually what geo looks like this is a
+[1:01:56] diagram of geo which is where we
+[1:01:57] introduced squeezing
+[1:01:59] so geo has just one reflection and it
+[1:02:02] doesn't have the interior mirrors and so
+[1:02:04] on so it's a folded arm
+[1:02:06] and all the light goes through the beam
+[1:02:07] splitter and and all the power is on the
+[1:02:10] power recycling mirror
+[1:02:11] and there is actually there is actually
+[1:02:13] a signal recycling mirror not shown in
+[1:02:14] this diagram because not relevant to
+[1:02:16] what i'm talking about
+[1:02:17] but basically this is a closed system
+[1:02:20] except it has one it's open to the rest
+[1:02:22] of the world only here
+[1:02:24] we we talk about the the signal coming
+[1:02:26] out in the
+[1:02:27] for in the interference pattern but
+[1:02:29] there's also stuff coming in
+[1:02:31] in particular there's the vacuum the the
+[1:02:34] electromagnetic vacuum
+[1:02:35] is coming in this way it's the only way
+[1:02:38] it can get into your detector
+[1:02:40] um and the electromagnetic vacuum at a
+[1:02:42] quantum level
+[1:02:43] is noisy it has the zero point
+[1:02:44] fluctuation of
+[1:02:46] all the quantum
+[1:02:49] modes of of your um electromagnetic
+[1:02:52] field
+[1:02:53] and so those zero point fluctuations get
+[1:02:55] into here
+[1:02:56] and that's you there's a way of
+[1:02:59] formulating the shot noise problem
+[1:03:00] the the the noise of photon arrival
+[1:03:04] times and so on that i was talking about
+[1:03:05] there's a way of formulating that
+[1:03:06] problem in quantum mechanics
+[1:03:09] entirely in terms of this noise as a
+[1:03:11] smooth classical field
+[1:03:13] with this noise imposed upon it which is
+[1:03:15] coming into your detector
+[1:03:17] so shot so to control this to
+[1:03:20] to do squeezed light so that's the
+[1:03:23] vacuum noise that's
+[1:03:25] i just said is is coming in um
+[1:03:29] well you put a mirror here you put a an
+[1:03:32] apparatus here you put a mirror here
+[1:03:34] and um uh you stop
+[1:03:37] um the the vacuum coming in in
+[1:03:40] in a raw way and you squeeze it you turn
+[1:03:44] it into a different vacuum state with
+[1:03:45] correlations
+[1:03:47] you're not getting around the heisenberg
+[1:03:49] uncertainty principle but you're
+[1:03:50] you're changing the the state variables
+[1:03:53] the
+[1:03:53] the the conjugate variables where the
+[1:03:55] where the uncertainty principle applies
+[1:03:57] and you're squeezing the uncertainty on
+[1:03:59] one of them you're putting all the noise
+[1:04:01] from the vacuum into something you don't
+[1:04:02] measure
+[1:04:04] because we're not measuring the vacuum
+[1:04:05] we're not interested in the vacuum we
+[1:04:06] put all the noise into one
+[1:04:08] one place and we measure
+[1:04:11] the the variable that has has had its
+[1:04:13] noise squeezed
+[1:04:15] so it's lower noise we measure that
+[1:04:17] variable
+[1:04:18] and we make sure that that variable is
+[1:04:20] containing the gravitational wave signal
+[1:04:21] because we're not interested in
+[1:04:23] in anything but the gravitational wave
+[1:04:24] signal we don't want to make a quantum
+[1:04:25] measurement
+[1:04:26] we want to get rid of the quantum noise
+[1:04:27] into one quadrature and in the other
+[1:04:29] quadrature have a very quiet
+[1:04:31] quantum quiet background so that's where
+[1:04:34] the gravitational wave signal is and
+[1:04:35] that's what a that's what's going on
+[1:04:37] with
+[1:04:37] with uh squeezed light um
+[1:04:40] the light comes in uh the vacuum
+[1:04:42] fluctuations are squeezed
+[1:04:44] so that uh um the they don't come back
+[1:04:47] out
+[1:04:48] in the interference pattern uh what
+[1:04:50] comes back out in the interference
+[1:04:51] pattern is much quieter
+[1:04:53] so does that work well in in geo 600
+[1:04:58] the black line this is one of the
+[1:04:59] sensitivity curves like the one i showed
+[1:05:01] you before the black line is what is
+[1:05:02] before squeezing
+[1:05:04] it happens only at high frequencies
+[1:05:06] where the shot noise dominates it
+[1:05:07] doesn't happen down here
+[1:05:08] where we have vibration noise but the
+[1:05:11] shot noise is dominant here
+[1:05:12] and here after we introduce squeezing
+[1:05:15] this is the
+[1:05:16] sensitivity to gravitational waves
+[1:05:19] so that we've reduced the noise in the
+[1:05:21] gravitational wave observation channel
+[1:05:22] here by a factor of perhaps two or
+[1:05:25] something like that we've the the most
+[1:05:26] we've got is factors of two and a half
+[1:05:28] or three i think
+[1:05:29] for um the the reduction
+[1:05:32] in noise and that's a very significant
+[1:05:34] thing if you can reduce your noise by a
+[1:05:36] factor of two
+[1:05:37] you haven't you have improved the reach
+[1:05:39] of your detector by a factor of two
+[1:05:41] you've improved the volume it surveys by
+[1:05:43] a factor of eight
+[1:05:44] so you have improved the number of you
+[1:05:46] you get ten times as many
+[1:05:48] gravitational wave sources by just
+[1:05:50] introducing squeezing by a factor two or
+[1:05:52] two and a half something like that
+[1:05:54] so that's a really significant
+[1:05:56] improvement in your
+[1:05:57] uh gravitational wave um uh detection
+[1:06:00] ability
+[1:06:00] and it's all done with with with the
+[1:06:02] deepest uh quantum mechanics totally
+[1:06:04] mysterious
+[1:06:06] this is what the apparatus really looks
+[1:06:08] like this is the geo
+[1:06:09] uh vacuum tanks for um the
+[1:06:12] interior mirrors and the power recycling
+[1:06:14] mirror and all of that stuff
+[1:06:17] but all this is the table that contains
+[1:06:20] the um um squeezed light uh apparatus
+[1:06:24] and so it's not a trivial job
+[1:06:25] to impose this uh squeezing on the
+[1:06:28] vacuum fluctuations
+[1:06:29] but that's what happens um i think i
+[1:06:32] should stop there
+[1:06:33] it's half past now and um i think i've
+[1:06:37] uh should have tried your patience the
+[1:06:39] one thing that maybe i'll show you one
+[1:06:41] more thing
+[1:06:42] i just want to show you something about
+[1:06:44] um uh
+[1:06:47] um the
+[1:06:50] uh um lisa
+[1:06:54] uh slimeshow
+[1:06:58] ah that's not what i wanted to do
+[1:07:02] ah this is a
+[1:07:08] and now i've lost
+[1:07:11] the slide i wanted here we are
+[1:07:22] that's it this is lisa pathfinder again
+[1:07:27] i just wanted to show you the pictures
+[1:07:29] of of the lisa
+[1:07:30] thing lisa um this is pathfinder
+[1:07:34] it's a big can with with two
+[1:07:37] test masses separated by half a meter
+[1:07:40] and uh so inside this is the diagram i
+[1:07:43] showed you earlier which
+[1:07:44] all that uh those free test masses that
+[1:07:46] are sitting there and the interferometry
+[1:07:48] would just happen along here we're just
+[1:07:50] trying to measure changes in distances
+[1:07:52] and so on over that very short baseline
+[1:07:54] the interfam this is the optical bench
+[1:07:55] the interferometry is very similar to
+[1:07:57] what we'll do with full lisa it's just
+[1:07:59] the separation isn't
+[1:08:00] isn't good um so um
+[1:08:04] uh it's not a gravitational wave
+[1:08:05] detector but a good test of
+[1:08:07] of the um uh of the principles of
+[1:08:11] the interferometry but otherwise it's
+[1:08:12] very similar the the least
+[1:08:14] interferometry
+[1:08:16] we don't have cavities we just send a
+[1:08:17] signal up and then and then come back
+[1:08:19] we're measuring return time
+[1:08:21] but because you can only focus a beam of
+[1:08:24] light narrowly you can but it still
+[1:08:28] still spreads out over a million
+[1:08:30] kilometers it spreads out
+[1:08:32] huge it's it's it's uh tens of
+[1:08:34] kilometers wide and
+[1:08:35] compared to the spacecraft that's
+[1:08:37] receiving it so there's a big reduction
+[1:08:39] in the amplitude of received light from
+[1:08:40] from the laser from once to the other
+[1:08:42] and we only have one watt lasers
+[1:08:44] um and uh so the light that's received
+[1:08:47] at one end is very
+[1:08:48] small if we just reflected it back with
+[1:08:50] a mirror we'd never get any photons back
+[1:08:52] at all
+[1:08:53] so it's transponded so we have we're
+[1:08:55] doing what the spacecraft people do
+[1:08:57] we have a receiving system that senses
+[1:09:00] the incoming light
+[1:09:01] and has an independent laser that's
+[1:09:03] slaved to the incoming light and sends
+[1:09:05] back with the right phase and so on so
+[1:09:07] it says
+[1:09:07] it's an active mirror it's an amplifying
+[1:09:09] mirror a transponder
+[1:09:11] um that's this that's one of the that's
+[1:09:14] the heart of the lisa
+[1:09:15] um uh technology and um
+[1:09:20] uh so so uh um
+[1:09:23] apart from that you get it's a it's a
+[1:09:24] two arm uh you know it's a
+[1:09:26] two pass one up and one down uh
+[1:09:28] apparatus it's the same
+[1:09:29] as the uh as the three term relation
+[1:09:33] only in a triangular array you can put
+[1:09:35] together any two of those
+[1:09:37] arms to to form an interference pattern
+[1:09:39] so we get three independent
+[1:09:40] gravitational wave signals
+[1:09:42] and they really are independent if the
+[1:09:44] gravitational waves are short wavelength
+[1:09:46] compared to the arms because they're
+[1:09:47] affecting
+[1:09:48] all the arms differently so we so we get
+[1:09:50] a lot more information about the
+[1:09:51] gravitational waves that way
+[1:09:53] but basically the technology is the
+[1:09:56] technology at least a pathfinder plus
+[1:09:57] this transponding
+[1:10:00] to get the the right intensity and
+[1:10:01] that's how lisa will work
+[1:10:06] okay so i think i should stop there and
+[1:10:09] we can take questions
+[1:10:28] yes
+[1:10:30] i still don't understand one thing you
+[1:10:32] said that wavelength is not important on
+[1:10:34] the
+[1:10:34] return time but when i see
+[1:10:36] interferometer i can't imagine
+[1:10:38] how wavelength may be not important so
+[1:10:41] could you just explain it uh you mean
+[1:10:44] the wavelength of the
+[1:10:45] of the light yes yeah um well i can do
+[1:10:48] white light interferometry if
+[1:10:50] if i'm really good um if i have an
+[1:10:53] interferometer
+[1:10:54] with exactly equal arms then every
+[1:10:57] wavelength
+[1:10:58] will come back and interfere with with
+[1:11:00] uh with
+[1:11:01] with itself in the right way and i'll
+[1:11:03] get a white light interferometer and it
+[1:11:04] doesn't matter what my wavelength is
+[1:11:08] so so the wavelength is not relevant and
+[1:11:11] inside this parameter we are measuring
+[1:11:14] the return time or
+[1:11:15] it's the the interferometer measures the
+[1:11:18] differences in return time so the light
+[1:11:20] goes out
+[1:11:20] comes back and if there's a change in
+[1:11:23] the
+[1:11:23] in the transmission time along one arm
+[1:11:26] relative to the other
+[1:11:27] then you get a slightly out of phase
+[1:11:30] signal
+[1:11:31] now the wavelength is important in terms
+[1:11:34] of how accurately you can measure it
+[1:11:36] but it's not important for the for the
+[1:11:38] effect of the gravitational wave and
+[1:11:40] printing on it
+[1:11:41] okay thanks
+[1:11:48] i'm talking now about an earthbound
+[1:11:51] construction
+[1:11:52] with uh pendulum suspension and so on uh
+[1:11:55] wouldn't
+[1:11:56] particularly if i um many times
+[1:12:00] between the mirrors wouldn't the
+[1:12:02] pressure of the photons
+[1:12:04] already move the mirrors yes yeah
+[1:12:07] so there's a balance we have to worry
+[1:12:09] about those things there's a balance
+[1:12:10] um that's one of those things that i
+[1:12:12] didn't talk about but it's very
+[1:12:13] is very important um there's uh
+[1:12:17] photon pressure uh with a lot of photons
+[1:12:20] on
+[1:12:20] on the mirrors is traded off against the
+[1:12:23] accuracy with which you can measure the
+[1:12:24] photon shot noise
+[1:12:26] um in our present regime we're limited
+[1:12:30] by shot noise but if we pump up the
+[1:12:32] laser power
+[1:12:32] to the final levels that we expect about
+[1:12:35] 100 watts
+[1:12:36] or 200 watts laser input we will be in a
+[1:12:38] trade-off situation where we have to
+[1:12:40] worry about those things
+[1:12:41] yeah and then people have thought of
+[1:12:43] many there are many more optical tricks
+[1:12:45] that
+[1:12:45] people then think about to try to get
+[1:12:47] around these things and squeezing is one
+[1:12:49] of them
+[1:12:50] but um but yeah it's it's an important
+[1:12:53] thing
+[1:12:54] sorry there's a question right there
+[1:12:56] does this signal recycling
+[1:12:58] increase shot noise because less light
+[1:13:00] is going to detect
+[1:13:02] um uh
+[1:13:07] no so you mean less light is coming out
+[1:13:09] to the photodiode yeah
+[1:13:11] um um no because
+[1:13:14] um in the end uh because you have a
+[1:13:17] cavity
+[1:13:18] in the end you're getting quite you're
+[1:13:20] getting roughly the same amount of light
+[1:13:21] coming out
+[1:13:22] and the shot noise anyway is in the
+[1:13:24] interference pattern at the beam
+[1:13:25] splitter
+[1:13:26] it's not um it's the randomness of the
+[1:13:30] interference it's not the
+[1:13:32] the the photon counting at the
+[1:13:33] photodiode it's
+[1:13:35] it's all at what's happening at the beam
+[1:13:36] splitter
+[1:13:41] could you explain this concept of this
+[1:13:43] light
+[1:13:44] i mean to eliminate this vacuum noise a
+[1:13:47] little bit
+[1:13:48] once more um
+[1:13:52] so
+[1:13:57] in the standard description of light of
+[1:13:59] the electromagnetic fields
+[1:14:01] um you uh
+[1:14:04] you can construct a hamiltonian based on
+[1:14:08] um
+[1:14:11] the number of photons for example
+[1:14:16] and
+[1:14:26] the the
+[1:14:30] the the the uh the uncertainty principle
+[1:14:35] um i think it's right uh but i might
+[1:14:38] i might be oversimplifying here the
+[1:14:40] uncertainty principle there is an
+[1:14:42] uncertainty
+[1:14:43] between uh intensity and time or or or
+[1:14:46] the number of
+[1:14:47] of of counting and and and
+[1:14:50] the ability to measure um the time
+[1:14:53] arrival of things
+[1:14:54] and um uh and so if you pump up if you
+[1:14:59] have a
+[1:14:59] a lot of photons um uh then
+[1:15:02] then you uh improve your your
+[1:15:05] measurement of time
+[1:15:06] uh your the time arrival of anything
+[1:15:11] it's the phase isn't it yeah it's not
+[1:15:12] the time it's the phase yeah
+[1:15:15] that's right thank you um
+[1:15:19] but you don't have to have those as your
+[1:15:21] as your as your conjugate variables in
+[1:15:23] constructing
+[1:15:23] the description of the electromagnetic
+[1:15:25] field in the cavity
+[1:15:27] and you can
+[1:15:33] you can you can go over to a description
+[1:15:35] in which
+[1:15:36] the two conjugate variables are the are
+[1:15:38] the two outputs uh
+[1:15:40] from the beam splitter the the
+[1:15:41] constructive and destructive
+[1:15:43] interference basically intensities
+[1:15:45] um which are independent of each which
+[1:15:47] are independent of each other they
+[1:15:48] depend
+[1:15:49] and they're they're a function of this
+[1:15:50] phase shift that you get between the two
+[1:15:52] arms
+[1:15:54] so in principle you you could put all
+[1:15:56] the noise into the
+[1:15:57] all the quantum noise so having
+[1:16:01] constructed those two
+[1:16:03] then then it's a question of can you
+[1:16:06] find the technology
+[1:16:07] to uh change the heisenberg
+[1:16:11] uncertainty circle into an ellipse
+[1:16:14] in in such a way that the uh you reduce
+[1:16:17] the uncertainty
+[1:16:19] in the um in the intensity of light
+[1:16:22] that's coming out the
+[1:16:23] beam splitter to the to the detection
+[1:16:26] point and at the cost of increasing the
+[1:16:29] uncertainty
+[1:16:30] of the light that's going in the other
+[1:16:31] direction back to the power recycling
+[1:16:33] mirror
+[1:16:35] um so uh so you you're
+[1:16:38] trying to reshape the heisenberg
+[1:16:41] uncertainty ellipse in the new variables
+[1:16:44] uh and and so basically
+[1:16:48] you try to choose variables that
+[1:16:49] correspond to the two different
+[1:16:51] uh exit paths from the from the
+[1:16:53] interferometer
+[1:16:54] um how you do that i i'm at a loss to
+[1:16:58] describe myself
+[1:16:59] uh that's where all those mirrors in
+[1:17:01] that in that
+[1:17:03] thing are coming in but the principle is
+[1:17:05] to try to
+[1:17:06] try to make the part of the light that's
+[1:17:08] carrying your gravitational wave signal
+[1:17:10] as
+[1:17:10] as quiet as possible and as long as you
+[1:17:12] make that one of the conjugate variables
+[1:17:14] um then it's just a matter of how can i
+[1:17:17] make how can i reshape
+[1:17:18] the the the uncertainty ellipse
+[1:17:21] i don't get around the uncertainty i
+[1:17:23] just put more uncertainty in one
+[1:17:24] of the conjugate variables and less than
+[1:17:26] the other
+[1:17:36] perhaps a stupid question would it be a
+[1:17:38] good idea to put a really really long
+[1:17:40] light fiber inside satellite so
+[1:17:44] you know the total length will be very
+[1:17:46] large and there will be no noises from
+[1:17:49] earthquakes yeah
+[1:17:54] so
+[1:17:57] uh people have people have thought about
+[1:17:59] uh about that
+[1:18:00] one of the problems with um there are a
+[1:18:03] number of
+[1:18:04] of issues one is that the light in a
+[1:18:05] fiber doesn't go at the speed of light
+[1:18:07] so you have
+[1:18:08] you have a material problem but second
+[1:18:10] one is the fibers are
+[1:18:12] intrinsically imperfect um there's a lot
+[1:18:14] of scattering uh compared to what we can
+[1:18:16] do in a vacuum cavity
+[1:18:18] so the amount of light you can store is
+[1:18:20] is limited
+[1:18:22] plus there's a lot of thermal effects in
+[1:18:24] in these materials so even if you have
+[1:18:25] no external disturbances
+[1:18:27] you will get little popping and little
+[1:18:30] uh all sorts of little
+[1:18:32] thermal disturbances we see this with
+[1:18:34] the coatings on our mirrors
+[1:18:36] um we see uh when we when we turn up the
+[1:18:39] light intensity we see
+[1:18:41] lots of little glitches in our data that
+[1:18:43] that we think come from
+[1:18:46] thermal effects which which are not in
+[1:18:48] thermal equilibrium
+[1:18:49] you know they're little domains that may
+[1:18:51] release or or change or something
+[1:18:54] but in a fiber the way fibers are drawn
+[1:18:56] that that happens
+[1:18:58] um uh that happens a lot
+[1:19:01] so so um at the moment it's much better
+[1:19:04] to have just a vacuum cavity than
+[1:19:06] something actually
+[1:19:07] a material system actually containing
+[1:19:09] the light
+[1:19:14] but it's not a stupid question
+[1:19:25] the mirror is up on the moon which would
+[1:19:28] make
+[1:19:28] a really very long obviously one arm
+[1:19:32] instrument could that be used
+[1:19:38] um actually yeah the people who do laser
+[1:19:40] ranging to the moon have
+[1:19:41] have talked about setting limits on
+[1:19:43] gravitational waves in in that
+[1:19:44] particular frequency band
+[1:19:47] the the the problem is the reflecting
+[1:19:50] area
+[1:19:51] uh of those uh mirrors is very small so
+[1:19:55] so the um the light that you get back
+[1:19:59] is is they they can count the individual
+[1:20:02] photons
+[1:20:03] so uh you know photon
+[1:20:06] shot noise is very is the dominant noise
+[1:20:10] uh and uh so it that limits the
+[1:20:13] sensitivity a lot
+[1:20:14] if we put up huge huge mirrors on the
+[1:20:17] moon
+[1:20:18] then that would be something but then
+[1:20:19] you also have you know
+[1:20:21] the laser light traveling through the
+[1:20:23] atmosphere and all sorts of um
+[1:20:25] other noise things that are imprinted on
+[1:20:27] it
+[1:20:28] um but people have talked about using it
+[1:20:40] are there further questions okay
+[1:20:46] good thank you
+[1:20:57] it's wonderful that we had such a
+[1:20:59] masterful conclusion to the lectures
+[1:21:01] from our school thank you very much
+[1:21:03] so to me it's zero surprise that uh
+[1:21:05] students complemented your lectures a
+[1:21:07] lot already in the break
+[1:21:09] and i'm sure they will remember the
+[1:21:10] school for a very long time and your
+[1:21:12] lectures
+[1:21:13] and this is for you to remember the
+[1:21:15] lectures for the lifetime of this cup
+[1:21:17] right thank you very much and we also
+[1:21:20] have and it's
+[1:21:20] a happy coincidence that your german is
+[1:21:22] so good so this is
+[1:21:24] actually a kepler's astronomia nova with
+[1:21:27] lots of comments and so on and also
+[1:21:29] very very highly recommended book oh
+[1:21:31] wonderful
+[1:21:33] thank you very much
+[1:21:38] thank you very much

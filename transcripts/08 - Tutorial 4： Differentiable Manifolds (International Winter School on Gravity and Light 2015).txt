@@ -1,0 +1,627 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:16] light welcome to the fourth tutorial of
+[00:20] the William and El Heros International
+[00:23] winter school on gravity and light
+[00:26] today's topic are differentiable
+[00:29] manifolds
+[00:31] we start with 15
+[00:36] statements a the function f that goes
+[00:39] from R to R defined by F ofx = x^2 lies
+[00:44] in
+[00:46] C3 where C3 means the function that lies
+[00:51] in there
+[00:52] is three times continuously
+[00:57] differentiable so we can
+[01:00] do the first derivative that's 2x the
+[01:03] second one is two the third one is zero
+[01:07] and all the others are 0 to but all the
+[01:10] derivatives are continuous therefore
+[01:13] this is
+[01:15] true now the function f is defined by f
+[01:18] ofx equals absolute value of
+[01:21] x and we should judge whether this lies
+[01:25] in C2 or not but if we
+[01:28] draw the function
+[01:30] absolute value of x we see that there is
+[01:33] a kink
+[01:36] and surely here it's not differentiable
+[01:39] therefore the second one is incorrect
+[01:42] third statement
+[01:44] is the function f is now defined as the
+[01:48] absolute value of x to the^ of 3 and we
+[01:52] have to judge whether this is in C3 or
+[01:56] not we need to draw this again
+[02:02] so that's the
+[02:04] function clearly we can derive it
+[02:07] once and we arrive
+[02:10] at this
+[02:13] one that's on the positive xais just 3 *
+[02:19] x^2 and on the negative xais we have
+[02:23] minus 3 *
+[02:25] x^2 so this is the first derivative the
+[02:29] second one
+[02:31] produces this one and this one where
+[02:34] this is 6X and this is min -
+[02:37] 6X and there's a king and therefore it
+[02:40] lies not in
+[02:43] C3 the fourth function that's given is
+[02:47] the exponential function of the absolute
+[02:50] value of
+[02:51] x and this statement says that this lies
+[02:55] in C Infinity but when you draw this you
+[02:59] see that at the zero there's a king
+[03:02] again and therefore it's
+[03:05] false the last one is the logarithm the
+[03:08] natural logarithm of X but the domain is
+[03:11] now restricted to
+[03:13] r+ so the picture
+[03:16] is this one and if we restrict this to
+[03:20] our plus this is of
+[03:23] course infinitely often continuously
+[03:26] differentiable therefore that's true
+[03:31] B which statements on differentiable
+[03:34] manifolds are
+[03:35] true every smooth manifold has a maximal
+[03:39] atlas that's
+[03:41] true because a
+[03:43] manifold needs an atlas that covers the
+[03:46] whole
+[03:47] manifold or the whole topological space
+[03:50] and then it's a manifold and a smooth
+[03:53] manifold just gives some statements on
+[03:57] the transition functions
+[04:00] and any Atlas can be made into a maximal
+[04:03] atlas and therefore every smooth
+[04:05] manifold has a maximal
+[04:07] atlas every C2 manifold is also a C1
+[04:11] manifold that's
+[04:14] true because every function that's C2 is
+[04:17] also
+[04:23] C1 every differentiable manifold is also
+[04:25] a topological manifold of course because
+[04:29] different means the manifold is c k
+[04:32] let's say k greater or equal than one
+[04:35] and topological means that it's c0o and
+[04:39] that's
+[04:40] true now comes a tricky one in C
+[04:44] Infinity
+[04:45] manifolds chart maps are
+[04:48] differentiable in order to say this we
+[04:50] need to think about it and here's more
+[04:54] space therefore we draw a
+[04:57] picture now we recall that
+[05:00] a
+[05:01] function that goes
+[05:03] from some domain U some subset of the
+[05:08] manifold into
+[05:10] Rd this function f is called
+[05:13] differentiable
+[05:16] if the chart representative of this map
+[05:20] F here oh sorry I wanted to say the
+[05:23] function f goes into
+[05:25] Rd and now some chart
+[05:30] let's say x Tilda goes into rd2 because
+[05:34] that's a d dimensional manifold and F is
+[05:37] called differentiable if this map here
+[05:41] so f after X to the inverse is
+[05:45] differentiable then we call F
+[05:49] differentiable so now we have a special
+[05:52] case and the special case is we pick
+[05:56] fals x x the chart map that we want to
+[06:00] look at this chart map and as well we
+[06:04] pick X tiller equals
+[06:06] x because we can take any chart we like
+[06:11] because we have a smooth
+[06:13] Atlas And if we now consider this
+[06:16] expression with the special cases in
+[06:19] there that's X after X inverse which is
+[06:23] of course the
+[06:25] identity on
+[06:27] RD that is clearly the fr
+[06:30] ible therefore in a c Infinity manifold
+[06:34] chart maps are
+[06:36] differentiable the definition of a CK
+[06:39] curve on a manifold one should say
+[06:43] requires a c m larger than K
+[06:46] manifold that's true because we need the
+[06:50] atlas to be at
+[06:52] least CK when we want to judge the CK
+[06:57] differentiability of a curve
+[07:00] therefore this is true as
+[07:03] well c a differentiable manifold is
+[07:07] always a topological space that's true
+[07:10] since by adding the atlas we of
+[07:13] course keep the topological space so it
+[07:16] stays a topological space but gets more
+[07:19] structure by becoming a
+[07:23] manifold the second one is a
+[07:25] differentiable manifold has enough
+[07:27] structure to constitute a Vector space
+[07:30] of course
+[07:31] not a differential manifold is a
+[07:34] generalization of a set no it's not it's
+[07:39] a specification of a set but not a
+[07:43] generalization a differentiable manold
+[07:46] requires the discrete
+[07:48] topology no it doesn't it can carry any
+[07:51] topology that it
+[07:54] likes a differentiable manifold features
+[07:57] at least one set of charts that cover
+[08:01] the whole manifold or that covers the
+[08:03] whole manifold and that's true because
+[08:06] that's the idea of an atlas every Atlas
+[08:09] has to cover the whole
+[08:11] manifold so C the last one of C is
+[08:15] true and we move to the next
+[08:19] exercise we continue with exercise two
+[08:23] and now the topic
+[08:25] is the Atlas and the way from
+[08:27] topological to differentiable Manu f s
+[08:30] we start with the topological space r
+[08:34] equipped with the standard
+[08:36] topology and we further have an atlas a
+[08:40] containing two charts each of the charts
+[08:43] cover the whole manifold but they can of
+[08:48] course be together in an
+[08:50] atlas the chart maps are given by the
+[08:53] map X which is the identity map and the
+[08:56] map y that Maps some element a of R to a
+[09:01] to the power of
+[09:04] three and we should now construct the
+[09:07] transition map the chart transition map
+[09:10] y after X inverse and give the
+[09:14] differentiability
+[09:16] class so the picture here would be the
+[09:19] following let's say this is
+[09:22] R it's just a set so we can draw the
+[09:25] circle or whatever I like and we have
+[09:28] two
+[09:30] Maps first one's X second one is y and
+[09:34] these Now map
+[09:37] to the real line
+[09:39] r and between these two chart targets we
+[09:43] have the chart transition map y after X
+[09:47] inverse and that's the thing that should
+[09:49] be calculated so y after X
+[09:54] inverse takes some element a that comes
+[09:58] from r
+[10:01] and we can simply calculate this that's
+[10:03] y of X inverse but X inverse is the same
+[10:08] as X because it's the identity therefore
+[10:11] here's just an A and Y Maps this to a
+[10:16] the^ of
+[10:18] 3 and of course a to ^ of 3 is C
+[10:25] Infinity R to R so this is a smooth
+[10:28] charge transition map in the One
+[10:31] Direction now we consider the other
+[10:34] direction so we are constructing X after
+[10:38] y inverse plug in some a that lies in
+[10:44] R this is now given as X of Y inverse is
+[10:50] the third
+[10:51] root of
+[10:53] a and the map X does nothing
+[10:57] so that's what
+[11:00] remains we may draw this in order to
+[11:03] judge the differentiability class and
+[11:06] the picture is the following
+[11:08] so here we have
+[11:15] infinite well the tangent is parallel to
+[11:18] the Y
+[11:19] AIS and of course if we do the first
+[11:24] derivative then we have a pole in here
+[11:29] therefore this function is not even
+[11:32] C1 it's c0 that means
+[11:37] continuous on
+[11:40] R and what we see now
+[11:43] is R equipped with the Senter topology
+[11:47] and this Atlas as it is given up here
+[11:50] this one is not a differentiable
+[11:55] manifold so here no
+[11:59] but and this was mentioned in the
+[12:02] lecture that by
+[12:04] restricting a an atlas of a topological
+[12:07] manifold which this was or is we can
+[12:12] make it into a differentiable manifold
+[12:15] so the question is what do we have to do
+[12:19] in order to make our o standard with the
+[12:23] atlas a into a smooth manifold and the
+[12:27] answer is simple we just remove one of
+[12:29] the
+[12:31] charts remove one of the
+[12:37] charts and it really does not matter
+[12:40] which
+[12:41] one because if we remove one only one is
+[12:46] left it stays an atlas because it covers
+[12:50] the whole
+[12:50] manifold and since there are no chart
+[12:54] transition maps of course this is
+[12:57] smooth therefore we made R equipped with
+[13:01] o standard and this new Atlas we made it
+[13:04] into a differentiable or even smooth
+[13:08] manifold that's it for this
+[13:12] exercise let's continue with the third
+[13:15] exercise that is an exercise on soft
+[13:18] squares on R cross
+[13:21] R so we have a set R cross r or R2
+[13:25] equipped with a soft Square topology and
+[13:28] then add a containing charts un
+[13:33] xn and these un n are given by the soft
+[13:38] squares that also Define the soft Square
+[13:41] topology that means all tuples in R
+[13:45] cross R where the absolute value of each
+[13:49] of the entries is smaller than some n
+[13:53] and here we just consider n from n plus
+[13:58] therefore for just positive integer
+[14:01] numbers so to draw a picture this may
+[14:05] look
+[14:06] like this is
+[14:08] U1 there's
+[14:10] one this
+[14:12] is
+[14:14] U2 and so
+[14:17] on okay and the chart map is given here
+[14:20] so in the first entry we sum X and Y
+[14:23] divided by 2N and in the second entry
+[14:26] the same thing but with the difference
+[14:27] of these two
+[14:30] first exercise is to recall the
+[14:33] definition of a chart and show that un n
+[14:36] xn are indeed
+[14:38] charts so the first thing we need to
+[14:40] check here is unu n an element of the
+[14:46] topology and that's clearly the
+[14:50] case because that's just the way the
+[14:53] soft squares are
+[14:56] defined second thing we need to show is
+[15:01] that the chart maps
+[15:05] are
+[15:06] homeomorphisms homeomorphisms that means
+[15:10] the
+[15:11] xn that go from u n to X of U xn of un n
+[15:17] part of
+[15:18] R2 these need to be
+[15:23] homeo
+[15:26] morphisms which means they are in vable
+[15:29] and in both directions
+[15:34] continuous so we consider the direction
+[15:38] unu n to xn of un this is clearly
+[15:42] continuous because we have the sard
+[15:45] topology
+[15:47] and well I I think that's clear the
+[15:50] other direction we need to calculate the
+[15:54] inverse that goes
+[15:57] from X and of unu
+[16:00] n into unu
+[16:03] n so it
+[16:07] picks
+[16:09] tups and they are mapped
+[16:14] to now we need to calculate the inverse
+[16:17] functions and I did this already and
+[16:20] this is n * A + B and N * a minus
+[16:27] B and these are are of course
+[16:32] continuous therefore U xn are
+[16:38] charts second question is um we should
+[16:42] show that
+[16:45] a is a CK Atlas by explicitly
+[16:48] constructing the chart transition
+[16:51] map or the chart transition Maps between
+[16:55] any
+[16:56] charts and then State what
+[16:59] K is so a chart transition map
+[17:03] is some
+[17:05] XM that belongs to the Chart U
+[17:11] mxm after another chart map I draw the
+[17:16] picture in a minute and we need to have
+[17:20] this from xn of u n
+[17:27] sorry inter Ed with u m and this goes to
+[17:34] XM of unu n intersected with u m and
+[17:38] here's the picture we
+[17:42] have here's the manifold we have
+[17:46] X sorry that's
+[17:49] xn we have the chart map xn and the
+[17:53] chart map
+[17:55] XM and this
+[18:00] is the chart transition map here's R2
+[18:04] and there's R2 as
+[18:07] well okay so in order to construct this
+[18:10] map we feed it with a tle
+[18:18] a and just plug these in here and
+[18:24] calculate the
+[18:26] result so this is XM
+[18:30] of xn
+[18:33] inverse we calculated here therefore
+[18:36] this is just n * A + B and N * a minus
+[18:44] B and the other direction was
+[18:48] given up here
+[18:51] so need to plug this
+[18:54] in and arrive
+[18:56] at now this
+[19:00] is M over n I'm
+[19:04] sorry that's wrong so it's
+[19:09] n over
+[19:11] M and here we have x + y But A + B plus
+[19:15] a minus B is just a and here the
+[19:19] coefficient is the same and B
+[19:23] remains therefore we can write this
+[19:25] shorter as n / M *
+[19:30] AB so we see the chart transition map
+[19:33] and notice we have both directions in
+[19:37] here since we did not specify M and N
+[19:40] therefore that's the most General J
+[19:42] chart transition map that's possible
+[19:44] here and therefore um we see that this
+[19:49] is of course smooth because it's just
+[19:52] the identity map maps AB to AB with some
+[19:57] Factor but but this does not matter and
+[20:00] does not infect the
+[20:03] differentiability therefore we can
+[20:05] conclude that K is infinity we have a
+[20:09] smooth
+[20:12] manifold the last thing to do here is
+[20:15] the third question and it says construct
+[20:18] at least one other chart that would lie
+[20:21] in the maximal extension of a and prove
+[20:25] that it
+[20:26] does so by maximal extension
+[20:29] mean we can add as many charts as are
+[20:33] compatible to the other charts and by
+[20:36] compatible we mean c Infinity
+[20:39] compatibility that means the chart
+[20:41] transition functions have to be C
+[20:45] infinity and we think of an example
+[20:48] that's really just an example you can
+[20:50] pick any other one call it X tier that's
+[20:54] the chart map and the chart domain is
+[20:58] say U five does not really matter but I
+[21:01] picked u5 and this goes to xer of u5
+[21:06] which is clearly a subset of R not D but
+[21:13] R2 okay and now I have to tell you what
+[21:16] the map does it takes two buils from the
+[21:19] manifold and Maps them
+[21:23] to well just itself pick the identity
+[21:27] map but that's clearly another chart and
+[21:31] what needs to be checked now is whether
+[21:33] the transition functions to any other
+[21:37] chart or from any other chart to this
+[21:40] one are smooth and we can write them
+[21:43] down this is in the first place X tiller
+[21:48] after xn
+[21:51] inverse and this one takes some A and
+[21:56] B and this is mapped to
+[21:59] A + B / 2 N A minus B over 2 N maybe you
+[22:05] need to construct this but that's the
+[22:07] right result and this is of course
+[22:10] smooth and the other direction which is
+[22:15] xn without the inverse the inverse gets
+[22:19] here goes here and we again plug in some
+[22:22] A and B and this
+[22:25] is a + b
+[22:29] sorry the inverse was
+[22:31] missing oh I did this the wrong way
+[22:35] around I'm really sorry I need to
+[22:37] correct
+[22:39] this so this has to go and this has to
+[22:43] go because here we have the inverse of
+[22:46] the chart maps that we defined above
+[22:49] that means this is n * A + B and here n
+[22:53] * a minus B and now here we get this A +
+[22:59] B over 2 N and here A minus B over 2 N
+[23:06] and this is again smooth therefore we
+[23:10] added a chart to the atlas that of
+[23:12] course would lie in the maximal
+[23:13] extension of the
+[23:15] atlas that's it for the third
+[23:19] exercise we continue with a very short
+[23:21] exercise four um but it's important
+[23:24] because we introduce a good notation for
+[23:28] part
+[23:29] differentiation we have a map F that
+[23:31] goes from RD to R and denoted as d sub I
+[23:38] on F is the partial derivative with
+[23:43] respect to the E entry but the important
+[23:46] Point here is this object so the
+[23:49] derivative of f with respect to this
+[23:52] entry is again a map in its own right
+[23:55] and again a map from RD to R
+[24:00] to see this we are given a function f
+[24:04] from R3 to R3 and it's it looks like
+[24:08] this and we have to calculate some
+[24:13] derivatives to calculate the second
+[24:16] derivative of
+[24:17] f
+[24:20] is that means we derive in this special
+[24:24] case with respect to Beta that means
+[24:27] this is two 2 Alpha to^ 3 * beta + 2
+[24:32] Beta Delta + 0 but as I said this is a
+[24:38] function in its own right and it's
+[24:40] evaluated at XY Z therefore the result
+[24:44] is 2 * x ^ 3 * y + 2 y
+[24:52] z we do the same thing here calculate
+[24:56] the derivative with respect to the first
+[24:59] entry and this produces 3 Alpha squ Beta
+[25:03] squ but evaluated at Square cir
+[25:08] star therefore we have
+[25:11] three Square squared time cir
+[25:17] squar so
+[25:19] really we first take the derivative and
+[25:22] then we
+[25:25] evaluate at some place
+[25:28] now we take two derivatives after each
+[25:31] other why not so the first one del2 on
+[25:38] F we had this before so this was 2 Alpha
+[25:43] to^ 3 * beta plus 2 Beta Delta and now
+[25:48] we derive again with respect to the
+[25:51] first entry now which was Alpha here
+[25:54] therefore what remains is 6 Al Al s *
+[25:59] beta but we evaluate at ABC therefore
+[26:04] the result is 6 a^ s
+[26:09] b and here we
+[26:12] perform two derivatives of the third
+[26:15] entry which is Delta so the
+[26:19] first is Delta up here so the first
+[26:23] derivative yields beta 2 + 1
+[26:28] and we derive again with respect to
+[26:31] Delta that's zero and therefore the
+[26:35] result is zero but not because we
+[26:39] plugged in the numbers first and then
+[26:41] derived some constants which he zero but
+[26:44] it's zero
+[26:46] because the second derivative itself was
+[26:50] the zero
+[26:52] function so that's it for partial
+[26:55] differentiation and we will apply this
+[26:57] in exercise
+[27:00] five last exercise for today for this
+[27:03] tutorial and it's exercise five on
+[27:06] differentiability on a
+[27:09] manifold the subtitle is how to deal
+[27:12] with functions and Curves in a chart and
+[27:14] we will draw diagrams here or one big
+[27:17] diagram and this is a really important
+[27:20] thing because visualizing these Maps
+[27:24] always helps we start with the smooth
+[27:26] manifold M Moa that is D dimensional and
+[27:30] we have a chart
+[27:32] ux from the atlas a together with a
+[27:35] smooth curve that goes from R to the
+[27:39] Chart domain and a smooth function that
+[27:42] goes from the chart domain to
+[27:46] R the first question asks us to draw a
+[27:49] commutative diagram containing the chart
+[27:52] domain chart map function curve and the
+[27:55] respective representatives of the
+[27:57] function and the Curve in the chart so
+[28:00] we
+[28:00] start as we always start with the
+[28:03] manifold
+[28:05] M we have a subset of this manifold
+[28:08] that's called
+[28:10] U on this manifold we have a curve
+[28:15] gamma which takes real numbers and Maps
+[28:18] it to the manifold could draw something
+[28:21] like this and that's the curve gamma but
+[28:24] we don't have
+[28:25] to we also have the function f
+[28:29] that goes from the subset U into the
+[28:35] reals we've also given a chart X this
+[28:40] one up here that of course goes to
+[28:45] some subset of
+[28:49] Rd so we drew chart domain chart map
+[28:53] function and curve what's missing are
+[28:56] the representatives of function and
+[28:58] curve in the
+[29:01] chart so we want to talk about the curve
+[29:04] gamma in the
+[29:07] chart and that's this one so everything
+[29:10] that's been in the manifold before is
+[29:13] now pushed down into the chart by the
+[29:15] chart Map X and this arrow is X after
+[29:21] gamma therefore X of the gamma is the
+[29:23] chart representative of the curve gamma
+[29:26] and similarly we have the chart
+[29:28] representative of the function f and
+[29:32] that's f after X inverse so we go up the
+[29:35] other direction of X and with the
+[29:38] function
+[29:39] f these are the two chart
+[29:42] representatives of function and
+[29:45] curve and again to emphasize that that's
+[29:50] an important technique in order to
+[29:52] understand these
+[29:55] things next question and that's the last
+[29:57] one for for today um asks us to
+[30:01] calculate this object so the function f
+[30:05] after
+[30:06] gamma derived some parameter Lambda the
+[30:10] first question we should ask is does
+[30:13] this make sense so deriving f after
+[30:18] gamma therefore we have to look from
+[30:20] where to where it
+[30:22] Maps can look at the diagram so it
+[30:26] takes it first takes gamma the values
+[30:31] the the domain of gamma which is
+[30:33] R is mapped to U and after that we take
+[30:38] the function and map it to
+[30:41] R
+[30:42] therefore this one is a map from R to R
+[30:48] and therefore derivation differentiation
+[30:51] makes real
+[30:53] sense and to do this we start here
+[30:58] f after gamma Prime of
+[31:01] Lambda
+[31:04] equals we would like to use some chain
+[31:06] rule because we have an outer function
+[31:09] and an inner function but the problem
+[31:13] is these
+[31:15] functions have Target and domain in the
+[31:18] manifold and there we have no notion of
+[31:23] differentiating therefore what we
+[31:25] do is we use the chart
+[31:28] Representatives so we go down in the
+[31:31] chart by the chart representative of
+[31:33] gamma and up to R again with chart
+[31:37] representative of
+[31:39] f therefore f after X
+[31:43] inverse after X after gamma and you see
+[31:48] this is a one therefore that's of course
+[31:53] the same as this side and since the
+[31:56] composition of maps is associative we
+[31:59] can set brackets
+[32:02] here okay in order to make this a little
+[32:06] simpler we Define this
+[32:09] one as capital F and that one as capital
+[32:14] gamma just to keep notation
+[32:17] simpler and now we want to apply the
+[32:20] chain
+[32:21] Rule and the formula goes like this so
+[32:26] Del I we derive with respect to the I
+[32:30] component and we derive capital
+[32:33] F evaluated at
+[32:37] Gamma of Lambda so that's the outer
+[32:40] function so to speak evaluated at the
+[32:44] inner function and the chain rule tells
+[32:47] us this should be taken times gamma the
+[32:51] I component of gamma
+[32:55] derived at the point Lambda
+[33:00] and since we know F and Gamma because
+[33:04] this is just Capital GMA and this is
+[33:06] capital F we can plug these in and
+[33:09] calculate the
+[33:13] result okay so deriving f with respect
+[33:19] to the first component
+[33:21] yields 2
+[33:24] x we would have plugged in X and Y but
+[33:27] we plug in
+[33:28] the capital gamma which is cosine s so
+[33:33] we evaluate this derivative at cosine s
+[33:38] that means we have 2 * cosine of
+[33:44] Lambda but times the derivative of the
+[33:49] capital
+[33:50] gamma of the E component and we are of
+[33:54] course here it's summed over we had this
+[33:56] before and therefore this is one
+[33:59] deriving the first entry here yields
+[34:01] minus
+[34:03] s of Lambda that's the first summon and
+[34:08] the second one is similarly similar we
+[34:11] have 2 * y but evaluated
+[34:15] at here so we have
+[34:20] S of Lambda times gamma 2 Prime is
+[34:27] cosine of Lambda and you see this minus
+[34:30] sign cancels the second term and
+[34:33] therefore we have
+[34:36] zero maybe you could think about this
+[34:39] because the curve gamma in the charge so
+[34:43] this Capital gamma describes a circle so
+[34:47] we have a circle where we run around all
+[34:50] the time with the parameter Lambda
+[34:54] increasing and the function that we look
+[34:58] at when we run around is x^2 + y^2 but
+[35:03] on the circle this is always one so the
+[35:07] values of the function around the curve
+[35:09] along the curve are
+[35:11] constant therefore the derivative is
+[35:16] zero so that's it for today see you next
+[35:20] time

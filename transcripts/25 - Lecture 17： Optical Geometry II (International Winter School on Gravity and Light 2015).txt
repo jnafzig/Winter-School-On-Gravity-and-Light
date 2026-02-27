@@ -1,0 +1,1951 @@
+[00:00] this program is being presented to you
+[00:03] by the heras international winter school
+[00:05] on gravity and
+[00:11] light so uh welcome back so let's
+[00:15] continue the discussion on optical
+[00:17] geometry so before the break we've seen
+[00:19] that um the gaussian curvature of the
+[00:22] equatorial plane of Schwarz in the
+[00:24] optical geometry is negative everywhere
+[00:27] right so now we want to find out what
+[00:29] this actually means for the judaics on
+[00:31] the surface in other words for our
+[00:33] spatial light rays now of course to
+[00:35] study the connection between judaics and
+[00:38] curvature you look at the concept of
+[00:40] judic deviation which I think you've
+[00:41] seen before at least briefly so let's go
+[00:44] over this in the context of surfaces
+[00:58] right
+[01:03] so gestic
+[01:04] deviation um now to do this um we look
+[01:07] at let's say jics that have unit speed
+[01:12] in terms of our
+[01:17] metric so
+[01:19] gamma and um remember we know in space
+[01:22] so I write this parameterized as XA as a
+[01:26] function of the parameter um we can now
+[01:28] actually take t as the parameter of our
+[01:31] jessics right in the optical geometry we
+[01:33] can take time of course that's the we
+[01:36] have of the uh for the line El so unit
+[01:40] speed that means that g of gamma dot
+[01:43] gamma dot is equal to one with respect
+[01:47] to our yeah optic metric I should say G
+[01:49] twid um and then of course the gd6 so as
+[01:55] always we have that the coant derivative
+[01:57] of the tangent Vector in the direction
+[01:59] of the tangent
+[02:00] zero and we want to we want to find out
+[02:04] how jessics vary from each other if you
+[02:06] if you go to neighboring jesic and it's
+[02:08] it's helpful to consider a vector field
+[02:10] that measures this deviation and um so
+[02:13] one way of doing this is to introduce a
+[02:15] so-call connecting Vector
+[02:22] field Vector field
+[02:24] X and this connecting Vector field well
+[02:26] first of all it
+[02:28] commutes with our
+[02:30] our Judes it's really a congruence of
+[02:32] judaics I should say right so you have a
+[02:35] bunch of neighboring jessics that Define
+[02:38] a vector field like this and um we
+[02:41] measure the distance along X in such a
+[02:44] way that X is uh orthogonal to the Judes
+[02:47] that we consider so we also have this
+[02:50] orthogonality
+[02:56] condition
+[02:58] right okay
+[03:00] now um if you have two communting
+[03:04] V that's right yeah
+[03:08] yes yes this is this is for the
+[03:12] congruence and this is uh orthogonality
+[03:15] along the Judas for which we look at the
+[03:19] deviation yeah I I'll draw a
+[03:22] picture anyway let's look at the
+[03:24] connecting reor uh the commutator first
+[03:27] um if the commutator of Vector Fields
+[03:30] vanishes there's particular property for
+[03:32] the coant derivative which I think
+[03:34] you've seen in one of your tutorials or
+[03:36] no sorry in the exam in exam okay
+[03:43] good right so if you
+[03:47] have a Vanishing commutator let's look
+[03:51] at the coordinates um at the components
+[03:53] rather of this Vector say the eighth com
+[03:56] component is given by what well
+[04:12] this right it's the eighth component of
+[04:15] the
+[04:16] commutator now um observe that we can
+[04:19] now add two terms to this which
+[04:28] cancel
+[04:48] right so why is this the same well you
+[04:51] can observe that these terms with the
+[04:52] gamas are actually identical because we
+[04:55] can um relabel C and B right just
+[04:59] repeated indices we can relabel them and
+[05:02] then of course the the leita connection
+[05:04] compatible with our Optical metric G
+[05:06] twiddle is symmetric in the lower two
+[05:08] indices so those two terms here actually
+[05:13] cancel by
+[05:17] relabeling uh and the
+[05:22] symmetry of the of the
+[05:25] gamas right but now observe that what we
+[05:29] have over here is actually the component
+[05:31] of a covariant derivative right so this
+[05:33] is actually XB gamma do a semicolon
+[05:41] B minus same story here uh gamma dot b x
+[05:48] a semicolon
+[05:50] B so in other words we really have the
+[05:53] eighth component of two coant
+[05:55] derivatives right we have
+[05:58] um
+[06:00] the coent derivative of the um tangent
+[06:04] Vector field with respect to x minus the
+[06:07] co variant derivative of x with respect
+[06:10] to gamma Dot and the eighth component of
+[06:15] that right so the statement is really if
+[06:17] you
+[06:24] have commuting Vector Fields like
+[06:28] this this implies that the corent
+[06:31] derivative of one with respect to the
+[06:33] other is equal to the other
+[06:36] round like that that's useful property
+[06:40] which will be
+[06:44] used yeah so you've covered talk
+[06:49] okay okay so now let's look at jestic
+[06:58] deviation
+[07:04] let's plug
+[07:05] in
+[07:15] oops let's parking our Vector Fields
+[07:17] into the remon
+[07:19] tensor well what is this according to
+[07:22] the definition that um I've been
+[07:28] using
+[07:40] right and then of course you get the
+[07:41] term which um contains the commutator of
+[07:45] X and uh and Gamma dot but of course X
+[07:48] and Gamma dot supposedly commute so
+[07:50] there's no other
+[07:58] contribution right
+[08:00] uh what else can we see well NAA gamma
+[08:04] do gamma dot is actually zero because of
+[08:06] the Judas
+[08:07] equation so we're just left with this
+[08:22] term and let's give this property a name
+[08:24] let's call it star then we can see that
+[08:27] we can actually rewrite this
+[08:34] in that way we can switch X and uh gamma
+[08:37] Dot and the coant derivative here on the
+[08:39] right hand side and that Expressions is
+[08:42] the coant D derivative of the vector
+[08:44] field along the gamma dot sometimes this
+[08:47] is written then as uppercase DX by D t^2
+[08:53] if that's if that's our
+[08:56] um coordinate uh parameter
+[08:59] now let's um work this out in components
+[09:03] because remember we're on the surface
+[09:04] we've seen an expression for um the Rema
+[09:07] tensor in terms of the gausin curvature
+[09:10] so I like to find out what's the
+[09:12] connection of this this uh deviation
+[09:15] Vector with the gausin curvature of the
+[09:18] surface right so now in
+[09:20] components question ask this real
+[09:24] notation this is T of LDA or I could
+[09:26] think of it as the over l just the um
+[09:31] the covariant derivative with along the
+[09:33] curve right so so the eighth component
+[09:37] of this
+[09:39] is uh what is it it's D XA by DT plus
+[09:46] gamma
+[09:58] a I write down
+[10:00] later let's just write down the the
+[10:02] components here first of
+[10:20] all right so this will be r a b c
+[10:26] d uh into into what into
+[10:30] uh gamma dot
+[10:32] d x
+[10:34] c or rather
+[10:37] B GMA do
+[10:40] c
+[10:43] CD CD yes that's what I me
+[10:47] b c d
+[10:50] yes okay now what is r a b c d remember
+[10:55] r a c d for the surface we defined as
+[11:00] gausian curvature into g a d g BC minus
+[11:06] g a c g b
+[11:12] d so now pulling up one of the
+[11:19] indices is there a question
+[11:21] sorry um well this gives us Delta a d
+[11:27] GBC minus put up a gives us a Delta a c
+[11:36] gbd
+[11:37] so
+[11:42] okay so the eighth
+[11:44] component then becomes what
+[11:47] K Delta a d GBC minus Delta a c gbd
+[11:55] times G dob x c gamma do D yeah sorry
+[12:01] it's a bit tedious but that's what we
+[12:04] get is K
+[12:06] into okay so we get a gamma do a times
+[12:11] ahuh times the contraction of
+[12:17] um the tangent Vector field and the
+[12:19] connecting Vector
+[12:20] field
+[12:22] minus uh x a
+[12:26] times BD uhuh the contraction of tangent
+[12:30] Vector field with itself right so the
+[12:32] length of the tangent Vector field like
+[12:34] that now by assumption our connecting
+[12:37] Vector field um is orthogonal to the
+[12:41] geodesic um that we that we start
+[12:45] with to look at the deviation this is
+[12:48] zero and the tangent Vector to um the
+[12:52] jesic of unit length that's one right so
+[12:56] we're we're left with the statement that
+[12:59] that um NAA gamma dot gamma do
+[13:05] X well yeah
+[13:08] a is minus
+[13:11] k x
+[13:16] a right or to say it
+[13:19] differently d^2 X by dt^ 2 is minus
+[13:28] KX
+[13:36] yes
+[13:39] connection
+[13:46] not well so the physical picture is just
+[13:50] the same as before we have a surface
+[13:51] right we have judaics on the surface the
+[13:54] surface has a curvature we're now trying
+[13:56] to find out what the impact of the
+[13:59] curvatures on the judic so you take one
+[14:02] judic you look at a neighboring judic
+[14:04] and you want to find out well does the
+[14:06] Judes do the judaics diverge do they
+[14:08] converge are they parallel this will
+[14:10] depend on the curvature and in what way
+[14:13] well exactly in the way that we've seen
+[14:14] that's that's over
+[14:21] there yeah exactly right so let's let's
+[14:24] draw a picture so here's our
+[14:27] judic um we look at neighboring judaics
+[14:30] so you know you go to other
+[14:32] points they will have slightly different
+[14:34] judaics right like this that's the
+[14:36] congruence of the judaics we want to
+[14:38] measure their
+[14:39] deviation um by considering this
+[14:42] connecting Vector field X the connecting
+[14:44] Vector field is orthogonal to the Judas
+[14:47] like this it commutes so you know it
+[14:49] closes you can go around this way or
+[14:51] that way doesn't matter and um now we've
+[14:55] derived from the judic deviation
+[14:57] equation this statement so you now see
+[15:00] how um well how the components of X you
+[15:04] can take them to to to measure the the
+[15:06] deviation of neighboring judaics change
+[15:09] as you move down um you know this judic
+[15:11] gamma dot which is parameterized by by
+[15:14] T so now you
+[15:19] see
+[15:21] reler that's right as measured in the
+[15:24] parameters of the connecting vect field
+[15:28] right
+[15:31] yes right so now you can see that um the
+[15:35] local behavior of neighboring jesic
+[15:37] actually depends on the um the sign of
+[15:41] the G in curvature on the surface and of
+[15:43] course in threedimensional space would
+[15:44] be different but um if now the ga in
+[15:47] curvature is
+[15:49] positive right you see that um that
+[15:53] judaics locally
+[15:56] converge and if the judic uh curvature
+[15:59] negative then of course they divert if
+[16:00] it's zero well you get um parallel
+[16:07] judaics so now remember applying this to
+[16:09] our original problem of the optical
+[16:11] geometry for the equatorial plane of
+[16:13] Schwarz child um we always have a
+[16:17] negative go in curvature as we've seen
+[16:19] before the break so this means then that
+[16:23] uh I mentioned this at the end of um of
+[16:25] the last lecture briefly now we can
+[16:26] actually see it it really means that the
+[16:28] judaics diverge locally everywhere
+[16:35] right and the judic physically remember
+[16:38] are our light rays right so spatial
+[16:41] light rays so the jessics our light
+[16:52] rays locally diverge
+[16:55] everywhere I mean if you if you like we
+[16:57] can um look at the round metric again
+[17:00] for the sphere remember K was equal to +
+[17:02] one and if you're sitting on the equator
+[17:05] as you know the um well judaics would be
+[17:09] great circles so it would be for example
+[17:10] the equator and the meridians right but
+[17:13] as you know the meridians actually um
+[17:16] get closer together as you move away
+[17:18] from um from the equator right that's
+[17:21] what this say
+[17:26] yesing it does doesn't it yeah that's
+[17:29] exactly right so
+[17:31] um in some sense if you know if you're
+[17:33] on the sphere this is exactly what you
+[17:35] get K is equal to one you get an
+[17:37] harmonic oscillator equation in some
+[17:39] sense and this is how the uh the
+[17:41] meridians behave with respect to each
+[17:45] other
+[17:48] you well just look at it
+[17:51] so it's not fors only for X yeah so you
+[17:56] have to you have to come up with some um
+[17:58] notion of how you measure the distance
+[18:00] right that's the X I mean you would have
+[18:02] a a fixed preter value times the
+[18:06] component of X that measures the
+[18:07] distance I me there various ways of
+[18:09] doing it
+[18:10] it's x and x
+[18:18] XE so along the connecting
+[18:22] Vector okay so now uh we see that light
+[18:26] rays locally diverge remember we have
+[18:27] our our funny shape
+[18:29] um again from looking at if you know the
+[18:31] G in curvature is obvious but light rays
+[18:33] always diverge now remember um one one
+[18:36] remember
+[18:38] yesterday uh i' I've shown you pictures
+[18:41] of actual G of actual gravitation lenses
+[18:43] we've seen multiple images right
+[18:45] remember this um this cheser cat lens
+[18:49] right it looks like this okay there's no
+[18:52] nose I guess but um actually looked
+[18:55] rather strange was like
+[18:57] this okay I forget anyway something like
+[18:59] this uh so we had multiple images of a
+[19:02] background Galaxy lens by the cluster
+[19:04] now of course the cluster has a
+[19:05] complicated structure right it has
+[19:07] several galaxies but this is far away
+[19:09] from the cluster as far as these um
+[19:11] light rays are
+[19:13] concerned it's not entirely right to say
+[19:15] but you know basically this is a Schwarz
+[19:17] sh system um far away from any Mass
+[19:20] distribution sufficiently far away if
+[19:22] it's a compact Mass distribution just
+[19:24] looks like a like a point Mass um out
+[19:27] there space is basically
+[19:29] um Schwarz child right so
+[19:33] um but we actually see multiple images
+[19:36] but if the light rays converge locally
+[19:38] sorry diverge locally everywhere how is
+[19:40] it possible that they start at the light
+[19:41] source do something and then come back
+[19:44] together at the observer in such a way
+[19:46] that you see multiple images so the
+[19:48] answer clearly can't be that it's a
+[19:50] local property so it must be a global
+[19:53] property in other words topology comes
+[19:55] in so let's try and understand this and
+[19:57] of course to connect curvature and and
+[20:00] the topology of a surface you have to
+[20:02] look at gaus buet which may or may don't
+[20:04] know so let's um look at
+[20:09] this sorry let me let me finish by
+[20:12] writing the stones a
+[20:27] question
+[20:31] so if light race diverge locally um how
+[20:35] can multiple images be
+[20:44] formed can you make a brief historical
+[20:47] remark on whether this confused
+[20:50] people because intuitive you would say
+[20:53] well if you press it down to space you
+[20:54] would assume it's
+[20:56] a space with a positive
+[21:01] um locals you to understand well um I
+[21:07] see um I was certainly very surprised
+[21:10] when I saw it first um and I think
+[21:13] people haven't thought about this um in
+[21:15] these terms before so um for lensing the
+[21:20] first paper to do it um is actually
+[21:22] Gibbons and
+[21:24] wner
+[21:27] 2008
+[21:29] nobody looked at that before not like
+[21:30] this no uh and the reason is in in
+[21:33] astronomy um people don't really look at
+[21:36] it from the gr point of view they
+[21:37] basically start with ukan space which
+[21:40] space you know the universe basically is
+[21:41] is spatially flat um as far as we can
+[21:44] tell and um any any lenses are very much
+[21:48] localized so you don't need all this all
+[21:51] this Machinery you can actually do a lot
+[21:53] of lensing with without that and I'll
+[21:54] come to this at the very end I'll show
+[21:56] you um hopefully how how this set up in
+[21:58] astrophysics and that's really what
+[22:00] people have used for a long time but to
+[22:02] discuss lensing in the sort of morr
+[22:04] setting in this way anyway I think
+[22:06] hasn't been done before um now of course
+[22:10] the natural arena for lensing is um nud
+[22:12] desic that's again more complicated F
+[22:14] per for example did a lot of work on
+[22:16] ferma principle in lenan um spacetimes
+[22:20] but this is kind of in between it's
+[22:21] gener relativistic but it's the spatial
+[22:24] picture uh but it's more geometrical
+[22:27] compared to what the astronomers used to
+[22:28] in the standard
+[22:30] formalism okay
+[22:32] anyway so back to our question if light
+[22:35] rays diverge locally how can multiple
+[22:37] images be formed well the answer then is
+[22:39] really um it's a it's a global property
+[22:43] um so
+[22:46] lensing is intrinsically
+[22:52] Global I mean it sounds rather wishy
+[22:54] washy I suppose it is if I say it like
+[22:56] that um but I will actually show you
+[22:59] that the topological contribution for
+[23:01] schwar is essential really essential for
+[23:04] multiple images to occur um I can show
+[23:06] this explicitly so so therefore use
+[23:14] GP
+[23:23] okay
+[23:27] oh
+[23:29] okay
+[23:37] go so that's the last
+[23:39] topic um of these lectures um except
+[23:43] that at the end I I'll show a little bit
+[23:46] I show you a little bit about um the
+[23:48] framework in astrophysics as well okay G
+[23:51] so we consider the optical geometry of a
+[23:54] static spherically symmetric SpaceTime
+[23:56] not necessarily in vacuum of course
+[23:58] course if it's in vacuum by bov's
+[24:00] theorem it will be Schwarz right so
+[24:03] we've seen some of this already but uh
+[24:05] it doesn't have to be in vacuum can be
+[24:06] slightly more General so consider the
+[24:08] optical
+[24:13] geometry of
+[24:15] static spherically symmetric
+[24:27] SpaceTime
+[24:30] um not necessarily in
+[24:38] vacuum so if it's vacuum it's Schwarz
+[24:40] child if it's not vacuum um you can
+[24:43] consider you know a fluid that has these
+[24:46] properties and then the field equations
+[24:48] take on a special form which is called
+[24:50] Tolman opheim volov can solve it right
+[24:53] um that's in this paper if you're
+[24:54] interested um of course we will just use
+[24:56] stch for the purpose these lectures
+[24:59] anyway but it's a bit more General
+[25:02] um so we have the optical
+[25:04] metric
+[25:10] oops G
+[25:12] twiddle and because of um spherically
+[25:15] spherically symmetry we
+[25:18] can we can restrict our attention just
+[25:20] to um the Judes complete surface of the
+[25:23] equatorial plane or other plane to the
+[25:25] through the origin so again without loss
+[25:29] of generality
+[25:32] choose the equatorial plane in let's say
+[25:35] in this standard spherical
+[25:44] coordinates right so we have a we have
+[25:47] this uh equatorial plane in the optical
+[25:49] geometry G twiddle and within this let's
+[25:52] consider some uh some some region some
+[25:56] surface
+[25:57] region
+[26:02] region a which can have a boundary and
+[26:05] the boundary may be uh piecewise
+[26:08] straight uh PE wise
+[26:22] smooth um with da so it consists of uh
+[26:26] smooth bits right smooth curves and
+[26:30] vertices
+[26:32] so I mean it's a bit symbolic to write
+[26:35] like this but let's say consists of
+[26:37] Curves in the union with uh the
+[26:43] vertices so
+[26:48] with smooth boundary
+[26:54] curves
+[26:56] C so again we prom arize them somehow T
+[27:00] say um let's take the components to be
+[27:04] corresponding to unit speed boundary
+[27:07] curves right so unit
+[27:11] speed um so G twiddle of C do c is equal
+[27:17] to
+[27:22] 1
+[27:23] um then the
+[27:27] vertices
+[27:28] V so at the at the vertices your your
+[27:31] smooth boundary curve under goes a jump
+[27:34] right sorry the tangent vectors undergo
+[27:36] a jump and this jump is called jump
+[27:39] angle of course uh you can measure the
+[27:41] jump angle inside or outside um if you
+[27:45] want to define the exterior jump
+[27:52] angle right so
+[27:57] veres
+[27:58] exterior jump
+[28:03] angleson um I'll draw a picture later so
+[28:06] what other properties do we have with a
+[28:08] surface the surface might have holes the
+[28:10] number of holes of um topological dis
+[28:14] can be described by What's called the
+[28:16] oiler characteristic which you might be
+[28:17] familiar with so there's also an Oiler
+[28:25] characteristic
+[28:26] Kai which is uh in the case of a dis
+[28:29] it's 1 minus G where G is the number of
+[28:31] holes that your surface
+[28:40] has the surface um might have a
+[28:42] curvature as we've seen before we have a
+[28:45] gan
+[28:52] curvature again we call this uppercase K
+[28:56] and there's also a quantity which seen
+[28:58] before it's called the geodesic
+[29:07] curvature so it's the Judes curvature
+[29:10] which is defined of course only on the
+[29:11] smooth parts of the boundary curve it's
+[29:13] denoted by little Coppa and I'm afraid
+[29:17] just looks like a small version of the
+[29:18] big cave but it's conventional or
+[29:21] actually or maybe I can so write like
+[29:24] this okay Kappa so that's um the length
+[29:30] of the vector of the coent
+[29:34] derivative of the boundary curve along
+[29:36] the tangent vectors like this right so
+[29:39] you can see immediately from the
+[29:40] definition um that the judic curvature
+[29:43] of a judic is zero so it's a quantity
+[29:46] that measures to what extent a curve um
+[29:50] is not a
+[29:52] Judes the acceleration it's the
+[29:54] acceleration yes right right so given
+[29:59] all this stuff sorry and and these
+[30:00] things of course um the metric
+[30:03] quantities with respect
+[30:05] to our Optical metric G
+[30:08] twiddle the angles are
+[30:11] true so uh given all
+[30:17] this
+[30:23] yesin Chinese
+[30:26] letters
+[30:29] so sorry repeat the question F you
+[30:31] explain
+[30:35] EAS all about uh yeah yeah um okay okay
+[30:39] let me let me draw a
+[30:43] picture so this is so so the Blackboard
+[30:46] represents the um the equatorial plane
+[30:49] in the uh Optical metric and we have
+[30:53] some bounded region
+[30:56] a uh which has a boundary
+[31:00] da which consists of smooth is piece by
+[31:04] smooth it consists of smooth bits which
+[31:05] is this and that right that's part of C
+[31:09] but it also has
+[31:11] vertices like over here like V1 V2
+[31:15] whatever
+[31:17] um you have a well defined um tangent
+[31:20] Vector of course everywhere except at
+[31:21] the vertices but um so here is tangent
+[31:26] Vector from from okay it's called C1 and
+[31:29] C2 right so
+[31:31] da is C1 with C2 and V1 and
+[31:36] V2 maybe in a particular order anyway
+[31:39] see what I mean um so this is the
+[31:41] tangent Vector of C1 and V2 now as you
+[31:45] as you move around in this orientation
+[31:46] you need a consistent orientation as
+[31:48] well um the next tangent Vector um on C2
+[31:53] at at this particular vertex of course
+[31:56] we start like this right so have a a
+[31:58] jump
+[32:01] angle which um is the jump angle
+[32:05] corresponding to this vertex let's call
+[32:07] it Epsilon
+[32:08] 2 similar thing here you have a tangent
+[32:12] Vector from C2 at V1 you'll have a
+[32:15] tangent
+[32:17] Vector
+[32:18] um on C1 at V1 it starts like this so
+[32:22] there's another jump in the tangent
+[32:24] Vector that's the exterior jump angle
+[32:28] Epsilon
+[32:29] one um yeah what else is going on so we
+[32:32] have a um gaussian curvature of the
+[32:35] surface um in a right we have a jasic
+[32:39] curvature Kappa defined in this
+[32:42] particular way along the the smooth part
+[32:45] of the boundary we might also have holes
+[32:49] so so there might be a hole in
+[32:51] it right G and of course if we have a
+[32:54] hole we need a boundary curve for the
+[32:56] hole so this then there also some some
+[32:58] boundary curve C of of the
+[33:02] hole do you see what I mean r we only
+[33:09] me that's right yes so the discs
+[33:12] topologically that's the dis
+[33:14] yeah
+[33:19] okay yeah yeah yeah that's part of the
+[33:21] boundary that's right yes what is
+[33:25] theur equatorial
+[33:28] yeah but remember this this can be
+[33:29] curved right so so this is
+[33:32] a this is part of a region on our
+[33:35] surface so maybe like like this right so
+[33:38] it lives on the surface in the embedding
+[33:41] it has a
+[33:43] curvature which varies might it might
+[33:46] possibly vary from
+[33:48] point any other questions I mean I I
+[33:51] show you a set up of this of course we
+[33:52] do calculations yes are these jump
+[33:55] angles defined by just by use of thec
+[33:57] exactly yes all of so all metrical
+[34:00] quantities here like the ging curvature
+[34:02] and so on GS curvature and of course
+[34:04] angles too they're all measured with
+[34:05] respect to to G twiddle yes that's the
+[34:09] only metric we have here anything
+[34:12] else well you see how I use it in a
+[34:14] moment but let let me um write down the
+[34:18] statement the Gus Bonet
+[34:22] theorem so it's a it's a beautiful
+[34:24] theorem um which connects local
+[34:27] properties of the surface the Gan
+[34:28] curvature with the global properties so
+[34:31] in particular with um with the other
+[34:34] characteristic the number of holes but
+[34:35] of course we have to take care of the
+[34:36] boundary as well so the statement is
+[34:39] that the integral of K over
+[34:43] a
+[34:46] plus the integral along the boundary
+[34:49] well um really the the smooth part of
+[34:52] the
+[34:53] boundary right of the judic
+[34:56] curvature
+[34:59] plus well from the jump angles we get
+[35:02] also
+[35:05] contributions the sum over the exterior
+[35:08] um jump angles of the vertices all of
+[35:11] this stuff is equal to 2
+[35:14] pi
+[35:16] Kai of a yes
+[35:19] that fin
+[35:21] set yeah
+[35:24] yes we just have a finite number of
+[35:26] vertices
+[35:33] otherwise it's smooth it's a piece by
+[35:35] smooth okay so how can we apply this to
+[35:39] our lensing problem well I want to look
+[35:41] at two constructions the first
+[35:42] construction will show us how the
+[35:45] topology really um you know impinges on
+[35:49] the number of lens images we can see and
+[35:51] then the second construction will be to
+[35:53] actually compute the deflection angle
+[35:55] finally the thing that I've been you
+[35:56] know rambling on about for the last two
+[35:59] lectures uh we can actually uh derive it
+[36:02] from this um from this point of view
+[36:04] which is very different from what you
+[36:06] might have seen in the textbooks they
+[36:07] always do the same way you know work out
+[36:09] the reflection angle but here you see a
+[36:11] different way to do it okay so
+[36:19] a so let's call this
+[36:23] topology and multiple
+[36:26] images
+[36:30] images in the sense of lens
+[36:32] image
+[36:34] okay so I can basically have the same
+[36:37] setup as I've as I've drawn it over
+[36:39] there so let's suppose we have a light
+[36:41] source
+[36:42] s and an observer o right now if we have
+[36:47] multiple images let's say we have two
+[36:49] images that means there are two light
+[36:52] rays connecting s and O right like this
+[36:55] let's
+[36:56] say
+[36:58] so these are now light rays let's say I
+[37:00] don't know Gamma
+[37:01] 1 gamma
+[37:05] 2 right so we have a light
+[37:09] source
+[37:11] s
+[37:14] Observer or as you can see these
+[37:17] correspond to our
+[37:18] vertices um light
+[37:23] rays GMA 1 GMA
+[37:26] 2 um um really in particular orientation
+[37:30] actually the light rats go like this we
+[37:31] have to be careful in applying a
+[37:34] consistent orientation though forgot the
+[37:37] name
+[37:38] uh well and then there might be holes so
+[37:41] remember for example for Schwarz we have
+[37:44] um we actually have a hole
+[37:48] um so we have to we have to use an inner
+[37:51] boundary curve for this hole and um it's
+[37:55] actually convenient to take the radius
+[37:58] of the photon orbit to be the inner
+[38:00] boundary curve and the reason for doing
+[38:03] it that it's a geodesic right so this
+[38:06] actually makes Computing the jestic
+[38:07] curvature in this case very easy we see
+[38:09] this in a moment right so there might be
+[38:11] it's called just gamma
+[38:14] P so the inner
+[38:22] boundary GMA P EG for Schwarz
+[38:26] child
+[38:39] take the circular Photon
+[38:41] orbit at uh R is equal to 3 m I've seen
+[38:45] before so in I have to this picture as
+[38:48] looking Theo from that's right something
+[38:51] like that that's right yes so so the Z
+[38:54] coordinate that we've seen before for
+[38:55] you know for the embedding so comes out
+[38:56] of the Blackboard now um and this is now
+[39:02] um a surface region a that encloses the
+[39:07] throat and well we want to determine
+[39:09] whether this kind of setup is actually
+[39:10] possible Right can we have multiple
+[39:12] images like this so then remember that
+[39:14] are these jump angles here this is um
+[39:17] let's call this epsylon s for the source
+[39:20] there's a jump angle here Epsilon
+[39:24] o and well this setup is only possible
+[39:27] of course if
+[39:30] um well if these two light rays
+[39:34] converged as an O drawn right so in
+[39:36] other words if those angles here are
+[39:40] really positive so let's call them I
+[39:43] don't know Theta
+[39:46] s Theta
+[39:49] o
+[39:51] right
+[39:56] so like the inner jump angle of course
+[39:59] it's related to the outer jump angle
+[40:00] just by um subtracting them from from
+[40:10] PI and the question
+[40:12] is can such a situation arise right is
+[40:16] this
+[40:19] possible I is it possible to have the
+[40:22] two light rays Recon converging of the
+[40:24] at The Observer it's possible to have um
+[40:26] multiple IE two images in this case well
+[40:28] let's
+[40:29] check so it's
+[40:31] possible if these two angles Theta s and
+[40:34] Theta o are really
+[40:39] positive now clearly this is 2 pi
+[40:43] minus Epsilon s Epsilon o right so it's
+[40:47] 2 pi minus the sum over the um exterior
+[40:52] jump angles
+[40:53] of at
+[40:55] vertices so according to go
+[40:58] B this is um is
+[41:02] what so you see
+[41:04] which we subtract this so it's 2 pi * 1
+[41:10] -
+[41:11] k
+[41:15] 2
+[41:18] s
+[41:20] eally not
+[41:22] one
+[41:25] angles uh sorry it's Pi but it's
+[41:28] individual Pi yes yes of
+[41:31] course of
+[41:35] course um I it's very R of setting up
+[41:37] let's just look at this setup of course
+[41:39] you can do it other ways
+[41:41] um um plus well the integral over the
+[41:46] smooth boundary curve C of the jessic
+[41:49] curvature times DT um well plus the
+[41:52] integral of the gaussian
+[41:54] curvature right um
+[41:58] now this is 2 pi times the number of
+[42:01] holes in principle right say we have
+[42:04] multiple Schwartz black holes in there
+[42:07] could be 2 pi
+[42:09] G um
+[42:12] plus the
+[42:17] rest well but what is
+[42:19] c um well the way set up it's it's Gamma
+[42:23] One and Gamma two I mean if if you want
+[42:26] to be
+[42:29] um want correctly we really have to um
+[42:33] be consistent as far as the orientation
+[42:35] concern so we really have to reverse
+[42:36] gamma tool but doesn't really make a
+[42:38] great deal of difference plus um this
+[42:41] gamma
+[42:43] P right so if if it reverse the
+[42:47] orientation
+[42:49] then we have to have a consistent
+[42:52] orientation is actually like this on the
+[42:54] inner boundary curve gamma p
+[42:58] uh well what is Coppa evaluated on on
+[43:01] the smooth boundary bits well Gamma 1 is
+[43:05] a light Ray it's a judic gamma 2 is a
+[43:07] light Ray it's a judic gamma P we've
+[43:10] chosen to be the radius of the photon
+[43:12] orbit that's a jesic tool so cppa of the
+[43:17] smooth part of the boundary is zero
+[43:19] conveniently right so we end up with the
+[43:23] statement that for this multiple Imaging
+[43:26] situation to occur um 2 pi G plus the
+[43:31] integral of the gaussian curvature over
+[43:33] the uh the surface region must be
+[43:36] greater than
+[43:38] zero but remember for Schwarz
+[43:44] child right that's of course the sort of
+[43:47] model that we have in the back of our
+[43:49] minds for Schwarz copper is always
+[43:52] negative so for this to be true we must
+[43:56] have
+[43:57] um the property that g is certainly
+[44:00] greater than zero is at least one it's
+[44:02] an integer
+[44:06] right or one in the case of just
+[44:09] one right but that's the topological
+[44:12] contributions so you see multiple images
+[44:14] in the case of a schwar child um
+[44:17] solution the two images that we get here
+[44:19] is actually only possible if the
+[44:21] topology is non singular so you can
+[44:23] really conclude in this particular case
+[44:26] that um the top logical contribution is
+[44:28] essential for multiple images to occur
+[44:31] right so
+[44:32] hence in this
+[44:44] case is really
+[44:54] essential for multiple lensed images
+[44:57] this um to
+[45:02] occur
+[45:04] topology upon us because the
+[45:06] threedimensional metric cannot be put on
+[45:08] a space that doesn't have a hole is that
+[45:11] right uh think right what if there is a
+[45:14] massive body which R is just R of the
+[45:18] and it's not a black yeah okay I com to
+[45:21] this so
+[45:22] um in this particular we have Schwarz in
+[45:25] mind here we really see that it's
+[45:27] essential if um there is a massive body
+[45:29] if we don't have a um indeed if we don't
+[45:32] have a photon orbit we don't have a a
+[45:34] horizon then the situation will will
+[45:36] change then Coppa can actually be
+[45:38] positive so typically for a Galaxy you
+[45:42] know um a mass
+[45:44] distribution that's um static
+[45:47] spherically symmetric but not SCH um you
+[45:50] don't get this kind of picture in the
+[45:53] embedding diagram where it's clearly
+[45:57] where the G Cur is is clearly negative
+[45:58] everywhere um something simpler happens
+[46:00] it just sort of bulges out like
+[46:03] that but here you can see the Gin
+[46:06] curvature is actually positive right so
+[46:09] now so in this case the sign of K can
+[46:11] actually change and in that case of
+[46:12] course you can also have other images
+[46:15] because of that right so of course it's
+[46:17] more complicated in the general case but
+[46:19] in the particular case of schwar we see
+[46:21] that topology is really essential in the
+[46:23] more General case it's not essential but
+[46:26] it comes in right so so the topological
+[46:29] contribution is really important that's
+[46:31] certainly true to say um for lensing in
+[46:34] general even
+[46:37] so and this is what I meant earlier um
+[46:41] that's the precise meaning of what I
+[46:42] meant earlier by the statement that
+[46:43] lensing is really intrinsically a global
+[46:46] effect so we have to take the the
+[46:49] topology of the surface into account um
+[46:52] in the case like Schwarz is actually
+[46:54] essential it doesn't work without in the
+[46:56] more General case well it contributes
+[46:58] but K can also be positive right so it's
+[47:01] less strict yes is there is there a
+[47:14] explan
+[47:17] yes
+[47:20] okay it's it's a it's a beautiful
+[47:22] theorem it's not easy to derive I
+[47:23] couldn't just you know cough up a
+[47:25] derivation of this immediately um so
+[47:27] this is for a surface with boundary let
+[47:29] me just motivate for you um a particular
+[47:36] case so suppose your two dimensional
+[47:39] surface actually has no boundary right
+[47:43] so for example consider the surface to
+[47:46] be our old friend S2
+[47:50] again so then there's nothing like this
+[47:53] which just don't have a boundary and Gus
+[47:55] Bon then says where the integral of the
+[47:57] G in curvature over the surface must be
+[48:01] um uh 2 pi times the oiler
+[48:05] characteristic right now remember we've
+[48:07] already worked out uh k for S2 k for S2
+[48:13] is equal to one the integral over the
+[48:17] over the unit radius sphere is 4 piun
+[48:22] right so we get the statement 1 * 4 Pi
+[48:25] is equal to 2 pi * was the O of sphere
+[48:28] but it is indeed
+[48:30] two um so you can sort of see that it
+[48:33] works in this case is
+[48:39] it this is for topological
+[48:42] dis um where we have a boundary curve if
+[48:45] you don't have a boundary curve it's
+[48:46] actually 2 minus
+[48:48] 2G right and in this case of course the
+[48:50] sphere has no hole in it so you get two
+[48:53] it's different right this is for dis
+[48:55] with boundary this is for surface
+[48:57] without boundary but the beautiful thing
+[48:59] is if you deform the sphere
+[49:02] topologically it stays the
+[49:05] same that's right so so if if it if
+[49:09] it's right if it doesn't if you don't
+[49:11] introduce a boundary surface that's also
+[49:12] topological
+[49:13] sphere um with the same Oiler
+[49:16] characteristic
+[49:18] yes okay so here now we seen the oh
+[49:25] sorry
+[49:29] me hold on hold on so this is only for
+[49:33] topological dis where we have a boundary
+[49:35] um like this relates to the other
+[49:37] question in this case if there's no
+[49:39] boundary um Kai is actually 2 minus 2 *
+[49:43] number of holes so for topological
+[49:46] sphere there is no hole G is equal to
+[49:48] zero it's a different formula right um
+[49:51] yes what is the definition of boundary
+[49:53] because I think that the boundary of the
+[49:54] S2 is maybe the S2
+[49:57] if you take a point out of the S2 always
+[49:59] if you lay around it part of the
+[50:02] S2 the S2 uh well I mean this is really
+[50:06] in the standard sense of um surface you
+[50:08] know manifold without boundary um you
+[50:11] don't have a boundary curve that that um
+[50:15] you know bounds S2 of
+[50:17] course that's that's what we what we
+[50:19] need right you can have um two two
+[50:22] geodesics that um stay a long way away
+[50:25] from the uh from the throat but you
+[50:28] still have them diverging and converging
+[50:30] I mean what we said earlier it's just a
+[50:31] local property of the of the
+[50:34] judaics just Lo so but actually frederi
+[50:38] I mean it's quite right you can have um
+[50:40] more complicated lensing this is all
+[50:42] relativistic remember you can actually
+[50:44] you could consider in principle the case
+[50:46] I haven't done it here that you have um
+[50:48] you know judaics wrapping
+[50:50] around and actually rotating several
+[50:53] times and move back out again it's it's
+[50:55] possible
+[50:57] um I've considered the sort of trivial
+[51:00] case because that's actually what's
+[51:01] going on in nature that's actually what
+[51:03] we observe in lensing right so these
+[51:05] light rays pass by the lens the Galaxy
+[51:08] in distance of you know thousands of of
+[51:10] parcs typically so it's actually rather
+[51:13] trivial so I want to show you the
+[51:15] trivial example because even in the
+[51:16] trivial example the topological
+[51:18] contribution comes in um this yes we
+[51:21] could also discuss but it just makes
+[51:22] things more complicated and it's never
+[51:24] been observed I think um anyway so let
+[51:27] me what's there one more
+[51:29] question
+[51:33] yes ah yeah very good question um you
+[51:37] could um so if you work out the lensing
+[51:40] properties of of these multiple orbits
+[51:42] they just come out of course you know in
+[51:44] different point um actually to you know
+[51:47] for the lensing to occur you have to
+[51:49] make sure not just that these jics get
+[51:52] deflected at the at the um black hole
+[51:55] but they have to start at some emission
+[51:57] event and you actually have to be able
+[51:58] to observe them so there's an
+[52:00] additional just geometrical um
+[52:03] constraint that these jessics really end
+[52:05] up where they where they should so that
+[52:07] we can observe them and then this
+[52:10] lensing case would be slightly different
+[52:11] you could I think take you know tell it
+[52:13] apart um but anyway let me let me now go
+[52:16] on from um the first part to the second
+[52:20] part let's let's use Gus buet to
+[52:24] um to um actually work out the the
+[52:26] deflection angle in this simple case in
+[52:29] the sort of trivial case where the light
+[52:30] Ray passes by the black hole at um at
+[52:33] Great distance in other words the the
+[52:35] deflection angle that I've written down
+[52:37] yesterday right so this is now
+[52:47] B and for this uh computation we again
+[52:50] use gpet but um with a different region
+[52:55] which turns out to be useful so again we
+[52:57] have our light source which sends out
+[53:00] light there's a lens somewhere the lens
+[53:03] might have uh you know Photon sphere
+[53:07] we're actually way away from the photons
+[53:09] we don't really care but there will be
+[53:11] some you know small
+[53:12] deflection and then we end up at The
+[53:15] Observer
+[53:16] here now let's suppose we take
+[53:19] our this would have been the undeflected
+[53:22] ray
+[53:23] um it passes by the the the lens at some
+[53:28] distance well let's say let's just take
+[53:29] the coordinate distance because it's
+[53:31] such a long way right from the black ho
+[53:33] we can just use short coordinates that's
+[53:35] the impact parameter
+[53:37] B and um the region I want to consider
+[53:40] is the following it it has the following
+[53:43] boundary it has the light Ray gamma and
+[53:45] it has something which is not a light
+[53:47] Ray just
+[53:48] um um an
+[53:51] arc that connects
+[53:54] o back with s
+[53:57] like this and um so that's the boundary
+[54:00] curve
+[54:01] C and let's make it symmetric we want to
+[54:04] work out the ASM totic deflection angle
+[54:06] eventually we want to let s go off to
+[54:08] Infinity in One Direction o go off to
+[54:10] Infinity the other direction um so let's
+[54:15] just make to make life easy for
+[54:16] ourselves let's say the distance from s
+[54:19] to L is the same as the distance from L
+[54:21] to O which we call Big
+[54:25] R and um the boundary curve
+[54:29] C is just this Arc
+[54:33] uh x a of
+[54:35] T um
+[54:38] well let's just write it in in polar
+[54:40] coordinates R of T is Big R is
+[54:45] constant and
+[54:48] F so ASM totically let's say this is
+[54:52] also the the polar axis for our F
+[54:54] coordinate system uh f
+[54:56] goes from let's call this angle Alpha
+[55:01] goes from minus Alpha to
+[55:05] Pi okay and then this Alpha will
+[55:07] actually become our ASM totic deflection
+[55:10] angle of the light rays as you can of
+[55:13] see and um okay so gamma is the light
+[55:19] Ray and the region that we want to apply
+[55:21] g b to is now
+[55:23] this it depends of course on on r it's
+[55:26] bigger eventually we let um we let R go
+[55:31] to
+[55:32] Infinity but actually for for this to
+[55:34] work really what we what we need to have
+[55:37] is that the schwar radius so that's you
+[55:40] know 2 m must be a lot smaller than the
+[55:43] impact parameter which itself is a lot
+[55:45] smaller than R and then it
+[55:49] works but in the limit is
+[55:51] exact statement ation curve two
+[55:55] dimensional Stace
+[55:56] but this whole picture a hug range thats
+[56:02] looks
+[56:04] approximately exactly so as as R goes to
+[56:07] Infinity um DT squ actually that'll be
+[56:10] important goes to its okay bad notation
+[56:14] but Dr r s plus r s D5 s in other words
+[56:18] uh the ukan metric of of the surface
+[56:21] right uh Romanian surface but in polar
+[56:25] coordinates
+[56:28] okay now we also ignore cosmology in
+[56:31] this setup right of course physically we
+[56:34] we have the lens which is somewhere in
+[56:36] the universe universe expands so it's
+[56:39] really conformally ukian but it's not
+[56:41] not a big problem we can actually change
+[56:43] this but um if you want to be pedantic
+[56:45] you can say okay this R um is is very
+[56:49] large but it's actually less large than
+[56:51] the Hubble
+[56:52] parameter right then we have to take
+[56:54] into account cosmology but let's leave
+[56:56] it at that for the time being can be
+[56:58] changed easily so what about AR let's
+[57:00] apply GP to this first of all in this
+[57:04] case there's now no hole right AR is
+[57:07] topologically Trivial it's topologically
+[57:09] a disc without hole so Kai is equal to
+[57:12] one that's for
+[57:14] sure
+[57:20] um right so let me write on go
+[57:25] again
+[57:39] so we just get 2 pi
+[57:42] here
+[57:45] um what about the
+[57:47] gaussian Cur where the jestic curvature
+[57:50] on the boundary curve
+[57:53] um let me work it out over here thanks
+[57:59] so the judic curvature of the light Ray
+[58:02] of course is zero because that's judic
+[58:04] what's the gastic curvature on our
+[58:06] boundary curve so we have to work out
+[58:09] now the gestic curvature of um a
+[58:11] circular Arc in well essentially in
+[58:15] um in flat ukian geometry by the way
+[58:19] what are the um non- Vanishing
+[58:21] connection components
+[58:25] here
+[58:27] so dt^ 2 is d r 2 + r² d 5^
+[58:34] 2 let's say um what are the
+[58:36] non-vanishing connection
+[58:44] components but we've already worked this
+[58:46] out earlier I mean in the last lecture
+[58:48] because this is again of our special
+[58:50] form right so it would be gamma
+[58:54] r55 and gamma
+[58:57] oops what's the other one F RI I
+[59:14] think so so you know our function f of R
+[59:17] simply R remember this was um minus ffim
+[59:22] this is just minus r and this was fim
+[59:25] over f so that's 1 /
+[59:28] R so what's
+[59:31] um I mean actually it's trival if you
+[59:33] know go if if you know the Judas
+[59:34] curvature it's just the Judas curvature
+[59:36] of a circle in uclean space but let's
+[59:38] work it out the long way uh for fun so
+[59:42] what is copper of C so by definition
+[59:45] it's the length with respect to the
+[59:47] optical metric well in the ukian domain
+[59:50] really just ucan metric here of nabla C
+[59:54] dot C Dot
+[59:56] right
+[59:58] okay so let's look at the components
+[1:00:00] what is the eighth component of this
+[1:00:04] well it will be C dob c. a semicolon B
+[1:00:09] right so C dob C do a comma B plus GMA a
+[1:00:15] b c c do c c do
+[1:00:19] B and what is C dob well we have polar
+[1:00:23] coordinates
+[1:00:24] so
+[1:00:28] so what is it
+[1:00:30] um C dot it's it's certainly by by by by
+[1:00:35] um circular symmetry it can only have a
+[1:00:37] component in the F
+[1:00:41] direction right there's no radial
+[1:00:43] component of the tangent
+[1:00:46] Vector um let me write down the curve
+[1:00:48] again so C is um it's really given by R
+[1:00:52] of five is R is
+[1:00:54] constant so what is C do F now remember
+[1:00:58] for
+[1:00:59] go Al for this definition we have unit
+[1:01:02] speed curves so the unit speed condition
+[1:01:06] fixes our um component
+[1:01:10] here right so g c do c is one means then
+[1:01:15] that well there only a five component
+[1:01:17] that
+[1:01:18] G55 C do 5 C do 5 is equal to 1 uh G55
+[1:01:24] is R 2 if evaluated at the curve is Big
+[1:01:27] R so we conclude then that c do f is
+[1:01:31] simply well simply one over Big R
+[1:01:37] right now in any case it's a constant
+[1:01:39] component so whatever it is um in the
+[1:01:42] coant derivative the derivatives will
+[1:01:44] vanish so we're only left with terms
+[1:01:46] from the connection components um so you
+[1:01:50] can see we have a contraction here with
+[1:01:52] the components gamma do c where we only
+[1:01:55] have one component in the F Direction so
+[1:01:57] you see the only component of the coant
+[1:01:59] derivative um is actually the the radial
+[1:02:02] component right so the only non
+[1:02:04] Vanishing component of the coant
+[1:02:06] derivative is the r component which will
+[1:02:08] be given by gamma fi H sorry gamma R 5 f
+[1:02:15] c do 5^
+[1:02:18] SAR and um well and Gamma r55 minus
+[1:02:24] r evaluated at the curve is minus Big R
+[1:02:28] / R 2 so it's -1 /
+[1:02:35] R so the jesic curat can work it out
+[1:02:39] over here is the length versus one
+[1:02:41] component so it's um well it's and it's
+[1:02:46] remanion so it's gr RR c. r c do R to
+[1:02:51] the power of a half so it's basically
+[1:02:55] this square square rooted so it's 1 / R
+[1:02:59] so you get the result which is probably
+[1:03:01] perfectly obvious anyway the gaussian
+[1:03:03] curvature sorry the jestic curvature of
+[1:03:05] a circle in ukian space is one over the
+[1:03:08] radius of that Circle and clearly you
+[1:03:11] can see now if you let the radius of a
+[1:03:12] circle go to Infinity you get a straight
+[1:03:14] line the straight line is dudic in ukian
+[1:03:17] space well yes indeed Capa is equal to
+[1:03:19] zero as you would expect right so makes
+[1:03:21] perfect sense now um let's go back to
+[1:03:24] our computation here then so as R goes
+[1:03:27] to Infinity as we move the circle out
+[1:03:29] into the ukian domain that we've been
+[1:03:31] using over there uh what happens
+[1:03:37] well we get the domain let's call it a
+[1:03:41] Infinity
+[1:03:42] KDA
+[1:03:45] plus um
+[1:03:49] well what is
+[1:03:51] DT you see at at r is equal to constant
+[1:03:55] well
+[1:03:57] if right over here
+[1:04:01] um if R is constant dt^ 2 is Dr R 2 + r
+[1:04:06] 2 d^ 2 right so DT is just r
+[1:04:11] d right so
+[1:04:14] integrating over this bit then is the
+[1:04:17] integral
+[1:04:18] of of Kappa of C dot which we've shown
+[1:04:22] to be 1 / R time DT but that's really R
+[1:04:25] DF
+[1:04:26] over the range of C the c c goes from
+[1:04:29] minus Alpha to
+[1:04:31] pi plus the jump angles well by the
+[1:04:36] Symmetry we have a circular um we have a
+[1:04:39] circular Arc intersecting essentially
+[1:04:42] radial arcs they're offset but as you go
+[1:04:44] to Infinity um they become orthogonal so
+[1:04:48] the two jump angles actually just < by 2
+[1:04:50] < by 2 in the limit right is 2 * < / 2
+[1:04:55] is to 2
+[1:04:58] pi
+[1:05:00] this gives
+[1:05:02] us Pi +
+[1:05:04] Alpha that's obviously
+[1:05:12] Pi yeah so so these jump angles turn to
+[1:05:16] Pi by two as R goes to Infinity the
+[1:05:18] other one
+[1:05:22] too there's no jump angle it's no jump
+[1:05:26] it's it's a smooth it's a light Ray it's
+[1:05:27] just you know curved smooth yeah there's
+[1:05:31] no jum it's only two vertices s and O
+[1:05:33] just like before right um I mean
+[1:05:36] essentially it looks as if there was a
+[1:05:38] jump angle and that's what the
+[1:05:39] astronomers do in the standard formalism
+[1:05:42] you actually treat the light rays as
+[1:05:44] straight lines in Udi in space and
+[1:05:46] there's a is a is actually a kink
+[1:05:48] there's a jump angle there but here
+[1:05:50] we're doing you know in the sort of gr
+[1:05:51] setting we don't we just take it as it
+[1:05:53] is it's a smooth light Ray
+[1:05:56] right okay so that's what we get here
+[1:05:59] the the jump angles that do occur at the
+[1:06:01] two vertices s and O but we actually you
+[1:06:03] know we we match two different
+[1:06:06] curves and um well as you can see we can
+[1:06:09] rearrange sorry about the um layout of
+[1:06:13] the of the black B but now we can we can
+[1:06:16] um
+[1:06:19] deduce yes so are approach infity Al
+[1:06:24] goes to Zer and mov
+[1:06:26] s OBS towards infity yeah that's right
+[1:06:30] and then the region I I just call a
+[1:06:31] Infinity so it's the region that is
+[1:06:33] bounded by this infinite light Ray
+[1:06:36] excludes the lens and goes all the way
+[1:06:38] off to Infinity
+[1:06:39] right and this um deflection angle is
+[1:06:43] then minus the integral of the gausin
+[1:06:46] curvature over this region a Infinity
+[1:06:50] integrated you know so all of this a
+[1:06:54] infinity excluding the lens and then
+[1:06:57] going off to
+[1:06:58] Infinity that's the statement and You'
+[1:07:01] seen we haven't actually made any
+[1:07:02] approximation that's excuse me that um
+[1:07:04] equation is exact for the reflection
+[1:07:07] angle in the case of um a statically
+[1:07:10] symmetric
+[1:07:12] lens and um if you think about it it's a
+[1:07:14] very surprising equation I
+[1:07:17] think so
+[1:07:24] note uh
+[1:07:26] um well normally when you say okay a
+[1:07:29] mass deflects light you would think that
+[1:07:31] the action of deflection of course
+[1:07:34] depends on the mass that's enclosed
+[1:07:35] within the impact parameter right you
+[1:07:37] have a light Ray the light Ray is
+[1:07:39] deflected by some stuff by some Mass The
+[1:07:42] more mass you have inside of the of of
+[1:07:45] the light R the more deflection you
+[1:07:46] would get right the deflection angle is
+[1:07:49] indeed proportional to to M as we've
+[1:07:52] seen yesterday that's what we want to
+[1:07:53] work out later in a moment right
+[1:07:56] but actually look at this equation it
+[1:07:58] tells you you can look the other way you
+[1:08:00] can work out a quantity integrated from
+[1:08:03] the light Ray off to Infinity excluding
+[1:08:06] the lens right you're not looking at
+[1:08:09] what's enclosed in the impact parameter
+[1:08:11] you look at what's outside of it so how
+[1:08:13] how can it be possible that you get the
+[1:08:15] same thing again it tells you it's a
+[1:08:17] Global Effect lensing is a Global Effect
+[1:08:19] you can look on the inside or you can
+[1:08:21] also choose to look on the outside get
+[1:08:22] the same thing uh yeah sorry there was a
+[1:08:24] question
+[1:08:25] oh
+[1:08:31] yes very good very good yes H
+[1:08:37] okay let me make this this note first
+[1:08:40] okay
+[1:08:41] so so the deflection angle Alpha
+[1:08:48] um is
+[1:08:54] determined by some some quantity you
+[1:08:56] know the integral of the ging curvage of
+[1:08:57] the optic metric blah blah blah outside
+[1:09:00] of the light
+[1:09:05] Ray so okay obviously that's true and it
+[1:09:08] just underscores again that lensing is
+[1:09:11] intrinsically
+[1:09:14] Global right we have seen the
+[1:09:16] topological property that's in some
+[1:09:18] sense saying the same thing um yes and
+[1:09:21] then as you have observed um now to
+[1:09:24] actually compute this how do we compute
+[1:09:26] this well as you can see the region
+[1:09:28] already contains the answer it contains
+[1:09:30] the actual light Ray right is that a
+[1:09:32] problem well not really it just means
+[1:09:35] you have to compute this
+[1:09:37] iteratively you might say Okay um we
+[1:09:39] don't know what the deflection is let's
+[1:09:40] say
+[1:09:42] initially we take the boundary to be an
+[1:09:44] undeflected light Ray then you get some
+[1:09:47] value for the deflection angle
+[1:09:48] proportional to M okay so this then
+[1:09:50] gives you a slightly better fit for the
+[1:09:52] actual light Ray now we have a better
+[1:09:54] boundary
+[1:09:56] it's still not the the the precise light
+[1:09:58] Ray you plug it in again and get you
+[1:10:00] know third auto corrections and so on so
+[1:10:02] um this formula contains the answer so
+[1:10:06] you have to solve it
+[1:10:13] iteratively and that's exactly what
+[1:10:15] we're going to do
+[1:10:16] now um EXC
+[1:10:20] yes
+[1:10:24] Z yeah yeah that's what I mean by
+[1:10:26] iteratively so so we know that if we
+[1:10:30] integrate over this a Infinity we get
+[1:10:31] the corite deflection angle well let
+[1:10:33] then suppose we just integrate over the
+[1:10:36] straight over fiducial light Ray which
+[1:10:38] is undeflected right so you approximate
+[1:10:42] a Infinity by this region but of course
+[1:10:44] there's a m there's a um you incur um a
+[1:10:48] mistake because a Infinity actually
+[1:10:50] contains this region too but
+[1:10:52] remember um the optical metric of course
+[1:10:55] approaches ukian metric so even though
+[1:10:57] this is an infinite region it doesn't
+[1:10:59] really contribute much so you get a
+[1:11:01] value for
+[1:11:03] a with this
+[1:11:05] um you know first approximation for the
+[1:11:08] light R second approximation you now you
+[1:11:11] know there's a there's a A first order a
+[1:11:14] let's say a Zer then you get a better
+[1:11:16] approximation to a Infinity you plug it
+[1:11:18] in again get a new value for a this then
+[1:11:22] gives you another correction and so on
+[1:11:25] itative solution now um you know this
+[1:11:28] will be a if you work it out will be an
+[1:11:30] expansion in M you can think of this as
+[1:11:31] a tailor expansion in M if you really
+[1:11:34] want to find the correct value for for a
+[1:11:37] for Alpha you'd have to go through this
+[1:11:39] procedure of iteratively solving it now
+[1:11:41] we just want to work out the leading
+[1:11:43] order this is what I've shown you
+[1:11:44] yesterday and it turns out for this it's
+[1:11:46] sufficient to just approximate a
+[1:11:48] Infinity for this
+[1:11:50] region right well let's let's see that
+[1:11:53] really this is the case
+[1:11:59] so now let's work out the leading
+[1:12:08] order approximation for for Alpha so the
+[1:12:11] one that's only proportional to M and by
+[1:12:14] the way this um okay let say it
+[1:12:24] later
+[1:12:29] right let's say we take this to be our
+[1:12:32] first approximation for for a
+[1:12:35] Infinity now what's the boundary curve
+[1:12:37] is this undeflected light
+[1:12:45] Ray and what's it given by well r
+[1:12:49] five is what uh
+[1:12:53] well this is this is
+[1:12:56] r
+[1:12:58] f um remember B is a lot bigger than the
+[1:13:01] schide radius that's what we've assumed
+[1:13:03] right B is a lot bigger than 2 m so
+[1:13:05] we're here already in the ukian region I
+[1:13:08] can take this to be B over
+[1:13:13] sin5 right so then Alpha will be
+[1:13:17] approximately well first order anyway
+[1:13:20] will be the integral of this gausin
+[1:13:22] curvature cppa over um
+[1:13:27] a
+[1:13:32] Infinity I don't remember what the
+[1:13:36] go so
+[1:13:41] recall Kaa for for
+[1:13:51] Schwartz
+[1:13:53] um we it out or kind of anyway was equal
+[1:13:59] to - 2 M R
+[1:14:03] cubed into 1 - 3 m / 2
+[1:14:08] R so we can just do the leading order
+[1:14:12] calculation
+[1:14:14] um so all the RS are a lot bigger than M
+[1:14:18] right by this assumption so this is
+[1:14:20] basically just minus 2 m / R
+[1:14:24] cubed
+[1:14:25] um so Alpha will be
+[1:14:28] approximately the integral
+[1:14:31] of - 2 m over R cubed what's uh what's
+[1:14:40] da well of course it will be the square
+[1:14:42] root of the determinant of G
+[1:14:44] twiddle right times our coordinates
+[1:14:47] coordinate area element drd5 guess
+[1:14:49] you've seen this before so this will
+[1:14:52] just be we in the in the ukian region
+[1:14:55] this will be squ root of R 2 d r d right
+[1:14:59] basically Rd r d we know this anyway so
+[1:15:03] Rd
+[1:15:04] rdf integrated from where to where well
+[1:15:08] from
+[1:15:09] RF which is B over sin f up to
+[1:15:15] infinity and then F goes from we go off
+[1:15:19] to Infinity goes from zero to
+[1:15:23] Pi
+[1:15:27] and that's the that's approximate of
+[1:15:29] course at first order so what do we get
+[1:15:33] the integral from 0 to
+[1:15:35] Pi of um well um of What minus 1 / r²
+[1:15:41] that's minus 1 / R plus 1 /
+[1:15:53] r
+[1:15:58] this
+[1:16:00] right
+[1:16:02] so
+[1:16:05] D think it's minus
+[1:16:08] right
+[1:16:11] minus
+[1:16:13] good so it say integral from 0 to Pi
+[1:16:18] of 2 m / B * sin 5
+[1:16:23] D well obviously that's 2 m/
+[1:16:28] B minus cos from 0 to
+[1:16:34] Pi sorry yeah yeah yeah that's right but
+[1:16:38] there was a minus at front
+[1:16:46] right
+[1:16:47] right but that's minus here I think and
+[1:16:50] um that gives us minus- one which is one
+[1:16:53] minus minus so that gives us two yes so
+[1:16:56] it's 4 M over
+[1:16:59] B right or remember so M was was
+[1:17:04] physically that's G physical Mass over
+[1:17:06] c^ s so this is 4 GM
+[1:17:10] over uh BC squ finally and that's what
+[1:17:14] I've written down yesterday or what what
+[1:17:17] was the um you know leading order
+[1:17:19] deflection angle for light and general
+[1:17:21] relativity for water and then indeed for
+[1:17:23] any any Mass if you're sufficiently f
+[1:17:25] away and it's
+[1:17:26] compact okay so
+[1:17:29] um yes so you can use this method to
+[1:17:31] compute the deflection angle I uh agree
+[1:17:34] it's maybe not the best way because you
+[1:17:35] actually have to go to you know you have
+[1:17:36] to go to curvature you have to go to
+[1:17:38] second derivative of of a metric um you
+[1:17:40] have to solve it iteratively maybe it's
+[1:17:42] not the best methods to to use in
+[1:17:44] practice to actually work it out but I
+[1:17:46] think conceptually it's interesting
+[1:17:47] because it really brings out that
+[1:17:49] lensing is a Global Effect and then in
+[1:17:52] the last oh in the last few minutes
+[1:17:55] sorry I'm overrunning already I just
+[1:17:57] want to discuss or to mention uh one
+[1:18:00] other example uh which is not schw child
+[1:18:04] but um a model for Galaxy that
+[1:18:06] astronomers like to
+[1:18:08] use
+[1:18:10] so so I can
+[1:18:15] do
+[1:18:18] what
+[1:18:21] sorry oh you're still writing can can I
+[1:18:25] can I clean
+[1:18:27] this can I clean this can you
+[1:18:30] reconstruct what was written there
+[1:18:31] because I've
+[1:18:34] forgotten on the oh
+[1:18:37] okay it's in the paper
+[1:18:40] anyway
+[1:18:42] um
+[1:18:48] so
+[1:18:53] so
+[1:18:58] this
+[1:18:59] okay it's another
+[1:19:02] example um called the singular
+[1:19:05] isothermal
+[1:19:16] sphere so reason it's called um
+[1:19:18] isothermal is that really corresponds to
+[1:19:21] um Mass model where every um massive
+[1:19:25] particle has the same kinetic
+[1:19:26] temperature and you're looking for you
+[1:19:30] know a model that's self-consistent that
+[1:19:32] satisfies Pros equation and it's
+[1:19:34] singular because the density blows up at
+[1:19:36] the center but anyway it's a this is
+[1:19:39] Newtonian right um the spatial density
+[1:19:42] as a function of radius is is given by
+[1:19:45] this Sigma s over 2 pi g r 2 where G is
+[1:19:51] the gation constant Sigma squ is the
+[1:19:53] velocity this verion of the system of
+[1:19:56] particles and that's the density so if
+[1:19:58] you like it's a model for a Galaxy I'm
+[1:20:00] afraid the density blows up but it
+[1:20:01] doesn't really matter um too much we can
+[1:20:04] sort of smooth it and we also you know
+[1:20:07] this is not
+[1:20:08] neonian the velocity exion is um a lot
+[1:20:11] less than the speed of
+[1:20:12] light you hundreds of kilometers per
+[1:20:14] second maybe and um all in
+[1:20:19] thody indeed yes um or if you like a
+[1:20:22] bowl of a bowl of Point particles
+[1:20:24] massive Point particles so there's a you
+[1:20:26] know a
+[1:20:28] stellar kinematics version of this tool
+[1:20:30] which describes the Galaxy if you smooth
+[1:20:32] out um these massive particles then you
+[1:20:35] get a spatial density so there's various
+[1:20:36] ways of um thinking about this so it's
+[1:20:39] really if you like a circular symmetric
+[1:20:41] Galaxy it's actually not a bad model for
+[1:20:43] Galaxy astronomers like to use it um now
+[1:20:46] you've got all the Machinery in
+[1:20:47] principle you can work out you know the
+[1:20:49] the optical geometry let me just tell
+[1:20:51] you what the result is so you get some
+[1:20:53] um you get some Optical metric you um
+[1:20:57] can look at the at the equatorial plane
+[1:21:00] right totally judaic you
+[1:21:03] can so you have this distribution you
+[1:21:06] make out of this an energy momentum
+[1:21:08] tensor you could yes Tolman op volov
+[1:21:11] okay you can do there is a there's a
+[1:21:13] general relativistic version of this
+[1:21:14] tool by um bis novati kogan but you
+[1:21:19] would need that you could yes but that's
+[1:21:21] right but then in the end which is
+[1:21:23] looking at lensing in US limit and you
+[1:21:26] know you you basically plug in the
+[1:21:29] Newtonian Mass distribution again and
+[1:21:31] from general relativity you just inherit
+[1:21:32] the fact of two
+[1:21:34] and you need yes yeah yeah so all of
+[1:21:37] this can be done special realistically
+[1:21:39] with tomman opheim volov but um anyway
+[1:21:43] so this is new what it looks like
+[1:21:44] Newtonian in Newtonian physics sessing
+[1:21:47] it l scales really what we need the
+[1:21:50] optical geometry of the spatial um the
+[1:21:53] optical geometry of theal plane
+[1:21:55] embedded in R3 so we do exactly the same
+[1:21:57] as we did before looks like
+[1:22:03] this so in this limit it's bit more
+[1:22:06] complicated it's square root of 8 Sigma
+[1:22:09] squ *
+[1:22:11] R so what does that tell
+[1:22:13] you what does the um the equatorial
+[1:22:17] plane look like in Optical in Optical
+[1:22:21] geometry it's a cone right
+[1:22:30] so
+[1:22:32] um in this in this model it is yes
+[1:22:36] yes you can cut it off then um and the
+[1:22:40] optical properties depend on whether
+[1:22:41] you're inside or outside of the cut off
+[1:22:43] outside then it will look like Schwarz
+[1:22:45] right inside it will still look like
+[1:22:47] that we have let's let Mass diver it's
+[1:22:50] not a problem for this argument anyway
+[1:22:52] so
+[1:22:53] um
+[1:22:56] so we have a we have a cone in the
+[1:22:57] optical geometry what does that tell us
+[1:23:00] for the gaussian
+[1:23:03] curvature
+[1:23:06] yep what does that tell us for the
+[1:23:08] deflection
+[1:23:15] angle
+[1:23:18] ready a deficit angle yes so we go
+[1:23:21] through the same argument with G bu
+[1:23:24] remember remember the way I've set it up
+[1:23:26] was really for um a static specially
+[1:23:30] symmetric space term that approaches
+[1:23:32] ukian space um in the optical geometry
+[1:23:34] at large distance here well it's flat
+[1:23:37] but it's not quite ukian space it's
+[1:23:39] actually conic so you know basically if
+[1:23:42] if you work out the the same formula
+[1:23:44] that we did before Kappa would be
+[1:23:47] different right because it's really for
+[1:23:49] conic SpaceTime and then Alpha will not
+[1:23:51] be zero so you have to modify this
+[1:23:53] formula right right um it's no longer
+[1:23:55] ukan at large distance and what you get
+[1:23:58] for for Alpha at leading order is 4 Pi
+[1:24:01] Sigma squ or it's actually just half of
+[1:24:04] the deflection of the deficit angle of a
+[1:24:06] cone so if you you know you know this
+[1:24:08] picture you can take a a disc you can
+[1:24:13] cut out some oops some some sector and
+[1:24:18] then glue these bits together and then
+[1:24:19] you get a cone right this angle here is
+[1:24:22] called the deficit angle and
+[1:24:25] um of course as far as lensing is
+[1:24:28] concerned you know on a cone we have as
+[1:24:30] before we have D desic that correspond
+[1:24:32] to light rays um and the g in curvature
+[1:24:35] is zero so they're basically well
+[1:24:38] straight light rays except of course we
+[1:24:40] have this um this conic structure so
+[1:24:43] light deflection angle not surprisingly
+[1:24:45] is actually connected to this deficit
+[1:24:46] angle of the cone it's quite a nice
+[1:24:48] result um so you get a fixed deflection
+[1:24:52] angle if you have a single isosphere and
+[1:24:54] it's translucent right um it Optical
+[1:24:57] properties are such that the um
+[1:24:59] gravitational light deflection angle is
+[1:25:01] actually independent of distance and
+[1:25:03] that has to do with this Mass element if
+[1:25:06] you if you want to work out what's the
+[1:25:07] mass enclosed within the impact
+[1:25:09] parameter You Know M smaller equal to R
+[1:25:14] inside inside will be proportional to R
+[1:25:17] w't it and then remember the deflection
+[1:25:19] angle is something like M over R so you
+[1:25:21] can well if you like enclosed within r
+[1:25:25] so it's not surprising that that's
+[1:25:27] constant in some sense right of course
+[1:25:29] it's doing it more
+[1:25:30] precisely but yes so for the singular
+[1:25:32] asphere you get a constant deflection
+[1:25:33] angle there's another um now space time
+[1:25:36] that you might have met before um called
+[1:25:39] a cosmic string have you seen this in
+[1:25:41] tutorials or no oh
+[1:25:45] okay let me just briefly mention so a
+[1:25:48] cosmic string um if you like is
+[1:25:51] a is a um curve that carries
+[1:25:55] mass in in space time so as you you have
+[1:25:59] a you know you have a energy momentum
+[1:26:03] tensor that um just has mass along some
+[1:26:06] curve in space and you ask what's the
+[1:26:09] space time where the solution of
+[1:26:10] Einstein's equation gives you a conic
+[1:26:13] space time so as in this case there's a
+[1:26:17] deficit angle um the deficit Angle now
+[1:26:19] of course is not in space but actually
+[1:26:22] in the space time but it's a similar
+[1:26:23] sort of picture you can work out the
+[1:26:25] light deflection there and um it's
+[1:26:28] exactly the same relationship because
+[1:26:29] it's also a cone the light deflection
+[1:26:31] angle for Cosmic string is half the
+[1:26:33] deflection angle uh the the def deficit
+[1:26:36] angle excuse me of this of this conic
+[1:26:38] SpaceTime is also
+[1:26:40] constant so there's a formal similarity
+[1:26:42] between a cosmic string and a singular
+[1:26:45] thermosphere two very different models
+[1:26:47] the the main difference of course is the
+[1:26:49] following a cosmic string is A Spacetime
+[1:26:53] the space time is what's conic singular
+[1:26:56] thermosphere it's the spatial part it's
+[1:26:58] the optical geometry that's conic what
+[1:27:01] what does that mean well if the space
+[1:27:03] time is uh for the cosmic string the
+[1:27:05] space time is conic it has no has
+[1:27:09] locally no um no curvature curvature is
+[1:27:13] zero so the light rays are not actually
+[1:27:16] magnified whereas here it's just the
+[1:27:19] optical geometry that's conic the space
+[1:27:21] time itself will actually be curved so
+[1:27:24] here we have um magnification of of
+[1:27:27] light rays here we don't right so for
+[1:27:30] singular thermosphere
+[1:27:33] um what you see you might see
+[1:27:39] um light source you might just see a
+[1:27:41] shifted image but the shifted image by
+[1:27:43] constant Alpha will be brighter let's
+[1:27:47] say in the case of the cosmic string you
+[1:27:49] will have a shifted image but it will
+[1:27:52] have exactly the same brightness because
+[1:27:54] it's the SpaceTime that's conic the
+[1:27:56] space time itself not just the optical
+[1:27:58] geometry maybe one can say a lot more
+[1:28:00] about this but just give you a flavor so
+[1:28:05] um I think that's all I want to say I've
+[1:28:08] been overrunning anyway so thanks for
+[1:28:09] your attention
+[1:28:21] and okay any questions
+[1:28:24] yesterday it was mentioned that there
+[1:28:26] exist always odd numbers of the images
+[1:28:30] why
+[1:28:31] is but would be another lecture um I'm
+[1:28:36] afraid I can give you a very quick um
+[1:28:39] argument for this if you
+[1:28:49] want you have a light
+[1:28:52] source uh you have an observer
+[1:28:55] you have a lens
+[1:28:56] um let's take the plane through this
+[1:28:59] lens as a way of characterizing light
+[1:29:02] rays that go from s to O now in in in
+[1:29:05] the standard approximation of
+[1:29:07] lensing this is basically ukian space uh
+[1:29:10] you can formulate in such a way that you
+[1:29:12] have ukan space but with a plane and at
+[1:29:14] the plane your light rate your your you
+[1:29:17] know straight light rays get a kink so
+[1:29:19] they're pie wise straight really um but
+[1:29:22] anyway so
+[1:29:25] for light light starting at s going to O
+[1:29:29] um you can you can characterize all
+[1:29:31] possible curves of course by specifying
+[1:29:33] where they intersect the lens plane
+[1:29:35] right now out of all these possible
+[1:29:38] curves the actual judaics will have a
+[1:29:39] special property as you know excuse me
+[1:29:42] they will be given by a firmance
+[1:29:45] principle so we have a stationary of
+[1:29:47] course this is know in in standard
+[1:29:49] Optics where we be given by by those
+[1:29:53] curves which have a stationary travel
+[1:29:56] time so you can plot the travel time
+[1:29:59] this is called the Therma potential fi
+[1:30:01] as a function of lens plane coordinate
+[1:30:03] let's call this
+[1:30:06] x right let's say the light source is in
+[1:30:09] another plane called The Source
+[1:30:11] plane um we have some coordinates there
+[1:30:14] called y um have to write more carefully
+[1:30:22] so that's the deflection poent uh the
+[1:30:25] the the fmma potential so it depends on
+[1:30:27] X um it depends on the source position
+[1:30:30] but that's just a fixed parameter right
+[1:30:33] and then by Fus princip that's the total
+[1:30:34] travel time this corresponds to the
+[1:30:36] geometric time
+[1:30:39] delay which just comes from um the
+[1:30:43] various paths having
+[1:30:45] different different
+[1:30:47] um paths really right this is a function
+[1:30:51] of the lens plan coordinate that's the
+[1:30:53] rotation time
+[1:30:56] delay that's the Shapiro effect
+[1:30:58] essentially and then fance principle
+[1:31:01] says that when we looking for stationary
+[1:31:02] points so na of five is equal to
+[1:31:07] zero and
+[1:31:10] um now if you plot fi as a function of
+[1:31:14] of lens plane
+[1:31:16] coordinate you get some
+[1:31:18] graph
+[1:31:20] um it turns out for a
+[1:31:24] isolated
+[1:31:26] lens all the images which will
+[1:31:28] correspond to stationary points on the
+[1:31:30] surface and some finite
+[1:31:33] region um and at large
+[1:31:37] distance this um deflection potential
+[1:31:39] gravitation deflection potential um
+[1:31:41] diverges at most
+[1:31:43] logarithmically so it will be dominated
+[1:31:46] by the polinomial term so at large
+[1:31:49] distance it will actually look like a
+[1:31:51] paraboloid right so now counting images
+[1:31:54] comes down to the simple problem of just
+[1:31:57] counting the number of critical points
+[1:31:59] on a Surface right the three different
+[1:32:02] types you can have Minima Maxima and SLE
+[1:32:06] points right so the total number of
+[1:32:09] images with be the number of Minima the
+[1:32:12] number of SLE points and the number of
+[1:32:15] Maxima but there in some finite you know
+[1:32:19] compact region of the
+[1:32:21] surface um out here the surface will
+[1:32:24] just look like a like a
+[1:32:27] paraboloid now
+[1:32:32] um there's a
+[1:32:34] theorem due to
+[1:32:38] Ms which says that if you have a closed
+[1:32:42] um
+[1:32:44] manifold without boundary of some
+[1:32:46] Dimension
+[1:32:48] D then um the sum of the critical points
+[1:32:52] the regular critical points of index
+[1:32:55] Lambda is an alternating sum times- 1 to
+[1:32:58] the Lambda from Lambda equal 0 up to D
+[1:33:01] is equal to the oiler characteristic of
+[1:33:03] that um manifold what's Lambda it's an
+[1:33:07] index um it's called the M index for for
+[1:33:11] Minima the most index is zero for SLE
+[1:33:15] points it's one and for Maxima it's is
+[1:33:17] that
+[1:33:18] right I think it's right no sorry it's
+[1:33:21] wrong 2 1 Z I
+[1:33:24] think no
+[1:33:30] sorry is 012 anyway
+[1:33:36] right so so given this um we know the
+[1:33:40] time delay surface which just look like
+[1:33:42] a proloid let's suppose we close the
+[1:33:48] surface um to actually make a compact
+[1:33:51] manifold without boundary of course by
+[1:33:53] doing this you change the problem in
+[1:33:55] some sense well anyway you change the
+[1:33:56] problem up here not down there uh but
+[1:33:58] you introduce an additional critical
+[1:33:59] point on the
+[1:34:01] top a maximum in fact which of course
+[1:34:04] does not correspond to lens image right
+[1:34:05] it's just something you've
+[1:34:07] introduced so D is equal to two so the
+[1:34:10] statement is the number of Minima which
+[1:34:13] carries a plus one minus one to the 0o
+[1:34:16] minus the number of Saddle points right
+[1:34:19] minus one to the 1 plus the number of
+[1:34:22] Maxima - 1 to the two plus sign of of
+[1:34:26] lens images plus the additional image uh
+[1:34:30] sorry the additional maximum at the top
+[1:34:31] which is not an image is equal to Kai of
+[1:34:33] a sphere we've seen this before in this
+[1:34:35] lecture equal to two right so now
+[1:34:39] subtracting these two equations
+[1:34:41] magically you get the total number of
+[1:34:43] images is twice the number of subtle
+[1:34:46] points plus one and that's an odd
+[1:34:52] number
+[1:34:56] sorry Max
+[1:35:02] mhm no it's the number it's the number
+[1:35:05] of critical points of that
+[1:35:07] index so so the number of Maxima is the
+[1:35:10] the the number of Maxima images down
+[1:35:13] here plus an additional maximum which is
+[1:35:15] not an image
+[1:35:17] yeah index one no it's
+[1:35:21] two we this question before for
+[1:35:24] topological dis Kai is 1 minus G has a
+[1:35:27] boundary with holes for um for a
+[1:35:31] manifold without boundary like like a
+[1:35:34] it's 2 minus 2 G no whole means G is
+[1:35:37] equal to two and indeed you can check
+[1:35:39] using using this theorem right let's
+[1:35:42] have a sphere and a height
+[1:35:45] function sphere with a height function
+[1:35:47] means you have two critical points you
+[1:35:48] have a South Pole and a North Pole this
+[1:35:50] will be what will be the minimum of the
+[1:35:53] height function function so it has more
+[1:35:55] you have one
+[1:35:56] minimum Time - 1 to the 0 is 1
+[1:36:01] plus um one maximum 1 * 1 - 1
+[1:36:08] 2 is equal to Kai well obviously that's
+[1:36:14] two first we it has no boundary that's
+[1:36:17] why it's different we were discussing
+[1:36:18] discs
+[1:36:20] before okay so you see the total number
+[1:36:22] of images actually an odd number and
+[1:36:24] that's true as long as um your mass
+[1:36:27] distribution is finite in other words
+[1:36:29] all the images are in this compact
+[1:36:31] region and um the dist but you know this
+[1:36:35] the surface is smooth you can see for
+[1:36:37] Schwarz sh it doesn't
+[1:36:39] work uh it actually has two images but
+[1:36:42] that's because there's a singularity so
+[1:36:44] so the deflection potential s actually
+[1:36:47] looks like a logarithm so you know the
+[1:36:50] surface actually looks like
+[1:36:52] this
+[1:36:56] if you see what I mean so
+[1:36:59] um but anyway that's that's singular
+[1:37:01] that's not really what happens in nature
+[1:37:03] in nature you have a nice smooth Mass
+[1:37:05] distribution which is finite and that's
+[1:37:07] really what you have so you have an odd
+[1:37:09] number of images as I as I said
+[1:37:11] yesterday typically one of the images
+[1:37:13] you can't see because either you know
+[1:37:15] the Galax is in front of it or it's it's
+[1:37:18] strongly demagnified so typically the
+[1:37:20] odd number theorem becomes an even
+[1:37:21] number theorem in uh in real life hence
+[1:37:25] for example the Einstein cross right
+[1:37:27] with the four
+[1:37:30] images
+[1:37:37] okay
+[1:37:41] anything
+[1:37:51] yes' always
+[1:38:00] with that's
+[1:38:02] right M that's right in principle of
+[1:38:05] course you can
+[1:38:06] consider more
+[1:38:09] lenses in other positions other
+[1:38:11] distances then you have a multi- lens
+[1:38:13] plane setting and um you can actually
+[1:38:16] extend this argument to that too um it
+[1:38:19] doesn't quite work like this that's sort
+[1:38:20] of easy easy way out you'd have to use
+[1:38:23] um um what's called most Theory boundary
+[1:38:26] conditions A and B they you know because
+[1:38:28] it's a multi-dimensional version of of
+[1:38:31] of the lens equation uh but but you can
+[1:38:34] still work out um you can still use Mo
+[1:38:36] Theory to come up with um constraints on
+[1:38:39] the image number
+[1:38:45] yes okay
+[1:38:50] lunch okay thank
+[1:38:52] you
