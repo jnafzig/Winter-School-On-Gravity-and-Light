@@ -181,3 +181,46 @@ which we write as
 \noindent\textbf{Exercise~\ref{ex:multilinear-14}.}\label{sol:multilinear-14}
 
 The above exercises have just shown us that there is a unique link between $T$ and $\phi$ and so we can think of them as being isomorphic as maps and as such can be viewed as the same object.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:multilinear-15}.}\label{sol:multilinear-15}
+
+First we show $\mathbf{0}$ is linear. For $v,w\in V$ and $\lambda \in \R$,
+\bse
+    \mathbf{0}(v+w) = 0_W = 0_W + 0_W = \mathbf{0}(v) + \mathbf{0}(w),
+\ese
+and
+\bse
+    \mathbf{0}(\lambda \cdot v) = 0_W = \lambda \cdot 0_W = \lambda \cdot \mathbf{0}(v),
+\ese
+where the second equality uses the fact that $\lambda \cdot 0_W = 0_W$ in any vector space. So $\mathbf{0}\in\Hom(V,W)$.
+
+To show it is the neutral element, let $\varphi \in \Hom(V,W)$. Then for all $v\in V$,
+\bse
+    (\varphi \oplus \mathbf{0})(v) = \varphi(v) + \mathbf{0}(v) = \varphi(v) + 0_W = \varphi(v),
+\ese
+and so $\varphi \oplus \mathbf{0} = \varphi$.
+
+\bigskip
+\noindent\textbf{Exercise~\ref{ex:multilinear-16}.}\label{sol:multilinear-16}
+
+First we show $\widetilde{\varphi}$ is linear. For $v,w\in V$ and $\lambda\in\R$,
+\bse
+    \begin{split}
+        \widetilde{\varphi}(v+w) & = -\varphi(v+w) \\
+        & = -\big(\varphi(v) + \varphi(w)\big) \\
+        & = -\varphi(v) + \big(-\varphi(w)\big) \\
+        & = \widetilde{\varphi}(v) + \widetilde{\varphi}(w),
+    \end{split}
+\ese
+where the second line uses the linearity of $\varphi$, and
+\bse
+    \widetilde{\varphi}(\lambda \cdot v) = -\varphi(\lambda\cdot v) = -\big(\lambda \cdot \varphi(v)\big) = \lambda \cdot \big(-\varphi(v)\big) = \lambda \cdot \widetilde{\varphi}(v).
+\ese
+So $\widetilde{\varphi}\in\Hom(V,W)$.
+
+To show it is the inverse, for all $v\in V$,
+\bse
+    (\varphi \oplus \widetilde{\varphi})(v) = \varphi(v) + \widetilde{\varphi}(v) = \varphi(v) + \big(-\varphi(v)\big) = 0_W = \mathbf{0}(v),
+\ese
+and so $\varphi \oplus \widetilde{\varphi} = \mathbf{0}$.

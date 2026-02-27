@@ -203,11 +203,52 @@ We actually need to be even more careful when talking about covectors; as we hav
         (V^*)^* = V,
     \ese 
     when $\dim V<\infty$. 
-\et 
+\et
 
-\br 
-    When we learn physics lower down in school we actually meet lots of covectors that we, at that time, called vectors. This was obviously done so as not to have to introduce the idea of a covector. However, we just want to point out here that covectors are not some new thing we have never seen before. 
-\er 
+\bq
+    We construct an explicit isomorphism $\Phi: V \to (V^*)^*$. Recall that $(V^*)^*$ is the set of all linear maps from $V^*$ to $\R$. So, for each $v\in V$, we need to produce a linear map from $V^*$ to $\R$. But the elements $\varphi \in V^*$ are themselves linear maps that take vectors like $v$ to $\R$. So, given a fixed $v$, we can map any $\varphi \in V^*$ to $\R$ by simply evaluating $\varphi$ at $v$. More precisely, the first line below names this map $\Phi(v)$ and states that it goes from $V^*$ to $\R$, while the second line says what it does to each element: it sends $\varphi$ to the number $\varphi(v)$.
+    \bse
+        \begin{split}
+            \Phi(v) : V^* & \to \R \\
+            \varphi & \mapsto \varphi(v).
+        \end{split}
+    \ese
+    We now verify that this defines an isomorphism.
+    \benr
+        \item \textit{$\Phi(v)$ is linear}: For $\varphi, \psi \in V^*$ and $\lambda \in \R$,
+        \bse
+            \Phi(v)(\varphi + \psi) = (\varphi + \psi)(v) = \varphi(v) + \psi(v) = \Phi(v)(\varphi) + \Phi(v)(\psi),
+        \ese
+        and $\Phi(v)(\lambda\varphi) = \lambda\varphi(v) = \lambda\,\Phi(v)(\varphi)$. So $\Phi(v) \in (V^*)^*$.
+
+        \item \textit{$\Phi$ is linear}: For $v,w\in V$, $\lambda\in\R$, and all $\varphi \in V^*$,
+        \bse
+            \Phi(v+w)(\varphi) = \varphi(v+w) = \varphi(v) + \varphi(w) = \Phi(v)(\varphi) + \Phi(w)(\varphi),
+        \ese
+        and $\Phi(\lambda v)(\varphi) = \varphi(\lambda v) = \lambda\varphi(v) = \lambda\,\Phi(v)(\varphi)$.
+
+        \item \textit{$\Phi$ is injective}: Recall that a map is injective if distinct inputs always produce distinct outputs. For a linear map, this is equivalent to saying that the only $v\in V$ with $\Phi(v) = 0$ is $v = 0$. To see why, suppose we know that the only element mapping to zero is zero, and let $\Phi(v) = \Phi(w)$. By linearity, $\Phi(v) - \Phi(w) = \Phi(v - w) = 0$, so $v - w = 0$, i.e.\ $v = w$. Thus distinct inputs do give distinct outputs. (Conversely, any linear map sends $0$ to $0$ --- since $\Phi(0) = \Phi(0 \cdot v) = 0 \cdot \Phi(v) = 0$ --- so if the map is injective, zero is the \textit{only} element that can map to zero.)
+
+        So we need to show that $\Phi(v) = 0$ implies $v = 0$. Now, $\Phi(v)$ is an element of the vector space $(V^*)^*$, so $\Phi(v) = 0$ means that $\Phi(v)$ is the zero element of $(V^*)^*$ --- the map that sends every covector to $0\in\R$. That is, $\Phi(v)(\varphi) = 0$ for all $\varphi \in V^*$. Substituting the definition $\Phi(v)(\varphi) = \varphi(v)$, this becomes $\varphi(v) = 0$ for every linear map $\varphi: V \to \R$. So the question reduces to: if every covector evaluates to zero on $v$, must $v$ be the zero vector?
+
+        To show this, we argue by contradiction. Suppose $v \neq 0$. Then we can extend $\{v\}$ to a basis $\{v, e_2, \ldots, e_n\}$ of $V$. A linear map is uniquely determined by its values on a basis, so we are free to define $\varphi_1 \in V^*$ by $\varphi_1(v) = 1$ and $\varphi_1(e_i) = 0$ for $i\geq 2$. But then $\Phi(v)(\varphi_1) = \varphi_1(v) = 1 \neq 0$, contradicting $\Phi(v) = 0$. Hence $v = 0$.
+
+        \item \textit{$\Phi$ is surjective}: Since $V$ is finite dimensional with $\dim V = n$, we have $\dim V^* = n$ and thus $\dim (V^*)^* = n$. An injective linear map between vector spaces of equal finite dimension is surjective.
+    \een
+    Since $\Phi$ is a linear bijection, it is an isomorphism, and thus $(V^*)^* \cong V$.
+\eq
+
+\br
+    One might ask: $V$ and $V^*$ are also isomorphic in finite dimensions (they have the same dimension), so why don't we write $V^* = V$? The difference is that there is no \textit{canonical} isomorphism between $V$ and $V^*$. To construct one, you must make an arbitrary choice --- either a basis or an inner product --- and different choices yield different maps. In contrast, the isomorphism $\Phi: V\to(V^*)^*$ above was constructed using nothing beyond the vector space structure itself: no basis was chosen, no inner product was needed. It is this canonicality that justifies identifying $V$ with $(V^*)^*$.
+
+    By \textit{canonical} we mean, roughly, that the construction is uniquely determined by the structure at hand. There is no elementary formal definition of the word --- a precise formulation requires the language of category theory (where it corresponds to a \textit{natural transformation}). A useful informal test is: if two people independently set out to build an isomorphism $V \to (V^*)^*$ using only the vector space axioms, they would both arrive at the same map $\Phi$. If they tried to build an isomorphism $V \to V^*$, they would have to make choices and would likely end up with different maps.
+
+    Later, when we introduce metrics on manifolds, the metric will provide exactly the extra structure needed to identify vectors with covectors via index raising and lowering.
+\er
+
+\br
+    When we learn physics lower down in school we actually meet lots of covectors that we, at that time, called vectors. This was obviously done so as not to have to introduce the idea of a covector. However, we just want to point out here that covectors are not some new thing we have never seen before.
+\er
 
 \section{Tensors}
 

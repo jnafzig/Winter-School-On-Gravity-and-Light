@@ -29,7 +29,7 @@ Let's consider the part of our curve that lies in the chart domain $\gamma: \R \
             %
             \draw[->, thick] (5,1) .. controls (6,2) and (6,4) .. (5,5) node[label={right:\large $y\circ x^{-1}$},midway] {};
         \etik
-        \caption{Two charts $(U,x)$ and $(V,y)$ used to represent a physical curve $\gamma$. It is assumed that one knows the map $x \circ \gamma$ is so called `undergraduate differentiable'. However, one can not yet conclude whether $\gamma$ itself is differentiable as the continuity of the chart transition map $y \circ x^{-1}$ does not guarantee differentiability (there could be a sudden turning point in the curve representation). }
+        \caption{Two charts $(U,x)$ and $(V,y)$ used to represent a physical curve $\gamma$. It is assumed that one knows the map $x \circ \gamma$ is so called `undergraduate differentiable'. However, one can not yet conclude whether $y \circ \gamma$ is differentiable, and therefore whether $\gamma$ itself is differentiable, as the continuity of the chart transition map $y \circ x^{-1}$ does not guarantee differentiability (there could be a sudden turning point in the curve representation). }
     \end{center}
 \end{figure}
 
@@ -42,29 +42,29 @@ The problem mentioned above stems from the fact that we took $(U,x)$ and $(V,y)$
 Note this is a \textit{huge} choice to make. By doing this, anything we want to talk about later on that relies on differentiability of the curve can \textit{only} be discussed in a chart if that chart comes from our restricted atlas. 
 
 \bd[Compatible Charts] 
-    Two charts $(U,x)$ and $(V,y)$ of a topological manifold $(\cM,\cO)$ are called \textbf{$\square$-compatible}\footnote{I tried to get a flower like Dr. Schuller uses, but overleaf was not having it. Apologies for me meagre $\square$.} if either
+    Two charts $(U,x)$ and $(V,y)$ of a topological manifold $(\cM,\cO)$ are called \textbf{$\flower$-compatible} if either
     \ben[label=(\alph*)] 
         \item $U\cap V =\emptyset$, or 
-        \item $U\cap V \neq \emptyset$ and the chart transition maps $(x\circ y^{-1}):y(U\cap V) \to x(U\cap V)$ and $(y\circ x^{-1}):x(U\cap V) \to y(U\cap V)$ are `undergrad' $\square$.\footnote{That is they have the property $\square$ as maps from $\R^d\to \R^d$ that we know from undergraduate courses.}
+        \item $U\cap V \neq \emptyset$ and the chart transition maps $(x\circ y^{-1}):y(U\cap V) \to x(U\cap V)$ and $(y\circ x^{-1}):x(U\cap V) \to y(U\cap V)$ are `undergrad' $\flower$.\footnote{That is they have the property $\flower$ as maps from $\R^d\to \R^d$ that we know from undergraduate courses.}
     \een 
 \ed 
 
 \bd[Compatible/Restricted Atlas] 
-    An atlas $\cA_{\square}$ is a \textbf{$\square$-compatible atlas} if all of its charts are $\square$-compatible.
+    An atlas $\cA_{\flower}$ is a \textbf{$\flower$-compatible atlas} if all of its charts are $\flower$-compatible.
 \ed 
 
 \bd[]
-    A $\square$-manifold is the triple $(\cM,\cO,\cA_{\square})$.
+    A $\flower$-manifold is the triple $(\cM,\cO,\cA_{\flower})$.
 \ed 
 
-Now it might be possible that two separate criteria for `tearing our pages' in order to obtain a $\square$-compatible atlas exist. That is there might be more then one atlas that is $\square$-compatible. In this case, we have to make a choice about which one to use, but must always remember that we have made this choice, as one of these atlases might allow a different property, say $\blacksquare$, to be defined, whereas the other might not. Physically, this is obviously a very important thing to keep in mind, as $\square$ and $\blacksquare$ are physical properties of the curve and therefore don't depend at all on what charts or atlases we choose to use, so we must make sure we pick the ones that match up to the physics. 
+Now it might be possible that two separate criteria for `tearing our pages' in order to obtain a $\flower$-compatible atlas exist. That is there might be more then one atlas that is $\flower$-compatible. In this case, we have to make a choice about which one to use, but must always remember that we have made this choice, as one of these atlases might allow a different property, say $\flowerf$, to be defined, whereas the other might not. Physically, this is obviously a very important thing to keep in mind, as $\flower$ and $\flowerf$ are physical properties of the curve and therefore don't depend at all on what charts or atlases we choose to use, so we must make sure we pick the ones that match up to the physics.
 
-Before moving on, let's consider the types of things $\square$ can be. 
+Before moving on, let's consider the types of things $\flower$ can be. 
 
 \begin{center}
 	\begin{tabular}{@{} p{2cm}p{10cm}@{}}
 		\toprule
-		$\square$ & Undergraduate $\square$ \\
+		$\flower$ & Undergraduate $\flower$ \\
 		\midrule 
 		$C^0$ & $C^0(\R^d\to\R^d)$, continuous w.r.t. the standard topology on $\R^d$. \\
 		$C^1$ & $C^1(\R^d\to\R^d)$, once differentiable with continuous result w.r.t. the standard topology on $\R^d$. \\
